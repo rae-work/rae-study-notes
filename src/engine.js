@@ -101,10 +101,14 @@ function progLevel(word){
   if(r[0] > r[1]) return 2;
   return 1;
 }
+/* 记录里混着两类：词汇（键就是那个词）和手写题（键是 "q:题号"）。
+   设置里要分开报，不然「记住了 8 个词」其实数的是题，对不上词汇表里的墨点。 */
 function progCount(){
-  var n = 0, k;
-  for(k in PROG.w) if(PROG.w.hasOwnProperty(k)) n++;
-  return n;
+  var w = 0, q = 0, k;
+  for(k in PROG.w) if(PROG.w.hasOwnProperty(k)){
+    if(k.indexOf("q:") === 0) q++; else w++;
+  }
+  return {w: w, q: q, all: w + q};
 }
 function progClear(){
   PROG = {v: PROG_V, w: {}};
@@ -285,10 +289,16 @@ function syncProgUI(){
   if(!stat) return;
   var btn = document.getElementById("progClear");
   var hint = document.getElementById("progHint");
-  var n = progCount();
-  stat.textContent = !STORE.ok() ? T("prog.off") : (n ? T("prog.count", n) : T("prog.none"));
+  var c = progCount();
+  var txt;
+  if(!STORE.ok()) txt = T("prog.off");
+  else if(!c.all) txt = T("prog.none");
+  else if(c.w && c.q) txt = T("prog.count_both", c.w, c.q);
+  else if(c.w) txt = T("prog.count_w", c.w);
+  else txt = T("prog.count_q", c.q);
+  stat.textContent = txt;
   if(btn){
-    btn.disabled = !n;
+    btn.disabled = !c.all;
     btn.textContent = T("prog.clear");
     btn.classList.remove("armed");
   }
@@ -1312,20 +1322,29 @@ function drMake(){
 /* —— 流程 —— */
 function drShow(){
   if(DR.idx >= DR.queue.length){ DR.phase = "done"; DR.curQ = null; }
-  else { DR.phase = "q"; DR.revealed = false; DR.pick = -1; DR.curQ = DR.queue[DR.idx]; }
+  else {
+    DR.phase = "q"; DR.revealed = false; DR.pick = -1;
+    /* 出到哪一题才生成哪一题。原来是开局一次性把整轮都造好，
+       于是「连错降档」和「错题优先」永远看的是空的答题记录 ——
+       降档写了但从来没生效过。 */
+    if(!DR.queue[DR.idx]) DR.queue[DR.idx] = drMake();
+    DR.curQ = DR.queue[DR.idx];
+  }
   renderDrillPage();
   if(DR.curQ && DR.curQ.type === "dengar") speak(DR.curQ.show);
 }
 function drillStart(fromWrong){
   ttsWarm();
-  var items = [];
   if(fromWrong && DR.wrong.length){
-    items = drShuffle(DR.wrong.slice());
+    DR.queue = drShuffle(DR.wrong.slice());
+    /* 重做错题时把作答状态清掉，否则拼句题会保留上次点的词块 */
+    DR.queue.forEach(function(q){ if(q.mode === "susun") q.picked = []; });
   } else {
-    for(var i=0;i<DR.count;i++) items.push(drMake());
+    DR.queue = [];
+    DR.queue.length = DR.count;         /* 占位，逐题现做 */
   }
-  DR.queue = items; DR.idx = 0; DR.right = 0; DR.answered = 0;
-  DR.wrong = []; DR.last5 = [];
+  DR.idx = 0; DR.right = 0; DR.answered = 0;
+  DR.wrong = []; DR.last5 = []; DR.lastId = null;
   drShow();
 }
 /* 判完分之后共用的收尾：记进度、翻页或停下 */
@@ -2136,7 +2155,7 @@ function on(id, ev, fn){
 var progArm = null;
 on("progClear", "click", function(){
   var btn = this;
-  if(!progCount()) return;
+  if(!progCount().all) return;
   if(progArm){
     clearTimeout(progArm); progArm = null;
     progClear();

@@ -183,7 +183,6 @@
   },
   "prog": {
     "label": "Progress",
-    "count": "Tracking {0} words",
     "none": "No practice yet",
     "off": "This browser cannot save progress",
     "clear": "Clear",
@@ -191,6 +190,9 @@
     "ios_hint": "Add to Home Screen to keep your progress",
     "dot_1": "Still tricky",
     "dot_2": "Got it right",
-    "dot_3": "Solid"
+    "dot_3": "Solid",
+    "count_w": "Tracking {0} words",
+    "count_q": "Tracking {0} questions",
+    "count_both": "{0} words · {1} questions"
   }
 }
