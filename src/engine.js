@@ -154,6 +154,7 @@ function applyStaticText(){
     b.classList.toggle("on", b.getAttribute("data-ac") === ACCENT);
   });
   if(typeof pickVoices === "function") pickVoices();
+  if(typeof syncHeaderH === "function") syncHeaderH();
 }
 
 /* 单元标签：教材是 Bab，旧课本是 Pelajaran。放在 meta 里。 */
@@ -1183,6 +1184,8 @@ function render(){
   markTOC();
   if(p.glossary){ wireGlossary(); fillGlossary(); }
   reader.scrollTop = 0;
+  lastScrollY = 0;
+  showHeader();          /* 刚翻页就要能按上一页／下一页 */
   /* 翻页淡入。#sheet 这个元素本身不换，只换 innerHTML，
      所以要摘掉 class、强制重排、再加回去，动画才会重播。 */
   sheet.classList.remove("fade");
@@ -1319,6 +1322,7 @@ function pickVoices(){
      正常情况下「语音来源」这一项没有意义，藏起来，只在真的退回系统语音时才露出。 */
   var vg = document.getElementById("voiceGrp");
   if(vg) vg.style.display = (BUNDLE_READY && AUDIO_AVAILABLE !== false) ? "none" : "";
+  if(typeof syncHeaderH === "function") syncHeaderH();
 }
 if(SS){
   SS.onvoiceschanged = pickVoices;
@@ -1650,6 +1654,47 @@ document.getElementById("maskBtn").addEventListener("click", function(){
   applyMask();
 });
 
+/* ============================================================
+   浮动页眉：往下读时收起，往回滚就出来
+   ------------------------------------------------------------
+   页眉原来常驻一行，手机上等于每页少一行正文。改成 position:fixed
+   之后由 .reader 的 padding-top 让位，收起／展开只动 transform，
+   不引起重排。
+
+   规矩：
+   · 顶部附近永远显示
+   · 往下滚超过阈值才收起，往回滚一点立刻出来
+   · 抽屉或设置展开着不收
+   · 翻页后一定是展开的（刚翻页就要能按上一页／下一页）
+   ============================================================ */
+var HDR_TUCK_AFTER = 90;   /* 滚过这么多像素才允许收起 */
+var HDR_DELTA = 6;         /* 小于这个幅度的抖动不理会 */
+var lastScrollY = 0;
+
+function syncHeaderH(){
+  var h = document.getElementById("hdr").offsetHeight;
+  if(h) document.documentElement.style.setProperty("--hdr-h", h + "px");
+}
+function showHeader(){
+  document.body.classList.remove("tuck");
+}
+function tuckHeader(){
+  var hdr = document.getElementById("hdr");
+  var toc = document.getElementById("toc");
+  if(hdr.classList.contains("open")) return;          /* 设置展开着 */
+  if(toc && toc.classList.contains("open")) return;   /* 目录抽屉开着 */
+  document.body.classList.add("tuck");
+}
+reader.addEventListener("scroll", function(){
+  var y = reader.scrollTop;
+  var d = y - lastScrollY;
+  if(Math.abs(d) < HDR_DELTA) return;
+  lastScrollY = y;
+  if(y <= HDR_TUCK_AFTER) showHeader();
+  else if(d > 0) tuckHeader();
+  else showHeader();
+}, { passive: true });
+
 /* ===== 设置面板 =====
    词汇表 / 复习 / 实战 原来在页眉各占一个按钮，现在统一走目录抽屉
    （它们本来就在 PAGES 里，目录里有条目），页眉只留遮盖和设置两个。
@@ -1666,6 +1711,7 @@ on("drillBtn", "click", function(){ go(DRILL_INDEX); });
 function closeSettings(){ document.getElementById("hdr").classList.remove("open"); }
 document.getElementById("setBtn").addEventListener("click", function(e){
   e.stopPropagation();
+  showHeader();
   document.getElementById("hdr").classList.toggle("open");
 });
 /* 点面板以外的地方收起来 */
@@ -1711,7 +1757,8 @@ document.addEventListener("keydown", function(e){
 
 /* ===== 移动端目录抽屉 ===== */
 var tocEl = document.getElementById("toc"), scrim = document.getElementById("scrim");
-function openMenu(){ tocEl.classList.add("open"); scrim.classList.add("show"); }
+function openMenu(){
+  showHeader(); tocEl.classList.add("open"); scrim.classList.add("show"); }
 function closeMenu(){ tocEl.classList.remove("open"); scrim.classList.remove("show"); }
 document.getElementById("menuBtn").addEventListener("click", openMenu);
 scrim.addEventListener("click", closeMenu);
@@ -1739,3 +1786,7 @@ applyStaticText();
 buildTOC();
 setZoom(2);
 render();
+syncHeaderH();
+window.addEventListener("resize", syncHeaderH);
+/* 字号会改变按钮行高，语言切换会换文案长度 —— 都要重量一次 */
+window.addEventListener("orientationchange", function(){ setTimeout(syncHeaderH, 250); });

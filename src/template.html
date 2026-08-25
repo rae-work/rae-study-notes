@@ -60,11 +60,12 @@
     <div class="grp" id="voiceGrp"><span class="lab" data-t="nav.voice_label"></span>
       <select class="voice" id="voiceSel" data-t-title="nav.voice_title"></select></div>
   </div>
+  <!-- 提示条放在 header 里面：页眉是浮动的，两者要一起收起，
+       高度也由 engine.js 一起量（见 syncHeaderH）。 -->
+  <div class="banner" id="banner">
+    <span id="bannerTxt"></span>
+  </div>
 </header>
-
-<div class="banner" id="banner">
-  <span id="bannerTxt"></span>
-</div>
 
 <div class="stage">
   <nav class="toc" id="toc"></nav>
