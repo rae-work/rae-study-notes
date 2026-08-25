@@ -34,12 +34,15 @@ if (!fs.existsSync(html)) {
   process.exit(1);
 }
 
+/* 先把所有会让流程中止的检查跑完，再动 docs/ 里的任何文件。
+   否则音频缺失时会留下「新 HTML + 旧音频」的半吊子部署。 */
+const { need, missing } = neededAudio();
+assertNoMissing(missing, '发布网站');
+
 fs.mkdirSync(DOCS, { recursive: true });
 fs.copyFileSync(html, path.join(DOCS, 'index.html'));
 fs.writeFileSync(path.join(DOCS, '.nojekyll'), '');
 
-const { need, missing } = neededAudio();
-assertNoMissing(missing, '发布网站');
 const { count, bytes } = copyAudio(need, path.join(DOCS, 'audio'));
 
 const cnameFile = path.join(DOCS, 'CNAME');
