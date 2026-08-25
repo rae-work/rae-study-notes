@@ -4,16 +4,16 @@
       "q": "Siapa nama Anda?",
       "q_reg": "formal",
       "hint": {
-        "zh": "说你叫 Sarah",
-        "ja": "Sarah だと答える",
-        "en": "say your name is Sarah"
+        "zh": "说你叫 Rama",
+        "ja": "Rama だと答える",
+        "en": "say your name is Rama"
       },
-      "a": "Nama saya Sarah.",
+      "a": "Nama saya Rama.",
       "a_reg": "formal",
       "alts": [
-        "Siapa nama Sarah.",
-        "Nama Anda Sarah.",
-        "Saya nama Sarah."
+        "Siapa nama Rama.",
+        "Nama Anda Rama.",
+        "Saya nama Rama."
       ]
     },
     {
