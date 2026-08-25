@@ -57,6 +57,25 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。单个离线 HTML，
   缓动统一 `cubic-bezier(.4,0,.2,1)`。`prefers-reduced-motion` 会一键关停
 - 深浅色：跟随系统 + 设置里手动切换，和配色一起存 localStorage
 
+## 访问统计
+
+用 **Cloudflare Web Analytics**：免费无流量上限、不用 cookie、不需要同意横幅，
+灰云（DNS-only）状态下照常工作，不用碰 DNS。
+
+- token 填在 `content/meta.json` 的 `site.analytics_token`（32 位十六进制）。
+  **token 是公开的**，本来就明文出现在网页源码里，不是密钥，可以提交进仓库
+- **统计脚本只注入 `docs/index.html`（网站那一份），不进 `dist/`、不进 APK。**
+  它是外部脚本，进 `dist/` 会被 `assertOffline()` 拦下；APK 离线运行本来也统计不到
+- 注入在 `scripts/site.js`，位置是 `</body>` 前，用 `defer`，不挡首屏
+- `scripts/prepare-assets.js` 有一道防线：打包用的 HTML 里出现任何外部地址就 exit(1)，
+  防止有人误把 `docs/index.html` 拷进 APK
+- ⚠️ **橙云自动注入那条路不要走**：开代理后 DNS 返回的是 Cloudflare 的 IP，
+  Let’s Encrypt 的 HTTP-01 挑战打不到 GitHub，证书续期会失败
+
+**能看到**：访问量、来源、国家、设备类型、浏览器、页面加载速度
+**看不到**：独立访客数（不追踪个人，同一人多次打开算多次）；
+以及**分页数据** —— 这个 App 是单页的，切页不改 URL，所以只会记一次 pageview
+
 ## 音频性能
 
 - **点词的音频是预取的**：进一页就把这页要用的 clip 后台 fetch 成 blob 存内存，

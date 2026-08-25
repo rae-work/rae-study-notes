@@ -12,7 +12,8 @@
 ## 绝对不做
 - 不读取、不打印、不让 Rae 在对话里粘贴任何密钥。密钥只存在 `.env`（已 gitignore），脚本用 `process.env.ELEVENLABS_API_KEY` 读取。
 - 不删除、不改动 `android-app/` 里的 `release.keystore`（丢了以后 APK 无法覆盖升级）。
-- 不手改 `dist/` 里的文件（它是构建产物）。
+- 不手改 `dist/` 和 `docs/` 里的文件（都是构建产物）。
+  `docs/` 比 `dist/` 多一段访问统计，是网站专用；APK 只能用 `dist/` 那份。
 - 不把 `.env`、`dist/`、`node_modules/`、`inbox/` 提交进 git。
 
 ## 交付形式（不变）

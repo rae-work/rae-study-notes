@@ -23,6 +23,22 @@ if (!fs.existsSync(html)) {
 fs.mkdirSync(ASSETS, { recursive: true });
 fs.copyFileSync(html, path.join(ASSETS, 'index.html'));
 
+/* 防线：APK 是离线运行的，里面绝不能出现任何外部资源。
+   访问统计只注入 docs/（网站那一份），这里再兜一道 ——
+   万一有人手工把 docs/index.html 拷进来，立刻拦下。 */
+const packed = fs.readFileSync(path.join(ASSETS, 'index.html'), 'utf8');
+const leak = packed.match(/https?:\/\/[^"'\s)]+/g);
+if (leak) {
+  const real = leak.filter((u) => !/^https?:\/\/(www\.)?(ugm\.id|w3\.org)/.test(u));
+  if (real.length) {
+    console.error(`\n❌ 打包用的 index.html 里有外部资源引用，APK 必须离线：`);
+    real.slice(0, 5).forEach((u) => console.error('     ' + u.slice(0, 90)));
+    console.error('   多半是误把 docs/index.html（带访问统计那份）拷进来了。');
+    console.error('   正确做法：npm run build 之后跑 npm run prepare-assets。\n');
+    process.exit(1);
+  }
+}
+
 const { need, missing } = neededAudio();
 assertNoMissing(missing, '打包');
 const { count, bytes } = copyAudio(need, path.join(ASSETS, 'audio'));

@@ -95,5 +95,10 @@
     "org": "Universitas Gadjah Mada · INCULS",
     "audio_url": "http://ugm.id/audiotitianbahasapemula1",
     "audio_note": "教材官方听力音轨（每章一个整轨）。逐词逐句的点读音频由 ElevenLabs 合成。"
+  },
+  "site": {
+    "analytics_provider": "cloudflare",
+    "analytics_token": "",
+    "analytics_note": "Cloudflare Web Analytics 的 32 位 token。面板 → Web Analytics → Add a site → Manage site 复制。留空就不注入。只进 docs/（网站），不进 dist/ 和 APK。"
   }
 }
