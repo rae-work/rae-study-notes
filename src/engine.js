@@ -388,12 +388,16 @@ function fmtRp(n){
 ============================================================ */
 var toArr = function(x){ return Array.prototype.slice.call(x); };
 var esc = function(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); };
-var clean = function(s){ return s.replace(/[?!.,:;"'’“”()／/]+/g," ").replace(/\s+/g," ").trim(); };
+/* clean / sayText 是所有印尼语文本进入点读和朗读管道的两个入口，
+   占位符替换放在这里做一次，比在几十个 renderBlock 分支里各包一层 LZ() 靠谱 ——
+   examples 块之前就是漏了那一层：日文界面下 data-say 里留着字面的
+   {NEGARA}，音库自然查不到。LZ() 遇到不含 { 的字符串直接返回，重复调用无害。 */
+var clean = function(s){ return LZ(s).replace(/[?!.,:;"'’“”()／/]+/g," ").replace(/\s+/g," ").trim(); };
 /* 整句/词条朗读:保留 ? ! . , —— 问号决定升调,剥掉会被读成陈述句。
    只去掉引号、括号、斜杠这些不该念出来的符号。
    注意:句内单词的逐词点读仍用 clean(),单个词不该带问号。 */
 var sayText = function(s){
-  return s.replace(/[\u201c\u201d\u2018\u2019"']/g, "")
+  return LZ(s).replace(/[\u201c\u201d\u2018\u2019"']/g, "")
           .replace(/[()（）／/]+/g, " ")
           .replace(/\s+/g, " ").trim();
 };
@@ -408,7 +412,9 @@ var PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true">' +
 function sayLine(text, kw){
   var k = [], i;
   if(kw) for(i=0;i<kw.length;i++) k.push(String(kw[i]).toLowerCase());
-  var toks = text.split(/(\s+)/), html = "";
+  /* 先解析占位符再切词：否则屏幕上会出现字面的 {NEGARA}，
+     而且它会被当成一个「词」，点上去查不到音频。 */
+  var toks = LZ(text).split(/(\s+)/), html = "";
   for(i=0;i<toks.length;i++){
     var t = toks[i];
     if(/^\s+$/.test(t)){ html += t; continue; }
@@ -426,7 +432,7 @@ function breakable(esced){
 }
 function sayWhole(display, say, extra){
   return '<span class="say ' + (extra||"") + '" data-say="' + esc(say!=null?say:clean(display)) + '">' +
-    breakable(esc(display)) + "</span>";
+    breakable(esc(LZ(display))) + "</span>";
 }
 /* 说明性文字（导语、小段说明、注释、表注）由内容作者写，允许少量 HTML：
    <b> <i> 用来强调，<s>词</s> 把印尼语标成可点读。其余按原样输出。 */

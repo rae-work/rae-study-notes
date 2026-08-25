@@ -54,7 +54,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "中午好。",
-      "ja": "こんにちは。",
+      "ja": "こんにちは。（昼 11 時ごろ〜3 時ごろ）",
       "en": "Good day."
     },
     "note": null
@@ -74,7 +74,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "下午好。",
-      "ja": "こんにちは。",
+      "ja": "こんにちは。（夕方 3 時ごろ〜日暮れ）",
       "en": "Good afternoon."
     },
     "note": null
@@ -114,7 +114,7 @@
     "ex_reg": "neutral",
     "ex_gloss": {
       "zh": "你好！",
-      "ja": "やあ。",
+      "ja": "やあ！",
       "en": "Hello!"
     },
     "note": null
@@ -154,7 +154,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "挺好，谢谢。",
-      "ja": "元気です、ありがとうございます。",
+      "ja": "元気です。ありがとうございます。",
       "en": "Fine, thank you."
     },
     "note": null
@@ -214,7 +214,7 @@
     "ex_reg": "casual",
     "ex_gloss": {
       "zh": "我是大学生。",
-      "ja": "ぼくは大学生だ。",
+      "ja": "わたし、大学生だよ。",
       "en": "I'm a student."
     },
     "note": null
@@ -254,7 +254,7 @@
     "ex_reg": "casual",
     "ex_gloss": {
       "zh": "你叫什么名字？",
-      "ja": "名前は何。",
+      "ja": "名前は？",
       "en": "What's your name?"
     },
     "note": null
@@ -706,7 +706,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "我是{PEOPLE}。",
-      "ja": "私は{PEOPLE}です。",
+      "ja": "わたしは{PEOPLE}です。",
       "en": "I am {PEOPLE}."
     },
     "note": null
@@ -746,7 +746,7 @@
     "ex_reg": "neutral",
     "ex_gloss": {
       "zh": "那是 Zach。",
-      "ja": "あれは Zach です。",
+      "ja": "あの人は Zach です。",
       "en": "That's Zach."
     },
     "note": null
@@ -786,7 +786,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "不是，我是{PEOPLE}。",
-      "ja": "いいえ、私は{PEOPLE}です。",
+      "ja": "いいえ、わたしは{PEOPLE}です。",
       "en": "No, I am {PEOPLE}."
     },
     "note": {
@@ -850,7 +850,7 @@
     "ex_reg": "neutral",
     "ex_gloss": {
       "zh": "回头见！",
-      "ja": "またね。",
+      "ja": "またね！",
       "en": "See you!"
     },
     "note": null
@@ -870,7 +870,7 @@
     "ex_reg": "neutral",
     "ex_gloss": {
       "zh": "待会儿见！",
-      "ja": "また後で。",
+      "ja": "また後で！",
       "en": "See you later!"
     },
     "note": null
@@ -910,7 +910,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "谢谢您。",
-      "ja": "ありがとうございます。",
+      "ja": "（男性に）ありがとうございます。",
       "en": "Thank you, sir."
     },
     "note": null
@@ -1314,7 +1314,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "早上好，先生。",
-      "ja": "おはようございます。",
+      "ja": "（男性に）おはようございます。",
       "en": "Good morning, sir."
     },
     "note": null
@@ -1334,7 +1334,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "早上好，女士。",
-      "ja": "おはようございます。",
+      "ja": "（女性に）おはようございます。",
       "en": "Good morning, madam."
     },
     "note": null
@@ -1394,7 +1394,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "您从哪儿来？",
-      "ja": "どちらからいらっしゃいましたか。",
+      "ja": "どちらから来られましたか。",
       "en": "Where are you from?"
     },
     "note": null
@@ -1454,7 +1454,7 @@
     "ex_reg": "formal",
     "ex_gloss": {
       "zh": "介绍一下，这是我朋友。",
-      "ja": "紹介します、こちらはわたしの友だちです。",
+      "ja": "紹介します。こちらはわたしの友だちです。",
       "en": "Let me introduce my friend."
     },
     "note": null

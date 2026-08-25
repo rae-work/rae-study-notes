@@ -22,7 +22,7 @@
       "hint": {
         "zh": "说你从{NAMA}来",
         "ja": "{NAMA}から来たと答える",
-        "en": "say you are from {NAMA}"
+        "en": "say you're from {NAMA}"
       },
       "a": "Saya dari {NEGARA}.",
       "a_reg": "formal",
@@ -37,7 +37,7 @@
       "q_reg": "formal",
       "hint": {
         "zh": "我住在日惹",
-        "ja": "ジョグジャカルタに住んでいる",
+        "ja": "ジョグジャカルタに住んでいます",
         "en": "I live in Yogyakarta"
       },
       "a": "Saya tinggal di Yogyakarta.",
@@ -53,7 +53,7 @@
       "q_reg": "formal",
       "hint": {
         "zh": "我学印尼语",
-        "ja": "インドネシア語を勉強している",
+        "ja": "インドネシア語を勉強しています",
         "en": "I study Indonesian"
       },
       "a": "Saya belajar bahasa Indonesia.",
@@ -86,7 +86,7 @@
       "hint": {
         "zh": "不是，我是{PEOPLE}",
         "ja": "いいえ、{PEOPLE}です",
-        "en": "no, I am {PEOPLE}"
+        "en": "no, I'm {PEOPLE}"
       },
       "a": "Bukan, saya orang {NEGARA}.",
       "a_reg": "formal",
@@ -101,7 +101,7 @@
       "q_reg": "neutral",
       "hint": {
         "zh": "那是 Zach",
-        "ja": "あれは Zach です",
+        "ja": "あの人は Zach です",
         "en": "that's Zach"
       },
       "a": "Itu Zach.",
@@ -133,7 +133,7 @@
       "q_reg": "neutral",
       "hint": {
         "zh": "挺好，谢谢",
-        "ja": "元気です、ありがとう",
+        "ja": "元気です、ありがとうございます",
         "en": "fine, thank you"
       },
       "a": "Baik, terima kasih.",
@@ -229,7 +229,7 @@
       "q_reg": "neutral",
       "hint": {
         "zh": "他从英国来",
-        "ja": "かれはイギリスから来た",
+        "ja": "かれはイギリスから来ました",
         "en": "he's from England"
       },
       "a": "Dia dari Inggris.",
