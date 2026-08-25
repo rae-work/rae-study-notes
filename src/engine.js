@@ -6,8 +6,57 @@
    兼容基线：iOS 15 Safari / Android Chrome 100+（ES2020 可用）。
 ============================================================ */
 
+/* ============================================================
+   本地存储 —— 一层薄封装
+   ------------------------------------------------------------
+   浏览器不让存（隐私模式、配额满、系统清理）时一律静默失败：
+   功能照常，只是记不住。调用点因此都不用自己写 try/catch。
+
+   键分两类：
+   · 老三样 lang / theme / accent 保持裸键名 —— 线上已经有人存了，
+     改名字等于把所有人的设置清空一次。
+   · 新增的一律带 rsn. 前缀，避免同域下撞名。
+
+   ⚠️ iOS Safari 会清存储：直接在 Safari 里开网页，若连续 7 个
+   「使用日」没访问过本站，localStorage 会被系统删掉；**加到主屏幕
+   的不受影响**。所以进度只能做成「丢了也不影响使用」的增强，
+   界面不能把它当地基（见 progNote 的提示文案）。
+   ============================================================ */
+var STORE = (function(){
+  var BARE = {lang:1, theme:1, accent:1};
+  var ok = true;
+  try{                                  /* 探一次，写不进去就整体降级 */
+    localStorage.setItem("rsn.probe", "1");
+    localStorage.removeItem("rsn.probe");
+  }catch(e){ ok = false; }
+  function key(k){ return BARE[k] ? k : "rsn." + k; }
+  return {
+    ok: function(){ return ok; },
+    getRaw: function(k){
+      if(!ok) return null;
+      try{ return localStorage.getItem(key(k)); }catch(e){ return null; }
+    },
+    setRaw: function(k, v){
+      if(!ok) return false;
+      try{ localStorage.setItem(key(k), v); return true; }catch(e){ return false; }
+    },
+    get: function(k, def){
+      var s = this.getRaw(k);
+      if(s == null) return def;
+      try{ var v = JSON.parse(s); return v == null ? def : v; }catch(e){ return def; }
+    },
+    set: function(k, v){
+      try{ return this.setRaw(k, JSON.stringify(v)); }catch(e){ return false; }
+    },
+    del: function(k){
+      if(!ok) return;
+      try{ localStorage.removeItem(key(k)); }catch(e){}
+    }
+  };
+})();
+
 /* ===== 语言 =====
-   LANG 的确定顺序：localStorage 里存的选择 → 浏览器语言 → meta 的默认值。
+   LANG 的确定顺序：存下来的选择 → 浏览器语言 → meta 的默认值。
    L(x)  把 {zh, ja, en} 解析成当前语言的字符串（缺则 zh → en → ja 兜底）。
    T(k)  取界面文案，键见 content/i18n/ui.*.json，支持 {0} {1} 占位。
    印尼语字段是纯字符串，L() 原样返回。 */
@@ -15,10 +64,8 @@ var LANGS = CONTENT.meta.langs;
 
 function detectLang(){
   /* ① 用户上次的选择 */
-  try{
-    var saved = localStorage.getItem("lang");
-    if(saved && LANGS.indexOf(saved) >= 0) return saved;
-  }catch(e){}
+  var saved = STORE.getRaw("lang");
+  if(saved && LANGS.indexOf(saved) >= 0) return saved;
   /* ② 浏览器语言。zh-CN / zh-Hans / ja-JP / en-GB 都要认得出 */
   if(CONTENT.meta.detect_browser_lang){
     var cands = [];
@@ -43,19 +90,15 @@ var LANG = detectLang();
    读写 localStorage 失败一律静默，不影响功能。 */
 var THEMES = ["auto", "light", "dark"];
 var THEME = "auto";
-try{
-  var savedTheme = localStorage.getItem("theme");
-  if(savedTheme && THEMES.indexOf(savedTheme) >= 0) THEME = savedTheme;
-}catch(e){}
+var savedTheme = STORE.getRaw("theme");
+if(savedTheme && THEMES.indexOf(savedTheme) >= 0) THEME = savedTheme;
 
 /* 强调色：五套低饱和配色，浅深两套值都在 app.css 里，
    这里只负责在 <html> 上写 data-accent。rose 是默认，不写属性。 */
 var ACCENTS = ["rose", "blue", "ochre", "sage", "mauve"];
 var ACCENT = "rose";
-try{
-  var savedAccent = localStorage.getItem("accent");
-  if(savedAccent && ACCENTS.indexOf(savedAccent) >= 0) ACCENT = savedAccent;
-}catch(e){}
+var savedAccent = STORE.getRaw("accent");
+if(savedAccent && ACCENTS.indexOf(savedAccent) >= 0) ACCENT = savedAccent;
 
 function applyTheme(){
   var root = document.documentElement;
@@ -67,7 +110,7 @@ function applyTheme(){
 function setAccent(a){
   if(ACCENTS.indexOf(a) < 0) return;
   ACCENT = a;
-  try{ localStorage.setItem("accent", a); }catch(e){}
+  STORE.setRaw("accent", a);
   applyTheme();
   toArr(document.querySelectorAll("#accentSeg .sw")).forEach(function(b){
     b.classList.toggle("on", b.getAttribute("data-ac") === ACCENT);
@@ -76,7 +119,7 @@ function setAccent(a){
 function setTheme(t){
   if(THEMES.indexOf(t) < 0) return;
   THEME = t;
-  try{ localStorage.setItem("theme", t); }catch(e){}
+  STORE.setRaw("theme", t);
   applyTheme();
   toArr(document.querySelectorAll("#themeSeg button")).forEach(function(b){
     b.classList.toggle("on", b.getAttribute("data-th") === THEME);
@@ -144,7 +187,7 @@ function T(key){
 function setLang(lang){
   if(LANGS.indexOf(lang) < 0 || lang === LANG) return;
   LANG = lang;
-  try{ localStorage.setItem("lang", lang); }catch(e){}
+  STORE.setRaw("lang", lang);
   document.documentElement.setAttribute("lang", lang);
   applyStaticText();
   buildTOC();
@@ -513,6 +556,26 @@ var DRILL_INDEX = PAGES.length - 1;
 PAGES.push({glossary:true, idxInLesson:1, total:1});
 var GLOSS_INDEX = PAGES.length - 1;
 
+/* ============================================================
+   页面的稳定标识
+   ------------------------------------------------------------
+   记「上次读到哪」不能存数组下标 —— 加一课进来，同一个下标就
+   指向别的页了，用户会莫名其妙被扔到陌生的地方。存 "L1:3" 这种
+   跟内容绑定的标识，找不到就回第一页（加课、删页都不会出事）。
+   ============================================================ */
+function pageKey(p){
+  if(!p) return "";
+  if(p.review) return "review";
+  if(p.drill) return "drill";
+  if(p.glossary) return "gloss";
+  return "L" + p.num + ":" + p.idxInLesson;
+}
+function findPageByKey(k){
+  if(!k) return -1;
+  for(var i = 0; i < PAGES.length; i++) if(pageKey(PAGES[i]) === k) return i;
+  return -1;
+}
+
 /* 目录和页眉上的名字要跟着语言走，所以每次现算，不写死进 PAGES */
 function pageLesson(p){
   if(p.review) return T("page.review_name");
@@ -627,10 +690,45 @@ function wireGlossary(){
    + 使用习惯;会话内错词按 Leitner 思路延后重出直到答对。
    防挫败:前 30% 只出认词题、连错自动降档、答错不惩罚。
 ============================================================ */
+/* ============================================================
+   答对之后自动翻页 —— 等这句读完再走
+   ------------------------------------------------------------
+   原来是写死的 setTimeout（复习 950ms、实战 1000ms），但整句答案
+   普遍要一秒半以上，于是话说到一半就翻页了。改成由播放完成回调
+   驱动：读完再停一小下翻页；音频卡住或压根没声音时有上限兜底。
+
+   seq 是防串号的：用户手动点了「继续」之后，在途的旧回调必须作废，
+   否则上一题的音频读完会把新题也翻过去。
+   ============================================================ */
+var AUTO_MIN_HOLD = 650;     /* 音频秒回时也留一眼看反馈的工夫 */
+var AUTO_MAX_HOLD = 8000;    /* 音频卡住不能一直挂着 */
+function autoAdvancer(next){
+  var seq = 0, guard = null, timer = null;
+  return {
+    run: function(text){
+      var my = ++seq, t0 = Date.now(), fired = false;
+      function fire(){
+        if(fired || my !== seq) return;
+        fired = true;
+        if(guard){ clearTimeout(guard); guard = null; }
+        var wait = Math.max(0, AUTO_MIN_HOLD - (Date.now() - t0));
+        timer = setTimeout(function(){ if(my === seq) next(); }, wait);
+      }
+      guard = setTimeout(fire, AUTO_MAX_HOLD);
+      speak(text, null, null, fire);
+    },
+    cancel: function(){
+      seq++;
+      if(guard){ clearTimeout(guard); guard = null; }
+      if(timer){ clearTimeout(timer); timer = null; }
+    }
+  };
+}
+
 var QZ = {phase:"setup", sel:{}, count:20, mode:"mix", plan:0,
   queue:[], idx:0, curQ:null, right:0, answered:0,
   wrongUniq:[], rep:{}, last5:[], revealed:false, pick:-1};
-var qzTimer = null;
+var qzAuto = autoAdvancer(function(){ qzNext(); });
 function pickOne(a){ return (a && a.length) ? a[Math.floor(Math.random()*a.length)] : ""; }
 (function(){
   var ls = D.map(function(l){ return l.num; }).sort(function(a,b){ return a-b; });
@@ -727,9 +825,8 @@ function quizAnswer(i){
   if(QZ.last5.length > 5) QZ.last5.shift();
   if(ok){
     QZ.right++;
-    speak(sayText(v.w));
     renderQuizPage();
-    qzTimer = setTimeout(qzNext, 950);
+    qzAuto.run(sayText(v.w));      /* 读完这个词再翻页 */
   } else {
     if(!QZ.rep[v.w]) QZ.rep[v.w] = 0;
     if(QZ.rep[v.w] < 2){        /* 最多重出两次,之后只进错词清单 */
@@ -742,7 +839,7 @@ function quizAnswer(i){
   }
 }
 function qzNext(){
-  if(qzTimer){ clearTimeout(qzTimer); qzTimer = null; }
+  qzAuto.cancel();
   QZ.idx++;
   qzShow();
 }
@@ -882,8 +979,7 @@ function renderQuizPage(){
 var DR = {phase:"setup", types:{jam:true, angka:true, situasi:true, dengar:true},
   count:15, queue:[], idx:0, curQ:null, right:0, answered:0,
   wrong:[], last5:[], revealed:false, pick:-1};
-var drTimer = null;
-
+var drAuto = autoAdvancer(function(){ drillNext(); });
 
 function drShuffle(a){
   for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; }
@@ -1058,18 +1154,18 @@ function drillAnswer(i){
   DR.answered++;
   DR.last5.push(ok ? 1 : 0);
   if(DR.last5.length > 5) DR.last5.shift();
-  speak(q.a);
   if(ok){
     DR.right++;
     renderDrillPage();
-    drTimer = setTimeout(drillNext, 1000);
+    drAuto.run(q.a);            /* 整句答案读完再翻页 —— 这里最容易被掐掉 */
   } else {
     DR.wrong.push(q);
     renderDrillPage();
+    speak(q.a);                 /* 答错停在本页，读一遍正确说法 */
   }
 }
 function drillNext(){
-  if(drTimer){ clearTimeout(drTimer); drTimer = null; }
+  drAuto.cancel();
   DR.idx++;
   drShow();
 }
@@ -1206,8 +1302,8 @@ function render(){
   if(gFillTimer){ clearTimeout(gFillTimer); gFillTimer = null; }
   stopListen();
   stopSeq();
-  if(qzTimer){ clearTimeout(qzTimer); qzTimer = null; }
-  if(drTimer){ clearTimeout(drTimer); drTimer = null; }
+  qzAuto.cancel();
+  drAuto.cancel();
   sheet.innerHTML = p.drill ? renderDrill()
                   : p.review ? renderQuiz()
                   : (p.glossary ? renderGlossary() : p.blocks.map(renderBlock).join(""));
@@ -1231,6 +1327,34 @@ function render(){
 function go(i){
   cur = Math.max(0, Math.min(PAGES.length-1, i));
   render();
+  savePos();
+}
+
+/* ===== 上次读到哪 =====
+   翻页存页标识，滚动存纵向位置（节流 400ms，别每帧都写）。
+   复原时只认得出的页才跳，认不出就老老实实从第一页开始。 */
+var posTimer = null;
+function savePos(){
+  var p = PAGES[cur];
+  if(!p) return;
+  STORE.set("pos", {k: pageKey(p), y: Math.round(reader ? reader.scrollTop : 0)});
+}
+function savePosSoon(){
+  if(posTimer) return;
+  posTimer = setTimeout(function(){ posTimer = null; savePos(); }, 400);
+}
+function restorePos(){
+  var pos = STORE.get("pos", null);
+  if(!pos || !pos.k) return false;
+  var i = findPageByKey(pos.k);
+  if(i < 0) return false;
+  cur = i;
+  render();
+  /* 滚动位置要等这一页的内容真正铺开、高度定下来之后再设 */
+  if(pos.y > 0) setTimeout(function(){
+    try{ reader.scrollTop = pos.y; lastScrollY = pos.y; }catch(e){}
+  }, 60);
+  return true;
 }
 
 /* ===== speech ===== */
@@ -1426,33 +1550,48 @@ function playBundled(hash, rate, el, onDone, text){
      blob 取不到只是这一条的问题（缓存被回收之类），不该把整库judge成没有。 */
   a.onerror = function(){
     if(!isBlob) AUDIO_AVAILABLE = false;
-    finish();
-    if(text) ttsOnly(text, el, rate);
+    if(fired) return;
+    fired = true;
+    /* 这一条退回系统语音，onDone 交给 TTS 收尾 —— 在这里就放行的话，
+       练习页会在朗读刚起头时翻到下一题。 */
+    if(text && SS){ ttsOnly(text, el, rate, onDone); return; }
+    if(el){ el.classList.remove("speaking"); if(speaking === el) speaking = null; }
+    if(onDone) onDone();
   };
   var p = a.play();
   if(p && p["catch"]) p["catch"](finish);
 }
-function speak(text, el, r){
-  if(!text) return;
+/* onDone：这一条读完（或读失败）后回调一次，最多一次。
+   练习页靠它决定什么时候翻下一题 —— 以前是死等 950ms，
+   句子长一点就会被掐掉半截。 */
+function speak(text, el, r, onDone){
+  if(!text){ if(onDone) onDone(); return; }
   if(AUDIO_AVAILABLE && BUNDLE_READY && BUNDLE_MAP && BUNDLE_MAP[text]){
-    playBundled(BUNDLE_MAP[text], r, el, null, text);
+    playBundled(BUNDLE_MAP[text], r, el, onDone, text);
     return;
   }
-  ttsOnly(text, el, r);
+  ttsOnly(text, el, r, onDone);
 }
 /* 只走系统语音（Web Speech / Android 原生桥接），不碰内置音库 */
-function ttsOnly(text, el, r){
-  if(!text || !SS) return;
+function ttsOnly(text, el, r, onDone){
+  if(!text || !SS){ if(onDone) onDone(); return; }
   stopSeq();
   var u = mkUtter(text, r);
+  var fired = false;
+  function finish(){
+    if(fired) return;
+    fired = true;
+    if(el){
+      el.classList.remove("speaking");
+      if(speaking === el) speaking = null;
+    }
+    if(onDone) onDone();
+  }
   if(el){
     speaking = el;
     el.classList.add("speaking");
-    u.onend = u.onerror = function(){
-      el.classList.remove("speaking");
-      if(speaking === el) speaking = null;
-    };
   }
+  u.onend = u.onerror = finish;
   ttsSpeak(u);
 }
 function speakSeq(parts, gap, el){
@@ -1721,6 +1860,7 @@ function tuckHeader(){
 }
 reader.addEventListener("scroll", function(){
   var y = reader.scrollTop;
+  savePosSoon();                      /* 节流后写，滚动本身不受影响 */
   var d = y - lastScrollY;
   if(Math.abs(d) < HDR_DELTA) return;
   lastScrollY = y;
@@ -1826,8 +1966,14 @@ on("accentSeg", "click", function(e){
 applyStaticText();
 buildTOC();
 setZoom(2);
-render();
+/* 回到上次读到的那一页；没有记录（或那一页已经不存在）就从头开始 */
+if(!restorePos()) render();
 syncHeaderH();
 window.addEventListener("resize", syncHeaderH);
+/* 切到后台／关页面前补存一次，节流没来得及写的那 400ms 不至于丢 */
+document.addEventListener("visibilitychange", function(){
+  if(document.visibilityState === "hidden") savePos();
+});
+window.addEventListener("pagehide", savePos);
 /* 字号会改变按钮行高，语言切换会换文案长度 —— 都要重量一次 */
 window.addEventListener("orientationchange", function(){ setTimeout(syncHeaderH, 250); });
