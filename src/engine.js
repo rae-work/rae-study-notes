@@ -38,7 +38,9 @@ var STORE = (function(){
     },
     setRaw: function(k, v){
       if(!ok) return false;
-      try{ localStorage.setItem(key(k), v); return true; }catch(e){ return false; }
+      /* 写失败就整体降级 —— 配额是后来被写满的（网站那份还有统计脚本在用），
+         不更新状态的话设置里会一直显示「记住了 N 个」，其实一条都没存进去。 */
+      try{ localStorage.setItem(key(k), v); return true; }catch(e){ ok = false; return false; }
     },
     get: function(k, def){
       var s = this.getRaw(k);
@@ -1416,12 +1418,23 @@ function drillAnswer(i){
   drillSettle(q, i === q.ok);
 }
 /* 拼句：点词块上屏 / 点已上屏的退回 / 点检查判分 */
+/* 词块多、字号调大时「检查」会被挤到屏幕外，拼完了却找不到下一步。
+   每点一下词块就把它捞回视野 —— 只在它确实看不见时才滚，别没事乱动页面。 */
+function ensureCheckVisible(){
+  var b = document.querySelector(".sz-check");
+  if(!b) return;
+  var r = b.getBoundingClientRect();
+  if(r.bottom <= window.innerHeight - 4) return;
+  try{ b.scrollIntoView({block: "nearest"}); }
+  catch(e){ try{ b.scrollIntoView(false); }catch(e2){} }
+}
 function susunPick(bi){
   var q = DR.curQ;
   if(!q || q.mode !== "susun" || DR.revealed) return;
   if(q.picked.indexOf(bi) >= 0) return;
   q.picked.push(bi);
   renderDrillPage();
+  ensureCheckVisible();
 }
 function susunUnpick(si){
   var q = DR.curQ;
@@ -1503,9 +1516,12 @@ function renderSusun(q){
     return '<button class="sz-tok bank' + (used ? " used" : "") + '" data-dr="pick" data-i="' + bi + '"' +
       (used || DR.revealed ? " disabled" : "") + ">" + esc(w) + "</button>";
   }).join("");
+  /* 「检查」放在一条粘在底部的操作条里：词块多、字号大的时候它本来会落到
+     屏幕外，学习者拼完了找不到下一步。操作条有实色底和一条细线，
+     不会像裸按钮那样浮在词块上面挡住字。 */
   var check = DR.revealed ? "" :
-    '<button class="qz-next sz-check" data-dr="check"' + (picked.length ? "" : " disabled") + ">" +
-    esc(T("drill.check")) + "</button>";
+    '<div class="sz-actions"><button class="qz-next sz-check" data-dr="check"' +
+    (picked.length ? "" : " disabled") + ">" + esc(T("drill.check")) + "</button></div>";
   return '<div class="sz-slot' + (DR.revealed ? (DR.pick === 1 ? " good" : " bad") : "") + '">' + slot + "</div>" +
     '<div class="sz-bank">' + bank + "</div>" + check;
 }
@@ -1645,6 +1661,7 @@ function buildTOC(){
 function render(){
   var p = PAGES[cur];
   CURMETA = p;
+  if(restoreTimer){ clearTimeout(restoreTimer); restoreTimer = null; }
   if(gFillTimer){ clearTimeout(gFillTimer); gFillTimer = null; }
   stopListen();
   stopSeq();
@@ -1679,7 +1696,7 @@ function go(i){
 /* ===== 上次读到哪 =====
    翻页存页标识，滚动存纵向位置（节流 400ms，别每帧都写）。
    复原时只认得出的页才跳，认不出就老老实实从第一页开始。 */
-var posTimer = null;
+var posTimer = null, restoreTimer = null;
 function savePos(){
   var p = PAGES[cur];
   if(!p) return;
@@ -1696,8 +1713,12 @@ function restorePos(){
   if(i < 0) return false;
   cur = i;
   render();
-  /* 滚动位置要等这一页的内容真正铺开、高度定下来之后再设 */
-  if(pos.y > 0) setTimeout(function(){
+  /* 滚动位置要等这一页的内容真正铺开、高度定下来之后再设。
+     句柄存着让 render() 能取消，回调里再核一次页标识 —— 否则这 60ms 里
+     翻了页，就会把上一页的偏移量甩到新页上，还被 savePosSoon 写回存储。 */
+  if(pos.y > 0) restoreTimer = setTimeout(function(){
+    restoreTimer = null;
+    if(pageKey(PAGES[cur]) !== pos.k) return;
     try{ reader.scrollTop = pos.y; lastScrollY = pos.y; }catch(e){}
   }, 60);
   return true;
@@ -2350,9 +2371,14 @@ if(!restorePos()) render();
 syncHeaderH();
 window.addEventListener("resize", syncHeaderH);
 /* 切到后台／关页面前补存一次，节流没来得及写的那 400ms 不至于丢 */
+function flushState(){
+  savePos();
+  /* 练习记录是攒 600ms 再写的，答完最后一题就锁屏的话那一笔会丢 */
+  if(progTimer){ clearTimeout(progTimer); progTimer = null; STORE.set("prog", PROG); }
+}
 document.addEventListener("visibilitychange", function(){
-  if(document.visibilityState === "hidden") savePos();
+  if(document.visibilityState === "hidden") flushState();
 });
-window.addEventListener("pagehide", savePos);
+window.addEventListener("pagehide", flushState);
 /* 字号会改变按钮行高，语言切换会换文案长度 —— 都要重量一次 */
 window.addEventListener("orientationchange", function(){ setTimeout(syncHeaderH, 250); });

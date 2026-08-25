@@ -526,7 +526,7 @@
           "t": "saya punya",
           "why": {
             "zh": "saya punya 是「我有」，是句子不是短语。",
-            "ja": "saya punya は「わたしは持っている」で、句ではなく文です。",
+            "ja": "saya punya は「わたしが持っている」という文の一部で、句ではありません。",
             "en": "saya punya means “I have” — a clause, not a phrase."
           }
         },
@@ -568,11 +568,11 @@
           }
         },
         {
-          "t": "temanku tas",
+          "t": "tas temannya",
           "why": {
-            "zh": "语序反了，而且 -ku 把主人变成了「我」。",
-            "ja": "語順が逆で、しかも -ku で持ち主が「わたし」になっています。",
-            "en": "Wrong order, and -ku makes the owner “me”."
+            "zh": "这是「他朋友的包」—— -nya 又指了一个人，多了一层。",
+            "ja": "これは「かれの友だちのかばん」です。-nya でもう一人加わってしまいます。",
+            "en": "That is “his friend’s bag” — -nya adds another owner."
           }
         },
         {
@@ -666,11 +666,11 @@
           }
         },
         {
-          "t": "akuteman",
+          "t": "teman-ku",
           "why": {
-            "zh": "顺序反了，而且后缀要接在<b>东西</b>后面，不是人后面。",
-            "ja": "順序が逆です。接尾辞は<b>もの</b>のほうにつきます。",
-            "en": "Reversed — and the suffix attaches to the <b>thing</b>, not the person."
+            "zh": "后缀直接连写，不加连字符：temanku。",
+            "ja": "接尾辞はハイフンなしでつなげます：temanku。",
+            "en": "The suffix attaches directly, no hyphen: temanku."
           }
         }
       ],
@@ -687,7 +687,7 @@
       "a": "adikku",
       "ask": {
         "zh": "「Aku punya adik.」—— 那个弟弟／妹妹可以说成？",
-        "ja": "「Aku punya adik.」—— その弟・妹は？",
+        "ja": "「Aku punya adik.」—— その弟・妹はどう言いますか。",
         "en": "“Aku punya adik.” — refer to that sibling as:"
       },
       "opts": [
@@ -732,7 +732,7 @@
       "a": "rumahnya",
       "ask": {
         "zh": "「Ghoza punya rumah.」—— 那间房子可以说成？",
-        "ja": "「Ghoza punya rumah.」—— その家は？",
+        "ja": "「Ghoza punya rumah.」—— その家はどう言いますか。",
         "en": "“Ghoza punya rumah.” — refer to that house as:"
       },
       "opts": [
@@ -742,7 +742,7 @@
         {
           "t": "rumahku",
           "why": {
-            "zh": "主人是 Ghoza，不是「我」。第三个人一律用 -nya。",
+            "zh": "主人是 Ghoza，不是「我」。除自己和对方以外的人一律用 -nya。",
             "ja": "持ち主は Ghoza であって「わたし」ではありません。第三者は -nya です。",
             "en": "The owner is Ghoza, not “me”. A third party takes -nya."
           }
@@ -781,7 +781,7 @@
         "en": "Build: My book is new."
       },
       "bank": [
-        "Buku",
+        "buku",
         "saya",
         "baru",
         "punya",
@@ -800,11 +800,11 @@
       "a": "Tas teman saya bagus.",
       "ask": {
         "zh": "拼出：我朋友的包很好看。",
-        "ja": "並べてみましょう：友だちのかばんはすてきです。",
+        "ja": "並べてみましょう：わたしの友だちのかばんはすてきです。",
         "en": "Build: My friend’s bag is nice."
       },
       "bank": [
-        "Tas",
+        "tas",
         "teman",
         "saya",
         "bagus",
@@ -823,11 +823,11 @@
       "a": "Rumahnya di Jalan Kaliurang.",
       "ask": {
         "zh": "拼出：他家在 Kaliurang 路。",
-        "ja": "並べてみましょう：かれの家はカリウラン通りにあります。",
+        "ja": "並べてみましょう：かれの家はKaliurang 通りにあります。",
         "en": "Build: His house is on Jalan Kaliurang."
       },
       "bank": [
-        "Rumahnya",
+        "rumahnya",
         "di",
         "Jalan",
         "Kaliurang",
@@ -846,16 +846,16 @@
       "level": 2,
       "a": "Adikku dua orang.",
       "ask": {
-        "zh": "拼出：我有两个弟弟妹妹。",
-        "ja": "並べてみましょう：弟・妹は二人です。",
-        "en": "Build: I have two siblings."
+        "zh": "拼出：我的弟弟妹妹有两个。",
+        "ja": "並べてみましょう：わたしの弟・妹は二人です。",
+        "en": "Build: I have two younger siblings."
       },
       "bank": [
-        "Adikku",
+        "adikku",
         "dua",
         "orang",
         "adikmu",
-        "punya"
+        "adiknya"
       ],
       "note": {
         "zh": "数人用量词 <b>orang</b>：dua orang（两个人）。",
@@ -870,11 +870,11 @@
       "a": "Sepeda teman saya baru.",
       "ask": {
         "zh": "拼出：我朋友的自行车是新的。",
-        "ja": "並べてみましょう：友だちの自転車は新しいです。",
+        "ja": "並べてみましょう：わたしの友だちの自転車は新しいです。",
         "en": "Build: My friend’s bicycle is new."
       },
       "bank": [
-        "Sepeda",
+        "sepeda",
         "teman",
         "saya",
         "baru",
@@ -899,7 +899,7 @@
         "en": "Build: His car is on campus."
       },
       "bank": [
-        "Mobilnya",
+        "mobilnya",
         "di",
         "kampus",
         "mobilku",
@@ -936,11 +936,11 @@
           }
         },
         {
-          "t": "Apa ini kamu?",
+          "t": "Apa itu?",
           "why": {
-            "zh": "多了一个 kamu，问句里不需要。",
-            "ja": "kamu が余分です。この疑問文には必要ありません。",
-            "en": "kamu is extra; this question does not need it."
+            "zh": "itu 指离说话人远的东西。手边的要用 ini。",
+            "ja": "itu は話し手から遠いものです。手もとのものは ini を使います。",
+            "en": "itu points to something further away. For what is at hand, use ini."
           }
         },
         {
@@ -1055,7 +1055,7 @@
       "a": "Ini tas teman saya.",
       "ask": {
         "zh": "拼出：这是我朋友的包。",
-        "ja": "並べてみましょう：これは友だちのかばんです。",
+        "ja": "並べてみましょう：これはわたしの友だちのかばんです。",
         "en": "Build: This is my friend’s bag."
       },
       "bank": [
@@ -1101,9 +1101,9 @@
       "level": 3,
       "a": "Ini foto adikku.",
       "ask": {
-        "zh": "拼出：这是我弟弟的照片。",
-        "ja": "並べてみましょう：これは弟の写真です。",
-        "en": "Build: This is a photo of my little brother."
+        "zh": "拼出：这是我弟弟妹妹的照片。",
+        "ja": "並べてみましょう：これはわたしの弟・妹の写真です。",
+        "en": "Build: This is a photo of my younger sibling."
       },
       "bank": [
         "Ini",
@@ -1117,6 +1117,96 @@
         "zh": "照片 → 谁的：foto adikku（我弟弟的照片）。",
         "ja": "写真→だれの、の順です：foto adikku。",
         "en": "Photo → whose: foto adikku."
+      }
+    },
+    {
+      "id": "t07",
+      "mode": "pilih",
+      "level": 1,
+      "a": "Ini buku saya.",
+      "ask": {
+        "zh": "书就在你手上，你说「这是我的书。」",
+        "ja": "本は手もとにあります。「これはわたしの本です」",
+        "en": "The book is in your hand: “this is my book.”"
+      },
+      "opts": [
+        {
+          "t": "Ini buku saya."
+        },
+        {
+          "t": "Itu buku saya.",
+          "why": {
+            "zh": "itu 指远处的东西，手上的要用 ini。",
+            "ja": "itu は遠くのものです。手もとのものは ini です。",
+            "en": "itu is for things further off; what is in your hand takes ini."
+          }
+        },
+        {
+          "t": "Ini saya buku.",
+          "why": {
+            "zh": "语序反了：东西在前，主人在后 —— buku saya。",
+            "ja": "語順が逆です。もの→持ち主の順で buku saya です。",
+            "en": "Wrong order: thing first, owner second — buku saya."
+          }
+        },
+        {
+          "t": "Ini bukunya.",
+          "why": {
+            "zh": "-nya 是「他的」，说自己的书要用 saya 或 -ku。",
+            "ja": "-nya は「かれの」です。自分の本なら saya か -ku です。",
+            "en": "-nya means “his”; for your own book use saya or -ku."
+          }
+        }
+      ],
+      "note": {
+        "zh": "<b>ini</b> 近、<b>itu</b> 远，距离以说话人为准。",
+        "ja": "<b>ini</b> は近く、<b>itu</b> は遠く。話し手からの距離で決まります。",
+        "en": "<b>ini</b> is near, <b>itu</b> is far — measured from the speaker."
+      }
+    },
+    {
+      "id": "t08",
+      "mode": "pilih",
+      "level": 1,
+      "a": "itu",
+      "ask": {
+        "zh": "黑板在教室前面，离你有几米 —— 该用哪个词？",
+        "ja": "黒板は教室の前にあり、数メートル離れています。どちらを使いますか。",
+        "en": "The whiteboard is several metres away at the front. Which word?"
+      },
+      "opts": [
+        {
+          "t": "itu"
+        },
+        {
+          "t": "ini",
+          "why": {
+            "zh": "ini 指手边的东西，几米外要用 itu。",
+            "ja": "ini は手もとのものです。数メートル先なら itu です。",
+            "en": "ini is for what is at hand; several metres away takes itu."
+          }
+        },
+        {
+          "t": "apa",
+          "why": {
+            "zh": "apa 是「什么」，不是指示词。",
+            "ja": "apa は「何」で、指示詞ではありません。",
+            "en": "apa means “what”, not “this/that”."
+          }
+        },
+        {
+          "t": "saya",
+          "why": {
+            "zh": "saya 是「我」。",
+            "ja": "saya は「わたし」です。",
+            "en": "saya means “I / my”."
+          }
+        }
+      ],
+      "note": {
+        "zh": "判断距离以<b>说话人</b>为准，不是以东西的大小或重要性。",
+        "ja": "距離は<b>話し手</b>を基準に決めます。ものの大きさや重要さではありません。",
+        "en": "Distance is judged from the <b>speaker</b>, not by how big or important the thing is."
       }
     }
   ],

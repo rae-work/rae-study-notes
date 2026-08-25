@@ -202,11 +202,15 @@
     border-top:1px solid var(--line);padding-top:13px;margin-top:2px}
   .prog-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
   .prog-stat{font-family:var(--ui);font-size:11.5px;color:var(--ink-soft);line-height:1.5}
+  /* 它是这个面板里唯一一个破坏性操作，原来反而是最小的按钮（32px）——
+     邻居都 36px。做到和邻居一样大，别让人误点，也别让人点不中。 */
   .prog-clear{font-family:var(--ui);font-size:11.5px;font-weight:600;color:var(--ink-soft);
     background:transparent;border:1px solid var(--line);border-radius:var(--r-sm);
-    padding:6px 11px;min-height:32px;cursor:pointer;flex:0 0 auto;
+    padding:8px 14px;min-height:36px;cursor:pointer;flex:0 0 auto;
     transition:color var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
-  .prog-clear:hover{color:var(--accent-ink);border-color:var(--accent-line)}
+  /* 全文件其他 hover 都包在 @media (hover:hover) 里 —— 触屏上不包的话，
+     点完手指抬起来高亮还粘着。 */
+  @media (hover:hover){ .prog-clear:hover{color:var(--accent-ink);border-color:var(--accent-line)} }
   .prog-clear[disabled]{opacity:.4;cursor:default}
   .prog-clear.armed{color:var(--accent-ink);border-color:var(--accent);background:var(--accent-wash)}
   .prog-hint{font-family:var(--ui);font-size:10.5px;color:var(--ink-soft);opacity:.8;line-height:1.6}
@@ -403,7 +407,10 @@
   .glist{display:grid;grid-template-columns:repeat(auto-fill,minmax(238px,1fr));gap:12px}
   .gentry{border:1px solid var(--line);border-radius:var(--r-md);padding:13px 14px;background:transparent;display:flex;flex-direction:column;gap:6px;min-width:0}
   .gtop{display:flex;align-items:center;justify-content:space-between;gap:8px}
-  .gword{font-weight:600;font-size:1.1em;min-width:0;overflow-wrap:break-word}
+  /* flex:1 让词占满中间，墨点才会紧跟在词后面 ——
+     否则 space-between 把词、墨点、徽章三者均分，墨点飘到卡片正中间，
+     离它标注的那个词一百多像素。 */
+  .gword{font-weight:600;font-size:1.1em;min-width:0;overflow-wrap:break-word;flex:1 1 auto}
   .gbadge{font-family:var(--ui);font-size:.64em;font-weight:700;border-radius:999px;padding:3px 9px;
     background:var(--accent-wash);color:var(--accent-ink);flex:0 0 auto}
   /* 掌握度墨点：练过才出现，像在页边点一下笔尖。
@@ -425,8 +432,10 @@
      纯点按：点下面的词块上屏，点上面的退回来。不做拖拽（手机浏览器坑多），
      也不弹键盘（老机器上又慢又抖）。触控目标 ≥44px、相邻留缝，
      答错的原因该是「不会」，不该是「手滑点到隔壁」。 */
+  /* 答案区按两行的高度留够：不然点到第四个词块时答案区换行，
+     整排词块在手指底下往下跳 52px（比一个词块还高），下一下就点空或点错。 */
   .sz-slot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;
-    min-height:62px;padding:12px 14px;margin:4px 0 16px;
+    min-height:114px;padding:12px 14px;margin:4px 0 16px;align-content:flex-start;
     border:1px solid var(--line);border-bottom-width:2px;border-radius:var(--r-md);
     background:var(--surface);
     transition:border-color var(--t-mid) var(--ease),background var(--t-mid) var(--ease)}
@@ -443,7 +452,11 @@
   .sz-tok.bank.used{opacity:.28;pointer-events:none}
   .sz-tok[disabled]{cursor:default}
   .sz-slot .sz-tok{border-color:var(--accent-line)}
-  .sz-check{margin-top:2px}
+  /* 「检查」就留在文档流里，不 sticky —— 粘在底部的话它会浮在词块上面
+     把字挡住（试过，比它落到屏幕外还糟）。落到屏幕外的问题由
+     ensureCheckVisible() 解决：拼词时把它滚进视野。 */
+  .sz-actions{margin-top:6px;padding-bottom:calc(4px + env(safe-area-inset-bottom))}
+  .sz-check{margin-top:0;scroll-margin-bottom:16px}
   .sz-check[disabled]{opacity:.4;cursor:default}
   /* 语法题的题面允许 <b> 强调，且比别的题面松一点行距 */
   .dr-q.lat{line-height:1.75;text-align:left}

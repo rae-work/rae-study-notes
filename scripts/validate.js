@@ -324,6 +324,8 @@ if (speak) {
     dengar: content.drills.situasi.length > 0,
     posesif: (content.drills.posesif || []).length > 0,
     tunjuk: (content.drills.tunjuk || []).length > 0,
+    // 门槛跟引擎的 drAvail 保持一致：不够 4 个凑不出选项
+    benda: (content.drills.benda || []).length >= 4,
   };
   for (const t of Object.keys(avail)) {
     if (avail[t] && !d.types[t]) warn(G8, `压力测试里没出到 ${t} 类型的题`);
