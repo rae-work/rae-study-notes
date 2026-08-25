@@ -73,10 +73,23 @@ const speak = collectSpeakables({ drillRounds: 6000 });
 const manifest = loadAudioManifest();
 const items = { ...(manifest.items || {}) };
 
-const missing = speak.texts.filter((t) => {
-  if (!items[t]) return true;
-  return !fs.existsSync(path.join(P.audio, items[t] + A.ext));
-});
+// 跟引擎的 audioHash 对齐：逐词点读时，句首那个词首字母是大写的
+// （「Baju kamu bagus.」切出来的 Baju），而词条本身是小写。印尼语大小写不改变
+// 读音，同一个词没必要花两份额度 —— 统一合成小写那份，引擎查大写时回退命中。
+//
+// 只合并「单个词 + 只有首字母大写」的情况：Ziah、INCULS 这类不能碰
+// （全大写缩写小写化会影响 TTS 读法，人名同理留原样更稳）。
+const hasAudio = (t) => items[t] && fs.existsSync(path.join(P.audio, items[t] + A.ext));
+const foldable = (t) => t.indexOf(' ') < 0 && /^[A-Z][a-z]+$/.test(t);
+const seen = new Set();
+const missing = [];
+for (const t of speak.texts) {
+  const key = foldable(t) ? t.charAt(0).toLowerCase() + t.slice(1) : t;
+  if (hasAudio(t) || hasAudio(key)) continue;
+  if (seen.has(key)) continue;
+  seen.add(key);
+  missing.push(key);
+}
 const todo = LIMIT ? missing.slice(0, LIMIT) : missing;
 const chars = todo.reduce((n, t) => n + [...t].length, 0);
 

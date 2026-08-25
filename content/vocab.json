@@ -1458,5 +1458,525 @@
       "en": "Let me introduce my friend."
     },
     "note": null
+  },
+  {
+    "w": "kamus",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "词典",
+      "ja": "辞書",
+      "en": "dictionary"
+    },
+    "pos": null,
+    "ex": "Kamus saya baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的词典是新的。",
+      "ja": "わたしの辞書は新しいです。",
+      "en": "My dictionary is new."
+    },
+    "note": null
+  },
+  {
+    "w": "pensil",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "铅笔",
+      "ja": "鉛筆",
+      "en": "pencil"
+    },
+    "pos": null,
+    "ex": "Ini pensil.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是铅笔。",
+      "ja": "これは鉛筆です。",
+      "en": "This is a pencil."
+    },
+    "note": null
+  },
+  {
+    "w": "bolpoin",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "圆珠笔",
+      "ja": "ボールペン",
+      "en": "ballpoint pen"
+    },
+    "pos": null,
+    "ex": "Itu bolpoin saya.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那是我的圆珠笔。",
+      "ja": "あれはわたしのボールペンです。",
+      "en": "That is my pen."
+    },
+    "note": null
+  },
+  {
+    "w": "penggaris",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "尺子",
+      "ja": "定規",
+      "en": "ruler"
+    },
+    "pos": null,
+    "ex": "Ini penggaris.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是尺子。",
+      "ja": "これは定規です。",
+      "en": "This is a ruler."
+    },
+    "note": null
+  },
+  {
+    "w": "tas",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "包",
+      "ja": "かばん",
+      "en": "bag"
+    },
+    "pos": null,
+    "ex": "Tas saya baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的包是新的。",
+      "ja": "わたしのかばんは新しいです。",
+      "en": "My bag is new."
+    },
+    "note": null
+  },
+  {
+    "w": "sepatu",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "鞋",
+      "ja": "くつ",
+      "en": "shoes"
+    },
+    "pos": null,
+    "ex": "Sepatu saya baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的鞋是新的。",
+      "ja": "わたしのくつは新しいです。",
+      "en": "My shoes are new."
+    },
+    "note": null
+  },
+  {
+    "w": "baju",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "衣服",
+      "ja": "服",
+      "en": "clothes, shirt"
+    },
+    "pos": null,
+    "ex": "Baju kamu bagus.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "你的衣服很好看。",
+      "ja": "あなたの服はすてきです。",
+      "en": "Your shirt is nice."
+    },
+    "note": null
+  },
+  {
+    "w": "meja",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "桌子",
+      "ja": "机",
+      "en": "table, desk"
+    },
+    "pos": null,
+    "ex": "Buku saya di meja.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的书在桌子上。",
+      "ja": "わたしの本は机の上にあります。",
+      "en": "My book is on the table."
+    },
+    "note": null
+  },
+  {
+    "w": "kursi",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "椅子",
+      "ja": "いす",
+      "en": "chair"
+    },
+    "pos": null,
+    "ex": "Ini kursi kelas.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是教室的椅子。",
+      "ja": "これは教室のいすです。",
+      "en": "This is a classroom chair."
+    },
+    "note": null
+  },
+  {
+    "w": "papan tulis",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "黑板",
+      "ja": "黒板",
+      "en": "whiteboard, blackboard"
+    },
+    "pos": null,
+    "ex": "Itu papan tulis.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那是黑板。",
+      "ja": "あれは黒板です。",
+      "en": "That is the whiteboard."
+    },
+    "note": null
+  },
+  {
+    "w": "peta",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "地图",
+      "ja": "地図",
+      "en": "map"
+    },
+    "pos": null,
+    "ex": "Itu peta dunia.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那是世界地图。",
+      "ja": "あれは世界地図です。",
+      "en": "That is a world map."
+    },
+    "note": null
+  },
+  {
+    "w": "jam dinding",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "挂钟",
+      "ja": "壁掛け時計",
+      "en": "wall clock"
+    },
+    "pos": null,
+    "ex": "Jam dinding di kelas.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "挂钟在教室里。",
+      "ja": "壁掛け時計は教室にあります。",
+      "en": "The clock is in the classroom."
+    },
+    "note": null
+  },
+  {
+    "w": "rak buku",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "书架",
+      "ja": "本棚",
+      "en": "bookshelf"
+    },
+    "pos": null,
+    "ex": "Rak buku di kelas.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "书架在教室里。",
+      "ja": "本棚は教室にあります。",
+      "en": "The bookshelf is in the classroom."
+    },
+    "note": null
+  },
+  {
+    "w": "lampu",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "灯",
+      "ja": "電灯",
+      "en": "lamp, light"
+    },
+    "pos": null,
+    "ex": "Lampu kelas baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "教室的灯是新的。",
+      "ja": "教室の電灯は新しいです。",
+      "en": "The classroom light is new."
+    },
+    "note": null
+  },
+  {
+    "w": "tirai",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "窗帘",
+      "ja": "カーテン",
+      "en": "curtain"
+    },
+    "pos": null,
+    "ex": "Tirai kelas baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "教室的窗帘是新的。",
+      "ja": "教室のカーテンは新しいです。",
+      "en": "The classroom curtains are new."
+    },
+    "note": null
+  },
+  {
+    "w": "kalender",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "日历",
+      "ja": "カレンダー",
+      "en": "calendar"
+    },
+    "pos": null,
+    "ex": "Ini kalender INCULS.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是 INCULS 的日历。",
+      "ja": "これは INCULS のカレンダーです。",
+      "en": "This is the INCULS calendar."
+    },
+    "note": null
+  },
+  {
+    "w": "foto",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "照片",
+      "ja": "写真",
+      "en": "photo"
+    },
+    "pos": null,
+    "ex": "Ini foto teman saya.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是我朋友的照片。",
+      "ja": "これはわたしの友だちの写真です。",
+      "en": "This is a photo of my friend."
+    },
+    "note": null
+  },
+  {
+    "w": "gambar",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "图画",
+      "ja": "絵",
+      "en": "picture, drawing"
+    },
+    "pos": null,
+    "ex": "Itu gambar saya.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那是我的画。",
+      "ja": "あれはわたしの絵です。",
+      "en": "That is my drawing."
+    },
+    "note": null
+  },
+  {
+    "w": "kacamata",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "眼镜",
+      "ja": "めがね",
+      "en": "glasses"
+    },
+    "pos": null,
+    "ex": "Kacamata saya baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的眼镜是新的。",
+      "ja": "わたしのめがねは新しいです。",
+      "en": "My glasses are new."
+    },
+    "note": null
+  },
+  {
+    "w": "sepeda",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "自行车",
+      "ja": "自転車",
+      "en": "bicycle"
+    },
+    "pos": null,
+    "ex": "Sepeda saya baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的自行车是新的。",
+      "ja": "わたしの自転車は新しいです。",
+      "en": "My bicycle is new."
+    },
+    "note": null
+  },
+  {
+    "w": "rumah",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "家，房子",
+      "ja": "家",
+      "en": "house, home"
+    },
+    "pos": null,
+    "ex": "Rumah saya di Jogja.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我家在日惹。",
+      "ja": "わたしの家はジョグジャにあります。",
+      "en": "My house is in Jogja."
+    },
+    "note": null
+  },
+  {
+    "w": "kampus",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "校园",
+      "ja": "キャンパス",
+      "en": "campus"
+    },
+    "pos": null,
+    "ex": "Kampus UGM besar.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "UGM 校园很大。",
+      "ja": "UGM のキャンパスは広いです。",
+      "en": "The UGM campus is big."
+    },
+    "note": null
+  },
+  {
+    "w": "adik",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "弟弟妹妹",
+      "ja": "弟・妹",
+      "en": "younger sibling"
+    },
+    "pos": null,
+    "ex": "Adik saya dua orang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我有两个弟弟妹妹。",
+      "ja": "わたしの弟・妹は二人です。",
+      "en": "I have two younger siblings."
+    },
+    "note": null
+  },
+  {
+    "w": "punya",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "有，拥有",
+      "ja": "持っている",
+      "en": "to have, to own"
+    },
+    "pos": null,
+    "ex": "Saya punya buku.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我有一本书。",
+      "ja": "わたしは本を持っています。",
+      "en": "I have a book."
+    },
+    "note": null
+  },
+  {
+    "w": "baru",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "新的",
+      "ja": "新しい",
+      "en": "new"
+    },
+    "pos": null,
+    "ex": "Buku saya baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的书是新的。",
+      "ja": "わたしの本は新しいです。",
+      "en": "My book is new."
+    },
+    "note": null
+  },
+  {
+    "w": "bagus",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "好，好看",
+      "ja": "よい・すてき",
+      "en": "good, nice"
+    },
+    "pos": null,
+    "ex": "Tas kamu bagus.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "你的包很好看。",
+      "ja": "あなたのかばんはすてきです。",
+      "en": "Your bag is nice."
+    },
+    "note": null
   }
 ]

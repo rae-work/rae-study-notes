@@ -549,7 +549,10 @@ function renderBlock(b){
     case "rule": return '<hr class="rule' + (b.short?" short":"") + '">';
     case "mini": return '<div class="mini"><span>' + esc(L(b.text)) + "</span></div>";
     case "sec":
-      return '<div class="sec"><span class="num">' + esc(b.num) + '</span><span class="word">' +
+      /* num 为空就别画那个圈 —— Kosakata 的分组去掉序号之后（跟课本的
+         (1)(2)(3) 编号打架）会留下一个空心圆，看着像没加载出来。 */
+      return '<div class="sec">' + (b.num ? '<span class="num">' + esc(b.num) + "</span>" : "") +
+        '<span class="word">' +
         sayWhole(b.word, sayText(b.word)) + '</span><span class="en">' + secGloss(b) + "</span></div>";
     case "pattern":
       return '<div class="pattern"><span class="plab">Pola</span><code>' + b.code + "</code>" +
@@ -1939,12 +1942,20 @@ function playBundled(hash, rate, el, onDone, text){
 /* onDone：这一条读完（或读失败）后回调一次，最多一次。
    练习页靠它决定什么时候翻下一题 —— 以前是死等 950ms，
    句子长一点就会被掐掉半截。 */
+/* 音库查表。句首的词首字母是大写的（「Baju kamu bagus.」里的 Baju），
+   而词条本身是小写 —— 同一个词没必要合成两份，查不到就回退试一次小写。
+   印尼语里大小写不改变读音，回退是安全的。 */
+function audioHash(text){
+  if(!BUNDLE_MAP) return null;
+  if(BUNDLE_MAP[text]) return BUNDLE_MAP[text];
+  var lo = text.charAt(0).toLowerCase() + text.slice(1);
+  if(lo !== text && BUNDLE_MAP[lo]) return BUNDLE_MAP[lo];
+  return null;
+}
 function speak(text, el, r, onDone){
   if(!text){ if(onDone) onDone(); return; }
-  if(AUDIO_AVAILABLE && BUNDLE_READY && BUNDLE_MAP && BUNDLE_MAP[text]){
-    playBundled(BUNDLE_MAP[text], r, el, onDone, text);
-    return;
-  }
+  var h = (AUDIO_AVAILABLE && BUNDLE_READY) ? audioHash(text) : null;
+  if(h){ playBundled(h, r, el, onDone, text); return; }
   ttsOnly(text, el, r, onDone);
 }
 /* 只走系统语音（Web Speech / Android 原生桥接），不碰内置音库 */

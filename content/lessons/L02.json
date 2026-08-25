@@ -1,0 +1,320 @@
+{
+ "num": 2,
+ "source": "INCULS · Titian Bahasa Pemula 1 · Bab 2 Kelas INCULS（课本第 11–22 页）",
+ "reg_default": "formal",
+ "name": {
+  "zh": "教室与身边的东西",
+  "ja": "教室と身のまわりのもの",
+  "en": "The classroom and things around you"
+ },
+ "pages": [
+  [
+   {
+    "k": "phead",
+    "title": "Kelas INCULS",
+    "sub": {
+     "zh": "教室与身边的东西",
+     "ja": "教室と身のまわりのもの",
+     "en": "The classroom and things around you"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "这一章先收词。课文和练习还在整理，<b>实战</b>页已经可以练这一章的语法了 —— 「我的 / 你的 / 他的」和「这个 / 那个」，还有看图认词。",
+     "ja": "この章はまず語彙だけです。本文と練習は準備中ですが、<b>実践</b>ページではこの章の文法（「わたしの・あなたの・かれの」「これ・あれ」）と、ものの名前がもう練習できます。",
+     "en": "This chapter starts with the words. The reading and exercises are still being prepared, but the <b>Practice</b> page already covers this chapter’s grammar — my / your / his, this / that — and naming objects."
+    }
+   },
+   {
+    "k": "sec",
+    "num": "",
+    "word": "Benda di sekitar",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "身边的东西",
+     "ja": "身のまわりのもの",
+     "en": "things around you"
+    }
+   },
+   {
+    "k": "vocab",
+    "items": [
+     {
+      "w": "kamus",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "词典",
+       "ja": "辞書",
+       "en": "dictionary"
+      }
+     },
+     {
+      "w": "pensil",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "铅笔",
+       "ja": "鉛筆",
+       "en": "pencil"
+      }
+     },
+     {
+      "w": "bolpoin",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "圆珠笔",
+       "ja": "ボールペン",
+       "en": "ballpoint pen"
+      }
+     },
+     {
+      "w": "penggaris",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "尺子",
+       "ja": "定規",
+       "en": "ruler"
+      }
+     },
+     {
+      "w": "tas",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "包",
+       "ja": "かばん",
+       "en": "bag"
+      }
+     },
+     {
+      "w": "sepatu",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "鞋",
+       "ja": "くつ",
+       "en": "shoes"
+      }
+     },
+     {
+      "w": "baju",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "衣服",
+       "ja": "服",
+       "en": "clothes, shirt"
+      }
+     },
+     {
+      "w": "meja",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "桌子",
+       "ja": "机",
+       "en": "table, desk"
+      }
+     },
+     {
+      "w": "kursi",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "椅子",
+       "ja": "いす",
+       "en": "chair"
+      }
+     },
+     {
+      "w": "papan tulis",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "黑板",
+       "ja": "黒板",
+       "en": "whiteboard, blackboard"
+      }
+     },
+     {
+      "w": "peta",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "地图",
+       "ja": "地図",
+       "en": "map"
+      }
+     },
+     {
+      "w": "jam dinding",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "挂钟",
+       "ja": "壁掛け時計",
+       "en": "wall clock"
+      }
+     },
+     {
+      "w": "rak buku",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "书架",
+       "ja": "本棚",
+       "en": "bookshelf"
+      }
+     },
+     {
+      "w": "lampu",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "灯",
+       "ja": "電灯",
+       "en": "lamp, light"
+      }
+     },
+     {
+      "w": "tirai",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "窗帘",
+       "ja": "カーテン",
+       "en": "curtain"
+      }
+     },
+     {
+      "w": "kalender",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "日历",
+       "ja": "カレンダー",
+       "en": "calendar"
+      }
+     },
+     {
+      "w": "foto",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "照片",
+       "ja": "写真",
+       "en": "photo"
+      }
+     },
+     {
+      "w": "gambar",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "图画",
+       "ja": "絵",
+       "en": "picture, drawing"
+      }
+     },
+     {
+      "w": "kacamata",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "眼镜",
+       "ja": "めがね",
+       "en": "glasses"
+      }
+     },
+     {
+      "w": "sepeda",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "自行车",
+       "ja": "自転車",
+       "en": "bicycle"
+      }
+     },
+     {
+      "w": "rumah",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "家，房子",
+       "ja": "家",
+       "en": "house, home"
+      }
+     },
+     {
+      "w": "kampus",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "校园",
+       "ja": "キャンパス",
+       "en": "campus"
+      }
+     },
+     {
+      "w": "adik",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "弟弟妹妹",
+       "ja": "弟・妹",
+       "en": "younger sibling"
+      }
+     },
+     {
+      "w": "punya",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "有，拥有",
+       "ja": "持っている",
+       "en": "to have, to own"
+      }
+     },
+     {
+      "w": "baru",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "新的",
+       "ja": "新しい",
+       "en": "new"
+      }
+     },
+     {
+      "w": "bagus",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "好，好看",
+       "ja": "よい・すてき",
+       "en": "good, nice"
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "这一章的语法",
+     "ja": "この章の文法",
+     "en": "Grammar in this chapter"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "印尼语把「谁的」放在<b>后面</b>：<s>buku saya</s>（我的书）、<s>tas teman</s>（朋友的包）。人称代词还能缩成后缀 —— <s>bukuku</s>（我的书）、<s>bukumu</s>（你的书）、<s>bukunya</s>（他的书）。中文、日文、英文都是「谁的」在前，这是全班共通的坑。",
+       "ja": "インドネシア語は「だれの」を<b>後ろ</b>に置きます：<s>buku saya</s>（わたしの本）、<s>tas teman</s>（友だちのかばん）。人称代名詞は接尾辞にもなります —— <s>bukuku</s>（わたしの本）、<s>bukumu</s>（あなたの本）、<s>bukunya</s>（かれの本）。日本語・中国語・英語はどれも「だれの」が前なので、みんながつまずくところです。",
+       "en": "Indonesian puts the owner <b>after</b> the thing: <s>buku saya</s> (my book), <s>tas teman</s> (a friend’s bag). Pronouns can also contract into a suffix — <s>bukuku</s> (my book), <s>bukumu</s> (your book), <s>bukunya</s> (his book). English, Chinese and Japanese all put the owner first, which is why this trips everyone up."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "说话对象要看清",
+     "ja": "相手によって使い分け",
+     "en": "Mind who you are talking to"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<b>-ku</b> 和 <b>-mu</b> 是口语说法，对朋友、同学用。对老师、长辈要说 <s>buku saya</s>、<s>buku Anda</s>，别说 <s>bukumu</s>。课本练习用的是正式说法。",
+       "ja": "<b>-ku</b> と <b>-mu</b> はくだけた言い方で、友だちや同級生に使います。先生や目上の人には <s>buku saya</s>・<s>buku Anda</s> と言い、<s>bukumu</s> は使いません。教科書の練習はフォーマルな言い方です。",
+       "en": "<b>-ku</b> and <b>-mu</b> are casual, for friends and classmates. With teachers or elders say <s>buku saya</s> and <s>buku Anda</s>, not <s>bukumu</s>. The book’s exercises use the formal forms."
+      }
+     }
+    ]
+   },
+   {
+    "k": "reviewbtn"
+   }
+  ]
+ ]
+}

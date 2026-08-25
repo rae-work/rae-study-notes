@@ -338,7 +338,10 @@ let cov = null;
 if (speak) {
   const have = new Set(Object.keys(audio.items || {}));
   const need = speak.texts;
-  const miss = need.filter((t) => !have.has(t));
+  // 跟引擎的 audioHash 对齐：句首词首字母大写，查不到就回退小写。
+  // 同一个词不必合成大小写两份（印尼语大小写不改变读音）。
+  const lower = (t) => t.charAt(0).toLowerCase() + t.slice(1);
+  const miss = need.filter((t) => !have.has(t) && !have.has(lower(t)));
   cov = { need: need.length, have: need.length - miss.length, miss };
   if (miss.length) {
     warn(G9, `${miss.length}/${need.length} 条朗读文本还没有音频（跑 npm run tts 补）`);
