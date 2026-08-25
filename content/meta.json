@@ -1,15 +1,15 @@
 {
   "app": {
     "id": "rae-study-notes",
-    "name": "Rae's Study Notes",
+    "name": "Rae's Study Note",
     "brand": [
       "Rae's",
-      "Study Notes"
+      "Study Note"
     ],
     "title": {
-      "zh": "Rae 的学习笔记",
-      "ja": "Rae の学習ノート",
-      "en": "Rae's Study Notes"
+      "zh": "Rae's Study Note",
+      "ja": "Rae's Study Note",
+      "en": "Rae's Study Note"
     },
     "tagline": {
       "zh": "印尼语 · UGM INCULS",

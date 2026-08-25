@@ -1,4 +1,4 @@
-# Rae's Study Notes
+# Rae's Study Note
 
 印尼语学习笔记 App。UGM INCULS《Titian Bahasa Pemula 1》的配套复习工具 ——
 单个离线 HTML，点任意印尼语词或整句都能听发音，附词汇表、复习模式和情景实战题。

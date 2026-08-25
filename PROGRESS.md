@@ -14,7 +14,7 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。单个离线 HTML，
 安卓另打成 APK。三语界面（中文 / 日本語 / English），印尼语点读音频全部
 由 ElevenLabs 合成，教材官方听力音轨从 ugm.id 取回内置。
 
-- 名字：Rae's Study Notes / Rae 的学习笔记 / Rae の学習ノート
+- 名字：Rae's Study Note（三种界面语言下都用这个英文名）
 - 安卓包名 `com.raenotes.app`
 - 产物 `dist/rae-study-notes.html`
 
