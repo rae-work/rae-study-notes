@@ -41,8 +41,14 @@
 - **每次改动的三个出口**：本地预览（给 Rae 看）→ 网站 `docs/` → APK。
   后两个都要等 Rae 点头。
 - 兼容基线：iOS 15 Safari / Android Chrome 100+。可以用现代 CSS（flex gap、CSS 变量、grid）和 ES2020。旧的 iOS 12 限制已作废。
-- `localStorage` 只存三个键：`lang` / `theme` / `accent`。字号和语速不持久。
-  读写失败时静默回退，不影响功能。
+- `localStorage` 统一走 `engine.js` 里的 `STORE`：老三样 `lang` / `theme` / `accent`
+  保持裸键名（线上已有用户存过，改名等于把大家的设置清空一次），新增的一律带
+  `rsn.` 前缀。目前另有 `rsn.pos`（上次读到哪一页 + 滚动位置）和 `rsn.prog`
+  （每个词/题的对错次数）。字号和语速仍不持久。
+  **读写失败一律静默回退**，隐私模式、配额满都不影响功能。
+  ⚠️ iOS Safari 直接开网页时，连续 7 个「使用日」没访问就会被系统清掉存储
+  （加到主屏幕的不会）—— 所以任何进度都只能做成「丢了也不影响使用」的增强，
+  界面上不许拿它当前提。
 
 ## 发布流程（顺序不能颠倒）
 1. **先出网页版**：`npm run validate` → `npm run build` → `npm run preview`，把局域网地址给 Rae。
