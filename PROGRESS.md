@@ -41,11 +41,39 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。单个离线 HTML，
 
 设计稿（两个方向的对比）：https://claude.ai/code/artifact/6a9d12b9-c48e-4f42-8bf8-38ceec047df8
 
+## 线上
+
+- 仓库（公开）https://github.com/rae-work/rae-study-notes
+- 网站　　　　 https://rae-work.github.io/rae-study-notes/
+  （GitHub Pages，从 `main` 分支的 `/docs` 目录发布）
+- 更新网站：`npm run build && npm run site`，然后提交 `docs/` 再 push
+
+⚠️ 本机还有一个 `history-archive-private` 分支，是开源前的完整开发历史，
+里面有签名密钥，**永远不要 push 这个分支**。
+
 ## 下一步
 
 - [ ] **Rae 在手机上试用并确认** ← 卡在这里
+- [ ] **设四个 GitHub Secret**，否则云端打不了 APK（命令见下）
 - [ ] 确认后 `npm run apk` 打第一个 APK
+- [ ] 想用 belajar.rae.work 的话：Cloudflare 加一条 CNAME 记录，
+      然后 `npm run site -- --domain belajar.rae.work` 提交 push
 - [ ] Bab 2 起：Rae 拍照放 `inbox/`，走 `/lesson`
+
+### 设 Secret（一次性，整段复制到终端）
+
+```bash
+cd /Users/rae/ruang-belajar
+export PATH=/opt/homebrew/bin:$PATH
+PW=$(git show "41f2334:android-app/app/build.gradle" | grep 'storePassword' | sed -n "s/.*?:[^']*'\([^']*\)'.*/\1/p" | head -1)
+base64 -i android-app/release.keystore | gh secret set KEYSTORE_BASE64
+printf '%s' "$PW" | gh secret set KEYSTORE_PASSWORD
+printf 'appkey'   | gh secret set KEY_ALIAS
+printf '%s' "$PW" | gh secret set KEY_PASSWORD
+gh secret list
+```
+
+口令从本地存档分支里读出来直接灌进 GitHub，全程不显示在屏幕上。
 
 ## 命令
 
