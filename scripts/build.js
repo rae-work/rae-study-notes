@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** content/ + src/ → dist/belajar.html */
+/** content/ + src/ → dist/<meta.app.id>.html */
 import fs from 'node:fs';
 import path from 'node:path';
 import { P } from './lib/paths.js';

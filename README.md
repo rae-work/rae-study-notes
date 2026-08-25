@@ -9,6 +9,9 @@ One self-contained HTML file: tap any Indonesian word or sentence to hear it,
 plus a searchable glossary, a spaced-review mode and situational drills.
 Interface in Chinese, Japanese and English.
 
+**打开就能用：https://belajar.rae.work** —— 手机浏览器直接开，
+加到主屏幕就是个 App，不用装任何东西。
+
 > 这是一个人的学习笔记，做出来给同班同学一起用的。
 > 欢迎 fork 之后换成你自己的教材内容 —— 下面写了怎么做。
 >
@@ -35,7 +38,8 @@ npm run preview      # 本地起服务，同一个 Wi-Fi 下手机也能打开
 | 命令 | 做什么 |
 | --- | --- |
 | `npm run tts` | 增量合成语音（只补缺的；跑之前会先报条数和预计消耗） |
-| `npm run site` | 生成可托管的 `docs/`（HTML + 音频），用于 GitHub Pages 之类 |
+| `npm run site` | 生成可托管的 `docs/`（HTML + 音频 + `CNAME` + `.nojekyll`，并注入访问统计） |
+| `npm run prepare-assets` | 把产物摆进安卓 `assets/`（云端打包也跑它） |
 | `npm run apk` | 打安卓 APK（GitHub Actions 云端构建） |
 
 ---
@@ -49,7 +53,8 @@ npm run preview      # 本地起服务，同一个 Wi-Fi 下手机也能打开
 | `scripts/` | 校验 / 构建 / 语音 / 预览 / 打包 流水线 |
 | `audio/` | 语音库（按朗读文本的哈希命名，只增不减的缓存） |
 | `dist/` | 构建产物，不进仓库 |
-| `docs/` | 可托管的网站目录，`npm run site` 生成 |
+| `docs/` | 网站产物，`npm run site` 生成。**这个目录要提交**（Pages 从它发布），但不许手改 |
+| `.github/` | 云端打包 APK 的工作流 |
 | `android-app/` | 原生 WebView 外壳，把同一个 HTML 打包成 APK |
 | `.claude/skills/` | 给 Claude Code 用的技能：怎么把课堂材料做成一节课、怎么打包 |
 
@@ -64,7 +69,14 @@ npm run preview      # 本地起服务，同一个 Wi-Fi 下手机也能打开
    `content/drills.json` 换成你的题库。
 2. `content/meta.json` 里改 App 名字、单元的叫法（Bab / Pelajaran / Unit）、
    哪几种语言是必填（`required_langs`）、用哪个 ElevenLabs 声音。
-3. `npm run validate` → `npm run build`。
+3. `content/meta.json` 里还要改：`app.id`（决定产物文件名）、`app.repo`（页脚链接）、
+   `learner`（例句里的国籍映射），并把 **`site.analytics_token` 清空** ——
+   否则访问数据会打到原作者的统计面板。
+4. `npm run validate` → `npm run build`。
+
+想发到自己的域名：`npm run site -- --domain your.domain` → 提交 `docs/` →
+仓库 Settings → Pages 选 `main` / `/docs`；DNS 用 CNAME 指到 `<用户名>.github.io`。
+**如果 DNS 在 Cloudflare，那条记录必须是灰云（DNS only）** —— 橙云会让证书签发失败。
 
 数据格式写在 [`.claude/skills/lesson/references/lesson-spec.md`](.claude/skills/lesson/references/lesson-spec.md)。
 如果你也用 Claude Code，仓库里的 `.claude/skills/lesson/` 是一个现成的技能：

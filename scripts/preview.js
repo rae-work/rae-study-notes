@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 本地预览：起一个静态服务器，同时伺服 dist/belajar.html 和 audio/。
+ * 本地预览：起一个静态服务器，同时伺服 dist/<app.id>.html 和 audio/。
  * 打印本机地址和局域网地址 —— 手机连同一个 Wi-Fi 就能直接打开。
  *
  * 用法：node scripts/preview.js [端口]
@@ -25,7 +25,7 @@ const TYPES = {
 };
 
 if (!fs.existsSync(path.join(P.dist, INDEX))) {
-  console.error('还没有 dist/belajar.html —— 先跑 npm run build');
+  console.error('还没有构建产物 —— 先跑 npm run build');
   process.exit(1);
 }
 

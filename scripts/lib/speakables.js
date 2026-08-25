@@ -63,7 +63,7 @@ export function collectSpeakables(opts = {}) {
       const html = sheet.innerHTML;
       perPage.push({
         page: i,
-        title: w.PAGES[i].lesson,
+        title: w.PAGES[i].lessonName,
         blocks: w.PAGES[i].blocks ? w.PAGES[i].blocks.length : 0,
         says: found.length,
         len: html.length,

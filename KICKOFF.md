@@ -1,3 +1,9 @@
+> ⚠️ **已作废 —— 只作历史背景。**
+> 这份简报描述的是 2026-08 之前的旧 App（Cindy 私教 13 课那版）：
+> 语体开关、三色徽章、发音特训、`dist/belajar.html` 等等，**现在的 App 都没有**。
+> 数据格式看 `.claude/skills/lesson/references/lesson-spec.md`，
+> 现状和流程看 `PROGRESS.md`。
+
 # KICKOFF · 启动简报
 
 > 这份文件由 claude.ai 里的 Claude 写给 Claude Code 里的 Claude。两边不共享记忆，所以这里把前史、已经定下的决定、要做的事全部写清。读完本文件和 `CLAUDE.md`，再按 §8 开始。第一阶段完成后，日常进度以 `PROGRESS.md` 为准，本文件只作背景参考。
