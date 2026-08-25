@@ -835,7 +835,7 @@ function renderQuizSetup(){
   return renderQuizSetup();
 }
 function renderQuizPage(){
-  if(PAGES[cur] && PAGES[cur].review){ sheet.innerHTML = renderQuiz(); }
+  if(PAGES[cur] && PAGES[cur].review){ sheet.innerHTML = renderQuiz(); prefetchPage(); }
 }
 
 /* ============================================================
@@ -1134,7 +1134,7 @@ function drHead(sub){
   return renderDrillSetup();
 }
 function renderDrillPage(){
-  if(PAGES[cur] && PAGES[cur].drill){ sheet.innerHTML = renderDrill(); }
+  if(PAGES[cur] && PAGES[cur].drill){ sheet.innerHTML = renderDrill(); prefetchPage(); }
 }
 
 /* ===== app ===== */
@@ -1188,6 +1188,8 @@ function render(){
   sheet.classList.remove("fade");
   void sheet.offsetWidth;
   sheet.classList.add("fade");
+  /* 这一页的音频后台先抓下来，点词就不用等网络了 */
+  prefetchPage();
 }
 function go(i){
   cur = Math.max(0, Math.min(PAGES.length-1, i));
@@ -1206,7 +1208,64 @@ function go(i){
    都没有时 <audio> 加载失败，自动回退到系统 TTS（见 playBundled）。 */
 var BUNDLE_MAP = AUDIO, BUNDLE_READY = true;
 var bundleAudio = new Audio();
-function bundleSrc(hash){ return "audio/" + hash + ".m4a"; }
+
+/* ============================================================
+   音频预取
+   ------------------------------------------------------------
+   原来每点一个词都现 new Audio(url) 再 play()，等的是一次网络往返 ——
+   手机上点下去到出声有明显停顿。现在进一页就把这页会用到的音频
+   在后台抓成 blob 存住，点的时候直接从内存播，没有网络等待。
+
+   两个前提：
+   · 只在 http(s) 下预取。APK 走 file://，fetch 取不到本地文件，
+     而且本地读盘本来就快，不需要预取。
+   · 缓存有上限，超了按先进先出释放，避免翻几十页之后把内存吃满。
+   ============================================================ */
+var AUDIO_BLOB = {};          /* hash → objectURL */
+var AUDIO_ORDER = [];         /* 进入缓存的顺序，用来淘汰最旧的 */
+var PREFETCH_MAX = 240;       /* 最多存这么多条（一页通常几十条） */
+var PREFETCH_PAR = 4;         /* 并发数，别把移动网络占满 */
+var prefetchQ = [], prefetchBusy = 0;
+var CAN_PREFETCH = /^https?:$/.test(location.protocol) && typeof fetch === "function";
+
+function bundleSrc(hash){ return AUDIO_BLOB[hash] || ("audio/" + hash + ".m4a"); }
+
+function cacheBlob(hash, url){
+  AUDIO_BLOB[hash] = url;
+  AUDIO_ORDER.push(hash);
+  while(AUDIO_ORDER.length > PREFETCH_MAX){
+    var old = AUDIO_ORDER.shift();
+    if(old !== hash && AUDIO_BLOB[old]){
+      try{ URL.revokeObjectURL(AUDIO_BLOB[old]); }catch(e){}
+      delete AUDIO_BLOB[old];
+    }
+  }
+}
+function pumpPrefetch(){
+  while(prefetchBusy < PREFETCH_PAR && prefetchQ.length){
+    var h = prefetchQ.shift();
+    if(AUDIO_BLOB[h]) continue;
+    prefetchBusy++;
+    (function(hash){
+      fetch("audio/" + hash + ".m4a")
+        .then(function(r){ if(!r.ok) throw 0; return r.blob(); })
+        .then(function(b){ cacheBlob(hash, URL.createObjectURL(b)); })
+        ["catch"](function(){ /* 取不到就算了，点的时候还会走网络 */ })
+        ["then"](function(){ prefetchBusy--; pumpPrefetch(); });
+    })(h);
+  }
+}
+/** 把当前页所有可点读的音频排进预取队列。render() 末尾调用。 */
+function prefetchPage(){
+  if(!CAN_PREFETCH || !AUDIO_AVAILABLE || !BUNDLE_MAP) return;
+  var seen = {}, q = [];
+  toArr(sheet.querySelectorAll("[data-say]")).forEach(function(el){
+    var h = BUNDLE_MAP[el.getAttribute("data-say")];
+    if(h && !seen[h] && !AUDIO_BLOB[h]){ seen[h] = 1; q.push(h); }
+  });
+  prefetchQ = q;          /* 换页就丢掉上一页没取完的，优先当前页 */
+  pumpPrefetch();
+}
 
 /* Android WebView 不支持 Web Speech API —— App 外壳注入 window.AndroidTTS 时改走原生 TTS,
    作为「内置音库没有这条」时的兜底。浏览器里 AndroidTTS 不存在,一切照旧。*/
@@ -1305,22 +1364,34 @@ function stopSeq(){
 var AUDIO_AVAILABLE = true;
 function playBundled(hash, rate, el, onDone, text){
   stopSeq();
-  try{ bundleAudio.pause(); }catch(e){}
-  bundleAudio = new Audio(bundleSrc(hash));
-  bundleAudio.playbackRate = rate || 1;
+  /* 复用同一个 <audio>，不要每点一次就 new 一个。
+     iOS Safari 对同时存在的媒体元素有数量上限，一节课点几十下就会
+     堆出几十个孤儿元素，越用越卡。 */
+  var a = bundleAudio;
+  try{ a.pause(); }catch(e){}
+  a.onended = null; a.onerror = null;      /* 清掉上一次的回调，否则会串 */
+  var src = bundleSrc(hash), isBlob = src.indexOf("blob:") === 0;
+  a.src = src;
+  try{ a.currentTime = 0; }catch(e){}
+  a.playbackRate = rate || 1;
   if(el){ speaking = el; el.classList.add("speaking"); }
+  var fired = false;
   function finish(){
+    if(fired) return;
+    fired = true;
     if(el){ el.classList.remove("speaking"); if(speaking === el) speaking = null; }
     if(onDone) onDone();
   }
-  bundleAudio.onended = finish;
-  /* 网页版没带 audio/ 目录时不该变哑巴：退回系统语音 */
-  bundleAudio.onerror = function(){
-    AUDIO_AVAILABLE = false;
+  a.onended = finish;
+  /* 加载失败：这一条退回系统语音。
+     只有「从网络取都失败」才认为整个 audio/ 目录不存在、全局关掉内置音库；
+     blob 取不到只是这一条的问题（缓存被回收之类），不该把整库judge成没有。 */
+  a.onerror = function(){
+    if(!isBlob) AUDIO_AVAILABLE = false;
     finish();
     if(text) ttsOnly(text, el, rate);
   };
-  var p = bundleAudio.play();
+  var p = a.play();
   if(p && p["catch"]) p["catch"](finish);
 }
 function speak(text, el, r){
@@ -1358,8 +1429,10 @@ function speakSeq(parts, gap, el){
     if(i >= parts.length){ done(); return; }
     var pt = parts[i++];
     if(AUDIO_AVAILABLE && BUNDLE_READY && BUNDLE_MAP && BUNDLE_MAP[pt.t]){
-      bundleAudio.pause();
-      bundleAudio = new Audio(bundleSrc(BUNDLE_MAP[pt.t]));
+      try{ bundleAudio.pause(); }catch(e){}
+      bundleAudio.onended = null; bundleAudio.onerror = null;
+      bundleAudio.src = bundleSrc(BUNDLE_MAP[pt.t]);
+      try{ bundleAudio.currentTime = 0; }catch(e){}
       bundleAudio.playbackRate = pt.rate || 1;
       var fired1 = false;
       var advance1 = function(){ if(fired1) return; fired1 = true; seqTimer = setTimeout(step, gap); };
@@ -1428,8 +1501,10 @@ function playCompare(card, w){
     }, 350);
   }
   if(AUDIO_AVAILABLE && BUNDLE_READY && BUNDLE_MAP && BUNDLE_MAP[w]){
-    bundleAudio.pause();
-    bundleAudio = new Audio(bundleSrc(BUNDLE_MAP[w]));
+    try{ bundleAudio.pause(); }catch(e){}
+    bundleAudio.onended = null; bundleAudio.onerror = null;
+    bundleAudio.src = bundleSrc(BUNDLE_MAP[w]);
+    try{ bundleAudio.currentTime = 0; }catch(e){}
     bundleAudio.playbackRate = 1;
     var fired0 = false;
     var adv0 = function(){ if(fired0) return; fired0 = true; playMine(); };

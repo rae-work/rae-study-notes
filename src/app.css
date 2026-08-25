@@ -30,7 +30,8 @@
     --ease:cubic-bezier(.4,0,.2,1);
     --t-fast:.18s;          /* hover、点亮 */
     --t-mid:.26s;           /* 卡片、按钮状态 */
-    --t-slow:.34s;          /* 抽屉、弹层、翻页 */
+    --t-slow:.34s;          /* 抽屉、弹层 */
+    --t-page:.2s;           /* 翻页淡入。这个要快 —— 慢了就是「卡」而不是「柔」 */
 
     --rs:17px; --maxw:760px;
 
@@ -212,7 +213,7 @@
 
   /* 页头：标题与页码同一行 */
   .phead{margin-bottom:24px}
-  .eyebrow{font-family:var(--ui);font-size:.7em;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-ink);font-weight:700}
+  .eyebrow{font-size:.7em;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-ink);font-weight:700}
   .ptitle-row{display:flex;align-items:baseline;gap:14px;margin:.3em 0 .12em}
   .ptitle{font-size:2em;line-height:1.2;font-weight:700;letter-spacing:-.01em;margin:0;flex:1 1 auto;min-width:0}
   .ptitle-sub{color:var(--ink-soft);font-size:.9em;line-height:1.55;margin-top:7px}
@@ -238,7 +239,7 @@
 
   .pattern{display:flex;align-items:center;flex-wrap:wrap;gap:4px 10px;background:var(--accent-wash);
     border:0;border-radius:var(--r-sm);padding:11px 14px;margin:4px 0 12px}
-  .pattern .plab{font-family:var(--ui);font-size:.66em;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);font-weight:700}
+  .pattern .plab{font-size:.66em;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);font-weight:700}
   .pattern code{font-family:var(--serif);font-weight:600;font-size:1em}
   .pattern code b{color:var(--accent-ink)}
   .pattern .pnote{color:var(--ink-soft);font-size:.82em}
@@ -294,7 +295,7 @@
   .pic .zh{font-size:.76em;color:var(--ink-soft)}
 
   .numgrp{margin:14px 0}
-  .numgrp .glab{font-family:var(--ui);font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:700;margin-bottom:6px}
+  .numgrp .glab{font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:700;margin-bottom:6px}
   .nums{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:6px}
   .nb{display:flex;align-items:baseline;flex-wrap:wrap;gap:0 8px;border:1px solid var(--line);
     border-radius:var(--r-md);padding:8px 11px;background:transparent;min-width:0}
@@ -307,7 +308,7 @@
 
   .ladder{border-left:2px solid var(--accent);padding-left:16px;margin:8px 0;display:flex;flex-direction:column;gap:9px}
   .ladder .step{display:flex;align-items:baseline;gap:10px}
-  .ladder .lvl{font-family:var(--ui);font-size:.72em;color:var(--ink-soft);min-width:64px}
+  .ladder .lvl{font-size:.72em;color:var(--ink-soft);min-width:64px}
   .currency{display:flex;align-items:center;gap:12px;background:var(--accent-wash);border:0;border-radius:var(--r-md);padding:13px 15px;margin-top:8px}
   .currency .rp{font-family:var(--ui);background:var(--accent);color:var(--on-accent);font-weight:700;border-radius:var(--r-sm);padding:6px 12px;font-variant-numeric:tabular-nums}
 
@@ -315,7 +316,7 @@
   .note{background:var(--accent-wash);border:0;border-radius:var(--r-md);padding:15px 17px;margin:20px 0}
   /* green 只是「提示/目标」这一类，用中性底色区分，不引入第三种颜色 */
   .note.green{background:var(--surface)}
-  .note .tag{font-family:var(--ui);display:inline-block;font-size:.68em;letter-spacing:.14em;text-transform:uppercase;
+  .note .tag{display:inline-block;font-size:.68em;letter-spacing:.14em;text-transform:uppercase;
     font-weight:700;color:var(--accent-ink);margin-bottom:8px}
   .note.green .tag{color:var(--ink-soft)}
   .note p{margin:.4em 0;line-height:1.7}
@@ -368,13 +369,13 @@
   .ggloss .en{font-style:italic}
   .gex{display:flex;align-items:baseline;gap:8px;border-top:1px solid var(--line);padding-top:9px}
   .gex .gloss{color:var(--ink-soft);font-size:.8em;display:block;margin-top:2px}
-  .gempty{font-family:var(--ui);display:none;color:var(--ink-soft);text-align:center;padding:26px 0;font-size:.92em}
-  .gmore{font-family:var(--ui);display:none;text-align:center;color:var(--ink-soft);font-size:.86em;padding:14px 0}
+  .gempty{display:none;color:var(--ink-soft);text-align:center;padding:26px 0;font-size:.92em}
+  .gmore{display:none;text-align:center;color:var(--ink-soft);font-size:.86em;padding:14px 0}
   .glist .ans.masked{filter:none;color:transparent;background:var(--accent-wash)}
   .glist .ans.masked *{color:transparent}
 
   /* ===== 复习 / 实战 ===== */
-  .qz-secttl{font-family:var(--ui);font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:700;margin:20px 0 8px}
+  .qz-secttl{font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:700;margin:20px 0 8px}
   .qz-chips{display:flex;flex-wrap:wrap;gap:8px}
   .qz-start{display:block;width:100%;max-width:360px;margin:26px auto 6px;padding:16px 18px;min-height:52px;
     background:var(--accent);color:var(--on-accent);font-weight:700;font-size:16px;border:0;border-radius:var(--r-md);cursor:pointer;
@@ -385,7 +386,7 @@
   .qz-toast{color:var(--accent-ink);font-weight:700}
   .qz-bar{height:2px;background:var(--line);border-radius:99px;overflow:hidden;margin:12px 0 26px}
   .qz-bar i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width var(--t-slow) var(--ease)}
-  .qz-type{font-family:var(--ui);font-size:.7em;letter-spacing:.2em;color:var(--accent-ink);font-weight:700;text-transform:uppercase}
+  .qz-type{font-size:.7em;letter-spacing:.2em;color:var(--accent-ink);font-weight:700;text-transform:uppercase}
   .qz-prompt{font-size:1.6em;font-weight:700;margin:.35em 0 .7em;line-height:1.35}
   .qz-prompt .sub{display:block;font-size:.5em;color:var(--ink-soft);font-weight:500;margin-top:9px;line-height:1.6}
   .qz-audio{display:inline-flex;align-items:center;gap:9px;font-family:var(--ui);font-size:15px;font-weight:600;color:var(--accent-ink);
@@ -408,7 +409,7 @@
   .qz-next{margin-top:16px;padding:14px 28px;min-height:48px;background:var(--accent);color:var(--on-accent);font-weight:700;
     border:0;border-radius:var(--r-sm);font-size:15px;cursor:pointer;font-family:var(--ui);transition:background var(--t-mid) var(--ease),color var(--t-mid) var(--ease)}
   .qz-done{text-align:center;padding:8px 0}
-  .qz-pct{font-family:var(--ui);font-size:3em;font-weight:700;color:var(--accent-ink);line-height:1.15}
+  .qz-pct{font-size:3em;font-weight:700;color:var(--accent-ink);line-height:1.15}
   .qz-line{color:var(--ink-soft);margin:6px 0 4px}
   .qz-wlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:16px 0;text-align:left}
   .qz-acts{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
@@ -417,7 +418,7 @@
 
   /* 实战问答 */
   .dr-big{font-size:2.4em;font-weight:700;letter-spacing:.01em;line-height:1.2;margin:.2em 0 .1em}
-  .dr-cue{font-family:var(--ui);display:inline-block;background:var(--accent-wash);color:var(--accent-ink);font-weight:600;
+  .dr-cue{display:inline-block;background:var(--accent-wash);color:var(--accent-ink);font-weight:600;
     font-size:.92em;border-radius:var(--r-sm);padding:9px 14px;margin:6px 0 4px}
   .dr-q{font-size:1.4em;font-weight:700;line-height:1.4;margin:.3em 0 .1em}
 
@@ -478,11 +479,11 @@
     color:var(--on-accent);background:var(--accent);border:0;border-radius:999px;padding:12px 20px;min-height:44px;cursor:pointer;white-space:nowrap;
     transition:background var(--t-mid) var(--ease),opacity var(--t-mid) var(--ease)}
   .lis-play svg{width:16px;height:16px;flex:0 0 auto}
-  .lis-meta{font-family:var(--ui);font-size:.84em;color:var(--ink-soft)}
+  .lis-meta{font-size:.84em;color:var(--ink-soft)}
   .lis-bar{height:3px;border-radius:2px;background:var(--line);margin:14px 0 0;overflow:hidden}
   .lis-bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .18s linear}
   .lis-note{margin:11px 0 0;font-size:.88em;color:var(--ink-soft);line-height:1.7}
-  .lis-src{font-family:var(--ui);margin-top:9px;font-size:.7em;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint)}
+  .lis-src{margin-top:9px;font-size:.7em;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint)}
 
   /* ===== 语法表格 ===== */
   .tblwrap{margin:18px 0;overflow-x:auto;-webkit-overflow-scrolling:touch;
@@ -493,7 +494,7 @@
      collapse 状态下 overflow:hidden 裁不出圆角。 */
   table.tbl{border-collapse:separate;border-spacing:0;width:100%;min-width:460px;font-size:.92em;
     border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden}
-  table.tbl th{background:var(--accent-wash);color:var(--accent-ink);font-weight:700;font-family:var(--ui);font-size:.9em;
+  table.tbl th{background:var(--accent-wash);color:var(--accent-ink);font-weight:700;font-size:.95em;
     text-align:left;padding:11px 12px;border:0;border-bottom:1px solid var(--line);border-right:1px solid var(--line-soft);white-space:nowrap}
   table.tbl td{padding:11px 12px;border:0;border-bottom:1px solid var(--line-soft);border-right:1px solid var(--line-soft);
     vertical-align:top;line-height:1.9}
@@ -501,7 +502,7 @@
   table.tbl tr:last-child td{border-bottom:0}
   table.tbl td:first-child{color:var(--ink-soft);font-size:.9em;line-height:1.6;min-width:8.5em}
   table.tbl td .say{margin-right:2px}
-  .rbadge{font-family:var(--ui);display:inline-block;font-size:.6em;font-weight:600;letter-spacing:.04em;
+  .rbadge{display:inline-block;font-size:.6em;font-weight:600;letter-spacing:.04em;
     padding:2px 7px;border-radius:999px;margin:0 0 0 5px;vertical-align:middle;white-space:nowrap}
   .rbadge.f{background:var(--accent-wash);color:var(--accent-ink)}
   .rbadge.c{background:var(--warn-wash);color:var(--ink-soft)}
@@ -533,8 +534,8 @@
   /* ===== 翻页淡入 =====
      #sheet 这个元素本身不换，只换 innerHTML，所以动画不会自动重播。
      engine.js 的 render() 会摘掉再加回 .fade 触发重排来重新播放。 */
-  @keyframes pageIn{ from{opacity:0;transform:translateY(7px)} to{opacity:1;transform:none} }
-  .sheet.fade{animation:pageIn var(--t-slow) var(--ease)}
+  @keyframes pageIn{ from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:none} }
+  .sheet.fade{animation:pageIn var(--t-page) var(--ease)}
 
   /* 日语界面：把明朝体提到宋体之前 */
   html[lang="ja"] body{
