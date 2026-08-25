@@ -176,8 +176,13 @@
 
   /* 设置弹层：默认收起，点 ⚙ 展开，点别处 / Esc 收起。
      不用 display:none —— 那样没法做淡入淡出，改用 visibility + opacity。 */
+  /* 面板本身可能比屏幕还高 —— 横屏、小屏、或者字号调大之后都会。
+     加了「学习记录」那一格之后更容易顶出去，而它恰好在最底下。
+     超出就让面板自己滚，不要把内容切掉。 */
   .ctrls{display:flex;position:absolute;top:calc(100% + 6px);right:12px;z-index:60;
     flex-direction:column;gap:14px;min-width:246px;
+    max-height:calc(100vh - var(--hdr-h, 56px) - 26px);
+    overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
     background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);
     padding:16px 17px;box-shadow:0 18px 40px -22px rgba(0,0,0,.4);
     transform-origin:top right;transform:scale(.97) translateY(-6px);
