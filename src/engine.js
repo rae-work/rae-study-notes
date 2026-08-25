@@ -268,6 +268,12 @@ function applyStaticText(){
   toArr(document.querySelectorAll("[data-t-aria]")).forEach(function(el){
     el.setAttribute("aria-label", T(el.getAttribute("data-t-aria")));
   });
+  /* 「最后更新 2026-08-26」—— 日期由构建注入，这里只套当前语言的说法 */
+  var upd = document.querySelector(".foot-updated");
+  if(upd){
+    if(!upd.getAttribute("data-date")) upd.setAttribute("data-date", upd.textContent.trim());
+    upd.textContent = T("footer.updated", upd.getAttribute("data-date"));
+  }
   document.getElementById("bannerTxt").innerHTML = T("banner.no_voice");
   document.getElementById("maskTxt").textContent = masked ? T("nav.mask_hidden") : T("nav.mask_shown");
   document.getElementById("brandZh").textContent = L(CONTENT.meta.app.tagline);

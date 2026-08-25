@@ -30,6 +30,18 @@ export function buildHtml(opts = {}) {
     BRAND_A: esc(brand[0]),
     BRAND_B: esc(brand[1] || ''),
     BUILD_VERSION: meta.app.version,
+    // 页脚的「最后更新」。用构建当天的日期，不带时分 —— 精确到分钟对
+    // 学习者没有意义，反而每次构建都在变。
+    // 取本地日期而不是 toISOString（那是 UTC）：在日惹是 UTC+7，
+    // 凌晨构建会显示成前一天。
+    BUILD_DATE: (() => {
+      const d = new Date();
+      const p = (n) => String(n).padStart(2, '0');
+      return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+    })(),
+    // 版本历史（CHANGELOG）的地址。仓库是公开的，<a href> 不加载任何东西，
+    // 离线版照样能用（点了才需要网络）。
+    CHANGELOG_URL: esc(meta.app.repo ? meta.app.repo + '/blob/main/CHANGELOG.md' : ''),
     REPO_URL: esc(meta.app.repo || ''),
     ICON_B64: icon,
     TITLE: esc(meta.app.title[lang] || meta.app.title.zh || meta.app.name),

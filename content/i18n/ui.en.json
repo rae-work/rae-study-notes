@@ -178,11 +178,13 @@
   },
   "footer": {
     "tagline": "Indonesian study notes · UGM INCULS “Titian Bahasa Pemula 1”",
-    "source": "Source on GitHub",
-    "license": "Lesson content is adapted from the textbook and remains the copyright of its authors; it is here for personal study only.",
-    "author": "Made by Rae, written with Claude Code",
-    "feedback": "Found a bug or want a feature? Open an issue on GitHub",
-    "privacy": "This site counts visits with Cloudflare — no cookies, no personal data"
+    "source": "Source code",
+    "changelog": "Changelog",
+    "updated": "Last updated {0}",
+    "license": "The source code is released under the MIT licence. Lesson content is adapted from the textbook above and remains the copyright of its original authors; it is provided here for personal study only.",
+    "author": "Written by Rae · Developed with Claude Code",
+    "feedback": "Please report issues and feature requests via GitHub Issues.",
+    "privacy": "This site uses Cloudflare Web Analytics to count visits. It sets no cookies and collects no personal data."
   },
   "prog": {
     "label": "Progress",

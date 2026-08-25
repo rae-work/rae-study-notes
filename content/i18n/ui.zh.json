@@ -178,11 +178,13 @@
   },
   "footer": {
     "tagline": "印尼语学习笔记 · UGM INCULS《Titian Bahasa Pemula 1》",
-    "source": "源码在 GitHub",
-    "license": "代码 MIT 许可。课程内容整理自教材，版权属原作者，仅供个人学习。",
-    "author": "Rae 做的，用 Claude Code 写的",
-    "feedback": "有 bug 或想加功能，欢迎去 GitHub 提 issue",
-    "privacy": "本站用 Cloudflare 统计访问量，不使用 cookie、不收集个人信息"
+    "source": "源代码",
+    "changelog": "更新记录",
+    "updated": "最后更新 {0}",
+    "license": "代码以 MIT 许可发布。课程内容整理自上述教材，著作权归原作者所有，本站仅供个人学习使用。",
+    "author": "编写：Rae · 开发协助：Claude Code",
+    "feedback": "问题反馈与功能建议请提交至 GitHub Issues。",
+    "privacy": "本站使用 Cloudflare Web Analytics 统计访问量，不使用 cookie，不收集个人信息。"
   },
   "prog": {
     "label": "学习记录",

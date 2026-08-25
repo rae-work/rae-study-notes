@@ -178,11 +178,13 @@
   },
   "footer": {
     "tagline": "インドネシア語の学習ノート · UGM INCULS『Titian Bahasa Pemula 1』",
-    "source": "GitHub のソースコード",
-    "license": "学習内容は教材をもとにまとめたもので、著作権は原著者にあります。個人の学習のためだけに使ってください。",
-    "author": "Rae が Claude Code で作りました",
-    "feedback": "不具合や要望は GitHub の issue へどうぞ",
-    "privacy": "このサイトは Cloudflare でアクセス数を数えています。cookie は使わず、個人情報も集めません。"
+    "source": "ソースコード",
+    "changelog": "更新履歴",
+    "updated": "最終更新 {0}",
+    "license": "ソースコードは MIT ライセンスで公開しています。学習内容は上記教材にもとづいてまとめたもので、著作権は原著者に帰属します。個人の学習目的にのみご利用ください。",
+    "author": "制作：Rae · 開発協力：Claude Code",
+    "feedback": "不具合のご報告・ご要望は GitHub Issues までお寄せください。",
+    "privacy": "本サイトはアクセス数の集計に Cloudflare Web Analytics を使用しています。cookie は使用せず、個人情報の収集も行いません。"
   },
   "prog": {
     "label": "学習の記録",
