@@ -85,8 +85,6 @@ git add -A && git commit -m "更新网站" && git push
 - [ ] **Rae 在手机上试用并确认**
 - [x] 四个 GitHub Secret 已设好，云端打包可用
 - [ ] 确认后 `npm run apk` 打第一个 APK
-- [ ] 想用 belajar.rae.work 的话：Cloudflare 加一条 CNAME 记录，
-      然后 `npm run site -- --domain belajar.rae.work` 提交 push
 - [ ] Bab 2 起：Rae 拍照放 `inbox/`，走 `/lesson`
 
 ### 设 Secret（一次性，整段复制到终端）
@@ -133,7 +131,7 @@ npm run apk          # 打包安卓（要 Rae 先确认过网页版）
 ### 语音
 - [x] 声音 Yetty `Lpe7uP03WRpCk9XkpFnf`，模型 `eleven_multilingual_v2`（**不传 language_code**）
 - [x] 转码 AAC 64k / 32 kHz 单声道
-- [x] 音库 2239 条（这一版用到 391 条）
+- [x] 音库 2259 条（这一版用到 414 条）
 - [x] 账号 starter 档 40,000 字符/月
 
 ### 签名（踩过的坑，已修两轮）
