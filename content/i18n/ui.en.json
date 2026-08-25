@@ -61,7 +61,7 @@
     "table_informal": "informal"
   },
   "page": {
-    "review_name": "Review · Latihan",
+    "review_name": "Review",
     "review_title": "Self-review · questions generated for you",
     "drill_name": "Practice · Situasi",
     "drill_title": "Situational Q&A · randomised",
@@ -79,7 +79,7 @@
     "empty": "No matching word — try a different search."
   },
   "review": {
-    "eyebrow": "Latihan · Review",
+    "eyebrow": "Review",
     "h1": "Review mode",
     "setup_sub": "Questions generated · tap to answer · missed words come back",
     "lead": "The questions follow three ordinary principles: recalling rather than re-reading, mixing units together instead of drilling them in blocks, and showing the answer at once so the word can come round again. A wrong answer costs nothing — you just see the word once more.",

@@ -637,6 +637,40 @@
               "sampai",
               "jumpa"
             ]
+          },
+          {
+            "who": "Ziah",
+            "id": "Sampai jumpa!",
+            "reg": "formal",
+            "alt": null,
+            "alt_gloss": null,
+            "kw": [
+              "sampai",
+              "jumpa"
+            ],
+            "gloss": {
+              "zh": "回头见！",
+              "ja": "では、また！",
+              "en": "See you!"
+            }
+          }
+        ]
+      },
+      {
+        "k": "note",
+        "tone": "amber",
+        "tag": {
+          "zh": "笔误修正",
+          "ja": "誤植の訂正",
+          "en": "Typo fixed"
+        },
+        "lines": [
+          {
+            "text": {
+              "zh": "课本第 3 页对话的最后一行，说话人印成了 Sanggi —— 但 Sanggi 上一句已经说过「Sampai jumpa!」了，按场景应该是 Ziah 在道别（课本这一行的前引号也漏印了）。这里改成 Ziah。",
+              "ja": "教科書 3 ページの会話の最終行は、話し手が Sanggi と印刷されています。しかし Sanggi は直前の行ですでに「Sampai jumpa!」と言っているので、場面から見て別れを告げているのは Ziah です（この行は開き括弧も抜けています）。ここでは Ziah に直しました。",
+              "en": "On page 3 the last line of the dialogue is attributed to Sanggi — but Sanggi has already said “Sampai jumpa!” in the line before, so the person taking leave here should be Ziah (the book also drops the opening quotation mark on that line). Corrected to Ziah here."
+            }
           }
         ]
       },
@@ -678,7 +712,7 @@
       },
       {
         "k": "sec",
-        "num": "①",
+        "num": "",
         "word": "Salam",
         "reg": "neutral",
         "gloss": {
@@ -821,7 +855,7 @@
       },
       {
         "k": "sec",
-        "num": "②",
+        "num": "",
         "word": "Sapaan",
         "reg": "neutral",
         "gloss": {
@@ -930,7 +964,134 @@
       },
       {
         "k": "sec",
-        "num": "③",
+        "num": "",
+        "word": "Perkenalan",
+        "reg": "neutral",
+        "gloss": {
+          "zh": "自我介绍",
+          "ja": "自己紹介",
+          "en": "introducing yourself"
+        }
+      },
+      {
+        "k": "examples",
+        "items": [
+          {
+            "id": "Nama saya Ziah.",
+            "reg": "formal",
+            "alt": null,
+            "alt_gloss": null,
+            "kw": [
+              "nama",
+              "saya"
+            ],
+            "gloss": {
+              "zh": "我叫 Ziah。",
+              "ja": "わたしの名前は Ziah です。",
+              "en": "My name is Ziah."
+            }
+          },
+          {
+            "id": "Saya dari Korea.",
+            "reg": "formal",
+            "alt": null,
+            "alt_gloss": null,
+            "kw": [
+              "dari"
+            ],
+            "gloss": {
+              "zh": "我从韩国来。",
+              "ja": "韓国から来ました。",
+              "en": "I'm from Korea."
+            }
+          },
+          {
+            "id": "Saya mahasiswa UGM.",
+            "reg": "formal",
+            "alt": null,
+            "alt_gloss": null,
+            "kw": [
+              "mahasiswa"
+            ],
+            "gloss": {
+              "zh": "我是 UGM 的学生。",
+              "ja": "わたしは UGM の学生です。",
+              "en": "I'm a UGM student."
+            }
+          },
+          {
+            "id": "Saya tinggal di Jalan Kaliurang.",
+            "reg": "formal",
+            "alt": null,
+            "alt_gloss": null,
+            "kw": [
+              "tinggal",
+              "di"
+            ],
+            "gloss": {
+              "zh": "我住在 Kaliurang 路。",
+              "ja": "カリウラン通りに住んでいます。",
+              "en": "I live on Jalan Kaliurang."
+            }
+          }
+        ]
+      },
+      {
+        "k": "rule",
+        "short": true
+      },
+      {
+        "k": "sec",
+        "num": "",
+        "word": "Perjumpaan",
+        "reg": "neutral",
+        "gloss": {
+          "zh": "初次见面",
+          "ja": "初対面",
+          "en": "meeting someone"
+        }
+      },
+      {
+        "k": "examples",
+        "items": [
+          {
+            "id": "Senang bertemu Anda.",
+            "reg": "formal",
+            "alt": null,
+            "alt_gloss": null,
+            "kw": [
+              "senang",
+              "bertemu"
+            ],
+            "gloss": {
+              "zh": "很高兴见到您。",
+              "ja": "お会いできてうれしいです。",
+              "en": "Pleased to meet you."
+            }
+          },
+          {
+            "id": "Selamat datang.",
+            "reg": "formal",
+            "alt": null,
+            "gloss": {
+              "zh": "欢迎。",
+              "ja": "ようこそ。",
+              "en": "Welcome."
+            },
+            "alt_gloss": null,
+            "kw": [
+              "datang"
+            ]
+          }
+        ]
+      },
+      {
+        "k": "rule",
+        "short": true
+      },
+      {
+        "k": "sec",
+        "num": "",
         "word": "Perpisahan",
         "reg": "neutral",
         "gloss": {
@@ -998,20 +1159,6 @@
             "kw": [
               "hati-hati",
               "jalan"
-            ]
-          },
-          {
-            "id": "Selamat datang.",
-            "reg": "formal",
-            "alt": null,
-            "gloss": {
-              "zh": "欢迎。",
-              "ja": "ようこそ。",
-              "en": "Welcome."
-            },
-            "alt_gloss": null,
-            "kw": [
-              "datang"
             ]
           },
           {
@@ -1567,7 +1714,7 @@
               }
             },
             {
-              "id": "dia",
+              "id": "ia",
               "reg": "formal"
             },
             {
@@ -1578,7 +1725,7 @@
           [
             "",
             {
-              "id": "ia",
+              "id": "dia",
               "reg": "formal"
             },
             {
@@ -1588,9 +1735,9 @@
           ]
         ],
         "note": {
-          "zh": "教材还列了 <b>beliau</b>（第三人称的敬语，用于长辈、老师、地位高的人）和 <b>Saudara</b>（书面正式的「您」）。课本没给 beliau 标语体，其实它比 dia 更敬。",
-          "ja": "教科書には <b>beliau</b>（三人称の敬語。目上の人・先生・地位のある人に使う）と <b>Saudara</b>（文語的でフォーマルな「あなた」）も挙がっています。教科書は beliau に語体の印をつけていませんが、実際には dia より敬意の高い語です。",
-          "en": "The book also lists <b>beliau</b> (a respectful third person, for elders, teachers and people of standing) and <b>Saudara</b> (a formal, written «you»). The book leaves beliau unmarked, though it is in fact more deferential than dia."
+          "zh": "教材还列了 <b>beliau</b>（第三人称的敬语，用于长辈、老师、地位高的人）和 <b>Saudara</b>（书面正式的「您」），以及三个带 <b>sekalian</b> 的强调复数：<b>kita sekalian</b>、<b>Saudara-saudara</b>／<b>Saudara sekalian</b>、<b>mereka sekalian</b>（都相当于「各位／全体」，正式场合才用）。课本没给 beliau 标语体，其实它比 dia 更敬。",
+          "ja": "教科書にはほかに <b>beliau</b>（三人称の敬語。目上の人・先生などに使います）と <b>Saudara</b>（書きことばの「あなた」）、それに <b>sekalian</b> のついた強調の複数形 <b>kita sekalian</b>・<b>Saudara-saudara</b>／<b>Saudara sekalian</b>・<b>mereka sekalian</b>（いずれも「みなさん／全員」にあたり、あらたまった場面で使います）も挙げられています。教科書は beliau に語体の印をつけていませんが、実際には dia より敬意が高い語です。",
+          "en": "The book also lists <b>beliau</b> (the respectful third person, used for elders, teachers and people of standing) and <b>Saudara</b> (a formal written “you”), plus three emphatic plurals formed with <b>sekalian</b>: <b>kita sekalian</b>, <b>Saudara-saudara</b> / <b>Saudara sekalian</b> and <b>mereka sekalian</b> (all meaning roughly “all of you / everyone”, for formal occasions). The book gives beliau no register mark, though it is more deferential than dia."
         }
       },
       {

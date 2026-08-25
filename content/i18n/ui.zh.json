@@ -61,7 +61,7 @@
     "table_informal": "口语"
   },
   "page": {
-    "review_name": "复习 · Latihan",
+    "review_name": "复习 · Review",
     "review_title": "自助复习（自动出题）",
     "drill_name": "实战 · Situasi",
     "drill_title": "情景问答 · 随机出题",
@@ -79,7 +79,7 @@
     "empty": "没有匹配的词 —— 换个关键词试试？"
   },
   "review": {
-    "eyebrow": "Latihan · 复习",
+    "eyebrow": "Review · 复习",
     "h1": "复习模式",
     "setup_sub": "自动出题 · 点选作答 · 错词重练",
     "lead": "出题方式按三种常见的做法安排：做题回想（比重读更容易记住）、把不同单元打乱混出、答错立刻给反馈并在本轮里再出一次。答错不扣分，只是多见一次。",
