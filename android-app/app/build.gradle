@@ -1,0 +1,48 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.raenotes.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.raenotes.app"
+        minSdk 21                              // Android 5.0 及以上
+        targetSdk 34
+        versionCode 1                          // ← scripts/apk.sh 自动 +1，别手改
+        versionName "1.0"                      // ← 同上
+    }
+
+    signingConfigs {
+        release {
+            // 必须一直用同一把 release.keystore，否则老版本无法覆盖安装。
+            // 之前这里写的是 signingConfigs.debug —— GitHub Actions 每跑一次
+            // 生成一把新的 debug 密钥，等于每次出的 APK 签名都不一样。
+            //
+            // 密钥文件和口令都不进仓库：
+            //   本机   android-app/release.keystore（已 gitignore，别删）
+            //   云端   GitHub Secrets 的 KEYSTORE_BASE64 / KEYSTORE_PASSWORD / KEY_ALIAS / KEY_PASSWORD
+            // 这里不留任何默认口令 —— 缺了就直接报错，不要静默用一把错的密钥签名。
+            storeFile file('../release.keystore')
+            storePassword System.getenv('KEYSTORE_PASSWORD')
+            keyAlias      System.getenv('KEY_ALIAS')
+            keyPassword   System.getenv('KEY_PASSWORD')
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    // 音频已经是 AAC，再压一遍只会变大
+    androidResources {
+        noCompress 'm4a'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

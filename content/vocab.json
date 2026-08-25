@@ -1,0 +1,366 @@
+[
+ { "w": "selamat", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "平安 · 祝（用在问候语开头）", "ja": "無事な · おめでとう（あいさつの頭に置く）", "en": "safe, well (opens a greeting)" },
+   "pos": "adj", "ex": "Selamat pagi.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "早上好。", "ja": "おはようございます。", "en": "Good morning." }, "note": null },
+
+ { "w": "pagi", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "早上（天亮到 11 点）", "ja": "朝（夜明けから 11 時ごろ）", "en": "morning (dawn to about 11)" },
+   "pos": "n", "ex": "Selamat pagi.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "早上好。", "ja": "おはようございます。", "en": "Good morning." }, "note": null },
+
+ { "w": "siang", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "中午（11 点到 3 点）", "ja": "昼（11 時から 3 時ごろ）", "en": "midday (about 11 to 3)" },
+   "pos": "n", "ex": "Selamat siang.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "中午好。", "ja": "こんにちは。", "en": "Good day." }, "note": null },
+
+ { "w": "sore", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "下午（3 点到天黑）", "ja": "夕方（3 時から日暮れまで）", "en": "late afternoon (3 until dark)" },
+   "pos": "n", "ex": "Selamat sore.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "下午好。", "ja": "こんにちは。", "en": "Good afternoon." }, "note": null },
+
+ { "w": "malam", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "晚上（天黑以后）", "ja": "夜（日が暮れてから）", "en": "evening, night (after dark)" },
+   "pos": "n", "ex": "Selamat malam.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "晚上好。", "ja": "こんばんは。", "en": "Good evening." }, "note": null },
+
+ { "w": "halo", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "你好（随时可用，较随意）", "ja": "やあ（時間を選ばない、くだけた言い方）", "en": "hello (any time, casual)" },
+   "pos": "interj", "ex": "Halo!", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "你好！", "ja": "やあ。", "en": "Hello!" }, "note": null },
+
+ { "w": "kabar", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "消息 · 近况", "ja": "たより · ようす", "en": "news, how things are" },
+   "pos": "n", "ex": "Apa kabar?", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "你好吗？", "ja": "お元気ですか。", "en": "How are you?" }, "note": null },
+
+ { "w": "baik", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "好 · 挺好", "ja": "よい · 元気だ", "en": "good, fine" },
+   "pos": "adj", "ex": "Baik, terima kasih.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "挺好，谢谢。", "ja": "元気です、ありがとうございます。", "en": "Fine, thank you." }, "note": null },
+
+ { "w": "nama", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "名字", "ja": "名前", "en": "name" },
+   "pos": "n", "ex": "Nama saya Sarah.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我叫 Sarah。", "ja": "わたしは Sarah です。", "en": "My name is Sarah." }, "note": null },
+
+ { "w": "saya", "les": 1, "reg": "formal", "pair": "aku",
+   "gloss": { "zh": "我（正式）", "ja": "わたし（フォーマル）", "en": "I, me (formal)" },
+   "pos": "pron", "ex": "Saya mahasiswa.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我是大学生。", "ja": "わたしは大学生です。", "en": "I'm a student." }, "note": null },
+
+ { "w": "aku", "les": 1, "reg": "casual", "pair": "saya",
+   "gloss": { "zh": "我（口语）", "ja": "わたし・ぼく（くだけた言い方）", "en": "I, me (informal)" },
+   "pos": "pron", "ex": "Aku mahasiswa.", "ex_reg": "casual",
+   "ex_gloss": { "zh": "我是大学生。", "ja": "ぼくは大学生だ。", "en": "I'm a student." }, "note": null },
+
+ { "w": "Anda", "les": 1, "reg": "formal", "pair": "kamu",
+   "gloss": { "zh": "您（正式，永远大写）", "ja": "あなた（フォーマル、つねに大文字）", "en": "you (formal, always capitalised)" },
+   "pos": "pron", "ex": "Siapa nama Anda?", "ex_reg": "formal",
+   "ex_gloss": { "zh": "您叫什么名字？", "ja": "お名前は何ですか。", "en": "What is your name?" }, "note": null },
+
+ { "w": "kamu", "les": 1, "reg": "casual", "pair": "Anda",
+   "gloss": { "zh": "你（口语）", "ja": "きみ（くだけた言い方）", "en": "you (informal)" },
+   "pos": "pron", "ex": "Siapa nama kamu?", "ex_reg": "casual",
+   "ex_gloss": { "zh": "你叫什么名字？", "ja": "名前は何。", "en": "What's your name?" }, "note": null },
+
+ { "w": "dia", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "他 · 她（不分性别）", "ja": "かれ · かのじょ（性別を区別しない）", "en": "he, she (no gender distinction)" },
+   "pos": "pron", "ex": "Dia teman saya.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "他是我朋友。", "ja": "かれはわたしの友だちです。", "en": "He's my friend." }, "note": null },
+
+ { "w": "ia", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "他 · 她（偏书面）", "ja": "かれ · かのじょ（文語寄り）", "en": "he, she (more literary)" },
+   "pos": "pron", "ex": "Ia mahasiswa UGM.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "他是 UGM 的学生。", "ja": "かれは UGM の学生です。", "en": "He's a student at UGM." }, "note": null },
+
+ { "w": "beliau", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "他 · 她（敬语，用于长辈老师）", "ja": "あのかた（敬語。目上の人や先生に）", "en": "he, she (respectful, for elders and teachers)" },
+   "pos": "pron", "ex": "Beliau guru saya.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "他是我老师。", "ja": "あのかたはわたしの先生です。", "en": "He is my teacher." }, "note": null },
+
+ { "w": "kami", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "我们（不包括听话的人）", "ja": "わたしたち（聞き手を含まない）", "en": "we (not including you)" },
+   "pos": "pron", "ex": "Kami mahasiswa UGM.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我们是 UGM 的学生。", "ja": "わたしたちは UGM の学生です。", "en": "We're students at UGM." },
+   "note": { "zh": "对着不属于这个「我们」的人说时用 kami。", "ja": "その「わたしたち」に入っていない相手に話すときは kami。", "en": "Use kami when the person you're addressing is not part of the «we»." } },
+
+ { "w": "kita", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "我们（包括听话的人）", "ja": "わたしたち（聞き手を含む）", "en": "we (including you)" },
+   "pos": "pron", "ex": "Kita belajar bersama.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我们一起学。", "ja": "いっしょに勉強しましょう。", "en": "Let's study together." },
+   "note": { "zh": "把对方也算进来的时候用 kita。", "ja": "相手も含めるときは kita。", "en": "Use kita when you are counting the listener in." } },
+
+ { "w": "kalian", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "你们", "ja": "あなたがた · きみたち", "en": "you (plural)" },
+   "pos": "pron", "ex": "Kalian mahasiswa baru.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "你们是新生。", "ja": "あなたがたは新入生です。", "en": "You're the new students." }, "note": null },
+
+ { "w": "mereka", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "他们 · 她们", "ja": "かれら · かのじょら", "en": "they" },
+   "pos": "pron", "ex": "Mereka dari Sumatra.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "他们从苏门答腊来。", "ja": "かれらはスマトラから来ました。", "en": "They're from Sumatra." }, "note": null },
+
+ { "w": "siapa", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "谁（问名字也用它）", "ja": "だれ（名前を尋ねるときもこれ）", "en": "who (also used to ask names)" },
+   "pos": "pron", "ex": "Itu siapa?", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "那是谁？", "ja": "あの人はだれですか。", "en": "Who is that?" }, "note": null },
+
+ { "w": "apa", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "什么", "ja": "何", "en": "what" },
+   "pos": "pron", "ex": "Apa ini?", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "这是什么？", "ja": "これは何ですか。", "en": "What is this?" }, "note": null },
+
+ { "w": "apakah", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "是不是 · 吗（是非问句）", "ja": "〜ですか（はい／いいえで答える質問）", "en": "yes/no question marker" },
+   "pos": "part", "ex": "Apakah Anda mahasiswa?", "ex_reg": "formal",
+   "ex_gloss": { "zh": "您是大学生吗？", "ja": "あなたは大学生ですか。", "en": "Are you a student?" }, "note": null },
+
+ { "w": "mana", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "哪里（和 di / dari / ke 连用）", "ja": "どこ（di / dari / ke と組む）", "en": "where (used with di / dari / ke)" },
+   "pos": "pron", "ex": "Anda dari mana?", "ex_reg": "formal",
+   "ex_gloss": { "zh": "您从哪儿来？", "ja": "どちらから来ましたか。", "en": "Where are you from?" }, "note": null },
+
+ { "w": "di", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "在（位置）", "ja": "〜に · 〜で（場所）", "en": "at, in (location)" },
+   "pos": "prep", "ex": "Saya tinggal di Yogyakarta.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我住在日惹。", "ja": "ジョグジャカルタに住んでいます。", "en": "I live in Yogyakarta." }, "note": null },
+
+ { "w": "dari", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "从 · 来自（来源）", "ja": "〜から（出どころ）", "en": "from (origin)" },
+   "pos": "prep", "ex": "Saya dari Cina.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我从中国来。", "ja": "中国から来ました。", "en": "I'm from China." }, "note": null },
+
+ { "w": "ke", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "去 · 到（方向）", "ja": "〜へ（方向）", "en": "to (direction)" },
+   "pos": "prep", "ex": "Saya datang ke Yogyakarta.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我来到日惹。", "ja": "ジョグジャカルタに来ました。", "en": "I came to Yogyakarta." }, "note": null },
+
+ { "w": "tinggal", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "住 · 居住", "ja": "住む", "en": "to live, to stay" },
+   "pos": "v", "ex": "Dia tinggal di Jakarta.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "他住在雅加达。", "ja": "かれはジャカルタに住んでいます。", "en": "He lives in Jakarta." }, "note": null },
+
+ { "w": "belajar", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "学习", "ja": "勉強する · 学ぶ", "en": "to study, to learn" },
+   "pos": "v", "ex": "Saya belajar bahasa Indonesia.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我学印尼语。", "ja": "インドネシア語を勉強しています。", "en": "I study Indonesian." }, "note": null },
+
+ { "w": "bahasa", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "语言", "ja": "ことば · 言語", "en": "language" },
+   "pos": "n", "ex": "Bahasa Indonesia mudah.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "印尼语不难。", "ja": "インドネシア語はやさしいです。", "en": "Indonesian is easy." }, "note": null },
+
+ { "w": "mahasiswa", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "大学生", "ja": "大学生", "en": "university student" },
+   "pos": "n", "ex": "Saya mahasiswa UGM.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我是 UGM 的学生。", "ja": "わたしは UGM の学生です。", "en": "I'm a student at UGM." }, "note": null },
+
+ { "w": "universitas", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "大学", "ja": "大学", "en": "university" },
+   "pos": "n", "ex": "UGM universitas di Yogyakarta.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "UGM 是日惹的大学。", "ja": "UGM はジョグジャカルタの大学です。", "en": "UGM is a university in Yogyakarta." }, "note": null },
+
+ { "w": "guru", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "老师（中小学）", "ja": "先生（小中高）", "en": "teacher (school)" },
+   "pos": "n", "ex": "Beliau guru saya.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "他是我老师。", "ja": "あのかたはわたしの先生です。", "en": "He is my teacher." },
+   "note": { "zh": "大学老师是 dosen，不是 guru。", "ja": "大学の先生は dosen で、guru とは言いません。", "en": "A university lecturer is a dosen, not a guru." } },
+
+ { "w": "teman", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "朋友", "ja": "友だち", "en": "friend" },
+   "pos": "n", "ex": "Ini teman saya.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "这是我朋友。", "ja": "こちらはわたしの友だちです。", "en": "This is my friend." }, "note": null },
+
+ { "w": "orang", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "人（接国名表示国籍）", "ja": "人（国名につけて出身を表す）", "en": "person (before a country: nationality)" },
+   "pos": "n", "ex": "Saya orang Cina.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我是中国人。", "ja": "わたしは中国人です。", "en": "I'm Chinese." }, "note": null },
+
+ { "w": "ini", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "这 · 这个", "ja": "これ · この", "en": "this" },
+   "pos": "pron", "ex": "Apa ini?", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "这是什么？", "ja": "これは何ですか。", "en": "What is this?" }, "note": null },
+
+ { "w": "itu", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "那 · 那个", "ja": "それ · あれ · その", "en": "that" },
+   "pos": "pron", "ex": "Itu Zach.", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "那是 Zach。", "ja": "あれは Zach です。", "en": "That's Zach." }, "note": null },
+
+ { "w": "ya", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "是 · 对", "ja": "はい", "en": "yes" },
+   "pos": "part", "ex": "Ya, saya mahasiswa.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "是，我是大学生。", "ja": "はい、大学生です。", "en": "Yes, I'm a student." }, "note": null },
+
+ { "w": "bukan", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "不是（否定名词）", "ja": "〜ではない（名詞を否定）", "en": "not (negates nouns)" },
+   "pos": "part", "ex": "Bukan, saya orang Cina.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "不是，我是中国人。", "ja": "いいえ、わたしは中国人です。", "en": "No, I'm Chinese." },
+   "note": { "zh": "否定动词和形容词要用 tidak。", "ja": "動詞・形容詞を否定するときは tidak を使う。", "en": "Verbs and adjectives take tidak instead." } },
+
+ { "w": "senang", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "高兴 · 喜欢", "ja": "うれしい · 楽しい", "en": "glad, pleased" },
+   "pos": "adj", "ex": "Senang bertemu Anda.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "很高兴见到您。", "ja": "お会いできてうれしいです。", "en": "Nice to meet you." }, "note": null },
+
+ { "w": "bertemu", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "见面 · 遇到", "ja": "会う", "en": "to meet" },
+   "pos": "v", "ex": "Senang bertemu Anda.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "很高兴见到您。", "ja": "お会いできてうれしいです。", "en": "Nice to meet you." }, "note": null },
+
+ { "w": "jumpa", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "会面（用在 sampai jumpa 里）", "ja": "会うこと（sampai jumpa で使う）", "en": "meeting (as in sampai jumpa)" },
+   "pos": "v", "ex": "Sampai jumpa!", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "回头见！", "ja": "またね。", "en": "See you!" }, "note": null },
+
+ { "w": "sampai", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "到 · 直到", "ja": "〜まで", "en": "until, up to" },
+   "pos": "prep", "ex": "Sampai nanti!", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "待会儿见！", "ja": "また後で。", "en": "See you later!" }, "note": null },
+
+ { "w": "datang", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "来 · 到来", "ja": "来る", "en": "to come" },
+   "pos": "v", "ex": "Selamat datang.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "欢迎。", "ja": "ようこそ。", "en": "Welcome." }, "note": null },
+
+ { "w": "terima kasih", "les": 1, "reg": "formal", "pair": "makasih",
+   "gloss": { "zh": "谢谢", "ja": "ありがとうございます", "en": "thank you" },
+   "pos": "interj", "ex": "Terima kasih, Pak.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "谢谢您。", "ja": "ありがとうございます。", "en": "Thank you, sir." }, "note": null },
+
+ { "w": "sama-sama", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "不客气", "ja": "どういたしまして", "en": "you're welcome" },
+   "pos": "interj", "ex": "Sama-sama.", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "不客气。", "ja": "どういたしまして。", "en": "You're welcome." }, "note": null },
+
+ { "w": "maaf", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "对不起 · 不好意思", "ja": "すみません · ごめんなさい", "en": "sorry, excuse me" },
+   "pos": "interj", "ex": "Maaf, saya akan masuk kelas.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "不好意思，我要去上课了。", "ja": "すみません、これから授業に入ります。", "en": "Sorry, I'm about to go to class." }, "note": null },
+
+ { "w": "kelas", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "课 · 教室", "ja": "授業 · 教室", "en": "class, classroom" },
+   "pos": "n", "ex": "Saya masuk kelas.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我去上课。", "ja": "授業に入ります。", "en": "I'm going to class." }, "note": null },
+
+ { "w": "masuk", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "进 · 进入", "ja": "入る", "en": "to enter, to go in" },
+   "pos": "v", "ex": "Saya masuk kelas.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我去上课。", "ja": "授業に入ります。", "en": "I'm going to class." }, "note": null },
+
+ { "w": "akan", "les": 1, "reg": "formal", "pair": "mau",
+   "gloss": { "zh": "将要（表将来）", "ja": "〜するつもりだ（未来を表す）", "en": "will, going to" },
+   "pos": "aux", "ex": "Saya akan masuk kelas.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我要去上课了。", "ja": "これから授業に入ります。", "en": "I'm about to go to class." }, "note": null },
+
+ { "w": "jalan", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "路 · 街（地址里的「路」）", "ja": "道 · 通り（住所の「通り」）", "en": "street, road (in addresses)" },
+   "pos": "n", "ex": "Saya tinggal di Jalan Kaliurang.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我住在 Kaliurang 路。", "ja": "Kaliurang 通りに住んでいます。", "en": "I live on Jalan Kaliurang." }, "note": null },
+
+ { "w": "kota", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "城市", "ja": "町 · 都市", "en": "city, town" },
+   "pos": "n", "ex": "Saya dari Kota Kobe.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我从神户市来。", "ja": "神戸市から来ました。", "en": "I'm from the city of Kobe." }, "note": null },
+
+ { "w": "nomor", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "号 · 号码", "ja": "番号 · 番地", "en": "number" },
+   "pos": "n", "ex": "Jalan Kaliurang Nomor 8.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "Kaliurang 路 8 号。", "ja": "Kaliurang 通り 8 番地。", "en": "8 Jalan Kaliurang." }, "note": null },
+
+ { "w": "sekarang", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "现在", "ja": "いま", "en": "now" },
+   "pos": "adv", "ex": "Saya sekarang tinggal di Yogyakarta.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我现在住在日惹。", "ja": "いまはジョグジャカルタに住んでいます。", "en": "I now live in Yogyakarta." }, "note": null },
+
+ { "w": "minggu", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "星期 · 周", "ja": "週", "en": "week" },
+   "pos": "n", "ex": "Saya datang dua minggu lalu.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我两周前来的。", "ja": "二週間前に来ました。", "en": "I came two weeks ago." },
+   "note": { "zh": "大写的 Minggu 是「星期日」，小写的 minggu 是「一周」。", "ja": "大文字の Minggu は「日曜日」、小文字の minggu は「週」。", "en": "Capitalised Minggu means Sunday; lower-case minggu means a week." } },
+
+ { "w": "lalu", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "以前（放在时间后面）", "ja": "〜前（時間の後ろに置く）", "en": "ago (follows the time expression)" },
+   "pos": "adv", "ex": "Dua minggu lalu.", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "两周前。", "ja": "二週間前。", "en": "Two weeks ago." }, "note": null },
+
+ { "w": "suka", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "喜欢", "ja": "好きだ", "en": "to like" },
+   "pos": "v", "ex": "Saya suka makan bakso.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我喜欢吃肉丸汤。", "ja": "バッソを食べるのが好きです。", "en": "I like eating bakso." }, "note": null },
+
+ { "w": "makan", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "吃", "ja": "食べる", "en": "to eat" },
+   "pos": "v", "ex": "Saya suka makan nasi goreng.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我喜欢吃炒饭。", "ja": "ナシゴレンを食べるのが好きです。", "en": "I like eating nasi goreng." }, "note": null },
+
+ { "w": "minum", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "喝", "ja": "飲む", "en": "to drink" },
+   "pos": "v", "ex": "Saya suka minum teh.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我喜欢喝茶。", "ja": "お茶を飲むのが好きです。", "en": "I like drinking tea." }, "note": null },
+
+ { "w": "lahir", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "出生", "ja": "生まれる", "en": "to be born" },
+   "pos": "v", "ex": "Saya lahir di Kudus.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我生在库杜斯。", "ja": "クドゥスで生まれました。", "en": "I was born in Kudus." }, "note": null },
+
+ { "w": "alamat", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "地址", "ja": "住所", "en": "address" },
+   "pos": "n", "ex": "Apa alamat Anda?", "ex_reg": "formal",
+   "ex_gloss": { "zh": "您的地址是什么？", "ja": "ご住所はどちらですか。", "en": "What is your address?" }, "note": null },
+
+ { "w": "agama", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "宗教", "ja": "宗教", "en": "religion" },
+   "pos": "n", "ex": "Agama saya Islam.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我信伊斯兰教。", "ja": "宗教はイスラム教です。", "en": "My religion is Islam." }, "note": null },
+
+ { "w": "pekerjaan", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "职业 · 工作", "ja": "職業 · 仕事", "en": "occupation, job" },
+   "pos": "n", "ex": "Apa pekerjaan Anda?", "ex_reg": "formal",
+   "ex_gloss": { "zh": "您做什么工作？", "ja": "お仕事は何ですか。", "en": "What is your job?" }, "note": null },
+
+ { "w": "warga", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "公民 · 居民", "ja": "国民 · 住民", "en": "citizen, resident" },
+   "pos": "n", "ex": "Saya warga Indonesia.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我是印尼公民。", "ja": "インドネシア国民です。", "en": "I'm an Indonesian citizen." }, "note": null },
+
+ { "w": "Bapak", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "先生（对年长男性的尊称）", "ja": "〜さん（年上の男性への敬称）", "en": "Sir, Mr (respectful, older man)" },
+   "pos": "n", "ex": "Selamat pagi, Pak.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "早上好，先生。", "ja": "おはようございます。", "en": "Good morning, sir." }, "note": null },
+
+ { "w": "Ibu", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "女士（对年长女性的尊称）", "ja": "〜さん（年上の女性への敬称）", "en": "Madam, Mrs (respectful, older woman)" },
+   "pos": "n", "ex": "Selamat pagi, Bu.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "早上好，女士。", "ja": "おはようございます。", "en": "Good morning, madam." }, "note": null },
+
+ { "w": "Mas", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "哥（对同辈或稍长男性）", "ja": "〜さん（同年代か少し年上の男性）", "en": "elder brother (peer or slightly older man)" },
+   "pos": "n", "ex": "Mas Sanggi dari Korea.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "Sanggi 兄从韩国来。", "ja": "Sanggi さんは韓国から来ました。", "en": "Mas Sanggi is from Korea." }, "note": null },
+
+ { "w": "Mbak", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "姐（对同辈或稍长女性）", "ja": "〜さん（同年代か少し年上の女性）", "en": "elder sister (peer or slightly older woman)" },
+   "pos": "n", "ex": "Mbak Ziah orang Indonesia.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "Ziah 姐是印尼人。", "ja": "Ziah さんはインドネシア人です。", "en": "Mbak Ziah is Indonesian." }, "note": null },
+
+ { "w": "Saudara", "les": 1, "reg": "formal", "pair": null,
+   "gloss": { "zh": "阁下 · 您（正式书面）", "ja": "〜氏 · あなた（文語的でフォーマル）", "en": "you, sir (formal, written)" },
+   "pos": "n", "ex": "Saudara dari mana?", "ex_reg": "formal",
+   "ex_gloss": { "zh": "您从哪儿来？", "ja": "どちらからいらっしゃいましたか。", "en": "Where are you from?" }, "note": null },
+
+ { "w": "buku", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "书", "ja": "本", "en": "book" },
+   "pos": "n", "ex": "Ini buku.", "ex_reg": "neutral",
+   "ex_gloss": { "zh": "这是一本书。", "ja": "これは本です。", "en": "This is a book." }, "note": null },
+
+ { "w": "tahun", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "年 · 岁", "ja": "年 · 歳", "en": "year; years old" },
+   "pos": "n", "ex": "Saya dua puluh tahun.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "我二十岁。", "ja": "わたしは 20 歳です。", "en": "I'm twenty." }, "note": null },
+
+ { "w": "kenalkan", "les": 1, "reg": "neutral", "pair": null,
+   "gloss": { "zh": "介绍一下（开场用）", "ja": "紹介します（切り出すときに）", "en": "let me introduce (opening phrase)" },
+   "pos": "v", "ex": "Kenalkan, ini teman saya.", "ex_reg": "formal",
+   "ex_gloss": { "zh": "介绍一下，这是我朋友。", "ja": "紹介します、こちらはわたしの友だちです。", "en": "Let me introduce my friend." }, "note": null }
+]

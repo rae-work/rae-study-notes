@@ -1,0 +1,23 @@
+{
+  "name": "ruang-belajar",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "印尼语离线学习 App —— 内容在 content/，构建产物是单文件 dist/belajar.html",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "extract": "node scripts/extract-legacy.js",
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "tts": "node scripts/tts.js",
+    "preview": "node scripts/preview.js",
+    "site": "node scripts/site.js",
+    "apk": "bash scripts/apk.sh",
+    "prepare-assets": "node scripts/prepare-assets.js"
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.1"
+  }
+}

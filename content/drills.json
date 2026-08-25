@@ -1,0 +1,169 @@
+{
+ "situasi": [
+  {
+   "q": "Siapa nama Anda?",
+   "q_reg": "formal",
+   "hint": { "zh": "说你叫 Sarah", "ja": "Sarah だと答える", "en": "say your name is Sarah" },
+   "a": "Nama saya Sarah.",
+   "a_reg": "formal",
+   "alts": ["Siapa nama Sarah.", "Nama Anda Sarah.", "Saya nama Sarah."]
+  },
+  {
+   "q": "Anda dari mana?",
+   "q_reg": "formal",
+   "hint": { "zh": "我从中国来", "ja": "中国から来た", "en": "I'm from China" },
+   "a": "Saya dari Cina.",
+   "a_reg": "formal",
+   "alts": ["Saya di Cina.", "Saya ke Cina.", "Dari saya Cina."]
+  },
+  {
+   "q": "Di mana Anda tinggal?",
+   "q_reg": "formal",
+   "hint": { "zh": "我住在日惹", "ja": "ジョグジャカルタに住んでいる", "en": "I live in Yogyakarta" },
+   "a": "Saya tinggal di Yogyakarta.",
+   "a_reg": "formal",
+   "alts": ["Saya tinggal ke Yogyakarta.", "Saya tinggal dari Yogyakarta.", "Saya di tinggal Yogyakarta."]
+  },
+  {
+   "q": "Anda belajar apa?",
+   "q_reg": "formal",
+   "hint": { "zh": "我学印尼语", "ja": "インドネシア語を勉強している", "en": "I study Indonesian" },
+   "a": "Saya belajar bahasa Indonesia.",
+   "a_reg": "formal",
+   "alts": ["Saya belajar Indonesia bahasa.", "Saya bahasa belajar Indonesia.", "Belajar saya bahasa Indonesia."]
+  },
+  {
+   "q": "Apakah Anda mahasiswa UGM?",
+   "q_reg": "formal",
+   "hint": { "zh": "是，我是 UGM 的学生", "ja": "はい、UGM の学生です", "en": "yes, I'm a UGM student" },
+   "a": "Ya, saya mahasiswa UGM.",
+   "a_reg": "formal",
+   "alts": ["Bukan, saya mahasiswa UGM.", "Ya, saya bukan mahasiswa UGM.", "Ya, mahasiswa saya UGM."]
+  },
+  {
+   "q": "Apakah Anda orang Indonesia?",
+   "q_reg": "formal",
+   "hint": { "zh": "不是，我是中国人", "ja": "いいえ、中国人です", "en": "no, I'm Chinese" },
+   "a": "Bukan, saya orang Cina.",
+   "a_reg": "formal",
+   "alts": ["Tidak, saya orang Cina.", "Bukan, saya tidak orang Cina.", "Ya, saya orang Cina."]
+  },
+  {
+   "q": "Itu siapa?",
+   "q_reg": "neutral",
+   "hint": { "zh": "那是 Zach", "ja": "あれは Zach です", "en": "that's Zach" },
+   "a": "Itu Zach.",
+   "a_reg": "neutral",
+   "alts": ["Itu apa Zach.", "Siapa itu Zach.", "Zach itu siapa."]
+  },
+  {
+   "q": "Apa ini?",
+   "q_reg": "neutral",
+   "hint": { "zh": "这是一本书", "ja": "これは本です", "en": "this is a book" },
+   "a": "Ini buku.",
+   "a_reg": "neutral",
+   "alts": ["Ini siapa buku.", "Apa ini buku.", "Buku apa ini."]
+  },
+  {
+   "q": "Apa kabar?",
+   "q_reg": "neutral",
+   "hint": { "zh": "挺好，谢谢", "ja": "元気です、ありがとう", "en": "fine, thank you" },
+   "a": "Baik, terima kasih.",
+   "a_reg": "formal",
+   "alts": ["Bukan, terima kasih.", "Baik, sama-sama.", "Ya, terima kasih."]
+  },
+  {
+   "q": "Selamat pagi.",
+   "q_reg": "formal",
+   "hint": { "zh": "回一句早上好", "ja": "おはようございますと返す", "en": "return the greeting" },
+   "a": "Selamat pagi.",
+   "a_reg": "formal",
+   "alts": ["Selamat malam.", "Selamat datang.", "Sampai jumpa."]
+  },
+  {
+   "q": "Terima kasih.",
+   "q_reg": "formal",
+   "hint": { "zh": "说不客气", "ja": "どういたしましてと返す", "en": "say you're welcome" },
+   "a": "Sama-sama.",
+   "a_reg": "neutral",
+   "alts": ["Terima kasih.", "Selamat datang.", "Apa kabar?"]
+  },
+  {
+   "q": "Senang bertemu Anda.",
+   "q_reg": "formal",
+   "hint": { "zh": "我也很高兴见到你", "ja": "こちらこそ、お会いできてうれしいです", "en": "pleased to meet you too" },
+   "a": "Senang bertemu Anda.",
+   "a_reg": "formal",
+   "alts": ["Selamat bertemu Anda.", "Senang selamat Anda.", "Sampai bertemu Anda."]
+  },
+  {
+   "q": "Saya akan masuk kelas. Sampai jumpa!",
+   "q_reg": "formal",
+   "hint": { "zh": "回一句「回头见」", "ja": "「またね」と返す", "en": "say see you" },
+   "a": "Sampai jumpa!",
+   "a_reg": "neutral",
+   "alts": ["Selamat datang!", "Apa kabar!", "Terima kasih!"]
+  },
+  {
+   "q": "Siapa nama teman Anda?",
+   "q_reg": "formal",
+   "hint": { "zh": "我朋友叫 Rama", "ja": "友だちは Rama です", "en": "my friend is called Rama" },
+   "a": "Nama teman saya Rama.",
+   "a_reg": "formal",
+   "alts": ["Nama saya teman Rama.", "Teman nama saya Rama.", "Siapa teman saya Rama."]
+  },
+  {
+   "q": "Dia dari mana?",
+   "q_reg": "neutral",
+   "hint": { "zh": "他从英国来", "ja": "かれはイギリスから来た", "en": "he's from England" },
+   "a": "Dia dari Inggris.",
+   "a_reg": "formal",
+   "alts": ["Dia di Inggris.", "Dia ke Inggris.", "Dari dia Inggris."]
+  },
+  {
+   "q": "Apakah dia mahasiswa?",
+   "q_reg": "formal",
+   "hint": { "zh": "是，他是大学生", "ja": "はい、大学生です", "en": "yes, he's a student" },
+   "a": "Ya, dia mahasiswa.",
+   "a_reg": "formal",
+   "alts": ["Bukan, dia mahasiswa.", "Ya, dia bukan mahasiswa.", "Ya, mahasiswa dia."]
+  },
+  {
+   "q": "Anda mahasiswa atau guru?",
+   "q_reg": "formal",
+   "hint": { "zh": "我是学生", "ja": "学生です", "en": "I'm a student" },
+   "a": "Saya mahasiswa.",
+   "a_reg": "formal",
+   "alts": ["Saya bukan guru mahasiswa.", "Mahasiswa saya.", "Saya guru mahasiswa."]
+  },
+  {
+   "q": "Selamat datang di Yogyakarta.",
+   "q_reg": "formal",
+   "hint": { "zh": "说声谢谢", "ja": "ありがとうと返す", "en": "say thank you" },
+   "a": "Terima kasih.",
+   "a_reg": "formal",
+   "alts": ["Sama-sama.", "Sampai jumpa.", "Apa kabar?"]
+  }
+ ],
+
+ "tempat": [
+  { "hint": { "zh": "我住在日惹", "ja": "ジョグジャカルタに住んでいます", "en": "I live in Yogyakarta" },
+    "a": "Saya tinggal di Yogyakarta.", "a_reg": "formal" },
+  { "hint": { "zh": "我从韩国来", "ja": "韓国から来ました", "en": "I'm from Korea" },
+    "a": "Saya dari Korea.", "a_reg": "formal" },
+  { "hint": { "zh": "他在 UGM 学习", "ja": "かれは UGM で勉強しています", "en": "he studies at UGM" },
+    "a": "Dia belajar di UGM.", "a_reg": "formal" },
+  { "hint": { "zh": "我住在 Kaliurang 路", "ja": "Kaliurang 通りに住んでいます", "en": "I live on Jalan Kaliurang" },
+    "a": "Saya tinggal di Jalan Kaliurang.", "a_reg": "formal" },
+  { "hint": { "zh": "她从棉兰来", "ja": "かのじょはメダンから来ました", "en": "she's from Medan" },
+    "a": "Dia dari Medan.", "a_reg": "formal" },
+  { "hint": { "zh": "我们在 INCULS 学印尼语", "ja": "わたしたちは INCULS でインドネシア語を勉強しています", "en": "we study Indonesian at INCULS" },
+    "a": "Kami belajar bahasa Indonesia di INCULS.", "a_reg": "formal" },
+  { "hint": { "zh": "他们从苏门答腊来", "ja": "かれらはスマトラから来ました", "en": "they're from Sumatra" },
+    "a": "Mereka dari Sumatra.", "a_reg": "formal" },
+  { "hint": { "zh": "我生在库杜斯", "ja": "クドゥスで生まれました", "en": "I was born in Kudus" },
+    "a": "Saya lahir di Kudus.", "a_reg": "formal" }
+ ],
+
+ "angka_pool": []
+}

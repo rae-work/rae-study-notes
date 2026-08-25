@@ -1,0 +1,47 @@
+# 密钥：永不提交
+.env
+.env.*
+!.env.example
+
+# 安卓签名密钥。文件留在本机（android-app/release.keystore，绝对不能删），
+# 云端打包从 GitHub Secrets 的 KEYSTORE_BASE64 还原。
+# 这把密钥丢了，以后的 APK 就无法覆盖升级旧版本。
+*.keystore
+*.jks
+
+# 构建产物
+dist/
+
+# 依赖
+node_modules/
+
+# Rae 的收件箱（原始照片 / PDF，体积大且不需要版本管理）
+inbox/
+
+# 系统垃圾
+.DS_Store
+**/.DS_Store
+*.log
+
+# 中间产物
+.tmp/
+scripts/.cache/
+
+# 安卓构建产物
+android-app/app/build/
+android-app/build/
+android-app/.gradle/
+*.apk
+!dist/*.apk
+
+# legacy/ 是旧 Ruang Belajar 的归档，只留在本机。
+# 里面还有一份旧的签名密钥副本，不能进仓库。
+# 需要翻旧内容：git show b9a7858 -- content/  或直接看本机的 legacy/ 目录。
+legacy/
+
+# tts.js 的 mp3 中间产物（m4a 才是要提交的）
+audio/.mp3/
+
+# 安卓 assets 是构建产物：index.html 和音频都从 content/ + audio/ 现生成
+# （云端工作流自己跑 scripts/prepare-assets.js，不需要提交进仓库）
+android-app/app/src/main/assets/

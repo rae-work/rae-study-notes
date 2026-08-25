@@ -1,0 +1,236 @@
+{
+  "pairs": [
+    [
+      "udah",
+      "sudah"
+    ],
+    [
+      "gak",
+      "tidak"
+    ],
+    [
+      "nggak",
+      "tidak"
+    ],
+    [
+      "banget",
+      "sekali"
+    ],
+    [
+      "mau",
+      "akan"
+    ],
+    [
+      "gimana",
+      "bagaimana"
+    ],
+    [
+      "kenapa",
+      "mengapa"
+    ],
+    [
+      "berapaan",
+      "berapa"
+    ],
+    [
+      "aku",
+      "saya"
+    ],
+    [
+      "kamu",
+      "Anda"
+    ],
+    [
+      "lagi",
+      "sedang"
+    ],
+    [
+      "gak usah",
+      "tidak perlu"
+    ],
+    [
+      "bikin",
+      "membuat"
+    ],
+    [
+      "ngomong",
+      "berbicara"
+    ],
+    [
+      "kayak",
+      "seperti"
+    ],
+    [
+      "cuma",
+      "hanya"
+    ],
+    [
+      "aja",
+      "saja"
+    ],
+    [
+      "doang",
+      "saja"
+    ],
+    [
+      "pengen",
+      "ingin"
+    ],
+    [
+      "tau",
+      "tahu"
+    ],
+    [
+      "gede",
+      "besar"
+    ],
+    [
+      "duit",
+      "uang"
+    ],
+    [
+      "kalo",
+      "kalau"
+    ],
+    [
+      "gitu",
+      "begitu"
+    ],
+    [
+      "gini",
+      "begini"
+    ],
+    [
+      "ntar",
+      "nanti"
+    ],
+    [
+      "emang",
+      "memang"
+    ],
+    [
+      "gue",
+      "saya"
+    ],
+    [
+      "lu",
+      "Anda"
+    ],
+    [
+      "lo",
+      "Anda"
+    ],
+    [
+      "makasih",
+      "terima kasih"
+    ],
+    [
+      "pake",
+      "pakai"
+    ],
+    [
+      "telor",
+      "telur"
+    ],
+    [
+      "nonton",
+      "menonton"
+    ],
+    [
+      "ngerti",
+      "mengerti"
+    ],
+    [
+      "udahan",
+      "selesai"
+    ],
+    [
+      "sama",
+      "dengan"
+    ]
+  ],
+
+  "safe_swap": [
+    "udah",
+    "gak",
+    "nggak",
+    "gimana",
+    "kenapa",
+    "berapaan",
+    "aku",
+    "kamu",
+    "bikin",
+    "kayak",
+    "cuma",
+    "aja",
+    "doang",
+    "pengen",
+    "tau",
+    "gede",
+    "duit",
+    "kalo",
+    "gitu",
+    "gini",
+    "ntar",
+    "emang",
+    "gue",
+    "lu",
+    "lo",
+    "makasih",
+    "pake",
+    "telor",
+    "banget",
+    "ngomong",
+    "ngerti",
+    "gak usah"
+  ],
+  "unsafe_swap": {
+    "mau": "mau 可以是「想要」也可以表将来；只有表将来时才等于 akan",
+    "lagi": "lagi 可以是「正在」也可以是「再一次」；只有进行时才等于 sedang",
+    "sama": "sama 可以是「和/跟」（=dengan）也可以是「相同」；要看语境",
+    "nonton": "词根 vs me- 前缀要看句子的正式程度，不是一对一替换"
+  },
+  "casual_only": [
+    "sih",
+    "dong",
+    "kok",
+    "deh",
+    "lho",
+    "nih",
+    "tuh",
+    "yuk",
+    "wkwk",
+    "wkwkwk",
+    "anjir",
+    "gapapa"
+  ],
+  "formal_markers": [
+    "saya",
+    "anda",
+    "tidak",
+    "sudah",
+    "akan",
+    "bagaimana",
+    "mengapa",
+    "sangat",
+    "sekali",
+    "sedang",
+    "hanya",
+    "ingin",
+    "membuat",
+    "berbicara",
+    "seperti",
+    "memang",
+    "terima kasih",
+    "tidak perlu",
+    "kalau",
+    "pakai"
+  ],
+  "notes": {
+    "banget": "正式体可用 sekali（同位置，后置）或 sangat（前置）",
+    "sama": "口语里 sama 可代替 dengan（和/跟），但 sama 也是「相同」，替换要看语境",
+    "root_verbs": "口语用词根（baca / beli / nonton），正式体常用 me- 前缀（membaca / membeli / menonton），按需成对",
+    "berapaan": "写作 berapa'an / berapaan 都见得到，App 内统一写 berapaan",
+    "gue_lu": "gue / lu（lo）是雅加达俚语，比 aku / kamu 更随便，对长辈和正式场合不用"
+  }
+}

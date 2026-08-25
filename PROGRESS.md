@@ -1,0 +1,112 @@
+# PROGRESS · 进度日志
+
+> 每次新会话先读这里。`[x]` 已完成，`[ ]` 待做。
+> 长期规则见 `CLAUDE.md`，数据规范见 `.claude/skills/lesson/references/`。
+> `KICKOFF.md` 是第一阶段的启动简报，现在只作背景参考。
+
+**当前状态：UI 改版完成（纸间风格 + 深浅色），网页版已出，等 Rae 在手机上确认。**
+
+---
+
+## 这个 App 是什么
+
+UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。单个离线 HTML，
+安卓另打成 APK。三语界面（中文 / 日本語 / English），印尼语点读音频全部
+由 ElevenLabs 合成，教材官方听力音轨从 ugm.id 取回内置。
+
+- 名字：Rae's Study Notes / Rae 的学习笔记 / Rae の学習ノート
+- 安卓包名 `com.raenotes.app`
+- 产物 `dist/rae-study-notes.html`
+
+## 当前内容
+
+- **Bab 1 Perkenalan**（自我介绍）10 页 · 72 词 · 情景题 18 / 地点题 8
+- 音频 390/390 条（100%），教材听力音轨 1 条
+- 三语 374 个对象，zh / ja / en 全齐
+
+## 设计（2026-08-25 定稿）
+
+「纸间」风格 —— 目标是电子书的阅读感，不是 App 的控件感。
+
+- 底色微灰暖白 `#FAF8F4`（深色 `#211F1C`），不用纯白
+- 正文墨色 `#322F2B`，辅助灰 `#8C867C`，细线 `#E7E2D9`
+- 点缀粉 `#B4566A`（深色 `#D992A0`）—— 只用在图标、强调词、选中态
+- 正文衬线体，行高 1.5–1.7。**安卓通常没有中文衬线，中文会退到黑体，已知限制**
+- 深浅色双主题：跟随系统 + 设置里手动切换，存 localStorage
+- 所有颜色走 CSS 变量，三处定义（`:root` / 媒体查询 / `[data-theme=dark]`）必须同步
+
+页眉只有三个按钮：目录、遮盖答案、设置。
+词汇表 / 复习 / 实战走目录抽屉（那三页本来就在目录里）；
+语言 / 主题 / 语速 / 字号收进设置弹层；「语音来源」默认隐藏。
+
+设计稿（两个方向的对比）：https://claude.ai/code/artifact/6a9d12b9-c48e-4f42-8bf8-38ceec047df8
+
+## 下一步
+
+- [ ] **Rae 在手机上试用并确认** ← 卡在这里
+- [ ] 确认后 `npm run apk` 打第一个 APK
+- [ ] Bab 2 起：Rae 拍照放 `inbox/`，走 `/lesson`
+
+## 命令
+
+```bash
+npm run validate     # 九道关
+npm run build        # → dist/rae-study-notes.html
+npm run preview      # 本地 + 局域网地址，手机能开
+npm run site         # → docs/（可托管：HTML + 音频 + CNAME）
+npm run tts          # 增量合成语音（先报数等确认，--yes 跳过）
+npm run apk          # 打包安卓（要 Rae 先确认过网页版）
+```
+
+⚠️ node / ffmpeg / git / gh 在 `/opt/homebrew/bin`，不在默认 PATH 里，
+脚本已自己加上，手动敲命令时要带 `PATH=/opt/homebrew/bin:$PATH`。
+
+---
+
+## 已完成
+
+### 基础设施
+- [x] `scripts/validate.js` 九道关，含**英文界面渗漏检查**
+- [x] `scripts/build.js` → 单文件离线 HTML，含离线约束自检
+- [x] `scripts/site.js` → `docs/`，用于静态托管
+- [x] `scripts/lib/bundle.js` 「这一版需要哪些音频」，安卓和网站共用
+- [x] `scripts/preview.js` / `scripts/tts.js` / `scripts/apk.sh`
+- [x] `.claude/skills/lesson/` 和 `.claude/skills/apk/`
+
+### 语音
+- [x] 声音 Yetty `Lpe7uP03WRpCk9XkpFnf`，模型 `eleven_multilingual_v2`（**不传 language_code**）
+- [x] 转码 AAC 64k / 32 kHz 单声道
+- [x] 音库 2239 条（这一版用到 391 条）
+- [x] 账号 starter 档 40,000 字符/月
+
+### 签名（踩过的坑，已修两轮）
+- [x] 第一轮：原来 gradle 写的是 `signingConfigs.debug`，每次构建换密钥 → 改成固定的 `release.keystore`
+- [x] 第二轮（开源前）：密钥和口令原来都提交在仓库里 → 现在
+      密钥走 GitHub Secret `KEYSTORE_BASE64`，口令走 Secret，仓库里一个都没有
+- [x] **`android-app/release.keystore` 这个文件绝不能删** —— 丢了以后 APK 无法覆盖升级
+
+---
+
+## 待办 / 待确认
+
+1. **实战里的「几点了 / 数字价格」暂时隐藏** —— `drills.json` 的 `angka_pool` 是空的。
+   教到数字那一章时往里加，题型会自动出现。
+2. **旧 App 的 143 句 alt 音频没合成** —— 给语体开关用的，新 App 还没做这个功能。
+3. **中文衬线在安卓上会退到黑体** —— 系统没有中文宋体，且离线约束禁止 web font。
+   要真的用上宋体只能内嵌字体子集，那要先改 `assertOffline` 的规则。
+
+## 已知的坑
+
+- `eleven_multilingual_v2` **不接受** `language_code`
+- **`@font-face` 被 `assertOffline` 无条件拦截**（`scripts/lib/build.js`），
+  连 base64 内嵌也不行 —— 字体只能用系统栈
+- **页眉里 22 个元素 id 一个都不能删**（`engine.js` 里大量裸取 `getElementById`）。
+  按钮已改成 null 安全的 `on()` 绑定，但 `#brandZh` `#maskTxt` `#bannerTxt`
+  `#counter` `#prevBtn` `#nextBtn` 这些仍是裸取，删了整页白屏
+- 界面上任何写死的文案都要走 `T()`，否则英文界面渗漏检查会拦下来
+  （注意：它只查中日文，写死英文查不出来；属性里的中文也查不出来）
+- 整句朗读用 `sayText()`（保留 `? ! . ,`），逐词点读才用 `clean()`
+- 改任何 `data-say` 的文本（多一个空格都算）会立刻掉音频覆盖率，要重跑 tts
+- 中文 / 日文句内引号用「」
+- **音频不内联**，网页版按相对路径 `audio/<哈希>.m4a` 取。
+  托管时必须把 `docs/audio/` 一起传上去，否则点读全部 404

@@ -1,0 +1,99 @@
+{
+  "app": {
+    "id": "rae-study-notes",
+    "name": "Rae's Study Notes",
+    "brand": [
+      "Rae's",
+      "Study Notes"
+    ],
+    "title": {
+      "zh": "Rae 的学习笔记",
+      "ja": "Rae の学習ノート",
+      "en": "Rae's Study Notes"
+    },
+    "tagline": {
+      "zh": "印尼语 · UGM INCULS",
+      "ja": "インドネシア語 · UGM INCULS",
+      "en": "Bahasa Indonesia · UGM INCULS"
+    },
+    "version": "1.0.0",
+    "unit_label": "Bab",
+    "unit_label_note": "单元在页眉和目录里的叫法。UGM 教材用 Bab，别的教材可能是 Pelajaran / Unit。"
+  },
+  "langs": [
+    "zh",
+    "ja",
+    "en"
+  ],
+  "lang_names": {
+    "zh": "中文",
+    "ja": "日本語",
+    "en": "English"
+  },
+  "default_lang": "zh",
+  "detect_browser_lang": true,
+  "required_langs": [
+    "zh",
+    "ja",
+    "en"
+  ],
+  "required_langs_note": "新 App 三语齐全才算完成。校验不过不许构建。",
+  "target_lang": {
+    "code": "id",
+    "bcp47": "id-ID",
+    "name": "Bahasa Indonesia"
+  },
+  "registers": [
+    "casual",
+    "formal",
+    "neutral"
+  ],
+  "default_register_filter": "all",
+  "voice": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": "Lpe7uP03WRpCk9XkpFnf",
+    "voice_name": "Yetty",
+    "voice_id_note": "Rae 于 2026-08-25 提供。换声音只改这里，tts.js 会自动用新的。",
+    "language_code": null,
+    "language_code_note": "eleven_multilingual_v2 不接受 language_code，传了会 400。不要加。",
+    "voice_settings": {
+      "stability": 0.6,
+      "similarity_boost": 0.75,
+      "use_speaker_boost": true
+    },
+    "concurrency": 3
+  },
+  "audio": {
+    "hash": "md5(utf8(text)).hex[:16]",
+    "ext": ".m4a",
+    "dir": "audio",
+    "transcode": {
+      "codec": "aac",
+      "bitrate": "64k",
+      "sample_rate": 32000,
+      "channels": 1
+    },
+    "transcode_note": "64k/32kHz 是实测拐点。24 kHz 会削掉 ny / sy / c 的高频，不要降。"
+  },
+  "android": {
+    "package": "com.raenotes.app",
+    "package_note": "和旧的 com.ruangbelajar.app 不同，两个 App 可以同时装在手机上。",
+    "version_code": 1,
+    "version_name": "1.0",
+    "assets_audio_dir": "audio",
+    "assets_audio_dir_note": "引擎里网页版和 APK 用同一个相对路径 audio/。",
+    "keystore": {
+      "file": "android-app/release.keystore",
+      "alias": "appkey",
+      "sha256": "84DC35E826BF0C59A6986BCB48C96ECD7672A4CD07E69880055B5D4BC79E1198",
+      "note": "PKCS12，有效期到 2056-07-26。丢了以后 APK 无法覆盖升级。"
+    }
+  },
+  "source": {
+    "book": "INCULS · Titian Bahasa Pemula 1",
+    "org": "Universitas Gadjah Mada · INCULS",
+    "audio_url": "http://ugm.id/audiotitianbahasapemula1",
+    "audio_note": "教材官方听力音轨（每章一个整轨）。逐词逐句的点读音频由 ElevenLabs 合成。"
+  }
+}

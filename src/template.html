@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{HTML_LANG}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="{{APP_NAME}}">
+<meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#211f1c" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta name="generator" content="{{APP_ID}} build {{BUILD_VERSION}}">
+<link rel="apple-touch-icon" href="data:image/png;base64,{{ICON_B64}}">
+<title>{{TITLE}}</title>
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+
+<header id="hdr">
+  <button class="icon-btn menu-btn" id="menuBtn" data-t-aria="nav.toc">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+  </button>
+  <span class="spacer"><span class="brand-zh" id="brandZh"></span></span>
+  <button class="icon-btn" id="maskBtn" data-t-title="nav.mask_title">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="2.6"/></svg>
+    <span class="gbl" id="maskTxt"></span>
+  </button>
+  <button class="icon-btn set-btn" id="setBtn" data-t-aria="nav.settings">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2.2"/><circle cx="9" cy="17" r="2.2"/></svg>
+  </button>
+  <div class="ctrls" id="ctrls">
+    <div class="grp" id="langGrp"><span class="lab" data-t="nav.lang_label"></span>
+      <div class="seg" id="langSeg">{{LANG_BUTTONS}}</div></div>
+    <div class="grp" id="themeGrp"><span class="lab" data-t="nav.theme_label"></span>
+      <div class="seg" id="themeSeg" data-t-title="nav.theme_title">
+        <button data-th="auto" data-t="nav.theme_auto"></button>
+        <button data-th="light" data-t="nav.theme_light"></button>
+        <button data-th="dark" data-t="nav.theme_dark"></button>
+      </div></div>
+    <div class="grp" id="speedGrp"><span class="lab" data-t="nav.speed_label"></span>
+      <div class="seg" id="speedSeg">
+        <button data-rate="0.7" data-t="nav.speed_slow"></button>
+        <button data-rate="0.9" class="on" data-t="nav.speed_mid"></button>
+        <button data-rate="1.0" data-t="nav.speed_fast"></button>
+      </div></div>
+    <div class="grp" id="zoomGrp"><span class="lab" data-t="nav.font_label"></span>
+      <div class="seg" id="zoomSeg" data-t-title="nav.font_title">
+        <button data-z="-1">A−</button><button data-z="0">A</button><button data-z="1">A+</button>
+      </div></div>
+    <div class="grp" id="voiceGrp"><span class="lab" data-t="nav.voice_label"></span>
+      <select class="voice" id="voiceSel" data-t-title="nav.voice_title"></select></div>
+  </div>
+</header>
+
+<div class="banner" id="banner">
+  <span id="bannerTxt"></span>
+</div>
+
+<div class="stage">
+  <nav class="toc" id="toc"></nav>
+  <div class="scrim" id="scrim"></div>
+  <main class="reader" id="reader">
+    <div class="sheet" id="sheet"></div>
+    <nav class="page-nav" id="pageNav">
+      <button class="nav-btn" id="prevBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 6l-6 6 6 6"/></svg>
+        <span data-t="nav.prev"></span>
+      </button>
+      <span class="counter" id="counter"></span>
+      <button class="nav-btn" id="nextBtn">
+        <span data-t="nav.next"></span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6l6 6-6 6"/></svg>
+      </button>
+    </nav>
+  </main>
+</div>
+
+<script>
+/* ── 内容（由 content/ 内联，勿手改）───────────────────────── */
+var CONTENT = {{CONTENT}};
+var AUDIO = {{AUDIO}};
+
+{{ENGINE}}
+</script>
+</body>
+</html>
