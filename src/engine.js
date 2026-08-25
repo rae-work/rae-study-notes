@@ -928,6 +928,7 @@ function qzShow(){
     QZ.curQ = makeQ(QZ.queue[QZ.idx]);
   }
   renderQuizPage();
+  qzSave();
   if(QZ.curQ && QZ.curQ.type === "l") speak(sayText(QZ.curQ.v.w));
 }
 /* 挑这一轮要考的词：上回错的排前面，其次没练过的，练熟的最后。
@@ -980,11 +981,62 @@ function quizAnswer(i){
     speak(sayText(v.w));
     renderQuizPage();
   }
+  qzSave();
 }
 function qzNext(){
   qzAuto.cancel();
   QZ.idx++;
   qzShow();
+}
+
+/* ============================================================
+   练习进行到一半时的存档
+   ------------------------------------------------------------
+   手机浏览器内存吃紧会回收后台页面，切走再切回来就是一次重新加载 ——
+   而整轮练习本来只活在内存里，于是「做到一半突然跳回设置页，也没给结果」。
+   把会话状态存下来，重开接着做。
+
+   队列存的是词（复习）或整道题（实战）。实战的题是现生成的、纯数据，
+   直接存下来恢复后连选项顺序都一样；存不下（超大或写失败）就放弃存档，
+   顶多回到原来的行为，不会更糟。
+   ============================================================ */
+var SESS_MAX = 120000;         /* 存档上限，超了就不存 —— 别把配额吃光 */
+
+function qzSave(){
+  if(QZ.phase !== "q" || !QZ.queue.length){ STORE.del("quiz"); return; }
+  var s = {
+    v: 1, q: QZ.queue.map(function(v){ return v.w; }),
+    i: QZ.idx, r: QZ.right, a: QZ.answered, plan: QZ.plan,
+    w: QZ.wrongUniq.map(function(v){ return v.w; }),
+    rep: QZ.rep, l5: QZ.last5, c: QZ.count, m: QZ.mode, sel: QZ.sel
+  };
+  var str;
+  try{ str = JSON.stringify(s); }catch(e){ return; }
+  if(str.length > SESS_MAX) return;
+  STORE.setRaw("quiz", str);
+}
+function qzRestore(){
+  var s = STORE.get("quiz", null);
+  if(!s || s.v !== 1 || !s.q || !s.q.length) return false;
+  var byWord = {}, i;
+  for(i = 0; i < VOCAB.length; i++) byWord[VOCAB[i].w] = VOCAB[i];
+  var queue = [];
+  for(i = 0; i < s.q.length; i++){
+    var v = byWord[s.q[i]];
+    if(!v){ STORE.del("quiz"); return false; }   /* 词库变了就别硬恢复 */
+    queue.push(v);
+  }
+  QZ.queue = queue;
+  QZ.idx = Math.max(0, Math.min(s.i | 0, queue.length));
+  QZ.right = s.r | 0; QZ.answered = s.a | 0; QZ.plan = s.plan || queue.length;
+  QZ.wrongUniq = (s.w || []).map(function(w){ return byWord[w]; }).filter(Boolean);
+  QZ.rep = s.rep || {}; QZ.last5 = s.l5 || [];
+  if(s.c) QZ.count = s.c;
+  if(s.m) QZ.mode = s.m;
+  if(s.sel) QZ.sel = s.sel;
+  QZ.phase = "q"; QZ.revealed = false; QZ.pick = -1;
+  qzShow();                    /* 当前这道重新出一次题 —— 词一样，题型可能变 */
+  return true;
 }
 function quizAction(b){
   var act = b.getAttribute("data-qz");
@@ -1006,7 +1058,7 @@ function quizAction(b){
   if(act === "say"){ if(QZ.curQ) speak(sayText(QZ.curQ.v.w)); return; }
   if(act === "redo"){ quizStart(true); return; }
   if(act === "again"){ quizStart(false); return; }
-  if(act === "cfg"){ QZ.phase = "setup"; renderQuizPage(); return; }
+  if(act === "cfg"){ QZ.phase = "setup"; STORE.del("quiz"); renderQuizPage(); return; }
 }
 function qzHead(sub){
   return '<div class="phead"><div class="eyebrow">' + esc(T("review.eyebrow")) + '</div>' +
@@ -1381,6 +1433,7 @@ function drShow(){
     DR.curQ = DR.queue[DR.idx];
   }
   renderDrillPage();
+  drSave();
   if(DR.curQ && DR.curQ.type === "dengar") speak(DR.curQ.show);
 }
 function drillStart(fromWrong){
@@ -1399,6 +1452,7 @@ function drillStart(fromWrong){
 }
 /* 判完分之后共用的收尾：记进度、翻页或停下 */
 function drillSettle(q, ok){
+  /* 答完就存 —— 页面随时可能被系统回收 */
   DR.answered++;
   DR.last5.push(ok ? 1 : 0);
   if(DR.last5.length > 5) DR.last5.shift();
@@ -1415,6 +1469,7 @@ function drillSettle(q, ok){
     renderDrillPage();
     speak(q.a);                 /* 答错停在本页，读一遍正确说法 */
   }
+  drSave();
 }
 function drillAnswer(i){
   if(DR.phase !== "q" || DR.revealed || !DR.curQ) return;
@@ -1462,6 +1517,38 @@ function drillNext(){
   DR.idx++;
   drShow();
 }
+
+/* 实战页的存档，道理同复习页（见 qzSave 上面那段注释）。
+   题目是现生成的纯数据，整道存下来，恢复后连选项顺序都一样。 */
+function drSave(){
+  if(DR.phase !== "q" || !DR.queue.length){ STORE.del("drill"); return; }
+  var s = {
+    v: 1, q: DR.queue.map(function(x){ return x || null; }),
+    i: DR.idx, r: DR.right, a: DR.answered, c: DR.count,
+    t: DR.types, l5: DR.last5, last: DR.lastId,
+    w: DR.wrong.map(function(x){ return DR.queue.indexOf(x); }).filter(function(n){ return n >= 0; })
+  };
+  var str;
+  try{ str = JSON.stringify(s); }catch(e){ return; }
+  if(str.length > SESS_MAX) return;
+  STORE.setRaw("drill", str);
+}
+function drRestore(){
+  var s = STORE.get("drill", null);
+  if(!s || s.v !== 1 || !s.q || !s.q.length) return false;
+  DR.queue = s.q.map(function(x){ return x || undefined; });
+  DR.idx = Math.max(0, Math.min(s.i | 0, DR.queue.length));
+  DR.right = s.r | 0; DR.answered = s.a | 0;
+  if(s.c) DR.count = s.c;
+  if(s.t) DR.types = s.t;
+  DR.last5 = s.l5 || []; DR.lastId = s.last || null;
+  DR.wrong = (s.w || []).map(function(n){ return DR.queue[n]; }).filter(Boolean);
+  DR.phase = "q"; DR.revealed = false; DR.pick = -1;
+  /* 拼句题把上次点了一半的词块清掉，从头拼 —— 半截状态恢复出来更让人困惑 */
+  DR.queue.forEach(function(q){ if(q && q.mode === "susun") q.picked = []; });
+  drShow();
+  return true;
+}
 function drillAction(b){
   var act = b.getAttribute("data-dr");
   if(act === "type"){ var k = b.getAttribute("data-v"); DR.types[k] = !DR.types[k]; renderDrillPage(); return; }
@@ -1476,7 +1563,7 @@ function drillAction(b){
   if(act === "sayans"){ if(DR.curQ) speak(DR.curQ.a); return; }
   if(act === "redo"){ drillStart(true); return; }
   if(act === "again"){ drillStart(false); return; }
-  if(act === "cfg"){ DR.phase = "setup"; renderDrillPage(); return; }
+  if(act === "cfg"){ DR.phase = "setup"; STORE.del("drill"); renderDrillPage(); return; }
 }
 
 /* —— 三个视图 —— */
@@ -2382,6 +2469,14 @@ buildTOC();
 setZoom(2);
 /* 回到上次读到的那一页；没有记录（或那一页已经不存在）就从头开始 */
 if(!restorePos()) render();
+/* 那一页上如果有做了一半的练习，接着做 —— 手机浏览器回收页面之后
+   重新加载，整轮进度本来会凭空消失。 */
+(function(){
+  var p = PAGES[cur];
+  if(!p) return;
+  if(p.review) qzRestore();
+  else if(p.drill) drRestore();
+})();
 syncHeaderH();
 window.addEventListener("resize", syncHeaderH);
 /* 切到后台／关页面前补存一次，节流没来得及写的那 400ms 不至于丢 */
@@ -2389,6 +2484,9 @@ function flushState(){
   savePos();
   /* 练习记录是攒 600ms 再写的，答完最后一题就锁屏的话那一笔会丢 */
   if(progTimer){ clearTimeout(progTimer); progTimer = null; STORE.set("prog", PROG); }
+  /* 切后台正是页面被回收的高发时刻，把两个练习的进度也落一次盘 */
+  if(typeof qzSave === "function") qzSave();
+  if(typeof drSave === "function") drSave();
 }
 document.addEventListener("visibilitychange", function(){
   if(document.visibilityState === "hidden") flushState();
