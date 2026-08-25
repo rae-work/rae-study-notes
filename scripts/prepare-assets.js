@@ -23,20 +23,25 @@ if (!fs.existsSync(html)) {
 fs.mkdirSync(ASSETS, { recursive: true });
 fs.copyFileSync(html, path.join(ASSETS, 'index.html'));
 
-/* 防线：APK 是离线运行的，里面绝不能出现任何外部资源。
+/* 防线：APK 是离线运行的，里面绝不能**加载**任何外部资源。
    访问统计只注入 docs/（网站那一份），这里再兜一道 ——
-   万一有人手工把 docs/index.html 拷进来，立刻拦下。 */
+   万一有人手工把 docs/index.html 拷进来，立刻拦下。
+   规则和 lib/build.js 的 assertOffline 一致：<a href> 放行（超链接不加载
+   东西），src / action / <link> / web font 一律拦。 */
 const packed = fs.readFileSync(path.join(ASSETS, 'index.html'), 'utf8');
-const leak = packed.match(/https?:\/\/[^"'\s)]+/g);
-if (leak) {
-  const real = leak.filter((u) => !/^https?:\/\/(www\.)?(ugm\.id|w3\.org)/.test(u));
-  if (real.length) {
-    console.error(`\n❌ 打包用的 index.html 里有外部资源引用，APK 必须离线：`);
-    real.slice(0, 5).forEach((u) => console.error('     ' + u.slice(0, 90)));
-    console.error('   多半是误把 docs/index.html（带访问统计那份）拷进来了。');
-    console.error('   正确做法：npm run build 之后跑 npm run prepare-assets。\n');
-    process.exit(1);
-  }
+const leaks = [
+  [/<script[^>]+\ssrc\s*=\s*["']https?:\/\//i, '外部 <script src>'],
+  [/<link[^>]+href\s*=\s*["']https?:\/\//i, '外部 <link>'],
+  [/(?:src|action)\s*=\s*["']https?:\/\//i, '外部 src / action'],
+  [/@font-face/i, 'web font'],
+].filter(([re]) => re.test(packed));
+
+if (leaks.length) {
+  console.error('\n❌ 打包用的 index.html 会加载外部资源，APK 必须离线：');
+  leaks.forEach(([re, name]) => console.error(`     ${name} → ${String(packed.match(re)[0]).slice(0, 70)}`));
+  console.error('   多半是误把 docs/index.html（带访问统计那份）拷进来了。');
+  console.error('   正确做法：npm run build 之后跑 npm run prepare-assets。\n');
+  process.exit(1);
 }
 
 const { need, missing } = neededAudio();
