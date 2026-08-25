@@ -225,7 +225,9 @@
             calc(40px + env(safe-area-inset-bottom)) calc(22px + env(safe-area-inset-left));
     scroll-padding-top:var(--hdr-h,57px)}
   .sheet{max-width:var(--maxw);margin:0 auto;background:transparent;color:var(--ink);
-    padding:26px 0 34px;font-size:var(--rs);line-height:1.62}
+    padding:26px 0 34px;font-size:var(--rs);line-height:1.62;
+    /* 兜底：容器放不下的长词就断开，不要撑破卡片 */
+    overflow-wrap:break-word}
 
   /* 页头：标题与页码同一行 */
   .phead{margin-bottom:24px}
@@ -249,7 +251,7 @@
   .sec .num{font-family:var(--ui);flex:0 0 auto;width:28px;height:28px;border-radius:999px;
     background:var(--accent-wash);color:var(--accent-ink);border:1px solid var(--accent-line);
     display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px}
-  .sec .word{font-size:1.28em;font-weight:700;letter-spacing:-.01em}
+  .sec .word{font-size:1.28em;font-weight:700;letter-spacing:-.01em;min-width:0;overflow-wrap:break-word}
   .sec .en{color:var(--ink-soft);font-weight:500;font-size:.9em}
   .sec .en b{color:var(--accent-ink);font-weight:600}
 
@@ -263,7 +265,11 @@
   /* 可点读词元 */
   .say{cursor:pointer;-webkit-user-select:none;user-select:none;
     border-radius:6px;padding:.1em .2em;margin:-.1em -.2em;
-    transition:background var(--t-fast) var(--ease),color var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease);white-space:nowrap}
+    transition:background var(--t-fast) var(--ease),color var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease);
+    /* 不能 nowrap：多词短语会整条冲出卡片。换行时高亮底色跟着断，
+       box-decoration-break 让断开的两截都保留圆角和内边距。 */
+    overflow-wrap:break-word;
+    -webkit-box-decoration-break:clone;box-decoration-break:clone}
   .say.kw{color:var(--accent-ink);font-weight:600}
   .say.speaking{background:var(--accent-wash);color:var(--accent-ink);box-shadow:0 0 0 1px var(--accent-line) inset}
   .say.speaking.kw{color:var(--accent-ink)}
@@ -294,18 +300,18 @@
 
   /* 词卡网格 */
   .vocab{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:6px 0}
-  .vk{border:1px solid var(--line);border-radius:var(--r-md);padding:11px 13px;background:transparent;display:flex;flex-direction:column;gap:3px}
+  .vk{border:1px solid var(--line);border-radius:var(--r-md);padding:11px 13px;background:transparent;display:flex;flex-direction:column;gap:3px;min-width:0}
   .vk .en{font-family:var(--ui);font-size:.7em;letter-spacing:.04em;color:var(--ink-faint);text-transform:lowercase}
-  .vk .w{font-weight:600;font-size:1.02em}
+  .vk .w{font-weight:600;font-size:1.02em;overflow-wrap:break-word}
   .vk .zh{font-size:.8em;color:var(--ink-soft);line-height:1.55}
 
   .alpha{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:8px;margin:8px 0}
-  .at{border:1px solid var(--line);border-radius:var(--r-md);padding:10px 4px;text-align:center;background:transparent}
+  .at{border:1px solid var(--line);border-radius:var(--r-md);padding:10px 4px;text-align:center;background:transparent;min-width:0}
   .at .L{font-size:1.4em;font-weight:700;line-height:1}
   .at .p{font-size:.72em;color:var(--accent-ink);margin-top:3px;font-style:italic}
 
   .pics{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px;margin:8px 0}
-  .pic{border:1px solid var(--line);border-radius:var(--r-md);padding:12px 6px;text-align:center;background:transparent}
+  .pic{border:1px solid var(--line);border-radius:var(--r-md);padding:12px 6px;text-align:center;background:transparent;min-width:0}
   .pic .em{font-size:1.9em;line-height:1}
   .pic .w{font-weight:600;margin-top:6px}
   .pic .zh{font-size:.76em;color:var(--ink-soft)}
@@ -357,7 +363,7 @@
 
   /* 发音卡 */
   .syl{display:grid;grid-template-columns:repeat(auto-fill,minmax(214px,1fr));gap:10px;margin:8px 0}
-  .syl-card{border:1px solid var(--line);border-radius:var(--r-md);background:transparent;padding:13px 14px;display:flex;flex-direction:column;gap:8px}
+  .syl-card{border:1px solid var(--line);border-radius:var(--r-md);background:transparent;padding:13px 14px;display:flex;flex-direction:column;gap:8px;min-width:0}
   .sylw{font-weight:700;font-size:1.16em;display:flex;flex-wrap:wrap;align-items:baseline}
   .sdot{color:var(--accent);font-weight:400;margin:0 2px}
   .sylg{font-size:.8em;color:var(--ink-soft)}
@@ -376,9 +382,9 @@
     transition:color var(--t-fast) var(--ease),background var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
   .chip.on{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
   .glist{display:grid;grid-template-columns:repeat(auto-fill,minmax(238px,1fr));gap:12px}
-  .gentry{border:1px solid var(--line);border-radius:var(--r-md);padding:13px 14px;background:transparent;display:flex;flex-direction:column;gap:6px}
+  .gentry{border:1px solid var(--line);border-radius:var(--r-md);padding:13px 14px;background:transparent;display:flex;flex-direction:column;gap:6px;min-width:0}
   .gtop{display:flex;align-items:center;justify-content:space-between;gap:8px}
-  .gword{font-weight:600;font-size:1.1em}
+  .gword{font-weight:600;font-size:1.1em;min-width:0;overflow-wrap:break-word}
   .gbadge{font-family:var(--ui);font-size:.64em;font-weight:700;border-radius:999px;padding:3px 9px;
     background:var(--accent-wash);color:var(--accent-ink);flex:0 0 auto}
   .ggloss{font-size:.86em;color:var(--ink-soft);line-height:1.6}

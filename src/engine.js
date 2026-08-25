@@ -270,8 +270,16 @@ function sayLine(text, kw){
   }
   return html;
 }
+/* 「Tempat/Tanggal Lahir」这种词在窄卡片里放不下，浏览器默认不会在
+   斜杠和连字符处换行，只能把词从中间劈开（Tangg / al），很难看。
+   插一个 <wbr> 给它一个体面的断点。只动显示文本，data-say 保持原样 —— 
+   音频是靠 data-say 查表的，改了就查不到。 */
+function breakable(esced){
+  return esced.replace(/([\/\u2044\uFF0F\u2013\u2014])/g, "$1<wbr>");
+}
 function sayWhole(display, say, extra){
-  return '<span class="say ' + (extra||"") + '" data-say="' + esc(say!=null?say:clean(display)) + '">' + esc(display) + "</span>";
+  return '<span class="say ' + (extra||"") + '" data-say="' + esc(say!=null?say:clean(display)) + '">' +
+    breakable(esc(display)) + "</span>";
 }
 /* 说明性文字（导语、小段说明、注释、表注）由内容作者写，允许少量 HTML：
    <b> <i> 用来强调，<s>词</s> 把印尼语标成可点读。其余按原样输出。 */
