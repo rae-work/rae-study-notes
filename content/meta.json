@@ -98,7 +98,7 @@
   },
   "site": {
     "analytics_provider": "cloudflare",
-    "analytics_token": "",
+    "analytics_token": "4e02188c6d044140b688fc71691b21c4",
     "analytics_note": "Cloudflare Web Analytics 的 32 位 token。面板 → Web Analytics → Add a site → Manage site 复制。留空就不注入。只进 docs/（网站），不进 dist/ 和 APK。"
   }
 }
