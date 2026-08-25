@@ -43,10 +43,21 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。单个离线 HTML，
 
 ## 线上
 
+- **网站　　　 https://belajar.rae.work**（强制 HTTPS，Let's Encrypt 证书自动续期）
 - 仓库（公开）https://github.com/rae-work/rae-study-notes
-- 网站　　　　 https://rae-work.github.io/rae-study-notes/
-  （GitHub Pages，从 `main` 分支的 `/docs` 目录发布）
-- 更新网站：`npm run build && npm run site`，然后提交 `docs/` 再 push
+- GitHub Pages 从 `main` 分支的 `/docs` 目录发布；
+  DNS 在 Cloudflare：`belajar` CNAME → `rae-work.github.io`，**灰云 / DNS only**
+  （橙云会挡住证书签发，不要改）
+
+**更新网站的三步**（内容或界面改完之后）：
+
+```bash
+npm run validate && npm run build && npm run site
+git add -A && git commit -m "更新网站" && git push
+```
+
+`docs/CNAME` 里存着域名，`npm run site` 会自己保留，不用每次带 `--domain`。
+推上去之后 GitHub 大约一分钟重新发布。
 
 ⚠️ 本机还有一个 `history-archive-private` 分支，是开源前的完整开发历史，
 里面有签名密钥，**永远不要 push 这个分支**。
