@@ -616,15 +616,23 @@
     background-size:28px 100%;background-repeat:no-repeat;background-attachment:local, local}
   /* 表格和卡片用同一档圆角。border-collapse 必须是 separate，
      collapse 状态下 overflow:hidden 裁不出圆角。 */
-  table.tbl{border-collapse:separate;border-spacing:0;width:100%;min-width:460px;font-size:.92em;
+  /* ⚠️ 表格一律先照顾手机竖屏（375px 宽，可见区约 343px）。
+     原来这里写死 min-width:460px，于是每张表都要左右拖着看 ——
+     每看一格拖一次，体验很差。现在让表格自适应，overflow-x 只当兜底。
+     新加表格时先在 375px 下看一遍：能不拖就不要拖。 */
+  table.tbl{border-collapse:separate;border-spacing:0;width:100%;font-size:.92em;
     border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden}
   table.tbl th{background:var(--accent-wash);color:var(--accent-ink);font-weight:700;font-size:.95em;
-    text-align:left;padding:11px 12px;border:0;border-bottom:1px solid var(--line);border-right:1px solid var(--line-soft);white-space:nowrap}
-  table.tbl td{padding:11px 12px;border:0;border-bottom:1px solid var(--line-soft);border-right:1px solid var(--line-soft);
-    vertical-align:top;line-height:1.9}
+    text-align:left;padding:11px 10px;border:0;border-bottom:1px solid var(--line);border-right:1px solid var(--line-soft)}
+  table.tbl td{padding:11px 10px;border:0;border-bottom:1px solid var(--line-soft);border-right:1px solid var(--line-soft);
+    vertical-align:top;line-height:1.9;overflow-wrap:anywhere}
   table.tbl th:last-child,table.tbl td:last-child{border-right:0}
   table.tbl tr:last-child td{border-bottom:0}
-  table.tbl td:first-child{color:var(--ink-soft);font-size:.9em;line-height:1.6;min-width:8.5em}
+  /* 第一列是标签列，让它尽量窄；原来 min-width:8.5em 能吃掉近四成宽度 */
+  table.tbl td:first-child{color:var(--ink-soft);font-size:.9em;line-height:1.6;
+    width:1%;white-space:nowrap}
+  /* 跨行合并的格子居中，贴着顶端看着像漏了内容 */
+  table.tbl td[rowspan]{vertical-align:middle}
   table.tbl td .say{margin-right:2px}
   .rbadge{display:inline-block;font-size:.6em;font-weight:600;letter-spacing:.04em;
     padding:2px 7px;border-radius:999px;margin:0 0 0 5px;vertical-align:middle;white-space:nowrap}

@@ -639,8 +639,22 @@ function renderBlock(b){
     }
     case "table": {
       var head = '<tr>' + b.cols.map(function(c){ return "<th>" + esc(L(c)) + "</th>"; }).join("") + "</tr>";
-      var body = b.rows.map(function(row){
-        return "<tr>" + row.map(function(cell){ return "<td>" + tableCell(cell) + "</td>"; }).join("") + "</tr>";
+      /* 内容写成空串的格子，表示「跟上面那格是一个」—— 渲染成 rowspan 真合并。
+         横线没了、格子少了，手机上表格就窄一截。竖屏 375px 是硬指标：
+         宽表要左右拖着看，体验很差。 */
+      var skip = {};
+      var body = b.rows.map(function(row, ri){
+        return "<tr>" + row.map(function(cell, ci){
+          if(skip[ri + "," + ci]) return "";
+          var span = 1;
+          if(cell !== "" && cell != null){
+            for(var k = ri + 1; k < b.rows.length; k++){
+              if(b.rows[k][ci] !== "" && b.rows[k][ci] != null) break;
+              span++; skip[k + "," + ci] = 1;
+            }
+          }
+          return "<td" + (span > 1 ? ' rowspan="' + span + '"' : "") + ">" + tableCell(cell) + "</td>";
+        }).join("") + "</tr>";
       }).join("");
       return '<div class="tblwrap"><table class="tbl"><thead>' + head + "</thead><tbody>" + body + "</tbody></table>" +
         (L(b.note) ? '<p class="tbl-note">' + richText(b.note) + "</p>" : "") + "</div>";
