@@ -416,6 +416,35 @@
   .glist .ans.masked{filter:none;color:transparent;background:var(--accent-wash)}
   .glist .ans.masked *{color:transparent}
 
+  /* ===== 词块拼句 =====
+     纯点按：点下面的词块上屏，点上面的退回来。不做拖拽（手机浏览器坑多），
+     也不弹键盘（老机器上又慢又抖）。触控目标 ≥44px、相邻留缝，
+     答错的原因该是「不会」，不该是「手滑点到隔壁」。 */
+  .sz-slot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+    min-height:62px;padding:12px 14px;margin:4px 0 16px;
+    border:1px solid var(--line);border-bottom-width:2px;border-radius:var(--r-md);
+    background:var(--surface);
+    transition:border-color var(--t-mid) var(--ease),background var(--t-mid) var(--ease)}
+  .sz-slot.good{border-color:var(--accent);background:var(--accent-wash)}
+  .sz-slot.bad{border-color:var(--line);background:transparent}
+  .sz-empty{font-family:var(--ui);font-size:12.5px;color:var(--ink-soft);opacity:.75}
+  .sz-bank{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+  .sz-tok{font-family:var(--serif);font-size:1em;color:var(--ink);
+    background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);
+    padding:9px 14px;min-height:44px;cursor:pointer;
+    transition:opacity var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease),
+               color var(--t-fast) var(--ease)}
+  .sz-tok:active{border-color:var(--accent)}
+  .sz-tok.bank.used{opacity:.28;pointer-events:none}
+  .sz-tok[disabled]{cursor:default}
+  .sz-slot .sz-tok{border-color:var(--accent-line)}
+  .sz-check{margin-top:2px}
+  .sz-check[disabled]{opacity:.4;cursor:default}
+  /* 语法题的题面允许 <b> 强调，且比别的题面松一点行距 */
+  .dr-q.lat{line-height:1.75;text-align:left}
+  .qz-fb .fw-why{display:block;color:var(--ink);margin-bottom:4px}
+  .qz-fb.ok{border-color:var(--accent-line);background:var(--accent-wash)}
+
   /* ===== 复习 / 实战 ===== */
   .qz-secttl{font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:700;margin:20px 0 8px}
   .qz-chips{display:flex;flex-wrap:wrap;gap:8px}

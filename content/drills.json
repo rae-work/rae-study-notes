@@ -363,5 +363,761 @@
       "a_reg": "formal"
     }
   ],
-  "angka_pool": []
+  "angka_pool": [],
+  "posesif": [
+    {
+      "id": "p01",
+      "mode": "pilih",
+      "level": 1,
+      "a": "buku dia",
+      "ask": {
+        "zh": "「Buku<b>nya</b> baru.」—— 这是谁的书？",
+        "ja": "「Buku<b>nya</b> baru.」—— だれの本ですか。",
+        "en": "“Buku<b>nya</b> baru.” — whose book is it?"
+      },
+      "opts": [
+        {
+          "t": "buku dia"
+        },
+        {
+          "t": "buku saya",
+          "why": {
+            "zh": "「我的书」是 buku saya 或 bukuku。",
+            "ja": "「わたしの本」は buku saya／bukuku です。",
+            "en": "“My book” is buku saya or bukuku."
+          }
+        },
+        {
+          "t": "buku kamu",
+          "why": {
+            "zh": "「你的书」是 buku kamu 或 bukumu。",
+            "ja": "「あなたの本」は buku kamu／bukumu です。",
+            "en": "“Your book” is buku kamu or bukumu."
+          }
+        },
+        {
+          "t": "buku kita",
+          "why": {
+            "zh": "「我们的书」是 buku kita，没有后缀形式。",
+            "ja": "「わたしたちの本」は buku kita で、接尾辞の形はありません。",
+            "en": "“Our book” is buku kita; there is no suffix form."
+          }
+        }
+      ],
+      "note": {
+        "zh": "<b>-nya</b> 是第三人称：bukunya = buku dia（他／她的书）。",
+        "ja": "<b>-nya</b> は三人称です。bukunya＝buku dia（かれ／かのじょの本）。",
+        "en": "<b>-nya</b> is third person: bukunya = buku dia (his / her book)."
+      }
+    },
+    {
+      "id": "p02",
+      "mode": "pilih",
+      "level": 1,
+      "a": "tas saya",
+      "ask": {
+        "zh": "「Tas<b>ku</b> di kelas.」—— 这是谁的包？",
+        "ja": "「Tas<b>ku</b> di kelas.」—— だれのかばんですか。",
+        "en": "“Tas<b>ku</b> di kelas.” — whose bag is it?"
+      },
+      "opts": [
+        {
+          "t": "tas saya"
+        },
+        {
+          "t": "tas kamu",
+          "why": {
+            "zh": "「你的包」是 tasmu。-ku 和 -mu 差一个字母，意思差一个人。",
+            "ja": "「あなたのかばん」は tasmu です。-ku と -mu は一字違いで、指す人が変わります。",
+            "en": "“Your bag” is tasmu. One letter apart, a different person."
+          }
+        },
+        {
+          "t": "tas dia",
+          "why": {
+            "zh": "「他的包」是 tasnya。",
+            "ja": "「かれのかばん」は tasnya です。",
+            "en": "“His bag” is tasnya."
+          }
+        },
+        {
+          "t": "tas teman",
+          "why": {
+            "zh": "「朋友的包」是 tas teman，不带后缀。",
+            "ja": "「友だちのかばん」は tas teman で、接尾辞はつきません。",
+            "en": "“A friend’s bag” is tas teman, with no suffix."
+          }
+        }
+      ],
+      "note": {
+        "zh": "<b>-ku</b> 是「我的」：tasku = tas saya。",
+        "ja": "<b>-ku</b> は「わたしの」です。tasku＝tas saya。",
+        "en": "<b>-ku</b> means “my”: tasku = tas saya."
+      }
+    },
+    {
+      "id": "p03",
+      "mode": "pilih",
+      "level": 1,
+      "a": "rumah kamu",
+      "ask": {
+        "zh": "「Rumah<b>mu</b> di mana?」—— 问的是谁的家？",
+        "ja": "「Rumah<b>mu</b> di mana?」—— だれの家について聞いていますか。",
+        "en": "“Rumah<b>mu</b> di mana?” — whose house is being asked about?"
+      },
+      "opts": [
+        {
+          "t": "rumah kamu"
+        },
+        {
+          "t": "rumah saya",
+          "why": {
+            "zh": "「我的家」是 rumahku。问句里问的是对方。",
+            "ja": "「わたしの家」は rumahku です。ここでは相手のことを聞いています。",
+            "en": "“My house” is rumahku. This question is about the listener."
+          }
+        },
+        {
+          "t": "rumah dia",
+          "why": {
+            "zh": "「他的家」是 rumahnya。",
+            "ja": "「かれの家」は rumahnya です。",
+            "en": "“His house” is rumahnya."
+          }
+        },
+        {
+          "t": "rumah kami",
+          "why": {
+            "zh": "「我们的家」是 rumah kami，没有后缀形式。",
+            "ja": "「わたしたちの家」は rumah kami で、接尾辞の形はありません。",
+            "en": "“Our house” is rumah kami; there is no suffix form."
+          }
+        }
+      ],
+      "note": {
+        "zh": "<b>-mu</b> 是「你的」：rumahmu = rumah kamu。",
+        "ja": "<b>-mu</b> は「あなたの」です。rumahmu＝rumah kamu。",
+        "en": "<b>-mu</b> means “your”: rumahmu = rumah kamu."
+      }
+    },
+    {
+      "id": "p04",
+      "mode": "pilih",
+      "level": 1,
+      "a": "buku saya",
+      "ask": {
+        "zh": "「我的书」印尼语怎么说？",
+        "ja": "「わたしの本」はインドネシア語で？",
+        "en": "How do you say “my book”?"
+      },
+      "opts": [
+        {
+          "t": "buku saya"
+        },
+        {
+          "t": "saya buku",
+          "why": {
+            "zh": "语序反了。印尼语把「谁的」放在<b>后面</b>：东西在前，主人在后。",
+            "ja": "語順が逆です。インドネシア語は「だれの」を<b>後ろ</b>に置きます（もの→持ち主）。",
+            "en": "Wrong order. Indonesian puts the owner <b>after</b> the thing."
+          }
+        },
+        {
+          "t": "saya punya",
+          "why": {
+            "zh": "saya punya 是「我有」，是句子不是短语。",
+            "ja": "saya punya は「わたしは持っている」で、句ではなく文です。",
+            "en": "saya punya means “I have” — a clause, not a phrase."
+          }
+        },
+        {
+          "t": "bukunya saya",
+          "why": {
+            "zh": "两个所有者叠在一起了。要么 buku saya，要么 bukuku。",
+            "ja": "持ち主が二重になっています。buku saya か bukuku のどちらかです。",
+            "en": "Two owners at once. Use either buku saya or bukuku."
+          }
+        }
+      ],
+      "note": {
+        "zh": "中文说「我的书」，印尼语反过来说「书 我的」：<b>buku saya</b>。",
+        "ja": "日本語は「わたしの本」、インドネシア語は逆で「本 わたしの」＝<b>buku saya</b>。",
+        "en": "English says “my book”; Indonesian reverses it: <b>buku saya</b>."
+      }
+    },
+    {
+      "id": "p05",
+      "mode": "pilih",
+      "level": 1,
+      "a": "tas teman",
+      "ask": {
+        "zh": "「朋友的包」印尼语怎么说？",
+        "ja": "「友だちのかばん」はインドネシア語で？",
+        "en": "How do you say “a friend’s bag”?"
+      },
+      "opts": [
+        {
+          "t": "tas teman"
+        },
+        {
+          "t": "teman tas",
+          "why": {
+            "zh": "这样成了「包的朋友」。东西在前，主人在后。",
+            "ja": "これでは「かばんの友だち」になります。もの→持ち主の順です。",
+            "en": "That says “the bag’s friend”. Thing first, owner second."
+          }
+        },
+        {
+          "t": "temanku tas",
+          "why": {
+            "zh": "语序反了，而且 -ku 把主人变成了「我」。",
+            "ja": "語順が逆で、しかも -ku で持ち主が「わたし」になっています。",
+            "en": "Wrong order, and -ku makes the owner “me”."
+          }
+        },
+        {
+          "t": "tas temanmu",
+          "why": {
+            "zh": "这是「你朋友的包」，多了一层「你的」。",
+            "ja": "これは「あなたの友だちのかばん」で、「あなたの」が一つ余分です。",
+            "en": "That is “your friend’s bag” — one owner too many."
+          }
+        }
+      ],
+      "note": {
+        "zh": "主人是名词时直接接在后面，不用后缀：<b>tas teman</b>。",
+        "ja": "持ち主が名詞のときは、そのまま後ろに置きます（接尾辞なし）：<b>tas teman</b>。",
+        "en": "When the owner is a noun, it simply follows — no suffix: <b>tas teman</b>."
+      }
+    },
+    {
+      "id": "p06",
+      "mode": "pilih",
+      "level": 2,
+      "a": "sepedanya",
+      "ask": {
+        "zh": "「sepeda dia」换成后缀形式是？",
+        "ja": "「sepeda dia」を接尾辞の形にすると？",
+        "en": "Rewrite “sepeda dia” with a suffix:"
+      },
+      "opts": [
+        {
+          "t": "sepedanya"
+        },
+        {
+          "t": "sepedaku",
+          "why": {
+            "zh": "-ku 是「我的」，dia 是「他／她」，要用 -nya。",
+            "ja": "-ku は「わたしの」です。dia なら -nya を使います。",
+            "en": "-ku is “my”; for dia you need -nya."
+          }
+        },
+        {
+          "t": "sepedamu",
+          "why": {
+            "zh": "-mu 是「你的」，不是「他的」。",
+            "ja": "-mu は「あなたの」で、「かれの」ではありません。",
+            "en": "-mu is “your”, not “his”."
+          }
+        },
+        {
+          "t": "sepeda-nya",
+          "why": {
+            "zh": "后缀直接连写，不加连字符：sepedanya。",
+            "ja": "接尾辞はハイフンなしでつなげます：sepedanya。",
+            "en": "The suffix attaches directly, no hyphen: sepedanya."
+          }
+        }
+      ],
+      "note": {
+        "zh": "dia → <b>-nya</b>，aku → <b>-ku</b>，kamu → <b>-mu</b>，三个后缀直接粘在名词后面。",
+        "ja": "dia→<b>-nya</b>、aku→<b>-ku</b>、kamu→<b>-mu</b>。いずれも名詞に直接つけます。",
+        "en": "dia → <b>-nya</b>, aku → <b>-ku</b>, kamu → <b>-mu</b>, attached straight onto the noun."
+      }
+    },
+    {
+      "id": "p07",
+      "mode": "pilih",
+      "level": 2,
+      "a": "temanku",
+      "ask": {
+        "zh": "「teman aku」换成后缀形式是？",
+        "ja": "「teman aku」を接尾辞の形にすると？",
+        "en": "Rewrite “teman aku” with a suffix:"
+      },
+      "opts": [
+        {
+          "t": "temanku"
+        },
+        {
+          "t": "temanmu",
+          "why": {
+            "zh": "-mu 是「你的」。aku 对应的是 -ku。",
+            "ja": "-mu は「あなたの」です。aku に対応するのは -ku です。",
+            "en": "-mu is “your”. aku corresponds to -ku."
+          }
+        },
+        {
+          "t": "temannya",
+          "why": {
+            "zh": "-nya 是「他／她的」。",
+            "ja": "-nya は「かれ／かのじょの」です。",
+            "en": "-nya is “his / her”."
+          }
+        },
+        {
+          "t": "akuteman",
+          "why": {
+            "zh": "顺序反了，而且后缀要接在<b>东西</b>后面，不是人后面。",
+            "ja": "順序が逆です。接尾辞は<b>もの</b>のほうにつきます。",
+            "en": "Reversed — and the suffix attaches to the <b>thing</b>, not the person."
+          }
+        }
+      ],
+      "note": {
+        "zh": "aku 的后缀是 -ku：teman aku = <b>temanku</b>（我的朋友）。",
+        "ja": "aku の接尾辞は -ku です。teman aku＝<b>temanku</b>（わたしの友だち）。",
+        "en": "The suffix for aku is -ku: teman aku = <b>temanku</b> (my friend)."
+      }
+    },
+    {
+      "id": "p08",
+      "mode": "pilih",
+      "level": 2,
+      "a": "adikku",
+      "ask": {
+        "zh": "「Aku punya adik.」—— 那个弟弟／妹妹可以说成？",
+        "ja": "「Aku punya adik.」—— その弟・妹は？",
+        "en": "“Aku punya adik.” — refer to that sibling as:"
+      },
+      "opts": [
+        {
+          "t": "adikku"
+        },
+        {
+          "t": "adiknya",
+          "why": {
+            "zh": "句子里的主人是 aku（我），要用 -ku。",
+            "ja": "この文の持ち主は aku（わたし）なので -ku です。",
+            "en": "The owner in the sentence is aku, so it takes -ku."
+          }
+        },
+        {
+          "t": "aku adik",
+          "why": {
+            "zh": "这样成了「我 弟弟」。东西在前：adik aku → adikku。",
+            "ja": "これでは「わたし 弟」です。もの→持ち主の順：adik aku→adikku。",
+            "en": "That reads “me sibling”. Thing first: adik aku → adikku."
+          }
+        },
+        {
+          "t": "adik punya",
+          "why": {
+            "zh": "punya 是动词「有」，不参与领属短语。",
+            "ja": "punya は動詞「持つ」で、所有句には入りません。",
+            "en": "punya is the verb “to have”; it is not part of the phrase."
+          }
+        }
+      ],
+      "note": {
+        "zh": "<b>X punya Y</b>（X 有 Y）→ <b>Y X</b>（X 的 Y）→ 人称代词再缩成后缀。",
+        "ja": "<b>X punya Y</b>（X は Y を持つ）→ <b>Y X</b>（X の Y）→ 代名詞なら接尾辞に縮まります。",
+        "en": "<b>X punya Y</b> → <b>Y X</b> → and pronouns contract into a suffix."
+      }
+    },
+    {
+      "id": "p09",
+      "mode": "pilih",
+      "level": 2,
+      "a": "rumahnya",
+      "ask": {
+        "zh": "「Ghoza punya rumah.」—— 那间房子可以说成？",
+        "ja": "「Ghoza punya rumah.」—— その家は？",
+        "en": "“Ghoza punya rumah.” — refer to that house as:"
+      },
+      "opts": [
+        {
+          "t": "rumahnya"
+        },
+        {
+          "t": "rumahku",
+          "why": {
+            "zh": "主人是 Ghoza，不是「我」。第三个人一律用 -nya。",
+            "ja": "持ち主は Ghoza であって「わたし」ではありません。第三者は -nya です。",
+            "en": "The owner is Ghoza, not “me”. A third party takes -nya."
+          }
+        },
+        {
+          "t": "Ghoza rumah",
+          "why": {
+            "zh": "语序反了：rumah Ghoza 才对。",
+            "ja": "語順が逆です。rumah Ghoza が正しい形です。",
+            "en": "Wrong order: rumah Ghoza."
+          }
+        },
+        {
+          "t": "rumah punya",
+          "why": {
+            "zh": "punya 是动词，短语里不出现。",
+            "ja": "punya は動詞で、句には現れません。",
+            "en": "punya is a verb; it does not appear in the phrase."
+          }
+        }
+      ],
+      "note": {
+        "zh": "人名也算第三人称：rumah Ghoza → <b>rumahnya</b>。",
+        "ja": "人名も三人称です。rumah Ghoza→<b>rumahnya</b>。",
+        "en": "A name is third person too: rumah Ghoza → <b>rumahnya</b>."
+      }
+    },
+    {
+      "id": "p10",
+      "mode": "susun",
+      "level": 2,
+      "a": "Buku saya baru.",
+      "ask": {
+        "zh": "拼出：我的书是新的。",
+        "ja": "並べてみましょう：わたしの本は新しいです。",
+        "en": "Build: My book is new."
+      },
+      "bank": [
+        "Buku",
+        "saya",
+        "baru",
+        "punya",
+        "bukunya"
+      ],
+      "note": {
+        "zh": "东西 → 主人 → 形容词：<b>Buku saya baru.</b>",
+        "ja": "もの→持ち主→形容詞の順です：<b>Buku saya baru.</b>",
+        "en": "Thing → owner → adjective: <b>Buku saya baru.</b>"
+      }
+    },
+    {
+      "id": "p11",
+      "mode": "susun",
+      "level": 2,
+      "a": "Tas teman saya bagus.",
+      "ask": {
+        "zh": "拼出：我朋友的包很好看。",
+        "ja": "並べてみましょう：友だちのかばんはすてきです。",
+        "en": "Build: My friend’s bag is nice."
+      },
+      "bank": [
+        "Tas",
+        "teman",
+        "saya",
+        "bagus",
+        "tasnya"
+      ],
+      "note": {
+        "zh": "两层所有者也是一路往后接：包 → 朋友 → 我。",
+        "ja": "持ち主が二重でも、後ろへ続けます：かばん→友だち→わたし。",
+        "en": "Two owners still stack rightwards: bag → friend → me."
+      }
+    },
+    {
+      "id": "p12",
+      "mode": "susun",
+      "level": 2,
+      "a": "Rumahnya di Jalan Kaliurang.",
+      "ask": {
+        "zh": "拼出：他家在 Kaliurang 路。",
+        "ja": "並べてみましょう：かれの家はカリウラン通りにあります。",
+        "en": "Build: His house is on Jalan Kaliurang."
+      },
+      "bank": [
+        "Rumahnya",
+        "di",
+        "Jalan",
+        "Kaliurang",
+        "rumahku",
+        "dari"
+      ],
+      "note": {
+        "zh": "<b>di</b> 表示「在」；dari 是「从」。",
+        "ja": "<b>di</b> は「〜に」、dari は「〜から」です。",
+        "en": "<b>di</b> marks location; dari means “from”."
+      }
+    },
+    {
+      "id": "p13",
+      "mode": "susun",
+      "level": 2,
+      "a": "Adikku dua orang.",
+      "ask": {
+        "zh": "拼出：我有两个弟弟妹妹。",
+        "ja": "並べてみましょう：弟・妹は二人です。",
+        "en": "Build: I have two siblings."
+      },
+      "bank": [
+        "Adikku",
+        "dua",
+        "orang",
+        "adikmu",
+        "punya"
+      ],
+      "note": {
+        "zh": "数人用量词 <b>orang</b>：dua orang（两个人）。",
+        "ja": "人を数えるときは <b>orang</b> を使います：dua orang（二人）。",
+        "en": "People are counted with <b>orang</b>: dua orang."
+      }
+    },
+    {
+      "id": "p14",
+      "mode": "susun",
+      "level": 3,
+      "a": "Sepeda teman saya baru.",
+      "ask": {
+        "zh": "拼出：我朋友的自行车是新的。",
+        "ja": "並べてみましょう：友だちの自転車は新しいです。",
+        "en": "Build: My friend’s bicycle is new."
+      },
+      "bank": [
+        "Sepeda",
+        "teman",
+        "saya",
+        "baru",
+        "sepedanya",
+        "punya",
+        "saya sepeda"
+      ],
+      "note": {
+        "zh": "自行车 → 朋友 → 我 → 新的，一路往后接。",
+        "ja": "自転車→友だち→わたし→新しい、と後ろへ続けます。",
+        "en": "Bicycle → friend → me → new, all stacking rightwards."
+      }
+    },
+    {
+      "id": "p15",
+      "mode": "susun",
+      "level": 3,
+      "a": "Mobilnya di kampus.",
+      "ask": {
+        "zh": "拼出：他的车在校园里。",
+        "ja": "並べてみましょう：かれの車はキャンパスにあります。",
+        "en": "Build: His car is on campus."
+      },
+      "bank": [
+        "Mobilnya",
+        "di",
+        "kampus",
+        "mobilku",
+        "ke"
+      ],
+      "note": {
+        "zh": "在某处用 <b>di</b>，去某处才用 ke。",
+        "ja": "場所にいる／あるときは <b>di</b>、行く先には ke を使います。",
+        "en": "Use <b>di</b> for being somewhere; ke is for going there."
+      }
+    }
+  ],
+  "tunjuk": [
+    {
+      "id": "t01",
+      "mode": "pilih",
+      "level": 1,
+      "a": "Ini apa?",
+      "ask": {
+        "zh": "东西就在你手边，你问「这是什么？」",
+        "ja": "手もとにあるものについて「これは何ですか」と聞くとき",
+        "en": "The thing is right beside you. Ask “what is this?”"
+      },
+      "opts": [
+        {
+          "t": "Ini apa?"
+        },
+        {
+          "t": "Itu apa?",
+          "why": {
+            "zh": "itu 指离说话人远的东西（那个）。手边的用 ini。",
+            "ja": "itu は話し手から遠いもの（あれ・それ）です。手もとのものは ini です。",
+            "en": "itu points to something away from the speaker. Use ini for what is at hand."
+          }
+        },
+        {
+          "t": "Apa ini kamu?",
+          "why": {
+            "zh": "多了一个 kamu，问句里不需要。",
+            "ja": "kamu が余分です。この疑問文には必要ありません。",
+            "en": "kamu is extra; this question does not need it."
+          }
+        },
+        {
+          "t": "Ini siapa?",
+          "why": {
+            "zh": "siapa 问的是「谁」，问东西要用 apa。",
+            "ja": "siapa は「だれ」です。ものについては apa を使います。",
+            "en": "siapa asks “who”. For things, use apa."
+          }
+        }
+      ],
+      "note": {
+        "zh": "<b>ini</b> 近（这），<b>itu</b> 远（那）。距离以说话人为准。",
+        "ja": "<b>ini</b> は近く（これ）、<b>itu</b> は遠く（あれ）。話し手からの距離で決まります。",
+        "en": "<b>ini</b> is near, <b>itu</b> is far — measured from the speaker."
+      }
+    },
+    {
+      "id": "t02",
+      "mode": "pilih",
+      "level": 1,
+      "a": "Itu buku saya.",
+      "ask": {
+        "zh": "书在教室那一头，你说「那是我的书。」",
+        "ja": "本は教室の向こうにあります。「あれはわたしの本です」",
+        "en": "The book is across the room. Say “that is my book.”"
+      },
+      "opts": [
+        {
+          "t": "Itu buku saya."
+        },
+        {
+          "t": "Ini buku saya.",
+          "why": {
+            "zh": "ini 指手边的东西。隔着距离要用 itu。",
+            "ja": "ini は手もとのものです。離れているものには itu を使います。",
+            "en": "ini is for what is at hand. At a distance, use itu."
+          }
+        },
+        {
+          "t": "Itu saya buku.",
+          "why": {
+            "zh": "语序反了：buku saya（书 我的）。",
+            "ja": "語順が逆です：buku saya（本 わたしの）。",
+            "en": "Wrong order: buku saya."
+          }
+        },
+        {
+          "t": "Itu bukunya saya.",
+          "why": {
+            "zh": "-nya 和 saya 是两个主人，只能留一个。",
+            "ja": "-nya と saya で持ち主が二重です。どちらか一方にします。",
+            "en": "-nya and saya are two owners; keep only one."
+          }
+        }
+      ],
+      "note": {
+        "zh": "指示词放句首：<b>Itu</b> buku saya.",
+        "ja": "指示詞は文頭に置きます：<b>Itu</b> buku saya.",
+        "en": "The demonstrative comes first: <b>Itu</b> buku saya."
+      }
+    },
+    {
+      "id": "t03",
+      "mode": "pilih",
+      "level": 2,
+      "a": "Ini bukunya.",
+      "ask": {
+        "zh": "你把他的书递过去，说「这是他的书。」",
+        "ja": "かれの本を差し出しながら「これはかれの本です」",
+        "en": "Handing over his book: “this is his book.”"
+      },
+      "opts": [
+        {
+          "t": "Ini bukunya."
+        },
+        {
+          "t": "Ini bukuku.",
+          "why": {
+            "zh": "-ku 是「我的」。他的要用 -nya。",
+            "ja": "-ku は「わたしの」です。かれのなら -nya です。",
+            "en": "-ku is “my”. For his, use -nya."
+          }
+        },
+        {
+          "t": "Itu bukunya.",
+          "why": {
+            "zh": "书已经在你手上了，用 ini。",
+            "ja": "本はもう手もとにあるので ini です。",
+            "en": "The book is in your hand, so ini."
+          }
+        },
+        {
+          "t": "Ini dia buku.",
+          "why": {
+            "zh": "语序乱了。「他的书」是 buku dia 或 bukunya。",
+            "ja": "語順が崩れています。「かれの本」は buku dia／bukunya です。",
+            "en": "Order is scrambled. “His book” is buku dia or bukunya."
+          }
+        }
+      ],
+      "note": {
+        "zh": "指示词和领属可以叠用：Ini（这是）+ bukunya（他的书）。",
+        "ja": "指示詞と所有はいっしょに使えます：Ini（これは）＋bukunya（かれの本）。",
+        "en": "Demonstrative and possessive combine: Ini + bukunya."
+      }
+    },
+    {
+      "id": "t04",
+      "mode": "susun",
+      "level": 2,
+      "a": "Ini tas teman saya.",
+      "ask": {
+        "zh": "拼出：这是我朋友的包。",
+        "ja": "並べてみましょう：これは友だちのかばんです。",
+        "en": "Build: This is my friend’s bag."
+      },
+      "bank": [
+        "Ini",
+        "tas",
+        "teman",
+        "saya",
+        "Itu",
+        "tasnya"
+      ],
+      "note": {
+        "zh": "句首指示词 → 东西 → 主人。",
+        "ja": "文頭の指示詞→もの→持ち主の順です。",
+        "en": "Demonstrative → thing → owner."
+      }
+    },
+    {
+      "id": "t05",
+      "mode": "susun",
+      "level": 2,
+      "a": "Itu kelas kami.",
+      "ask": {
+        "zh": "拼出：那是我们的教室。",
+        "ja": "並べてみましょう：あれはわたしたちの教室です。",
+        "en": "Build: That is our classroom."
+      },
+      "bank": [
+        "Itu",
+        "kelas",
+        "kami",
+        "Ini",
+        "kelasnya"
+      ],
+      "note": {
+        "zh": "kami 是「我们」（不含听话人），没有后缀形式。",
+        "ja": "kami は「わたしたち」（聞き手を含まない）で、接尾辞の形はありません。",
+        "en": "kami is “we” (excluding the listener); it has no suffix form."
+      }
+    },
+    {
+      "id": "t06",
+      "mode": "susun",
+      "level": 3,
+      "a": "Ini foto adikku.",
+      "ask": {
+        "zh": "拼出：这是我弟弟的照片。",
+        "ja": "並べてみましょう：これは弟の写真です。",
+        "en": "Build: This is a photo of my little brother."
+      },
+      "bank": [
+        "Ini",
+        "foto",
+        "adikku",
+        "Itu",
+        "adikmu",
+        "saya foto"
+      ],
+      "note": {
+        "zh": "照片 → 谁的：foto adikku（我弟弟的照片）。",
+        "ja": "写真→だれの、の順です：foto adikku。",
+        "en": "Photo → whose: foto adikku."
+      }
+    }
+  ]
 }

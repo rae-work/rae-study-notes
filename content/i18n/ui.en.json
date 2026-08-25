@@ -124,7 +124,7 @@
     ]
   },
   "drill": {
-    "eyebrow": "Situasi · Practice",
+    "eyebrow": "Practice",
     "h1": "Practice Q&A",
     "setup_sub": "Practise saying it, not just recognising it",
     "lead": "Review mode checks that you know what a word means. This one trains <b>answering on the spot</b> — so that when someone asks where you are from, where you live, or what your name is, the answer is already there. Questions are drawn at random, so you practise applying the pattern rather than memorising one answer.",
@@ -165,7 +165,13 @@
       "Bagus banget!",
       "Keep going!",
       "Tepat!"
-    ]
+    ],
+    "type_posesif": "My · your · his",
+    "type_tunjuk": "This · that",
+    "label_posesif": "Possessive",
+    "label_tunjuk": "This / that",
+    "susun_hint": "Tap the words below to build the sentence",
+    "check": "Check"
   },
   "footer": {
     "tagline": "Indonesian study notes · UGM INCULS “Titian Bahasa Pemula 1”",

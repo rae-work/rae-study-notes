@@ -124,7 +124,7 @@
     ]
   },
   "drill": {
-    "eyebrow": "Situasi · 实战",
+    "eyebrow": "实战",
     "h1": "实战问答",
     "setup_sub": "练「说得出来」，不只是「认得出」",
     "lead": "复习模式练的是认词，这里练的是<b>当场答得上来</b> —— 有人问「你从哪来」「住在哪」「叫什么名字」时，答案是现成的。题目从题库随机抽，练的是套规则，不是背某一句。",
@@ -165,7 +165,13 @@
       "Bagus banget!",
       "继续!",
       "Tepat!"
-    ]
+    ],
+    "type_posesif": "我的·你的·他的",
+    "type_tunjuk": "这个·那个",
+    "label_posesif": "领属",
+    "label_tunjuk": "指示词",
+    "susun_hint": "点下面的词，一个一个排上来",
+    "check": "检查"
   },
   "footer": {
     "tagline": "印尼语学习笔记 · UGM INCULS《Titian Bahasa Pemula 1》",

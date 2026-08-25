@@ -39,7 +39,8 @@ export function collectSpeakables(opts = {}) {
     d.innerHTML = html;
     return [...d.querySelectorAll('[data-say]')].map((el) => el.getAttribute('data-say'));
   };
-  const drillStats = { rounds: 0, badOpts: 0, badIndex: 0, dup: 0, types: {} };
+  const drillStats = { rounds: 0, badOpts: 0, badIndex: 0, dup: 0, types: {},
+    susun: 0, badBank: 0, noDistractor: 0 };
   const alts = [];
 
   /* 例句里「学习者的国籍」跟着界面语言变（{NEGARA} 等占位符，见 engine.js 的 LZ）。
@@ -81,12 +82,39 @@ export function collectSpeakables(opts = {}) {
       const q = w.drMake();
       drillStats.rounds++;
       drillStats.types[q.type] = (drillStats.types[q.type] || 0) + 1;
-      if (!q.opts || q.opts.length !== 4) drillStats.badOpts++;
-      else if (new Set(q.opts).size !== 4) drillStats.dup++;
-      if (!q.opts || q.opts[q.ok] !== q.a) drillStats.badIndex++;
-      // 会发音的：答案、全部选项、以及听力题的问句
-      q.opts && q.opts.forEach(add);
-      add(q.a);
+
+      if (q.mode === 'susun') {
+        /* 词块拼句：没有选项列表，改查「词块拼不拼得出答案」。
+           拼不出来的题是死题，学习者怎么点都过不去。 */
+        drillStats.susun++;
+        const norm = (s) => String(s).toLowerCase().replace(/[.!?,]/g, '').replace(/\s+/g, ' ').trim();
+        const need = norm(q.a).split(' ');
+        const have = q.bank.map(norm);
+        const pool = have.slice();
+        let ok = true;
+        for (const wd of need) {
+          const at = pool.indexOf(wd);
+          if (at < 0) { ok = false; break; }
+          pool.splice(at, 1);          // 同一个词块不能用两次
+        }
+        if (!ok) drillStats.badBank++;
+        if (q.bank.length <= need.length) drillStats.noDistractor++;
+        /* 只有正确答案该有音频。干扰词块是故意写错的（saya buku、Apa ini kamu?），
+           合成它们既费额度又没意义 —— 学习者永远听不到它们。 */
+        add(q.a);
+      } else {
+        if (!q.opts || q.opts.length !== 4) drillStats.badOpts++;
+        else if (new Set(q.opts).size !== 4) drillStats.dup++;
+        if (!q.opts || q.opts[q.ok] !== q.a) drillStats.badIndex++;
+        if (q.src) {
+          /* 手写的语法题：干扰项是错句，同样不进音频清单 */
+          add(q.a);
+        } else {
+          /* 自动出题的几类：干扰项都是题库里的真句子，都会被读到 */
+          q.opts && q.opts.forEach(add);
+          add(q.a);
+        }
+      }
       // 只有题面本身是印尼语时才会朗读；中文提示、时钟数字不收
       if (q.showLang === 'id') add(q.show);
     }

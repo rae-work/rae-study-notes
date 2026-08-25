@@ -315,6 +315,10 @@ var VOCAB = CONTENT.vocab;
 var SITUASI = CONTENT.drills.situasi;
 var TEMPAT = CONTENT.drills.tempat;
 var ANGKA_POOL = CONTENT.drills.angka_pool;
+/* Bab 2 起的语法题：跟前面几类不同，题目是手写的、每个错误选项都带
+   一句「为什么错」。题库为空时对应的题型按钮自动不出现（见 drAvail）。 */
+var POSESIF = CONTENT.drills.posesif || [];
+var TUNJUK = CONTENT.drills.tunjuk || [];
 
 /* ===== VOCAB: 所有学过的词 · 排序/筛选/搜索由引擎自动处理 =====
    条目格式 {w,zh,en,les,ex,exzh} —— 追加即可,顺序无所谓 */
@@ -1082,9 +1086,9 @@ function renderQuizPage(){
      dengar 听问句(不给文字)→ 选回答
    加课时只需往 SITUASI / TEMPAT 追加条目,引擎自动纳入。
 ============================================================ */
-var DR = {phase:"setup", types:{jam:true, angka:true, situasi:true, dengar:true},
+var DR = {phase:"setup", types:{jam:true, angka:true, situasi:true, dengar:true, posesif:true, tunjuk:true},
   count:15, queue:[], idx:0, curQ:null, right:0, answered:0,
-  wrong:[], last5:[], revealed:false, pick:-1};
+  wrong:[], last5:[], revealed:false, pick:-1, lastId:null};
 var drAuto = autoAdvancer(function(){ drillNext(); });
 
 function drShuffle(a){
@@ -1113,6 +1117,8 @@ function drAvail(t){
   if(t === "jam" || t === "angka") return ANGKA_POOL.length > 0;
   if(t === "situasi") return SITUASI.length > 0 || TEMPAT.length > 0;
   if(t === "dengar") return SITUASI.length > 0;
+  if(t === "posesif") return POSESIF.length > 0;
+  if(t === "tunjuk") return TUNJUK.length > 0;
   return false;
 }
 
@@ -1193,12 +1199,79 @@ function makeTempat(){
           a:it.a, opts:null, extra:extra};
 }
 
+/* ============================================================
+   语法题（Bab 2 起）—— 两种形态
+   ------------------------------------------------------------
+   pilih  四选一，但每个错误选项都预先写好一句「为什么错」。
+          课本最缺的就是这个：填错了没人告诉你错在哪。
+   susun  词块拼句。下面一排词块，点一下上屏、点已上屏的退回来。
+          用点按代替拖拽和打字 —— 拖拽在手机浏览器上坑多，
+          软键盘在老机器上又慢又抖，拼写判错对初学者也是白挫败。
+          词块池里放语序陷阱（saya buku、tasnya），
+          因为中文日文英文都是「谁的」在前，这个坑全班都会踩。
+
+   题目按 level 排：1 只要求看懂、2 给词块拼、3 词块更多干扰更像。
+   一轮里先出 level 1，连对了才放 level 2/3；连错自动退回 level 1。
+   ============================================================ */
+function latihPool(kind){ return kind === "tunjuk" ? TUNJUK : POSESIF; }
+
+/* 拼句判分要宽容一点：大小写、句末标点、多余空格都不该算错，
+   学习者点的是词块，这些差异不是他的问题。 */
+function susunNorm(s){
+  return String(s).toLowerCase().replace(/[.!?,]/g, "").replace(/\s+/g, " ").trim();
+}
+
+function makeLatih(kind){
+  var pool = latihPool(kind), i, sum = 0;
+  /* 连错降档：最近 5 题错 3 个以上，只出最容易的一档 */
+  for(i = 0; i < DR.last5.length; i++) sum += DR.last5[i];
+  var easyOnly = DR.last5.length >= 4 && sum <= DR.last5.length - 3;
+
+  var wrong = [], fresh = [], rest = [];
+  pool.forEach(function(x){
+    if(easyOnly && x.level !== 1) return;
+    var lv = progLevel("q:" + x.id);
+    (lv === 1 ? wrong : lv === 0 ? fresh : rest).push(x);
+  });
+  /* 错题优先，但要掷骰子决定 —— 不能让一两道错题把整轮占满。
+     （原来写成「有错题就只从错题里出」，结果答错一道之后连着二十题都是它。） */
+  var bag, r = Math.random();
+  if(wrong.length && r < 0.4) bag = wrong;
+  else if(fresh.length && r < 0.75) bag = fresh;
+  else bag = rest.length ? rest : (fresh.length ? fresh : wrong);
+  if(!bag || !bag.length) bag = pool.filter(function(x){ return !easyOnly || x.level === 1; });
+  if(!bag.length) bag = pool;
+  /* 也别连着出同一道 */
+  if(bag.length > 1 && DR.lastId){
+    var others = bag.filter(function(x){ return x.id !== DR.lastId; });
+    if(others.length) bag = others;
+  }
+  var it = drPick(bag);
+  DR.lastId = it.id;
+  var q = {type: kind, mode: it.mode, src: it, a: it.a,
+           show: L(it.ask), showLang: "learner", level: it.level};
+  if(it.mode === "susun"){
+    q.bank = drShuffle(it.bank.slice());
+    q.picked = [];
+    q.opts = null;
+  } else {
+    var order = drShuffle([0, 1, 2, 3]);
+    q.optObjs = order.map(function(k){ return it.opts[k]; });
+    q.opts = q.optObjs.map(function(o){ return o.t; });
+    q.ok = 0;
+    for(i = 0; i < q.optObjs.length; i++) if(q.optObjs[i].t === it.a) q.ok = i;
+  }
+  return q;
+}
+
 function drChooseType(){
   var on = [];
   if(DR.types.jam && drAvail("jam")) on.push("jam");
   if(DR.types.angka && drAvail("angka")) on.push("angka");
   if(DR.types.situasi && drAvail("situasi")) on.push("situasi");
   if(DR.types.dengar && drAvail("dengar")) on.push("dengar");
+  if(DR.types.posesif && drAvail("posesif")) on.push("posesif");
+  if(DR.types.tunjuk && drAvail("tunjuk")) on.push("tunjuk");
   if(!on.length) return "situasi";
   /* 连错降档:最近 5 题错 3 个以上,优先给看得见文字的题型 */
   var sum = 0;
@@ -1211,6 +1284,8 @@ function drChooseType(){
 }
 function drMake(){
   var t = drChooseType(), q;
+  /* 语法题是手写题库，选项和反馈都写死在数据里，不走下面的干扰项拼装 */
+  if(t === "posesif" || t === "tunjuk") return makeLatih(t);
   if(t === "jam") q = makeJam();
   else if(t === "angka") q = makeAngka();
   else if(t === "dengar") q = makeSituasi(true);
@@ -1253,13 +1328,12 @@ function drillStart(fromWrong){
   DR.wrong = []; DR.last5 = [];
   drShow();
 }
-function drillAnswer(i){
-  if(DR.phase !== "q" || DR.revealed || !DR.curQ) return;
-  DR.pick = i; DR.revealed = true;
-  var q = DR.curQ, ok = (i === q.ok);
+/* 判完分之后共用的收尾：记进度、翻页或停下 */
+function drillSettle(q, ok){
   DR.answered++;
   DR.last5.push(ok ? 1 : 0);
   if(DR.last5.length > 5) DR.last5.shift();
+  if(q.src && q.src.id) progMark("q:" + q.src.id, ok);   /* 手写题按题号记，下次优先出错题 */
   if(ok){
     DR.right++;
     renderDrillPage();
@@ -1269,6 +1343,35 @@ function drillAnswer(i){
     renderDrillPage();
     speak(q.a);                 /* 答错停在本页，读一遍正确说法 */
   }
+}
+function drillAnswer(i){
+  if(DR.phase !== "q" || DR.revealed || !DR.curQ) return;
+  DR.pick = i; DR.revealed = true;
+  var q = DR.curQ;
+  drillSettle(q, i === q.ok);
+}
+/* 拼句：点词块上屏 / 点已上屏的退回 / 点检查判分 */
+function susunPick(bi){
+  var q = DR.curQ;
+  if(!q || q.mode !== "susun" || DR.revealed) return;
+  if(q.picked.indexOf(bi) >= 0) return;
+  q.picked.push(bi);
+  renderDrillPage();
+}
+function susunUnpick(si){
+  var q = DR.curQ;
+  if(!q || q.mode !== "susun" || DR.revealed) return;
+  q.picked.splice(si, 1);
+  renderDrillPage();
+}
+function susunCheck(){
+  var q = DR.curQ;
+  if(!q || q.mode !== "susun" || DR.revealed || !q.picked.length) return;
+  var got = q.picked.map(function(bi){ return q.bank[bi]; }).join(" ");
+  var ok = susunNorm(got) === susunNorm(q.a);
+  DR.revealed = true;
+  DR.pick = ok ? 1 : 0;        /* 拼句没有选项索引，借这个字段标对错 */
+  drillSettle(q, ok);
 }
 function drillNext(){
   drAuto.cancel();
@@ -1281,6 +1384,9 @@ function drillAction(b){
   if(act === "cnt"){ DR.count = +b.getAttribute("data-v"); renderDrillPage(); return; }
   if(act === "start"){ drillStart(false); return; }
   if(act === "opt"){ drillAnswer(+b.getAttribute("data-i")); return; }
+  if(act === "pick"){ susunPick(+b.getAttribute("data-i")); return; }
+  if(act === "unpick"){ susunUnpick(+b.getAttribute("data-i")); return; }
+  if(act === "check"){ susunCheck(); return; }
   if(act === "cont"){ drillNext(); return; }
   if(act === "say"){ if(DR.curQ) speak(DR.curQ.show); return; }
   if(act === "sayans"){ if(DR.curQ) speak(DR.curQ.a); return; }
@@ -1295,7 +1401,8 @@ function drHead(sub){
     '<div class="ptitle-row"><h1 class="ptitle">' + esc(T("drill.h1")) + "</h1></div>" +
     '<div class="ptitle-sub">' + sub + "</div></div>";
 }function renderDrillSetup(){
-  var TL = [["jam","drill.type_jam"],["angka","drill.type_angka"],["situasi","drill.type_situasi"],["dengar","drill.type_dengar"]]
+  var TL = [["jam","drill.type_jam"],["angka","drill.type_angka"],["situasi","drill.type_situasi"],
+            ["dengar","drill.type_dengar"],["posesif","drill.type_posesif"],["tunjuk","drill.type_tunjuk"]]
     .filter(function(t){ return drAvail(t[0]); });
   var chips = TL.map(function(t){
     return '<button class="chip' + (DR.types[t[0]] ? " on" : "") + '" data-dr="type" data-v="' + t[0] + '">' + esc(T(t[1])) + "</button>";
@@ -1313,9 +1420,31 @@ function drHead(sub){
     '<div class="qz-secttl">' + esc(T("drill.sec_count")) + '</div><div class="qz-chips">' + cnts + "</div>" +
     '<div class="note green" style="margin-top:22px"><span class="tag">' + esc(T("drill.note_tag")) + "</span><p>" +
     T("drill.note_body") + "</p></div>" + btn;
-}function renderDrillQ(){
+}/* 词块拼句的那一屏。上面是答案区（点一下退回），下面是词块池。
+   全程点按，不用拖拽、不弹键盘。 */
+function renderSusun(q){
+  var picked = q.picked || [];
+  var slot = picked.length
+    ? picked.map(function(bi, si){
+        return '<button class="sz-tok" data-dr="unpick" data-i="' + si + '">' + esc(q.bank[bi]) + "</button>";
+      }).join("")
+    : '<span class="sz-empty">' + esc(T("drill.susun_hint")) + "</span>";
+  var bank = q.bank.map(function(w, bi){
+    var used = picked.indexOf(bi) >= 0;
+    return '<button class="sz-tok bank' + (used ? " used" : "") + '" data-dr="pick" data-i="' + bi + '"' +
+      (used || DR.revealed ? " disabled" : "") + ">" + esc(w) + "</button>";
+  }).join("");
+  var check = DR.revealed ? "" :
+    '<button class="qz-next sz-check" data-dr="check"' + (picked.length ? "" : " disabled") + ">" +
+    esc(T("drill.check")) + "</button>";
+  return '<div class="sz-slot' + (DR.revealed ? (DR.pick === 1 ? " good" : " bad") : "") + '">' + slot + "</div>" +
+    '<div class="sz-bank">' + bank + "</div>" + check;
+}
+
+function renderDrillQ(){
   var q = DR.curQ;
-  var LABEL = {jam:"drill.label_jam", angka:"drill.label_angka", situasi:"drill.label_situasi", dengar:"drill.label_dengar"};
+  var LABEL = {jam:"drill.label_jam", angka:"drill.label_angka", situasi:"drill.label_situasi",
+               dengar:"drill.label_dengar", posesif:"drill.label_posesif", tunjuk:"drill.label_tunjuk"};
   var head;
   if(q.type === "jam" || q.type === "angka"){
     head = '<div class="dr-big">' + esc(q.show) + "</div>" +
@@ -1323,11 +1452,17 @@ function drHead(sub){
   } else if(q.type === "dengar"){
     head = '<div class="qz-prompt"><button class="qz-audio" data-dr="say">' + esc(T("drill.replay")) + "</button></div>" +
            '<div class="dr-cue">' + esc(drCue(q)) + "</div>";
+  } else if(q.src){
+    /* 语法题：题面本身就是用学习者语言写的一句话，允许 <b> 强调 */
+    head = '<div class="dr-q lat">' + richText(q.src.ask) + "</div>";
   } else {
     head = '<div class="dr-q">' + esc(q.show) + "</div>" +
            '<div class="dr-cue">' + esc(drCue(q)) + "</div>";
   }
-  var opts = q.opts.map(function(o, i){
+  /* 拼句题没有选项列表，走词块那一套 */
+  var isSusun = q.mode === "susun";
+  var correct = isSusun ? (DR.pick === 1) : (DR.pick === q.ok);
+  var opts = isSusun ? renderSusun(q) : q.opts.map(function(o, i){
     var cls = "qz-opt";
     if(DR.revealed){
       if(i === q.ok) cls += " good";
@@ -1336,25 +1471,37 @@ function drHead(sub){
     }
     return '<button class="' + cls + '" data-dr="opt" data-i="' + i + '">' + esc(o) + "</button>";
   }).join("");
-  var toast = (DR.revealed && DR.pick === q.ok)
+  var toast = (DR.revealed && correct)
     ? '<span class="qz-toast">✓ ' + esc(pickOne(T("drill.toasts"))) + "</span>" : "";
   var fb = "";
-  if(DR.revealed && DR.pick !== q.ok){
-    var why = (q.type === "jam" && q.a.indexOf("setengah") === 0) ? T("drill.why_jam")
-            : (q.type === "angka") ? T("drill.why_angka")
-            : T("drill.why_other");
+  if(DR.revealed && !correct){
+    var why;
+    if(q.src){
+      /* 手写题：先给「你选的这个为什么错」，再给这一条的规则。
+         课本填错了没人告诉你错在哪 —— 这一段就是补那个缺口。 */
+      var mine = (!isSusun && q.optObjs && q.optObjs[DR.pick]) ? q.optObjs[DR.pick].why : null;
+      why = (mine ? '<span class="fw-why">' + L(mine) + "</span>" : "") +
+            (q.src.note ? (mine ? "<br>" : "") + L(q.src.note) : "");
+    } else {
+      why = (q.type === "jam" && q.a.indexOf("setengah") === 0) ? T("drill.why_jam")
+          : (q.type === "angka") ? T("drill.why_angka")
+          : T("drill.why_other");
+    }
     fb = '<div class="qz-fb"><div class="fw">' + esc(q.a) + "</div>" +
-      '<div class="fg">' + esc(q.showLang === "id" ? q.show : drCue(q)) + "</div>" +
+      '<div class="fg">' + esc(q.src ? L(q.src.ask).replace(/<[^>]+>/g, "") : (q.showLang === "id" ? q.show : drCue(q))) + "</div>" +
       '<button class="pr-btn" data-dr="sayans" style="margin-top:8px">' + esc(T("drill.say_answer")) + "</button>" +
       '<div class="fnote">' + why + "</div>" +
       '<button class="qz-next" data-dr="cont">' + esc(T("review.cont")) + "</button></div>";
+  } else if(DR.revealed && correct && q.src && q.src.note){
+    /* 答对也给一句规则 —— 趁着刚答对，把「为什么对」钉一下 */
+    fb = '<div class="qz-fb ok"><div class="fnote">' + L(q.src.note) + "</div></div>";
   }
   var pct = Math.round(DR.idx / DR.queue.length * 100);
   return drHead(T("drill.progress", DR.idx + 1, DR.queue.length)) +
     '<div class="qz-top"><span class="qz-type">' + esc(T(LABEL[q.type])) + '</span><span class="qz-count">✓ ' +
     DR.right + " · ✗ " + (DR.answered - DR.right) + toast + "</span></div>" +
     '<div class="qz-bar"><i style="width:' + pct + '%"></i></div>' +
-    head + '<div class="qz-opts">' + opts + "</div>" + fb;
+    head + (isSusun ? opts : '<div class="qz-opts">' + opts + "</div>") + fb;
 }function renderDrillDone(){
   var pct = DR.answered ? Math.round(DR.right / DR.answered * 100) : 0;
   var line = pct >= 90 ? T("drill.praise_hi") : pct >= 70 ? T("drill.praise_mid") : T("drill.praise_lo");
