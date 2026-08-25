@@ -59,6 +59,15 @@
       </div></div>
     <div class="grp" id="voiceGrp"><span class="lab" data-t="nav.voice_label"></span>
       <select class="voice" id="voiceSel" data-t-title="nav.voice_title"></select></div>
+    <!-- 学习记录：状态 + 清除。文案由 engine.js 的 syncProgUI() 按当前语言填。 -->
+    <div class="grp prog-grp" id="progGrp">
+      <div class="prog-row">
+        <span class="lab" data-t="prog.label"></span>
+        <button class="prog-clear" id="progClear" data-t="prog.clear"></button>
+      </div>
+      <span class="prog-stat" id="progStat"></span>
+      <span class="prog-hint" id="progHint"></span>
+    </div>
   </div>
   <!-- 提示条放在 header 里面：页眉是浮动的，两者要一起收起，
        高度也由 engine.js 一起量（见 syncHeaderH）。 -->

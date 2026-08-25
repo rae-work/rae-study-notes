@@ -174,5 +174,17 @@
     "author": "Rae 做的，用 Claude Code 写的",
     "feedback": "有 bug 或想加功能，欢迎去 GitHub 提 issue",
     "privacy": "本站用 Cloudflare 统计访问量，不使用 cookie、不收集个人信息"
+  },
+  "prog": {
+    "label": "学习记录",
+    "count": "已记住 {0} 个词的练习情况",
+    "none": "还没有练习记录",
+    "off": "这个浏览器不保存记录",
+    "clear": "清除",
+    "clear_ask": "确定清除？",
+    "ios_hint": "把网页「添加到主屏幕」，记录才能长期保留",
+    "dot_1": "还在错",
+    "dot_2": "答对过",
+    "dot_3": "练熟了"
   }
 }

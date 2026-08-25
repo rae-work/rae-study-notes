@@ -174,5 +174,17 @@
     "author": "Made by Rae, written with Claude Code",
     "feedback": "Found a bug or want a feature? Open an issue on GitHub",
     "privacy": "This site counts visits with Cloudflare — no cookies, no personal data"
+  },
+  "prog": {
+    "label": "Progress",
+    "count": "Tracking {0} words",
+    "none": "No practice yet",
+    "off": "This browser cannot save progress",
+    "clear": "Clear",
+    "clear_ask": "Clear it?",
+    "ios_hint": "Add to Home Screen to keep your progress",
+    "dot_1": "Still tricky",
+    "dot_2": "Got it right",
+    "dot_3": "Solid"
   }
 }

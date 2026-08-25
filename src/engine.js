@@ -55,6 +55,63 @@ var STORE = (function(){
   };
 })();
 
+/* ============================================================
+   学习记录
+   ------------------------------------------------------------
+   记下每个词答对／答错过几次、最近一次是哪天。三个用途：
+   · 复习出题时，上回答错的词排到前面
+   · 词汇表和复习页上标一个安静的墨点，让人看得见自己练到哪
+   · 一轮练习的热身段直接取上次的错词
+
+   刻意做成「丢了也不心疼」：iOS Safari 连着七个使用日没打开就会
+   清掉存储（加到主屏幕的不会），换手机更是带不走。所以界面上
+   任何地方都不许拿它当前提 —— 没有记录时一切照常，只是少个墨点。
+
+   存的形式：{ 词: [答对数, 答错数, 最后一天的天数序号] }。
+   天数序号而不是毫秒时间戳，是为了让几百个词的记录仍然只有几 KB。
+   ============================================================ */
+var PROG_V = 1;
+var PROG = (function(){
+  var p = STORE.get("prog", null);
+  if(!p || p.v !== PROG_V || typeof p.w !== "object" || !p.w) return {v: PROG_V, w: {}};
+  return p;
+})();
+var progTimer = null;
+function dayNum(){ return Math.floor(Date.now() / 86400000); }
+function progSave(){
+  if(progTimer) return;             /* 攒 600ms 再写，一题一写太浪费 */
+  progTimer = setTimeout(function(){
+    progTimer = null;
+    STORE.set("prog", PROG);
+  }, 600);
+}
+function progMark(word, ok){
+  if(!word) return;
+  var r = PROG.w[word] || [0, 0, 0];
+  if(ok) r[0]++; else r[1]++;
+  r[2] = dayNum();
+  PROG.w[word] = r;
+  progSave();
+}
+/* 掌握档：0 没练过 · 1 还在错 · 2 答对过 · 3 练熟了 */
+function progLevel(word){
+  var r = PROG.w[word];
+  if(!r || (r[0] + r[1]) === 0) return 0;
+  if(r[0] >= 3 && r[0] >= r[1] * 2) return 3;
+  if(r[0] > r[1]) return 2;
+  return 1;
+}
+function progCount(){
+  var n = 0, k;
+  for(k in PROG.w) if(PROG.w.hasOwnProperty(k)) n++;
+  return n;
+}
+function progClear(){
+  PROG = {v: PROG_V, w: {}};
+  if(progTimer){ clearTimeout(progTimer); progTimer = null; }
+  STORE.del("prog");
+}
+
 /* ===== 语言 =====
    LANG 的确定顺序：存下来的选择 → 浏览器语言 → meta 的默认值。
    L(x)  把 {zh, ja, en} 解析成当前语言的字符串（缺则 zh → en → ja 兜底）。
@@ -217,8 +274,34 @@ function applyStaticText(){
   toArr(document.querySelectorAll("#accentSeg .sw")).forEach(function(b){
     b.classList.toggle("on", b.getAttribute("data-ac") === ACCENT);
   });
+  if(typeof syncProgUI === "function") syncProgUI();
   if(typeof pickVoices === "function") pickVoices();
   if(typeof syncHeaderH === "function") syncHeaderH();
+}
+
+/* 设置面板最底下那格「学习记录」。切语言、清除之后都要重刷一次。 */
+function syncProgUI(){
+  var stat = document.getElementById("progStat");
+  if(!stat) return;
+  var btn = document.getElementById("progClear");
+  var hint = document.getElementById("progHint");
+  var n = progCount();
+  stat.textContent = !STORE.ok() ? T("prog.off") : (n ? T("prog.count", n) : T("prog.none"));
+  if(btn){
+    btn.disabled = !n;
+    btn.textContent = T("prog.clear");
+    btn.classList.remove("armed");
+  }
+  /* iOS 的 Safari 连着七天没打开就会把存储清掉，加到主屏幕的不会。
+     这句话只说给可能踩到的人听：iPhone + 还没加到主屏幕。 */
+  if(hint){
+    var iOS = /iP(hone|ad|od)/.test(navigator.userAgent || "");
+    var standalone = (window.navigator && window.navigator.standalone === true) ||
+      (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);
+    var show = STORE.ok() && iOS && !standalone;
+    hint.textContent = show ? T("prog.ios_hint") : "";
+    hint.style.display = show ? "" : "none";
+  }
 }
 
 /* 单元标签：教材是 Bab，旧课本是 Pelajaran。放在 meta 里。 */
@@ -600,9 +683,11 @@ function glossCard(v){
   var zh = L(v.gloss), en = L2(v.gloss);
   /* 搜索索引：印尼语 + 三种释义全部进去，切语言也搜得到 */
   var q = esc((v.w + " " + zh + " " + (v.gloss.zh||"") + " " + (v.gloss.ja||"") + " " + (v.gloss.en||"")).toLowerCase());
+  var lv = progLevel(v.w);
+  var dot = lv ? '<i class="gdot l' + lv + '" title="' + esc(T("prog.dot_" + lv)) + '"></i>' : "";
   return '<div class="gentry card-tap" data-say="' + esc(sayText(v.w)) + '" data-les="' + v.les + '" data-q="' + q + '">' +
     '<div class="gtop"><span class="gword">' + sayWhole(v.w, sayText(v.w), "cardword") + '</span>' +
-    '<span class="gbadge">L' + v.les + "</span></div>" +
+    dot + '<span class="gbadge">L' + v.les + "</span></div>" +
     '<div class="ggloss"><span class="ans">' + esc(zh) + (en ? ' · <span class="en">' + esc(en) + "</span>" : "") + "</span></div>" +
     (v.ex ? '<div class="gex"><button class="play" data-say="' + esc(sayText(LZ(v.ex))) + '" title="' + esc(T("block.play_example")) + '">' + PLAY_SVG + '</button>' +
       '<span class="line"><span class="idtext">' + sayLine(LZ(v.ex)) + '</span><span class="gloss"><span class="ans">' +
@@ -802,13 +887,27 @@ function qzShow(){
   renderQuizPage();
   if(QZ.curQ && QZ.curQ.type === "l") speak(sayText(QZ.curQ.v.w));
 }
+/* 挑这一轮要考的词：上回错的排前面，其次没练过的，练熟的最后。
+   选完再打散一遍，免得错词全堆在开头显得像惩罚。
+   没有学习记录时（新用户、清过记录、浏览器不让存）自然退化成纯随机，
+   跟以前的行为一模一样。 */
+function quizPick(pool, n){
+  var RANK = {1: 0, 0: 1, 2: 2, 3: 3};       /* 还在错 → 没练过 → 答对过 → 练熟 */
+  var buckets = [[], [], [], []];
+  pool.forEach(function(v){ buckets[RANK[progLevel(v.w)]].push(v); });
+  var out = [];
+  for(var i = 0; i < buckets.length && out.length < n; i++){
+    out = out.concat(shuffleArr(buckets[i]).slice(0, n - out.length));
+  }
+  return shuffleArr(out);
+}
 function quizStart(fromWrong){
   var items;
   if(fromWrong){ items = shuffleArr(QZ.wrongUniq.slice()); }
   else {
     var pool = quizPool();
     if(pool.length < 4) return;
-    items = shuffleArr(pool.slice()).slice(0, Math.min(QZ.count, pool.length));
+    items = quizPick(pool, Math.min(QZ.count, pool.length));
   }
   ttsWarm();
   QZ.queue = items; QZ.plan = items.length;
@@ -823,6 +922,7 @@ function quizAnswer(i){
   QZ.answered++;
   QZ.last5.push(ok ? 1 : 0);
   if(QZ.last5.length > 5) QZ.last5.shift();
+  progMark(v.w, ok);               /* 记一笔，下次出题按这个排序 */
   if(ok){
     QZ.right++;
     renderQuizPage();
@@ -1878,6 +1978,27 @@ function on(id, ev, fn){
   if(el) el.addEventListener(ev, fn);
   return el;
 }
+/* 清除学习记录：点两下才真清 —— 不弹系统对话框（样式不受控、也太吓人），
+   第一下把按钮文字换成「确定清除？」，三秒不理就自己撤回。 */
+var progArm = null;
+on("progClear", "click", function(){
+  var btn = this;
+  if(!progCount()) return;
+  if(progArm){
+    clearTimeout(progArm); progArm = null;
+    progClear();
+    syncProgUI();
+    render();                       /* 词汇表上的墨点要立刻消失 */
+    return;
+  }
+  btn.textContent = T("prog.clear_ask");
+  btn.classList.add("armed");
+  progArm = setTimeout(function(){
+    progArm = null;
+    btn.textContent = T("prog.clear");
+    btn.classList.remove("armed");
+  }, 3000);
+});
 on("glossBtn", "click", function(){ go(GLOSS_INDEX); });
 on("quizBtn", "click", function(){ go(REVIEW_INDEX); });
 on("drillBtn", "click", function(){ go(DRILL_INDEX); });
