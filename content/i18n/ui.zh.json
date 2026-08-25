@@ -171,7 +171,10 @@
     "label_posesif": "领属",
     "label_tunjuk": "指示词",
     "susun_hint": "点下面的词，一个一个排上来",
-    "check": "检查"
+    "check": "检查",
+    "type_benda": "认物品",
+    "label_benda": "物品",
+    "why_benda": "{0} 是{1}；{2} 才是{3}。"
   },
   "footer": {
     "tagline": "印尼语学习笔记 · UGM INCULS《Titian Bahasa Pemula 1》",

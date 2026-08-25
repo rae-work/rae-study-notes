@@ -171,7 +171,10 @@
     "label_posesif": "Possessive",
     "label_tunjuk": "This / that",
     "susun_hint": "Tap the words below to build the sentence",
-    "check": "Check"
+    "check": "Check",
+    "type_benda": "Objects",
+    "label_benda": "Object",
+    "why_benda": "{0} is {1}; {2} is {3}."
   },
   "footer": {
     "tagline": "Indonesian study notes · UGM INCULS “Titian Bahasa Pemula 1”",

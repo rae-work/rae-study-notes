@@ -171,7 +171,10 @@
     "label_posesif": "所有",
     "label_tunjuk": "指示詞",
     "susun_hint": "下の語をタップして並べてください",
-    "check": "答え合わせ"
+    "check": "答え合わせ",
+    "type_benda": "ものの名前",
+    "label_benda": "もの",
+    "why_benda": "{0} は{1}です。{2} が{3}です。"
   },
   "footer": {
     "tagline": "インドネシア語の学習ノート · UGM INCULS『Titian Bahasa Pemula 1』",

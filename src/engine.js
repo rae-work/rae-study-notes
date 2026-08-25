@@ -329,6 +329,17 @@ var ANGKA_POOL = CONTENT.drills.angka_pool;
    一句「为什么错」。题库为空时对应的题型按钮自动不出现（见 drAvail）。 */
 var POSESIF = CONTENT.drills.posesif || [];
 var TUNJUK = CONTENT.drills.tunjuk || [];
+/* 教室物品的简笔画。线描 SVG 跟着 currentColor 走，深浅色和五套配色都不用另画；
+   二十个图加起来 1.4KB，比一张照片的零头还小，也不违反离线约束。 */
+var ICONS = CONTENT.drills.icons || {};
+var BENDA = CONTENT.drills.benda || [];
+function svgIcon(w, cls){
+  var d = ICONS[w];
+  if(!d) return "";
+  return '<svg class="bd-ico ' + (cls || "") + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
+    'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' +
+    d + '"/></svg>';
+}
 
 /* ===== VOCAB: 所有学过的词 · 排序/筛选/搜索由引擎自动处理 =====
    条目格式 {w,zh,en,les,ex,exzh} —— 追加即可,顺序无所谓 */
@@ -1096,7 +1107,7 @@ function renderQuizPage(){
      dengar 听问句(不给文字)→ 选回答
    加课时只需往 SITUASI / TEMPAT 追加条目,引擎自动纳入。
 ============================================================ */
-var DR = {phase:"setup", types:{jam:true, angka:true, situasi:true, dengar:true, posesif:true, tunjuk:true},
+var DR = {phase:"setup", types:{jam:true, angka:true, situasi:true, dengar:true, posesif:true, tunjuk:true, benda:true},
   count:15, queue:[], idx:0, curQ:null, right:0, answered:0,
   wrong:[], last5:[], revealed:false, pick:-1, lastId:null};
 var drAuto = autoAdvancer(function(){ drillNext(); });
@@ -1129,6 +1140,7 @@ function drAvail(t){
   if(t === "dengar") return SITUASI.length > 0;
   if(t === "posesif") return POSESIF.length > 0;
   if(t === "tunjuk") return TUNJUK.length > 0;
+  if(t === "benda") return BENDA.length >= 4;      /* 不够 4 个凑不出选项 */
   return false;
 }
 
@@ -1274,6 +1286,25 @@ function makeLatih(kind){
   return q;
 }
 
+/* 看图认词。两个方向轮着来：图→选词（认形）和 词→选图（听音辨义）。
+   词条本身就是音频，点了会读；答对之后也读一遍。 */
+function makeBenda(){
+  var it = drPick(BENDA);
+  var others = BENDA.filter(function(x){ return x.w !== it.w; });
+  var ds = drShuffle(others).slice(0, 3);
+  var all = [it].concat(ds);
+  var order = drShuffle([0, 1, 2, 3]);
+  var picToWord = Math.random() < 0.6;      /* 看图选词稍多一点，它更容易 */
+  var q = {type: "benda", mode: picToWord ? "pic2word" : "word2pic",
+           a: it.w, item: it, showLang: "id",
+           optItems: order.map(function(k){ return all[k]; })};
+  q.opts = q.optItems.map(function(x){ return x.w; });
+  q.ok = 0;
+  for(var i = 0; i < q.optItems.length; i++) if(q.optItems[i].w === it.w) q.ok = i;
+  q.show = it.w;
+  return q;
+}
+
 function drChooseType(){
   var on = [];
   if(DR.types.jam && drAvail("jam")) on.push("jam");
@@ -1282,6 +1313,7 @@ function drChooseType(){
   if(DR.types.dengar && drAvail("dengar")) on.push("dengar");
   if(DR.types.posesif && drAvail("posesif")) on.push("posesif");
   if(DR.types.tunjuk && drAvail("tunjuk")) on.push("tunjuk");
+  if(DR.types.benda && drAvail("benda")) on.push("benda");
   if(!on.length) return "situasi";
   /* 连错降档:最近 5 题错 3 个以上,优先给看得见文字的题型 */
   var sum = 0;
@@ -1296,6 +1328,7 @@ function drMake(){
   var t = drChooseType(), q;
   /* 语法题是手写题库，选项和反馈都写死在数据里，不走下面的干扰项拼装 */
   if(t === "posesif" || t === "tunjuk") return makeLatih(t);
+  if(t === "benda") return makeBenda();
   if(t === "jam") q = makeJam();
   else if(t === "angka") q = makeAngka();
   else if(t === "dengar") q = makeSituasi(true);
@@ -1421,7 +1454,8 @@ function drHead(sub){
     '<div class="ptitle-sub">' + sub + "</div></div>";
 }function renderDrillSetup(){
   var TL = [["jam","drill.type_jam"],["angka","drill.type_angka"],["situasi","drill.type_situasi"],
-            ["dengar","drill.type_dengar"],["posesif","drill.type_posesif"],["tunjuk","drill.type_tunjuk"]]
+            ["dengar","drill.type_dengar"],["benda","drill.type_benda"],
+            ["posesif","drill.type_posesif"],["tunjuk","drill.type_tunjuk"]]
     .filter(function(t){ return drAvail(t[0]); });
   var chips = TL.map(function(t){
     return '<button class="chip' + (DR.types[t[0]] ? " on" : "") + '" data-dr="type" data-v="' + t[0] + '">' + esc(T(t[1])) + "</button>";
@@ -1463,7 +1497,8 @@ function renderSusun(q){
 function renderDrillQ(){
   var q = DR.curQ;
   var LABEL = {jam:"drill.label_jam", angka:"drill.label_angka", situasi:"drill.label_situasi",
-               dengar:"drill.label_dengar", posesif:"drill.label_posesif", tunjuk:"drill.label_tunjuk"};
+               dengar:"drill.label_dengar", posesif:"drill.label_posesif", tunjuk:"drill.label_tunjuk",
+               benda:"drill.label_benda"};
   var head;
   if(q.type === "jam" || q.type === "angka"){
     head = '<div class="dr-big">' + esc(q.show) + "</div>" +
@@ -1471,6 +1506,12 @@ function renderDrillQ(){
   } else if(q.type === "dengar"){
     head = '<div class="qz-prompt"><button class="qz-audio" data-dr="say">' + esc(T("drill.replay")) + "</button></div>" +
            '<div class="dr-cue">' + esc(drCue(q)) + "</div>";
+  } else if(q.type === "benda"){
+    /* 不加「这是什么？」那种提示 —— 一张图配四个词，本来就不用解释，
+       多一个带底色的框只是抢注意力。 */
+    head = (q.mode === "pic2word")
+      ? '<div class="bd-big">' + svgIcon(q.item.w, "lg") + "</div>"
+      : '<div class="qz-prompt">' + sayWhole(q.item.w, sayText(q.item.w)) + "</div>";
   } else if(q.src){
     /* 语法题：题面本身就是用学习者语言写的一句话，允许 <b> 强调 */
     head = '<div class="dr-q lat">' + richText(q.src.ask) + "</div>";
@@ -1488,6 +1529,11 @@ function renderDrillQ(){
       else if(i === DR.pick) cls += " bad";
       else cls += " dim";
     }
+    /* 看词选图那一档，选项本身是图 */
+    if(q.type === "benda" && q.mode === "word2pic"){
+      return '<button class="' + cls + ' pic" data-dr="opt" data-i="' + i + '">' +
+        svgIcon(q.optItems[i].w) + "</button>";
+    }
     return '<button class="' + cls + '" data-dr="opt" data-i="' + i + '">' + esc(o) + "</button>";
   }).join("");
   var toast = (DR.revealed && correct)
@@ -1501,13 +1547,20 @@ function renderDrillQ(){
       var mine = (!isSusun && q.optObjs && q.optObjs[DR.pick]) ? q.optObjs[DR.pick].why : null;
       why = (mine ? '<span class="fw-why">' + L(mine) + "</span>" : "") +
             (q.src.note ? (mine ? "<br>" : "") + L(q.src.note) : "");
+    } else if(q.type === "benda"){
+      /* 认错了就把两个词摆在一起对照 —— 错的那个也是真词，顺手一起认了 */
+      var mineItem = q.optItems && q.optItems[DR.pick];
+      why = mineItem ? T("drill.why_benda", mineItem.w, L(mineItem.gloss), q.item.w, L(q.item.gloss))
+                     : T("drill.why_other");
     } else {
       why = (q.type === "jam" && q.a.indexOf("setengah") === 0) ? T("drill.why_jam")
           : (q.type === "angka") ? T("drill.why_angka")
           : T("drill.why_other");
     }
-    fb = '<div class="qz-fb"><div class="fw">' + esc(q.a) + "</div>" +
-      '<div class="fg">' + esc(q.src ? L(q.src.ask).replace(/<[^>]+>/g, "") : (q.showLang === "id" ? q.show : drCue(q))) + "</div>" +
+    fb = '<div class="qz-fb">' + (q.type === "benda" ? '<div class="fw-pic">' + svgIcon(q.item.w) + "</div>" : "") +
+      '<div class="fw">' + esc(q.a) + "</div>" +
+      '<div class="fg">' + esc(q.type === "benda" ? L(q.item.gloss)
+        : q.src ? L(q.src.ask).replace(/<[^>]+>/g, "") : (q.showLang === "id" ? q.show : drCue(q))) + "</div>" +
       '<button class="pr-btn" data-dr="sayans" style="margin-top:8px">' + esc(T("drill.say_answer")) + "</button>" +
       '<div class="fnote">' + why + "</div>" +
       '<button class="qz-next" data-dr="cont">' + esc(T("review.cont")) + "</button></div>";

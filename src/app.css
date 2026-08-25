@@ -445,6 +445,16 @@
   .qz-fb .fw-why{display:block;color:var(--ink);margin-bottom:4px}
   .qz-fb.ok{border-color:var(--accent-line);background:var(--accent-wash)}
 
+  /* ===== 看图认词 =====
+     线描图跟着 currentColor 走，所以深浅色和五套配色都不用另画一份。 */
+  .bd-ico{width:44px;height:44px;display:block;color:var(--ink)}
+  .bd-ico.lg{width:96px;height:96px;color:var(--accent-ink)}
+  .bd-big{display:flex;justify-content:center;padding:14px 0 6px}
+  .qz-opt.pic{display:flex;align-items:center;justify-content:center;padding:14px 10px;min-height:76px}
+  .qz-opt.pic .bd-ico{color:inherit}
+  .qz-fb .fw-pic{display:flex;justify-content:center;margin-bottom:6px}
+  .qz-fb .fw-pic .bd-ico{width:52px;height:52px;color:var(--accent-ink)}
+
   /* ===== 复习 / 实战 ===== */
   .qz-secttl{font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:700;margin:20px 0 8px}
   .qz-chips{display:flex;flex-wrap:wrap;gap:8px}
