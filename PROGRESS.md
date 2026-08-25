@@ -57,6 +57,21 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。单个离线 HTML，
   缓动统一 `cubic-bezier(.4,0,.2,1)`。`prefers-reduced-motion` 会一键关停
 - 深浅色：跟随系统 + 设置里手动切换，和配色一起存 localStorage
 
+## 例句本地化
+
+例句里「学习者自己」的国籍跟着界面语言走 —— 日本同学看到的是
+「Saya dari Jepang / 日本から来ました」，不是「我从中国来」。
+
+- 内容里写占位符，渲染时按当前界面语言替换（`engine.js` 的 `LZ()`）：
+  `{NEGARA}` → 印尼语国名（**会进朗读文本，每种语言都必须有音频**）
+  `{NAMA}` → 该语言里的国名 · `{PEOPLE}` → 该语言里的「某国人」
+- 映射表在 `content/meta.json` 的 `learner`：zh→Cina / ja→Jepang / en→Inggris。
+  换国家只改这里，**改完必须跑 `npm run tts` 补新句子的音频**
+- 只有第一人称「我从⋯来 / 我是⋯人」用占位符。讲 Sanggi、Ziah 这些
+  课本人物的例句不动 —— 那是别人的国籍，不该跟着界面变
+- ⚠️ `speakables.js` 现在**三种语言各收一遍**朗读文本。
+  只收默认语言的话，日文界面的句子永远不会进清单，发版就会缺音频
+
 ## 访问统计
 
 用 **Cloudflare Web Analytics**：免费无流量上限、不用 cookie、不需要同意横幅，

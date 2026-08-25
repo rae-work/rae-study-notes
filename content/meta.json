@@ -101,5 +101,23 @@
     "analytics_provider": "cloudflare",
     "analytics_token": "4e02188c6d044140b688fc71691b21c4",
     "analytics_note": "Cloudflare Web Analytics 的 32 位 token。面板 → Web Analytics → Add a site → Manage site 复制。留空就不注入。只进 docs/（网站），不进 dist/ 和 APK。"
+  },
+  "learner": {
+    "note": "例句里「学习者自己」的国籍，跟着界面语言走。内容里写占位符，渲染时替换：{NEGARA}=印尼语国名（进朗读文本，必须有音频）；{NAMA}=该语言里的国名；{PEOPLE}=该语言里的「某国人」。改这里就能换，改完要跑 npm run tts 补新句子的音频。",
+    "zh": {
+      "negara": "Cina",
+      "nama": "中国",
+      "people": "中国人"
+    },
+    "ja": {
+      "negara": "Jepang",
+      "nama": "日本",
+      "people": "日本人"
+    },
+    "en": {
+      "negara": "Inggris",
+      "nama": "England",
+      "people": "English"
+    }
   }
 }

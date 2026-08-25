@@ -32,7 +32,6 @@ export function collectSpeakables(opts = {}) {
   const say = new Set();
   const add = (s) => { const t = String(s == null ? '' : s).trim(); if (t) say.add(t); };
 
-  /* 1. 逐页渲染，收 data-say */
   const sheet = doc.getElementById('sheet');
   const perPage = [];
   const saysIn = (html) => {
@@ -40,52 +39,74 @@ export function collectSpeakables(opts = {}) {
     d.innerHTML = html;
     return [...d.querySelectorAll('[data-say]')].map((el) => el.getAttribute('data-say'));
   };
-  for (let i = 0; i < w.PAGES.length; i++) {
-    w.go(i);
-    const found = saysIn(sheet.innerHTML);
-    found.forEach(add);
-    const html = sheet.innerHTML;
-    perPage.push({
-      page: i,
-      title: w.PAGES[i].lesson,
-      blocks: w.PAGES[i].blocks ? w.PAGES[i].blocks.length : 0,
-      says: found.length,
-      len: html.length,
-      // 插值写错的典型痕迹
-      suspicious: ['undefined', '[object Object]', 'NaN', '{{'].filter((t) => html.includes(t)),
-    });
-  }
-
-  /* 词汇表是分批渲染的（A7 上一次性插几百张卡会卡死），
-     直接对每个词条调 glossCard() 取它的 data-say。 */
-  for (const v of w.VOCAB) saysIn(w.glossCard(v)).forEach(add);
-
-  /* 2. 实战：反复出题，把每个会发音的句子都逼出来 */
   const drillStats = { rounds: 0, badOpts: 0, badIndex: 0, dup: 0, types: {} };
-  for (let i = 0; i < drillRounds; i++) {
-    const q = w.drMake();
-    drillStats.rounds++;
-    drillStats.types[q.type] = (drillStats.types[q.type] || 0) + 1;
-    if (!q.opts || q.opts.length !== 4) drillStats.badOpts++;
-    else if (new Set(q.opts).size !== 4) drillStats.dup++;
-    if (!q.opts || q.opts[q.ok] !== q.a) drillStats.badIndex++;
-    // 会发音的：答案、全部选项、以及听力题的问句
-    q.opts && q.opts.forEach(add);
-    add(q.a);
-    // 只有题面本身是印尼语时才会朗读；中文提示、时钟数字不收
-    if (q.showLang === 'id') add(q.show);
-  }
-
-  /* 3. 复习：听辨题读词，填空题读例句 */
-  for (const v of w.VOCAB) { add(w.sayText(v.w)); if (v.ex) add(w.sayText(v.ex)); }
-
-  /* 4. alt：另一语体的整句也要能读 */
   const alts = [];
-  (function walk(o) {
-    if (o == null || typeof o !== 'object') return;
-    if (typeof o.alt === 'string' && o.alt) { alts.push(o.alt); add(w.sayText(o.alt)); }
-    for (const v of Array.isArray(o) ? o : Object.values(o)) walk(v);
-  })(w.CONTENT.lessons);
+
+  /* 例句里「学习者的国籍」跟着界面语言变（{NEGARA} 等占位符，见 engine.js 的 LZ）。
+     所以三种语言各跑一遍 —— 只收默认语言的话，日文界面的
+     「Saya dari Jepang.」永远不会出现在清单里，发版时就会缺音频。 */
+  const LANGS = w.CONTENT.meta.langs && w.CONTENT.meta.langs.length
+    ? w.CONTENT.meta.langs
+    : [w.CONTENT.meta.default_lang];
+  const DEFAULT_LANG = w.CONTENT.meta.default_lang;
+
+  for (const lang of LANGS) {
+    w.setLang(lang);
+    const isDefault = lang === DEFAULT_LANG;
+
+    /* 1. 逐页渲染，收 data-say */
+    for (let i = 0; i < w.PAGES.length; i++) {
+      w.go(i);
+      const found = saysIn(sheet.innerHTML);
+      found.forEach(add);
+      if (!isDefault) continue;            /* 页面统计只报默认语言那一轮 */
+      const html = sheet.innerHTML;
+      perPage.push({
+        page: i,
+        title: w.PAGES[i].lesson,
+        blocks: w.PAGES[i].blocks ? w.PAGES[i].blocks.length : 0,
+        says: found.length,
+        len: html.length,
+        // 插值写错的典型痕迹
+        suspicious: ['undefined', '[object Object]', 'NaN', '{{'].filter((t) => html.includes(t)),
+      });
+    }
+
+    /* 词汇表是分批渲染的（一次性插几百张卡会卡），
+       直接对每个词条调 glossCard() 取它的 data-say。 */
+    for (const v of w.VOCAB) saysIn(w.glossCard(v)).forEach(add);
+
+    /* 2. 实战：反复出题，把每个会发音的句子都逼出来 */
+    for (let i = 0; i < drillRounds; i++) {
+      const q = w.drMake();
+      drillStats.rounds++;
+      drillStats.types[q.type] = (drillStats.types[q.type] || 0) + 1;
+      if (!q.opts || q.opts.length !== 4) drillStats.badOpts++;
+      else if (new Set(q.opts).size !== 4) drillStats.dup++;
+      if (!q.opts || q.opts[q.ok] !== q.a) drillStats.badIndex++;
+      // 会发音的：答案、全部选项、以及听力题的问句
+      q.opts && q.opts.forEach(add);
+      add(q.a);
+      // 只有题面本身是印尼语时才会朗读；中文提示、时钟数字不收
+      if (q.showLang === 'id') add(q.show);
+    }
+
+    /* 3. 复习：听辨题读词，填空题读例句 */
+    for (const v of w.VOCAB) {
+      add(w.sayText(v.w));
+      if (v.ex) add(w.sayText(w.LZ(v.ex)));
+    }
+
+    /* 4. alt：另一语体的整句也要能读（不含占位符，收一遍就够） */
+    if (isDefault) {
+      (function walk(o) {
+        if (o == null || typeof o !== 'object') return;
+        if (typeof o.alt === 'string' && o.alt) { alts.push(o.alt); add(w.sayText(o.alt)); }
+        for (const v of Array.isArray(o) ? o : Object.values(o)) walk(v);
+      })(w.CONTENT.lessons);
+    }
+  }
+  w.setLang(DEFAULT_LANG);
 
   /* 5. 语言渗漏检查：把界面切成英文，整个跑一遍。
      英文界面下渲染出的任何中日文字符都说明有写死的文案没走 T()。 */

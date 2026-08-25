@@ -84,14 +84,35 @@ function setTheme(t){
 }
 applyTheme();
 
+/* ============================================================
+   学习者国籍的本地化
+   ------------------------------------------------------------
+   例句里「我从中国来」对日本同学没有代入感。内容里写占位符，
+   渲染时按当前界面语言替换：
+     {NEGARA} → 印尼语国名（Cina / Jepang / Inggris）—— 会进朗读文本，
+               所以每种语言的句子都必须有音频
+     {NAMA}   → 该语言里的国名（中国 / 日本 / England）
+     {PEOPLE} → 该语言里的「某国人」（中国人 / 日本人 / English）
+   映射表在 content/meta.json 的 learner。
+   ============================================================ */
+function LZ(s){
+  if(s == null) return s;
+  s = String(s);
+  if(s.indexOf("{") < 0) return s;          /* 绝大多数字符串没有占位符，快速跳过 */
+  var m = CONTENT.meta.learner || {}, k = m[LANG] || m[CONTENT.meta.default_lang] || {};
+  return s.replace(/\{NEGARA\}/g, k.negara || "")
+          .replace(/\{NAMA\}/g,   k.nama   || "")
+          .replace(/\{PEOPLE\}/g, k.people || "");
+}
+
 function L(x){
   if(x == null) return "";
-  if(typeof x === "string") return x;
+  if(typeof x === "string") return LZ(x);
   var v = x[LANG];
-  if(v != null && v !== "") return v;
-  if(x.zh != null && x.zh !== "") return x.zh;
-  if(x.en != null && x.en !== "") return x.en;
-  if(x.ja != null && x.ja !== "") return x.ja;
+  if(v != null && v !== "") return LZ(v);
+  if(x.zh != null && x.zh !== "") return LZ(x.zh);
+  if(x.en != null && x.en !== "") return LZ(x.en);
+  if(x.ja != null && x.ja !== "") return LZ(x.ja);
   return "";
 }
 /* 词条 / 释义的「副释义」：非英文界面下补一条英文，英文界面下不重复。 */
@@ -520,8 +541,8 @@ function glossCard(v){
     '<div class="gtop"><span class="gword">' + sayWhole(v.w, sayText(v.w), "cardword") + '</span>' +
     '<span class="gbadge">L' + v.les + "</span></div>" +
     '<div class="ggloss"><span class="ans">' + esc(zh) + (en ? ' · <span class="en">' + esc(en) + "</span>" : "") + "</span></div>" +
-    (v.ex ? '<div class="gex"><button class="play" data-say="' + esc(sayText(v.ex)) + '" title="' + esc(T("block.play_example")) + '">' + PLAY_SVG + '</button>' +
-      '<span class="line"><span class="idtext">' + sayLine(v.ex) + '</span><span class="gloss"><span class="ans">' +
+    (v.ex ? '<div class="gex"><button class="play" data-say="' + esc(sayText(LZ(v.ex))) + '" title="' + esc(T("block.play_example")) + '">' + PLAY_SVG + '</button>' +
+      '<span class="line"><span class="idtext">' + sayLine(LZ(v.ex)) + '</span><span class="gloss"><span class="ans">' +
       esc(L(v.ex_gloss)) + "</span></span></span></div>" : "") + "</div>";
 }
 function renderGlossary(){
@@ -636,10 +657,11 @@ function pickDistractors(v, pool){
 }
 function exBlank(v){
   if(!v.ex) return null;
-  var i = v.ex.toLowerCase().indexOf(v.w.toLowerCase());
+  var ex = LZ(v.ex);                       /* 先把 {NEGARA} 之类解析掉再挖空 */
+  var i = ex.toLowerCase().indexOf(v.w.toLowerCase());
   if(i < 0) return null;
   /* 用 ASCII 下划线，不用全角＿ —— 全角属于 CJK 区，三语界面下不该出现 */
-  return v.ex.slice(0, i) + "______" + v.ex.slice(i + v.w.length);
+  return ex.slice(0, i) + "______" + ex.slice(i + v.w.length);
 }
 function chooseType(){
   if(QZ.mode === "read") return "r";
@@ -810,7 +832,7 @@ function renderQuizSetup(){
     var sec = L2(v.gloss);
     fb = '<div class="qz-fb"><div class="fw">' + sayWhole(v.w, clean(v.w)) + "</div>" +
       '<div class="fg">' + esc(L(v.gloss)) + (sec ? ' · <i>' + esc(sec) + "</i>" : "") + "</div>" +
-      (v.ex ? '<div class="fex"><span class="idtext">' + sayLine(v.ex) +
+      (v.ex ? '<div class="fex"><span class="idtext">' + sayLine(LZ(v.ex)) +
         '</span><span class="gloss" style="display:block;color:var(--ink-soft);font-size:.85em;margin-top:2px">' +
         esc(L(v.ex_gloss)) + "</span></div>" : "") +
       '<div class="fnote">' + esc(T("review.fnote")) + "</div>" +
@@ -941,12 +963,16 @@ function makeAngka(){
 
 function makeSituasi(listen){
   var it = drPick(SITUASI);
-  return {type: listen ? "dengar" : "situasi", show:it.q, showLang:"id", hint:it.hint,
-          a:it.a, opts:null, extra:it.alts.slice(0,3)};
+  /* 答案和干扰项里可能有 {NEGARA} —— 必须在这里解析掉。
+     出题结果会直接进 data-say 和音频查表，留着占位符就查不到音频。 */
+  return {type: listen ? "dengar" : "situasi", show:LZ(it.q), showLang:"id", hint:it.hint,
+          a:LZ(it.a), opts:null,
+          extra:it.alts.slice(0,3).map(LZ)};
 }
 function makeTempat(){
-  var it = drPick(TEMPAT);
-  var others = TEMPAT.filter(function(x){ return x.a !== it.a; }).map(function(x){ return x.a; });
+  var it0 = drPick(TEMPAT);
+  var it = { q: it0.q, hint: it0.hint, a: LZ(it0.a) };
+  var others = TEMPAT.filter(function(x){ return x.a !== it0.a; }).map(function(x){ return LZ(x.a); });
   /* 最好的干扰项是「同一句换错介词」—— di / ke / dari 是这一阶段最容易混的三个。
      句子里没有可换的介词时（比如 "Ini buku."），就退回从题库里取别的答案。 */
   var extra = [];
