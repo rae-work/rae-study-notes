@@ -25,6 +25,12 @@
     "theme_auto": "自动",
     "theme_light": "浅色",
     "theme_dark": "深色",
+    "accent_label": "配色",
+    "accent_rose": "藕粉",
+    "accent_blue": "雾蓝",
+    "accent_ochre": "赭黄",
+    "accent_sage": "灰绿",
+    "accent_mauve": "藕紫",
     "prev": "上一页",
     "next": "下一页"
   },

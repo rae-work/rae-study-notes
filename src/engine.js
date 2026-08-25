@@ -48,10 +48,30 @@ try{
   if(savedTheme && THEMES.indexOf(savedTheme) >= 0) THEME = savedTheme;
 }catch(e){}
 
+/* 强调色：五套低饱和配色，浅深两套值都在 app.css 里，
+   这里只负责在 <html> 上写 data-accent。rose 是默认，不写属性。 */
+var ACCENTS = ["rose", "blue", "ochre", "sage", "mauve"];
+var ACCENT = "rose";
+try{
+  var savedAccent = localStorage.getItem("accent");
+  if(savedAccent && ACCENTS.indexOf(savedAccent) >= 0) ACCENT = savedAccent;
+}catch(e){}
+
 function applyTheme(){
   var root = document.documentElement;
   if(THEME === "auto") root.removeAttribute("data-theme");
   else root.setAttribute("data-theme", THEME);
+  if(ACCENT === "rose") root.removeAttribute("data-accent");
+  else root.setAttribute("data-accent", ACCENT);
+}
+function setAccent(a){
+  if(ACCENTS.indexOf(a) < 0) return;
+  ACCENT = a;
+  try{ localStorage.setItem("accent", a); }catch(e){}
+  applyTheme();
+  toArr(document.querySelectorAll("#accentSeg .sw")).forEach(function(b){
+    b.classList.toggle("on", b.getAttribute("data-ac") === ACCENT);
+  });
 }
 function setTheme(t){
   if(THEMES.indexOf(t) < 0) return;
@@ -129,6 +149,9 @@ function applyStaticText(){
   });
   toArr(document.querySelectorAll("#themeSeg button")).forEach(function(b){
     b.classList.toggle("on", b.getAttribute("data-th") === THEME);
+  });
+  toArr(document.querySelectorAll("#accentSeg .sw")).forEach(function(b){
+    b.classList.toggle("on", b.getAttribute("data-ac") === ACCENT);
   });
   if(typeof pickVoices === "function") pickVoices();
 }
@@ -229,8 +252,10 @@ var sayText = function(s){
 
 /* 点读图标。用内联 SVG，不用 emoji / ▶ 之类的字形 ——
    字形在不同系统里大小和基线都不一样，SVG 才能跟着 currentColor 变深浅色。 */
-var PLAY_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">' +
-  '<circle cx="12" cy="12" r="9"/><path d="M10.2 8.8 15.5 12l-5.3 3.2Z" fill="currentColor" stroke="none"/></svg>';
+/* 只画三角形。按钮外面那圈边框已经是圆的了，SVG 里再套一个圆
+   就成了「圆圈套圆圈」，重复。 */
+var PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+  '<path d="M8.5 6.2 17.8 12 8.5 17.8Z" fill="currentColor"/></svg>';
 
 function sayLine(text, kw){
   var k = [], i;
@@ -297,7 +322,9 @@ function tableCell(cell){
     else if(cell.reg === "casual") badge = '<span class="rbadge c">' + esc(T("block.table_informal")) + "</span>";
     return sayWhole(cell.id, sayText(cell.id)) + badge;
   }
-  return esc(L(cell.text));
+  /* 走 richText：单元格里也能用 <s>词</s> 标出可点读的印尼语。
+     地方人名那种表格里，印尼语和三语说明混在一格，只能靠标记区分。 */
+  return richText(cell.text);
 }
 
 /* 秒 → 1:13 */
@@ -481,7 +508,7 @@ function glossCard(v){
   /* 搜索索引：印尼语 + 三种释义全部进去，切语言也搜得到 */
   var q = esc((v.w + " " + zh + " " + (v.gloss.zh||"") + " " + (v.gloss.ja||"") + " " + (v.gloss.en||"")).toLowerCase());
   return '<div class="gentry card-tap" data-say="' + esc(sayText(v.w)) + '" data-les="' + v.les + '" data-q="' + q + '">' +
-    '<div class="gtop"><span class="gword">' + sayWhole(v.w, sayText(v.w)) + '</span>' +
+    '<div class="gtop"><span class="gword">' + sayWhole(v.w, sayText(v.w), "cardword") + '</span>' +
     '<span class="gbadge">L' + v.les + "</span></div>" +
     '<div class="ggloss"><span class="ans">' + esc(zh) + (en ? ' · <span class="en">' + esc(en) + "</span>" : "") + "</span></div>" +
     (v.ex ? '<div class="gex"><button class="play" data-say="' + esc(sayText(v.ex)) + '" title="' + esc(T("block.play_example")) + '">' + PLAY_SVG + '</button>' +
@@ -1156,6 +1183,11 @@ function render(){
   markTOC();
   if(p.glossary){ wireGlossary(); fillGlossary(); }
   reader.scrollTop = 0;
+  /* 翻页淡入。#sheet 这个元素本身不换，只换 innerHTML，
+     所以要摘掉 class、强制重排、再加回去，动画才会重播。 */
+  sheet.classList.remove("fade");
+  void sheet.offsetWidth;
+  sheet.classList.add("fade");
 }
 function go(i){
   cur = Math.max(0, Math.min(PAGES.length-1, i));
@@ -1433,39 +1465,66 @@ function prAction(b){
 /* ===== 教材听力音轨 =====
    和逐句点读分开走一个 <audio>：整段两分钟，不该被点读打断，
    也不该在切页时继续响。 */
-var lisAudio = null, lisFile = null, lisRaf = null;
+var lisAudio = null, lisFile = null, lisRaf = null, lisBtn = null, lisBar = null;
+
+function lisTick(){
+  if(!lisAudio) return;
+  if(lisBar && lisAudio.duration) lisBar.style.width = (lisAudio.currentTime / lisAudio.duration * 100) + "%";
+  lisRaf = setTimeout(lisTick, 200);
+}
+function lisLabel(playing){
+  if(lisBtn) lisBtn.textContent = T(playing ? "block.listen_pause" : "block.listen_play");
+}
+/**
+ * 暂停但保留进度条和播放位置。
+ * 点词发音时走这个 —— 整段听力先停住，读完那个词，
+ * 用户自己决定要不要按播放接着听（而不是两个声音叠在一起）。
+ */
+function pauseListen(){
+  if(!lisAudio || lisAudio.paused) return false;
+  try{ lisAudio.pause(); }catch(e){}
+  if(lisRaf){ clearTimeout(lisRaf); lisRaf = null; }
+  lisLabel(false);
+  return true;
+}
+/** 彻底停下并归零：切页、切模式时用。 */
+function stopListen(){
+  if(lisRaf){ clearTimeout(lisRaf); lisRaf = null; }
+  if(lisAudio){ try{ lisAudio.pause(); }catch(e){} lisAudio = null; }
+  lisFile = null; lisBtn = null; lisBar = null;
+  toArr(document.querySelectorAll(".lis-play")).forEach(function(b){ b.textContent = T("block.listen_play"); });
+  toArr(document.querySelectorAll(".lis-bar i")).forEach(function(b){ b.style.width = "0%"; });
+}
 function toggleListen(btn){
   var file = btn.getAttribute("data-listen");
-  if(lisAudio && lisFile === file && !lisAudio.paused){ stopListen(); return; }
+  /* 同一条音轨：正在放就暂停，暂停着就从原处接着放 */
+  if(lisAudio && lisFile === file){
+    if(lisAudio.paused){
+      lisBtn = btn;
+      lisLabel(true);
+      var pr0 = lisAudio.play();
+      if(pr0 && pr0["catch"]) pr0["catch"](function(){ lisLabel(false); });
+      lisTick();
+    } else pauseListen();
+    return;
+  }
   stopSeq();
   stopListen();
   lisFile = file;
   lisAudio = new Audio("audio/" + file + ".m4a");
+  lisBtn = btn;
   var wrap = btn.closest(".listen");
-  var bar = wrap && wrap.querySelector(".lis-bar i");
-  btn.textContent = T("block.listen_pause");
-  function tick(){
-    if(!lisAudio) return;
-    if(bar && lisAudio.duration) bar.style.width = (lisAudio.currentTime / lisAudio.duration * 100) + "%";
-    lisRaf = setTimeout(tick, 200);
-  }
-  function done(){
-    btn.textContent = T("block.listen_play");
-    if(bar) bar.style.width = "0%";
+  lisBar = wrap && wrap.querySelector(".lis-bar i");
+  lisLabel(true);
+  function finish(){
+    lisLabel(false);
     if(lisRaf){ clearTimeout(lisRaf); lisRaf = null; }
   }
-  lisAudio.onended = done;
-  lisAudio.onerror = function(){ done(); btn.textContent = T("block.listen_play"); };
-  lisAudio.onpause = done;
+  lisAudio.onended = function(){ finish(); if(lisBar) lisBar.style.width = "0%"; lisFile = null; };
+  lisAudio.onerror = finish;
   var pr = lisAudio.play();
-  if(pr && pr["catch"]) pr["catch"](done);
-  tick();
-}
-function stopListen(){
-  if(lisRaf){ clearTimeout(lisRaf); lisRaf = null; }
-  if(lisAudio){ try{ lisAudio.pause(); }catch(e){} lisAudio = null; }
-  toArr(document.querySelectorAll(".lis-play")).forEach(function(b){ b.textContent = T("block.listen_play"); });
-  toArr(document.querySelectorAll(".lis-bar i")).forEach(function(b){ b.style.width = "0%"; });
+  if(pr && pr["catch"]) pr["catch"](finish);
+  lisTick();
 }
 
 sheet.addEventListener("click", function(e){
@@ -1483,6 +1542,15 @@ sheet.addEventListener("click", function(e){
   if(ansEl && ansEl.classList.contains("masked")) ansEl.classList.remove("masked");
   var a = t.closest("[data-say]");
   if(!a) return;
+  /* 卡片里的词头和卡片本身是同一个东西（词汇表的词头就是卡片的 data-say）。
+     点它就当成点整张卡，这样只亮一层，不会「词的高亮」叠在「卡片的高亮」上。 */
+  if(a.classList.contains("cardword")){
+    var card = a.closest(".card-tap");
+    if(card) a = card;
+  }
+  /* 教材整段听力正在放：先把它按停，再读这个词。
+     读完用户自己决定要不要接着听 —— 两个声音一起响听不清。 */
+  pauseListen();
   var isPlay = a.classList.contains("play");
   if(isPlay){
     var host = a.closest("li,.row,.gentry");
@@ -1583,6 +1651,12 @@ document.getElementById("langSeg").addEventListener("click", function(e){
 document.getElementById("themeSeg").addEventListener("click", function(e){
   var b = e.target.closest ? e.target.closest("button") : null;
   if(b && b.getAttribute("data-th")) setTheme(b.getAttribute("data-th"));
+});
+
+/* ===== 配色切换 ===== */
+on("accentSeg", "click", function(e){
+  var b = e.target.closest ? e.target.closest(".sw") : null;
+  if(b && b.getAttribute("data-ac")) setAccent(b.getAttribute("data-ac"));
 });
 
 /* ===== 启动 ===== */

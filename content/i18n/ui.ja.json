@@ -25,6 +25,12 @@
     "theme_auto": "自動",
     "theme_light": "ライト",
     "theme_dark": "ダーク",
+    "accent_label": "配色",
+    "accent_rose": "くすみピンク",
+    "accent_blue": "スモークブルー",
+    "accent_ochre": "黄土",
+    "accent_sage": "セージ",
+    "accent_mauve": "モーブ",
     "prev": "前のページ",
     "next": "次のページ"
   },

@@ -25,6 +25,12 @@
     "theme_auto": "Auto",
     "theme_light": "Light",
     "theme_dark": "Dark",
+    "accent_label": "Colour",
+    "accent_rose": "Dusty rose",
+    "accent_blue": "Smoke blue",
+    "accent_ochre": "Ochre",
+    "accent_sage": "Sage",
+    "accent_mauve": "Mauve",
     "prev": "Previous",
     "next": "Next"
   },
