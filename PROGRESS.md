@@ -62,7 +62,9 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。单个离线 HTML，
 用 **Cloudflare Web Analytics**：免费无流量上限、不用 cookie、不需要同意横幅，
 灰云（DNS-only）状态下照常工作，不用碰 DNS。
 
-- token 填在 `content/meta.json` 的 `site.analytics_token`（32 位十六进制）。
+- ✅ 已启用（token `4e0218…` 在 `content/meta.json` 的 `site.analytics_token`）。
+  面板：Cloudflare → Web Analytics → belajar.rae.work
+- token 是 32 位十六进制，换站点就换这一个值。
   **token 是公开的**，本来就明文出现在网页源码里，不是密钥，可以提交进仓库
 - **统计脚本只注入 `docs/index.html`（网站那一份），不进 `dist/`、不进 APK。**
   它是外部脚本，进 `dist/` 会被 `assertOffline()` 拦下；APK 离线运行本来也统计不到
@@ -122,6 +124,7 @@ git add -A && git commit -m "更新网站" && git push
 ## 下一步
 
 - [x] 21 个人名的语音已补齐（96 字符），音频覆盖率回到 100%
+- [x] 访问统计已接入（Cloudflare Web Analytics，实测有 rum 上报、页面零 cookie）
 - [ ] **Rae 在手机上试用并确认**
 - [x] 四个 GitHub Secret 已设好，云端打包可用
 - [ ] 确认后 `npm run apk` 打第一个 APK
