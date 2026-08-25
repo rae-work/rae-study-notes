@@ -166,5 +166,13 @@
       "その調子!",
       "Tepat!"
     ]
+  },
+  "footer": {
+    "tagline": "インドネシア語の学習ノート · UGM INCULS『Titian Bahasa Pemula 1』",
+    "source": "ソースコードは GitHub に",
+    "license": "コードは MIT ライセンス。教材から起こした学習内容の著作権は原著者にあり、個人学習用です。",
+    "author": "Rae が Claude Code で作りました",
+    "feedback": "不具合や要望は GitHub の issue へどうぞ",
+    "privacy": "このサイトは Cloudflare でアクセス数を数えています。cookie は使わず、個人情報も集めません"
   }
 }

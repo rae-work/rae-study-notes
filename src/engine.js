@@ -1790,6 +1790,13 @@ on("accentSeg", "click", function(e){
 });
 
 /* ===== 启动 ===== */
+/* 访问统计只注入网页版（见 scripts/site.js），APK 是离线运行的、没有统计。
+   所以 file:// 下要把页脚那句隐私说明藏起来 —— 不能说没做的事。 */
+(function(){
+  var pv = document.getElementById("footPrivacy");
+  if(pv && location.protocol.indexOf("http") !== 0) pv.style.display = "none";
+})();
+
 applyStaticText();
 buildTOC();
 setZoom(2);

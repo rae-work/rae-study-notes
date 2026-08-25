@@ -83,6 +83,22 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6l6 6-6 6"/></svg>
       </button>
     </nav>
+
+    <!-- 页脚。<a href> 不加载任何东西，页面照样离线可用（见 lib/build.js 的 assertOffline）。 -->
+    <footer class="site-foot">
+      <div class="foot-name">{{APP_NAME}} <span class="foot-ver">v{{BUILD_VERSION}}</span></div>
+      <div data-t="footer.tagline"></div>
+      <div class="foot-links">
+        <a href="{{REPO_URL}}" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          <span data-t="footer.source"></span>
+        </a>
+      </div>
+      <div class="foot-fine" data-t="footer.feedback"></div>
+      <div class="foot-fine" data-t="footer.license"></div>
+      <div class="foot-fine" data-t="footer.author"></div>
+      <div class="foot-fine" id="footPrivacy" data-t="footer.privacy"></div>
+    </footer>
   </main>
 </div>
 

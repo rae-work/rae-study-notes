@@ -166,5 +166,13 @@
       "Keep going!",
       "Tepat!"
     ]
+  },
+  "footer": {
+    "tagline": "Indonesian study notes · UGM INCULS «Titian Bahasa Pemula 1»",
+    "source": "Source on GitHub",
+    "license": "Code is MIT licensed. Lesson content is derived from the textbook, copyright its authors, for personal study only.",
+    "author": "Made by Rae, written with Claude Code",
+    "feedback": "Found a bug or want a feature? Open an issue on GitHub",
+    "privacy": "This site counts visits with Cloudflare — no cookies, no personal data"
   }
 }

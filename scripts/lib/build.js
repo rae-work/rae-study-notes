@@ -30,6 +30,7 @@ export function buildHtml(opts = {}) {
     BRAND_A: esc(brand[0]),
     BRAND_B: esc(brand[1] || ''),
     BUILD_VERSION: meta.app.version,
+    REPO_URL: esc(meta.app.repo || ''),
     ICON_B64: icon,
     TITLE: esc(meta.app.title[lang] || meta.app.title.zh || meta.app.name),
     LANG_BUTTONS: meta.langs
@@ -67,9 +68,14 @@ function jsonForScript(obj) {
 }
 
 /**
- * 交付形式硬约束：页面不许加载任何外部资源。
+ * 交付形式硬约束：页面不许**加载**任何外部资源。
  * 只查「会真的发起请求」的地方 —— 内联 JSON 里出现一个网址字符串（比如教材
  * 音频的出处链接）不算违规，那是数据，不是资源引用。
+ *
+ * 关于 `<a href="https://…">`：**允许**。
+ * 超链接不会加载任何东西，页面照样完全离线可用 —— 用户点了才跳出去，
+ * 而且是交给浏览器打开，不是页面自己发请求。页脚的 GitHub 链接就靠这条。
+ * 但 `<link href>`（样式表 / 图标）和 src / action 仍然一律拦下。
  */
 function assertOffline(html) {
   // 把内联数据摘掉再查
@@ -83,7 +89,8 @@ function assertOffline(html) {
     [/@import\s+url/i, 'CSS @import'],
     [/@font-face/i, 'web font'],
     [/<(?:img|iframe|video|audio|source|embed)[^>]+src=["'](?!data:)[^"']*:\/\//i, '外部媒体资源'],
-    [/(?:href|src|action)\s*=\s*["']https?:\/\//i, '外部链接资源'],
+    [/<link[^>]+href\s*=\s*["']https?:\/\//i, '外部 <link>'],
+    [/(?:src|action)\s*=\s*["']https?:\/\//i, '外部资源引用'],
     [/url\(\s*["']?https?:\/\//i, 'CSS url() 外部资源'],
     [/\b(?:fetch|XMLHttpRequest|importScripts)\s*\(\s*["'`]https?:\/\//i, '代码里请求外部地址'],
   ];

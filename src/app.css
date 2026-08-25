@@ -399,6 +399,9 @@
   /* ===== 复习 / 实战 ===== */
   .qz-secttl{font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:700;margin:20px 0 8px}
   .qz-chips{display:flex;flex-wrap:wrap;gap:8px}
+  /* 「复习范围」下面是两个并排的 .qz-chips（快捷按钮一组、单元筛选一组）。
+     gap 只管容器内部，管不到容器之间 —— 不补这一行，第二排会直接贴在第一排上。 */
+  .qz-chips + .qz-chips{margin-top:8px}
   .qz-start{display:block;width:100%;max-width:360px;margin:26px auto 6px;padding:16px 18px;min-height:52px;
     background:var(--accent);color:var(--on-accent);font-weight:700;font-size:16px;border:0;border-radius:var(--r-md);cursor:pointer;
     font-family:var(--ui);transition:background var(--t-mid) var(--ease),opacity var(--t-mid) var(--ease)}
@@ -454,6 +457,23 @@
   .nav-btn:disabled{color:var(--ink-faint);cursor:default}
   /* 页码已经移到标题行（.pcount），底部这个只保留元素给 engine.js 写，不显示 */
   .counter{display:none}
+
+  /* ===== 页脚 =====
+     开源项目的常规信息：源码、许可、作者、内容出处。
+     和正文之间只用一条细线隔开，字号压小、颜色压淡 —— 它不该抢注意力。 */
+  .site-foot{max-width:var(--maxw);margin:40px auto 0;padding:20px 0 8px;
+    border-top:1px solid var(--line);
+    font-family:var(--ui);font-size:12px;line-height:1.75;color:var(--ink-faint)}
+  .site-foot > * + *{margin-top:3px}
+  .foot-name{font-size:13px;font-weight:600;color:var(--ink-soft)}
+  .foot-ver{font-weight:400;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  .foot-links{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin-top:9px}
+  .foot-links a{display:inline-flex;align-items:center;gap:6px;min-height:32px;
+    color:var(--accent-ink);text-decoration:none;font-weight:600;
+    transition:color var(--t-fast) var(--ease)}
+  .foot-links a svg{width:15px;height:15px;flex:0 0 auto}
+  .foot-fine{font-size:11.5px}
+  @media (hover:hover){ .foot-links a:hover{color:var(--accent);text-decoration:underline} }
 
   .banner{display:none;background:var(--accent-wash);color:var(--accent-ink);font-size:12.5px;padding:9px 16px;
     align-items:center;font-family:var(--ui);
