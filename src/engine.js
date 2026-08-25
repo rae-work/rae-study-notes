@@ -1402,7 +1402,10 @@ function drillSettle(q, ok){
   DR.answered++;
   DR.last5.push(ok ? 1 : 0);
   if(DR.last5.length > 5) DR.last5.shift();
-  if(q.src && q.src.id) progMark("q:" + q.src.id, ok);   /* 手写题按题号记，下次优先出错题 */
+  /* 手写的语法题按题号记（下次优先出错题）；看图认词记的是那个词本身，
+     这样词汇表上的墨点也会跟着动 —— 它练的就是那个词。 */
+  if(q.src && q.src.id) progMark("q:" + q.src.id, ok);
+  else if(q.type === "benda" && q.item) progMark(q.item.w, ok);
   if(ok){
     DR.right++;
     renderDrillPage();

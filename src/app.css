@@ -318,7 +318,10 @@
   .who{font-family:var(--ui);flex:0 0 auto;min-width:54px;font-weight:600;color:var(--accent-ink);font-size:.8em;
     letter-spacing:.08em;text-transform:uppercase}
   .line{flex:1 1 auto;min-width:0}
-  .line .gloss{color:var(--ink-soft);font-size:.84em;display:block;margin-top:3px;line-height:1.6}
+  /* 日文释义里的全角括号（时间を選ばない…）默认不在括号处断行，
+     窄屏上会顶出几像素。允许在任意位置断，中日文本来就不靠空格断词。 */
+  .line .gloss{color:var(--ink-soft);font-size:.84em;display:block;margin-top:3px;line-height:1.6;
+    overflow-wrap:anywhere}
   .idtext{font-weight:500}
 
   /* 词卡网格 */
