@@ -283,6 +283,10 @@ function applyStaticText(){
   if(typeof syncHeaderH === "function") syncHeaderH();
 }
 
+/* 「清除」按钮的待确认计时器。点第一下武装、三秒不理自己撤回，
+   声明放这里是因为 syncProgUI() 复位按钮时要一并撤掉它。 */
+var progArm = null;
+
 /* 设置面板最底下那格「学习记录」。切语言、清除之后都要重刷一次。 */
 function syncProgUI(){
   var stat = document.getElementById("progStat");
@@ -298,6 +302,9 @@ function syncProgUI(){
   else txt = T("prog.count_q", c.q);
   stat.textContent = txt;
   if(btn){
+    /* 按钮外观要复位，那待确认状态也得一起撤 —— 否则切一次语言，
+       按钮看着是普通的「清除」，计时器却还武装着，下一下直接清空。 */
+    if(progArm){ clearTimeout(progArm); progArm = null; }
     btn.disabled = !c.all;
     btn.textContent = T("prog.clear");
     btn.classList.remove("armed");
@@ -1065,6 +1072,11 @@ function renderQuizSetup(){
         esc(L(v.ex_gloss)) + "</span></div>" : "") +
       '<div class="fnote">' + esc(T("review.fnote")) + "</div>" +
       '<button class="qz-next" data-qz="cont">' + esc(T("review.cont")) + "</button></div>";
+  } else if(QZ.revealed){
+    /* 答对这一屏也必须有出口。原来只靠音频播完自动翻页，而 render()
+       会把在途回调作废 —— 答对后切个语言或点一下目录，这一轮就走不下去了。 */
+    fb = '<div class="qz-fb ok"><button class="qz-next alt" data-qz="cont">' +
+      esc(T("review.cont")) + "</button></div>";
   }
   var pct = Math.round(QZ.idx / QZ.queue.length * 100);
   return qzHead(T("review.progress", QZ.idx + 1, QZ.queue.length)) +
@@ -1398,8 +1410,9 @@ function drillSettle(q, ok){
 }
 function drillAnswer(i){
   if(DR.phase !== "q" || DR.revealed || !DR.curQ) return;
-  DR.pick = i; DR.revealed = true;
   var q = DR.curQ;
+  if(q.mode === "susun") return;      /* 拼句题走 susunCheck，别从这里进来 */
+  DR.pick = i; DR.revealed = true;
   drillSettle(q, i === q.ok);
 }
 /* 拼句：点词块上屏 / 点已上屏的退回 / 点检查判分 */
@@ -1479,7 +1492,10 @@ function renderSusun(q){
   var picked = q.picked || [];
   var slot = picked.length
     ? picked.map(function(bi, si){
-        return '<button class="sz-tok" data-dr="unpick" data-i="' + si + '">' + esc(q.bank[bi]) + "</button>";
+        /* 判完分之后槽位也要禁掉。原来只禁了下面的词块池，
+           判分后这一排看着还能点、点了没反应。 */
+        return '<button class="sz-tok" data-dr="unpick" data-i="' + si + '"' +
+          (DR.revealed ? " disabled" : "") + ">" + esc(q.bank[bi]) + "</button>";
       }).join("")
     : '<span class="sz-empty">' + esc(T("drill.susun_hint")) + "</span>";
   var bank = q.bank.map(function(w, bi){
@@ -1564,9 +1580,14 @@ function renderDrillQ(){
       '<button class="pr-btn" data-dr="sayans" style="margin-top:8px">' + esc(T("drill.say_answer")) + "</button>" +
       '<div class="fnote">' + why + "</div>" +
       '<button class="qz-next" data-dr="cont">' + esc(T("review.cont")) + "</button></div>";
-  } else if(DR.revealed && correct && q.src && q.src.note){
-    /* 答对也给一句规则 —— 趁着刚答对，把「为什么对」钉一下 */
-    fb = '<div class="qz-fb ok"><div class="fnote">' + L(q.src.note) + "</div></div>";
+  } else if(DR.revealed){
+    /* 答对：给一句规则（趁刚答对把「为什么对」钉一下），并且**一定要给「继续」**。
+       原来这一屏全靠音频播完自动翻页，可 render() 会把在途回调作废 ——
+       答对之后切个语言、点一下目录，这一轮就再也走不下去，只能刷新页面
+       （装成 APK 连刷新都没有）。自动翻页现在只是省一下手，不是唯一出路。 */
+    fb = '<div class="qz-fb ok">' +
+      (q.src && q.src.note ? '<div class="fnote">' + L(q.src.note) + "</div>" : "") +
+      '<button class="qz-next alt" data-dr="cont">' + esc(T("review.cont")) + "</button></div>";
   }
   var pct = Math.round(DR.idx / DR.queue.length * 100);
   return drHead(T("drill.progress", DR.idx + 1, DR.queue.length)) +
@@ -1875,11 +1896,19 @@ function playBundled(hash, rate, el, onDone, text){
      blob 取不到只是这一条的问题（缓存被回收之类），不该把整库judge成没有。 */
   a.onerror = function(){
     if(!isBlob) AUDIO_AVAILABLE = false;
+    /* 这一条退回系统语音，onDone 交给 TTS 收尾 —— 在这里就放行的话，
+       练习页会在朗读刚起头时翻到下一题。
+       ⚠️ 兜底要放在 fired 判断前面：play() 的 promise 先被拒时（iOS 的自动播放
+       限制）finish 已经把 fired 置了 true，写在后面的话这一条就彻底静音，
+       而这正是「音频还没铺全」时唯一的保险丝。 */
+    if(text && SS){
+      var cb = fired ? null : onDone;
+      fired = true;
+      ttsOnly(text, el, rate, cb);
+      return;
+    }
     if(fired) return;
     fired = true;
-    /* 这一条退回系统语音，onDone 交给 TTS 收尾 —— 在这里就放行的话，
-       练习页会在朗读刚起头时翻到下一题。 */
-    if(text && SS){ ttsOnly(text, el, rate, onDone); return; }
     if(el){ el.classList.remove("speaking"); if(speaking === el) speaking = null; }
     if(onDone) onDone();
   };
@@ -2204,8 +2233,7 @@ function on(id, ev, fn){
   return el;
 }
 /* 清除学习记录：点两下才真清 —— 不弹系统对话框（样式不受控、也太吓人），
-   第一下把按钮文字换成「确定清除？」，三秒不理就自己撤回。 */
-var progArm = null;
+   第一下把按钮文字换成「确定清除？」，三秒不理就自己撤回（progArm 见上方声明）。 */
 on("progClear", "click", function(){
   var btn = this;
   if(!progCount().all) return;
@@ -2272,7 +2300,12 @@ document.addEventListener("keydown", function(e){
   else if(e.key === "r" || e.key === "R") go(REVIEW_INDEX);
   else if(e.key === "t" || e.key === "T") go(DRILL_INDEX);
   else if(PAGES[cur].review && QZ.phase === "q" && !QZ.revealed && /^[1-4]$/.test(e.key)) quizAnswer(+e.key - 1);
-  else if(PAGES[cur].drill && DR.phase === "q" && !DR.revealed && /^[1-4]$/.test(e.key)) drillAnswer(+e.key - 1);
+  /* 拼句题没有选项索引，数字键对它没有意义 —— 尤其按「2」会让 DR.pick 变成 1，
+     而拼句正是拿 pick===1 表示「拼对了」，于是画面说答对、计分算答错。回车当「检查」。 */
+  else if(PAGES[cur].drill && DR.phase === "q" && !DR.revealed && DR.curQ &&
+          DR.curQ.mode === "susun" && (e.key === "Enter" || e.key === " ")) susunCheck();
+  else if(PAGES[cur].drill && DR.phase === "q" && !DR.revealed && DR.curQ &&
+          DR.curQ.mode !== "susun" && /^[1-4]$/.test(e.key)) drillAnswer(+e.key - 1);
 });
 
 /* ===== 移动端目录抽屉 ===== */
