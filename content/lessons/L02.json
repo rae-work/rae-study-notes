@@ -27,9 +27,6 @@
     }
    },
    {
-    "k": "rule"
-   },
-   {
     "k": "mini",
     "text": {
      "zh": "学完这一章",
@@ -191,10 +188,6 @@
     ]
    },
    {
-    "k": "rule",
-    "short": true
-   },
-   {
     "k": "sec",
     "num": "",
     "word": "Di dalam kelas",
@@ -317,10 +310,6 @@
       }
      }
     ]
-   },
-   {
-    "k": "rule",
-    "short": true
    },
    {
     "k": "sec",
@@ -727,10 +716,6 @@
     ]
    },
    {
-    "k": "rule",
-    "short": true
-   },
-   {
     "k": "sec",
     "num": "",
     "word": "Bertanya",
@@ -817,10 +802,6 @@
       }
      }
     ]
-   },
-   {
-    "k": "rule",
-    "short": true
    },
    {
     "k": "sec",
@@ -1349,9 +1330,6 @@
      "ja": "接尾辞はそのままつなげて書き、<b>ハイフンは入れません</b>：bukuku であって buku-ku ではありません。なお <s>saya</s>（あらたまった「わたし」）に<b>接尾辞の形はありません</b> —— <s>buku saya</s> としか言えません。",
      "en": "The suffix attaches directly, with <b>no hyphen</b>: bukuku, not buku-ku. Note also that <s>saya</s> (the formal “I”) has <b>no</b> suffix form — only <s>buku saya</s>."
     }
-   },
-   {
-    "k": "rule"
    },
    {
     "k": "mini",

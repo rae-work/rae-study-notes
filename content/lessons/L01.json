@@ -851,9 +851,6 @@
     ]
    },
    {
-    "k": "rule"
-   },
-   {
     "k": "sec",
     "num": "",
     "word": "Sapaan",
@@ -960,9 +957,6 @@
     ]
    },
    {
-    "k": "rule"
-   },
-   {
     "k": "sec",
     "num": "",
     "word": "Perkenalan",
@@ -1037,10 +1031,6 @@
     ]
    },
    {
-    "k": "rule",
-    "short": true
-   },
-   {
     "k": "sec",
     "num": "",
     "word": "Perjumpaan",
@@ -1084,10 +1074,6 @@
       ]
      }
     ]
-   },
-   {
-    "k": "rule",
-    "short": true
    },
    {
     "k": "sec",
@@ -1305,9 +1291,6 @@
     ]
    },
    {
-    "k": "rule"
-   },
-   {
     "k": "sec",
     "num": "②",
     "word": "Apa",
@@ -1369,9 +1352,6 @@
     ]
    },
    {
-    "k": "rule"
-   },
-   {
     "k": "sec",
     "num": "③",
     "word": "Dari mana",
@@ -1430,9 +1410,6 @@
       ]
      }
     ]
-   },
-   {
-    "k": "rule"
    },
    {
     "k": "sec",
@@ -1514,9 +1491,6 @@
       }
      }
     ]
-   },
-   {
-    "k": "rule"
    },
    {
     "k": "sec",
@@ -1923,9 +1897,6 @@
       ]
      }
     ]
-   },
-   {
-    "k": "rule"
    },
    {
     "k": "examples",
@@ -2336,7 +2307,7 @@
        "text": {
         "zh": "爪哇 <s>Jawa</s>",
         "ja": "ジャワ <s>Jawa</s>",
-        "en": "<s>Jawa</s> (Java)"
+        "en": "<s>Jawa</s>"
        }
       },
       {
@@ -2350,9 +2321,9 @@
      [
       {
        "text": {
-        "zh": "巽他 <s>Sunda</s>（西爪哇）",
-        "ja": "スンダ <s>Sunda</s>（西ジャワ）",
-        "en": "<s>Sunda</s> (West Java)"
+        "zh": "巽他 <s>Sunda</s>",
+        "ja": "スンダ <s>Sunda</s>",
+        "en": "<s>Sunda</s>"
        }
       },
       {
@@ -2366,9 +2337,9 @@
      [
       {
        "text": {
-        "zh": "巴塔克 <s>Batak</s>（北苏门答腊）",
-        "ja": "バタック <s>Batak</s>（北スマトラ）",
-        "en": "<s>Batak</s> (North Sumatra)"
+        "zh": "巴塔克 <s>Batak</s>",
+        "ja": "バタック <s>Batak</s>",
+        "en": "<s>Batak</s>"
        }
       },
       {
@@ -2397,9 +2368,9 @@
      ]
     ],
     "note": {
-     "zh": "词尾能看出性别：<b>-man</b>、<b>-wan</b> 多是男名（Hermawan、Suparman），<b>-wati</b> 多是女名（Hermawati、Ratnawati）。",
-     "ja": "語尾から性別が見えることがあります。<b>-man</b>・<b>-wan</b> は男性名に多く（Hermawan、Suparman）、<b>-wati</b> は女性名に多い（Hermawati、Ratnawati）です。",
-     "en": "The ending often marks gender: <b>-man</b> and <b>-wan</b> tend to be men's names (Hermawan, Suparman), <b>-wati</b> women's (Hermawati, Ratnawati)."
+     "zh": "巽他人住在西爪哇，巴塔克人住在北苏门答腊。词尾能看出性别：<b>-man</b>、<b>-wan</b> 多是男名（Hermawan、Suparman），<b>-wati</b> 多是女名（Hermawati、Ratnawati）。",
+     "ja": "スンダの人びとは西ジャワに、バタックの人びとは北スマトラに住んでいます。語尾から性別が見えることがあります。<b>-man</b>・<b>-wan</b> は男性名に多く（Hermawan、Suparman）、<b>-wati</b> は女性名に多い（Hermawati、Ratnawati）です。",
+     "en": "The Sunda live in West Java and the Batak in North Sumatra. The ending often marks gender: <b>-man</b> and <b>-wan</b> tend to be men's names (Hermawan, Suparman), <b>-wati</b> women's (Hermawati, Ratnawati)."
     }
    },
    {

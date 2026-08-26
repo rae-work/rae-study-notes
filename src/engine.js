@@ -588,7 +588,9 @@ function renderBlock(b){
           sayLine(r.id, r.kw) + '</span><span class="gloss">' + esc(L(r.gloss)) + "</span></span></div>";
       }).join("");
     case "examples":
-      return (L(b.title) ? '<p class="psub" style="margin:.3em 0 6px;font-weight:700;color:var(--ink)">' + esc(L(b.title)) + "</p>" : "") +
+      /* 小标题上方留出跟 sec 一样的呼吸空间 —— 两组例句之间靠它分隔，
+         不再画横线（横线加上例句行自己的分隔，看起来就是两条并排的线）。 */
+      return (L(b.title) ? '<p class="psub extitle">' + esc(L(b.title)) + "</p>" : "") +
         b.items.map(function(r){
           return '<div class="row"><button class="play" data-say="' + esc(sayText(r.id)) +
             '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="line"><span class="idtext">' + sayLine(r.id, r.kw) +

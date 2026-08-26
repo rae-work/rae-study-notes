@@ -315,8 +315,16 @@
   .say.cardword.speaking{background:none;box-shadow:none;color:inherit}
 
   /* 对话行 */
-  .row{display:flex;align-items:baseline;gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}
-  .row:last-child{border-bottom:0}
+  /* 分隔线画在「行与行之间」，不是每行下面 —— 原来用 border-bottom + :last-child 取消，
+     可这些行直接挂在页面上、后面总跟着别的块，:last-child 几乎从不成立，
+     于是块的最后一行留着一条底线，再接一条 rule 就成了两条并排的横线。 */
+  .row{display:flex;align-items:baseline;gap:12px;padding:11px 0}
+  .row + .row{border-top:1px solid var(--line)}
+  /* 例句组的小标题：上方留白跟 .sec 一档，靠间距分组，不靠横线 */
+  .psub.extitle{margin:28px 0 4px;font-weight:700;color:var(--ink)}
+  .psub.extitle:first-child{margin-top:.3em}
+  /* 小标题下面紧接着的第一行不要再加上边线 —— 标题已经分好组了 */
+  .psub.extitle + .row{border-top:0}
   .play{flex:0 0 auto;width:34px;height:34px;border-radius:999px;border:1px solid var(--line);
     background:transparent;color:var(--accent);cursor:pointer;
     display:flex;align-items:center;justify-content:center;align-self:flex-start;padding:0;
@@ -385,8 +393,8 @@
   .exer{margin:14px 0}
   .exer .ehead{font-weight:700;font-size:.95em;margin-bottom:8px}
   .exer ol{margin:0;padding-left:1.5em}
-  .exer li{padding:10px 0;border-bottom:1px solid var(--line)}
-  .exer li:last-child{border-bottom:0}
+  .exer li{padding:10px 0}
+  .exer li + li{border-top:1px solid var(--line)}
   .qa-line{display:flex;align-items:baseline;gap:9px}
   .qa-line + .qa-line{margin-top:4px}
   .qa-line .plain{color:var(--ink-soft);font-size:.95em}
@@ -641,9 +649,11 @@
     vertical-align:top;line-height:1.9;overflow-wrap:anywhere}
   table.tbl th:last-child,table.tbl td:last-child{border-right:0}
   table.tbl tr:last-child td{border-bottom:0}
-  /* 第一列是标签列，让它尽量窄；原来 min-width:8.5em 能吃掉近四成宽度 */
+  /* 第一列是标签列，让它按内容收窄，把宽度让给右边真正要读的内容。
+     不能用 white-space:nowrap —— 「巽他 Sunda（西爪哇）」这种长标签会被撑开，
+     反而把右边挤没了。允许换行 + 一个下限，避免压成一字一行。 */
   table.tbl td:first-child{color:var(--ink-soft);font-size:.9em;line-height:1.6;
-    width:1%;white-space:nowrap}
+    width:1%;min-width:6.2em}
   /* 跨行合并的格子居中，贴着顶端看着像漏了内容 */
   table.tbl td[rowspan]{vertical-align:middle}
   table.tbl td .say{margin-right:2px}
