@@ -1,58 +1,75 @@
-# 更新记录
+# Changelog
 
-《Rae's Study Note》每个版本改了什么。最新的在最上面。
+What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
 ## 1.1.0 — 2026-08-26
 
-**记住你的进度**
+**Remembers your progress**
 
-- 记住上次读到哪一页，连页面内的位置一起记；重新打开就回到原处
-- 练习做到一半被打断（切走、锁屏、系统回收页面），重新打开能接着做
-- 每个词、每道题的对错都会记下来，下次练习优先出上回做错的
-- 词汇表上多了一个小圆点，标出这个词练到什么程度
-- 设置里能看到记了多少、可以随时清除
-- 以上都存在本机浏览器里，不上传任何地方
+- Remembers the last page you were on, down to the scroll position — reopen the app and you're right back where you left off
+- If a practice session gets interrupted (you switch apps, lock the screen, the OS reclaims the page), reopening picks up where you stopped
+- Tracks right/wrong answers for every word and question, and prioritizes what you got wrong last time
+- The glossary now shows a small dot marking how well you know each word
+- Settings shows how much has been recorded, with a button to clear it anytime
+- All of this stays on your device — nothing is uploaded anywhere
 
-**第二课**
+**Lesson 2**
 
-- 完整的八页：这一章学什么 / 身边的东西（20 词）/ 进教室（对话）/ 课堂用语 /
-  ini 和 itu / 「谁的」怎么说 / 我的你的他的 / 印尼人的物件
-- 词汇 75 个，例句只用学过的词
-- 讲了几处课本没讲、但一定会卡住的地方：问句用 ini 答句用 itu 不是印错、
-  silakan 和 tolong 的区别、-nya 还能指「刚说的那个」
+- All eight pages: what this chapter covers / things around you (20 words) /
+  entering the classroom (dialogue) / classroom phrases / *ini* and *itu* /
+  how to say "whose" / my / your / his-her / things Indonesians carry
+- 75 vocabulary words; example sentences use only words already taught
+- Covers several points the textbook doesn't, but that trip everyone up:
+  using *ini* in the question and *itu* in the answer isn't a typo; the
+  difference between *silakan* and *tolong*; how *-nya* can also mean
+  "the one just mentioned"
 
-**新的练习**
+**New drills**
 
-- 第二课的语法练习：「我的 / 你的 / 他的」（-ku / -mu / -nya）和「这个 / 那个」（ini / itu）
-- 看图认词：20 个教室物品，图和词两个方向都能练
-- 新的答题方式「拼句子」：点下面的词一个个排上去，不用打字
-- 每个错误选项都写了「为什么错」，答对也会给一句规则
+- Lesson 2 grammar drills: "my / your / his-her" (*-ku* / *-mu* / *-nya*) and
+  "this / that" (*ini* / *itu*)
+- Picture matching: 20 classroom objects, practiced in both directions
+  (picture to word and word to picture)
+- A new answer format, "build the sentence": tap the words below into order
+  instead of typing
+- Every wrong option now explains why it's wrong; a correct answer also
+  states the rule
 
-**修正**
+**Fixes**
 
-- 答对之后语音还没读完就翻页，现在会等它读完
-- 连着做错时自动降低难度（这个功能之前一直没有真正生效）
-- 日文和英文界面下，自我介绍那句的国籍写死成了中文版的，现在跟着界面语言走
-- 第一课的词汇分组按课本补齐（「欢迎」原来被归在「告别」下面）
-- 课文对话补上了课本第 20 句，并说明了课本在那一行的笔误
-- 表格改成手机优先，不用再左右拖着看
-- 日文界面多处措辞修正（指人用「あの人」、敬体统一、标点）
-- 英文界面的语法和标点修正
-- 练习做到一半被打断（切走、锁屏、系统回收页面）不再从头开始
-- 页脚改成正式的说明，加上版本号、更新记录入口和最后更新日期
+- The page used to advance before the audio finished playing on a correct
+  answer — now it waits
+- Difficulty now actually steps down after consecutive wrong answers (this
+  was supposed to work before but never actually did)
+- In the Japanese and English interfaces, the self-introduction sentence had
+  the nationality hard-coded to the Chinese version — it now follows the
+  interface language
+- Lesson 1's vocabulary groupings now match the textbook ("welcome" had been
+  filed under "farewell")
+- The dialogue now includes sentence 20 from the textbook, with a note on
+  the textbook's typo in that line
+- Tables are now mobile-first — no more scrolling sideways to read them
+- Multiple wording fixes in the Japanese interface (using あの人 to refer to
+  people, consistent formality register, punctuation)
+- Grammar and punctuation fixes in the English interface
+- A practice session interrupted mid-way (switching apps, locking the
+  screen, the OS reclaiming the page) no longer restarts from scratch
+- The footer now reads like a proper notice, with the version number, a
+  link to the changelog, and the last-updated date
 
 ---
 
 ## 1.0.0 — 2026-08-25
 
-第一个公开版本。
+First public release.
 
-- 第一课 Perkenalan（自我介绍）完整内容，10 页
-- 词汇表 72 词，每个词配例句和发音
-- 复习：自动出题，认词 / 听辨 / 回想 / 填空四种
-- 实战问答：情景应答和听力题
-- 三语界面（中文 / 日本語 / English）
-- 所有印尼语发音由 ElevenLabs 合成，点词即读
-- 深浅两色、五套配色、四档字号
+- Lesson 1, *Perkenalan* (Introductions), complete: 10 pages
+- A 72-word glossary, each word with an example sentence and audio
+- Review mode: auto-generated questions in four types — recognize, listen,
+  recall, fill-in-the-blank
+- Situational drills: contextual responses and listening questions
+- Trilingual interface (Chinese / Japanese / English)
+- All Indonesian audio synthesized by ElevenLabs, tap any word to hear it
+- Light and dark themes, five color schemes, four font-size steps
