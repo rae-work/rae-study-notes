@@ -22,8 +22,12 @@ export function neededAudio() {
 
   const need = new Set();
   const missing = [];
+  // 跟引擎的 audioHash 对齐：逐词点读时句首那个词首字母是大写的
+  // （「Baju kamu bagus.」切出来的 Baju），而词条本身是小写。印尼语大小写
+  // 不改变读音，查不到就回退试一次小写 —— 引擎、validate、tts 都是这个规则。
   for (const t of speak.texts) {
-    const h = manifest[t];
+    const lo = t.charAt(0).toLowerCase() + t.slice(1);
+    const h = manifest[t] || manifest[lo];
     if (h) need.add(h);
     else missing.push(t);
   }

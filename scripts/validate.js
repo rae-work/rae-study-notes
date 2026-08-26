@@ -313,12 +313,19 @@ if (speak) {
   if (d.badOpts) err(G8, `${d.badOpts}/${d.rounds} 题的选项不是 4 个`);
   if (d.dup) err(G8, `${d.dup}/${d.rounds} 题有重复选项`);
   if (d.badIndex) err(G8, `${d.badIndex}/${d.rounds} 题的正确答案索引不对`);
+  // 词块拼句专项：拼不出答案的题是死题，学习者怎么点都过不去
+  if (d.badBank) err(G8, `${d.badBank}/${d.susun} 道拼句题的词块拼不出正确答案`);
+  if (d.noDistractor) warn(G8, `${d.noDistractor}/${d.susun} 道拼句题没有干扰词块（把词块全点上就对了）`);
   // 只检查题库里确实有数据的题型
   const avail = {
     jam: content.drills.angka_pool.length > 0,
     angka: content.drills.angka_pool.length > 0,
     situasi: content.drills.situasi.length > 0 || content.drills.tempat.length > 0,
     dengar: content.drills.situasi.length > 0,
+    posesif: (content.drills.posesif || []).length > 0,
+    tunjuk: (content.drills.tunjuk || []).length > 0,
+    // 门槛跟引擎的 drAvail 保持一致：不够 4 个凑不出选项
+    benda: (content.drills.benda || []).length >= 4,
   };
   for (const t of Object.keys(avail)) {
     if (avail[t] && !d.types[t]) warn(G8, `压力测试里没出到 ${t} 类型的题`);
@@ -331,7 +338,10 @@ let cov = null;
 if (speak) {
   const have = new Set(Object.keys(audio.items || {}));
   const need = speak.texts;
-  const miss = need.filter((t) => !have.has(t));
+  // 跟引擎的 audioHash 对齐：句首词首字母大写，查不到就回退小写。
+  // 同一个词不必合成大小写两份（印尼语大小写不改变读音）。
+  const lower = (t) => t.charAt(0).toLowerCase() + t.slice(1);
+  const miss = need.filter((t) => !have.has(t) && !have.has(lower(t)));
   cov = { need: need.length, have: need.length - miss.length, miss };
   if (miss.length) {
     warn(G9, `${miss.length}/${need.length} 条朗读文本还没有音频（跑 npm run tts 补）`);

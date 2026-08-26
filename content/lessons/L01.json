@@ -22,7 +22,7 @@
     "k": "lead",
     "text": {
      "zh": "第一课：怎么打招呼、怎么问对方是谁、从哪来、住在哪、学什么。教材是 UGM INCULS 的《Titian Bahasa Pemula 1》，用的是<b>正式体</b>（saya / Anda），这是课堂和对老师说话的语体。点任意印尼语词或 ▶ 都能听发音。",
-     "ja": "第 1 課：あいさつの仕方、相手の名前・出身・住んでいるところ・専攻の尋ね方。教科書は UGM INCULS の『Titian Bahasa Pemula 1』で、<b>フォーマルな言い方</b>（saya / Anda）を使います。教室で、また先生に話すときの言い方です。インドネシア語の語や ▶ をタップすると発音が聞けます。",
+     "ja": "第 1 課：あいさつの仕方、相手の名前・出身・住んでいるところ・専攻の尋ね方。教科書は UGM INCULS の『Titian Bahasa Pemula 1』で、<b>フォーマルな言い方</b>（saya / Anda）を使います。教室や、先生に話すときに使う言い方です。インドネシア語の単語や ▶ をタップすると発音が聞けます。",
      "en": "Lesson one: how to greet someone, and how to ask who they are, where they are from, where they live and what they study. The book is UGM INCULS's «Titian Bahasa Pemula 1», and it uses the <b>formal</b> register (saya / Anda) — the one for the classroom and for speaking to a teacher. Tap any Indonesian word or ▶ to hear it."
     }
    },
@@ -39,35 +39,35 @@
       "text": {
        "zh": "<b>听</b>　听懂和自我介绍有关的简单词和短语。",
        "ja": "<b>聞く</b>　自己紹介にかかわる簡単な語や句を聞き取る。",
-       "en": "<b>Listening</b>　Recognise simple words and phrases about personal information."
+       "en": "<b>Listening</b> Recognise simple words and phrases about personal information."
       }
      },
      {
       "text": {
        "zh": "<b>读</b>　读懂和自我介绍有关的短文。",
        "ja": "<b>読む</b>　自己紹介にかかわる短い文章を読み取る。",
-       "en": "<b>Reading</b>　Understand short, simple texts about personal information."
+       "en": "<b>Reading</b> Understand short, simple texts about personal information."
       }
      },
      {
       "text": {
        "zh": "<b>词汇</b>　问候、初次见面、告别、称呼；疑问词 <s>apa</s>、<s>siapa</s>、<s>dari mana</s>、<s>di mana</s>、<s>apakah</s>。",
        "ja": "<b>語彙</b>　あいさつ、初対面、別れ、呼びかけ。疑問詞 <s>apa</s>・<s>siapa</s>・<s>dari mana</s>・<s>di mana</s>・<s>apakah</s>。",
-       "en": "<b>Vocabulary</b>　Greetings, meeting, parting, and forms of address; the question words <s>apa</s>, <s>siapa</s>, <s>dari mana</s>, <s>di mana</s>, <s>apakah</s>."
+       "en": "<b>Vocabulary</b> Greetings, meeting, parting, and forms of address; the question words <s>apa</s>, <s>siapa</s>, <s>dari mana</s>, <s>di mana</s>, <s>apakah</s>."
       }
      },
      {
       "text": {
        "zh": "<b>语法</b>　第一、第二、第三人称代词：<s>saya</s>、<s>Anda</s>、<s>ia</s>／<s>dia</s>、<s>mereka</s>、<s>kami</s>、<s>kita</s>。",
        "ja": "<b>文法</b>　一・二・三人称の代名詞：<s>saya</s>・<s>Anda</s>・<s>ia</s>／<s>dia</s>・<s>mereka</s>・<s>kami</s>・<s>kita</s>。",
-       "en": "<b>Grammar</b>　First, second and third person pronouns: <s>saya</s>, <s>Anda</s>, <s>ia</s>/<s>dia</s>, <s>mereka</s>, <s>kami</s>, <s>kita</s>."
+       "en": "<b>Grammar</b> First, second and third person pronouns: <s>saya</s>, <s>Anda</s>, <s>ia</s>/<s>dia</s>, <s>mereka</s>, <s>kami</s>, <s>kita</s>."
       }
      },
      {
       "text": {
        "zh": "<b>说 · 写</b>　用简单句子介绍自己和别人（写 10–15 个词）。",
        "ja": "<b>話す・書く</b>　簡単な文で自分と他の人を紹介する（書くのは 10〜15 語）。",
-       "en": "<b>Speaking & writing</b>　Describe yourself and someone else in simple sentences (10–15 words in writing)."
+       "en": "<b>Speaking & writing</b> Describe yourself and someone else in simple sentences (10–15 words in writing)."
       }
      }
     ]
@@ -383,7 +383,7 @@
       "alt": null,
       "gloss": {
        "zh": "我从韩国来。您是印尼人吗？",
-       "ja": "韓国から来ました。あなたはインドネシアの方ですか。",
+       "ja": "韓国から来ました。インドネシアの方ですか。",
        "en": "I'm from Korea. Are you Indonesian?"
       },
       "alt_gloss": null,
@@ -611,7 +611,7 @@
       "alt": null,
       "gloss": {
        "zh": "不好意思，我要去上课了。回头见！",
-       "ja": "すみません、これから授業に入ります。またね。",
+       "ja": "すみません、これから授業に行きます。では、また！",
        "en": "Sorry, I'm about to go to class. See you!"
       },
       "alt_gloss": null,
@@ -629,7 +629,7 @@
       "alt": null,
       "gloss": {
        "zh": "回头见！",
-       "ja": "またね。",
+       "ja": "では、また！",
        "en": "See you!"
       },
       "alt_gloss": null,
@@ -637,6 +637,40 @@
        "sampai",
        "jumpa"
       ]
+     },
+     {
+      "who": "Ziah",
+      "id": "Sampai jumpa!",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "sampai",
+       "jumpa"
+      ],
+      "gloss": {
+       "zh": "回头见！",
+       "ja": "では、また！",
+       "en": "See you!"
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "笔误修正",
+     "ja": "誤植の訂正",
+     "en": "Typo fixed"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "课本第 3 页对话的最后一行，说话人印成了 Sanggi —— 但 Sanggi 上一句已经说过「Sampai jumpa!」了，按场景应该是 Ziah 在道别（课本这一行的前引号也漏印了）。这里改成 Ziah。",
+       "ja": "教科書 3 ページの会話の最終行は、話し手が Sanggi と印刷されています。しかし Sanggi は直前の行ですでに「Sampai jumpa!」と言っているので、場面から見て別れを告げているのは Ziah です（この行は開き括弧も抜けています）。ここでは Ziah に直しました。",
+       "en": "On page 3 the last line of the dialogue is attributed to Sanggi — but Sanggi has already said “Sampai jumpa!” in the line before, so the person taking leave here should be Ziah (the book also drops the opening quotation mark on that line). Corrected to Ziah here."
+      }
      }
     ]
    },
@@ -653,14 +687,14 @@
       "text": {
        "zh": "<s>Mas</s> 是对年纪相仿或稍长的男性的称呼（爪哇话，日惹到处在用），女性对应 <s>Mbak</s>。放在名字前面：Mas Sanggi、Mbak Ziah。比直接叫名字更礼貌，但又不像 <s>Bapak</s>／<s>Ibu</s> 那么正式。",
        "ja": "<s>Mas</s> は同年代か少し年上の男性への呼びかけです（ジャワ語で、ジョグジャカルタでは日常的に使います）。女性には <s>Mbak</s>。名前の前に置いて Mas Sanggi、Mbak Ziah のように使います。名前を呼び捨てにするより丁寧で、<s>Bapak</s>／<s>Ibu</s> ほど硬くありません。",
-       "en": "<s>Mas</s> is how you address a man of about your own age or a little older (it is Javanese, and in Yogyakarta it is everywhere). For a woman it is <s>Mbak</s>. Put it before the name: Mas Sanggi, Mbak Ziah. It is warmer than using the bare name and less formal than <s>Bapak</s>/<s>Ibu</s>."
+       "en": "<s>Mas</s> is how you address a man of about your own age or a little older (it is Javanese, and in Yogyakarta it is everywhere). For a woman it is <s>Mbak</s>. Put it before the name: Mas Sanggi, Mbak Ziah. It is more polite than using the bare name and less formal than <s>Bapak</s>/<s>Ibu</s>."
       }
      },
      {
       "text": {
-       "zh": "<s>Senang bertemu Anda</s> 直译是「高兴见到您」。初次见面用它最稳。熟了以后口语会说 <s>Senang ketemu kamu</s>，但课堂上按课本说正式的那句。",
-       "ja": "<s>Senang bertemu Anda</s> は「お会いできてうれしいです」。初対面ではこれが無難です。親しくなると話しことばで <s>Senang ketemu kamu</s> と言いますが、教室では教科書どおりフォーマルな言い方にしましょう。",
-       "en": "<s>Senang bertemu Anda</s> is «pleased to meet you». It is the safe choice on a first meeting. Once you know someone, the spoken version is <s>Senang ketemu kamu</s> — but in class, stay with the formal one the book gives."
+       "zh": "<s>Senang bertemu Anda</s> 直译是「高兴见到您」。初次见面用它最稳。熟了以后口语会说 <s>Senang ketemu kamu</s>；课本给的是正式的那句，拿不准的场合用它不会错。",
+       "ja": "<s>Senang bertemu Anda</s> は「お会いできてうれしいです」。初対面ではこれが無難です。親しくなると話しことばで <s>Senang ketemu kamu</s> と言いますが、教科書が挙げているのはフォーマルな言い方で、迷う場面ではこちらにしておけば外しません。",
+       "en": "<s>Senang bertemu Anda</s> is «pleased to meet you». It is the safe choice on a first meeting. Once you know someone, the spoken version is <s>Senang ketemu kamu</s> — The book gives the formal one, and it is the safe choice whenever you are unsure."
       }
      }
     ]
@@ -678,7 +712,7 @@
    },
    {
     "k": "sec",
-    "num": "①",
+    "num": "",
     "word": "Salam",
     "reg": "neutral",
     "gloss": {
@@ -752,7 +786,7 @@
       "alt": null,
       "gloss": {
        "zh": "你好！（随时都能用，比较随意）",
-       "ja": "やあ。（時間を選ばない、くだけた言い方）",
+       "ja": "やあ！（時間を選ばない、くだけた言い方）",
        "en": "Hello! (any time of day, casual)"
       },
       "alt_gloss": null,
@@ -817,11 +851,8 @@
     ]
    },
    {
-    "k": "rule"
-   },
-   {
     "k": "sec",
-    "num": "②",
+    "num": "",
     "word": "Sapaan",
     "reg": "neutral",
     "gloss": {
@@ -918,19 +949,135 @@
     "lines": [
      {
       "text": {
-       "zh": "对老师、店主、司机、比自己明显年长的人 → <s>Pak</s>／<s>Bu</s>。对同学、咖啡店店员、网约车司机（年纪相仿）→ <s>Mas</s>／<s>Mbak</s>。拿不准就用 Pak／Bu，往上抬一档不会失礼，往下才会。",
+       "zh": "对老师、店主、司机、比自己明显年长的人 → <s>Pak</s>／<s>Bu</s>。对同学、咖啡店店员、网约车司机（年纪相仿）→ <s>Mas</s>／<s>Mbak</s>。拿不准就用 Pak／Bu，往上抬一档一般不会失礼，往下就容易失礼。",
        "ja": "先生・お店の人・運転手・明らかに年上の人には <s>Pak</s>／<s>Bu</s>。同級生・カフェの店員・同年代の配車ドライバーには <s>Mas</s>／<s>Mbak</s>。迷ったら Pak／Bu を使いましょう。一段上に見るのは失礼になりませんが、下に見ると失礼になります。",
-       "en": "For teachers, shopkeepers, drivers and anyone clearly older than you → <s>Pak</s>/<s>Bu</s>. For classmates, café staff and ride-hailing drivers of about your own age → <s>Mas</s>/<s>Mbak</s>. When in doubt use Pak/Bu: erring upwards is never rude, erring downwards can be."
+       "en": "For teachers, shopkeepers, drivers and anyone clearly older than you → <s>Pak</s>/<s>Bu</s>. For classmates, café staff and ride-hailing drivers of about your own age → <s>Mas</s>/<s>Mbak</s>. When in doubt use Pak/Bu: erring upwards is rarely a problem, erring downwards can be."
       }
      }
     ]
    },
    {
-    "k": "rule"
+    "k": "sec",
+    "num": "",
+    "word": "Perkenalan",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "自我介绍",
+     "ja": "自己紹介",
+     "en": "introducing yourself"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Nama saya Ziah.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "nama",
+       "saya"
+      ],
+      "gloss": {
+       "zh": "我叫 Ziah。",
+       "ja": "わたしの名前は Ziah です。",
+       "en": "My name is Ziah."
+      }
+     },
+     {
+      "id": "Saya dari Korea.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "dari"
+      ],
+      "gloss": {
+       "zh": "我从韩国来。",
+       "ja": "韓国から来ました。",
+       "en": "I'm from Korea."
+      }
+     },
+     {
+      "id": "Saya mahasiswa UGM.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "mahasiswa"
+      ],
+      "gloss": {
+       "zh": "我是 UGM 的学生。",
+       "ja": "わたしは UGM の学生です。",
+       "en": "I'm a UGM student."
+      }
+     },
+     {
+      "id": "Saya tinggal di Jalan Kaliurang.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "tinggal",
+       "di"
+      ],
+      "gloss": {
+       "zh": "我住在 Kaliurang 路。",
+       "ja": "カリウラン通りに住んでいます。",
+       "en": "I live on Jalan Kaliurang."
+      }
+     }
+    ]
    },
    {
     "k": "sec",
-    "num": "③",
+    "num": "",
+    "word": "Perjumpaan",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "初次见面",
+     "ja": "初対面",
+     "en": "meeting someone"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Senang bertemu Anda.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "senang",
+       "bertemu"
+      ],
+      "gloss": {
+       "zh": "很高兴见到您。",
+       "ja": "お会いできてうれしいです。",
+       "en": "Pleased to meet you."
+      }
+     },
+     {
+      "id": "Selamat datang.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "欢迎。",
+       "ja": "ようこそ。",
+       "en": "Welcome."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "datang"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "sec",
+    "num": "",
     "word": "Perpisahan",
     "reg": "neutral",
     "gloss": {
@@ -948,7 +1095,7 @@
       "alt": null,
       "gloss": {
        "zh": "回头见！",
-       "ja": "またね。",
+       "ja": "またね！",
        "en": "See you!"
       },
       "alt_gloss": null,
@@ -963,7 +1110,7 @@
       "alt": null,
       "gloss": {
        "zh": "再见！（下次再会）",
-       "ja": "また会いましょう。",
+       "ja": "また会いましょう！",
        "en": "See you again!"
       },
       "alt_gloss": null,
@@ -977,7 +1124,7 @@
       "alt": null,
       "gloss": {
        "zh": "待会儿见！（同一天之内）",
-       "ja": "また後で。（同じ日のうちに）",
+       "ja": "また後で！（同じ日のうちに）",
        "en": "See you later! (same day)"
       },
       "alt_gloss": null,
@@ -991,27 +1138,13 @@
       "alt": null,
       "gloss": {
        "zh": "路上小心！（送人走的时候说）",
-       "ja": "気をつけて。（見送るときに言う）",
+       "ja": "道中、気をつけて！（見送るときに言う）",
        "en": "Take care on the way! (said to someone leaving)"
       },
       "alt_gloss": null,
       "kw": [
        "hati-hati",
        "jalan"
-      ]
-     },
-     {
-      "id": "Selamat datang.",
-      "reg": "formal",
-      "alt": null,
-      "gloss": {
-       "zh": "欢迎。",
-       "ja": "ようこそ。",
-       "en": "Welcome."
-      },
-      "alt_gloss": null,
-      "kw": [
-       "datang"
       ]
      },
      {
@@ -1114,7 +1247,7 @@
       "alt": null,
       "gloss": {
        "zh": "那是谁？（同上，疑问词在前）",
-       "ja": "あれはだれですか。（同じ意味、疑問詞が前）",
+       "ja": "あの人はだれですか。（同じ意味、疑問詞が前）",
        "en": "Who is that? (same, question word first)"
       },
       "alt_gloss": null,
@@ -1129,7 +1262,7 @@
       "alt": null,
       "gloss": {
        "zh": "那是 Zach。",
-       "ja": "あれは Zach です。",
+       "ja": "あの人は Zach です。",
        "en": "That's Zach."
       },
       "alt_gloss": null,
@@ -1156,9 +1289,6 @@
       }
      }
     ]
-   },
-   {
-    "k": "rule"
    },
    {
     "k": "sec",
@@ -1222,9 +1352,6 @@
     ]
    },
    {
-    "k": "rule"
-   },
-   {
     "k": "sec",
     "num": "③",
     "word": "Dari mana",
@@ -1283,9 +1410,6 @@
       ]
      }
     ]
-   },
-   {
-    "k": "rule"
    },
    {
     "k": "sec",
@@ -1361,15 +1485,12 @@
     "lines": [
      {
       "text": {
-       "zh": "<s>di</s> 表示<b>在哪里</b>（位置），<s>dari</s> 表示<b>从哪里</b>（来源），<s>ke</s> 表示<b>去哪里</b>（方向）。三个只差一个词，问的却是完全不同的事：Saya tinggal <b>di</b> Jogja（我住在日惹）／ Saya <b>dari</b> Cina（我从中国来）／ Saya pergi <b>ke</b> pasar（我去市场）。",
-       "ja": "<s>di</s> は<b>どこに</b>（位置）、<s>dari</s> は<b>どこから</b>（出どころ）、<s>ke</s> は<b>どこへ</b>（方向）です。一語違うだけで尋ねている内容がまったく変わります。Saya tinggal <b>di</b> Jogja（ジョグジャに住んでいます）／ Saya <b>dari</b> Cina（中国から来ました）／ Saya pergi <b>ke</b> pasar（市場へ行きます）。",
-       "en": "<s>di</s> marks <b>where something is</b>, <s>dari</s> marks <b>where it comes from</b>, and <s>ke</s> marks <b>where it is going</b>. One small word apart, three quite different questions: Saya tinggal <b>di</b> Jogja (I live in Jogja) / Saya <b>dari</b> Cina (I'm from China) / Saya pergi <b>ke</b> pasar (I'm going to the market)."
+       "zh": "<s>di</s> 表示<b>在哪里</b>（位置），<s>dari</s> 表示<b>从哪里</b>（来源），<s>ke</s> 表示<b>去哪里</b>（方向）。三个只差一个词，问的却是完全不同的事：Saya tinggal <b>di</b> Jogja（我住在日惹）／ Saya <b>dari</b> {NEGARA}（我从{NAMA}来）／ Saya pergi <b>ke</b> pasar（我去市场）。",
+       "ja": "<s>di</s> は<b>どこに</b>（位置）、<s>dari</s> は<b>どこから</b>（出どころ）、<s>ke</s> は<b>どこへ</b>（方向）です。一語違うだけで尋ねている内容がまったく変わります。Saya tinggal <b>di</b> Jogja（ジョグジャに住んでいます）／ Saya <b>dari</b> {NEGARA}（{NAMA}から来ました）／ Saya pergi <b>ke</b> pasar（市場へ行きます）。",
+       "en": "<s>di</s> marks <b>where something is</b>, <s>dari</s> marks <b>where it comes from</b>, and <s>ke</s> marks <b>where it is going</b>. One small word apart, three quite different questions: Saya tinggal <b>di</b> Jogja (I live in Jogja) / Saya <b>dari</b> {NEGARA} (I'm from {NAMA}) / Saya pergi <b>ke</b> pasar (I'm going to the market)."
       }
      }
     ]
-   },
-   {
-    "k": "rule"
    },
    {
     "k": "sec",
@@ -1430,13 +1551,13 @@
       ]
      },
      {
-      "id": "Bukan. Saya orang Cina.",
+      "id": "Bukan, saya orang {NEGARA}.",
       "reg": "formal",
       "alt": null,
       "gloss": {
-       "zh": "不是。我是中国人。",
-       "ja": "いいえ。わたしは中国人です。",
-       "en": "No. I'm Chinese."
+       "zh": "不是，我是{PEOPLE}。",
+       "ja": "いいえ、わたしは{PEOPLE}です。",
+       "en": "No, I'm {PEOPLE}."
       },
       "alt_gloss": null,
       "kw": [
@@ -1464,9 +1585,9 @@
      },
      {
       "text": {
-       "zh": "<s>apakah</s> 是正式体。口语里直接把陈述句读成升调就是问句了：<s>Anda orang Indonesia?</s> 课堂上和写作业按课本用 apakah。",
-       "ja": "<s>apakah</s> はフォーマルな言い方です。話しことばでは平叙文を上げ調子で言うだけで質問になります：<s>Anda orang Indonesia?</s> 教室や課題では教科書どおり apakah を使いましょう。",
-       "en": "<s>apakah</s> belongs to the formal register. In speech, a statement said with rising intonation is already a question: <s>Anda orang Indonesia?</s> In class and in written work, use apakah as the book does."
+       "zh": "<s>apakah</s> 是正式体。口语里直接把陈述句读成升调就是问句了：<s>Anda orang Indonesia?</s> 课本练习和书面作业用的是 apakah 这种写法。",
+       "ja": "<s>apakah</s> はフォーマルな言い方です。話しことばでは平叙文を上げ調子で言うだけで質問になります：<s>Anda orang Indonesia?</s> 教科書の練習や書きことばでは apakah のほうが使われます。",
+       "en": "<s>apakah</s> belongs to the formal register. In speech, a statement said with rising intonation is already a question: <s>Anda orang Indonesia?</s> The book's exercises and written Indonesian use apakah."
       }
      }
     ]
@@ -1505,9 +1626,9 @@
      [
       {
        "text": {
-        "zh": "第一人称（我／我们）",
-        "ja": "一人称（わたし／わたしたち）",
-        "en": "First (I / we)"
+        "zh": "第一人称",
+        "ja": "一人称",
+        "en": "First person"
        }
       },
       {
@@ -1533,9 +1654,9 @@
      [
       {
        "text": {
-        "zh": "第二人称（你／你们）",
-        "ja": "二人称（あなた／あなたがた）",
-        "en": "Second (you)"
+        "zh": "第二人称",
+        "ja": "二人称",
+        "en": "Second person"
        }
       },
       {
@@ -1561,13 +1682,13 @@
      [
       {
        "text": {
-        "zh": "第三人称（他／她／他们）",
-        "ja": "三人称（かれ・かのじょ／かれら）",
-        "en": "Third (he / she / they)"
+        "zh": "第三人称",
+        "ja": "三人称",
+        "en": "Third person"
        }
       },
       {
-       "id": "dia",
+       "id": "ia",
        "reg": "formal"
       },
       {
@@ -1578,7 +1699,7 @@
      [
       "",
       {
-       "id": "ia",
+       "id": "dia",
        "reg": "formal"
       },
       {
@@ -1588,25 +1709,25 @@
      ]
     ],
     "note": {
-     "zh": "教材还列了 <b>beliau</b>（第三人称的敬语，用于长辈、老师、地位高的人）和 <b>Saudara</b>（书面正式的「您」）。课本没给 beliau 标语体，其实它比 dia 更敬。",
-     "ja": "教科書には <b>beliau</b>（三人称の敬語。目上の人・先生・地位のある人に使う）と <b>Saudara</b>（文語的でフォーマルな「あなた」）も挙がっています。教科書は beliau に語体の印をつけていませんが、実際には dia より敬意の高い語です。",
-     "en": "The book also lists <b>beliau</b> (a respectful third person, for elders, teachers and people of standing) and <b>Saudara</b> (a formal, written «you»). The book leaves beliau unmarked, though it is in fact more deferential than dia."
+     "zh": "教材还列了 <b>beliau</b>（第三人称的敬语，用于长辈、老师、地位高的人）和 <b>Saudara</b>（书面正式的「您」），以及三个带 <b>sekalian</b> 的强调复数：<b>kita sekalian</b>、<b>Saudara-saudara</b>／<b>Saudara sekalian</b>、<b>mereka sekalian</b>（都相当于「各位／全体」，正式场合才用）。课本没给 beliau 标语体，其实它比 dia 更敬。",
+     "ja": "教科書にはほかに <b>beliau</b>（三人称の敬語。目上の人・先生などに使います）と <b>Saudara</b>（書きことばの「あなた」）、それに <b>sekalian</b> のついた強調の複数形 <b>kita sekalian</b>・<b>Saudara-saudara</b>／<b>Saudara sekalian</b>・<b>mereka sekalian</b>（いずれも「みなさん／全員」にあたり、あらたまった場面で使います）も挙げられています。教科書は beliau に語体の印をつけていませんが、実際には dia より敬意が高い語です。",
+     "en": "The book also lists <b>beliau</b> (the respectful third person, used for elders, teachers and people of standing) and <b>Saudara</b> (a formal written “you”), plus three emphatic plurals formed with <b>sekalian</b>: <b>kita sekalian</b>, <b>Saudara-saudara</b> / <b>Saudara sekalian</b> and <b>mereka sekalian</b> (all meaning roughly “all of you / everyone”, for formal occasions). The book gives beliau no register mark, though it is more deferential than dia."
     }
    },
    {
     "k": "note",
     "green": false,
     "tag": {
-     "zh": "课本没讲，但一定会踩",
-     "ja": "教科書にはないが必ずつまずくところ",
-     "en": "Not in the book, but you will hit it"
+     "zh": "课本没讲，但用得上",
+     "ja": "教科書にはないが、よく使うところ",
+     "en": "Not in the book, but worth knowing"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>kami 和 kita 都是「我们」，但不能互换。</b><s>kami</s> <b>不包括</b>听话的人，<s>kita</s> <b>包括</b>听话的人。对老师说「我们（学生）是 UGM 的学生」用 kami；对同学说「我们一起去吧」用 kita。说反了意思就变了 —— 这是印尼语最经典的一个坑，中文和英文都没有这个区分。",
        "ja": "<b>kami と kita はどちらも「わたしたち」ですが、入れ替えられません。</b><s>kami</s> は聞き手を<b>含みません</b>。<s>kita</s> は聞き手を<b>含みます</b>。先生に「わたしたち（学生）は UGM の学生です」と言うときは kami、友だちに「いっしょに行こう」と言うときは kita です。取り違えると意味が変わります。日本語にはこの区別がないので、いちばんつまずきやすいところです。",
-       "en": "<b>kami and kita both mean «we», and they are not interchangeable.</b> <s>kami</s> <b>excludes</b> the person you are talking to; <s>kita</s> <b>includes</b> them. Telling a teacher «we (students) are at UGM» takes kami; telling a friend «let's go» takes kita. Get it the wrong way round and the meaning changes. English has no such distinction, which is why this one catches everyone."
+       "en": "<b>kami and kita both mean «we», and they are not interchangeable.</b> <s>kami</s> <b>excludes</b> the person you are talking to; <s>kita</s> <b>includes</b> them. Telling a teacher «we (students) are at UGM» takes kami; telling a friend «let's go» takes kita. Get it the wrong way round and the meaning changes. English has no such distinction, which is why it takes some getting used to."
       }
      },
      {
@@ -1778,9 +1899,6 @@
     ]
    },
    {
-    "k": "rule"
-   },
-   {
     "k": "examples",
     "title": {
      "zh": "② 介绍别人 · memperkenalkan teman",
@@ -1879,9 +1997,9 @@
     "lines": [
      {
       "text": {
-       "zh": "介绍自己用 <s>saya</s>，介绍别人用 <s>dia</s>，其余句型一模一样。把 Akira／Kobe／两周／炒饭换成你自己的答案，念熟到不用想 —— 开学第一天全班都要站起来说一遍。",
-       "ja": "自分を紹介するときは <s>saya</s>、人を紹介するときは <s>dia</s>。ほかの文型はまったく同じです。Akira・神戸・二週間・ナシゴレンのところを自分の答えに入れかえて、考えずに言えるまで声に出しておきましょう。初日にクラス全員が立って一度は言うことになります。",
-       "en": "Use <s>saya</s> for yourself and <s>dia</s> for someone else; every other pattern is identical. Swap Akira, Kobe, two weeks and nasi goreng for your own answers and say it until you no longer have to think — on the first day everyone stands up and does this."
+       "zh": "介绍自己用 <s>saya</s>，介绍别人用 <s>dia</s>，其余句型一模一样。把 Akira／Kobe／两周／炒饭换成你自己的答案，多念几遍，需要开口的时候就不用现想。",
+       "ja": "自分を紹介するときは <s>saya</s>、人を紹介するときは <s>dia</s>。ほかの文型はまったく同じです。Akira・神戸・二週間・ナシゴレンのところを自分の答えに入れかえて、何度か声に出しておくと、話す場面で考えずにすみます。",
+       "en": "Use <s>saya</s> for yourself and <s>dia</s> for someone else; every other pattern is identical. Swap Akira, Kobe, two weeks and nasi goreng for your own answers and say it aloud a few times, so it is there when you need it."
       }
      }
     ]
@@ -1893,16 +2011,16 @@
     "title": "Menulis",
     "sub": {
      "zh": "写 · 身份信息",
-     "ja": "書く · 身分事項",
+     "ja": "書く · 身分証の項目",
      "en": "Writing · identity details"
     }
    },
    {
     "k": "psub2",
     "text": {
-     "zh": "印尼身份证（KTP）上的栏目。填表、办手机卡、租房、注册都会遇到这些词。",
-     "ja": "インドネシアの身分証（KTP）の項目です。書類の記入、SIM カードの契約、部屋探し、登録手続きで必ず出てきます。",
-     "en": "The fields on an Indonesian ID card (KTP). You will meet these words on forms, when getting a SIM card, renting a room and registering for anything."
+     "zh": "印尼身份证（KTP）上的栏目。填表、办手机卡、租房、注册常会遇到这些词。",
+     "ja": "インドネシアの身分証（KTP）の項目です。書類の記入、SIM カードの契約、部屋探し、登録手続きでよく出てきます。",
+     "en": "The fields on an Indonesian ID card (KTP). These words turn up on forms, when getting a SIM card, renting a room and registering for anything."
     }
    },
    {
@@ -2189,7 +2307,7 @@
        "text": {
         "zh": "爪哇 <s>Jawa</s>",
         "ja": "ジャワ <s>Jawa</s>",
-        "en": "Java"
+        "en": "<s>Jawa</s>"
        }
       },
       {
@@ -2203,9 +2321,9 @@
      [
       {
        "text": {
-        "zh": "巽他 <s>Sunda</s>（西爪哇）",
-        "ja": "スンダ <s>Sunda</s>（西ジャワ）",
-        "en": "<s>Sunda</s> (West Java)"
+        "zh": "巽他 <s>Sunda</s>",
+        "ja": "スンダ <s>Sunda</s>",
+        "en": "<s>Sunda</s>"
        }
       },
       {
@@ -2219,9 +2337,9 @@
      [
       {
        "text": {
-        "zh": "巴塔克 <s>Batak</s>（北苏门答腊）",
-        "ja": "バタック <s>Batak</s>（北スマトラ）",
-        "en": "<s>Batak</s> (North Sumatra)"
+        "zh": "巴塔克 <s>Batak</s>",
+        "ja": "バタック <s>Batak</s>",
+        "en": "<s>Batak</s>"
        }
       },
       {
@@ -2250,9 +2368,9 @@
      ]
     ],
     "note": {
-     "zh": "词尾能看出性别：<b>-man</b>、<b>-wan</b> 多是男名（Hermawan、Suparman），<b>-wati</b> 多是女名（Hermawati、Ratnawati）。",
-     "ja": "語尾から性別が見えることがあります。<b>-man</b>・<b>-wan</b> は男性名に多く（Hermawan、Suparman）、<b>-wati</b> は女性名に多い（Hermawati、Ratnawati）です。",
-     "en": "The ending often marks gender: <b>-man</b> and <b>-wan</b> tend to be men's names (Hermawan, Suparman), <b>-wati</b> women's (Hermawati, Ratnawati)."
+     "zh": "巽他人住在西爪哇，巴塔克人住在北苏门答腊。词尾能看出性别：<b>-man</b>、<b>-wan</b> 多是男名（Hermawan、Suparman），<b>-wati</b> 多是女名（Hermawati、Ratnawati）。",
+     "ja": "スンダの人びとは西ジャワに、バタックの人びとは北スマトラに住んでいます。語尾から性別が見えることがあります。<b>-man</b>・<b>-wan</b> は男性名に多く（Hermawan、Suparman）、<b>-wati</b> は女性名に多い（Hermawati、Ratnawati）です。",
+     "en": "The Sunda live in West Java and the Batak in North Sumatra. The ending often marks gender: <b>-man</b> and <b>-wan</b> tend to be men's names (Hermawan, Suparman), <b>-wati</b> women's (Hermawati, Ratnawati)."
     }
    },
    {

@@ -176,8 +176,13 @@
 
   /* 设置弹层：默认收起，点 ⚙ 展开，点别处 / Esc 收起。
      不用 display:none —— 那样没法做淡入淡出，改用 visibility + opacity。 */
+  /* 面板本身可能比屏幕还高 —— 横屏、小屏、或者字号调大之后都会。
+     加了「学习记录」那一格之后更容易顶出去，而它恰好在最底下。
+     超出就让面板自己滚，不要把内容切掉。 */
   .ctrls{display:flex;position:absolute;top:calc(100% + 6px);right:12px;z-index:60;
     flex-direction:column;gap:14px;min-width:246px;
+    max-height:calc(100vh - var(--hdr-h, 56px) - 26px);
+    overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
     background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);
     padding:16px 17px;box-shadow:0 18px 40px -22px rgba(0,0,0,.4);
     transform-origin:top right;transform:scale(.97) translateY(-6px);
@@ -191,6 +196,32 @@
   .grp .lab{font-family:var(--ui);font-size:11px;color:var(--ink-soft);letter-spacing:.1em;flex:0 0 auto}
   select.voice{font-family:var(--ui);font-size:13px;color:var(--ink);background:var(--surface);
     border:1px solid var(--line);border-radius:var(--r-sm);padding:7px 22px 7px 10px;max-width:190px}
+  /* 学习记录：设置面板最底下的一行，跟前面的控件用一条细线隔开。
+     只有状态和一个「清除」，不做开关 —— 记不住的时候本来就已经静默降级了。 */
+  .prog-grp{flex-direction:column;align-items:stretch;gap:7px;
+    border-top:1px solid var(--line);padding-top:13px;margin-top:2px}
+  .prog-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .prog-stat{font-family:var(--ui);font-size:11.5px;color:var(--ink-soft);line-height:1.5}
+  /* 它是这个面板里唯一一个破坏性操作，原来反而是最小的按钮（32px）——
+     邻居都 36px。做到和邻居一样大，别让人误点，也别让人点不中。 */
+  .prog-clear{font-family:var(--ui);font-size:11.5px;font-weight:600;color:var(--ink-soft);
+    background:transparent;border:1px solid var(--line);border-radius:var(--r-sm);
+    padding:8px 14px;min-height:36px;cursor:pointer;flex:0 0 auto;
+    transition:color var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
+  /* 全文件其他 hover 都包在 @media (hover:hover) 里 —— 触屏上不包的话，
+     点完手指抬起来高亮还粘着。 */
+  @media (hover:hover){ .prog-clear:hover{color:var(--accent-ink);border-color:var(--accent-line)} }
+  .prog-clear[disabled]{opacity:.4;cursor:default}
+  .prog-clear.armed{color:var(--accent-ink);border-color:var(--accent);background:var(--accent-wash)}
+  .prog-hint{font-family:var(--ui);font-size:10.5px;color:var(--ink-soft);opacity:.8;line-height:1.6}
+  /* 版本与更新记录：设置面板最底下一行，安静的文字链接 */
+  .ver-grp{border-top:1px solid var(--line);padding-top:11px;margin-top:1px;min-height:0}
+  .ver-link{display:inline-flex;align-items:center;gap:7px;font-family:var(--ui);font-size:11.5px;
+    color:var(--ink-soft);text-decoration:none;min-height:32px;
+    transition:color var(--t-fast) var(--ease)}
+  .ver-link .ver-num{font-variant-numeric:tabular-nums;color:var(--accent-ink);font-weight:600}
+  .ver-link svg{width:13px;height:13px;flex:0 0 auto;opacity:.7}
+  @media (hover:hover){ .ver-link:hover{color:var(--accent-ink)} }
   .seg{display:inline-flex;border:1px solid var(--line);border-radius:var(--r-sm);overflow:hidden;background:var(--surface)}
   .seg button{font-size:12px;color:var(--ink-soft);background:transparent;
     border:0;padding:8px 12px;min-height:36px;cursor:pointer;font-weight:600;
@@ -284,8 +315,16 @@
   .say.cardword.speaking{background:none;box-shadow:none;color:inherit}
 
   /* 对话行 */
-  .row{display:flex;align-items:baseline;gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}
-  .row:last-child{border-bottom:0}
+  /* 分隔线画在「行与行之间」，不是每行下面 —— 原来用 border-bottom + :last-child 取消，
+     可这些行直接挂在页面上、后面总跟着别的块，:last-child 几乎从不成立，
+     于是块的最后一行留着一条底线，再接一条 rule 就成了两条并排的横线。 */
+  .row{display:flex;align-items:baseline;gap:12px;padding:11px 0}
+  .row + .row{border-top:1px solid var(--line)}
+  /* 例句组的小标题：上方留白跟 .sec 一档，靠间距分组，不靠横线 */
+  .psub.extitle{margin:28px 0 4px;font-weight:700;color:var(--ink)}
+  .psub.extitle:first-child{margin-top:.3em}
+  /* 小标题下面紧接着的第一行不要再加上边线 —— 标题已经分好组了 */
+  .psub.extitle + .row{border-top:0}
   .play{flex:0 0 auto;width:34px;height:34px;border-radius:999px;border:1px solid var(--line);
     background:transparent;color:var(--accent);cursor:pointer;
     display:flex;align-items:center;justify-content:center;align-self:flex-start;padding:0;
@@ -295,7 +334,10 @@
   .who{font-family:var(--ui);flex:0 0 auto;min-width:54px;font-weight:600;color:var(--accent-ink);font-size:.8em;
     letter-spacing:.08em;text-transform:uppercase}
   .line{flex:1 1 auto;min-width:0}
-  .line .gloss{color:var(--ink-soft);font-size:.84em;display:block;margin-top:3px;line-height:1.6}
+  /* 日文释义里的全角括号（时间を選ばない…）默认不在括号处断行，
+     窄屏上会顶出几像素。允许在任意位置断，中日文本来就不靠空格断词。 */
+  .line .gloss{color:var(--ink-soft);font-size:.84em;display:block;margin-top:3px;line-height:1.6;
+    overflow-wrap:anywhere}
   .idtext{font-weight:500}
 
   /* 词卡网格 */
@@ -351,8 +393,8 @@
   .exer{margin:14px 0}
   .exer .ehead{font-weight:700;font-size:.95em;margin-bottom:8px}
   .exer ol{margin:0;padding-left:1.5em}
-  .exer li{padding:10px 0;border-bottom:1px solid var(--line)}
-  .exer li:last-child{border-bottom:0}
+  .exer li{padding:10px 0}
+  .exer li + li{border-top:1px solid var(--line)}
   .qa-line{display:flex;align-items:baseline;gap:9px}
   .qa-line + .qa-line{margin-top:4px}
   .qa-line .plain{color:var(--ink-soft);font-size:.95em}
@@ -384,9 +426,18 @@
   .glist{display:grid;grid-template-columns:repeat(auto-fill,minmax(238px,1fr));gap:12px}
   .gentry{border:1px solid var(--line);border-radius:var(--r-md);padding:13px 14px;background:transparent;display:flex;flex-direction:column;gap:6px;min-width:0}
   .gtop{display:flex;align-items:center;justify-content:space-between;gap:8px}
-  .gword{font-weight:600;font-size:1.1em;min-width:0;overflow-wrap:break-word}
+  /* flex:1 让词占满中间，墨点才会紧跟在词后面 ——
+     否则 space-between 把词、墨点、徽章三者均分，墨点飘到卡片正中间，
+     离它标注的那个词一百多像素。 */
+  .gword{font-weight:600;font-size:1.1em;min-width:0;overflow-wrap:break-word;flex:1 1 auto}
   .gbadge{font-family:var(--ui);font-size:.64em;font-weight:700;border-radius:999px;padding:3px 9px;
     background:var(--accent-wash);color:var(--accent-ink);flex:0 0 auto}
+  /* 掌握度墨点：练过才出现，像在页边点一下笔尖。
+     空心=还在错 · 半实=答对过 · 实心=练熟了。没有学习记录时整个不渲染。 */
+  .gdot{width:7px;height:7px;border-radius:50%;flex:0 0 auto;margin-left:2px;
+    border:1px solid var(--accent-line);background:transparent}
+  .gdot.l2{background:var(--accent-line);border-color:var(--accent-line)}
+  .gdot.l3{background:var(--accent);border-color:var(--accent)}
   .ggloss{font-size:.86em;color:var(--ink-soft);line-height:1.6}
   .ggloss .en{font-style:italic}
   .gex{display:flex;align-items:baseline;gap:8px;border-top:1px solid var(--line);padding-top:9px}
@@ -395,6 +446,51 @@
   .gmore{display:none;text-align:center;color:var(--ink-soft);font-size:.86em;padding:14px 0}
   .glist .ans.masked{filter:none;color:transparent;background:var(--accent-wash)}
   .glist .ans.masked *{color:transparent}
+
+  /* ===== 词块拼句 =====
+     纯点按：点下面的词块上屏，点上面的退回来。不做拖拽（手机浏览器坑多），
+     也不弹键盘（老机器上又慢又抖）。触控目标 ≥44px、相邻留缝，
+     答错的原因该是「不会」，不该是「手滑点到隔壁」。 */
+  /* 答案区按两行的高度留够：不然点到第四个词块时答案区换行，
+     整排词块在手指底下往下跳 52px（比一个词块还高），下一下就点空或点错。 */
+  .sz-slot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+    min-height:114px;padding:12px 14px;margin:4px 0 16px;align-content:flex-start;
+    border:1px solid var(--line);border-bottom-width:2px;border-radius:var(--r-md);
+    background:var(--surface);
+    transition:border-color var(--t-mid) var(--ease),background var(--t-mid) var(--ease)}
+  .sz-slot.good{border-color:var(--accent);background:var(--accent-wash)}
+  .sz-slot.bad{border-color:var(--line);background:transparent}
+  .sz-empty{font-family:var(--ui);font-size:12.5px;color:var(--ink-soft);opacity:.75}
+  .sz-bank{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+  .sz-tok{font-family:var(--serif);font-size:1em;color:var(--ink);
+    background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);
+    padding:9px 14px;min-height:44px;cursor:pointer;
+    transition:opacity var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease),
+               color var(--t-fast) var(--ease)}
+  .sz-tok:active{border-color:var(--accent)}
+  .sz-tok.bank.used{opacity:.28;pointer-events:none}
+  .sz-tok[disabled]{cursor:default}
+  .sz-slot .sz-tok{border-color:var(--accent-line)}
+  /* 「检查」就留在文档流里，不 sticky —— 粘在底部的话它会浮在词块上面
+     把字挡住（试过，比它落到屏幕外还糟）。落到屏幕外的问题由
+     ensureCheckVisible() 解决：拼词时把它滚进视野。 */
+  .sz-actions{margin-top:6px;padding-bottom:calc(4px + env(safe-area-inset-bottom))}
+  .sz-check{margin-top:0;scroll-margin-bottom:16px}
+  .sz-check[disabled]{opacity:.4;cursor:default}
+  /* 语法题的题面允许 <b> 强调，且比别的题面松一点行距 */
+  .dr-q.lat{line-height:1.75;text-align:left}
+  .qz-fb .fw-why{display:block;color:var(--ink);margin-bottom:4px}
+  .qz-fb.ok{border-color:var(--accent-line);background:var(--accent-wash)}
+
+  /* ===== 看图认词 =====
+     线描图跟着 currentColor 走，所以深浅色和五套配色都不用另画一份。 */
+  .bd-ico{width:44px;height:44px;display:block;color:var(--ink)}
+  .bd-ico.lg{width:96px;height:96px;color:var(--accent-ink)}
+  .bd-big{display:flex;justify-content:center;padding:14px 0 6px}
+  .qz-opt.pic{display:flex;align-items:center;justify-content:center;padding:14px 10px;min-height:76px}
+  .qz-opt.pic .bd-ico{color:inherit}
+  .qz-fb .fw-pic{display:flex;justify-content:center;margin-bottom:6px}
+  .qz-fb .fw-pic .bd-ico{width:52px;height:52px;color:var(--accent-ink)}
 
   /* ===== 复习 / 实战 ===== */
   .qz-secttl{font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:700;margin:20px 0 8px}
@@ -466,7 +562,12 @@
     font-family:var(--ui);font-size:12px;line-height:1.75;color:var(--ink-faint)}
   .site-foot > * + *{margin-top:3px}
   .foot-name{font-size:13px;font-weight:600;color:var(--ink-soft)}
-  .foot-ver{font-weight:400;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  /* 版本号是更新记录的入口，做成链接但保持低调 —— 下划线用点线，
+     跟正文里的实线链接区分开。 */
+  .foot-ver{font-weight:400;color:var(--ink-faint);font-variant-numeric:tabular-nums;
+    text-decoration:none;border-bottom:1px dotted var(--line);padding-bottom:1px}
+  @media (hover:hover){ .foot-ver:hover{color:var(--accent-ink);border-bottom-color:var(--accent-line)} }
+  .foot-updated{font-variant-numeric:tabular-nums}
   .foot-links{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin-top:9px}
   .foot-links a{display:inline-flex;align-items:center;gap:6px;min-height:32px;
     color:var(--accent-ink);text-decoration:none;font-weight:600;
@@ -536,15 +637,25 @@
     background-size:28px 100%;background-repeat:no-repeat;background-attachment:local, local}
   /* 表格和卡片用同一档圆角。border-collapse 必须是 separate，
      collapse 状态下 overflow:hidden 裁不出圆角。 */
-  table.tbl{border-collapse:separate;border-spacing:0;width:100%;min-width:460px;font-size:.92em;
+  /* ⚠️ 表格一律先照顾手机竖屏（375px 宽，可见区约 343px）。
+     原来这里写死 min-width:460px，于是每张表都要左右拖着看 ——
+     每看一格拖一次，体验很差。现在让表格自适应，overflow-x 只当兜底。
+     新加表格时先在 375px 下看一遍：能不拖就不要拖。 */
+  table.tbl{border-collapse:separate;border-spacing:0;width:100%;font-size:.92em;
     border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden}
   table.tbl th{background:var(--accent-wash);color:var(--accent-ink);font-weight:700;font-size:.95em;
-    text-align:left;padding:11px 12px;border:0;border-bottom:1px solid var(--line);border-right:1px solid var(--line-soft);white-space:nowrap}
-  table.tbl td{padding:11px 12px;border:0;border-bottom:1px solid var(--line-soft);border-right:1px solid var(--line-soft);
-    vertical-align:top;line-height:1.9}
+    text-align:left;padding:11px 10px;border:0;border-bottom:1px solid var(--line);border-right:1px solid var(--line-soft)}
+  table.tbl td{padding:11px 10px;border:0;border-bottom:1px solid var(--line-soft);border-right:1px solid var(--line-soft);
+    vertical-align:top;line-height:1.9;overflow-wrap:anywhere}
   table.tbl th:last-child,table.tbl td:last-child{border-right:0}
   table.tbl tr:last-child td{border-bottom:0}
-  table.tbl td:first-child{color:var(--ink-soft);font-size:.9em;line-height:1.6;min-width:8.5em}
+  /* 第一列是标签列，让它按内容收窄，把宽度让给右边真正要读的内容。
+     不能用 white-space:nowrap —— 「巽他 Sunda（西爪哇）」这种长标签会被撑开，
+     反而把右边挤没了。允许换行 + 一个下限，避免压成一字一行。 */
+  table.tbl td:first-child{color:var(--ink-soft);font-size:.9em;line-height:1.6;
+    width:1%;min-width:6.2em}
+  /* 跨行合并的格子居中，贴着顶端看着像漏了内容 */
+  table.tbl td[rowspan]{vertical-align:middle}
   table.tbl td .say{margin-right:2px}
   .rbadge{display:inline-block;font-size:.6em;font-weight:600;letter-spacing:.04em;
     padding:2px 7px;border-radius:999px;margin:0 0 0 5px;vertical-align:middle;white-space:nowrap}

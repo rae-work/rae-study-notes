@@ -6,8 +6,120 @@
    兼容基线：iOS 15 Safari / Android Chrome 100+（ES2020 可用）。
 ============================================================ */
 
+/* ============================================================
+   本地存储 —— 一层薄封装
+   ------------------------------------------------------------
+   浏览器不让存（隐私模式、配额满、系统清理）时一律静默失败：
+   功能照常，只是记不住。调用点因此都不用自己写 try/catch。
+
+   键分两类：
+   · 老三样 lang / theme / accent 保持裸键名 —— 线上已经有人存了，
+     改名字等于把所有人的设置清空一次。
+   · 新增的一律带 rsn. 前缀，避免同域下撞名。
+
+   ⚠️ iOS Safari 会清存储：直接在 Safari 里开网页，若连续 7 个
+   「使用日」没访问过本站，localStorage 会被系统删掉；**加到主屏幕
+   的不受影响**。所以进度只能做成「丢了也不影响使用」的增强，
+   界面不能把它当地基（见 progNote 的提示文案）。
+   ============================================================ */
+var STORE = (function(){
+  var BARE = {lang:1, theme:1, accent:1};
+  var ok = true;
+  try{                                  /* 探一次，写不进去就整体降级 */
+    localStorage.setItem("rsn.probe", "1");
+    localStorage.removeItem("rsn.probe");
+  }catch(e){ ok = false; }
+  function key(k){ return BARE[k] ? k : "rsn." + k; }
+  return {
+    ok: function(){ return ok; },
+    getRaw: function(k){
+      if(!ok) return null;
+      try{ return localStorage.getItem(key(k)); }catch(e){ return null; }
+    },
+    setRaw: function(k, v){
+      if(!ok) return false;
+      /* 写失败就整体降级 —— 配额是后来被写满的（网站那份还有统计脚本在用），
+         不更新状态的话设置里会一直显示「记住了 N 个」，其实一条都没存进去。 */
+      try{ localStorage.setItem(key(k), v); return true; }catch(e){ ok = false; return false; }
+    },
+    get: function(k, def){
+      var s = this.getRaw(k);
+      if(s == null) return def;
+      try{ var v = JSON.parse(s); return v == null ? def : v; }catch(e){ return def; }
+    },
+    set: function(k, v){
+      try{ return this.setRaw(k, JSON.stringify(v)); }catch(e){ return false; }
+    },
+    del: function(k){
+      if(!ok) return;
+      try{ localStorage.removeItem(key(k)); }catch(e){}
+    }
+  };
+})();
+
+/* ============================================================
+   学习记录
+   ------------------------------------------------------------
+   记下每个词答对／答错过几次、最近一次是哪天。三个用途：
+   · 复习出题时，上回答错的词排到前面
+   · 词汇表和复习页上标一个安静的墨点，让人看得见自己练到哪
+   · 一轮练习的热身段直接取上次的错词
+
+   刻意做成「丢了也不心疼」：iOS Safari 连着七个使用日没打开就会
+   清掉存储（加到主屏幕的不会），换手机更是带不走。所以界面上
+   任何地方都不许拿它当前提 —— 没有记录时一切照常，只是少个墨点。
+
+   存的形式：{ 词: [答对数, 答错数, 最后一天的天数序号] }。
+   天数序号而不是毫秒时间戳，是为了让几百个词的记录仍然只有几 KB。
+   ============================================================ */
+var PROG_V = 1;
+var PROG = (function(){
+  var p = STORE.get("prog", null);
+  if(!p || p.v !== PROG_V || typeof p.w !== "object" || !p.w) return {v: PROG_V, w: {}};
+  return p;
+})();
+var progTimer = null;
+function dayNum(){ return Math.floor(Date.now() / 86400000); }
+function progSave(){
+  if(progTimer) return;             /* 攒 600ms 再写，一题一写太浪费 */
+  progTimer = setTimeout(function(){
+    progTimer = null;
+    STORE.set("prog", PROG);
+  }, 600);
+}
+function progMark(word, ok){
+  if(!word) return;
+  var r = PROG.w[word] || [0, 0, 0];
+  if(ok) r[0]++; else r[1]++;
+  r[2] = dayNum();
+  PROG.w[word] = r;
+  progSave();
+}
+/* 掌握档：0 没练过 · 1 还在错 · 2 答对过 · 3 练熟了 */
+function progLevel(word){
+  var r = PROG.w[word];
+  if(!r || (r[0] + r[1]) === 0) return 0;
+  if(r[0] >= 3 && r[0] >= r[1] * 2) return 3;
+  if(r[0] > r[1]) return 2;
+  return 1;
+}
+/* 记录里混着两类：词汇（键就是那个词）和手写题（键是 "q:题号"）。
+   设置里要分开报，不然「记住了 8 个词」其实数的是题，对不上词汇表里的墨点。 */
+function progCount(){
+  var w = 0, q = 0, k;
+  for(k in PROG.w) if(PROG.w.hasOwnProperty(k)){
+    if(k.indexOf("q:") === 0) q++; else w++;
+  }
+  return {w: w, q: q, all: w + q};
+}
+function progClear(){
+  PROG = {v: PROG_V, w: {}};
+  if(progTimer){ clearTimeout(progTimer); progTimer = null; }
+  STORE.del("prog");
+}
+
 /* ===== 语言 =====
-   LANG 的确定顺序：localStorage 里存的选择 → 浏览器语言 → meta 的默认值。
+   LANG 的确定顺序：存下来的选择 → 浏览器语言 → meta 的默认值。
    L(x)  把 {zh, ja, en} 解析成当前语言的字符串（缺则 zh → en → ja 兜底）。
    T(k)  取界面文案，键见 content/i18n/ui.*.json，支持 {0} {1} 占位。
    印尼语字段是纯字符串，L() 原样返回。 */
@@ -15,10 +127,8 @@ var LANGS = CONTENT.meta.langs;
 
 function detectLang(){
   /* ① 用户上次的选择 */
-  try{
-    var saved = localStorage.getItem("lang");
-    if(saved && LANGS.indexOf(saved) >= 0) return saved;
-  }catch(e){}
+  var saved = STORE.getRaw("lang");
+  if(saved && LANGS.indexOf(saved) >= 0) return saved;
   /* ② 浏览器语言。zh-CN / zh-Hans / ja-JP / en-GB 都要认得出 */
   if(CONTENT.meta.detect_browser_lang){
     var cands = [];
@@ -43,19 +153,15 @@ var LANG = detectLang();
    读写 localStorage 失败一律静默，不影响功能。 */
 var THEMES = ["auto", "light", "dark"];
 var THEME = "auto";
-try{
-  var savedTheme = localStorage.getItem("theme");
-  if(savedTheme && THEMES.indexOf(savedTheme) >= 0) THEME = savedTheme;
-}catch(e){}
+var savedTheme = STORE.getRaw("theme");
+if(savedTheme && THEMES.indexOf(savedTheme) >= 0) THEME = savedTheme;
 
 /* 强调色：五套低饱和配色，浅深两套值都在 app.css 里，
    这里只负责在 <html> 上写 data-accent。rose 是默认，不写属性。 */
 var ACCENTS = ["rose", "blue", "ochre", "sage", "mauve"];
 var ACCENT = "rose";
-try{
-  var savedAccent = localStorage.getItem("accent");
-  if(savedAccent && ACCENTS.indexOf(savedAccent) >= 0) ACCENT = savedAccent;
-}catch(e){}
+var savedAccent = STORE.getRaw("accent");
+if(savedAccent && ACCENTS.indexOf(savedAccent) >= 0) ACCENT = savedAccent;
 
 function applyTheme(){
   var root = document.documentElement;
@@ -67,7 +173,7 @@ function applyTheme(){
 function setAccent(a){
   if(ACCENTS.indexOf(a) < 0) return;
   ACCENT = a;
-  try{ localStorage.setItem("accent", a); }catch(e){}
+  STORE.setRaw("accent", a);
   applyTheme();
   toArr(document.querySelectorAll("#accentSeg .sw")).forEach(function(b){
     b.classList.toggle("on", b.getAttribute("data-ac") === ACCENT);
@@ -76,7 +182,7 @@ function setAccent(a){
 function setTheme(t){
   if(THEMES.indexOf(t) < 0) return;
   THEME = t;
-  try{ localStorage.setItem("theme", t); }catch(e){}
+  STORE.setRaw("theme", t);
   applyTheme();
   toArr(document.querySelectorAll("#themeSeg button")).forEach(function(b){
     b.classList.toggle("on", b.getAttribute("data-th") === THEME);
@@ -144,7 +250,7 @@ function T(key){
 function setLang(lang){
   if(LANGS.indexOf(lang) < 0 || lang === LANG) return;
   LANG = lang;
-  try{ localStorage.setItem("lang", lang); }catch(e){}
+  STORE.setRaw("lang", lang);
   document.documentElement.setAttribute("lang", lang);
   applyStaticText();
   buildTOC();
@@ -162,6 +268,12 @@ function applyStaticText(){
   toArr(document.querySelectorAll("[data-t-aria]")).forEach(function(el){
     el.setAttribute("aria-label", T(el.getAttribute("data-t-aria")));
   });
+  /* 「最后更新 2026-08-26」—— 日期由构建注入，这里只套当前语言的说法 */
+  var upd = document.querySelector(".foot-updated");
+  if(upd){
+    if(!upd.getAttribute("data-date")) upd.setAttribute("data-date", upd.textContent.trim());
+    upd.textContent = T("footer.updated", upd.getAttribute("data-date"));
+  }
   document.getElementById("bannerTxt").innerHTML = T("banner.no_voice");
   document.getElementById("maskTxt").textContent = masked ? T("nav.mask_hidden") : T("nav.mask_shown");
   document.getElementById("brandZh").textContent = L(CONTENT.meta.app.tagline);
@@ -174,8 +286,47 @@ function applyStaticText(){
   toArr(document.querySelectorAll("#accentSeg .sw")).forEach(function(b){
     b.classList.toggle("on", b.getAttribute("data-ac") === ACCENT);
   });
+  if(typeof syncProgUI === "function") syncProgUI();
   if(typeof pickVoices === "function") pickVoices();
   if(typeof syncHeaderH === "function") syncHeaderH();
+}
+
+/* 「清除」按钮的待确认计时器。点第一下武装、三秒不理自己撤回，
+   声明放这里是因为 syncProgUI() 复位按钮时要一并撤掉它。 */
+var progArm = null;
+
+/* 设置面板最底下那格「学习记录」。切语言、清除之后都要重刷一次。 */
+function syncProgUI(){
+  var stat = document.getElementById("progStat");
+  if(!stat) return;
+  var btn = document.getElementById("progClear");
+  var hint = document.getElementById("progHint");
+  var c = progCount();
+  var txt;
+  if(!STORE.ok()) txt = T("prog.off");
+  else if(!c.all) txt = T("prog.none");
+  else if(c.w && c.q) txt = T("prog.count_both", c.w, c.q);
+  else if(c.w) txt = T("prog.count_w", c.w);
+  else txt = T("prog.count_q", c.q);
+  stat.textContent = txt;
+  if(btn){
+    /* 按钮外观要复位，那待确认状态也得一起撤 —— 否则切一次语言，
+       按钮看着是普通的「清除」，计时器却还武装着，下一下直接清空。 */
+    if(progArm){ clearTimeout(progArm); progArm = null; }
+    btn.disabled = !c.all;
+    btn.textContent = T("prog.clear");
+    btn.classList.remove("armed");
+  }
+  /* iOS 的 Safari 连着七天没打开就会把存储清掉，加到主屏幕的不会。
+     这句话只说给可能踩到的人听：iPhone + 还没加到主屏幕。 */
+  if(hint){
+    var iOS = /iP(hone|ad|od)/.test(navigator.userAgent || "");
+    var standalone = (window.navigator && window.navigator.standalone === true) ||
+      (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);
+    var show = STORE.ok() && iOS && !standalone;
+    hint.textContent = show ? T("prog.ios_hint") : "";
+    hint.style.display = show ? "" : "none";
+  }
 }
 
 /* 单元标签：教材是 Bab，旧课本是 Pelajaran。放在 meta 里。 */
@@ -189,6 +340,21 @@ var VOCAB = CONTENT.vocab;
 var SITUASI = CONTENT.drills.situasi;
 var TEMPAT = CONTENT.drills.tempat;
 var ANGKA_POOL = CONTENT.drills.angka_pool;
+/* Bab 2 起的语法题：跟前面几类不同，题目是手写的、每个错误选项都带
+   一句「为什么错」。题库为空时对应的题型按钮自动不出现（见 drAvail）。 */
+var POSESIF = CONTENT.drills.posesif || [];
+var TUNJUK = CONTENT.drills.tunjuk || [];
+/* 教室物品的简笔画。线描 SVG 跟着 currentColor 走，深浅色和五套配色都不用另画；
+   二十个图加起来 1.4KB，比一张照片的零头还小，也不违反离线约束。 */
+var ICONS = CONTENT.drills.icons || {};
+var BENDA = CONTENT.drills.benda || [];
+function svgIcon(w, cls){
+  var d = ICONS[w];
+  if(!d) return "";
+  return '<svg class="bd-ico ' + (cls || "") + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
+    'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' +
+    d + '"/></svg>';
+}
 
 /* ===== VOCAB: 所有学过的词 · 排序/筛选/搜索由引擎自动处理 =====
    条目格式 {w,zh,en,les,ex,exzh} —— 追加即可,顺序无所谓 */
@@ -262,12 +428,16 @@ function fmtRp(n){
 ============================================================ */
 var toArr = function(x){ return Array.prototype.slice.call(x); };
 var esc = function(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); };
-var clean = function(s){ return s.replace(/[?!.,:;"'’“”()／/]+/g," ").replace(/\s+/g," ").trim(); };
+/* clean / sayText 是所有印尼语文本进入点读和朗读管道的两个入口，
+   占位符替换放在这里做一次，比在几十个 renderBlock 分支里各包一层 LZ() 靠谱 ——
+   examples 块之前就是漏了那一层：日文界面下 data-say 里留着字面的
+   {NEGARA}，音库自然查不到。LZ() 遇到不含 { 的字符串直接返回，重复调用无害。 */
+var clean = function(s){ return LZ(s).replace(/[?!.,:;"'’“”()／/]+/g," ").replace(/\s+/g," ").trim(); };
 /* 整句/词条朗读:保留 ? ! . , —— 问号决定升调,剥掉会被读成陈述句。
    只去掉引号、括号、斜杠这些不该念出来的符号。
    注意:句内单词的逐词点读仍用 clean(),单个词不该带问号。 */
 var sayText = function(s){
-  return s.replace(/[\u201c\u201d\u2018\u2019"']/g, "")
+  return LZ(s).replace(/[\u201c\u201d\u2018\u2019"']/g, "")
           .replace(/[()（）／/]+/g, " ")
           .replace(/\s+/g, " ").trim();
 };
@@ -282,7 +452,9 @@ var PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true">' +
 function sayLine(text, kw){
   var k = [], i;
   if(kw) for(i=0;i<kw.length;i++) k.push(String(kw[i]).toLowerCase());
-  var toks = text.split(/(\s+)/), html = "";
+  /* 先解析占位符再切词：否则屏幕上会出现字面的 {NEGARA}，
+     而且它会被当成一个「词」，点上去查不到音频。 */
+  var toks = LZ(text).split(/(\s+)/), html = "";
   for(i=0;i<toks.length;i++){
     var t = toks[i];
     if(/^\s+$/.test(t)){ html += t; continue; }
@@ -300,7 +472,7 @@ function breakable(esced){
 }
 function sayWhole(display, say, extra){
   return '<span class="say ' + (extra||"") + '" data-say="' + esc(say!=null?say:clean(display)) + '">' +
-    breakable(esc(display)) + "</span>";
+    breakable(esc(LZ(display))) + "</span>";
 }
 /* 说明性文字（导语、小段说明、注释、表注）由内容作者写，允许少量 HTML：
    <b> <i> 用来强调，<s>词</s> 把印尼语标成可点读。其余按原样输出。 */
@@ -383,7 +555,10 @@ function renderBlock(b){
     case "rule": return '<hr class="rule' + (b.short?" short":"") + '">';
     case "mini": return '<div class="mini"><span>' + esc(L(b.text)) + "</span></div>";
     case "sec":
-      return '<div class="sec"><span class="num">' + esc(b.num) + '</span><span class="word">' +
+      /* num 为空就别画那个圈 —— Kosakata 的分组去掉序号之后（跟课本的
+         (1)(2)(3) 编号打架）会留下一个空心圆，看着像没加载出来。 */
+      return '<div class="sec">' + (b.num ? '<span class="num">' + esc(b.num) + "</span>" : "") +
+        '<span class="word">' +
         sayWhole(b.word, sayText(b.word)) + '</span><span class="en">' + secGloss(b) + "</span></div>";
     case "pattern":
       return '<div class="pattern"><span class="plab">Pola</span><code>' + b.code + "</code>" +
@@ -413,7 +588,9 @@ function renderBlock(b){
           sayLine(r.id, r.kw) + '</span><span class="gloss">' + esc(L(r.gloss)) + "</span></span></div>";
       }).join("");
     case "examples":
-      return (L(b.title) ? '<p class="psub" style="margin:.3em 0 6px;font-weight:700;color:var(--ink)">' + esc(L(b.title)) + "</p>" : "") +
+      /* 小标题上方留出跟 sec 一样的呼吸空间 —— 两组例句之间靠它分隔，
+         不再画横线（横线加上例句行自己的分隔，看起来就是两条并排的线）。 */
+      return (L(b.title) ? '<p class="psub extitle">' + esc(L(b.title)) + "</p>" : "") +
         b.items.map(function(r){
           return '<div class="row"><button class="play" data-say="' + esc(sayText(r.id)) +
             '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="line"><span class="idtext">' + sayLine(r.id, r.kw) +
@@ -470,8 +647,22 @@ function renderBlock(b){
     }
     case "table": {
       var head = '<tr>' + b.cols.map(function(c){ return "<th>" + esc(L(c)) + "</th>"; }).join("") + "</tr>";
-      var body = b.rows.map(function(row){
-        return "<tr>" + row.map(function(cell){ return "<td>" + tableCell(cell) + "</td>"; }).join("") + "</tr>";
+      /* 内容写成空串的格子，表示「跟上面那格是一个」—— 渲染成 rowspan 真合并。
+         横线没了、格子少了，手机上表格就窄一截。竖屏 375px 是硬指标：
+         宽表要左右拖着看，体验很差。 */
+      var skip = {};
+      var body = b.rows.map(function(row, ri){
+        return "<tr>" + row.map(function(cell, ci){
+          if(skip[ri + "," + ci]) return "";
+          var span = 1;
+          if(cell !== "" && cell != null){
+            for(var k = ri + 1; k < b.rows.length; k++){
+              if(b.rows[k][ci] !== "" && b.rows[k][ci] != null) break;
+              span++; skip[k + "," + ci] = 1;
+            }
+          }
+          return "<td" + (span > 1 ? ' rowspan="' + span + '"' : "") + ">" + tableCell(cell) + "</td>";
+        }).join("") + "</tr>";
       }).join("");
       return '<div class="tblwrap"><table class="tbl"><thead>' + head + "</thead><tbody>" + body + "</tbody></table>" +
         (L(b.note) ? '<p class="tbl-note">' + richText(b.note) + "</p>" : "") + "</div>";
@@ -513,6 +704,26 @@ var DRILL_INDEX = PAGES.length - 1;
 PAGES.push({glossary:true, idxInLesson:1, total:1});
 var GLOSS_INDEX = PAGES.length - 1;
 
+/* ============================================================
+   页面的稳定标识
+   ------------------------------------------------------------
+   记「上次读到哪」不能存数组下标 —— 加一课进来，同一个下标就
+   指向别的页了，用户会莫名其妙被扔到陌生的地方。存 "L1:3" 这种
+   跟内容绑定的标识，找不到就回第一页（加课、删页都不会出事）。
+   ============================================================ */
+function pageKey(p){
+  if(!p) return "";
+  if(p.review) return "review";
+  if(p.drill) return "drill";
+  if(p.glossary) return "gloss";
+  return "L" + p.num + ":" + p.idxInLesson;
+}
+function findPageByKey(k){
+  if(!k) return -1;
+  for(var i = 0; i < PAGES.length; i++) if(pageKey(PAGES[i]) === k) return i;
+  return -1;
+}
+
 /* 目录和页眉上的名字要跟着语言走，所以每次现算，不写死进 PAGES */
 function pageLesson(p){
   if(p.review) return T("page.review_name");
@@ -537,9 +748,11 @@ function glossCard(v){
   var zh = L(v.gloss), en = L2(v.gloss);
   /* 搜索索引：印尼语 + 三种释义全部进去，切语言也搜得到 */
   var q = esc((v.w + " " + zh + " " + (v.gloss.zh||"") + " " + (v.gloss.ja||"") + " " + (v.gloss.en||"")).toLowerCase());
+  var lv = progLevel(v.w);
+  var dot = lv ? '<i class="gdot l' + lv + '" title="' + esc(T("prog.dot_" + lv)) + '"></i>' : "";
   return '<div class="gentry card-tap" data-say="' + esc(sayText(v.w)) + '" data-les="' + v.les + '" data-q="' + q + '">' +
     '<div class="gtop"><span class="gword">' + sayWhole(v.w, sayText(v.w), "cardword") + '</span>' +
-    '<span class="gbadge">L' + v.les + "</span></div>" +
+    dot + '<span class="gbadge">L' + v.les + "</span></div>" +
     '<div class="ggloss"><span class="ans">' + esc(zh) + (en ? ' · <span class="en">' + esc(en) + "</span>" : "") + "</span></div>" +
     (v.ex ? '<div class="gex"><button class="play" data-say="' + esc(sayText(LZ(v.ex))) + '" title="' + esc(T("block.play_example")) + '">' + PLAY_SVG + '</button>' +
       '<span class="line"><span class="idtext">' + sayLine(LZ(v.ex)) + '</span><span class="gloss"><span class="ans">' +
@@ -627,10 +840,45 @@ function wireGlossary(){
    + 使用习惯;会话内错词按 Leitner 思路延后重出直到答对。
    防挫败:前 30% 只出认词题、连错自动降档、答错不惩罚。
 ============================================================ */
+/* ============================================================
+   答对之后自动翻页 —— 等这句读完再走
+   ------------------------------------------------------------
+   原来是写死的 setTimeout（复习 950ms、实战 1000ms），但整句答案
+   普遍要一秒半以上，于是话说到一半就翻页了。改成由播放完成回调
+   驱动：读完再停一小下翻页；音频卡住或压根没声音时有上限兜底。
+
+   seq 是防串号的：用户手动点了「继续」之后，在途的旧回调必须作废，
+   否则上一题的音频读完会把新题也翻过去。
+   ============================================================ */
+var AUTO_MIN_HOLD = 650;     /* 音频秒回时也留一眼看反馈的工夫 */
+var AUTO_MAX_HOLD = 8000;    /* 音频卡住不能一直挂着 */
+function autoAdvancer(next){
+  var seq = 0, guard = null, timer = null;
+  return {
+    run: function(text){
+      var my = ++seq, t0 = Date.now(), fired = false;
+      function fire(){
+        if(fired || my !== seq) return;
+        fired = true;
+        if(guard){ clearTimeout(guard); guard = null; }
+        var wait = Math.max(0, AUTO_MIN_HOLD - (Date.now() - t0));
+        timer = setTimeout(function(){ if(my === seq) next(); }, wait);
+      }
+      guard = setTimeout(fire, AUTO_MAX_HOLD);
+      speak(text, null, null, fire);
+    },
+    cancel: function(){
+      seq++;
+      if(guard){ clearTimeout(guard); guard = null; }
+      if(timer){ clearTimeout(timer); timer = null; }
+    }
+  };
+}
+
 var QZ = {phase:"setup", sel:{}, count:20, mode:"mix", plan:0,
   queue:[], idx:0, curQ:null, right:0, answered:0,
   wrongUniq:[], rep:{}, last5:[], revealed:false, pick:-1};
-var qzTimer = null;
+var qzAuto = autoAdvancer(function(){ qzNext(); });
 function pickOne(a){ return (a && a.length) ? a[Math.floor(Math.random()*a.length)] : ""; }
 (function(){
   var ls = D.map(function(l){ return l.num; }).sort(function(a,b){ return a-b; });
@@ -702,7 +950,22 @@ function qzShow(){
     QZ.curQ = makeQ(QZ.queue[QZ.idx]);
   }
   renderQuizPage();
+  qzSave();
   if(QZ.curQ && QZ.curQ.type === "l") speak(sayText(QZ.curQ.v.w));
+}
+/* 挑这一轮要考的词：上回错的排前面，其次没练过的，练熟的最后。
+   选完再打散一遍，免得错词全堆在开头显得像惩罚。
+   没有学习记录时（新用户、清过记录、浏览器不让存）自然退化成纯随机，
+   跟以前的行为一模一样。 */
+function quizPick(pool, n){
+  var RANK = {1: 0, 0: 1, 2: 2, 3: 3};       /* 还在错 → 没练过 → 答对过 → 练熟 */
+  var buckets = [[], [], [], []];
+  pool.forEach(function(v){ buckets[RANK[progLevel(v.w)]].push(v); });
+  var out = [];
+  for(var i = 0; i < buckets.length && out.length < n; i++){
+    out = out.concat(shuffleArr(buckets[i]).slice(0, n - out.length));
+  }
+  return shuffleArr(out);
 }
 function quizStart(fromWrong){
   var items;
@@ -710,7 +973,7 @@ function quizStart(fromWrong){
   else {
     var pool = quizPool();
     if(pool.length < 4) return;
-    items = shuffleArr(pool.slice()).slice(0, Math.min(QZ.count, pool.length));
+    items = quizPick(pool, Math.min(QZ.count, pool.length));
   }
   ttsWarm();
   QZ.queue = items; QZ.plan = items.length;
@@ -725,11 +988,11 @@ function quizAnswer(i){
   QZ.answered++;
   QZ.last5.push(ok ? 1 : 0);
   if(QZ.last5.length > 5) QZ.last5.shift();
+  progMark(v.w, ok);               /* 记一笔，下次出题按这个排序 */
   if(ok){
     QZ.right++;
-    speak(sayText(v.w));
     renderQuizPage();
-    qzTimer = setTimeout(qzNext, 950);
+    qzAuto.run(sayText(v.w));      /* 读完这个词再翻页 */
   } else {
     if(!QZ.rep[v.w]) QZ.rep[v.w] = 0;
     if(QZ.rep[v.w] < 2){        /* 最多重出两次,之后只进错词清单 */
@@ -740,11 +1003,62 @@ function quizAnswer(i){
     speak(sayText(v.w));
     renderQuizPage();
   }
+  qzSave();
 }
 function qzNext(){
-  if(qzTimer){ clearTimeout(qzTimer); qzTimer = null; }
+  qzAuto.cancel();
   QZ.idx++;
   qzShow();
+}
+
+/* ============================================================
+   练习进行到一半时的存档
+   ------------------------------------------------------------
+   手机浏览器内存吃紧会回收后台页面，切走再切回来就是一次重新加载 ——
+   而整轮练习本来只活在内存里，于是「做到一半突然跳回设置页，也没给结果」。
+   把会话状态存下来，重开接着做。
+
+   队列存的是词（复习）或整道题（实战）。实战的题是现生成的、纯数据，
+   直接存下来恢复后连选项顺序都一样；存不下（超大或写失败）就放弃存档，
+   顶多回到原来的行为，不会更糟。
+   ============================================================ */
+var SESS_MAX = 120000;         /* 存档上限，超了就不存 —— 别把配额吃光 */
+
+function qzSave(){
+  if(QZ.phase !== "q" || !QZ.queue.length){ STORE.del("quiz"); return; }
+  var s = {
+    v: 1, q: QZ.queue.map(function(v){ return v.w; }),
+    i: QZ.idx, r: QZ.right, a: QZ.answered, plan: QZ.plan,
+    w: QZ.wrongUniq.map(function(v){ return v.w; }),
+    rep: QZ.rep, l5: QZ.last5, c: QZ.count, m: QZ.mode, sel: QZ.sel
+  };
+  var str;
+  try{ str = JSON.stringify(s); }catch(e){ return; }
+  if(str.length > SESS_MAX) return;
+  STORE.setRaw("quiz", str);
+}
+function qzRestore(){
+  var s = STORE.get("quiz", null);
+  if(!s || s.v !== 1 || !s.q || !s.q.length) return false;
+  var byWord = {}, i;
+  for(i = 0; i < VOCAB.length; i++) byWord[VOCAB[i].w] = VOCAB[i];
+  var queue = [];
+  for(i = 0; i < s.q.length; i++){
+    var v = byWord[s.q[i]];
+    if(!v){ STORE.del("quiz"); return false; }   /* 词库变了就别硬恢复 */
+    queue.push(v);
+  }
+  QZ.queue = queue;
+  QZ.idx = Math.max(0, Math.min(s.i | 0, queue.length));
+  QZ.right = s.r | 0; QZ.answered = s.a | 0; QZ.plan = s.plan || queue.length;
+  QZ.wrongUniq = (s.w || []).map(function(w){ return byWord[w]; }).filter(Boolean);
+  QZ.rep = s.rep || {}; QZ.last5 = s.l5 || [];
+  if(s.c) QZ.count = s.c;
+  if(s.m) QZ.mode = s.m;
+  if(s.sel) QZ.sel = s.sel;
+  QZ.phase = "q"; QZ.revealed = false; QZ.pick = -1;
+  qzShow();                    /* 当前这道重新出一次题 —— 词一样，题型可能变 */
+  return true;
 }
 function quizAction(b){
   var act = b.getAttribute("data-qz");
@@ -766,7 +1080,7 @@ function quizAction(b){
   if(act === "say"){ if(QZ.curQ) speak(sayText(QZ.curQ.v.w)); return; }
   if(act === "redo"){ quizStart(true); return; }
   if(act === "again"){ quizStart(false); return; }
-  if(act === "cfg"){ QZ.phase = "setup"; renderQuizPage(); return; }
+  if(act === "cfg"){ QZ.phase = "setup"; STORE.del("quiz"); renderQuizPage(); return; }
 }
 function qzHead(sub){
   return '<div class="phead"><div class="eyebrow">' + esc(T("review.eyebrow")) + '</div>' +
@@ -837,6 +1151,11 @@ function renderQuizSetup(){
         esc(L(v.ex_gloss)) + "</span></div>" : "") +
       '<div class="fnote">' + esc(T("review.fnote")) + "</div>" +
       '<button class="qz-next" data-qz="cont">' + esc(T("review.cont")) + "</button></div>";
+  } else if(QZ.revealed){
+    /* 答对这一屏也必须有出口。原来只靠音频播完自动翻页，而 render()
+       会把在途回调作废 —— 答对后切个语言或点一下目录，这一轮就走不下去了。 */
+    fb = '<div class="qz-fb ok"><button class="qz-next alt" data-qz="cont">' +
+      esc(T("review.cont")) + "</button></div>";
   }
   var pct = Math.round(QZ.idx / QZ.queue.length * 100);
   return qzHead(T("review.progress", QZ.idx + 1, QZ.queue.length)) +
@@ -879,11 +1198,10 @@ function renderQuizPage(){
      dengar 听问句(不给文字)→ 选回答
    加课时只需往 SITUASI / TEMPAT 追加条目,引擎自动纳入。
 ============================================================ */
-var DR = {phase:"setup", types:{jam:true, angka:true, situasi:true, dengar:true},
+var DR = {phase:"setup", types:{jam:true, angka:true, situasi:true, dengar:true, posesif:true, tunjuk:true, benda:true},
   count:15, queue:[], idx:0, curQ:null, right:0, answered:0,
-  wrong:[], last5:[], revealed:false, pick:-1};
-var drTimer = null;
-
+  wrong:[], last5:[], revealed:false, pick:-1, lastId:null};
+var drAuto = autoAdvancer(function(){ drillNext(); });
 
 function drShuffle(a){
   for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; }
@@ -911,6 +1229,9 @@ function drAvail(t){
   if(t === "jam" || t === "angka") return ANGKA_POOL.length > 0;
   if(t === "situasi") return SITUASI.length > 0 || TEMPAT.length > 0;
   if(t === "dengar") return SITUASI.length > 0;
+  if(t === "posesif") return POSESIF.length > 0;
+  if(t === "tunjuk") return TUNJUK.length > 0;
+  if(t === "benda") return BENDA.length >= 4;      /* 不够 4 个凑不出选项 */
   return false;
 }
 
@@ -991,12 +1312,99 @@ function makeTempat(){
           a:it.a, opts:null, extra:extra};
 }
 
+/* ============================================================
+   语法题（Bab 2 起）—— 两种形态
+   ------------------------------------------------------------
+   pilih  四选一，但每个错误选项都预先写好一句「为什么错」。
+          课本最缺的就是这个：填错了没人告诉你错在哪。
+   susun  词块拼句。下面一排词块，点一下上屏、点已上屏的退回来。
+          用点按代替拖拽和打字 —— 拖拽在手机浏览器上坑多，
+          软键盘在老机器上又慢又抖，拼写判错对初学者也是白挫败。
+          词块池里放语序陷阱（saya buku、tasnya），
+          因为中文日文英文都是「谁的」在前，这个坑全班都会踩。
+
+   题目按 level 排：1 只要求看懂、2 给词块拼、3 词块更多干扰更像。
+   一轮里先出 level 1，连对了才放 level 2/3；连错自动退回 level 1。
+   ============================================================ */
+function latihPool(kind){ return kind === "tunjuk" ? TUNJUK : POSESIF; }
+
+/* 拼句判分要宽容一点：大小写、句末标点、多余空格都不该算错，
+   学习者点的是词块，这些差异不是他的问题。 */
+function susunNorm(s){
+  return String(s).toLowerCase().replace(/[.!?,]/g, "").replace(/\s+/g, " ").trim();
+}
+
+function makeLatih(kind){
+  var pool = latihPool(kind), i, sum = 0;
+  /* 连错降档：最近 5 题错 3 个以上，只出最容易的一档 */
+  for(i = 0; i < DR.last5.length; i++) sum += DR.last5[i];
+  var easyOnly = DR.last5.length >= 4 && sum <= DR.last5.length - 3;
+
+  var wrong = [], fresh = [], rest = [];
+  pool.forEach(function(x){
+    if(easyOnly && x.level !== 1) return;
+    var lv = progLevel("q:" + x.id);
+    (lv === 1 ? wrong : lv === 0 ? fresh : rest).push(x);
+  });
+  /* 错题优先，但要掷骰子决定 —— 不能让一两道错题把整轮占满。
+     （原来写成「有错题就只从错题里出」，结果答错一道之后连着二十题都是它。） */
+  var bag, r = Math.random();
+  if(wrong.length && r < 0.4) bag = wrong;
+  else if(fresh.length && r < 0.75) bag = fresh;
+  else bag = rest.length ? rest : (fresh.length ? fresh : wrong);
+  if(!bag || !bag.length) bag = pool.filter(function(x){ return !easyOnly || x.level === 1; });
+  if(!bag.length) bag = pool;
+  /* 也别连着出同一道 */
+  if(bag.length > 1 && DR.lastId){
+    var others = bag.filter(function(x){ return x.id !== DR.lastId; });
+    if(others.length) bag = others;
+  }
+  var it = drPick(bag);
+  DR.lastId = it.id;
+  var q = {type: kind, mode: it.mode, src: it, a: it.a,
+           show: L(it.ask), showLang: "learner", level: it.level};
+  if(it.mode === "susun"){
+    q.bank = drShuffle(it.bank.slice());
+    q.picked = [];
+    q.opts = null;
+  } else {
+    var order = drShuffle([0, 1, 2, 3]);
+    q.optObjs = order.map(function(k){ return it.opts[k]; });
+    q.opts = q.optObjs.map(function(o){ return o.t; });
+    q.ok = 0;
+    for(i = 0; i < q.optObjs.length; i++) if(q.optObjs[i].t === it.a) q.ok = i;
+  }
+  return q;
+}
+
+/* 看图认词。两个方向轮着来：图→选词（认形）和 词→选图（听音辨义）。
+   词条本身就是音频，点了会读；答对之后也读一遍。 */
+function makeBenda(){
+  var it = drPick(BENDA);
+  var others = BENDA.filter(function(x){ return x.w !== it.w; });
+  var ds = drShuffle(others).slice(0, 3);
+  var all = [it].concat(ds);
+  var order = drShuffle([0, 1, 2, 3]);
+  var picToWord = Math.random() < 0.6;      /* 看图选词稍多一点，它更容易 */
+  var q = {type: "benda", mode: picToWord ? "pic2word" : "word2pic",
+           a: it.w, item: it, showLang: "id",
+           optItems: order.map(function(k){ return all[k]; })};
+  q.opts = q.optItems.map(function(x){ return x.w; });
+  q.ok = 0;
+  for(var i = 0; i < q.optItems.length; i++) if(q.optItems[i].w === it.w) q.ok = i;
+  q.show = it.w;
+  return q;
+}
+
 function drChooseType(){
   var on = [];
   if(DR.types.jam && drAvail("jam")) on.push("jam");
   if(DR.types.angka && drAvail("angka")) on.push("angka");
   if(DR.types.situasi && drAvail("situasi")) on.push("situasi");
   if(DR.types.dengar && drAvail("dengar")) on.push("dengar");
+  if(DR.types.posesif && drAvail("posesif")) on.push("posesif");
+  if(DR.types.tunjuk && drAvail("tunjuk")) on.push("tunjuk");
+  if(DR.types.benda && drAvail("benda")) on.push("benda");
   if(!on.length) return "situasi";
   /* 连错降档:最近 5 题错 3 个以上,优先给看得见文字的题型 */
   var sum = 0;
@@ -1009,6 +1417,9 @@ function drChooseType(){
 }
 function drMake(){
   var t = drChooseType(), q;
+  /* 语法题是手写题库，选项和反馈都写死在数据里，不走下面的干扰项拼装 */
+  if(t === "posesif" || t === "tunjuk") return makeLatih(t);
+  if(t === "benda") return makeBenda();
   if(t === "jam") q = makeJam();
   else if(t === "angka") q = makeAngka();
   else if(t === "dengar") q = makeSituasi(true);
@@ -1035,43 +1446,130 @@ function drMake(){
 /* —— 流程 —— */
 function drShow(){
   if(DR.idx >= DR.queue.length){ DR.phase = "done"; DR.curQ = null; }
-  else { DR.phase = "q"; DR.revealed = false; DR.pick = -1; DR.curQ = DR.queue[DR.idx]; }
+  else {
+    DR.phase = "q"; DR.revealed = false; DR.pick = -1;
+    /* 出到哪一题才生成哪一题。原来是开局一次性把整轮都造好，
+       于是「连错降档」和「错题优先」永远看的是空的答题记录 ——
+       降档写了但从来没生效过。 */
+    if(!DR.queue[DR.idx]) DR.queue[DR.idx] = drMake();
+    DR.curQ = DR.queue[DR.idx];
+  }
   renderDrillPage();
+  drSave();
   if(DR.curQ && DR.curQ.type === "dengar") speak(DR.curQ.show);
 }
 function drillStart(fromWrong){
   ttsWarm();
-  var items = [];
   if(fromWrong && DR.wrong.length){
-    items = drShuffle(DR.wrong.slice());
+    DR.queue = drShuffle(DR.wrong.slice());
+    /* 重做错题时把作答状态清掉，否则拼句题会保留上次点的词块 */
+    DR.queue.forEach(function(q){ if(q.mode === "susun") q.picked = []; });
   } else {
-    for(var i=0;i<DR.count;i++) items.push(drMake());
+    DR.queue = [];
+    DR.queue.length = DR.count;         /* 占位，逐题现做 */
   }
-  DR.queue = items; DR.idx = 0; DR.right = 0; DR.answered = 0;
-  DR.wrong = []; DR.last5 = [];
+  DR.idx = 0; DR.right = 0; DR.answered = 0;
+  DR.wrong = []; DR.last5 = []; DR.lastId = null;
   drShow();
 }
-function drillAnswer(i){
-  if(DR.phase !== "q" || DR.revealed || !DR.curQ) return;
-  DR.pick = i; DR.revealed = true;
-  var q = DR.curQ, ok = (i === q.ok);
+/* 判完分之后共用的收尾：记进度、翻页或停下 */
+function drillSettle(q, ok){
+  /* 答完就存 —— 页面随时可能被系统回收 */
   DR.answered++;
   DR.last5.push(ok ? 1 : 0);
   if(DR.last5.length > 5) DR.last5.shift();
-  speak(q.a);
+  /* 手写的语法题按题号记（下次优先出错题）；看图认词记的是那个词本身，
+     这样词汇表上的墨点也会跟着动 —— 它练的就是那个词。 */
+  if(q.src && q.src.id) progMark("q:" + q.src.id, ok);
+  else if(q.type === "benda" && q.item) progMark(q.item.w, ok);
   if(ok){
     DR.right++;
     renderDrillPage();
-    drTimer = setTimeout(drillNext, 1000);
+    drAuto.run(q.a);            /* 整句答案读完再翻页 —— 这里最容易被掐掉 */
   } else {
     DR.wrong.push(q);
     renderDrillPage();
+    speak(q.a);                 /* 答错停在本页，读一遍正确说法 */
   }
+  drSave();
+}
+function drillAnswer(i){
+  if(DR.phase !== "q" || DR.revealed || !DR.curQ) return;
+  var q = DR.curQ;
+  if(q.mode === "susun") return;      /* 拼句题走 susunCheck，别从这里进来 */
+  DR.pick = i; DR.revealed = true;
+  drillSettle(q, i === q.ok);
+}
+/* 拼句：点词块上屏 / 点已上屏的退回 / 点检查判分 */
+/* 词块多、字号调大时「检查」会被挤到屏幕外，拼完了却找不到下一步。
+   每点一下词块就把它捞回视野 —— 只在它确实看不见时才滚，别没事乱动页面。 */
+function ensureCheckVisible(){
+  var b = document.querySelector(".sz-check");
+  if(!b) return;
+  var r = b.getBoundingClientRect();
+  if(r.bottom <= window.innerHeight - 4) return;
+  try{ b.scrollIntoView({block: "nearest"}); }
+  catch(e){ try{ b.scrollIntoView(false); }catch(e2){} }
+}
+function susunPick(bi){
+  var q = DR.curQ;
+  if(!q || q.mode !== "susun" || DR.revealed) return;
+  if(q.picked.indexOf(bi) >= 0) return;
+  q.picked.push(bi);
+  renderDrillPage();
+  ensureCheckVisible();
+}
+function susunUnpick(si){
+  var q = DR.curQ;
+  if(!q || q.mode !== "susun" || DR.revealed) return;
+  q.picked.splice(si, 1);
+  renderDrillPage();
+}
+function susunCheck(){
+  var q = DR.curQ;
+  if(!q || q.mode !== "susun" || DR.revealed || !q.picked.length) return;
+  var got = q.picked.map(function(bi){ return q.bank[bi]; }).join(" ");
+  var ok = susunNorm(got) === susunNorm(q.a);
+  DR.revealed = true;
+  DR.pick = ok ? 1 : 0;        /* 拼句没有选项索引，借这个字段标对错 */
+  drillSettle(q, ok);
 }
 function drillNext(){
-  if(drTimer){ clearTimeout(drTimer); drTimer = null; }
+  drAuto.cancel();
   DR.idx++;
   drShow();
+}
+
+/* 实战页的存档，道理同复习页（见 qzSave 上面那段注释）。
+   题目是现生成的纯数据，整道存下来，恢复后连选项顺序都一样。 */
+function drSave(){
+  if(DR.phase !== "q" || !DR.queue.length){ STORE.del("drill"); return; }
+  var s = {
+    v: 1, q: DR.queue.map(function(x){ return x || null; }),
+    i: DR.idx, r: DR.right, a: DR.answered, c: DR.count,
+    t: DR.types, l5: DR.last5, last: DR.lastId,
+    w: DR.wrong.map(function(x){ return DR.queue.indexOf(x); }).filter(function(n){ return n >= 0; })
+  };
+  var str;
+  try{ str = JSON.stringify(s); }catch(e){ return; }
+  if(str.length > SESS_MAX) return;
+  STORE.setRaw("drill", str);
+}
+function drRestore(){
+  var s = STORE.get("drill", null);
+  if(!s || s.v !== 1 || !s.q || !s.q.length) return false;
+  DR.queue = s.q.map(function(x){ return x || undefined; });
+  DR.idx = Math.max(0, Math.min(s.i | 0, DR.queue.length));
+  DR.right = s.r | 0; DR.answered = s.a | 0;
+  if(s.c) DR.count = s.c;
+  if(s.t) DR.types = s.t;
+  DR.last5 = s.l5 || []; DR.lastId = s.last || null;
+  DR.wrong = (s.w || []).map(function(n){ return DR.queue[n]; }).filter(Boolean);
+  DR.phase = "q"; DR.revealed = false; DR.pick = -1;
+  /* 拼句题把上次点了一半的词块清掉，从头拼 —— 半截状态恢复出来更让人困惑 */
+  DR.queue.forEach(function(q){ if(q && q.mode === "susun") q.picked = []; });
+  drShow();
+  return true;
 }
 function drillAction(b){
   var act = b.getAttribute("data-dr");
@@ -1079,12 +1577,15 @@ function drillAction(b){
   if(act === "cnt"){ DR.count = +b.getAttribute("data-v"); renderDrillPage(); return; }
   if(act === "start"){ drillStart(false); return; }
   if(act === "opt"){ drillAnswer(+b.getAttribute("data-i")); return; }
+  if(act === "pick"){ susunPick(+b.getAttribute("data-i")); return; }
+  if(act === "unpick"){ susunUnpick(+b.getAttribute("data-i")); return; }
+  if(act === "check"){ susunCheck(); return; }
   if(act === "cont"){ drillNext(); return; }
   if(act === "say"){ if(DR.curQ) speak(DR.curQ.show); return; }
   if(act === "sayans"){ if(DR.curQ) speak(DR.curQ.a); return; }
   if(act === "redo"){ drillStart(true); return; }
   if(act === "again"){ drillStart(false); return; }
-  if(act === "cfg"){ DR.phase = "setup"; renderDrillPage(); return; }
+  if(act === "cfg"){ DR.phase = "setup"; STORE.del("drill"); renderDrillPage(); return; }
 }
 
 /* —— 三个视图 —— */
@@ -1093,7 +1594,9 @@ function drHead(sub){
     '<div class="ptitle-row"><h1 class="ptitle">' + esc(T("drill.h1")) + "</h1></div>" +
     '<div class="ptitle-sub">' + sub + "</div></div>";
 }function renderDrillSetup(){
-  var TL = [["jam","drill.type_jam"],["angka","drill.type_angka"],["situasi","drill.type_situasi"],["dengar","drill.type_dengar"]]
+  var TL = [["jam","drill.type_jam"],["angka","drill.type_angka"],["situasi","drill.type_situasi"],
+            ["dengar","drill.type_dengar"],["benda","drill.type_benda"],
+            ["posesif","drill.type_posesif"],["tunjuk","drill.type_tunjuk"]]
     .filter(function(t){ return drAvail(t[0]); });
   var chips = TL.map(function(t){
     return '<button class="chip' + (DR.types[t[0]] ? " on" : "") + '" data-dr="type" data-v="' + t[0] + '">' + esc(T(t[1])) + "</button>";
@@ -1111,9 +1614,38 @@ function drHead(sub){
     '<div class="qz-secttl">' + esc(T("drill.sec_count")) + '</div><div class="qz-chips">' + cnts + "</div>" +
     '<div class="note green" style="margin-top:22px"><span class="tag">' + esc(T("drill.note_tag")) + "</span><p>" +
     T("drill.note_body") + "</p></div>" + btn;
-}function renderDrillQ(){
+}/* 词块拼句的那一屏。上面是答案区（点一下退回），下面是词块池。
+   全程点按，不用拖拽、不弹键盘。 */
+function renderSusun(q){
+  var picked = q.picked || [];
+  var slot = picked.length
+    ? picked.map(function(bi, si){
+        /* 判完分之后槽位也要禁掉。原来只禁了下面的词块池，
+           判分后这一排看着还能点、点了没反应。 */
+        return '<button class="sz-tok" data-dr="unpick" data-i="' + si + '"' +
+          (DR.revealed ? " disabled" : "") + ">" + esc(q.bank[bi]) + "</button>";
+      }).join("")
+    : '<span class="sz-empty">' + esc(T("drill.susun_hint")) + "</span>";
+  var bank = q.bank.map(function(w, bi){
+    var used = picked.indexOf(bi) >= 0;
+    return '<button class="sz-tok bank' + (used ? " used" : "") + '" data-dr="pick" data-i="' + bi + '"' +
+      (used || DR.revealed ? " disabled" : "") + ">" + esc(w) + "</button>";
+  }).join("");
+  /* 「检查」放在一条粘在底部的操作条里：词块多、字号大的时候它本来会落到
+     屏幕外，学习者拼完了找不到下一步。操作条有实色底和一条细线，
+     不会像裸按钮那样浮在词块上面挡住字。 */
+  var check = DR.revealed ? "" :
+    '<div class="sz-actions"><button class="qz-next sz-check" data-dr="check"' +
+    (picked.length ? "" : " disabled") + ">" + esc(T("drill.check")) + "</button></div>";
+  return '<div class="sz-slot' + (DR.revealed ? (DR.pick === 1 ? " good" : " bad") : "") + '">' + slot + "</div>" +
+    '<div class="sz-bank">' + bank + "</div>" + check;
+}
+
+function renderDrillQ(){
   var q = DR.curQ;
-  var LABEL = {jam:"drill.label_jam", angka:"drill.label_angka", situasi:"drill.label_situasi", dengar:"drill.label_dengar"};
+  var LABEL = {jam:"drill.label_jam", angka:"drill.label_angka", situasi:"drill.label_situasi",
+               dengar:"drill.label_dengar", posesif:"drill.label_posesif", tunjuk:"drill.label_tunjuk",
+               benda:"drill.label_benda"};
   var head;
   if(q.type === "jam" || q.type === "angka"){
     head = '<div class="dr-big">' + esc(q.show) + "</div>" +
@@ -1121,38 +1653,79 @@ function drHead(sub){
   } else if(q.type === "dengar"){
     head = '<div class="qz-prompt"><button class="qz-audio" data-dr="say">' + esc(T("drill.replay")) + "</button></div>" +
            '<div class="dr-cue">' + esc(drCue(q)) + "</div>";
+  } else if(q.type === "benda"){
+    /* 不加「这是什么？」那种提示 —— 一张图配四个词，本来就不用解释，
+       多一个带底色的框只是抢注意力。 */
+    head = (q.mode === "pic2word")
+      ? '<div class="bd-big">' + svgIcon(q.item.w, "lg") + "</div>"
+      : '<div class="qz-prompt">' + sayWhole(q.item.w, sayText(q.item.w)) + "</div>";
+  } else if(q.src){
+    /* 语法题：题面本身就是用学习者语言写的一句话，允许 <b> 强调 */
+    head = '<div class="dr-q lat">' + richText(q.src.ask) + "</div>";
   } else {
     head = '<div class="dr-q">' + esc(q.show) + "</div>" +
            '<div class="dr-cue">' + esc(drCue(q)) + "</div>";
   }
-  var opts = q.opts.map(function(o, i){
+  /* 拼句题没有选项列表，走词块那一套 */
+  var isSusun = q.mode === "susun";
+  var correct = isSusun ? (DR.pick === 1) : (DR.pick === q.ok);
+  var opts = isSusun ? renderSusun(q) : q.opts.map(function(o, i){
     var cls = "qz-opt";
     if(DR.revealed){
       if(i === q.ok) cls += " good";
       else if(i === DR.pick) cls += " bad";
       else cls += " dim";
     }
+    /* 看词选图那一档，选项本身是图 */
+    if(q.type === "benda" && q.mode === "word2pic"){
+      return '<button class="' + cls + ' pic" data-dr="opt" data-i="' + i + '">' +
+        svgIcon(q.optItems[i].w) + "</button>";
+    }
     return '<button class="' + cls + '" data-dr="opt" data-i="' + i + '">' + esc(o) + "</button>";
   }).join("");
-  var toast = (DR.revealed && DR.pick === q.ok)
+  var toast = (DR.revealed && correct)
     ? '<span class="qz-toast">✓ ' + esc(pickOne(T("drill.toasts"))) + "</span>" : "";
   var fb = "";
-  if(DR.revealed && DR.pick !== q.ok){
-    var why = (q.type === "jam" && q.a.indexOf("setengah") === 0) ? T("drill.why_jam")
-            : (q.type === "angka") ? T("drill.why_angka")
-            : T("drill.why_other");
-    fb = '<div class="qz-fb"><div class="fw">' + esc(q.a) + "</div>" +
-      '<div class="fg">' + esc(q.showLang === "id" ? q.show : drCue(q)) + "</div>" +
+  if(DR.revealed && !correct){
+    var why;
+    if(q.src){
+      /* 手写题：先给「你选的这个为什么错」，再给这一条的规则。
+         课本填错了没人告诉你错在哪 —— 这一段就是补那个缺口。 */
+      var mine = (!isSusun && q.optObjs && q.optObjs[DR.pick]) ? q.optObjs[DR.pick].why : null;
+      why = (mine ? '<span class="fw-why">' + L(mine) + "</span>" : "") +
+            (q.src.note ? (mine ? "<br>" : "") + L(q.src.note) : "");
+    } else if(q.type === "benda"){
+      /* 认错了就把两个词摆在一起对照 —— 错的那个也是真词，顺手一起认了 */
+      var mineItem = q.optItems && q.optItems[DR.pick];
+      why = mineItem ? T("drill.why_benda", mineItem.w, L(mineItem.gloss), q.item.w, L(q.item.gloss))
+                     : T("drill.why_other");
+    } else {
+      why = (q.type === "jam" && q.a.indexOf("setengah") === 0) ? T("drill.why_jam")
+          : (q.type === "angka") ? T("drill.why_angka")
+          : T("drill.why_other");
+    }
+    fb = '<div class="qz-fb">' + (q.type === "benda" ? '<div class="fw-pic">' + svgIcon(q.item.w) + "</div>" : "") +
+      '<div class="fw">' + esc(q.a) + "</div>" +
+      '<div class="fg">' + esc(q.type === "benda" ? L(q.item.gloss)
+        : q.src ? L(q.src.ask).replace(/<[^>]+>/g, "") : (q.showLang === "id" ? q.show : drCue(q))) + "</div>" +
       '<button class="pr-btn" data-dr="sayans" style="margin-top:8px">' + esc(T("drill.say_answer")) + "</button>" +
       '<div class="fnote">' + why + "</div>" +
       '<button class="qz-next" data-dr="cont">' + esc(T("review.cont")) + "</button></div>";
+  } else if(DR.revealed){
+    /* 答对：给一句规则（趁刚答对把「为什么对」钉一下），并且**一定要给「继续」**。
+       原来这一屏全靠音频播完自动翻页，可 render() 会把在途回调作废 ——
+       答对之后切个语言、点一下目录，这一轮就再也走不下去，只能刷新页面
+       （装成 APK 连刷新都没有）。自动翻页现在只是省一下手，不是唯一出路。 */
+    fb = '<div class="qz-fb ok">' +
+      (q.src && q.src.note ? '<div class="fnote">' + L(q.src.note) + "</div>" : "") +
+      '<button class="qz-next alt" data-dr="cont">' + esc(T("review.cont")) + "</button></div>";
   }
   var pct = Math.round(DR.idx / DR.queue.length * 100);
   return drHead(T("drill.progress", DR.idx + 1, DR.queue.length)) +
     '<div class="qz-top"><span class="qz-type">' + esc(T(LABEL[q.type])) + '</span><span class="qz-count">✓ ' +
     DR.right + " · ✗ " + (DR.answered - DR.right) + toast + "</span></div>" +
     '<div class="qz-bar"><i style="width:' + pct + '%"></i></div>' +
-    head + '<div class="qz-opts">' + opts + "</div>" + fb;
+    head + (isSusun ? opts : '<div class="qz-opts">' + opts + "</div>") + fb;
 }function renderDrillDone(){
   var pct = DR.answered ? Math.round(DR.right / DR.answered * 100) : 0;
   var line = pct >= 90 ? T("drill.praise_hi") : pct >= 70 ? T("drill.praise_mid") : T("drill.praise_lo");
@@ -1203,11 +1776,12 @@ function buildTOC(){
 function render(){
   var p = PAGES[cur];
   CURMETA = p;
+  if(restoreTimer){ clearTimeout(restoreTimer); restoreTimer = null; }
   if(gFillTimer){ clearTimeout(gFillTimer); gFillTimer = null; }
   stopListen();
   stopSeq();
-  if(qzTimer){ clearTimeout(qzTimer); qzTimer = null; }
-  if(drTimer){ clearTimeout(drTimer); drTimer = null; }
+  qzAuto.cancel();
+  drAuto.cancel();
   sheet.innerHTML = p.drill ? renderDrill()
                   : p.review ? renderQuiz()
                   : (p.glossary ? renderGlossary() : p.blocks.map(renderBlock).join(""));
@@ -1231,6 +1805,38 @@ function render(){
 function go(i){
   cur = Math.max(0, Math.min(PAGES.length-1, i));
   render();
+  savePos();
+}
+
+/* ===== 上次读到哪 =====
+   翻页存页标识，滚动存纵向位置（节流 400ms，别每帧都写）。
+   复原时只认得出的页才跳，认不出就老老实实从第一页开始。 */
+var posTimer = null, restoreTimer = null;
+function savePos(){
+  var p = PAGES[cur];
+  if(!p) return;
+  STORE.set("pos", {k: pageKey(p), y: Math.round(reader ? reader.scrollTop : 0)});
+}
+function savePosSoon(){
+  if(posTimer) return;
+  posTimer = setTimeout(function(){ posTimer = null; savePos(); }, 400);
+}
+function restorePos(){
+  var pos = STORE.get("pos", null);
+  if(!pos || !pos.k) return false;
+  var i = findPageByKey(pos.k);
+  if(i < 0) return false;
+  cur = i;
+  render();
+  /* 滚动位置要等这一页的内容真正铺开、高度定下来之后再设。
+     句柄存着让 render() 能取消，回调里再核一次页标识 —— 否则这 60ms 里
+     翻了页，就会把上一页的偏移量甩到新页上，还被 savePosSoon 写回存储。 */
+  if(pos.y > 0) restoreTimer = setTimeout(function(){
+    restoreTimer = null;
+    if(pageKey(PAGES[cur]) !== pos.k) return;
+    try{ reader.scrollTop = pos.y; lastScrollY = pos.y; }catch(e){}
+  }, 60);
+  return true;
 }
 
 /* ===== speech ===== */
@@ -1426,33 +2032,64 @@ function playBundled(hash, rate, el, onDone, text){
      blob 取不到只是这一条的问题（缓存被回收之类），不该把整库judge成没有。 */
   a.onerror = function(){
     if(!isBlob) AUDIO_AVAILABLE = false;
-    finish();
-    if(text) ttsOnly(text, el, rate);
+    /* 这一条退回系统语音，onDone 交给 TTS 收尾 —— 在这里就放行的话，
+       练习页会在朗读刚起头时翻到下一题。
+       ⚠️ 兜底要放在 fired 判断前面：play() 的 promise 先被拒时（iOS 的自动播放
+       限制）finish 已经把 fired 置了 true，写在后面的话这一条就彻底静音，
+       而这正是「音频还没铺全」时唯一的保险丝。 */
+    if(text && SS){
+      var cb = fired ? null : onDone;
+      fired = true;
+      ttsOnly(text, el, rate, cb);
+      return;
+    }
+    if(fired) return;
+    fired = true;
+    if(el){ el.classList.remove("speaking"); if(speaking === el) speaking = null; }
+    if(onDone) onDone();
   };
   var p = a.play();
   if(p && p["catch"]) p["catch"](finish);
 }
-function speak(text, el, r){
-  if(!text) return;
-  if(AUDIO_AVAILABLE && BUNDLE_READY && BUNDLE_MAP && BUNDLE_MAP[text]){
-    playBundled(BUNDLE_MAP[text], r, el, null, text);
-    return;
-  }
-  ttsOnly(text, el, r);
+/* onDone：这一条读完（或读失败）后回调一次，最多一次。
+   练习页靠它决定什么时候翻下一题 —— 以前是死等 950ms，
+   句子长一点就会被掐掉半截。 */
+/* 音库查表。句首的词首字母是大写的（「Baju kamu bagus.」里的 Baju），
+   而词条本身是小写 —— 同一个词没必要合成两份，查不到就回退试一次小写。
+   印尼语里大小写不改变读音，回退是安全的。 */
+function audioHash(text){
+  if(!BUNDLE_MAP) return null;
+  if(BUNDLE_MAP[text]) return BUNDLE_MAP[text];
+  var lo = text.charAt(0).toLowerCase() + text.slice(1);
+  if(lo !== text && BUNDLE_MAP[lo]) return BUNDLE_MAP[lo];
+  return null;
+}
+function speak(text, el, r, onDone){
+  if(!text){ if(onDone) onDone(); return; }
+  var h = (AUDIO_AVAILABLE && BUNDLE_READY) ? audioHash(text) : null;
+  if(h){ playBundled(h, r, el, onDone, text); return; }
+  ttsOnly(text, el, r, onDone);
 }
 /* 只走系统语音（Web Speech / Android 原生桥接），不碰内置音库 */
-function ttsOnly(text, el, r){
-  if(!text || !SS) return;
+function ttsOnly(text, el, r, onDone){
+  if(!text || !SS){ if(onDone) onDone(); return; }
   stopSeq();
   var u = mkUtter(text, r);
+  var fired = false;
+  function finish(){
+    if(fired) return;
+    fired = true;
+    if(el){
+      el.classList.remove("speaking");
+      if(speaking === el) speaking = null;
+    }
+    if(onDone) onDone();
+  }
   if(el){
     speaking = el;
     el.classList.add("speaking");
-    u.onend = u.onerror = function(){
-      el.classList.remove("speaking");
-      if(speaking === el) speaking = null;
-    };
   }
+  u.onend = u.onerror = finish;
   ttsSpeak(u);
 }
 function speakSeq(parts, gap, el){
@@ -1721,6 +2358,7 @@ function tuckHeader(){
 }
 reader.addEventListener("scroll", function(){
   var y = reader.scrollTop;
+  savePosSoon();                      /* 节流后写，滚动本身不受影响 */
   var d = y - lastScrollY;
   if(Math.abs(d) < HDR_DELTA) return;
   lastScrollY = y;
@@ -1738,6 +2376,26 @@ function on(id, ev, fn){
   if(el) el.addEventListener(ev, fn);
   return el;
 }
+/* 清除学习记录：点两下才真清 —— 不弹系统对话框（样式不受控、也太吓人），
+   第一下把按钮文字换成「确定清除？」，三秒不理就自己撤回（progArm 见上方声明）。 */
+on("progClear", "click", function(){
+  var btn = this;
+  if(!progCount().all) return;
+  if(progArm){
+    clearTimeout(progArm); progArm = null;
+    progClear();
+    syncProgUI();
+    render();                       /* 词汇表上的墨点要立刻消失 */
+    return;
+  }
+  btn.textContent = T("prog.clear_ask");
+  btn.classList.add("armed");
+  progArm = setTimeout(function(){
+    progArm = null;
+    btn.textContent = T("prog.clear");
+    btn.classList.remove("armed");
+  }, 3000);
+});
 on("glossBtn", "click", function(){ go(GLOSS_INDEX); });
 on("quizBtn", "click", function(){ go(REVIEW_INDEX); });
 on("drillBtn", "click", function(){ go(DRILL_INDEX); });
@@ -1786,7 +2444,12 @@ document.addEventListener("keydown", function(e){
   else if(e.key === "r" || e.key === "R") go(REVIEW_INDEX);
   else if(e.key === "t" || e.key === "T") go(DRILL_INDEX);
   else if(PAGES[cur].review && QZ.phase === "q" && !QZ.revealed && /^[1-4]$/.test(e.key)) quizAnswer(+e.key - 1);
-  else if(PAGES[cur].drill && DR.phase === "q" && !DR.revealed && /^[1-4]$/.test(e.key)) drillAnswer(+e.key - 1);
+  /* 拼句题没有选项索引，数字键对它没有意义 —— 尤其按「2」会让 DR.pick 变成 1，
+     而拼句正是拿 pick===1 表示「拼对了」，于是画面说答对、计分算答错。回车当「检查」。 */
+  else if(PAGES[cur].drill && DR.phase === "q" && !DR.revealed && DR.curQ &&
+          DR.curQ.mode === "susun" && (e.key === "Enter" || e.key === " ")) susunCheck();
+  else if(PAGES[cur].drill && DR.phase === "q" && !DR.revealed && DR.curQ &&
+          DR.curQ.mode !== "susun" && /^[1-4]$/.test(e.key)) drillAnswer(+e.key - 1);
 });
 
 /* ===== 移动端目录抽屉 ===== */
@@ -1826,8 +2489,30 @@ on("accentSeg", "click", function(e){
 applyStaticText();
 buildTOC();
 setZoom(2);
-render();
+/* 回到上次读到的那一页；没有记录（或那一页已经不存在）就从头开始 */
+if(!restorePos()) render();
+/* 那一页上如果有做了一半的练习，接着做 —— 手机浏览器回收页面之后
+   重新加载，整轮进度本来会凭空消失。 */
+(function(){
+  var p = PAGES[cur];
+  if(!p) return;
+  if(p.review) qzRestore();
+  else if(p.drill) drRestore();
+})();
 syncHeaderH();
 window.addEventListener("resize", syncHeaderH);
+/* 切到后台／关页面前补存一次，节流没来得及写的那 400ms 不至于丢 */
+function flushState(){
+  savePos();
+  /* 练习记录是攒 600ms 再写的，答完最后一题就锁屏的话那一笔会丢 */
+  if(progTimer){ clearTimeout(progTimer); progTimer = null; STORE.set("prog", PROG); }
+  /* 切后台正是页面被回收的高发时刻，把两个练习的进度也落一次盘 */
+  if(typeof qzSave === "function") qzSave();
+  if(typeof drSave === "function") drSave();
+}
+document.addEventListener("visibilitychange", function(){
+  if(document.visibilityState === "hidden") flushState();
+});
+window.addEventListener("pagehide", flushState);
 /* 字号会改变按钮行高，语言切换会换文案长度 —— 都要重量一次 */
 window.addEventListener("orientationchange", function(){ setTimeout(syncHeaderH, 250); });
