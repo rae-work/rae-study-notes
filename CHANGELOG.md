@@ -6,10 +6,11 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ## 1.3.0 — 2026-08-27
 
-**Chapter 3 — letters, numbers and introducing yourself**
+**Chapter 1 grows to twenty pages**
 
-From the first meeting of the speaking class (*Kelas Berbicara*, Pertemuan 1)
-with Mbak Novi. Eleven pages, 78 new words:
+The first meeting of the speaking class (*Kelas Berbicara*, Pertemuan 1) with
+Mbak Novi covers the same ground as Bab 1, so it has been folded into Bab 1
+rather than added as a separate chapter. Ten new pages, 78 new words:
 
 - **The alphabet.** The handout gives the *sound* each letter makes inside a
   word. What it never gives is the *name* of the letter — which is what you
@@ -25,12 +26,17 @@ with Mbak Novi. Eleven pages, 78 new words:
 - **Numbers 0 to 99.** Units, teens and tens, then how they combine, plus the
   se- rule behind sepuluh, sebelas, seratus and seribu. Phone numbers get their
   own card, because zero is read *kosong* there and *nol* everywhere else
-- **Introducing yourself.** The five slots — name, where you are from, age, job,
-  hobby — each with example sentences, plus word sets for jobs and hobbies and a
-  full introduction to copy
+- **Answering Apa kabar?** What people actually say, rather than the textbook
+  answer
+- **Introducing yourself, slot by slot.** Name, where you are from, age, job,
+  hobby — each with example sentences, plus word sets for jobs and hobbies
 - **Introducing someone else.** The same five slots with *dia* and *-nya*
 - **Practice and the interview.** Gap-fills and the five interview questions,
   ready before you have to ask them in class
+
+The pages are interleaved with the existing ones rather than tacked on the end:
+letters and sounds come first, numbers sit before you need them to say your age,
+and the practice pages follow the model texts.
 
 **Number practice in Latihan**
 
@@ -44,8 +50,7 @@ with Mbak Novi. Eleven pages, 78 new words:
 - *Angka Belasan* is glossed there as "Dozen Numbers". Belasan means the teens,
   11 to 19; a dozen is *selusin*
 - *Silahkan* is written as *Silakan* in standard spelling
-- Where the handout answers **Apa kabar?** with *Saya baik*, the chapter notes
-  what people actually say
+- The consonant table is missing **sy** and **kh**
 
 ## 1.2.0 — 2026-08-27
 
