@@ -7,6 +7,11 @@
 
 **当前状态：v1.1.0 已上线（2026-08-26）。第一课 + 第二课，音频 100%。**
 
+> 🚧 **v1.2.0 在 `telemetry` 分支上，还没上线。** 网站版加了匿名使用情况收集
+> （见下面「使用情况收集」一节）。**还差两步**：① Rae 部署 `worker/`；
+> ② 把地址填进 `scripts/site.js` 的 `COLLECT`。在那之前 `npm run site`
+> 生成的网站跟以前一模一样，什么都不发。
+
 > ⚠️ **App 已经上线，全班同学在用。任何改动未经 Rae 明确同意不得合并进 `main`** ——
 > push main 会立刻重新发布 belajar.rae.work，等于直接改所有人正在用的版本。
 > 改动一律在分支上做，本地预览给她看，她说「可以上线」才合。
@@ -48,6 +53,58 @@
 没做完的事在文末「待办 / 待确认」。
 
 ---
+
+## 使用情况收集（v1.2.0 加的，只在网站版）
+
+同学在用了，需要知道大家卡在哪。**只有 `docs/` 那一份带收集代码**；
+`dist/` 单文件和 APK 里一个字节都没有，离线约束因此完全没被触到。
+
+**三层结构**
+
+| | |
+| --- | --- |
+| `src/engine.js` 顶部 `TRK()` | 只负责「报告刚才发生了什么」。外面没人接管时空转，最多攒 40 条 |
+| `src/site-telemetry.js` | 收集脚本。**只由 `scripts/site.js` 内联进 `docs/`**，接管 `window.__RSN_TRACK` 并把开机那几条领走 |
+| `worker/` | Cloudflare Worker + D1。收数据 + 带口令的统计页。部署见 `worker/README.md` |
+
+**为什么这么分层**：引擎是三个产物共用的，收集代码写进去就会跟着进 APK；
+而 `assertOffline()` 见到外部地址会直接让构建失败。所以引擎里只留一个
+空转的出口，真正联网的部分只在网站那一份里出现。
+
+**记了些什么**：`open`（版本 / 界面语言 / 主题 / 配色）、`page` + `dwell`
+（哪一页、多久、读到多深、怎么翻过去的）、`quiz.a` / `drill.a`（词或题号、
+对错、**答错时选的那个干扰项**、拼句题**实际拼出来的句子**、用时）、
+`quiz.done` / `quit` / `resume`、`say`（主动点读的词句）、`listen`、`set`、
+`prog.clear`、`err`（页面报错）、`say.miss` / `say.fail`（音频缺失或取不到）。
+设备侧另存浏览器语言、系统 / 浏览器、屏幕、时区、国家、是否加了主屏幕。
+
+**这一轮踩过的坑**
+
+- **SQL 别名不能跟真实列名撞车。** `ev` 表有 `d`（事件 JSON）和 `id`（主键）
+  两列；统计查询里写 `... AS d ... GROUP BY d` 会绑到**表的列**上，
+  于是「每天」被按事件内容拆成几十行；`GROUP BY id` 更糟 —— 每行自成一组，
+  `HAVING COUNT(*)>=3` 把「最难的实战题」永远筛成空表，看起来像没数据。
+  现在别名改成 `day` / `qid`，并统一用 `GROUP BY 1,3` 这种序号写法。
+- **可见区尺寸要留「最后一次量到的有效值」。** 脚本刚跑起来时页面还没排版、
+  `pagehide` 时布局已经在拆，两头都会量到 0 —— 而这两个时刻恰好就是要
+  发数据的时刻。现在 `sampleVP()` 在 load / resize / 发送前各量一次，只收非零值。
+- **一轮练习「做完了」必须挂在状态切换那一刻**（`qzShow` / `drShow` 里
+  `phase` 从 `q` 变 `done` 的那一次），不能挂在结果页的渲染函数上 ——
+  结果页每点一下都重渲染，那样一轮会报出好几次。
+- **翻页不能挂 `render()`。** 切语言和清除学习记录也会重渲染，
+  会凭空多出一堆「翻页」。挂 `go()` 和 `pageKey` 的变化。
+- **拼句拼错时拼成了什么，只活在 `susunCheck` 的局部变量里**，
+  `drillSettle` 拿不到 —— 给它加了个可选的第三个参数专门传这个。
+  这条恰恰是最能看出卡在哪的数据。
+- **键盘答题绕过点击派发器。** 埋点要挂在 `quizAnswer` / `drillAnswer` /
+  `susunCheck` 这些函数上，挂在 `quizAction` / `drillAction` 上会漏掉键盘用户。
+- **收集脚本里绝不能出现字面量 `</script>`** —— 内联时会把页面就地截断。
+  `site.js` 会检查一遍。
+- **占位符要写成字符串字面量**（`"__ENDPOINT__"` 而不是 `{{ENDPOINT}}`）——
+  校验第 6 关会对 `src/` 下每个 `.js` 跑 `node --check`，模板语法过不去。
+
+**试用数据是分开的**：`npm run site -- --tag test` 生成的那一份数据带 `test`
+标记，统计页默认不显示。自己在手机上翻来翻去的时候用它，别混进正式统计。
 
 ## 这个 App 是什么
 
@@ -152,7 +209,8 @@ git add -A && git commit -m "更新网站" && git push
 npm run validate         # 九道关（--quick 跳 7–9 关，--allow-todo 三语降级为警告）
 npm run build            # → dist/rae-study-notes.html
 npm run preview          # 本地 + 局域网地址，手机能开
-npm run site             # → docs/（网站：HTML + 音频 + CNAME + 统计）
+npm run site             # → docs/（网站：HTML + 音频 + CNAME + 统计 + 使用情况收集）
+npm run site -- --tag test   # 同上，但数据标成「试用」，统计页默认不显示
 npm run prepare-assets   # → 安卓 assets（云端工作流也跑它）
 npm run tts              # 增量合成语音（--dry 只报计划，--limit N 试音，--yes 跳过确认）
 npm run apk              # 打包安卓（要 Rae 先确认过网页版）
@@ -166,7 +224,8 @@ npm run apk              # 打包安卓（要 Rae 先确认过网页版）
 | 目录 | 是什么 | 进仓库？ |
 | --- | --- | --- |
 | `content/` | 唯一内容来源：课程 / 词汇 / 题库 / 界面文案 / 配置 | ✅ |
-| `src/` | `template.html` + `app.css` + `engine.js` | ✅ |
+| `src/` | `template.html` + `app.css` + `engine.js` + `site-telemetry.js`（**只进 `docs/`**） | ✅ |
+| `worker/` | 收使用情况数据的 Cloudflare Worker + D1 表结构 + 统计页 | ✅（除登录凭证） |
 | `scripts/` | 校验 / 构建 / 网站 / 语音 / 预览 / 打包 | ✅ |
 | `audio/` | 语音库（按朗读文本哈希命名，只增不减的缓存） | ✅ |
 | `docs/` | **网站产物**，Pages 从这里发布 | ✅ **但不许手改** |

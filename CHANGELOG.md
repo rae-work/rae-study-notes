@@ -4,6 +4,26 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.2.0 — 2026-08-27
+
+**Anonymous usage stats on the website**
+
+- The website version now records how the app is actually used, so lessons and
+  drills can be improved based on where people get stuck rather than guesswork:
+  which pages get read, how long they're read for, which words and questions get
+  answered wrong, which wrong option was picked, and which words get tapped for
+  audio again and again
+- It also reports page errors and missing audio automatically, so problems get
+  noticed without anyone having to report them
+- No cookies, no names, no email addresses, no IP addresses. A random number
+  stored on your device is used only to tell devices apart. The footer says the
+  same thing in all three languages
+- **The offline single file and the Android app collect nothing at all** — not a
+  single byte leaves them. The collecting code is only ever added to the website
+  build
+- If anything about this fails — no network, an ad blocker, private browsing —
+  the app carries on exactly as before
+
 ## 1.1.0 — 2026-08-26
 
 **Remembers your progress**

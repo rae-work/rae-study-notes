@@ -184,7 +184,7 @@
     "license": "代码以 MIT 许可发布。课程内容整理自上述教材，著作权归原作者所有，本站仅供个人学习使用。",
     "author": "编写：Rae · 开发协助：Claude Code",
     "feedback": "问题反馈与功能建议请提交至 GitHub Issues。",
-    "privacy": "本站使用 Cloudflare Web Analytics 统计访问量，不使用 cookie，不收集个人信息。"
+    "privacy": "本站记录匿名的使用情况用于改进内容：读了哪些页、练习的对错、设备与浏览器语言。不使用 cookie，不收集姓名、邮箱或 IP 地址；本机只存一个随机编号，用来区分设备。"
   },
   "prog": {
     "label": "学习记录",

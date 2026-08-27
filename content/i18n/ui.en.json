@@ -184,7 +184,7 @@
     "license": "The source code is released under the MIT licence. Lesson content is adapted from the textbook above and remains the copyright of its original authors; it is provided here for personal study only.",
     "author": "Written by Rae · Developed with Claude Code",
     "feedback": "Please report issues and feature requests via GitHub Issues.",
-    "privacy": "This site uses Cloudflare Web Analytics to count visits. It sets no cookies and collects no personal data."
+    "privacy": "This site records anonymous usage — which pages you read, practice answers, device and browser language — to improve the content. It sets no cookies and collects no names, email addresses or IP addresses; a random number kept on your device is used only to tell devices apart."
   },
   "prog": {
     "label": "Progress",

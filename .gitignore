@@ -42,6 +42,14 @@ legacy/
 # tts.js 的 mp3 中间产物（m4a 才是要提交的）
 audio/.mp3/
 
+# Worker（使用情况收集）的本地产物。
+# 源码 worker/src/、schema.sql、wrangler.toml 要提交；
+# 登录凭证和部署缓存不要。看统计的口令在 Cloudflare 的 Secret 里，
+# 本机和仓库都没有。
+worker/node_modules/
+worker/.wrangler/
+worker/ENDPOINT.txt
+
 # 安卓 assets 是构建产物：index.html 和音频都从 content/ + audio/ 现生成
 # （云端工作流自己跑 scripts/prepare-assets.js，不需要提交进仓库）
 android-app/app/src/main/assets/

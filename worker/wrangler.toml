@@ -1,0 +1,21 @@
+# Cloudflare Worker：收使用情况数据 + 出统计页
+#
+# 部署步骤见 README.md。database_id 由 setup.sh 自动填进来，
+# 它不是密钥（拿到也访问不了，要账号权限），可以提交进仓库。
+#
+# 口令存在 Secret VIEW_KEY 里，**不在这个文件里**。
+
+name = "catatan"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# 名字故意不带 analytics / track / beacon 这类词 ——
+# 广告拦截名单按这些特征拦，撞上就整批数据收不到。
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rsn-data"
+database_id = "PUT_DATABASE_ID_HERE"
+
+[observability]
+enabled = true
