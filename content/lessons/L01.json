@@ -1,11 +1,11 @@
 {
  "num": 1,
- "source": "INCULS · Titian Bahasa Pemula 1 · Bab 1 Perkenalan（课本第 1–10 页）",
+ "source": "INCULS · Titian Bahasa Pemula 1 · Bab 1 Perkenalan（课本第 1–10 页）+ Kelas Berbicara · Pertemuan 1（Mbak Novi，2026-08-27 讲义）",
  "reg_default": "formal",
  "name": {
-  "zh": "自我介绍",
-  "ja": "自己紹介",
-  "en": "Introductions"
+  "zh": "自我介绍 · 字母与数字",
+  "ja": "自己紹介 · 文字と数字",
+  "en": "Introductions, letters and numbers"
  },
  "pages": [
   [
@@ -21,9 +21,9 @@
    {
     "k": "lead",
     "text": {
-     "zh": "第一课：怎么打招呼、怎么问对方是谁、从哪来、住在哪、学什么。教材是 UGM INCULS 的《Titian Bahasa Pemula 1》，用的是<b>正式体</b>（saya / Anda），这是课堂和对老师说话的语体。点任意印尼语词或 ▶ 都能听发音。",
-     "ja": "第 1 課：あいさつの仕方、相手の名前・出身・住んでいるところ・専攻の尋ね方。教科書は UGM INCULS の『Titian Bahasa Pemula 1』で、<b>フォーマルな言い方</b>（saya / Anda）を使います。教室や、先生に話すときに使う言い方です。インドネシア語の単語や ▶ をタップすると発音が聞けます。",
-     "en": "Lesson one: how to greet someone, and how to ask who they are, where they are from, where they live and what they study. The book is UGM INCULS's «Titian Bahasa Pemula 1», and it uses the <b>formal</b> register (saya / Anda) — the one for the classroom and for speaking to a teacher. Tap any Indonesian word or ▶ to hear it."
+     "zh": "第一课：怎么打招呼、怎么问对方是谁、从哪来、多大、做什么、有什么爱好。教材是 UGM INCULS 的《Titian Bahasa Pemula 1》，另外并进了口语课（Kelas Berbicara）第一次课的讲义 —— <b>字母怎么念</b>、<b>数字怎么念</b>这两块就是从那里来的，课本没细讲，却天天要用。全课用<b>正式体</b>（saya / Anda），这是课堂和对老师说话的语体。点任意印尼语词或 ▶ 都能听发音。",
+     "ja": "第 1 課：あいさつの仕方、相手の名前・出身・年齢・職業・趣味の尋ね方。教科書は UGM INCULS の『Titian Bahasa Pemula 1』で、これに会話クラス（Kelas Berbicara）第 1 回のプリントを合わせています —— <b>アルファベットの読み方</b>と<b>数字の読み方</b>はそこから来ています。教科書ではあまり扱われないのに毎日使う二つです。全体を通して<b>フォーマルな言い方</b>（saya / Anda）を使います。教室や、先生に話すときの言い方です。インドネシア語の単語や ▶ をタップすると発音が聞けます。",
+     "en": "Lesson one: how to greet someone, and how to ask their name, where they are from, how old they are, what they do and what they enjoy. The book is UGM INCULS's «Titian Bahasa Pemula 1», combined here with the handout from the first meeting of the speaking class (Kelas Berbicara) — that is where <b>what the letters are called</b> and <b>how numbers are read</b> come from, two things the book skims over although you need them every day. Throughout, the register is <b>formal</b> (saya / Anda), the one for the classroom and for speaking to a teacher. Tap any Indonesian word or ▶ to hear it."
     }
    },
    {
@@ -51,6 +51,27 @@
      },
      {
       "text": {
+       "zh": "<b>字母</b>　26 个字母的<b>名字</b>怎么念 —— 拼名字、听老师拼写生词时都要用。",
+       "ja": "<b>アルファベット</b>　26 文字の<b>名前</b>の言い方。名前をつづるとき、先生のつづりを聞き取るときに必要です。",
+       "en": "<b>Letters</b> What the 26 letters are called — you need this to spell your name and to follow a teacher spelling a word."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>发音</b>　元音和辅音里最容易念错的那几个。",
+       "ja": "<b>発音</b>　母音・子音のうち、まちがえやすいものを重点的に。",
+       "en": "<b>Sounds</b> The vowels and consonants that most often go wrong."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>数字</b>　0 到 99 怎么念，以及 se- 这条规则。",
+       "ja": "<b>数字</b>　0 から 99 までの読み方と、se- のきまり。",
+       "en": "<b>Numbers</b> How to read 0 to 99, and the se- rule behind them."
+      }
+     },
+     {
+      "text": {
        "zh": "<b>词汇</b>　问候、初次见面、告别、称呼；疑问词 <s>apa</s>、<s>siapa</s>、<s>dari mana</s>、<s>di mana</s>、<s>apakah</s>。",
        "ja": "<b>語彙</b>　あいさつ、初対面、別れ、呼びかけ。疑問詞 <s>apa</s>・<s>siapa</s>・<s>dari mana</s>・<s>di mana</s>・<s>apakah</s>。",
        "en": "<b>Vocabulary</b> Greetings, meeting, parting, and forms of address; the question words <s>apa</s>, <s>siapa</s>, <s>dari mana</s>, <s>di mana</s>, <s>apakah</s>."
@@ -68,6 +89,868 @@
        "zh": "<b>说 · 写</b>　用简单句子介绍自己和别人（写 10–15 个词）。",
        "ja": "<b>話す・書く</b>　簡単な文で自分と他の人を紹介する（書くのは 10〜15 語）。",
        "en": "<b>Speaking & writing</b> Describe yourself and someone else in simple sentences (10–15 words in writing)."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "怎么用这一课",
+     "ja": "この課の使い方",
+     "en": "How to use this chapter"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "字母页和数字页的每个格子都能点，点一下就读一遍，跟着念。",
+       "ja": "アルファベットと数字のページはマスをタップすると音が出ます。まねして言ってみてください。",
+       "en": "Every tile on the letters page and the numbers pages is tappable — tap it, then say it back."
+      }
+     },
+     {
+      "text": {
+       "zh": "课本和讲义都有几处笔误，App 里已经改好；改了什么会在对应的地方说明。",
+       "ja": "教科書にもプリントにもいくつか誤りがあります。アプリでは直してあり、どこをどう直したかはその場で説明します。",
+       "en": "Both the book and the handout contain a few slips. They are corrected here, and each correction is explained where it belongs."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Abjad",
+    "sub": {
+     "zh": "字母表 · 26 个字母的名字",
+     "ja": "アルファベット · 26 文字の名前",
+     "en": "The alphabet · what the 26 letters are called"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "讲义第 3 节列的是<b>字母的音</b>（在单词里怎么发），这里先补上<b>字母的名字</b>（单独念这个字母时怎么叫）。报名字、报房号、听老师拼写生词，用的都是名字。点格子听。",
+     "ja": "プリントの第 3 節にあるのは<b>字母の音</b>（単語の中での発音）です。ここではまず<b>文字の名前</b>（その文字を単独で言うときの呼び方）を補います。名前をつづる、部屋番号を言う、先生のつづりを聞き取る —— 使うのはすべて名前のほうです。マスをタップすると音が出ます。",
+     "en": "Section 3 of the handout gives the <b>sounds</b> the letters make inside words. What it leaves out is the <b>names</b> of the letters — what you say when you name one on its own. Spelling your name, giving a room number, following a teacher spelling a word: all of those use the names. Tap a tile to hear it."
+    }
+   },
+   {
+    "k": "alpha",
+    "items": [
+     [
+      "Aa",
+      "a"
+     ],
+     [
+      "Bb",
+      "be"
+     ],
+     [
+      "Cc",
+      "ce"
+     ],
+     [
+      "Dd",
+      "de"
+     ],
+     [
+      "Ee",
+      "e"
+     ],
+     [
+      "Ff",
+      "ef"
+     ],
+     [
+      "Gg",
+      "ge"
+     ],
+     [
+      "Hh",
+      "ha"
+     ],
+     [
+      "Ii",
+      "i"
+     ],
+     [
+      "Jj",
+      "je"
+     ],
+     [
+      "Kk",
+      "ka"
+     ],
+     [
+      "Ll",
+      "el"
+     ],
+     [
+      "Mm",
+      "em"
+     ],
+     [
+      "Nn",
+      "en"
+     ],
+     [
+      "Oo",
+      "o"
+     ],
+     [
+      "Pp",
+      "pe"
+     ],
+     [
+      "Qq",
+      "ki"
+     ],
+     [
+      "Rr",
+      "er"
+     ],
+     [
+      "Ss",
+      "es"
+     ],
+     [
+      "Tt",
+      "te"
+     ],
+     [
+      "Uu",
+      "u"
+     ],
+     [
+      "Vv",
+      "ve"
+     ],
+     [
+      "Ww",
+      "we"
+     ],
+     [
+      "Xx",
+      "eks"
+     ],
+     [
+      "Yy",
+      "ye"
+     ],
+     [
+      "Zz",
+      "zet"
+     ]
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "拼给别人听",
+     "ja": "つづって伝える",
+     "en": "Spelling out loud"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "拼名字就是把字母名一个一个念出来。<b>ILFAT</b> 拼作 <s>i</s> · <s>el</s> · <s>ef</s> · <s>a</s> · <s>te</s>。",
+       "ja": "名前をつづるとは、文字の名前を一つずつ言うことです。<b>ILFAT</b> なら <s>i</s> · <s>el</s> · <s>ef</s> · <s>a</s> · <s>te</s>。",
+       "en": "Spelling a name means saying the letter names one by one. <b>ILFAT</b> is <s>i</s> · <s>el</s> · <s>ef</s> · <s>a</s> · <s>te</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "只有五个字母的名字和它的音完全一样：<b>a i u e o</b>。其余都是「辅音 + e」（be、ce、de）或者「e + 辅音」（ef、el、em）。",
+       "ja": "名前と音がまったく同じなのは五つだけ —— <b>a i u e o</b>。ほかは「子音 + e」（be・ce・de）か「e + 子音」（ef・el・em）の形です。",
+       "en": "Only five letters are called exactly what they sound like: <b>a i u e o</b>. The rest are either “consonant + e” (be, ce, de) or “e + consonant” (ef, el, em)."
+      }
+     },
+     {
+      "text": {
+       "zh": "四个容易念错的：<b>Q</b> 念 <s>ki</s>（不是英语的「kyu」）、<b>V</b> 念 <s>ve</s>（听起来像「fe」）、<b>X</b> 念 <s>eks</s>、<b>Z</b> 念 <s>zet</s>。",
+       "ja": "まちがえやすい四つ —— <b>Q</b> は <s>ki</s>（英語の「キュー」ではありません）、<b>V</b> は <s>ve</s>（「フェ」に聞こえます）、<b>X</b> は <s>eks</s>、<b>Z</b> は <s>zet</s>。",
+       "en": "Four that trip people up: <b>Q</b> is <s>ki</s> (not English “kyu”), <b>V</b> is <s>ve</s> (it sounds like “fe”), <b>X</b> is <s>eks</s> and <b>Z</b> is <s>zet</s>."
+      }
+     }
+    ]
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "课上会听到的",
+     "ja": "教室で聞くことば",
+     "en": "You will hear these in class"
+    },
+    "items": [
+     {
+      "id": "Tolong eja nama Anda.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "请把您的名字拼一下。",
+       "ja": "お名前をつづってください。",
+       "en": "Please spell your name."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "eja"
+      ]
+     },
+     {
+      "id": "Nama saya Ilfat.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我叫 Ilfat。",
+       "ja": "わたしの名前は Ilfat です。",
+       "en": "My name is Ilfat."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "nama"
+      ]
+     },
+     {
+      "id": "Huruf apa ini?",
+      "reg": "neutral",
+      "alt": null,
+      "gloss": {
+       "zh": "这是什么字母？",
+       "ja": "これは何の文字ですか。",
+       "en": "What letter is this?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "huruf"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "讲义补充",
+     "ja": "プリントの補足",
+     "en": "Filling a gap in the handout"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "讲义的表只给了「音」，没给字母名 —— 上面这一格补上了。两套都要会：拼写用名字，读单词用音。",
+       "ja": "プリントの表には「音」だけで文字の名前がありません。上のマスがその補いです。つづるときは名前、単語を読むときは音、と使い分けます。",
+       "en": "The handout's table gives only the sounds, never the names — the grid above supplies them. You need both: names for spelling, sounds for reading words."
+      }
+     },
+     {
+      "text": {
+       "zh": "辅音表还漏了两个组合：<b>sy</b>（<s>syarat</s>、<s>masyarakat</s>）和 <b>kh</b>（<s>khusus</s>、<s>akhir</s>）。下一页有。",
+       "ja": "子音の表にはさらに二つの組み合わせが抜けています —— <b>sy</b>（<s>syarat</s>・<s>masyarakat</s>）と <b>kh</b>（<s>khusus</s>・<s>akhir</s>）。次のページで扱います。",
+       "en": "The consonant table also omits two digraphs: <b>sy</b> (<s>syarat</s>, <s>masyarakat</s>) and <b>kh</b> (<s>khusus</s>, <s>akhir</s>). They are on the next page."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Bunyi Vokal",
+    "sub": {
+     "zh": "元音 · a i u e o",
+     "ja": "母音 · a i u e o",
+     "en": "Vowels · a i u e o"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "印尼语只有五个元音字母，读音固定，比英语好办得多 —— 唯一的例外是 <b>e</b>，它有两个读音，写出来却一模一样。",
+     "ja": "インドネシア語の母音字は五つだけで、読み方も一定です。英語よりずっと楽ですが、<b>e</b> だけは例外 —— 音が二つあるのに、書き方は同じです。",
+     "en": "Indonesian has just five vowel letters and each has a fixed value — far easier than English. The one exception is <b>e</b>: two different sounds, written identically."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "字母",
+      "ja": "文字",
+      "en": "Letter"
+     },
+     {
+      "zh": "怎么读",
+      "ja": "読み方",
+      "en": "How it sounds"
+     },
+     {
+      "zh": "例词",
+      "ja": "例語",
+      "en": "Example"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "text": {
+        "zh": "a",
+        "ja": "a",
+        "en": "a"
+       }
+      },
+      {
+       "text": {
+        "zh": "像「啊」，嘴张开",
+        "ja": "「ア」に近い。口を開いて",
+        "en": "like “ah”, mouth open"
+       }
+      },
+      {
+       "id": "apa",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "i",
+        "ja": "i",
+        "en": "i"
+       }
+      },
+      {
+       "text": {
+        "zh": "像「衣」",
+        "ja": "「イ」に近い",
+        "en": "like “ee”"
+       }
+      },
+      {
+       "id": "ini",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "u",
+        "ja": "u",
+        "en": "u"
+       }
+      },
+      {
+       "text": {
+        "zh": "像「乌」",
+        "ja": "「ウ」に近い（唇を丸めて）",
+        "en": "like “oo”"
+       }
+      },
+      {
+       "id": "susu",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "e",
+        "ja": "e",
+        "en": "e"
+       }
+      },
+      {
+       "text": {
+        "zh": "两个音，见下面",
+        "ja": "音が二つ。下の説明を",
+        "en": "two sounds — see below"
+       }
+      },
+      {
+       "id": "meja",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "o",
+        "ja": "o",
+        "en": "o"
+       }
+      },
+      {
+       "text": {
+        "zh": "像「哦」",
+        "ja": "「オ」に近い",
+        "en": "like “oh”"
+       }
+      },
+      {
+       "id": "bola",
+       "reg": "neutral"
+      }
+     ]
+    ],
+    "note": {
+     "zh": "这五个音不像英语那样随拼写变来变去：写什么就念什么，念长念短都一样。",
+     "ja": "英語のようにつづりで音が変わることはありません。書いてあるとおりに読めば大丈夫です。",
+     "en": "Unlike English, the value never shifts with spelling: read what is written and you are right."
+    }
+   },
+   {
+    "k": "vocab",
+    "items": [
+     {
+      "w": "apa",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "什么",
+       "ja": "何",
+       "en": "what"
+      }
+     },
+     {
+      "w": "mata",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "眼睛",
+       "ja": "目",
+       "en": "eye"
+      }
+     },
+     {
+      "w": "ini",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "这个",
+       "ja": "これ",
+       "en": "this"
+      }
+     },
+     {
+      "w": "kopi",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "咖啡",
+       "ja": "コーヒー",
+       "en": "coffee"
+      }
+     },
+     {
+      "w": "susu",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "牛奶",
+       "ja": "牛乳",
+       "en": "milk"
+      }
+     },
+     {
+      "w": "buku",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "书",
+       "ja": "本",
+       "en": "book"
+      }
+     },
+     {
+      "w": "emas",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "金子",
+       "ja": "金",
+       "en": "gold"
+      }
+     },
+     {
+      "w": "meja",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "桌子",
+       "ja": "つくえ",
+       "en": "table"
+      }
+     },
+     {
+      "w": "bola",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "球",
+       "ja": "ボール",
+       "en": "ball"
+      }
+     },
+     {
+      "w": "roti",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "面包",
+       "ja": "パン",
+       "en": "bread"
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "e 的两个读音",
+     "ja": "e の二つの音",
+     "en": "The two e's"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "轻轻带过的 /ə/（像轻声的「呃」）：<s>emas</s>、<s>enam</s>、<s>selamat</s>、<s>sepuluh</s>、<s>belas</s>。张开一点的 /e/：<s>meja</s>、<s>sore</s>、<s>bebek</s>、<s>nenek</s>。",
+       "ja": "あいまいに軽く出す /ə/：<s>emas</s>・<s>enam</s>・<s>selamat</s>・<s>sepuluh</s>・<s>belas</s>。口を少し開ける /e/：<s>meja</s>・<s>sore</s>・<s>bebek</s>・<s>nenek</s>。",
+       "en": "The light, swallowed /ə/: <s>emas</s>, <s>enam</s>, <s>selamat</s>, <s>sepuluh</s>, <s>belas</s>. The open /e/: <s>meja</s>, <s>sore</s>, <s>bebek</s>, <s>nenek</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "有一条很好用的线索：<b>se- be- me- ke- te- pe-</b> 这些前缀里的 e 一律读 /ə/。所以 <s>sepuluh</s>、<s>sebelas</s>、<s>berumur</s>、<s>membaca</s> 开头那个 e 都是轻的。",
+       "ja": "便利な手がかりが一つ。<b>se- be- me- ke- te- pe-</b> という接頭辞の e はすべて /ə/ です。<s>sepuluh</s>・<s>sebelas</s>・<s>berumur</s>・<s>membaca</s> の最初の e はどれも軽い音になります。",
+       "en": "One reliable clue: the e in the prefixes <b>se- be- me- ke- te- pe-</b> is always /ə/. So the first e of <s>sepuluh</s>, <s>sebelas</s>, <s>berumur</s> and <s>membaca</s> is the light one."
+      }
+     },
+     {
+      "text": {
+       "zh": "词典和课本都不标这个区别，只能一个词一个词记。听不准就点一下卡片再跟读一遍。",
+       "ja": "辞書も教科書もこの区別を表記しません。語ごとに覚えるしかないので、迷ったらカードをタップして声に出してみてください。",
+       "en": "Neither dictionaries nor the coursebook mark the difference, so it has to be learnt word by word. When in doubt, tap the card and say it back."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "讲义没提的双元音",
+     "ja": "プリントにない二重母音",
+     "en": "Diphthongs the handout skips"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "两个元音挨在一起时连成一个音：<b>ai</b> 如 <s>pantai</s>（海滩）、<b>au</b> 如 <s>kalau</s>（如果）和 <s>atau</s>（或者）。",
+       "ja": "母音が二つ続くと一つの音になります。<b>ai</b> は <s>pantai</s>（浜辺）、<b>au</b> は <s>kalau</s>（もし）や <s>atau</s>（または）。",
+       "en": "Two vowels together can fuse into one sound: <b>ai</b> in <s>pantai</s> (beach), <b>au</b> in <s>kalau</s> (if) and <s>atau</s> (or)."
+      }
+     },
+     {
+      "text": {
+       "zh": "但分属两个音节时要分开念：<s>air</s>（水）是 a-ir 两个音节，不是「ai」。",
+       "ja": "ただし音節が分かれる場合は続けません。<s>air</s>（水）は a-ir の二音節で、「アイ」ではありません。",
+       "en": "But when they belong to separate syllables they stay apart: <s>air</s> (water) is a-ir, two syllables, not “ai”."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Bunyi Konsonan",
+    "sub": {
+     "zh": "辅音 · 最容易念错的几个",
+     "ja": "子音 · まちがえやすいもの",
+     "en": "Consonants · the ones that go wrong"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "大部分辅音和拼音、罗马字差不多，照着写的念就行。真正要练的是下面这几个 —— 母语里要么没有，要么长得像但不是一回事。",
+     "ja": "子音の多くはピンインやローマ字と大きく変わらず、書いてあるとおりに読めます。練習が要るのは次のいくつか —— 母語にない音か、似ているようで別の音です。",
+     "en": "Most consonants behave much as they look, so read them as written. The ones worth drilling are below — either your first language has no such sound, or it has one that merely looks similar."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "字母",
+      "ja": "文字",
+      "en": "Letter"
+     },
+     {
+      "zh": "怎么读",
+      "ja": "読み方",
+      "en": "How it sounds"
+     },
+     {
+      "zh": "例词",
+      "ja": "例語",
+      "en": "Example"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "text": {
+        "zh": "c",
+        "ja": "c",
+        "en": "c"
+       }
+      },
+      {
+       "text": {
+        "zh": "像「吃」的声母 /tʃ/",
+        "ja": "「チ」の子音 /tʃ/",
+        "en": "English “ch” /tʃ/"
+       }
+      },
+      {
+       "id": "cuci",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "j",
+        "ja": "j",
+        "en": "j"
+       }
+      },
+      {
+       "text": {
+        "zh": "像英语 jam 的 j /dʒ/",
+        "ja": "英語 jam の j /dʒ/",
+        "en": "English “j” /dʒ/"
+       }
+      },
+      {
+       "id": "jalan",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "ny",
+        "ja": "ny",
+        "en": "ny"
+       }
+      },
+      {
+       "text": {
+        "zh": "像「捏」的开头 /ɲ/",
+        "ja": "「ニャ」の子音 /ɲ/",
+        "en": "like “ny” in canyon /ɲ/"
+       }
+      },
+      {
+       "id": "nyamuk",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "ng",
+        "ja": "ng",
+        "en": "ng"
+       }
+      },
+      {
+       "text": {
+        "zh": "像英语 sing 的结尾 /ŋ/",
+        "ja": "英語 sing の語尾 /ŋ/",
+        "en": "like “ng” in sing /ŋ/"
+       }
+      },
+      {
+       "id": "tangan",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "r",
+        "ja": "r",
+        "en": "r"
+       }
+      },
+      {
+       "text": {
+        "zh": "舌尖弹一下（大舌音）",
+        "ja": "舌先を軽く弾く巻き舌",
+        "en": "a tapped or trilled r"
+       }
+      },
+      {
+       "id": "rumah",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "sy",
+        "ja": "sy",
+        "en": "sy"
+       }
+      },
+      {
+       "text": {
+        "zh": "像英语 she /ʃ/",
+        "ja": "英語 she の sh /ʃ/",
+        "en": "like “sh” in she /ʃ/"
+       }
+      },
+      {
+       "id": "syarat",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "kh",
+        "ja": "kh",
+        "en": "kh"
+       }
+      },
+      {
+       "text": {
+        "zh": "喉咙里摩擦 /x/",
+        "ja": "のどの奥でこすらせる /x/",
+        "en": "a rasping /x/ at the back of the throat"
+       }
+      },
+      {
+       "id": "khusus",
+       "reg": "neutral"
+      }
+     ]
+    ],
+    "note": {
+     "zh": "<b>sy</b> 和 <b>kh</b> 是讲义漏掉的两个，多见于阿拉伯语借词。",
+     "ja": "<b>sy</b> と <b>kh</b> はプリントにない二つ。アラビア語からの借用語によく出ます。",
+     "en": "<b>sy</b> and <b>kh</b> are the two the handout leaves out; both come mostly from Arabic loanwords."
+    }
+   },
+   {
+    "k": "syll",
+    "items": [
+     {
+      "w": "cuci",
+      "s": "cu-ci",
+      "gloss": {
+       "zh": "洗",
+       "ja": "洗う",
+       "en": "to wash"
+      }
+     },
+     {
+      "w": "nyamuk",
+      "s": "nya-muk",
+      "gloss": {
+       "zh": "蚊子",
+       "ja": "蚊",
+       "en": "mosquito"
+      }
+     },
+     {
+      "w": "tangan",
+      "s": "ta-ngan",
+      "gloss": {
+       "zh": "手",
+       "ja": "手",
+       "en": "hand"
+      }
+     },
+     {
+      "w": "rumah",
+      "s": "ru-mah",
+      "gloss": {
+       "zh": "房子",
+       "ja": "家",
+       "en": "house"
+      }
+     },
+     {
+      "w": "jalan",
+      "s": "ja-lan",
+      "gloss": {
+       "zh": "路 · 走",
+       "ja": "道 · 歩く",
+       "en": "road; to walk"
+      }
+     },
+     {
+      "w": "khusus",
+      "s": "khu-sus",
+      "gloss": {
+       "zh": "特别的",
+       "ja": "特別な",
+       "en": "special"
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "母语干扰",
+     "ja": "母語にひきずられやすい点",
+     "en": "Where your first language gets in the way"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<b>c</b> 是最常错的一个：<s>cuci</s> 读成「chu-chi」，既不是拼音的「cu-ci」，也不是日语的「tsu-tsi」。",
+       "ja": "いちばんまちがえやすいのが <b>c</b>。<s>cuci</s> は「チュチ」で、ローマ字読みの「ツツ」ではありません。",
+       "en": "<b>c</b> is the classic slip: <s>cuci</s> is “choo-chee”, not “tsoo-tsee” and not a hard “k”."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>r</b> 要弹舌，<s>rumah</s> 的 r 舌尖轻轻打一下；不弹也听得懂，但一听就知道不是本地人。",
+       "ja": "<b>r</b> は巻き舌ぎみに。<s>rumah</s> の r は舌先を軽く一度弾きます。弾かなくても通じますが、すぐに外国人だとわかります。",
+       "en": "<b>r</b> wants a tap: flick the tongue tip once in <s>rumah</s>. Skipping it is still understandable, but instantly marks you as a foreigner."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>ng</b> 在印尼语里可以出现在词首：<s>nganggur</s>（闲着没事）。中文和日语没有这个位置，多念几遍就顺了。",
+       "ja": "<b>ng</b> は語頭にも立ちます —— <s>nganggur</s>（暇でいる）。中国語にも日本語にもない位置なので、くり返して慣れましょう。",
+       "en": "<b>ng</b> can start a word in Indonesian: <s>nganggur</s> (to be idle). No such position exists in Chinese or Japanese, so it just needs repetition."
+      }
+     },
+     {
+      "text": {
+       "zh": "词尾的 <b>k</b> 不爆破，喉咙一挡就停：<s>bapak</s> 听起来像「bapa'」。",
+       "ja": "語末の <b>k</b> は破裂させず、のどで止めます。<s>bapak</s> は「バパッ」のように聞こえます。",
+       "en": "A final <b>k</b> is not released — the throat simply closes: <s>bapak</s> comes out as “bapa'”."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "四个借来的字母",
+     "ja": "借用された四文字",
+     "en": "Four borrowed letters"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<b>v</b> 基本读成 f，<s>video</s> 听起来像「fideo」；<b>x</b> 只在外来词里读 /ks/，如 <s>ekstra</s>；<b>q</b> 只见于阿拉伯语借词，读作 k；<b>z</b> 读 /z/，如 <s>zaman</s>（时代）。",
+       "ja": "<b>v</b> はほぼ f の音（<s>video</s> は「フィデオ」に近い）。<b>x</b> は外来語でのみ /ks/（<s>ekstra</s>）。<b>q</b> はアラビア語からの借用語だけに現れ k の音。<b>z</b> は /z/ で <s>zaman</s>（時代）など。",
+       "en": "<b>v</b> is normally said as f (<s>video</s> sounds like “fideo”); <b>x</b> is /ks/ and only in loanwords such as <s>ekstra</s>; <b>q</b> appears only in Arabic loans and is said as k; <b>z</b> is a true /z/, as in <s>zaman</s> (era)."
+      }
+     },
+     {
+      "text": {
+       "zh": "讲义给 <b>v</b> 标的 IPA 是 /f/ —— 这条没写错，印尼人确实这么念。",
+       "ja": "プリントが <b>v</b> に /f/ と記しているのは誤りではありません。実際にそう発音されます。",
+       "en": "The handout marks <b>v</b> as /f/ — that is not a mistake; it really is pronounced that way."
       }
      }
     ]
@@ -1182,6 +2065,335 @@
   [
    {
     "k": "phead",
+    "title": "Salam dan Kabar",
+    "sub": {
+     "zh": "打招呼 · 问好",
+     "ja": "あいさつ · ごきげんうかがい",
+     "en": "Greetings and how you are"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "见面第一句是 <b>Selamat …</b>，第二句几乎一定是 <b>Apa kabar?</b>。完整的问候和告别前一页已经列过，这里练的是<b>怎么答</b>，以及自我介绍的三句开场白。",
+     "ja": "会ってまず言うのが <b>Selamat …</b>、そのつぎはたいてい <b>Apa kabar?</b> です。あいさつと別れの表現は前のページにまとめてあります。ここで練習するのは<b>答え方</b>と、自己紹介の切り出し三文です。",
+     "en": "The first thing you say is <b>Selamat …</b>; the second is almost always <b>Apa kabar?</b>. The previous page has the full list of greetings and farewells — here we practise <b>how to answer</b>, plus the three opening lines of a self-introduction."
+    }
+   },
+   {
+    "k": "sec",
+    "num": "①",
+    "word": "Apa kabar?",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "你好吗？（字面是「什么消息」）",
+     "ja": "お元気ですか（直訳は「どんな知らせ」）",
+     "en": "How are you? (literally “what news?”)"
+    }
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "问",
+     "ja": "たずねる",
+     "en": "Asking"
+    },
+    "items": [
+     {
+      "id": "Apa kabar?",
+      "reg": "neutral",
+      "alt": null,
+      "gloss": {
+       "zh": "你好吗？",
+       "ja": "お元気ですか。",
+       "en": "How are you?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "kabar"
+      ]
+     },
+     {
+      "id": "Bagaimana kabar Anda?",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "您近来好吗？",
+       "ja": "お変わりありませんか。",
+       "en": "How have you been?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "bagaimana"
+      ]
+     },
+     {
+      "id": "Gimana kabarnya?",
+      "reg": "casual",
+      "alt": "Bagaimana kabarnya?",
+      "gloss": {
+       "zh": "你怎么样？",
+       "ja": "調子どう？",
+       "en": "How's it going?"
+      },
+      "alt_gloss": {
+       "zh": "您怎么样？",
+       "ja": "いかがお過ごしですか。",
+       "en": "How are things?"
+      },
+      "kw": [
+       "gimana"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "答",
+     "ja": "答える",
+     "en": "Answering"
+    },
+    "items": [
+     {
+      "id": "Baik, terima kasih.",
+      "reg": "neutral",
+      "alt": null,
+      "gloss": {
+       "zh": "很好，谢谢。",
+       "ja": "元気です、ありがとうございます。",
+       "en": "Fine, thank you."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "baik"
+      ]
+     },
+     {
+      "id": "Baik-baik saja.",
+      "reg": "neutral",
+      "alt": null,
+      "gloss": {
+       "zh": "挺好的。",
+       "ja": "まあまあ元気です。",
+       "en": "Doing all right."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "baik"
+      ]
+     },
+     {
+      "id": "Lumayan.",
+      "reg": "neutral",
+      "alt": null,
+      "gloss": {
+       "zh": "还行。",
+       "ja": "まずまずです。",
+       "en": "Not bad."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "lumayan"
+      ]
+     },
+     {
+      "id": "Saya kurang sehat.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我不太舒服。",
+       "ja": "少し体調がよくありません。",
+       "en": "I'm not feeling well."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "kurang",
+       "sehat"
+      ]
+     },
+     {
+      "id": "Saya sedikit capek.",
+      "reg": "neutral",
+      "alt": null,
+      "gloss": {
+       "zh": "我有点累。",
+       "ja": "少し疲れています。",
+       "en": "I'm a bit tired."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "capek"
+      ]
+     },
+     {
+      "id": "Anda sendiri?",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "您呢？",
+       "ja": "あなたは？",
+       "en": "And you?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "sendiri"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "地道说法",
+     "ja": "自然な言い方",
+     "en": "Saying it like a local"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "讲义写的 <s>Saya baik</s> 语法没错，但印尼人一般不带主语，直接说 <s>Baik</s> 或 <s>Baik-baik saja</s>。",
+       "ja": "プリントの <s>Saya baik</s> は文法的に正しいのですが、実際には主語を言わず <s>Baik</s>／<s>Baik-baik saja</s> だけで答えるのがふつうです。",
+       "en": "The handout's <s>Saya baik</s> is grammatical, but people normally drop the subject and just say <s>Baik</s> or <s>Baik-baik saja</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "答完顺手反问一句 <s>Anda sendiri?</s>（对同学说 <s>Kamu gimana?</s>），对话才接得下去。",
+       "ja": "答えたら <s>Anda sendiri?</s>（友だちには <s>Kamu gimana?</s>）と聞き返すと会話が続きます。",
+       "en": "Follow your answer with <s>Anda sendiri?</s> (or <s>Kamu gimana?</s> among classmates) and the conversation keeps going."
+      }
+     },
+     {
+      "text": {
+       "zh": "<s>kurang</s> 是「不太⋯」的委婉说法：<s>kurang sehat</s> 比直接说 <s>sakit</s>（病了）客气得多。",
+       "ja": "<s>kurang</s> は「あまり〜でない」とやわらげる語。<s>kurang sehat</s> は <s>sakit</s>（病気だ）より控えめな言い方です。",
+       "en": "<s>kurang</s> softens things to “not quite”: <s>kurang sehat</s> is far gentler than saying <s>sakit</s> (ill)."
+      }
+     }
+    ]
+   },
+   {
+    "k": "sec",
+    "num": "②",
+    "word": "Perkenalkan",
+    "reg": "formal",
+    "gloss": {
+     "zh": "（开场白）容我介绍一下",
+     "ja": "（切り出し）ご紹介します",
+     "en": "(opening line) let me introduce…"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Perkenalkan, nama saya Novi Wulandari.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "容我介绍一下，我叫 Novi Wulandari。",
+       "ja": "ご紹介します。わたしの名前は Novi Wulandari です。",
+       "en": "Let me introduce myself — my name is Novi Wulandari."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "perkenalkan"
+      ]
+     },
+     {
+      "id": "Panggil saya Mbak Novi.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "叫我 Mbak Novi 就行。",
+       "ja": "Mbak Novi と呼んでください。",
+       "en": "Please call me Mbak Novi."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "panggil"
+      ]
+     },
+     {
+      "id": "Senang bertemu dengan Anda semua.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "很高兴见到各位。",
+       "ja": "みなさんにお会いできてうれしいです。",
+       "en": "Pleased to meet you all."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "semua"
+      ]
+     },
+     {
+      "id": "Siapa nama Anda?",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "您叫什么名字？",
+       "ja": "お名前は何ですか。",
+       "en": "What is your name?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "siapa"
+      ]
+     },
+     {
+      "id": "Nama saya Ilfat.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我叫 Ilfat。",
+       "ja": "わたしの名前は Ilfat です。",
+       "en": "My name is Ilfat."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "nama"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "两个近义词",
+     "ja": "似ている二語",
+     "en": "Two near-twins"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "前面学过 <s>Kenalkan</s>，这里的 <s>Perkenalkan</s> 是同一个词的完整形式，正式场合更常用；两个都对。",
+       "ja": "すでに出てきた <s>Kenalkan</s> と、ここの <s>Perkenalkan</s> は同じ語の短い形と完全な形です。あらたまった場では後者をよく使います。どちらも正しい言い方です。",
+       "en": "You have already met <s>Kenalkan</s>; <s>Perkenalkan</s> here is the full form of the same word and is the more formal of the two. Both are correct."
+      }
+     },
+     {
+      "text": {
+       "zh": "<s>Panggil saya</s> 后面接小名 —— 印尼人正式名字往往很长，日常都用小名。老师全名是 Novi Wulandari，课上叫她 <s>Mbak Novi</s>。",
+       "ja": "<s>Panggil saya</s> のあとには通称を入れます。インドネシア人の正式な名前は長いことが多く、ふだんは通称で呼び合います。先生の正式名は Novi Wulandari、教室では <s>Mbak Novi</s> です。",
+       "en": "<s>Panggil saya</s> is followed by your short name. Indonesian full names are often long, so everyday address uses the short one: our teacher is Novi Wulandari, and in class she is <s>Mbak Novi</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "<s>Mbak</s> 是爪哇话里对年轻女性的称呼，男性对应 <s>Mas</s>。前一页的称呼表可以回去看一眼。",
+       "ja": "<s>Mbak</s> はジャワ語由来の若い女性への呼びかけ、男性は <s>Mas</s>。前のページの呼称の表も見直しておきましょう。",
+       "en": "<s>Mbak</s> is the Javanese form of address for a younger woman; <s>Mas</s> is its male counterpart. The table of address terms on the previous page is worth another look."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
     "title": "Kata Tanya",
     "sub": {
      "zh": "疑问词",
@@ -1750,6 +2962,1047 @@
   [
    {
     "k": "phead",
+    "title": "Angka",
+    "sub": {
+     "zh": "数字 · 0 到 19",
+     "ja": "数字 · 0 から 19",
+     "en": "Numbers · 0 to 19"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "数字是这一课最实用的部分：报年龄、报电话、买东西、听老师说页码，全靠它。先把 0–19 念熟，几十和组合在下一页。",
+     "ja": "この課でいちばん実用的なのが数字です。年齢を言う、電話番号を伝える、買い物をする、先生の言うページ番号を聞き取る —— どれも数字が要ります。まず 0〜19 を口になじませ、十の位と組み合わせは次のページで。",
+     "en": "Numbers are the most immediately useful part of this chapter: your age, your phone number, shopping, the page the teacher just called out. Get 0–19 fluent here; tens and combinations come on the next page."
+    }
+   },
+   {
+    "k": "numgrp",
+    "glab": {
+     "zh": "个位 · satuan",
+     "ja": "一の位 · satuan",
+     "en": "Units · satuan"
+    },
+    "items": [
+     [
+      "0",
+      "nol"
+     ],
+     [
+      "1",
+      "satu"
+     ],
+     [
+      "2",
+      "dua"
+     ],
+     [
+      "3",
+      "tiga"
+     ],
+     [
+      "4",
+      "empat"
+     ],
+     [
+      "5",
+      "lima"
+     ],
+     [
+      "6",
+      "enam"
+     ],
+     [
+      "7",
+      "tujuh"
+     ],
+     [
+      "8",
+      "delapan"
+     ],
+     [
+      "9",
+      "sembilan"
+     ]
+    ]
+   },
+   {
+    "k": "numgrp",
+    "glab": {
+     "zh": "十几 · belasan",
+     "ja": "十いくつ · belasan",
+     "en": "Teens · belasan"
+    },
+    "items": [
+     [
+      "10",
+      "sepuluh"
+     ],
+     [
+      "11",
+      "sebelas"
+     ],
+     [
+      "12",
+      "dua belas"
+     ],
+     [
+      "13",
+      "tiga belas"
+     ],
+     [
+      "14",
+      "empat belas"
+     ],
+     [
+      "15",
+      "lima belas"
+     ],
+     [
+      "16",
+      "enam belas"
+     ],
+     [
+      "17",
+      "tujuh belas"
+     ],
+     [
+      "18",
+      "delapan belas"
+     ],
+     [
+      "19",
+      "sembilan belas"
+     ]
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "se- 的规则",
+     "ja": "se- のきまり",
+     "en": "The se- rule"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "10 和 11 不说「satu puluh」「satu belas」。<b>satu</b> 当前缀时缩成 <b>se-</b>，而且<b>连写</b>：<s>sepuluh</s>、<s>sebelas</s>，再往上还有 <s>seratus</s>（100）、<s>seribu</s>（1000）。",
+       "ja": "10 と 11 を「satu puluh」「satu belas」とは言いません。<b>satu</b> は接頭辞になると <b>se-</b> に縮み、しかも<b>続けて書きます</b> —— <s>sepuluh</s>・<s>sebelas</s>。さらに上には <s>seratus</s>（100）・<s>seribu</s>（1000）があります。",
+       "en": "You never say “satu puluh” or “satu belas”. As a prefix <b>satu</b> shrinks to <b>se-</b> and is written <b>joined</b>: <s>sepuluh</s>, <s>sebelas</s> — and above them <s>seratus</s> (100) and <s>seribu</s> (1000)."
+      }
+     },
+     {
+      "text": {
+       "zh": "12 以后就规矩了，<b>数字 + belas</b>，而且<b>分开写</b>：<s>dua belas</s>、<s>lima belas</s>、<s>sembilan belas</s>。",
+       "ja": "12 からは規則的です。<b>数字 + belas</b> で、しかも<b>分けて書きます</b> —— <s>dua belas</s>・<s>lima belas</s>・<s>sembilan belas</s>。",
+       "en": "From 12 on it is regular: <b>number + belas</b>, written as <b>two words</b> — <s>dua belas</s>, <s>lima belas</s>, <s>sembilan belas</s>."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "笔误修正",
+     "ja": "誤りの訂正",
+     "en": "Correction"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "讲义把 <b>Angka Belasan</b> 译成「Dozen Numbers」，其实 belasan 指的是 <b>11–19</b>「十几」，和「一打」没关系 —— 一打印尼语叫 <s>selusin</s>。",
+       "ja": "プリントは <b>Angka Belasan</b> を「Dozen Numbers」と訳していますが、belasan は <b>11〜19</b>「十いくつ」のことで、「1 ダース」とは関係ありません。1 ダースは <s>selusin</s> です。",
+       "en": "The handout glosses <b>Angka Belasan</b> as “Dozen Numbers”. In fact belasan means the <b>teens, 11–19</b>; it has nothing to do with a dozen, which is <s>selusin</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "belasan 单独用时是「十几个」：<s>belasan orang</s> 就是十几个人。",
+       "ja": "belasan は単独で「十いくつかの」の意味にもなります。<s>belasan orang</s> で「十数人」。",
+       "en": "On its own belasan means “a dozen-ish, ten-something”: <s>belasan orang</s> is “a dozen or so people”."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "0 有两个读法",
+     "ja": "0 の読み方は二つ",
+     "en": "Zero has two names"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>nol</s> 用在数学、编号、比分这类正式场合；<s>kosong</s> 用在念电话号码、房间号、门牌号 —— 0812 念作「kosong delapan satu dua」。",
+       "ja": "<s>nol</s> は数学・番号・スコアなどあらたまった場面で、<s>kosong</s> は電話番号・部屋番号・番地を読むときに使います。0812 は「kosong delapan satu dua」。",
+       "en": "<s>nol</s> is for arithmetic, official numbering and scores; <s>kosong</s> is what you say reading a phone number, a room number or a house number — 0812 is “kosong delapan satu dua”."
+      }
+     },
+     {
+      "text": {
+       "zh": "<s>kosong</s> 本来就是「空的」的意思，这样记不容易忘。",
+       "ja": "<s>kosong</s> はもともと「からの」という意味です。そう覚えておくと忘れません。",
+       "en": "<s>kosong</s> literally means “empty”, which makes the usage easy to remember."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Angka Puluhan",
+    "sub": {
+     "zh": "数字 · 几十与组合",
+     "ja": "数字 · 十の位と組み合わせ",
+     "en": "Numbers · tens and combinations"
+    }
+   },
+   {
+    "k": "numgrp",
+    "glab": {
+     "zh": "几十 · puluhan",
+     "ja": "十の位 · puluhan",
+     "en": "Tens · puluhan"
+    },
+    "items": [
+     [
+      "10",
+      "sepuluh"
+     ],
+     [
+      "20",
+      "dua puluh"
+     ],
+     [
+      "30",
+      "tiga puluh"
+     ],
+     [
+      "40",
+      "empat puluh"
+     ],
+     [
+      "50",
+      "lima puluh"
+     ],
+     [
+      "60",
+      "enam puluh"
+     ],
+     [
+      "70",
+      "tujuh puluh"
+     ],
+     [
+      "80",
+      "delapan puluh"
+     ],
+     [
+      "90",
+      "sembilan puluh"
+     ]
+    ]
+   },
+   {
+    "k": "pattern",
+    "code": "dua puluh + lima = dua puluh lima",
+    "note": {
+     "zh": "几十在前，个位在后 —— 和中文「二十五」的顺序一样，中间不加任何词。",
+     "ja": "十の位が先、一の位があと。「二十五」と同じ順序で、あいだに何も入れません。",
+     "en": "Tens first, then the unit — the same order as English “twenty-five”, with nothing in between."
+    }
+   },
+   {
+    "k": "numgrp",
+    "ans": true,
+    "glab": {
+     "zh": "组合练习 · 先自己说一遍",
+     "ja": "組み合わせの練習 · まず自分で",
+     "en": "Combinations · say it yourself first"
+    },
+    "items": [
+     [
+      "21",
+      "dua puluh satu"
+     ],
+     [
+      "35",
+      "tiga puluh lima"
+     ],
+     [
+      "48",
+      "empat puluh delapan"
+     ],
+     [
+      "56",
+      "lima puluh enam"
+     ],
+     [
+      "67",
+      "enam puluh tujuh"
+     ],
+     [
+      "74",
+      "tujuh puluh empat"
+     ],
+     [
+      "89",
+      "delapan puluh sembilan"
+     ],
+     [
+      "99",
+      "sembilan puluh sembilan"
+     ]
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "再往上",
+     "ja": "もっと大きい数",
+     "en": "Going higher"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "页眉那个眼睛按钮可以把答案遮起来 —— 打开它，先自己说，再点一下那一格看对不对。",
+       "ja": "ヘッダーの目のボタンで答えを隠せます。まず自分で言ってから、マスをタップして確かめましょう。",
+       "en": "The eye button in the header blurs the answers — switch it on, say the number yourself, then tap the tile to check."
+      }
+     },
+     {
+      "text": {
+       "zh": "100 是 <s>seratus</s>，1000 是 <s>seribu</s> —— 还是那条 se- 规则。中间的数照样往下拼：125 就是 <s>seratus dua puluh lima</s>。",
+       "ja": "100 は <s>seratus</s>、1000 は <s>seribu</s>。やはり se- のきまりです。あいだの数もそのままつなげます —— 125 なら <s>seratus dua puluh lima</s>。",
+       "en": "100 is <s>seratus</s> and 1000 is <s>seribu</s> — the se- rule again. Everything in between simply strings together: 125 is <s>seratus dua puluh lima</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "印尼盾金额位数多，书写时用点号分位：Rp 25.000 读作 <s>dua puluh lima ribu rupiah</s>。",
+       "ja": "ルピアは桁が多く、表記ではピリオドで区切ります。Rp 25.000 は <s>dua puluh lima ribu rupiah</s> と読みます。",
+       "en": "Rupiah amounts run long, and the thousands separator is a full stop: Rp 25.000 is read <s>dua puluh lima ribu rupiah</s>."
+      }
+     }
+    ]
+   },
+   {
+    "k": "phones",
+    "items": [
+     {
+      "d": "0812 3456 7890",
+      "say": "kosong delapan satu dua tiga empat lima enam tujuh delapan sembilan kosong"
+     },
+     {
+      "d": "0274 555 123",
+      "say": "kosong dua tujuh empat lima lima lima satu dua tiga"
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "电话号码",
+     "ja": "電話番号",
+     "en": "Phone numbers"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "电话号码<b>一位一位</b>念，不合成「八十一」这种读法；0 一律念 <s>kosong</s>。",
+       "ja": "電話番号は<b>一桁ずつ</b>読み、「八十一」のようにまとめません。0 はすべて <s>kosong</s>。",
+       "en": "Phone numbers are read <b>digit by digit</b>; you never group them into “eighty-one”. Every 0 is <s>kosong</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "印尼手机号都以 08 开头，日惹的固定电话区号是 0274。",
+       "ja": "インドネシアの携帯番号はすべて 08 で始まり、ジョグジャカルタの市外局番は 0274 です。",
+       "en": "All Indonesian mobile numbers begin 08, and the Yogyakarta landline code is 0274."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Perkenalan Diri",
+    "sub": {
+     "zh": "自我介绍 · 五件事",
+     "ja": "自己紹介 · 五つの項目",
+     "en": "Introducing yourself · five slots"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "讲义把自我介绍拆成五件事：<b>名字、来自哪里、年龄、职业、爱好</b>。记住这五个槽，换个人、换个场合都能套着说。",
+     "ja": "プリントは自己紹介を五つに分けています —— <b>名前・出身・年齢・職業・趣味</b>。この五つの枠さえ覚えれば、相手や場面が変わっても組み立てられます。",
+     "en": "The handout breaks a self-introduction into five slots: <b>name, where you are from, age, job, hobby</b>. Learn the five and you can rebuild the introduction for any person and any occasion."
+    }
+   },
+   {
+    "k": "sec",
+    "num": "①",
+    "word": "nama",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "名字",
+     "ja": "名前",
+     "en": "name"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Nama saya Ilfat.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我叫 Ilfat。",
+       "ja": "わたしの名前は Ilfat です。",
+       "en": "My name is Ilfat."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "nama"
+      ]
+     },
+     {
+      "id": "Nama lengkap saya Novi Wulandari.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我的全名是 Novi Wulandari。",
+       "ja": "わたしの正式な名前は Novi Wulandari です。",
+       "en": "My full name is Novi Wulandari."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "lengkap"
+      ]
+     },
+     {
+      "id": "Nama panggilan saya Novi.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我的小名叫 Novi。",
+       "ja": "通称は Novi です。",
+       "en": "My short name is Novi."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "panggilan"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "sec",
+    "num": "②",
+    "word": "asal",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "来自哪里",
+     "ja": "出身",
+     "en": "where you are from"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Saya dari {NEGARA}.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我从中国来。",
+       "ja": "日本から来ました。",
+       "en": "I'm from England."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "dari"
+      ]
+     },
+     {
+      "id": "Saya berasal dari {NEGARA}.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我来自中国。（更正式的说法）",
+       "ja": "日本の出身です。（よりあらたまった言い方）",
+       "en": "I come from England. (more formal)"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "berasal"
+      ]
+     },
+     {
+      "id": "Sekarang saya tinggal di Jogja.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我现在住在日惹。",
+       "ja": "いまはジョグジャに住んでいます。",
+       "en": "I live in Jogja now."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "tinggal"
+      ]
+     },
+     {
+      "id": "Anda berasal dari mana?",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "您是哪里人？",
+       "ja": "ご出身はどちらですか。",
+       "en": "Where are you from?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "mana"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "sec",
+    "num": "③",
+    "word": "umur",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "年龄",
+     "ja": "年齢",
+     "en": "age"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Umur saya dua puluh tahun.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我二十岁。",
+       "ja": "わたしは 20 歳です。",
+       "en": "I'm twenty years old."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "umur"
+      ]
+     },
+     {
+      "id": "Saya berumur dua puluh satu tahun.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我二十一岁。",
+       "ja": "わたしは 21 歳です。",
+       "en": "I'm twenty-one years old."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "berumur"
+      ]
+     },
+     {
+      "id": "Berapa umur Anda?",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "您多大了？",
+       "ja": "おいくつですか。",
+       "en": "How old are you?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "berapa"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "sec",
+    "num": "④",
+    "word": "pekerjaan",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "职业",
+     "ja": "職業",
+     "en": "job"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Saya seorang mahasiswa.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我是大学生。",
+       "ja": "わたしは大学生です。",
+       "en": "I'm a university student."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "seorang"
+      ]
+     },
+     {
+      "id": "Pekerjaan saya guru.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我的工作是老师。",
+       "ja": "仕事は教師です。",
+       "en": "My job is teaching."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "pekerjaan"
+      ]
+     },
+     {
+      "id": "Apa pekerjaan Anda?",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "您做什么工作？",
+       "ja": "お仕事は何ですか。",
+       "en": "What do you do?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "apa"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "sec",
+    "num": "⑤",
+    "word": "hobi",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "爱好",
+     "ja": "趣味",
+     "en": "hobby"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Hobi saya membaca.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我的爱好是读书。",
+       "ja": "趣味は読書です。",
+       "en": "My hobby is reading."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "hobi"
+      ]
+     },
+     {
+      "id": "Saya suka jalan-jalan.",
+      "reg": "neutral",
+      "alt": null,
+      "gloss": {
+       "zh": "我喜欢到处逛。",
+       "ja": "出かけるのが好きです。",
+       "en": "I like going out and about."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "suka"
+      ]
+     },
+     {
+      "id": "Apa hobi Anda?",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "您有什么爱好？",
+       "ja": "ご趣味は何ですか。",
+       "en": "What are your hobbies?"
+      },
+      "alt_gloss": null,
+      "kw": [
+       "hobi"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "两个「名字」",
+     "ja": "二種類の「名前」",
+     "en": "Two kinds of name"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>nama lengkap</s> 是证件上的全名，<s>nama panggilan</s> 是大家平时叫的小名。印尼人全名可以很长，课上互相叫的都是小名。",
+       "ja": "<s>nama lengkap</s> は書類に書く正式名、<s>nama panggilan</s> はふだん呼ばれる通称です。インドネシア人の正式名は長いことが多く、教室では通称で呼び合います。",
+       "en": "<s>nama lengkap</s> is the full name on your documents; <s>nama panggilan</s> is what people actually call you. Indonesian full names can be long, so class runs on short names."
+      }
+     },
+     {
+      "text": {
+       "zh": "说完名字加一句 <s>Panggil saya</s> 再接小名，对方就知道该怎么称呼你了。",
+       "ja": "名前のあとに <s>Panggil saya</s> と通称を続ければ、相手は呼び方に迷いません。",
+       "en": "Follow your name with <s>Panggil saya</s> and your short name, and nobody has to guess how to address you."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Pekerjaan dan Hobi",
+    "sub": {
+     "zh": "职业 · 爱好 · 完整示范",
+     "ja": "職業 · 趣味 · 通しの例",
+     "en": "Jobs, hobbies and the whole thing"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "上一页的第四、五件事各缺一份词库。先挑出自己要用的那个词，再照最后那段把五句连起来。",
+     "ja": "前のページの四つめと五つめには、当てはめる語が必要です。自分に合う語を選んでから、最後の例のように五文をつなげてみましょう。",
+     "en": "Slots four and five each need a word to fill them. Pick yours from the two sets below, then string all five sentences together the way the model does at the end."
+    }
+   },
+   {
+    "k": "mini",
+    "text": {
+     "zh": "职业 · pekerjaan",
+     "ja": "職業 · pekerjaan",
+     "en": "Jobs · pekerjaan"
+    }
+   },
+   {
+    "k": "vocab",
+    "items": [
+     {
+      "w": "pelajar",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "学生（中小学）",
+       "ja": "生徒",
+       "en": "school pupil"
+      }
+     },
+     {
+      "w": "dokter",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "医生",
+       "ja": "医者",
+       "en": "doctor"
+      }
+     },
+     {
+      "w": "perawat",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "护士",
+       "ja": "看護師",
+       "en": "nurse"
+      }
+     },
+     {
+      "w": "karyawan",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "公司职员",
+       "ja": "会社員",
+       "en": "company employee"
+      }
+     },
+     {
+      "w": "pegawai",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "职员 · 公务员",
+       "ja": "職員 · 公務員",
+       "en": "staff member, civil servant"
+      }
+     },
+     {
+      "w": "insinyur",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "工程师",
+       "ja": "技師",
+       "en": "engineer"
+      }
+     }
+    ]
+   },
+   {
+    "k": "mini",
+    "text": {
+     "zh": "爱好 · hobi",
+     "ja": "趣味 · hobi",
+     "en": "Hobbies · hobi"
+    }
+   },
+   {
+    "k": "vocab",
+    "items": [
+     {
+      "w": "jalan-jalan",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "到处逛 · 出游",
+       "ja": "出かける · 散策する",
+       "en": "to go out, stroll around"
+      }
+     },
+     {
+      "w": "berbelanja",
+      "reg": "formal",
+      "gloss": {
+       "zh": "购物",
+       "ja": "買い物をする",
+       "en": "to go shopping"
+      }
+     },
+     {
+      "w": "membaca",
+      "reg": "formal",
+      "gloss": {
+       "zh": "阅读",
+       "ja": "読む",
+       "en": "to read"
+      }
+     },
+     {
+      "w": "memasak",
+      "reg": "formal",
+      "gloss": {
+       "zh": "做饭",
+       "ja": "料理する",
+       "en": "to cook"
+      }
+     },
+     {
+      "w": "berolahraga",
+      "reg": "formal",
+      "gloss": {
+       "zh": "做运动",
+       "ja": "運動する",
+       "en": "to do sport"
+      }
+     },
+     {
+      "w": "menonton film",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "看电影",
+       "ja": "映画を見る",
+       "en": "to watch films"
+      }
+     },
+     {
+      "w": "mendengarkan musik",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "听音乐",
+       "ja": "音楽を聴く",
+       "en": "to listen to music"
+      }
+     },
+     {
+      "w": "berenang",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "游泳",
+       "ja": "泳ぐ",
+       "en": "to swim"
+      }
+     },
+     {
+      "w": "menyanyi",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "唱歌",
+       "ja": "歌う",
+       "en": "to sing"
+      }
+     }
+    ]
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "连起来说一遍",
+     "ja": "つなげて言ってみる",
+     "en": "Now say it all in one go"
+    },
+    "items": [
+     {
+      "id": "Selamat siang, Bapak dan Ibu.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "各位好。",
+       "ja": "みなさん、こんにちは。",
+       "en": "Good afternoon, everyone."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "selamat"
+      ]
+     },
+     {
+      "id": "Perkenalkan, nama saya Novi Wulandari.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "容我介绍一下，我叫 Novi Wulandari。",
+       "ja": "ご紹介します。名前は Novi Wulandari です。",
+       "en": "Let me introduce myself: my name is Novi Wulandari."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "perkenalkan"
+      ]
+     },
+     {
+      "id": "Panggil saya Mbak Novi saja.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "叫我 Mbak Novi 就行。",
+       "ja": "Mbak Novi とだけ呼んでください。",
+       "en": "Just call me Mbak Novi."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "panggil"
+      ]
+     },
+     {
+      "id": "Saya berasal dari Jogja.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我是日惹人。",
+       "ja": "ジョグジャの出身です。",
+       "en": "I come from Jogja."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "berasal"
+      ]
+     },
+     {
+      "id": "Umur saya tiga puluh empat tahun.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我三十四岁。",
+       "ja": "34 歳です。",
+       "en": "I'm thirty-four."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "umur"
+      ]
+     },
+     {
+      "id": "Saya seorang guru bahasa Indonesia.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我是印尼语老师。",
+       "ja": "インドネシア語の教師をしています。",
+       "en": "I'm a teacher of Indonesian."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "seorang"
+      ]
+     },
+     {
+      "id": "Hobi saya jalan-jalan dan memasak.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "我的爱好是到处逛和做饭。",
+       "ja": "趣味は出かけることと料理です。",
+       "en": "My hobbies are getting out and about, and cooking."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "hobi"
+      ]
+     },
+     {
+      "id": "Senang bertemu dengan Anda semua.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "很高兴见到各位。",
+       "ja": "みなさんにお会いできてうれしいです。",
+       "en": "Pleased to meet you all."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "semua"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "seorang 是什么",
+     "ja": "seorang とは",
+     "en": "What seorang is doing"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>seorang</s> = se-（一）+ orang（人），字面就是「一位」。<s>Saya guru</s> 也对，加上 <s>seorang</s> 更完整、更正式，自我介绍时常用。",
+       "ja": "<s>seorang</s> は se-（一）+ orang（人）で、文字どおり「一人の」。<s>Saya guru</s> でも正しいのですが、<s>seorang</s> を入れると、よりあらたまった完全な言い方になり、自己紹介でよく使われます。",
+       "en": "<s>seorang</s> is se- (one) + orang (person), literally “a single person”. <s>Saya guru</s> is fine on its own; adding <s>seorang</s> makes it fuller and more formal, which is why introductions use it."
+      }
+     },
+     {
+      "text": {
+       "zh": "两种语序都行：<s>Saya seorang guru</s> 和 <s>Pekerjaan saya guru</s>。",
+       "ja": "語順はどちらでもかまいません —— <s>Saya seorang guru</s> と <s>Pekerjaan saya guru</s>。",
+       "en": "Either order works: <s>Saya seorang guru</s> or <s>Pekerjaan saya guru</s>."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
     "title": "Berbicara",
     "sub": {
      "zh": "说 · 介绍自己",
@@ -2008,6 +4261,245 @@
   [
    {
     "k": "phead",
+    "title": "Memperkenalkan Orang Lain",
+    "sub": {
+     "zh": "介绍别人",
+     "ja": "人を紹介する",
+     "en": "Introducing someone else"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "把自我介绍里的 <b>saya</b> 换成 <b>dia</b>，名词后面加 <b>-nya</b>，就是介绍别人。<b>-nya</b> 是「他的」，Bab 2 还会专门讲这个词缀。",
+     "ja": "自己紹介の <b>saya</b> を <b>dia</b> に替え、名詞のうしろに <b>-nya</b> をつければ、人の紹介になります。<b>-nya</b> は「その人の」の意味で、Bab 2 であらためて扱います。",
+     "en": "Swap <b>saya</b> for <b>dia</b> and hang <b>-nya</b> on the nouns, and the self-introduction becomes an introduction of someone else. <b>-nya</b> means “his/her”, and Bab 2 returns to it properly."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "Ini teman saya. Namanya Ilfat.",
+    "note": {
+     "zh": "nama + -nya = 他的名字。同理还有 umurnya、hobinya、pekerjaannya。",
+     "ja": "nama + -nya で「その人の名前」。同じように umurnya・hobinya・pekerjaannya も作れます。",
+     "en": "nama + -nya is “his/her name”. The same goes for umurnya, hobinya and pekerjaannya."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "说自己",
+      "ja": "自分のこと",
+      "en": "About yourself"
+     },
+     {
+      "zh": "说别人",
+      "ja": "人のこと",
+      "en": "About someone else"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "nama saya",
+       "reg": "formal"
+      },
+      {
+       "id": "namanya",
+       "reg": "formal"
+      }
+     ],
+     [
+      {
+       "id": "umur saya",
+       "reg": "formal"
+      },
+      {
+       "id": "umurnya",
+       "reg": "formal"
+      }
+     ],
+     [
+      {
+       "id": "hobi saya",
+       "reg": "formal"
+      },
+      {
+       "id": "hobinya",
+       "reg": "formal"
+      }
+     ],
+     [
+      {
+       "id": "pekerjaan saya",
+       "reg": "formal"
+      },
+      {
+       "id": "pekerjaannya",
+       "reg": "formal"
+      }
+     ]
+    ],
+    "note": {
+     "zh": "<b>-nya</b> 直接黏在名词后面，写成一个词，男女通用。",
+     "ja": "<b>-nya</b> は名詞に直接くっつけて一語で書きます。男女の区別はありません。",
+     "en": "<b>-nya</b> attaches straight to the noun as one word, and is the same for men and women."
+    }
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "介绍一位同事",
+     "ja": "同僚を紹介する",
+     "en": "Introducing a colleague"
+    },
+    "items": [
+     {
+      "id": "Perkenalkan, ini teman saya.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "介绍一下，这是我的朋友。",
+       "ja": "ご紹介します。こちらはわたしの友人です。",
+       "en": "Let me introduce my friend."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "teman"
+      ]
+     },
+     {
+      "id": "Namanya Ilfat, panggil saja Mbak Ilfat.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "她叫 Ilfat，叫她 Mbak Ilfat 就行。",
+       "ja": "名前は Ilfat、Mbak Ilfat と呼んでください。",
+       "en": "Her name is Ilfat — just call her Mbak Ilfat."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "namanya"
+      ]
+     },
+     {
+      "id": "Dia berasal dari Lombok.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "她来自龙目岛。",
+       "ja": "ロンボク島の出身です。",
+       "en": "She comes from Lombok."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "berasal"
+      ]
+     },
+     {
+      "id": "Sekarang dia tinggal di Jogja.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "她现在住在日惹。",
+       "ja": "いまはジョグジャに住んでいます。",
+       "en": "She lives in Jogja now."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "tinggal"
+      ]
+     },
+     {
+      "id": "Dia juga seorang guru.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "她也是老师。",
+       "ja": "彼女も教師です。",
+       "en": "She is a teacher too."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "juga"
+      ]
+     },
+     {
+      "id": "Umurnya dua puluh delapan tahun.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "她二十八岁。",
+       "ja": "28 歳です。",
+       "en": "She is twenty-eight."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "umurnya"
+      ]
+     },
+     {
+      "id": "Hobinya berbelanja dan menonton film.",
+      "reg": "formal",
+      "alt": null,
+      "gloss": {
+       "zh": "她的爱好是逛街和看电影。",
+       "ja": "趣味は買い物と映画鑑賞です。",
+       "en": "Her hobbies are shopping and watching films."
+      },
+      "alt_gloss": null,
+      "kw": [
+       "hobinya"
+      ]
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "印尼语不分他和她",
+     "ja": "「彼」と「彼女」の区別がない",
+     "en": "No he and she"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>dia</s> 男女通用，<b>-nya</b> 也一样。光看 <s>Dia seorang guru</s> 判断不出性别 —— 要么靠上下文，要么直接问 <s>Dia laki-laki atau perempuan?</s>",
+       "ja": "<s>dia</s> は男女どちらにも使い、<b>-nya</b> も同じです。<s>Dia seorang guru</s> だけでは性別はわかりません。文脈で判断するか、<s>Dia laki-laki atau perempuan?</s> と聞きます。",
+       "en": "<s>dia</s> covers both sexes, and so does <b>-nya</b>. <s>Dia seorang guru</s> tells you nothing about gender — you rely on context, or you ask <s>Dia laki-laki atau perempuan?</s>"
+      }
+     },
+     {
+      "text": {
+       "zh": "<s>juga</s>（也）放在它修饰的成分前面：<s>Dia juga seorang guru</s>。",
+       "ja": "<s>juga</s>（〜も）は修飾する語の前に置きます —— <s>Dia juga seorang guru</s>。",
+       "en": "<s>juga</s> (“too”) goes in front of what it modifies: <s>Dia juga seorang guru</s>."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "两种说法都对",
+     "ja": "どちらの言い方でもよい",
+     "en": "Both are fine"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "年龄可以说 <s>Umurnya dua puluh delapan tahun</s>，也可以说 <s>Dia berumur dua puluh delapan tahun</s> —— 讲义两种都用了。",
+       "ja": "年齢は <s>Umurnya dua puluh delapan tahun</s> でも <s>Dia berumur dua puluh delapan tahun</s> でもかまいません。プリントは両方使っています。",
+       "en": "For age you can say either <s>Umurnya dua puluh delapan tahun</s> or <s>Dia berumur dua puluh delapan tahun</s> — the handout uses both."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
     "title": "Menulis",
     "sub": {
      "zh": "写 · 身份信息",
@@ -2251,6 +4743,345 @@
       }
      }
     ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan dan Wawancara",
+    "sub": {
+     "zh": "练习 · 采访同学",
+     "ja": "練習 · インタビュー",
+     "en": "Practice and the interview"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "讲义最后两项是课堂任务：先填自己的资料上台介绍，再找一个同学做采访、替他向全班介绍。下面把要用的句子整理成填空和问答，先在这儿过一遍，上课就不慌了。",
+     "ja": "プリントの最後の二項目は教室での課題です。まず自分の情報を書き込んで前で自己紹介し、つぎにクラスメイトにインタビューして、その人を紹介します。使う文を穴埋めと問答にまとめました。ここで一度通しておけば、授業で困りません。",
+     "en": "The last two items on the handout are classroom tasks: fill in your own details and introduce yourself at the front, then interview a classmate and introduce them to the group. The sentences you will need are set out below as gap-fills and question-and-answer pairs — run through them once here and the class itself is easy."
+    }
+   },
+   {
+    "k": "fillblank",
+    "title": {
+     "zh": "补上缺的那个词",
+     "ja": "抜けている語を入れる",
+     "en": "Fill in the missing word"
+    },
+    "items": [
+     {
+      "pre": "Perkenalkan, nama",
+      "ans": "saya",
+      "post": "Ilfat.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "容我介绍一下，我叫 Ilfat。",
+       "ja": "ご紹介します。名前は Ilfat です。",
+       "en": "Let me introduce myself — my name is Ilfat."
+      }
+     },
+     {
+      "pre": "Saya",
+      "ans": "berumur",
+      "post": "dua puluh tahun.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我二十岁。",
+       "ja": "わたしは 20 歳です。",
+       "en": "I'm twenty years old."
+      }
+     },
+     {
+      "pre": "Saya",
+      "ans": "seorang",
+      "post": "mahasiswa.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我是大学生。",
+       "ja": "わたしは大学生です。",
+       "en": "I'm a university student."
+      }
+     },
+     {
+      "pre": "Hobi",
+      "ans": "saya",
+      "post": "membaca.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我的爱好是读书。",
+       "ja": "趣味は読書です。",
+       "en": "My hobby is reading."
+      }
+     },
+     {
+      "pre": "Ini teman saya,",
+      "ans": "namanya",
+      "post": "Ilfat.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "这是我朋友，她叫 Ilfat。",
+       "ja": "こちらはわたしの友人で、名前は Ilfat です。",
+       "en": "This is my friend; her name is Ilfat."
+      }
+     },
+     {
+      "pre": "Dia",
+      "ans": "berasal",
+      "post": "dari Lombok.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "她来自龙目岛。",
+       "ja": "ロンボク島の出身です。",
+       "en": "She comes from Lombok."
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "采访同学 · Wawancara",
+     "ja": "インタビュー · Wawancara",
+     "en": "The interview · Wawancara"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Siapa nama Anda?",
+       "reg": "formal",
+       "kw": [
+        "siapa"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Nama saya Ilfat.",
+       "reg": "formal",
+       "kw": [
+        "nama"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Anda berasal dari mana?",
+       "reg": "formal",
+       "kw": [
+        "mana"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Saya berasal dari {NEGARA}.",
+       "reg": "formal",
+       "kw": [
+        "berasal"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Berapa umur Anda?",
+       "reg": "formal",
+       "kw": [
+        "berapa"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Umur saya dua puluh tahun.",
+       "reg": "formal",
+       "kw": [
+        "umur"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Apa pekerjaan Anda?",
+       "reg": "formal",
+       "kw": [
+        "pekerjaan"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Saya seorang mahasiswa.",
+       "reg": "formal",
+       "kw": [
+        "seorang"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Apa hobi Anda?",
+       "reg": "formal",
+       "kw": [
+        "hobi"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Hobi saya mendengarkan musik.",
+       "reg": "formal",
+       "kw": [
+        "hobi"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "想一想怎么说",
+     "ja": "どう言うか考えてみる",
+     "en": "Work out how to say it"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "请问您叫什么名字？",
+        "ja": "お名前は何ですか。",
+        "en": "What is your name?"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Siapa nama Anda?",
+       "reg": "formal",
+       "kw": [
+        "siapa"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "我三十岁。",
+        "ja": "わたしは 30 歳です。",
+        "en": "I'm thirty years old."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Umur saya tiga puluh tahun.",
+       "reg": "formal",
+       "kw": [
+        "umur"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "她也是老师。",
+        "ja": "彼女も教師です。",
+        "en": "She is a teacher too."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Dia juga seorang guru.",
+       "reg": "formal",
+       "kw": [
+        "juga"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "他的爱好是做饭。",
+        "ja": "その人の趣味は料理です。",
+        "en": "Their hobby is cooking."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Hobinya memasak.",
+       "reg": "formal",
+       "kw": [
+        "hobinya"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "很高兴见到各位。",
+        "ja": "みなさんにお会いできてうれしいです。",
+        "en": "Pleased to meet you all."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Senang bertemu dengan Anda semua.",
+       "reg": "formal",
+       "kw": [
+        "semua"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "笔误修正",
+     "ja": "誤りの訂正",
+     "en": "Corrections"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "讲义第 7 项写的是 <b>Silahkan</b>，规范拼法是 <b>Silakan</b>（<s>silakan</s>）。日常里两种写法都能见到，考试和正式文书用 <b>Silakan</b>。",
+       "ja": "プリントの第 7 項は <b>Silahkan</b> と書かれていますが、規範的なつづりは <b>Silakan</b>（<s>silakan</s>）です。日常では両方見かけますが、試験や公式文書では <b>Silakan</b> を使います。",
+       "en": "Item 7 of the handout writes <b>Silahkan</b>; the standard spelling is <b>Silakan</b> (<s>silakan</s>). Both turn up in everyday writing, but exams and official documents want <b>Silakan</b>."
+      }
+     },
+     {
+      "text": {
+       "zh": "讲义的 <s>Umur kamu berapa?</s> 是口语顺序，完全没问题；书面和正式场合更常见的是 <s>Berapa umur Anda?</s>。",
+       "ja": "プリントの <s>Umur kamu berapa?</s> は話しことばの語順で、問題ありません。書きことばやあらたまった場面では <s>Berapa umur Anda?</s> のほうがふつうです。",
+       "en": "The handout's <s>Umur kamu berapa?</s> is the spoken word order and is perfectly good; writing and formal speech prefer <s>Berapa umur Anda?</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "采访表里 <s>Siapa nama kamu?</s> 和 <s>Siapa nama Anda?</s> 差的是语体：<b>kamu</b> 对同学，<b>Anda</b> 对老师和不熟的人。",
+       "ja": "インタビュー表の <s>Siapa nama kamu?</s> と <s>Siapa nama Anda?</s> の違いは語体です。<b>kamu</b> は友だちに、<b>Anda</b> は先生や親しくない相手に。",
+       "en": "In the interview table, <s>Siapa nama kamu?</s> and <s>Siapa nama Anda?</s> differ in register: <b>kamu</b> for classmates, <b>Anda</b> for teachers and people you do not know."
+      }
+     }
+    ]
+   },
+   {
+    "k": "prompt",
+    "tag": {
+     "zh": "课堂任务",
+     "ja": "教室での課題",
+     "en": "Your task in class"
+    },
+    "text": {
+     "zh": "填好自己的五件事，上台念一遍；然后找一个同学，用上面五个问题采访他，把答案记下来，再替他向全班介绍一遍。",
+     "ja": "自分の五項目を書き込んで、前で言ってみましょう。つぎにクラスメイトを一人つかまえ、上の五つの質問でインタビューし、答えをメモして、その人をクラスに紹介します。",
+     "en": "Fill in your own five slots and say them at the front. Then find one classmate, put the five questions above to them, note the answers down, and introduce them to the class."
+    }
    }
   ],
   [

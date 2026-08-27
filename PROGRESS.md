@@ -5,16 +5,56 @@
 > `KICKOFF.md` 描述的是 2026-08 之前的旧 App（Cindy 私教 13 课那版），
 > **§3–§8 已作废**，只在追溯历史时看。
 
-**当前状态：v1.1.0 已上线（2026-08-26）。第一课 + 第二课，音频 100%。**
-
-> 🚧 **v1.2.0 在 `telemetry` 分支上，还没上线。** 网站版加了匿名使用情况收集
-> （见下面「使用情况收集」一节）。Worker 已部署、口令已设、地址已填进
-> `scripts/site.js` 的 `COLLECT`，线上链路验证过能通。
-> **就差 Rae 在手机上试一遍并点头**，然后 `npm run site`（不带 `--tag`）+ push。
+**当前状态：v1.3.0 已上线（2026-08-27）。第一课 20 页 + 第二课 8 页，225 词，音频 100%。**
 
 > ⚠️ **App 已经上线，全班同学在用。任何改动未经 Rae 明确同意不得合并进 `main`** ——
 > push main 会立刻重新发布 belajar.rae.work，等于直接改所有人正在用的版本。
 > 改动一律在分支上做，本地预览给她看，她说「可以上线」才合。
+
+---
+
+## v1.3.0 做了什么（2026-08-27）
+
+面向学习者的说明在 `CHANGELOG.md`，下面只记工程上要知道的。
+
+| | |
+| --- | --- |
+| 来源 | **Kelas Berbicara（口语课）Pertemuan 1** 的 PDF 讲义（Mbak Novi，08-27）。讲的就是 Perkenalan，跟课本 Bab 1 是同一块内容 —— **Rae 定的：并进第一课，不另开一课** |
+| 第一课 | 10 页 → **20 页**。新增页不是接在后面，是**插进原有顺序**：字母和发音放最前，数字放在「说年龄」之前，练习页跟在范文之后 |
+| 新增页 | Abjad（字母名，`alpha`） / Bunyi Vokal / Bunyi Konsonan（`table` + `syll`） / Salam dan Kabar / Angka / Angka Puluhan（`numgrp` + `phones`） / Perkenalan Diri / Pekerjaan dan Hobi / Memperkenalkan Orang Lain / Latihan dan Wawancara |
+| 词汇 | +78 词（共 225），全部 `les: 1` |
+| 题库 | `situasi` +8，`tempat` +2，**`angka_pool` 第一次填上（40 个数，1–99）** |
+| 语音 | 新合成 232 条 / 3,749 字符。字母名（be、ce、de…）旧音库里就有，这次只补了 `ve` |
+
+**这一轮值得记的**
+
+- **并课要改的不只是页数组。** 页面里凡是写「Bab 1 学过」「Bab 2 学过」的地方，
+  并进去之后全是错的 —— 有的变成同一课（该说「前一页」），有的变成**前向引用**
+  （`-nya` 是 Bab 2 教的，Bab 1 里不能写「Bab 2 学过」，要写「Bab 2 还会专门讲」）。
+  一并要改的还有：课的 `name` / `source`、词条的 `note`、**多出来的 `reviewbtn`**
+  （只留整课最后一页那个）。
+- **「几点了」和「数字 / 价格」原来共用一个开关。** 引擎里两种题型都只看
+  `ANGKA_POOL.length > 0`。这一课教了数字但没教钟点（`setengah` 是「到**下一个**
+  钟点的一半」，课本还没讲到），照原样打开会冒出一种谁都没学过的题。
+  现在 `jam` 多一道 `drills.jam_enabled !== false`，`drills.json` 里设成 `false`。
+  **`src/engine.js` 的 `drAvail()` 和 `scripts/validate.js` 的题型探测要一起改**，
+  少改一处，校验报的可用题型就和引擎对不上。教到钟点那一章把它删掉即可。
+- **`0` 有两个读法，别塞进 `angka_pool`。** 引擎的 `numRead(0)` 返回 `kosong`，
+  而课上教的是 `nol`（数学）/ `kosong`（念号码）。放进池子会出现「唯一正确答案
+  却和课文写的不一样」。池子从 1 起。
+- **`numgrp` 的 `ans:true` 不是「默认藏起来」**，只是给答案加 `.ans`，
+  真正遮住要靠页眉那个眼睛按钮。第一版把 `glab` 写成「点开看答案」，
+  实际打开是全露着的 —— 已改成「先自己说一遍」，并在旁边的 note 里说明眼睛按钮。
+- **`alpha` 格子里 `"A a"` 会折行。** `.alpha` 是 `minmax(58px,1fr)` 的网格，
+  M 和 W 在 375px 下被空格挤到第二行，那两行就比别的高一截。写成 `"Aa"` 就齐了。
+- **表格的第一列是「标签列」**（`td:first-child` 被 CSS 调淡、缩小）。
+  字母表那种「第一列才是主角」的表，看着会有点淡 —— 是设计如此，别去改 CSS。
+- **别给裸字母 / 裸后缀加 `<s>`。** `<s>sy</s>`、`<s>kh</s>` 会生成 "sy"、"kh"
+  两条毫无意义的音频；字母名（`be`、`ce`）本身是词，可以标。
+- **`vocab.json` 是 2 空格，`lessons/*.json` 是 1 空格。** 用错了整个文件重排，
+  diff 从几百行涨到几千行。写之前先看一眼原文件。
+- **PDF 讲义要先装 poppler**（`brew install poppler`）。`pdftotext -layout`
+  取正文，`pdftoppm -png` 出页面图 —— 表格的合并单元格只有看图才不会读错。
 
 ---
 
@@ -113,10 +153,10 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。三语界面
 
 - 名字 **Rae's Study Note**，安卓包名 `com.raenotes.app`
 - 三个产物：`dist/rae-study-notes.html`（离线单文件）、`docs/`（网站）、APK
-- 内容：**Bab 1 Perkenalan** 10 页 + **Bab 2 Kelas INCULS** 8 页 · 147 词
-- 实战题：情景 18 / 地点 8 / 领属 15 / 指示词 8 / 看图认词 20
-- 音频 708/708（100%），音库 2501 条（含旧内容留下的，只增不减），教材听力音轨 1 条
-- 额度：ElevenLabs starter 40,000 字符/月，v1.1.0 之后累计用掉约 20,400
+- 内容：**Bab 1 Perkenalan** 20 页（课本 Bab 1 + 口语课 Pertemuan 1）+ **Bab 2 Kelas INCULS** 8 页 · 225 词
+- 实战题：情景 26 / 地点 10 / 领属 15 / 指示词 8 / 看图认词 20 / 数字池 40（时间题仍关着）
+- 音频 1068/1068（100%），音库 2732 条（含旧内容留下的，只增不减），教材听力音轨 1 条
+- 额度：ElevenLabs starter 40,000 字符/月，v1.3.0 之后累计用掉约 23,200
 
 ## 线上
 
@@ -140,7 +180,9 @@ git add -A && git commit -m "更新网站" && git push
 
 ## 下一步
 
-- [ ] Bab 3 起：Rae 拍照放 `inbox/`，走 `/lesson`
+- [ ] Bab 3 起：Rae 拍照放 `inbox/`，走 `/lesson`。
+      ⚠️ 口语课（Kelas Berbicara）的讲义按**内容**归课，不按次数 ——
+      Pertemuan 1 讲的是 Perkenalan，就并进 Bab 1。
 - [ ] 打第一个 APK（要 Rae 先确认过网页版）
 
 细节和其余待办见文末「待办 / 待确认」。
@@ -362,9 +404,10 @@ npm run apk              # 打包安卓（要 Rae 先确认过网页版）
 
 ## 待办 / 待确认
 
-1. **实战里的「几点了 / 数字价格」暂时隐藏** —— `drills.json` 的
-   `angka_pool` 是空的。教到数字那一章往里加（**非空时至少 20 个**，
-   少于 20 会直接报错），题型会自动出现。
+1. **「数字 / 价格」已经打开**（`angka_pool` 40 个数，1–99）。
+   **「几点了」还关着** —— `drills.json` 的 `jam_enabled: false`。
+   等课本教到钟点（`setengah` 的说法）再把那一行删掉，题型会自动出现。
+   往 `angka_pool` 加数时注意：**非空时至少 20 个**，别放 `0`（读法有两个）。
 2. **`alt` 字段（另一语体的整句）现在全库 116 处都是 `null`** —— 语体切换功能
    没做，所以也没浪费额度。`speakables.js` 会把有值的 alt 收进音频清单，
    新课要不要写 alt 先问 Rae（写了就要花钱合成界面上暂时看不到的句子）。

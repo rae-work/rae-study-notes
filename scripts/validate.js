@@ -318,7 +318,7 @@ if (speak) {
   if (d.noDistractor) warn(G8, `${d.noDistractor}/${d.susun} 道拼句题没有干扰词块（把词块全点上就对了）`);
   // 只检查题库里确实有数据的题型
   const avail = {
-    jam: content.drills.angka_pool.length > 0,
+    jam: content.drills.angka_pool.length > 0 && content.drills.jam_enabled !== false,
     angka: content.drills.angka_pool.length > 0,
     situasi: content.drills.situasi.length > 0 || content.drills.tempat.length > 0,
     dengar: content.drills.situasi.length > 0,

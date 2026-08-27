@@ -4,6 +4,54 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.3.0 — 2026-08-27
+
+**Chapter 1 grows to twenty pages**
+
+The first meeting of the speaking class (*Kelas Berbicara*, Pertemuan 1) with
+Mbak Novi covers the same ground as Bab 1, so it has been folded into Bab 1
+rather than added as a separate chapter. Ten new pages, 78 new words:
+
+- **The alphabet.** The handout gives the *sound* each letter makes inside a
+  word. What it never gives is the *name* of the letter — which is what you
+  actually need to spell your name, read out a room number, or follow a teacher
+  spelling a word on the board. All 26 names are here, every one of them
+  tappable
+- **Vowels.** The five vowel letters, and a proper answer to the question the
+  handout raises but does not settle: how to tell the two e's apart. There is a
+  rule that covers most cases, and it is spelled out
+- **Consonants.** The ones that go wrong — c, j, ny, ng and a trilled r — with
+  syllable cards you can slow down, chain together and record yourself against.
+  Two digraphs missing from the handout, **sy** and **kh**, have been added
+- **Numbers 0 to 99.** Units, teens and tens, then how they combine, plus the
+  se- rule behind sepuluh, sebelas, seratus and seribu. Phone numbers get their
+  own card, because zero is read *kosong* there and *nol* everywhere else
+- **Answering Apa kabar?** What people actually say, rather than the textbook
+  answer
+- **Introducing yourself, slot by slot.** Name, where you are from, age, job,
+  hobby — each with example sentences, plus word sets for jobs and hobbies
+- **Introducing someone else.** The same five slots with *dia* and *-nya*
+- **Practice and the interview.** Gap-fills and the five interview questions,
+  ready before you have to ask them in class
+
+The pages are interleaved with the existing ones rather than tacked on the end:
+letters and sounds come first, numbers sit before you need them to say your age,
+and the practice pages follow the model texts.
+
+**Number practice in Latihan**
+
+- The *number / price* question type is now live: a number appears, you pick how
+  it is read. It has been switched off ever since the app launched, because
+  nothing had taught numbers yet
+- The *what time is it* type stays hidden until the clock is taught
+
+**Corrections to the handout**
+
+- *Angka Belasan* is glossed there as "Dozen Numbers". Belasan means the teens,
+  11 to 19; a dozen is *selusin*
+- *Silahkan* is written as *Silakan* in standard spelling
+- The consonant table is missing **sy** and **kh**
+
 ## 1.2.0 — 2026-08-27
 
 **Anonymous usage stats on the website**

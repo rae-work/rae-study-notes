@@ -16,7 +16,7 @@
       "ja": "インドネシア語 · UGM INCULS",
       "en": "Bahasa Indonesia · UGM INCULS"
     },
-    "version": "1.2.0",
+    "version": "1.3.0",
     "unit_label": "Bab",
     "unit_label_note": "单元在页眉和目录里的叫法。UGM 教材用 Bab，别的教材可能是 Pelajaran / Unit。",
     "repo": "https://github.com/rae-work/rae-study-notes"

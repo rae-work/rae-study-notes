@@ -287,6 +287,134 @@
         "Sampai jumpa.",
         "Apa kabar?"
       ]
+    },
+    {
+      "q": "Berapa umur Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "说你二十岁",
+        "ja": "20 歳だと答える",
+        "en": "say you are twenty"
+      },
+      "a": "Umur saya dua puluh tahun.",
+      "a_reg": "formal",
+      "alts": [
+        "Umur saya dua belas tahun.",
+        "Umur saya dua puluh dua tahun.",
+        "Umur saya dua tahun."
+      ]
+    },
+    {
+      "q": "Apa pekerjaan Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "说你是大学生",
+        "ja": "大学生だと答える",
+        "en": "say you are a university student"
+      },
+      "a": "Saya seorang mahasiswa.",
+      "a_reg": "formal",
+      "alts": [
+        "Saya seorang guru.",
+        "Saya seorang dokter.",
+        "Saya seorang karyawan."
+      ]
+    },
+    {
+      "q": "Apa hobi Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "说你的爱好是读书",
+        "ja": "趣味は読書だと答える",
+        "en": "say your hobby is reading"
+      },
+      "a": "Hobi saya membaca.",
+      "a_reg": "formal",
+      "alts": [
+        "Hobi saya memasak.",
+        "Hobi saya berenang.",
+        "Hobi saya berbelanja."
+      ]
+    },
+    {
+      "q": "Anda berasal dari mana?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "说你来自自己的国家",
+        "ja": "自分の国の出身だと答える",
+        "en": "say you come from your own country"
+      },
+      "a": "Saya berasal dari {NEGARA}.",
+      "a_reg": "formal",
+      "alts": [
+        "Saya berasal dari Lombok.",
+        "Saya berasal dari Jogja.",
+        "Saya berasal dari Indonesia."
+      ]
+    },
+    {
+      "q": "Berapa umur teman Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "说她二十八岁",
+        "ja": "その人は 28 歳だと答える",
+        "en": "say she is twenty-eight"
+      },
+      "a": "Umurnya dua puluh delapan tahun.",
+      "a_reg": "formal",
+      "alts": [
+        "Umurnya dua puluh tahun.",
+        "Umurnya delapan belas tahun.",
+        "Umurnya tiga puluh delapan tahun."
+      ]
+    },
+    {
+      "q": "Apa hobi teman Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "说她的爱好是逛街",
+        "ja": "その人の趣味は買い物だと答える",
+        "en": "say her hobby is shopping"
+      },
+      "a": "Hobinya berbelanja.",
+      "a_reg": "formal",
+      "alts": [
+        "Hobinya membaca.",
+        "Hobinya menyanyi.",
+        "Hobi saya berbelanja."
+      ]
+    },
+    {
+      "q": "Apa pekerjaan teman Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "说她也是老师",
+        "ja": "その人も教師だと答える",
+        "en": "say she is a teacher too"
+      },
+      "a": "Dia juga seorang guru.",
+      "a_reg": "formal",
+      "alts": [
+        "Dia seorang dokter.",
+        "Saya juga seorang guru.",
+        "Dia juga seorang mahasiswa."
+      ]
+    },
+    {
+      "q": "Siapa nama panggilan Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "让对方叫你 Novi",
+        "ja": "Novi と呼んでほしいと言う",
+        "en": "ask to be called Novi"
+      },
+      "a": "Panggil saya Novi.",
+      "a_reg": "formal",
+      "alts": [
+        "Nama saya Novi.",
+        "Panggil saya Ilfat.",
+        "Namanya Novi."
+      ]
     }
   ],
   "tempat": [
@@ -361,9 +489,68 @@
       },
       "a": "Saya lahir di Kudus.",
       "a_reg": "formal"
+    },
+    {
+      "hint": {
+        "zh": "她来自龙目岛",
+        "ja": "その人はロンボク島の出身",
+        "en": "she comes from Lombok"
+      },
+      "a": "Dia berasal dari Lombok.",
+      "a_reg": "formal"
+    },
+    {
+      "hint": {
+        "zh": "我现在住在日惹",
+        "ja": "いまはジョグジャに住んでいる",
+        "en": "I live in Jogja now"
+      },
+      "a": "Sekarang saya tinggal di Jogja.",
+      "a_reg": "formal"
     }
   ],
-  "angka_pool": [],
+  "angka_pool": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    25,
+    30,
+    34,
+    35,
+    40,
+    45,
+    48,
+    50,
+    56,
+    60,
+    67,
+    70,
+    74,
+    80,
+    85,
+    89,
+    90,
+    95,
+    99
+  ],
   "posesif": [
     {
       "id": "p01",
@@ -1413,5 +1600,7 @@
         "en": "glasses"
       }
     }
-  ]
+  ],
+  "jam_enabled": false,
+  "jam_enabled_note": "教材还没教「几点了」（setengah 的说法）。教到那一章就删掉这一行或改成 true，实战里的时间题会自动出现。"
 }
