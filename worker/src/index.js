@@ -406,11 +406,13 @@ function when(ts){
 
 function bar(){
   var b = document.getElementById('bar'), out = '';
-  [[7,'近 7 天'],[30,'近 30 天'],[0,'全部']].forEach(function(x){
+  /* 两组按钮的文字不能重样 —— 窄屏上这一行会换行，两个「全部」挨在一起
+     就分不清哪个是时间、哪个是数据来源了。 */
+  [[7,'近 7 天'],[30,'近 30 天'],[0,'不限时间']].forEach(function(x){
     out += '<button data-d="'+x[0]+'" class="'+(days===x[0]?'on':'')+'">'+x[1]+'</button>';
   });
   out += '<span style="flex:1"></span>';
-  [['live','正式'],['test','试用'],['all','全部']].forEach(function(x){
+  [['live','正式'],['test','试用'],['all','两者都看']].forEach(function(x){
     out += '<button data-t="'+x[0]+'" class="'+(tagMode===x[0]?'on':'')+'">'+x[1]+'</button>';
   });
   b.innerHTML = out;

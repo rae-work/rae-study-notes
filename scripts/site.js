@@ -39,7 +39,7 @@ const BEACON = 'https://static.cloudflareinsights.com/beacon.min.js';
 /* 使用情况收集的接收地址（worker/ 那个 Cloudflare Worker）。
    同样写死在这里而不是 meta.json，理由同上。
    部署步骤见 worker/README.md；**留空就整段不注入**，网站行为跟以前一模一样。 */
-const COLLECT = process.env.TELEMETRY_ENDPOINT || '';
+const COLLECT = process.env.TELEMETRY_ENDPOINT || 'https://catatan.zirui-mail.workers.dev/n';
 
 const DOCS = path.join(ROOT, 'docs');
 

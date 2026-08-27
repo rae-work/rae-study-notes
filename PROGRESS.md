@@ -8,9 +8,9 @@
 **当前状态：v1.1.0 已上线（2026-08-26）。第一课 + 第二课，音频 100%。**
 
 > 🚧 **v1.2.0 在 `telemetry` 分支上，还没上线。** 网站版加了匿名使用情况收集
-> （见下面「使用情况收集」一节）。**还差两步**：① Rae 部署 `worker/`；
-> ② 把地址填进 `scripts/site.js` 的 `COLLECT`。在那之前 `npm run site`
-> 生成的网站跟以前一模一样，什么都不发。
+> （见下面「使用情况收集」一节）。Worker 已部署、口令已设、地址已填进
+> `scripts/site.js` 的 `COLLECT`，线上链路验证过能通。
+> **就差 Rae 在手机上试一遍并点头**，然后 `npm run site`（不带 `--tag`）+ push。
 
 > ⚠️ **App 已经上线，全班同学在用。任何改动未经 Rae 明确同意不得合并进 `main`** ——
 > push main 会立刻重新发布 belajar.rae.work，等于直接改所有人正在用的版本。
@@ -127,6 +127,7 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。三语界面
 | 发布 | GitHub Pages 从 `main` 的 `/docs` 目录 |
 | DNS | Cloudflare，`belajar` CNAME → `rae-work.github.io`，**灰云** |
 | 统计 | Cloudflare Web Analytics（只在网站，不在 APK） |
+| 使用情况 | Worker `catatan` + D1 `rsn-data`。收数据 `https://catatan.zirui-mail.workers.dev/n`，看统计 `/lihat?k=口令`（口令只在 Cloudflare Secret `VIEW_KEY` 里，本机和仓库都没有） |
 
 **更新网站：**
 
@@ -208,7 +209,8 @@ git add -A && git commit -m "更新网站" && git push
 ```bash
 npm run validate         # 九道关（--quick 跳 7–9 关，--allow-todo 三语降级为警告）
 npm run build            # → dist/rae-study-notes.html
-npm run preview          # 本地 + 局域网地址，手机能开
+npm run preview          # 本地 + 局域网地址，手机能开（伺服 dist/）
+npm run preview -- --site    # 改伺服 docs/ —— 只有这一份带统计和使用情况收集
 npm run site             # → docs/（网站：HTML + 音频 + CNAME + 统计 + 使用情况收集）
 npm run site -- --tag test   # 同上，但数据标成「试用」，统计页默认不显示
 npm run prepare-assets   # → 安卓 assets（云端工作流也跑它）

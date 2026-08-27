@@ -15,7 +15,7 @@ compatibility_date = "2026-08-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "rsn-data"
-database_id = "PUT_DATABASE_ID_HERE"
+database_id = "f368c03a-6c3e-4cfe-9882-bd8287c36b25"
 
 [observability]
 enabled = true

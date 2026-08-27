@@ -3,7 +3,11 @@
  * 本地预览：起一个静态服务器，同时伺服 dist/<app.id>.html 和 audio/。
  * 打印本机地址和局域网地址 —— 手机连同一个 Wi-Fi 就能直接打开。
  *
- * 用法：node scripts/preview.js [端口]
+ * 加 --site 改成伺服 docs/（网站那一份）。两份的差别只在网站版才有的
+ * 那两段脚本 —— 访问统计和使用情况收集。要在手机上验它们就得用这个，
+ * 因为 dist/ 里根本没有那些代码。docs/ 自带 audio/，整个目录当根目录伺服。
+ *
+ * 用法：node scripts/preview.js [--site] [端口]
  */
 import http from 'node:http';
 import fs from 'node:fs';
@@ -13,9 +17,13 @@ import { execFile } from 'node:child_process';
 import { ROOT, P } from './lib/paths.js';
 import { distFile } from './lib/build.js';
 
-const INDEX = distFile();
+const argv = process.argv.slice(2);
+const SITE = argv.includes('--site');
 
-const PORT = Number(process.argv[2]) || 8787;
+const INDEX = SITE ? 'index.html' : distFile();
+const BASE = SITE ? path.join(ROOT, 'docs') : P.dist;
+
+const PORT = Number(argv.find((a) => /^\d+$/.test(a))) || 8787;
 
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -24,8 +32,10 @@ const TYPES = {
   '.png': 'image/png',
 };
 
-if (!fs.existsSync(path.join(P.dist, INDEX))) {
-  console.error('还没有构建产物 —— 先跑 npm run build');
+if (!fs.existsSync(path.join(BASE, INDEX))) {
+  console.error(SITE
+    ? '还没有网站产物 —— 先跑 npm run build && npm run site'
+    : '还没有构建产物 —— 先跑 npm run build');
   process.exit(1);
 }
 
@@ -33,13 +43,13 @@ const server = http.createServer((req, res) => {
   let urlPath = decodeURIComponent(req.url.split('?')[0]);
   if (urlPath === '/' || urlPath === '/index.html') urlPath = '/' + INDEX;
 
-  // audio/ 从项目根目录取，其余从 dist/ 取
-  const file = urlPath.startsWith('/audio/')
-    ? path.join(ROOT, urlPath)
-    : path.join(P.dist, urlPath);
+  /* docs/ 里已经带了自己的 audio/，整个目录当根目录伺服；
+     dist/ 没有，音频要回项目根目录的 audio/ 取。 */
+  const useRootAudio = !SITE && urlPath.startsWith('/audio/');
+  const file = useRootAudio ? path.join(ROOT, urlPath) : path.join(BASE, urlPath);
 
   // 防目录穿越
-  const okRoot = urlPath.startsWith('/audio/') ? P.audio : P.dist;
+  const okRoot = useRootAudio ? P.audio : BASE;
   if (!path.resolve(file).startsWith(path.resolve(okRoot))) {
     res.writeHead(403).end('403');
     return;
@@ -57,7 +67,9 @@ server.listen(PORT, '0.0.0.0', () => {
     for (const n of list || []) if (n.family === 'IPv4' && !n.internal) lan.push(n.address);
   }
   console.log('');
-  console.log('  预览已启动，按 Ctrl+C 停止');
+  console.log(SITE
+    ? '  网站版预览已启动（docs/，带访问统计和使用情况收集），按 Ctrl+C 停止'
+    : '  预览已启动，按 Ctrl+C 停止');
   console.log('');
   console.log(`  这台 Mac：   http://localhost:${PORT}/`);
   for (const ip of lan) console.log(`  手机上打开： http://${ip}:${PORT}/   （手机要连同一个 Wi-Fi）`);
