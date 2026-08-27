@@ -2958,5 +2958,1637 @@
       "en": "That cap is black."
     },
     "note": null
+  },
+  {
+    "w": "kurang",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "不太⋯ · 不够",
+      "ja": "あまり〜でない · 足りない",
+      "en": "not quite, insufficiently"
+    },
+    "pos": "adv",
+    "ex": "Saya kurang sehat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我不太舒服。",
+      "ja": "少し体調がよくありません。",
+      "en": "I'm not feeling well."
+    },
+    "note": {
+      "zh": "放在形容词前面，是委婉的否定 —— 比直接说「不」客气。",
+      "ja": "形容詞の前に置く、やわらかい否定。「〜でない」と言い切るより丁寧です。",
+      "en": "Placed before an adjective it softens the negative — gentler than a flat “not”."
+    }
+  },
+  {
+    "w": "sehat",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "健康的 · 舒服",
+      "ja": "健康な · 元気な",
+      "en": "healthy, well"
+    },
+    "pos": "adj",
+    "ex": "Saya sehat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我很好。",
+      "ja": "元気です。",
+      "en": "I'm well."
+    },
+    "note": null
+  },
+  {
+    "w": "lumayan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "还行 · 还不错",
+      "ja": "まずまず · そこそこ",
+      "en": "not bad, so-so"
+    },
+    "pos": "adj",
+    "ex": "Lumayan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "还行。",
+      "ja": "まずまずです。",
+      "en": "Not bad."
+    },
+    "note": null
+  },
+  {
+    "w": "capek",
+    "les": 3,
+    "reg": "casual",
+    "pair": null,
+    "gloss": {
+      "zh": "累",
+      "ja": "疲れた",
+      "en": "tired"
+    },
+    "pos": "adj",
+    "ex": "Saya sedikit capek.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我有点累。",
+      "ja": "少し疲れています。",
+      "en": "I'm a bit tired."
+    },
+    "note": {
+      "zh": "口语词，正式场合说 lelah。",
+      "ja": "くだけた語。あらたまった場では lelah。",
+      "en": "Colloquial; the formal word is lelah."
+    }
+  },
+  {
+    "w": "bagaimana",
+    "les": 3,
+    "reg": "formal",
+    "pair": "gimana",
+    "gloss": {
+      "zh": "怎么样 · 如何",
+      "ja": "どのように · どう",
+      "en": "how"
+    },
+    "pos": "interrog",
+    "ex": "Bagaimana kabar Anda?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您近来好吗？",
+      "ja": "お変わりありませんか。",
+      "en": "How have you been?"
+    },
+    "note": null
+  },
+  {
+    "w": "gimana",
+    "les": 3,
+    "reg": "casual",
+    "pair": "bagaimana",
+    "gloss": {
+      "zh": "怎么样（口语）",
+      "ja": "どう（くだけた言い方）",
+      "en": "how (colloquial)"
+    },
+    "pos": "interrog",
+    "ex": "Gimana kabarnya?",
+    "ex_reg": "casual",
+    "ex_gloss": {
+      "zh": "你怎么样？",
+      "ja": "調子どう？",
+      "en": "How's it going?"
+    },
+    "note": null
+  },
+  {
+    "w": "sendiri",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "自己 · 本人",
+      "ja": "自分 · 〜自身",
+      "en": "oneself; and you?"
+    },
+    "pos": "pron",
+    "ex": "Anda sendiri?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您呢？",
+      "ja": "あなたは？",
+      "en": "And you?"
+    },
+    "note": {
+      "zh": "跟在人称代词后面反问，等于中文的「你呢」。",
+      "ja": "人称代名詞のあとにつけて聞き返すと「あなたは？」の意味になります。",
+      "en": "After a pronoun it turns into “and you?”"
+    }
+  },
+  {
+    "w": "perkenalkan",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "容我介绍（开场白）",
+      "ja": "ご紹介します（切り出し）",
+      "en": "let me introduce"
+    },
+    "pos": "v",
+    "ex": "Perkenalkan, nama saya Ilfat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "容我介绍一下，我叫 Ilfat。",
+      "ja": "ご紹介します。名前は Ilfat です。",
+      "en": "Let me introduce myself: my name is Ilfat."
+    },
+    "note": {
+      "zh": "Bab 1 的 kenalkan 是同一个词的短形式，两个都对。",
+      "ja": "Bab 1 の kenalkan は同じ語の短い形。どちらも正しい言い方です。",
+      "en": "Bab 1's kenalkan is the short form of the same word; both are correct."
+    }
+  },
+  {
+    "w": "panggil",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "叫 · 称呼",
+      "ja": "呼ぶ",
+      "en": "to call (someone something)"
+    },
+    "pos": "v",
+    "ex": "Panggil saya Novi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "叫我 Novi 就行。",
+      "ja": "Novi と呼んでください。",
+      "en": "Please call me Novi."
+    },
+    "note": null
+  },
+  {
+    "w": "panggilan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "称呼 · 小名",
+      "ja": "呼び名 · 通称",
+      "en": "the name people call you"
+    },
+    "pos": "n",
+    "ex": "Nama panggilan saya Novi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的小名叫 Novi。",
+      "ja": "通称は Novi です。",
+      "en": "My short name is Novi."
+    },
+    "note": null
+  },
+  {
+    "w": "seorang",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "一位（人的量词）",
+      "ja": "一人の（人の助数詞）",
+      "en": "a (one person)"
+    },
+    "pos": "num",
+    "ex": "Saya seorang guru.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是老师。",
+      "ja": "わたしは教師です。",
+      "en": "I'm a teacher."
+    },
+    "note": {
+      "zh": "se-（一）+ orang（人）。省掉也对，加上更正式。",
+      "ja": "se-（一）+ orang（人）。省いてもよく、入れるとあらたまった言い方になります。",
+      "en": "se- (one) + orang (person). It can be dropped; keeping it sounds more formal."
+    }
+  },
+  {
+    "w": "asal",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "出身 · 来处",
+      "ja": "出身 · 出どころ",
+      "en": "origin, where someone is from"
+    },
+    "pos": "n",
+    "ex": "Apa asal Anda?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您是哪里人？",
+      "ja": "ご出身はどちらですか。",
+      "en": "Where are you from?"
+    },
+    "note": null
+  },
+  {
+    "w": "berasal",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "来自 · 出身于",
+      "ja": "〜の出身である",
+      "en": "to come from"
+    },
+    "pos": "v",
+    "ex": "Dia berasal dari Lombok.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "她来自龙目岛。",
+      "ja": "ロンボク島の出身です。",
+      "en": "She comes from Lombok."
+    },
+    "note": {
+      "zh": "berasal dari 比 dari 正式一点，意思一样。",
+      "ja": "berasal dari は dari よりややあらたまった言い方で、意味は同じです。",
+      "en": "berasal dari is a shade more formal than plain dari; the meaning is the same."
+    }
+  },
+  {
+    "w": "lengkap",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "完整的 · 齐全的",
+      "ja": "完全な · そろっている",
+      "en": "complete, full"
+    },
+    "pos": "adj",
+    "ex": "Nama lengkap saya Novi Wulandari.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的全名是 Novi Wulandari。",
+      "ja": "正式な名前は Novi Wulandari です。",
+      "en": "My full name is Novi Wulandari."
+    },
+    "note": null
+  },
+  {
+    "w": "umur",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "年龄",
+      "ja": "年齢",
+      "en": "age"
+    },
+    "pos": "n",
+    "ex": "Umur saya dua puluh tahun.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我二十岁。",
+      "ja": "わたしは 20 歳です。",
+      "en": "I'm twenty years old."
+    },
+    "note": null
+  },
+  {
+    "w": "berumur",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "年龄是 · 有⋯岁",
+      "ja": "〜歳である",
+      "en": "to be (so many) years old"
+    },
+    "pos": "v",
+    "ex": "Saya berumur dua puluh tahun.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我二十岁。",
+      "ja": "わたしは 20 歳です。",
+      "en": "I'm twenty years old."
+    },
+    "note": {
+      "zh": "Umur saya … tahun 和 Saya berumur … tahun 完全等价。",
+      "ja": "Umur saya … tahun と Saya berumur … tahun はまったく同じ意味です。",
+      "en": "Umur saya … tahun and Saya berumur … tahun are exact equivalents."
+    }
+  },
+  {
+    "w": "hobi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "爱好",
+      "ja": "趣味",
+      "en": "hobby"
+    },
+    "pos": "n",
+    "ex": "Apa hobi Anda?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您有什么爱好？",
+      "ja": "ご趣味は何ですか。",
+      "en": "What are your hobbies?"
+    },
+    "note": null
+  },
+  {
+    "w": "wawancara",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "采访 · 面试",
+      "ja": "インタビュー · 面接",
+      "en": "interview"
+    },
+    "pos": "n",
+    "ex": "Kita wawancara teman.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们采访同学。",
+      "ja": "クラスメイトにインタビューします。",
+      "en": "We interview a classmate."
+    },
+    "note": null
+  },
+  {
+    "w": "huruf",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "字母",
+      "ja": "文字",
+      "en": "letter (of the alphabet)"
+    },
+    "pos": "n",
+    "ex": "Huruf apa ini?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是什么字母？",
+      "ja": "これは何の文字ですか。",
+      "en": "What letter is this?"
+    },
+    "note": null
+  },
+  {
+    "w": "abjad",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "字母表",
+      "ja": "アルファベット",
+      "en": "the alphabet"
+    },
+    "pos": "n",
+    "ex": "Abjad Indonesia ada dua puluh enam huruf.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "印尼语字母表有二十六个字母。",
+      "ja": "インドネシア語のアルファベットは 26 文字です。",
+      "en": "The Indonesian alphabet has twenty-six letters."
+    },
+    "note": null
+  },
+  {
+    "w": "bunyi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "声音 · 读音",
+      "ja": "音 · 発音",
+      "en": "sound"
+    },
+    "pos": "n",
+    "ex": "Bunyi huruf c.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "字母 c 的读音。",
+      "ja": "文字 c の音。",
+      "en": "The sound of the letter c."
+    },
+    "note": null
+  },
+  {
+    "w": "vokal",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "元音",
+      "ja": "母音",
+      "en": "vowel"
+    },
+    "pos": "n",
+    "ex": "Ada lima vokal.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "有五个元音。",
+      "ja": "母音は五つあります。",
+      "en": "There are five vowels."
+    },
+    "note": null
+  },
+  {
+    "w": "konsonan",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "辅音",
+      "ja": "子音",
+      "en": "consonant"
+    },
+    "pos": "n",
+    "ex": "Huruf c konsonan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "字母 c 是辅音。",
+      "ja": "文字 c は子音です。",
+      "en": "The letter c is a consonant."
+    },
+    "note": null
+  },
+  {
+    "w": "eja",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "拼写",
+      "ja": "つづる",
+      "en": "to spell out"
+    },
+    "pos": "v",
+    "ex": "Tolong eja nama Anda.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "请把您的名字拼一下。",
+      "ja": "お名前をつづってください。",
+      "en": "Please spell your name."
+    },
+    "note": null
+  },
+  {
+    "w": "angka",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "数字",
+      "ja": "数字",
+      "en": "number, digit"
+    },
+    "pos": "n",
+    "ex": "Angka berapa ini?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是几？",
+      "ja": "これは何の数字ですか。",
+      "en": "What number is this?"
+    },
+    "note": null
+  },
+  {
+    "w": "nol",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "零",
+      "ja": "ゼロ",
+      "en": "zero"
+    },
+    "pos": "num",
+    "ex": "Nol koma lima.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "零点五。",
+      "ja": "〇・五。",
+      "en": "Nought point five."
+    },
+    "note": {
+      "zh": "念电话号码和房号时改说 kosong。",
+      "ja": "電話番号や部屋番号を読むときは kosong に変わります。",
+      "en": "Reading phone or room numbers, it becomes kosong instead."
+    }
+  },
+  {
+    "w": "kosong",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "空的；（念号码时）零",
+      "ja": "からの；（番号を読むとき）ゼロ",
+      "en": "empty; zero when reading digits"
+    },
+    "pos": "adj",
+    "ex": "Kelas ini kosong.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这间教室是空的。",
+      "ja": "この教室はからです。",
+      "en": "This classroom is empty."
+    },
+    "note": {
+      "zh": "0812 念作 kosong delapan satu dua。",
+      "ja": "0812 は kosong delapan satu dua と読みます。",
+      "en": "0812 is read kosong delapan satu dua."
+    }
+  },
+  {
+    "w": "satu",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "一",
+      "ja": "一",
+      "en": "one"
+    },
+    "pos": "num",
+    "ex": "Satu buku.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "一本书。",
+      "ja": "本が一冊。",
+      "en": "One book."
+    },
+    "note": {
+      "zh": "当前缀时缩成 se-：sepuluh、seratus、seorang。",
+      "ja": "接頭辞になると se- に縮みます —— sepuluh・seratus・seorang。",
+      "en": "As a prefix it shrinks to se-: sepuluh, seratus, seorang."
+    }
+  },
+  {
+    "w": "tiga",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "三",
+      "ja": "三",
+      "en": "three"
+    },
+    "pos": "num",
+    "ex": "Tiga tahun.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "三年。",
+      "ja": "三年。",
+      "en": "Three years."
+    },
+    "note": null
+  },
+  {
+    "w": "empat",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "四",
+      "ja": "四",
+      "en": "four"
+    },
+    "pos": "num",
+    "ex": "Empat orang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "四个人。",
+      "ja": "四人。",
+      "en": "Four people."
+    },
+    "note": null
+  },
+  {
+    "w": "lima",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "五",
+      "ja": "五",
+      "en": "five"
+    },
+    "pos": "num",
+    "ex": "Lima buku.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "五本书。",
+      "ja": "本が五冊。",
+      "en": "Five books."
+    },
+    "note": null
+  },
+  {
+    "w": "enam",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "六",
+      "ja": "六",
+      "en": "six"
+    },
+    "pos": "num",
+    "ex": "Enam kursi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "六把椅子。",
+      "ja": "いすが六脚。",
+      "en": "Six chairs."
+    },
+    "note": null
+  },
+  {
+    "w": "tujuh",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "七",
+      "ja": "七",
+      "en": "seven"
+    },
+    "pos": "num",
+    "ex": "Tujuh hari.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "七天。",
+      "ja": "七日。",
+      "en": "Seven days."
+    },
+    "note": null
+  },
+  {
+    "w": "delapan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "八",
+      "ja": "八",
+      "en": "eight"
+    },
+    "pos": "num",
+    "ex": "Delapan orang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "八个人。",
+      "ja": "八人。",
+      "en": "Eight people."
+    },
+    "note": null
+  },
+  {
+    "w": "sembilan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "九",
+      "ja": "九",
+      "en": "nine"
+    },
+    "pos": "num",
+    "ex": "Sembilan tahun.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "九年。",
+      "ja": "九年。",
+      "en": "Nine years."
+    },
+    "note": null
+  },
+  {
+    "w": "sebelas",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "十一",
+      "ja": "十一",
+      "en": "eleven"
+    },
+    "pos": "num",
+    "ex": "Umur saya sebelas tahun.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我十一岁。",
+      "ja": "わたしは 11 歳です。",
+      "en": "I'm eleven years old."
+    },
+    "note": {
+      "zh": "不说 satu belas。",
+      "ja": "satu belas とは言いません。",
+      "en": "Never “satu belas”."
+    }
+  },
+  {
+    "w": "belas",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "⋯十几（12–19 的后缀）",
+      "ja": "〜十いくつ（12〜19 をつくる語）",
+      "en": "-teen (forms 12 to 19)"
+    },
+    "pos": "num",
+    "ex": "Dua belas buku.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "十二本书。",
+      "ja": "本が十二冊。",
+      "en": "Twelve books."
+    },
+    "note": {
+      "zh": "分开写：dua belas、lima belas。只有 sebelas 连写。",
+      "ja": "分けて書きます —— dua belas・lima belas。続けて書くのは sebelas だけ。",
+      "en": "Written as two words: dua belas, lima belas. Only sebelas is joined."
+    }
+  },
+  {
+    "w": "puluh",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "十（构成几十）",
+      "ja": "十（十の位をつくる語）",
+      "en": "ten (forms the tens)"
+    },
+    "pos": "num",
+    "ex": "Dua puluh lima.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "二十五。",
+      "ja": "二十五。",
+      "en": "Twenty-five."
+    },
+    "note": {
+      "zh": "几十在前、个位在后，中间不加词。",
+      "ja": "十の位が先、一の位があと。あいだに語は入りません。",
+      "en": "Tens first, unit after, with nothing in between."
+    }
+  },
+  {
+    "w": "ratus",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "百",
+      "ja": "百",
+      "en": "hundred"
+    },
+    "pos": "num",
+    "ex": "Dua ratus.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "二百。",
+      "ja": "二百。",
+      "en": "Two hundred."
+    },
+    "note": null
+  },
+  {
+    "w": "seratus",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "一百",
+      "ja": "百",
+      "en": "one hundred"
+    },
+    "pos": "num",
+    "ex": "Seratus dua puluh lima.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "一百二十五。",
+      "ja": "百二十五。",
+      "en": "A hundred and twenty-five."
+    },
+    "note": null
+  },
+  {
+    "w": "ribu",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "千",
+      "ja": "千",
+      "en": "thousand"
+    },
+    "pos": "num",
+    "ex": "Dua puluh lima ribu.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "两万五千。",
+      "ja": "二万五千。",
+      "en": "Twenty-five thousand."
+    },
+    "note": null
+  },
+  {
+    "w": "seribu",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "一千",
+      "ja": "千",
+      "en": "one thousand"
+    },
+    "pos": "num",
+    "ex": "Seribu rupiah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "一千印尼盾。",
+      "ja": "千ルピア。",
+      "en": "One thousand rupiah."
+    },
+    "note": null
+  },
+  {
+    "w": "rupiah",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "印尼盾",
+      "ja": "ルピア",
+      "en": "rupiah (Indonesian currency)"
+    },
+    "pos": "n",
+    "ex": "Dua puluh lima ribu rupiah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "两万五千印尼盾。",
+      "ja": "二万五千ルピア。",
+      "en": "Twenty-five thousand rupiah."
+    },
+    "note": null
+  },
+  {
+    "w": "pelajar",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "学生（中小学）",
+      "ja": "生徒",
+      "en": "school pupil"
+    },
+    "pos": "n",
+    "ex": "Dia seorang pelajar.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他是中学生。",
+      "ja": "彼は生徒です。",
+      "en": "He's a school pupil."
+    },
+    "note": {
+      "zh": "大学生是 mahasiswa。",
+      "ja": "大学生は mahasiswa。",
+      "en": "A university student is a mahasiswa."
+    }
+  },
+  {
+    "w": "dokter",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "医生",
+      "ja": "医者",
+      "en": "doctor"
+    },
+    "pos": "n",
+    "ex": "Saya seorang dokter.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是医生。",
+      "ja": "わたしは医者です。",
+      "en": "I'm a doctor."
+    },
+    "note": null
+  },
+  {
+    "w": "perawat",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "护士",
+      "ja": "看護師",
+      "en": "nurse"
+    },
+    "pos": "n",
+    "ex": "Dia seorang perawat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "她是护士。",
+      "ja": "彼女は看護師です。",
+      "en": "She's a nurse."
+    },
+    "note": null
+  },
+  {
+    "w": "karyawan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "公司职员",
+      "ja": "会社員",
+      "en": "company employee"
+    },
+    "pos": "n",
+    "ex": "Saya seorang karyawan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是公司职员。",
+      "ja": "わたしは会社員です。",
+      "en": "I'm a company employee."
+    },
+    "note": null
+  },
+  {
+    "w": "pegawai",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "职员 · 公务员",
+      "ja": "職員 · 公務員",
+      "en": "staff member, civil servant"
+    },
+    "pos": "n",
+    "ex": "Dia seorang pegawai.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他是职员。",
+      "ja": "彼は職員です。",
+      "en": "He's a staff member."
+    },
+    "note": null
+  },
+  {
+    "w": "insinyur",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "工程师",
+      "ja": "技師",
+      "en": "engineer"
+    },
+    "pos": "n",
+    "ex": "Saya seorang insinyur.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是工程师。",
+      "ja": "わたしは技師です。",
+      "en": "I'm an engineer."
+    },
+    "note": null
+  },
+  {
+    "w": "jalan-jalan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "到处逛 · 出游",
+      "ja": "出かける · 散策する",
+      "en": "to go out and about"
+    },
+    "pos": "v",
+    "ex": "Hobi saya jalan-jalan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的爱好是到处逛。",
+      "ja": "趣味は出かけることです。",
+      "en": "My hobby is getting out and about."
+    },
+    "note": null
+  },
+  {
+    "w": "berbelanja",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "购物",
+      "ja": "買い物をする",
+      "en": "to go shopping"
+    },
+    "pos": "v",
+    "ex": "Hobinya berbelanja.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "她的爱好是逛街。",
+      "ja": "趣味は買い物です。",
+      "en": "Her hobby is shopping."
+    },
+    "note": null
+  },
+  {
+    "w": "membaca",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "阅读",
+      "ja": "読む",
+      "en": "to read"
+    },
+    "pos": "v",
+    "ex": "Hobi saya membaca.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的爱好是读书。",
+      "ja": "趣味は読書です。",
+      "en": "My hobby is reading."
+    },
+    "note": null
+  },
+  {
+    "w": "memasak",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "做饭",
+      "ja": "料理する",
+      "en": "to cook"
+    },
+    "pos": "v",
+    "ex": "Hobinya memasak.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他的爱好是做饭。",
+      "ja": "趣味は料理です。",
+      "en": "Their hobby is cooking."
+    },
+    "note": null
+  },
+  {
+    "w": "berolahraga",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "做运动",
+      "ja": "運動する",
+      "en": "to do sport"
+    },
+    "pos": "v",
+    "ex": "Saya suka berolahraga.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我喜欢运动。",
+      "ja": "運動するのが好きです。",
+      "en": "I like doing sport."
+    },
+    "note": null
+  },
+  {
+    "w": "menonton film",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "看电影",
+      "ja": "映画を見る",
+      "en": "to watch films"
+    },
+    "pos": "v",
+    "ex": "Hobi saya menonton film.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的爱好是看电影。",
+      "ja": "趣味は映画鑑賞です。",
+      "en": "My hobby is watching films."
+    },
+    "note": null
+  },
+  {
+    "w": "mendengarkan musik",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "听音乐",
+      "ja": "音楽を聴く",
+      "en": "to listen to music"
+    },
+    "pos": "v",
+    "ex": "Hobi saya mendengarkan musik.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的爱好是听音乐。",
+      "ja": "趣味は音楽を聴くことです。",
+      "en": "My hobby is listening to music."
+    },
+    "note": null
+  },
+  {
+    "w": "berenang",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "游泳",
+      "ja": "泳ぐ",
+      "en": "to swim"
+    },
+    "pos": "v",
+    "ex": "Saya suka berenang.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我喜欢游泳。",
+      "ja": "泳ぐのが好きです。",
+      "en": "I like swimming."
+    },
+    "note": null
+  },
+  {
+    "w": "menyanyi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "唱歌",
+      "ja": "歌う",
+      "en": "to sing"
+    },
+    "pos": "v",
+    "ex": "Hobi saya menyanyi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的爱好是唱歌。",
+      "ja": "趣味は歌うことです。",
+      "en": "My hobby is singing."
+    },
+    "note": null
+  },
+  {
+    "w": "juga",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "也",
+      "ja": "〜も",
+      "en": "also, too"
+    },
+    "pos": "adv",
+    "ex": "Dia juga guru.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "她也是老师。",
+      "ja": "彼女も教師です。",
+      "en": "She's a teacher too."
+    },
+    "note": {
+      "zh": "放在它修饰的成分前面。",
+      "ja": "修飾する語の前に置きます。",
+      "en": "It goes in front of what it modifies."
+    }
+  },
+  {
+    "w": "semua",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "全部 · 各位",
+      "ja": "すべて · みなさん",
+      "en": "all, everyone"
+    },
+    "pos": "pron",
+    "ex": "Senang bertemu dengan Anda semua.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "很高兴见到各位。",
+      "ja": "みなさんにお会いできてうれしいです。",
+      "en": "Pleased to meet you all."
+    },
+    "note": null
+  },
+  {
+    "w": "laki-laki",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "男的 · 男性",
+      "ja": "男性",
+      "en": "male, man"
+    },
+    "pos": "n",
+    "ex": "Dia laki-laki.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他是男的。",
+      "ja": "その人は男性です。",
+      "en": "They're male."
+    },
+    "note": null
+  },
+  {
+    "w": "perempuan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "女的 · 女性",
+      "ja": "女性",
+      "en": "female, woman"
+    },
+    "pos": "n",
+    "ex": "Dia perempuan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她是女的。",
+      "ja": "その人は女性です。",
+      "en": "They're female."
+    },
+    "note": {
+      "zh": "印尼语的 dia 不分男女，要说清楚就加这两个词。",
+      "ja": "インドネシア語の dia は男女を区別しないので、はっきりさせたいときにこの二語を使います。",
+      "en": "Indonesian dia is gender-neutral, so these two words are how you make it explicit."
+    }
+  },
+  {
+    "w": "kalau",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "如果 · 至于",
+      "ja": "もし · 〜については",
+      "en": "if; as for"
+    },
+    "pos": "conj",
+    "ex": "Kalau saya, hobi saya membaca.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的话，爱好是读书。",
+      "ja": "わたしはというと、趣味は読書です。",
+      "en": "As for me, my hobby is reading."
+    },
+    "note": null
+  },
+  {
+    "w": "atau",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "或者",
+      "ja": "または",
+      "en": "or"
+    },
+    "pos": "conj",
+    "ex": "Guru atau mahasiswa?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "是老师还是学生？",
+      "ja": "教師ですか、学生ですか。",
+      "en": "Teacher or student?"
+    },
+    "note": null
+  },
+  {
+    "w": "mata",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "眼睛",
+      "ja": "目",
+      "en": "eye"
+    },
+    "pos": "n",
+    "ex": "Mata saya.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的眼睛。",
+      "ja": "わたしの目。",
+      "en": "My eyes."
+    },
+    "note": null
+  },
+  {
+    "w": "kopi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "咖啡",
+      "ja": "コーヒー",
+      "en": "coffee"
+    },
+    "pos": "n",
+    "ex": "Saya suka kopi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我喜欢咖啡。",
+      "ja": "コーヒーが好きです。",
+      "en": "I like coffee."
+    },
+    "note": null
+  },
+  {
+    "w": "susu",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "牛奶",
+      "ja": "牛乳",
+      "en": "milk"
+    },
+    "pos": "n",
+    "ex": "Saya minum susu.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我喝牛奶。",
+      "ja": "牛乳を飲みます。",
+      "en": "I drink milk."
+    },
+    "note": null
+  },
+  {
+    "w": "emas",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "金子",
+      "ja": "金",
+      "en": "gold"
+    },
+    "pos": "n",
+    "ex": "Ini emas.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是金子。",
+      "ja": "これは金です。",
+      "en": "This is gold."
+    },
+    "note": null
+  },
+  {
+    "w": "bola",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "球",
+      "ja": "ボール",
+      "en": "ball"
+    },
+    "pos": "n",
+    "ex": "Bola itu besar.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那个球很大。",
+      "ja": "あのボールは大きいです。",
+      "en": "That ball is big."
+    },
+    "note": null
+  },
+  {
+    "w": "roti",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "面包",
+      "ja": "パン",
+      "en": "bread"
+    },
+    "pos": "n",
+    "ex": "Saya makan roti.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我吃面包。",
+      "ja": "パンを食べます。",
+      "en": "I eat bread."
+    },
+    "note": null
+  },
+  {
+    "w": "cuci",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "洗",
+      "ja": "洗う",
+      "en": "to wash"
+    },
+    "pos": "v",
+    "ex": "Cuci tangan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "洗手。",
+      "ja": "手を洗う。",
+      "en": "Wash your hands."
+    },
+    "note": {
+      "zh": "c 读作「ch」：cuci 念 chu-chi。",
+      "ja": "c は「チ」の子音。cuci は「チュチ」と読みます。",
+      "en": "c is “ch”: cuci is “choo-chee”."
+    }
+  },
+  {
+    "w": "nyamuk",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "蚊子",
+      "ja": "蚊",
+      "en": "mosquito"
+    },
+    "pos": "n",
+    "ex": "Ada nyamuk.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "有蚊子。",
+      "ja": "蚊がいます。",
+      "en": "There's a mosquito."
+    },
+    "note": null
+  },
+  {
+    "w": "tangan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "手",
+      "ja": "手",
+      "en": "hand"
+    },
+    "pos": "n",
+    "ex": "Tangan saya.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的手。",
+      "ja": "わたしの手。",
+      "en": "My hand."
+    },
+    "note": null
+  },
+  {
+    "w": "khusus",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "特别的 · 专用的",
+      "ja": "特別な · 専用の",
+      "en": "special, dedicated"
+    },
+    "pos": "adj",
+    "ex": "Kelas khusus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "专门的班。",
+      "ja": "特別クラス。",
+      "en": "A special class."
+    },
+    "note": null
+  },
+  {
+    "w": "nenek",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "奶奶 · 外婆",
+      "ja": "おばあさん",
+      "en": "grandmother"
+    },
+    "pos": "n",
+    "ex": "Nenek saya di Jogja.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我奶奶在日惹。",
+      "ja": "祖母はジョグジャにいます。",
+      "en": "My grandmother is in Jogja."
+    },
+    "note": null
+  },
+  {
+    "w": "air",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "水",
+      "ja": "水",
+      "en": "water"
+    },
+    "pos": "n",
+    "ex": "Saya minum air.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我喝水。",
+      "ja": "水を飲みます。",
+      "en": "I drink water."
+    },
+    "note": {
+      "zh": "读作 a-ir 两个音节，不是「ai」。",
+      "ja": "a-ir と二音節で読みます。「アイ」ではありません。",
+      "en": "Two syllables, a-ir — not a single “ai”."
+    }
+  },
+  {
+    "w": "pantai",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "海滩",
+      "ja": "浜辺",
+      "en": "beach"
+    },
+    "pos": "n",
+    "ex": "Saya suka pantai.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我喜欢海滩。",
+      "ja": "浜辺が好きです。",
+      "en": "I like the beach."
+    },
+    "note": null
+  },
+  {
+    "w": "akhir",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "最后 · 末尾",
+      "ja": "終わり · 最後",
+      "en": "end, final"
+    },
+    "pos": "n",
+    "ex": "Akhir tahun.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "年底。",
+      "ja": "年末。",
+      "en": "The end of the year."
+    },
+    "note": null
   }
 ]

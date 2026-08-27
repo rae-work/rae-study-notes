@@ -1285,7 +1285,11 @@ function drUniqOpts(correct, pool){
 /* 题库里没有数据的题型不出题、也不显示。
    比如这本教材还没教数字，ANGKA_POOL 是空的，就没有「几点了 / 数字价格」。 */
 function drAvail(t){
-  if(t === "jam" || t === "angka") return ANGKA_POOL.length > 0;
+  /* 数字池非空才有得出题。「几点了」另外要求 jam_enabled —— 数字教了，
+     但「setengah 到下一点」的说法要等课本讲到时间那一章，
+     否则实战里会冒出一种谁都没学过的题。 */
+  if(t === "jam") return ANGKA_POOL.length > 0 && CONTENT.drills.jam_enabled !== false;
+  if(t === "angka") return ANGKA_POOL.length > 0;
   if(t === "situasi") return SITUASI.length > 0 || TEMPAT.length > 0;
   if(t === "dengar") return SITUASI.length > 0;
   if(t === "posesif") return POSESIF.length > 0;
