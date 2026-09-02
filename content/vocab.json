@@ -7,7 +7,8 @@
     "gloss": {
       "zh": "平安 · 祝（用在问候语开头）",
       "ja": "無事な · おめでとう（あいさつの頭に置く）",
-      "en": "safe, well (opens a greeting)"
+      "en": "safe, well (opens a greeting)",
+      "vi": "bình an (mở đầu lời chào)"
     },
     "pos": "adj",
     "ex": "Selamat pagi.",
@@ -15,7 +16,8 @@
     "ex_gloss": {
       "zh": "早上好。",
       "ja": "おはようございます。",
-      "en": "Good morning."
+      "en": "Good morning.",
+      "vi": "Chào buổi sáng."
     },
     "note": null
   },
@@ -27,7 +29,8 @@
     "gloss": {
       "zh": "早上（天亮到 11 点）",
       "ja": "朝（夜明けから 11 時ごろ）",
-      "en": "morning (dawn to about 11)"
+      "en": "morning (dawn to about 11)",
+      "vi": "buổi sáng (rạng đông đến 11 giờ)"
     },
     "pos": "n",
     "ex": "Selamat pagi.",
@@ -35,7 +38,8 @@
     "ex_gloss": {
       "zh": "早上好。",
       "ja": "おはようございます。",
-      "en": "Good morning."
+      "en": "Good morning.",
+      "vi": "Chào buổi sáng."
     },
     "note": null
   },
@@ -47,7 +51,8 @@
     "gloss": {
       "zh": "中午（11 点到 3 点）",
       "ja": "昼（11 時から 3 時ごろ）",
-      "en": "midday (about 11 to 3)"
+      "en": "midday (about 11 to 3)",
+      "vi": "buổi trưa (11 giờ đến 3 giờ)"
     },
     "pos": "n",
     "ex": "Selamat siang.",
@@ -55,7 +60,8 @@
     "ex_gloss": {
       "zh": "中午好。",
       "ja": "こんにちは。（昼 11 時ごろ〜3 時ごろ）",
-      "en": "Good day."
+      "en": "Good day.",
+      "vi": "Chào buổi trưa."
     },
     "note": null
   },
@@ -67,7 +73,8 @@
     "gloss": {
       "zh": "下午（3 点到天黑）",
       "ja": "夕方（3 時から日暮れまで）",
-      "en": "late afternoon (3 until dark)"
+      "en": "late afternoon (3 until dark)",
+      "vi": "buổi chiều (3 giờ đến khi tối)"
     },
     "pos": "n",
     "ex": "Selamat sore.",
@@ -75,7 +82,8 @@
     "ex_gloss": {
       "zh": "下午好。",
       "ja": "こんにちは。（夕方 3 時ごろ〜日暮れ）",
-      "en": "Good afternoon."
+      "en": "Good afternoon.",
+      "vi": "Chào buổi chiều."
     },
     "note": null
   },
@@ -87,7 +95,8 @@
     "gloss": {
       "zh": "晚上（天黑以后）",
       "ja": "夜（日が暮れてから）",
-      "en": "evening, night (after dark)"
+      "en": "evening, night (after dark)",
+      "vi": "buổi tối (sau khi trời tối)"
     },
     "pos": "n",
     "ex": "Selamat malam.",
@@ -95,7 +104,8 @@
     "ex_gloss": {
       "zh": "晚上好。",
       "ja": "こんばんは。",
-      "en": "Good evening."
+      "en": "Good evening.",
+      "vi": "Chào buổi tối."
     },
     "note": null
   },
@@ -107,7 +117,8 @@
     "gloss": {
       "zh": "你好（随时可用，较随意）",
       "ja": "やあ（時間を選ばない、くだけた言い方）",
-      "en": "hello (any time, casual)"
+      "en": "hello (any time, casual)",
+      "vi": "chào (lúc nào cũng dùng được, thân mật)"
     },
     "pos": "interj",
     "ex": "Halo!",
@@ -115,7 +126,8 @@
     "ex_gloss": {
       "zh": "你好！",
       "ja": "やあ！",
-      "en": "Hello!"
+      "en": "Hello!",
+      "vi": "Xin chào!"
     },
     "note": null
   },
@@ -127,7 +139,8 @@
     "gloss": {
       "zh": "消息 · 近况",
       "ja": "たより · ようす",
-      "en": "news, how things are"
+      "en": "news, how things are",
+      "vi": "tin tức · tình hình"
     },
     "pos": "n",
     "ex": "Apa kabar?",
@@ -135,7 +148,8 @@
     "ex_gloss": {
       "zh": "你好吗？",
       "ja": "お元気ですか。",
-      "en": "How are you?"
+      "en": "How are you?",
+      "vi": "Bạn có khỏe không?"
     },
     "note": null
   },
@@ -147,7 +161,8 @@
     "gloss": {
       "zh": "好 · 挺好",
       "ja": "よい · 元気だ",
-      "en": "good, fine"
+      "en": "good, fine",
+      "vi": "tốt · khỏe"
     },
     "pos": "adj",
     "ex": "Baik, terima kasih.",
@@ -155,7 +170,8 @@
     "ex_gloss": {
       "zh": "挺好，谢谢。",
       "ja": "元気です。ありがとうございます。",
-      "en": "Fine, thank you."
+      "en": "Fine, thank you.",
+      "vi": "Khỏe, cảm ơn."
     },
     "note": null
   },
@@ -167,7 +183,8 @@
     "gloss": {
       "zh": "名字",
       "ja": "名前",
-      "en": "name"
+      "en": "name",
+      "vi": "tên"
     },
     "pos": "n",
     "ex": "Nama saya Sarah.",
@@ -175,7 +192,8 @@
     "ex_gloss": {
       "zh": "我叫 Sarah。",
       "ja": "わたしは Sarah です。",
-      "en": "My name is Sarah."
+      "en": "My name is Sarah.",
+      "vi": "Tôi tên là Sarah."
     },
     "note": null
   },
@@ -187,7 +205,8 @@
     "gloss": {
       "zh": "我（正式）",
       "ja": "わたし（フォーマル）",
-      "en": "I, me (formal)"
+      "en": "I, me (formal)",
+      "vi": "tôi (trang trọng)"
     },
     "pos": "pron",
     "ex": "Saya mahasiswa.",
@@ -195,7 +214,8 @@
     "ex_gloss": {
       "zh": "我是大学生。",
       "ja": "わたしは大学生です。",
-      "en": "I'm a student."
+      "en": "I'm a student.",
+      "vi": "Tôi là sinh viên."
     },
     "note": null
   },
@@ -207,7 +227,8 @@
     "gloss": {
       "zh": "我（口语）",
       "ja": "わたし・ぼく（くだけた言い方）",
-      "en": "I, me (informal)"
+      "en": "I, me (informal)",
+      "vi": "tôi (văn nói)"
     },
     "pos": "pron",
     "ex": "Aku mahasiswa.",
@@ -215,7 +236,8 @@
     "ex_gloss": {
       "zh": "我是大学生。",
       "ja": "わたし、大学生だよ。",
-      "en": "I'm a student."
+      "en": "I'm a student.",
+      "vi": "Mình là sinh viên."
     },
     "note": null
   },
@@ -227,7 +249,8 @@
     "gloss": {
       "zh": "您（正式，永远大写）",
       "ja": "あなた（フォーマル、つねに大文字）",
-      "en": "you (formal, always capitalised)"
+      "en": "you (formal, always capitalised)",
+      "vi": "bạn (trang trọng: ông / bà / anh / chị; luôn viết hoa)"
     },
     "pos": "pron",
     "ex": "Siapa nama Anda?",
@@ -235,7 +258,8 @@
     "ex_gloss": {
       "zh": "您叫什么名字？",
       "ja": "お名前は何ですか。",
-      "en": "What is your name?"
+      "en": "What is your name?",
+      "vi": "Bạn tên là gì?"
     },
     "note": null
   },
@@ -247,7 +271,8 @@
     "gloss": {
       "zh": "你（口语）",
       "ja": "きみ（くだけた言い方）",
-      "en": "you (informal)"
+      "en": "you (informal)",
+      "vi": "bạn (văn nói)"
     },
     "pos": "pron",
     "ex": "Siapa nama kamu?",
@@ -255,7 +280,8 @@
     "ex_gloss": {
       "zh": "你叫什么名字？",
       "ja": "名前は？",
-      "en": "What's your name?"
+      "en": "What's your name?",
+      "vi": "Bạn tên là gì?"
     },
     "note": null
   },
@@ -267,7 +293,8 @@
     "gloss": {
       "zh": "他 · 她（不分性别）",
       "ja": "かれ · かのじょ（性別を区別しない）",
-      "en": "he, she (no gender distinction)"
+      "en": "he, she (no gender distinction)",
+      "vi": "anh ấy · cô ấy (không phân biệt giới)"
     },
     "pos": "pron",
     "ex": "Dia teman saya.",
@@ -275,7 +302,8 @@
     "ex_gloss": {
       "zh": "他是我朋友。",
       "ja": "かれはわたしの友だちです。",
-      "en": "He's my friend."
+      "en": "He's my friend.",
+      "vi": "Anh ấy là bạn tôi."
     },
     "note": null
   },
@@ -287,7 +315,8 @@
     "gloss": {
       "zh": "他 · 她（偏书面）",
       "ja": "かれ · かのじょ（文語寄り）",
-      "en": "he, she (more literary)"
+      "en": "he, she (more literary)",
+      "vi": "anh ấy · cô ấy (văn viết)"
     },
     "pos": "pron",
     "ex": "Ia mahasiswa UGM.",
@@ -295,7 +324,8 @@
     "ex_gloss": {
       "zh": "他是 UGM 的学生。",
       "ja": "かれは UGM の学生です。",
-      "en": "He's a student at UGM."
+      "en": "He's a student at UGM.",
+      "vi": "Anh ấy là sinh viên UGM."
     },
     "note": null
   },
@@ -307,7 +337,8 @@
     "gloss": {
       "zh": "他 · 她（敬语，用于长辈老师）",
       "ja": "あのかた（敬語。目上の人や先生に）",
-      "en": "he, she (respectful, for elders and teachers)"
+      "en": "he, she (respectful, for elders and teachers)",
+      "vi": "ông ấy · bà ấy (kính trọng, với thầy cô và người lớn tuổi)"
     },
     "pos": "pron",
     "ex": "Beliau guru saya.",
@@ -315,7 +346,8 @@
     "ex_gloss": {
       "zh": "他是我老师。",
       "ja": "あのかたはわたしの先生です。",
-      "en": "He is my teacher."
+      "en": "He is my teacher.",
+      "vi": "Thầy ấy là giáo viên của tôi."
     },
     "note": null
   },
@@ -327,7 +359,8 @@
     "gloss": {
       "zh": "我们（不包括听话的人）",
       "ja": "わたしたち（聞き手を含まない）",
-      "en": "we (not including you)"
+      "en": "we (not including you)",
+      "vi": "chúng tôi (không gồm người nghe)"
     },
     "pos": "pron",
     "ex": "Kami mahasiswa UGM.",
@@ -335,12 +368,14 @@
     "ex_gloss": {
       "zh": "我们是 UGM 的学生。",
       "ja": "わたしたちは UGM の学生です。",
-      "en": "We're students at UGM."
+      "en": "We're students at UGM.",
+      "vi": "Chúng tôi là sinh viên UGM."
     },
     "note": {
       "zh": "对着不属于这个「我们」的人说时用 kami。",
       "ja": "その「わたしたち」に入っていない相手に話すときは kami。",
-      "en": "Use kami when the person you're addressing is not part of the «we»."
+      "en": "Use kami when the person you're addressing is not part of the «we».",
+      "vi": "Dùng kami khi người bạn đang nói chuyện cùng không nằm trong “chúng tôi”."
     }
   },
   {
@@ -351,7 +386,8 @@
     "gloss": {
       "zh": "我们（包括听话的人）",
       "ja": "わたしたち（聞き手を含む）",
-      "en": "we (including you)"
+      "en": "we (including you)",
+      "vi": "chúng ta (gồm cả người nghe)"
     },
     "pos": "pron",
     "ex": "Kita belajar bersama.",
@@ -359,12 +395,14 @@
     "ex_gloss": {
       "zh": "我们一起学。",
       "ja": "いっしょに勉強しましょう。",
-      "en": "Let's study together."
+      "en": "Let's study together.",
+      "vi": "Chúng ta cùng học."
     },
     "note": {
       "zh": "把对方也算进来的时候用 kita。",
       "ja": "相手も含めるときは kita。",
-      "en": "Use kita when you are counting the listener in."
+      "en": "Use kita when you are counting the listener in.",
+      "vi": "Dùng kita khi bạn tính cả người nghe vào."
     }
   },
   {
@@ -375,7 +413,8 @@
     "gloss": {
       "zh": "你们",
       "ja": "あなたがた · きみたち",
-      "en": "you (plural)"
+      "en": "you (plural)",
+      "vi": "các bạn"
     },
     "pos": "pron",
     "ex": "Kalian mahasiswa baru.",
@@ -383,7 +422,8 @@
     "ex_gloss": {
       "zh": "你们是新生。",
       "ja": "あなたがたは新入生です。",
-      "en": "You're the new students."
+      "en": "You're the new students.",
+      "vi": "Các bạn là sinh viên mới."
     },
     "note": null
   },
@@ -395,7 +435,8 @@
     "gloss": {
       "zh": "他们 · 她们",
       "ja": "かれら · かのじょら",
-      "en": "they"
+      "en": "they",
+      "vi": "họ"
     },
     "pos": "pron",
     "ex": "Mereka dari Sumatra.",
@@ -403,7 +444,8 @@
     "ex_gloss": {
       "zh": "他们从苏门答腊来。",
       "ja": "かれらはスマトラから来ました。",
-      "en": "They're from Sumatra."
+      "en": "They're from Sumatra.",
+      "vi": "Họ đến từ Sumatra."
     },
     "note": null
   },
@@ -415,7 +457,8 @@
     "gloss": {
       "zh": "谁（问名字也用它）",
       "ja": "だれ（名前を尋ねるときもこれ）",
-      "en": "who (also used to ask names)"
+      "en": "who (also used to ask names)",
+      "vi": "ai (cũng dùng để hỏi tên)"
     },
     "pos": "pron",
     "ex": "Itu siapa?",
@@ -423,7 +466,8 @@
     "ex_gloss": {
       "zh": "那是谁？",
       "ja": "あの人はだれですか。",
-      "en": "Who is that?"
+      "en": "Who is that?",
+      "vi": "Đó là ai?"
     },
     "note": null
   },
@@ -435,7 +479,8 @@
     "gloss": {
       "zh": "什么",
       "ja": "何",
-      "en": "what"
+      "en": "what",
+      "vi": "gì · cái gì"
     },
     "pos": "pron",
     "ex": "Apa ini?",
@@ -443,7 +488,8 @@
     "ex_gloss": {
       "zh": "这是什么？",
       "ja": "これは何ですか。",
-      "en": "What is this?"
+      "en": "What is this?",
+      "vi": "Đây là cái gì?"
     },
     "note": null
   },
@@ -455,7 +501,8 @@
     "gloss": {
       "zh": "是不是 · 吗（是非问句）",
       "ja": "〜ですか（はい／いいえで答える質問）",
-      "en": "yes/no question marker"
+      "en": "yes/no question marker",
+      "vi": "dấu hiệu câu hỏi có/không"
     },
     "pos": "part",
     "ex": "Apakah Anda mahasiswa?",
@@ -463,7 +510,8 @@
     "ex_gloss": {
       "zh": "您是大学生吗？",
       "ja": "あなたは大学生ですか。",
-      "en": "Are you a student?"
+      "en": "Are you a student?",
+      "vi": "Bạn là sinh viên phải không?"
     },
     "note": null
   },
@@ -475,7 +523,8 @@
     "gloss": {
       "zh": "哪里（和 di / dari / ke 连用）",
       "ja": "どこ（di / dari / ke と組む）",
-      "en": "where (used with di / dari / ke)"
+      "en": "where (used with di / dari / ke)",
+      "vi": "đâu (đi với di / dari / ke)"
     },
     "pos": "pron",
     "ex": "Anda dari mana?",
@@ -483,7 +532,8 @@
     "ex_gloss": {
       "zh": "您从哪儿来？",
       "ja": "どちらから来ましたか。",
-      "en": "Where are you from?"
+      "en": "Where are you from?",
+      "vi": "Bạn đến từ đâu?"
     },
     "note": null
   },
@@ -495,7 +545,8 @@
     "gloss": {
       "zh": "在（位置）",
       "ja": "〜に · 〜で（場所）",
-      "en": "at, in (location)"
+      "en": "at, in (location)",
+      "vi": "ở (vị trí)"
     },
     "pos": "prep",
     "ex": "Saya tinggal di Yogyakarta.",
@@ -503,7 +554,8 @@
     "ex_gloss": {
       "zh": "我住在日惹。",
       "ja": "ジョグジャカルタに住んでいます。",
-      "en": "I live in Yogyakarta."
+      "en": "I live in Yogyakarta.",
+      "vi": "Tôi sống ở Yogyakarta."
     },
     "note": null
   },
@@ -515,7 +567,8 @@
     "gloss": {
       "zh": "从 · 来自（来源）",
       "ja": "〜から（出どころ）",
-      "en": "from (origin)"
+      "en": "from (origin)",
+      "vi": "từ (nguồn gốc)"
     },
     "pos": "prep",
     "ex": "Saya dari {NEGARA}.",
@@ -523,7 +576,8 @@
     "ex_gloss": {
       "zh": "我从{NAMA}来。",
       "ja": "{NAMA}から来ました。",
-      "en": "I am from {NAMA}."
+      "en": "I am from {NAMA}.",
+      "vi": "Tôi đến từ {NAMA}."
     },
     "note": null
   },
@@ -535,7 +589,8 @@
     "gloss": {
       "zh": "去 · 到（方向）",
       "ja": "〜へ（方向）",
-      "en": "to (direction)"
+      "en": "to (direction)",
+      "vi": "đến · tới (hướng)"
     },
     "pos": "prep",
     "ex": "Saya datang ke Yogyakarta.",
@@ -543,7 +598,8 @@
     "ex_gloss": {
       "zh": "我来到日惹。",
       "ja": "ジョグジャカルタに来ました。",
-      "en": "I came to Yogyakarta."
+      "en": "I came to Yogyakarta.",
+      "vi": "Tôi đến Yogyakarta."
     },
     "note": null
   },
@@ -555,7 +611,8 @@
     "gloss": {
       "zh": "住 · 居住",
       "ja": "住む",
-      "en": "to live, to stay"
+      "en": "to live, to stay",
+      "vi": "sống · ở"
     },
     "pos": "v",
     "ex": "Dia tinggal di Jakarta.",
@@ -563,7 +620,8 @@
     "ex_gloss": {
       "zh": "他住在雅加达。",
       "ja": "かれはジャカルタに住んでいます。",
-      "en": "He lives in Jakarta."
+      "en": "He lives in Jakarta.",
+      "vi": "Anh ấy sống ở Jakarta."
     },
     "note": null
   },
@@ -575,7 +633,8 @@
     "gloss": {
       "zh": "学习",
       "ja": "勉強する · 学ぶ",
-      "en": "to study, to learn"
+      "en": "to study, to learn",
+      "vi": "học"
     },
     "pos": "v",
     "ex": "Saya belajar bahasa Indonesia.",
@@ -583,7 +642,8 @@
     "ex_gloss": {
       "zh": "我学印尼语。",
       "ja": "インドネシア語を勉強しています。",
-      "en": "I study Indonesian."
+      "en": "I study Indonesian.",
+      "vi": "Tôi học tiếng Indonesia."
     },
     "note": null
   },
@@ -595,7 +655,8 @@
     "gloss": {
       "zh": "语言",
       "ja": "ことば · 言語",
-      "en": "language"
+      "en": "language",
+      "vi": "ngôn ngữ · tiếng"
     },
     "pos": "n",
     "ex": "Bahasa Indonesia mudah.",
@@ -603,7 +664,8 @@
     "ex_gloss": {
       "zh": "印尼语不难。",
       "ja": "インドネシア語はやさしいです。",
-      "en": "Indonesian is easy."
+      "en": "Indonesian is easy.",
+      "vi": "Tiếng Indonesia dễ."
     },
     "note": null
   },
@@ -615,7 +677,8 @@
     "gloss": {
       "zh": "大学生",
       "ja": "大学生",
-      "en": "university student"
+      "en": "university student",
+      "vi": "sinh viên"
     },
     "pos": "n",
     "ex": "Saya mahasiswa UGM.",
@@ -623,7 +686,8 @@
     "ex_gloss": {
       "zh": "我是 UGM 的学生。",
       "ja": "わたしは UGM の学生です。",
-      "en": "I'm a student at UGM."
+      "en": "I'm a student at UGM.",
+      "vi": "Tôi là sinh viên UGM."
     },
     "note": null
   },
@@ -635,7 +699,8 @@
     "gloss": {
       "zh": "大学",
       "ja": "大学",
-      "en": "university"
+      "en": "university",
+      "vi": "trường đại học"
     },
     "pos": "n",
     "ex": "UGM universitas di Yogyakarta.",
@@ -643,7 +708,8 @@
     "ex_gloss": {
       "zh": "UGM 是日惹的大学。",
       "ja": "UGM はジョグジャカルタの大学です。",
-      "en": "UGM is a university in Yogyakarta."
+      "en": "UGM is a university in Yogyakarta.",
+      "vi": "UGM là trường đại học ở Yogyakarta."
     },
     "note": null
   },
@@ -655,7 +721,8 @@
     "gloss": {
       "zh": "老师（中小学）",
       "ja": "先生（小中高）",
-      "en": "teacher (school)"
+      "en": "teacher (school)",
+      "vi": "giáo viên (phổ thông)"
     },
     "pos": "n",
     "ex": "Beliau guru saya.",
@@ -663,12 +730,14 @@
     "ex_gloss": {
       "zh": "他是我老师。",
       "ja": "あのかたはわたしの先生です。",
-      "en": "He is my teacher."
+      "en": "He is my teacher.",
+      "vi": "Thầy ấy là giáo viên của tôi."
     },
     "note": {
       "zh": "大学老师是 dosen，不是 guru。",
       "ja": "大学の先生は dosen で、guru とは言いません。",
-      "en": "A university lecturer is a dosen, not a guru."
+      "en": "A university lecturer is a dosen, not a guru.",
+      "vi": "Giảng viên đại học là dosen, không phải guru."
     }
   },
   {
@@ -679,7 +748,8 @@
     "gloss": {
       "zh": "朋友",
       "ja": "友だち",
-      "en": "friend"
+      "en": "friend",
+      "vi": "bạn"
     },
     "pos": "n",
     "ex": "Ini teman saya.",
@@ -687,7 +757,8 @@
     "ex_gloss": {
       "zh": "这是我朋友。",
       "ja": "こちらはわたしの友だちです。",
-      "en": "This is my friend."
+      "en": "This is my friend.",
+      "vi": "Đây là bạn tôi."
     },
     "note": null
   },
@@ -699,7 +770,8 @@
     "gloss": {
       "zh": "人（接国名表示国籍）",
       "ja": "人（国名につけて出身を表す）",
-      "en": "person (before a country: nationality)"
+      "en": "person (before a country: nationality)",
+      "vi": "người (đứng trước tên nước: quốc tịch)"
     },
     "pos": "n",
     "ex": "Saya orang {NEGARA}.",
@@ -707,7 +779,8 @@
     "ex_gloss": {
       "zh": "我是{PEOPLE}。",
       "ja": "わたしは{PEOPLE}です。",
-      "en": "I am {PEOPLE}."
+      "en": "I am {PEOPLE}.",
+      "vi": "Tôi là {PEOPLE}."
     },
     "note": null
   },
@@ -719,7 +792,8 @@
     "gloss": {
       "zh": "这 · 这个",
       "ja": "これ · この",
-      "en": "this"
+      "en": "this",
+      "vi": "này · cái này"
     },
     "pos": "pron",
     "ex": "Apa ini?",
@@ -727,7 +801,8 @@
     "ex_gloss": {
       "zh": "这是什么？",
       "ja": "これは何ですか。",
-      "en": "What is this?"
+      "en": "What is this?",
+      "vi": "Đây là cái gì?"
     },
     "note": null
   },
@@ -739,7 +814,8 @@
     "gloss": {
       "zh": "那 · 那个",
       "ja": "それ · あれ · その",
-      "en": "that"
+      "en": "that",
+      "vi": "đó · cái đó"
     },
     "pos": "pron",
     "ex": "Itu Zach.",
@@ -747,7 +823,8 @@
     "ex_gloss": {
       "zh": "那是 Zach。",
       "ja": "あの人は Zach です。",
-      "en": "That's Zach."
+      "en": "That's Zach.",
+      "vi": "Đó là Zach."
     },
     "note": null
   },
@@ -759,7 +836,8 @@
     "gloss": {
       "zh": "是 · 对",
       "ja": "はい",
-      "en": "yes"
+      "en": "yes",
+      "vi": "vâng · đúng"
     },
     "pos": "part",
     "ex": "Ya, saya mahasiswa.",
@@ -767,7 +845,8 @@
     "ex_gloss": {
       "zh": "是，我是大学生。",
       "ja": "はい、大学生です。",
-      "en": "Yes, I'm a student."
+      "en": "Yes, I'm a student.",
+      "vi": "Vâng, tôi là sinh viên."
     },
     "note": null
   },
@@ -779,7 +858,8 @@
     "gloss": {
       "zh": "不是（否定名词）",
       "ja": "〜ではない（名詞を否定）",
-      "en": "not (negates nouns)"
+      "en": "not (negates nouns)",
+      "vi": "không phải (phủ định danh từ)"
     },
     "pos": "part",
     "ex": "Bukan, saya orang {NEGARA}.",
@@ -787,12 +867,14 @@
     "ex_gloss": {
       "zh": "不是，我是{PEOPLE}。",
       "ja": "いいえ、わたしは{PEOPLE}です。",
-      "en": "No, I am {PEOPLE}."
+      "en": "No, I am {PEOPLE}.",
+      "vi": "Không phải, tôi là {PEOPLE}."
     },
     "note": {
       "zh": "否定动词和形容词要用 tidak。",
       "ja": "動詞・形容詞を否定するときは tidak を使う。",
-      "en": "Verbs and adjectives take tidak instead."
+      "en": "Verbs and adjectives take tidak instead.",
+      "vi": "Động từ và tính từ thì dùng tidak."
     }
   },
   {
@@ -803,7 +885,8 @@
     "gloss": {
       "zh": "高兴 · 喜欢",
       "ja": "うれしい · 楽しい",
-      "en": "glad, pleased"
+      "en": "glad, pleased",
+      "vi": "vui · thích"
     },
     "pos": "adj",
     "ex": "Senang bertemu Anda.",
@@ -811,7 +894,8 @@
     "ex_gloss": {
       "zh": "很高兴见到您。",
       "ja": "お会いできてうれしいです。",
-      "en": "Nice to meet you."
+      "en": "Nice to meet you.",
+      "vi": "Rất vui được gặp bạn."
     },
     "note": null
   },
@@ -823,7 +907,8 @@
     "gloss": {
       "zh": "见面 · 遇到",
       "ja": "会う",
-      "en": "to meet"
+      "en": "to meet",
+      "vi": "gặp · gặp gỡ"
     },
     "pos": "v",
     "ex": "Senang bertemu Anda.",
@@ -831,7 +916,8 @@
     "ex_gloss": {
       "zh": "很高兴见到您。",
       "ja": "お会いできてうれしいです。",
-      "en": "Nice to meet you."
+      "en": "Nice to meet you.",
+      "vi": "Rất vui được gặp bạn."
     },
     "note": null
   },
@@ -843,7 +929,8 @@
     "gloss": {
       "zh": "会面（用在 sampai jumpa 里）",
       "ja": "会うこと（sampai jumpa で使う）",
-      "en": "meeting (as in sampai jumpa)"
+      "en": "meeting (as in sampai jumpa)",
+      "vi": "gặp mặt (dùng trong sampai jumpa)"
     },
     "pos": "v",
     "ex": "Sampai jumpa!",
@@ -851,7 +938,8 @@
     "ex_gloss": {
       "zh": "回头见！",
       "ja": "またね！",
-      "en": "See you!"
+      "en": "See you!",
+      "vi": "Hẹn gặp lại!"
     },
     "note": null
   },
@@ -863,7 +951,8 @@
     "gloss": {
       "zh": "到 · 直到",
       "ja": "〜まで",
-      "en": "until, up to"
+      "en": "until, up to",
+      "vi": "đến · cho đến"
     },
     "pos": "prep",
     "ex": "Sampai nanti!",
@@ -871,7 +960,8 @@
     "ex_gloss": {
       "zh": "待会儿见！",
       "ja": "また後で！",
-      "en": "See you later!"
+      "en": "See you later!",
+      "vi": "Hẹn gặp lại sau!"
     },
     "note": null
   },
@@ -883,7 +973,8 @@
     "gloss": {
       "zh": "来 · 到来",
       "ja": "来る",
-      "en": "to come"
+      "en": "to come",
+      "vi": "đến · tới"
     },
     "pos": "v",
     "ex": "Selamat datang.",
@@ -891,7 +982,8 @@
     "ex_gloss": {
       "zh": "欢迎。",
       "ja": "ようこそ。",
-      "en": "Welcome."
+      "en": "Welcome.",
+      "vi": "Chào mừng."
     },
     "note": null
   },
@@ -903,7 +995,8 @@
     "gloss": {
       "zh": "谢谢",
       "ja": "ありがとうございます",
-      "en": "thank you"
+      "en": "thank you",
+      "vi": "cảm ơn"
     },
     "pos": "interj",
     "ex": "Terima kasih, Pak.",
@@ -911,7 +1004,8 @@
     "ex_gloss": {
       "zh": "谢谢您。",
       "ja": "（男性に）ありがとうございます。",
-      "en": "Thank you, sir."
+      "en": "Thank you, sir.",
+      "vi": "Cảm ơn ông."
     },
     "note": null
   },
@@ -923,7 +1017,8 @@
     "gloss": {
       "zh": "不客气",
       "ja": "どういたしまして",
-      "en": "you're welcome"
+      "en": "you're welcome",
+      "vi": "không có gì"
     },
     "pos": "interj",
     "ex": "Sama-sama.",
@@ -931,7 +1026,8 @@
     "ex_gloss": {
       "zh": "不客气。",
       "ja": "どういたしまして。",
-      "en": "You're welcome."
+      "en": "You're welcome.",
+      "vi": "Không có gì."
     },
     "note": null
   },
@@ -943,7 +1039,8 @@
     "gloss": {
       "zh": "对不起 · 不好意思",
       "ja": "すみません · ごめんなさい",
-      "en": "sorry, excuse me"
+      "en": "sorry, excuse me",
+      "vi": "xin lỗi · cho hỏi"
     },
     "pos": "interj",
     "ex": "Maaf, saya akan masuk kelas.",
@@ -951,7 +1048,8 @@
     "ex_gloss": {
       "zh": "不好意思，我要去上课了。",
       "ja": "すみません、これから授業に入ります。",
-      "en": "Sorry, I'm about to go to class."
+      "en": "Sorry, I'm about to go to class.",
+      "vi": "Xin lỗi, tôi phải vào lớp."
     },
     "note": null
   },
@@ -963,7 +1061,8 @@
     "gloss": {
       "zh": "课 · 教室",
       "ja": "授業 · 教室",
-      "en": "class, classroom"
+      "en": "class, classroom",
+      "vi": "lớp · lớp học"
     },
     "pos": "n",
     "ex": "Saya masuk kelas.",
@@ -971,7 +1070,8 @@
     "ex_gloss": {
       "zh": "我去上课。",
       "ja": "授業に入ります。",
-      "en": "I'm going to class."
+      "en": "I'm going to class.",
+      "vi": "Tôi vào lớp."
     },
     "note": null
   },
@@ -983,7 +1083,8 @@
     "gloss": {
       "zh": "进 · 进入",
       "ja": "入る",
-      "en": "to enter, to go in"
+      "en": "to enter, to go in",
+      "vi": "vào · đi vào"
     },
     "pos": "v",
     "ex": "Saya masuk kelas.",
@@ -991,7 +1092,8 @@
     "ex_gloss": {
       "zh": "我去上课。",
       "ja": "授業に入ります。",
-      "en": "I'm going to class."
+      "en": "I'm going to class.",
+      "vi": "Tôi vào lớp."
     },
     "note": null
   },
@@ -1003,7 +1105,8 @@
     "gloss": {
       "zh": "将要（表将来）",
       "ja": "〜するつもりだ（未来を表す）",
-      "en": "will, going to"
+      "en": "will, going to",
+      "vi": "sẽ (thì tương lai)"
     },
     "pos": "aux",
     "ex": "Saya akan masuk kelas.",
@@ -1011,7 +1114,8 @@
     "ex_gloss": {
       "zh": "我要去上课了。",
       "ja": "これから授業に入ります。",
-      "en": "I'm about to go to class."
+      "en": "I'm about to go to class.",
+      "vi": "Tôi sắp vào lớp."
     },
     "note": null
   },
@@ -1023,7 +1127,8 @@
     "gloss": {
       "zh": "路 · 街（地址里的「路」）",
       "ja": "道 · 通り（住所の「通り」）",
-      "en": "street, road (in addresses)"
+      "en": "street, road (in addresses)",
+      "vi": "đường · phố (trong địa chỉ)"
     },
     "pos": "n",
     "ex": "Saya tinggal di Jalan Kaliurang.",
@@ -1031,7 +1136,8 @@
     "ex_gloss": {
       "zh": "我住在 Kaliurang 路。",
       "ja": "Kaliurang 通りに住んでいます。",
-      "en": "I live on Jalan Kaliurang."
+      "en": "I live on Jalan Kaliurang.",
+      "vi": "Tôi sống ở Jalan Kaliurang."
     },
     "note": null
   },
@@ -1043,7 +1149,8 @@
     "gloss": {
       "zh": "城市",
       "ja": "町 · 都市",
-      "en": "city, town"
+      "en": "city, town",
+      "vi": "thành phố"
     },
     "pos": "n",
     "ex": "Saya dari Kota Kobe.",
@@ -1051,7 +1158,8 @@
     "ex_gloss": {
       "zh": "我从神户市来。",
       "ja": "神戸市から来ました。",
-      "en": "I'm from the city of Kobe."
+      "en": "I'm from the city of Kobe.",
+      "vi": "Tôi đến từ thành phố Kobe."
     },
     "note": null
   },
@@ -1063,7 +1171,8 @@
     "gloss": {
       "zh": "号 · 号码",
       "ja": "番号 · 番地",
-      "en": "number"
+      "en": "number",
+      "vi": "số · số nhà"
     },
     "pos": "n",
     "ex": "Jalan Kaliurang Nomor 8.",
@@ -1071,7 +1180,8 @@
     "ex_gloss": {
       "zh": "Kaliurang 路 8 号。",
       "ja": "Kaliurang 通り 8 番地。",
-      "en": "8 Jalan Kaliurang."
+      "en": "8 Jalan Kaliurang.",
+      "vi": "Jalan Kaliurang số 8."
     },
     "note": null
   },
@@ -1083,7 +1193,8 @@
     "gloss": {
       "zh": "现在",
       "ja": "いま",
-      "en": "now"
+      "en": "now",
+      "vi": "bây giờ · hiện nay"
     },
     "pos": "adv",
     "ex": "Saya sekarang tinggal di Yogyakarta.",
@@ -1091,7 +1202,8 @@
     "ex_gloss": {
       "zh": "我现在住在日惹。",
       "ja": "いまはジョグジャカルタに住んでいます。",
-      "en": "I now live in Yogyakarta."
+      "en": "I now live in Yogyakarta.",
+      "vi": "Bây giờ tôi sống ở Yogyakarta."
     },
     "note": null
   },
@@ -1103,7 +1215,8 @@
     "gloss": {
       "zh": "星期 · 周",
       "ja": "週",
-      "en": "week"
+      "en": "week",
+      "vi": "tuần"
     },
     "pos": "n",
     "ex": "Saya datang dua minggu lalu.",
@@ -1111,12 +1224,14 @@
     "ex_gloss": {
       "zh": "我两周前来的。",
       "ja": "二週間前に来ました。",
-      "en": "I came two weeks ago."
+      "en": "I came two weeks ago.",
+      "vi": "Tôi đến đây hai tuần trước."
     },
     "note": {
       "zh": "大写的 Minggu 是「星期日」，小写的 minggu 是「一周」。",
       "ja": "大文字の Minggu は「日曜日」、小文字の minggu は「週」。",
-      "en": "Capitalised Minggu means Sunday; lower-case minggu means a week."
+      "en": "Capitalised Minggu means Sunday; lower-case minggu means a week.",
+      "vi": "Minggu viết hoa là “Chủ nhật”, minggu viết thường là “tuần”."
     }
   },
   {
@@ -1127,7 +1242,8 @@
     "gloss": {
       "zh": "以前（放在时间后面）",
       "ja": "〜前（時間の後ろに置く）",
-      "en": "ago (follows the time expression)"
+      "en": "ago (follows the time expression)",
+      "vi": "trước (đứng sau cụm thời gian)"
     },
     "pos": "adv",
     "ex": "Dua minggu lalu.",
@@ -1135,7 +1251,8 @@
     "ex_gloss": {
       "zh": "两周前。",
       "ja": "二週間前。",
-      "en": "Two weeks ago."
+      "en": "Two weeks ago.",
+      "vi": "Hai tuần trước."
     },
     "note": null
   },
@@ -1147,7 +1264,8 @@
     "gloss": {
       "zh": "喜欢",
       "ja": "好きだ",
-      "en": "to like"
+      "en": "to like",
+      "vi": "thích"
     },
     "pos": "v",
     "ex": "Saya suka makan bakso.",
@@ -1155,7 +1273,8 @@
     "ex_gloss": {
       "zh": "我喜欢吃肉丸汤。",
       "ja": "バッソを食べるのが好きです。",
-      "en": "I like eating bakso."
+      "en": "I like eating bakso.",
+      "vi": "Tôi thích ăn bakso."
     },
     "note": null
   },
@@ -1167,7 +1286,8 @@
     "gloss": {
       "zh": "吃",
       "ja": "食べる",
-      "en": "to eat"
+      "en": "to eat",
+      "vi": "ăn"
     },
     "pos": "v",
     "ex": "Saya suka makan nasi goreng.",
@@ -1175,7 +1295,8 @@
     "ex_gloss": {
       "zh": "我喜欢吃炒饭。",
       "ja": "ナシゴレンを食べるのが好きです。",
-      "en": "I like eating nasi goreng."
+      "en": "I like eating nasi goreng.",
+      "vi": "Tôi thích ăn nasi goreng."
     },
     "note": null
   },
@@ -1187,7 +1308,8 @@
     "gloss": {
       "zh": "喝",
       "ja": "飲む",
-      "en": "to drink"
+      "en": "to drink",
+      "vi": "uống"
     },
     "pos": "v",
     "ex": "Saya suka minum teh.",
@@ -1195,7 +1317,8 @@
     "ex_gloss": {
       "zh": "我喜欢喝茶。",
       "ja": "お茶を飲むのが好きです。",
-      "en": "I like drinking tea."
+      "en": "I like drinking tea.",
+      "vi": "Tôi thích uống trà."
     },
     "note": null
   },
@@ -1207,7 +1330,8 @@
     "gloss": {
       "zh": "出生",
       "ja": "生まれる",
-      "en": "to be born"
+      "en": "to be born",
+      "vi": "sinh ra"
     },
     "pos": "v",
     "ex": "Saya lahir di Kudus.",
@@ -1215,7 +1339,8 @@
     "ex_gloss": {
       "zh": "我生在库杜斯。",
       "ja": "クドゥスで生まれました。",
-      "en": "I was born in Kudus."
+      "en": "I was born in Kudus.",
+      "vi": "Tôi sinh ra ở Kudus."
     },
     "note": null
   },
@@ -1227,7 +1352,8 @@
     "gloss": {
       "zh": "地址",
       "ja": "住所",
-      "en": "address"
+      "en": "address",
+      "vi": "địa chỉ"
     },
     "pos": "n",
     "ex": "Apa alamat Anda?",
@@ -1235,7 +1361,8 @@
     "ex_gloss": {
       "zh": "您的地址是什么？",
       "ja": "ご住所はどちらですか。",
-      "en": "What is your address?"
+      "en": "What is your address?",
+      "vi": "Địa chỉ của bạn là gì?"
     },
     "note": null
   },
@@ -1247,7 +1374,8 @@
     "gloss": {
       "zh": "宗教",
       "ja": "宗教",
-      "en": "religion"
+      "en": "religion",
+      "vi": "tôn giáo"
     },
     "pos": "n",
     "ex": "Agama saya Islam.",
@@ -1255,7 +1383,8 @@
     "ex_gloss": {
       "zh": "我信伊斯兰教。",
       "ja": "宗教はイスラム教です。",
-      "en": "My religion is Islam."
+      "en": "My religion is Islam.",
+      "vi": "Tôi theo đạo Hồi."
     },
     "note": null
   },
@@ -1267,7 +1396,8 @@
     "gloss": {
       "zh": "职业 · 工作",
       "ja": "職業 · 仕事",
-      "en": "occupation, job"
+      "en": "occupation, job",
+      "vi": "nghề nghiệp · công việc"
     },
     "pos": "n",
     "ex": "Apa pekerjaan Anda?",
@@ -1275,7 +1405,8 @@
     "ex_gloss": {
       "zh": "您做什么工作？",
       "ja": "お仕事は何ですか。",
-      "en": "What is your job?"
+      "en": "What is your job?",
+      "vi": "Bạn làm nghề gì?"
     },
     "note": null
   },
@@ -1287,7 +1418,8 @@
     "gloss": {
       "zh": "公民 · 居民",
       "ja": "国民 · 住民",
-      "en": "citizen, resident"
+      "en": "citizen, resident",
+      "vi": "công dân · cư dân"
     },
     "pos": "n",
     "ex": "Saya warga Indonesia.",
@@ -1295,7 +1427,8 @@
     "ex_gloss": {
       "zh": "我是印尼公民。",
       "ja": "インドネシア国民です。",
-      "en": "I'm an Indonesian citizen."
+      "en": "I'm an Indonesian citizen.",
+      "vi": "Tôi là công dân Indonesia."
     },
     "note": null
   },
@@ -1307,7 +1440,8 @@
     "gloss": {
       "zh": "先生（对年长男性的尊称）",
       "ja": "〜さん（年上の男性への敬称）",
-      "en": "Sir, Mr (respectful, older man)"
+      "en": "Sir, Mr (respectful, older man)",
+      "vi": "ông (kính ngữ với nam lớn tuổi)"
     },
     "pos": "n",
     "ex": "Selamat pagi, Pak.",
@@ -1315,7 +1449,8 @@
     "ex_gloss": {
       "zh": "早上好，先生。",
       "ja": "（男性に）おはようございます。",
-      "en": "Good morning, sir."
+      "en": "Good morning, sir.",
+      "vi": "Chào buổi sáng, thưa ông."
     },
     "note": null
   },
@@ -1327,7 +1462,8 @@
     "gloss": {
       "zh": "女士（对年长女性的尊称）",
       "ja": "〜さん（年上の女性への敬称）",
-      "en": "Madam, Mrs (respectful, older woman)"
+      "en": "Madam, Mrs (respectful, older woman)",
+      "vi": "bà (kính ngữ với nữ lớn tuổi)"
     },
     "pos": "n",
     "ex": "Selamat pagi, Bu.",
@@ -1335,7 +1471,8 @@
     "ex_gloss": {
       "zh": "早上好，女士。",
       "ja": "（女性に）おはようございます。",
-      "en": "Good morning, madam."
+      "en": "Good morning, madam.",
+      "vi": "Chào buổi sáng, thưa bà."
     },
     "note": null
   },
@@ -1347,7 +1484,8 @@
     "gloss": {
       "zh": "哥（对同辈或稍长男性）",
       "ja": "〜さん（同年代か少し年上の男性）",
-      "en": "elder brother (peer or slightly older man)"
+      "en": "elder brother (peer or slightly older man)",
+      "vi": "anh (với nam cùng tuổi hoặc lớn hơn)"
     },
     "pos": "n",
     "ex": "Mas Sanggi dari Korea.",
@@ -1355,7 +1493,8 @@
     "ex_gloss": {
       "zh": "Sanggi 兄从韩国来。",
       "ja": "Sanggi さんは韓国から来ました。",
-      "en": "Mas Sanggi is from Korea."
+      "en": "Mas Sanggi is from Korea.",
+      "vi": "Anh Sanggi đến từ Hàn Quốc."
     },
     "note": null
   },
@@ -1367,7 +1506,8 @@
     "gloss": {
       "zh": "姐（对同辈或稍长女性）",
       "ja": "〜さん（同年代か少し年上の女性）",
-      "en": "elder sister (peer or slightly older woman)"
+      "en": "elder sister (peer or slightly older woman)",
+      "vi": "chị (với nữ cùng tuổi hoặc lớn hơn)"
     },
     "pos": "n",
     "ex": "Mbak Ziah orang Indonesia.",
@@ -1375,7 +1515,8 @@
     "ex_gloss": {
       "zh": "Ziah 姐是印尼人。",
       "ja": "Ziah さんはインドネシア人です。",
-      "en": "Mbak Ziah is Indonesian."
+      "en": "Mbak Ziah is Indonesian.",
+      "vi": "Chị Ziah là người Indonesia."
     },
     "note": null
   },
@@ -1387,7 +1528,8 @@
     "gloss": {
       "zh": "阁下 · 您（正式书面）",
       "ja": "〜氏 · あなた（文語的でフォーマル）",
-      "en": "you, sir (formal, written)"
+      "en": "you, sir (formal, written)",
+      "vi": "quý vị · ông (trang trọng, văn viết)"
     },
     "pos": "n",
     "ex": "Saudara dari mana?",
@@ -1395,7 +1537,8 @@
     "ex_gloss": {
       "zh": "您从哪儿来？",
       "ja": "どちらから来られましたか。",
-      "en": "Where are you from?"
+      "en": "Where are you from?",
+      "vi": "Quý vị đến từ đâu?"
     },
     "note": null
   },
@@ -1407,7 +1550,8 @@
     "gloss": {
       "zh": "书",
       "ja": "本",
-      "en": "book"
+      "en": "book",
+      "vi": "sách"
     },
     "pos": "n",
     "ex": "Ini buku.",
@@ -1415,7 +1559,8 @@
     "ex_gloss": {
       "zh": "这是一本书。",
       "ja": "これは本です。",
-      "en": "This is a book."
+      "en": "This is a book.",
+      "vi": "Đây là một quyển sách."
     },
     "note": null
   },
@@ -1427,7 +1572,8 @@
     "gloss": {
       "zh": "年 · 岁",
       "ja": "年 · 歳",
-      "en": "year; years old"
+      "en": "year; years old",
+      "vi": "năm · tuổi"
     },
     "pos": "n",
     "ex": "Saya dua puluh tahun.",
@@ -1435,7 +1581,8 @@
     "ex_gloss": {
       "zh": "我二十岁。",
       "ja": "わたしは 20 歳です。",
-      "en": "I'm twenty."
+      "en": "I'm twenty.",
+      "vi": "Tôi hai mươi tuổi."
     },
     "note": null
   },
@@ -1447,7 +1594,8 @@
     "gloss": {
       "zh": "介绍一下（开场用）",
       "ja": "紹介します（切り出すときに）",
-      "en": "let me introduce (opening phrase)"
+      "en": "let me introduce (opening phrase)",
+      "vi": "xin giới thiệu (câu mở đầu)"
     },
     "pos": "v",
     "ex": "Kenalkan, ini teman saya.",
@@ -1455,7 +1603,8 @@
     "ex_gloss": {
       "zh": "介绍一下，这是我朋友。",
       "ja": "紹介します。こちらはわたしの友だちです。",
-      "en": "Let me introduce my friend."
+      "en": "Let me introduce my friend.",
+      "vi": "Xin giới thiệu, đây là bạn tôi."
     },
     "note": null
   },
@@ -1467,7 +1616,8 @@
     "gloss": {
       "zh": "词典",
       "ja": "辞書",
-      "en": "dictionary"
+      "en": "dictionary",
+      "vi": "từ điển"
     },
     "pos": null,
     "ex": "Kamus saya baru.",
@@ -1475,7 +1625,8 @@
     "ex_gloss": {
       "zh": "我的词典是新的。",
       "ja": "わたしの辞書は新しいです。",
-      "en": "My dictionary is new."
+      "en": "My dictionary is new.",
+      "vi": "Từ điển của tôi mới."
     },
     "note": null
   },
@@ -1487,7 +1638,8 @@
     "gloss": {
       "zh": "铅笔",
       "ja": "鉛筆",
-      "en": "pencil"
+      "en": "pencil",
+      "vi": "bút chì"
     },
     "pos": null,
     "ex": "Ini pensil.",
@@ -1495,7 +1647,8 @@
     "ex_gloss": {
       "zh": "这是铅笔。",
       "ja": "これは鉛筆です。",
-      "en": "This is a pencil."
+      "en": "This is a pencil.",
+      "vi": "Đây là bút chì."
     },
     "note": null
   },
@@ -1507,7 +1660,8 @@
     "gloss": {
       "zh": "圆珠笔",
       "ja": "ボールペン",
-      "en": "ballpoint pen"
+      "en": "ballpoint pen",
+      "vi": "bút bi"
     },
     "pos": null,
     "ex": "Itu bolpoin saya.",
@@ -1515,7 +1669,8 @@
     "ex_gloss": {
       "zh": "那是我的圆珠笔。",
       "ja": "あれはわたしのボールペンです。",
-      "en": "That is my pen."
+      "en": "That is my pen.",
+      "vi": "Đó là bút bi của tôi."
     },
     "note": null
   },
@@ -1527,7 +1682,8 @@
     "gloss": {
       "zh": "尺子",
       "ja": "定規",
-      "en": "ruler"
+      "en": "ruler",
+      "vi": "thước kẻ"
     },
     "pos": null,
     "ex": "Ini penggaris.",
@@ -1535,7 +1691,8 @@
     "ex_gloss": {
       "zh": "这是尺子。",
       "ja": "これは定規です。",
-      "en": "This is a ruler."
+      "en": "This is a ruler.",
+      "vi": "Đây là thước kẻ."
     },
     "note": null
   },
@@ -1547,7 +1704,8 @@
     "gloss": {
       "zh": "包",
       "ja": "かばん",
-      "en": "bag"
+      "en": "bag",
+      "vi": "túi · cặp"
     },
     "pos": null,
     "ex": "Tas saya baru.",
@@ -1555,7 +1713,8 @@
     "ex_gloss": {
       "zh": "我的包是新的。",
       "ja": "わたしのかばんは新しいです。",
-      "en": "My bag is new."
+      "en": "My bag is new.",
+      "vi": "Túi của tôi mới."
     },
     "note": null
   },
@@ -1567,7 +1726,8 @@
     "gloss": {
       "zh": "鞋",
       "ja": "くつ",
-      "en": "shoes"
+      "en": "shoes",
+      "vi": "giày"
     },
     "pos": null,
     "ex": "Sepatu saya baru.",
@@ -1575,7 +1735,8 @@
     "ex_gloss": {
       "zh": "我的鞋是新的。",
       "ja": "わたしのくつは新しいです。",
-      "en": "My shoes are new."
+      "en": "My shoes are new.",
+      "vi": "Giày của tôi mới."
     },
     "note": null
   },
@@ -1587,7 +1748,8 @@
     "gloss": {
       "zh": "衣服",
       "ja": "服",
-      "en": "clothes, shirt"
+      "en": "clothes, shirt",
+      "vi": "áo · quần áo"
     },
     "pos": null,
     "ex": "Baju kamu bagus.",
@@ -1595,7 +1757,8 @@
     "ex_gloss": {
       "zh": "你的衣服很好看。",
       "ja": "あなたの服はすてきです。",
-      "en": "Your shirt is nice."
+      "en": "Your shirt is nice.",
+      "vi": "Áo của bạn đẹp."
     },
     "note": null
   },
@@ -1607,7 +1770,8 @@
     "gloss": {
       "zh": "桌子",
       "ja": "机",
-      "en": "table, desk"
+      "en": "table, desk",
+      "vi": "bàn"
     },
     "pos": null,
     "ex": "Buku saya di meja.",
@@ -1615,7 +1779,8 @@
     "ex_gloss": {
       "zh": "我的书在桌子上。",
       "ja": "わたしの本は机の上にあります。",
-      "en": "My book is on the table."
+      "en": "My book is on the table.",
+      "vi": "Sách của tôi ở trên bàn."
     },
     "note": null
   },
@@ -1627,7 +1792,8 @@
     "gloss": {
       "zh": "椅子",
       "ja": "いす",
-      "en": "chair"
+      "en": "chair",
+      "vi": "ghế"
     },
     "pos": null,
     "ex": "Ini kursi kelas.",
@@ -1635,7 +1801,8 @@
     "ex_gloss": {
       "zh": "这是教室的椅子。",
       "ja": "これは教室のいすです。",
-      "en": "This is a classroom chair."
+      "en": "This is a classroom chair.",
+      "vi": "Đây là ghế của lớp học."
     },
     "note": null
   },
@@ -1647,7 +1814,8 @@
     "gloss": {
       "zh": "黑板",
       "ja": "黒板",
-      "en": "whiteboard, blackboard"
+      "en": "whiteboard, blackboard",
+      "vi": "bảng"
     },
     "pos": null,
     "ex": "Itu papan tulis.",
@@ -1655,7 +1823,8 @@
     "ex_gloss": {
       "zh": "那是黑板。",
       "ja": "あれは黒板です。",
-      "en": "That is the whiteboard."
+      "en": "That is the whiteboard.",
+      "vi": "Đó là cái bảng."
     },
     "note": null
   },
@@ -1667,7 +1836,8 @@
     "gloss": {
       "zh": "地图",
       "ja": "地図",
-      "en": "map"
+      "en": "map",
+      "vi": "bản đồ"
     },
     "pos": null,
     "ex": "Itu peta dunia.",
@@ -1675,7 +1845,8 @@
     "ex_gloss": {
       "zh": "那是世界地图。",
       "ja": "あれは世界地図です。",
-      "en": "That is a world map."
+      "en": "That is a world map.",
+      "vi": "Đó là bản đồ thế giới."
     },
     "note": null
   },
@@ -1687,7 +1858,8 @@
     "gloss": {
       "zh": "挂钟",
       "ja": "壁掛け時計",
-      "en": "wall clock"
+      "en": "wall clock",
+      "vi": "đồng hồ treo tường"
     },
     "pos": null,
     "ex": "Jam dinding di kelas.",
@@ -1695,7 +1867,8 @@
     "ex_gloss": {
       "zh": "挂钟在教室里。",
       "ja": "壁掛け時計は教室にあります。",
-      "en": "The clock is in the classroom."
+      "en": "The clock is in the classroom.",
+      "vi": "Đồng hồ treo tường ở trong lớp."
     },
     "note": null
   },
@@ -1707,7 +1880,8 @@
     "gloss": {
       "zh": "书架",
       "ja": "本棚",
-      "en": "bookshelf"
+      "en": "bookshelf",
+      "vi": "giá sách"
     },
     "pos": null,
     "ex": "Rak buku di kelas.",
@@ -1715,7 +1889,8 @@
     "ex_gloss": {
       "zh": "书架在教室里。",
       "ja": "本棚は教室にあります。",
-      "en": "The bookshelf is in the classroom."
+      "en": "The bookshelf is in the classroom.",
+      "vi": "Giá sách ở trong lớp."
     },
     "note": null
   },
@@ -1727,7 +1902,8 @@
     "gloss": {
       "zh": "灯",
       "ja": "電灯",
-      "en": "lamp, light"
+      "en": "lamp, light",
+      "vi": "đèn"
     },
     "pos": null,
     "ex": "Lampu kelas baru.",
@@ -1735,7 +1911,8 @@
     "ex_gloss": {
       "zh": "教室的灯是新的。",
       "ja": "教室の電灯は新しいです。",
-      "en": "The classroom light is new."
+      "en": "The classroom light is new.",
+      "vi": "Đèn của lớp học còn mới."
     },
     "note": null
   },
@@ -1747,7 +1924,8 @@
     "gloss": {
       "zh": "窗帘",
       "ja": "カーテン",
-      "en": "curtain"
+      "en": "curtain",
+      "vi": "rèm cửa"
     },
     "pos": null,
     "ex": "Tirai kelas baru.",
@@ -1755,7 +1933,8 @@
     "ex_gloss": {
       "zh": "教室的窗帘是新的。",
       "ja": "教室のカーテンは新しいです。",
-      "en": "The classroom curtains are new."
+      "en": "The classroom curtains are new.",
+      "vi": "Rèm của lớp học còn mới."
     },
     "note": null
   },
@@ -1767,7 +1946,8 @@
     "gloss": {
       "zh": "日历",
       "ja": "カレンダー",
-      "en": "calendar"
+      "en": "calendar",
+      "vi": "lịch"
     },
     "pos": null,
     "ex": "Ini kalender INCULS.",
@@ -1775,7 +1955,8 @@
     "ex_gloss": {
       "zh": "这是 INCULS 的日历。",
       "ja": "これは INCULS のカレンダーです。",
-      "en": "This is the INCULS calendar."
+      "en": "This is the INCULS calendar.",
+      "vi": "Đây là lịch của INCULS."
     },
     "note": null
   },
@@ -1787,7 +1968,8 @@
     "gloss": {
       "zh": "照片",
       "ja": "写真",
-      "en": "photo"
+      "en": "photo",
+      "vi": "ảnh"
     },
     "pos": null,
     "ex": "Ini foto teman saya.",
@@ -1795,7 +1977,8 @@
     "ex_gloss": {
       "zh": "这是我朋友的照片。",
       "ja": "これはわたしの友だちの写真です。",
-      "en": "This is a photo of my friend."
+      "en": "This is a photo of my friend.",
+      "vi": "Đây là ảnh của bạn tôi."
     },
     "note": null
   },
@@ -1807,7 +1990,8 @@
     "gloss": {
       "zh": "图画",
       "ja": "絵",
-      "en": "picture, drawing"
+      "en": "picture, drawing",
+      "vi": "tranh · hình vẽ"
     },
     "pos": null,
     "ex": "Itu gambar saya.",
@@ -1815,7 +1999,8 @@
     "ex_gloss": {
       "zh": "那是我的画。",
       "ja": "あれはわたしの絵です。",
-      "en": "That is my drawing."
+      "en": "That is my drawing.",
+      "vi": "Đó là bức tranh của tôi."
     },
     "note": null
   },
@@ -1827,7 +2012,8 @@
     "gloss": {
       "zh": "眼镜",
       "ja": "めがね",
-      "en": "glasses"
+      "en": "glasses",
+      "vi": "kính mắt"
     },
     "pos": null,
     "ex": "Kacamata saya baru.",
@@ -1835,7 +2021,8 @@
     "ex_gloss": {
       "zh": "我的眼镜是新的。",
       "ja": "わたしのめがねは新しいです。",
-      "en": "My glasses are new."
+      "en": "My glasses are new.",
+      "vi": "Kính của tôi mới."
     },
     "note": null
   },
@@ -1847,7 +2034,8 @@
     "gloss": {
       "zh": "自行车",
       "ja": "自転車",
-      "en": "bicycle"
+      "en": "bicycle",
+      "vi": "xe đạp"
     },
     "pos": null,
     "ex": "Sepeda saya baru.",
@@ -1855,7 +2043,8 @@
     "ex_gloss": {
       "zh": "我的自行车是新的。",
       "ja": "わたしの自転車は新しいです。",
-      "en": "My bicycle is new."
+      "en": "My bicycle is new.",
+      "vi": "Xe đạp của tôi mới."
     },
     "note": null
   },
@@ -1867,7 +2056,8 @@
     "gloss": {
       "zh": "家，房子",
       "ja": "家",
-      "en": "house, home"
+      "en": "house, home",
+      "vi": "nhà"
     },
     "pos": null,
     "ex": "Rumah saya di Jogja.",
@@ -1875,7 +2065,8 @@
     "ex_gloss": {
       "zh": "我家在日惹。",
       "ja": "わたしの家はジョグジャにあります。",
-      "en": "My house is in Jogja."
+      "en": "My house is in Jogja.",
+      "vi": "Nhà tôi ở Jogja."
     },
     "note": null
   },
@@ -1887,7 +2078,8 @@
     "gloss": {
       "zh": "校园",
       "ja": "キャンパス",
-      "en": "campus"
+      "en": "campus",
+      "vi": "khuôn viên trường"
     },
     "pos": null,
     "ex": "Kampus UGM besar.",
@@ -1895,7 +2087,8 @@
     "ex_gloss": {
       "zh": "UGM 校园很大。",
       "ja": "UGM のキャンパスは広いです。",
-      "en": "The UGM campus is big."
+      "en": "The UGM campus is big.",
+      "vi": "Khuôn viên UGM rộng."
     },
     "note": null
   },
@@ -1907,7 +2100,8 @@
     "gloss": {
       "zh": "弟弟妹妹",
       "ja": "弟・妹",
-      "en": "younger sibling"
+      "en": "younger sibling",
+      "vi": "em (em trai, em gái)"
     },
     "pos": null,
     "ex": "Adik saya dua orang.",
@@ -1915,7 +2109,8 @@
     "ex_gloss": {
       "zh": "我有两个弟弟妹妹。",
       "ja": "わたしの弟・妹は二人です。",
-      "en": "I have two younger siblings."
+      "en": "I have two younger siblings.",
+      "vi": "Tôi có hai em."
     },
     "note": null
   },
@@ -1927,7 +2122,8 @@
     "gloss": {
       "zh": "有，拥有",
       "ja": "持っている",
-      "en": "to have, to own"
+      "en": "to have, to own",
+      "vi": "có · sở hữu"
     },
     "pos": null,
     "ex": "Saya punya buku.",
@@ -1935,7 +2131,8 @@
     "ex_gloss": {
       "zh": "我有一本书。",
       "ja": "わたしは本を持っています。",
-      "en": "I have a book."
+      "en": "I have a book.",
+      "vi": "Tôi có một quyển sách."
     },
     "note": null
   },
@@ -1947,7 +2144,8 @@
     "gloss": {
       "zh": "新的",
       "ja": "新しい",
-      "en": "new"
+      "en": "new",
+      "vi": "mới"
     },
     "pos": null,
     "ex": "Buku saya baru.",
@@ -1955,7 +2153,8 @@
     "ex_gloss": {
       "zh": "我的书是新的。",
       "ja": "わたしの本は新しいです。",
-      "en": "My book is new."
+      "en": "My book is new.",
+      "vi": "Sách của tôi mới."
     },
     "note": null
   },
@@ -1967,7 +2166,8 @@
     "gloss": {
       "zh": "好，好看",
       "ja": "よい・すてき",
-      "en": "good, nice"
+      "en": "good, nice",
+      "vi": "tốt · đẹp"
     },
     "pos": null,
     "ex": "Tas kamu bagus.",
@@ -1975,7 +2175,8 @@
     "ex_gloss": {
       "zh": "你的包很好看。",
       "ja": "あなたのかばんはすてきです。",
-      "en": "Your bag is nice."
+      "en": "Your bag is nice.",
+      "vi": "Túi của bạn đẹp."
     },
     "note": null
   },
@@ -1987,7 +2188,8 @@
     "gloss": {
       "zh": "屋顶",
       "ja": "屋根",
-      "en": "roof"
+      "en": "roof",
+      "vi": "mái nhà"
     },
     "pos": "n",
     "ex": "Atap itu merah.",
@@ -1995,7 +2197,8 @@
     "ex_gloss": {
       "zh": "那个屋顶是红的。",
       "ja": "あの屋根は赤いです。",
-      "en": "That roof is red."
+      "en": "That roof is red.",
+      "vi": "Mái nhà đó màu đỏ."
     },
     "note": null
   },
@@ -2007,7 +2210,8 @@
     "gloss": {
       "zh": "墙",
       "ja": "壁",
-      "en": "wall"
+      "en": "wall",
+      "vi": "tường"
     },
     "pos": "n",
     "ex": "Peta di dinding.",
@@ -2015,7 +2219,8 @@
     "ex_gloss": {
       "zh": "地图在墙上。",
       "ja": "地図は壁にあります。",
-      "en": "The map is on the wall."
+      "en": "The map is on the wall.",
+      "vi": "Bản đồ ở trên tường."
     },
     "note": null
   },
@@ -2027,7 +2232,8 @@
     "gloss": {
       "zh": "楼，建筑",
       "ja": "建物",
-      "en": "building"
+      "en": "building",
+      "vi": "tòa nhà"
     },
     "pos": "n",
     "ex": "Gedung itu baru.",
@@ -2035,7 +2241,8 @@
     "ex_gloss": {
       "zh": "那栋楼是新的。",
       "ja": "あの建物は新しいです。",
-      "en": "That building is new."
+      "en": "That building is new.",
+      "vi": "Tòa nhà đó mới."
     },
     "note": null
   },
@@ -2047,7 +2254,8 @@
     "gloss": {
       "zh": "食堂",
       "ja": "食堂",
-      "en": "canteen"
+      "en": "canteen",
+      "vi": "căng tin"
     },
     "pos": "n",
     "ex": "Kantin fakultas.",
@@ -2055,7 +2263,8 @@
     "ex_gloss": {
       "zh": "院系的食堂。",
       "ja": "学部の食堂。",
-      "en": "The faculty canteen."
+      "en": "The faculty canteen.",
+      "vi": "Căng tin của khoa."
     },
     "note": null
   },
@@ -2067,7 +2276,8 @@
     "gloss": {
       "zh": "学院，系",
       "ja": "学部",
-      "en": "faculty"
+      "en": "faculty",
+      "vi": "khoa (đại học)"
     },
     "pos": "n",
     "ex": "Kantin fakultas besar.",
@@ -2075,7 +2285,8 @@
     "ex_gloss": {
       "zh": "院系的食堂很大。",
       "ja": "学部の食堂は大きいです。",
-      "en": "The faculty canteen is big."
+      "en": "The faculty canteen is big.",
+      "vi": "Căng tin của khoa rộng."
     },
     "note": null
   },
@@ -2087,7 +2298,8 @@
     "gloss": {
       "zh": "大学老师",
       "ja": "大学の先生",
-      "en": "lecturer"
+      "en": "lecturer",
+      "vi": "giảng viên"
     },
     "pos": "n",
     "ex": "Dosen kami baik.",
@@ -2095,7 +2307,8 @@
     "ex_gloss": {
       "zh": "我们的老师很好。",
       "ja": "わたしたちの先生はいい方です。",
-      "en": "Our lecturer is kind."
+      "en": "Our lecturer is kind.",
+      "vi": "Giảng viên của chúng tôi tốt bụng."
     },
     "note": null
   },
@@ -2107,7 +2320,8 @@
     "gloss": {
       "zh": "各位同学，大家",
       "ja": "みなさん",
-      "en": "everyone, friends"
+      "en": "everyone, friends",
+      "vi": "các bạn · mọi người"
     },
     "pos": "n",
     "ex": "Halo, teman-teman!",
@@ -2115,7 +2329,8 @@
     "ex_gloss": {
       "zh": "大家好！",
       "ja": "みなさん、こんにちは！",
-      "en": "Hello, everyone!"
+      "en": "Hello, everyone!",
+      "vi": "Chào các bạn!"
     },
     "note": null
   },
@@ -2127,7 +2342,8 @@
     "gloss": {
       "zh": "作业，任务",
       "ja": "課題",
-      "en": "task, assignment"
+      "en": "task, assignment",
+      "vi": "bài tập · nhiệm vụ"
     },
     "pos": "n",
     "ex": "Tugas kuliah.",
@@ -2135,7 +2351,8 @@
     "ex_gloss": {
       "zh": "课程作业。",
       "ja": "授業の課題。",
-      "en": "Coursework."
+      "en": "Coursework.",
+      "vi": "Bài tập môn học."
     },
     "note": null
   },
@@ -2147,7 +2364,8 @@
     "gloss": {
       "zh": "大学课程",
       "ja": "講義",
-      "en": "lecture, coursework"
+      "en": "lecture, coursework",
+      "vi": "giờ học đại học"
     },
     "pos": "n",
     "ex": "Saya ada kuliah.",
@@ -2155,7 +2373,8 @@
     "ex_gloss": {
       "zh": "我有课。",
       "ja": "わたしは授業があります。",
-      "en": "I have a lecture."
+      "en": "I have a lecture.",
+      "vi": "Tôi có giờ học."
     },
     "note": null
   },
@@ -2167,7 +2386,8 @@
     "gloss": {
       "zh": "家庭作业",
       "ja": "宿題",
-      "en": "homework"
+      "en": "homework",
+      "vi": "bài tập về nhà"
     },
     "pos": "n",
     "ex": "Apakah ada PR?",
@@ -2175,7 +2395,8 @@
     "ex_gloss": {
       "zh": "有作业吗？",
       "ja": "宿題はありますか。",
-      "en": "Is there homework?"
+      "en": "Is there homework?",
+      "vi": "Có bài tập về nhà không?"
     },
     "note": null
   },
@@ -2187,7 +2408,8 @@
     "gloss": {
       "zh": "①页　②院子",
       "ja": "①ページ　②庭",
-      "en": "page; yard"
+      "en": "page; yard",
+      "vi": "① trang ② sân"
     },
     "pos": "n",
     "ex": "Halaman berapa?",
@@ -2195,7 +2417,8 @@
     "ex_gloss": {
       "zh": "第几页？",
       "ja": "何ページですか。",
-      "en": "What page?"
+      "en": "What page?",
+      "vi": "Trang bao nhiêu?"
     },
     "note": null
   },
@@ -2207,7 +2430,8 @@
     "gloss": {
       "zh": "世界",
       "ja": "世界",
-      "en": "world"
+      "en": "world",
+      "vi": "thế giới"
     },
     "pos": "n",
     "ex": "Ini peta dunia.",
@@ -2215,7 +2439,8 @@
     "ex_gloss": {
       "zh": "这是世界地图。",
       "ja": "これは世界地図です。",
-      "en": "This is a world map."
+      "en": "This is a world map.",
+      "vi": "Đây là bản đồ thế giới."
     },
     "note": null
   },
@@ -2227,7 +2452,8 @@
     "gloss": {
       "zh": "画作",
       "ja": "絵画",
-      "en": "painting"
+      "en": "painting",
+      "vi": "bức tranh"
     },
     "pos": "n",
     "ex": "Lukisan itu mahal.",
@@ -2235,7 +2461,8 @@
     "ex_gloss": {
       "zh": "那幅画很贵。",
       "ja": "あの絵は高いです。",
-      "en": "That painting is expensive."
+      "en": "That painting is expensive.",
+      "vi": "Bức tranh đó đắt."
     },
     "note": null
   },
@@ -2247,7 +2474,8 @@
     "gloss": {
       "zh": "伞",
       "ja": "傘",
-      "en": "umbrella"
+      "en": "umbrella",
+      "vi": "cái ô"
     },
     "pos": "n",
     "ex": "Payungnya besar.",
@@ -2255,7 +2483,8 @@
     "ex_gloss": {
       "zh": "他的伞很大。",
       "ja": "その傘は大きいです。",
-      "en": "The umbrella is big."
+      "en": "The umbrella is big.",
+      "vi": "Ô của cô ấy to."
     },
     "note": null
   },
@@ -2267,7 +2496,8 @@
     "gloss": {
       "zh": "有，在",
       "ja": "ある・いる",
-      "en": "there is, to be at"
+      "en": "there is, to be at",
+      "vi": "có · ở"
     },
     "pos": "v",
     "ex": "Di kelas ada meja.",
@@ -2275,7 +2505,8 @@
     "ex_gloss": {
       "zh": "教室里有桌子。",
       "ja": "教室に机があります。",
-      "en": "There is a table in the classroom."
+      "en": "There is a table in the classroom.",
+      "vi": "Trong lớp có bàn."
     },
     "note": null
   },
@@ -2287,7 +2518,8 @@
     "gloss": {
       "zh": "借",
       "ja": "借りる",
-      "en": "to borrow"
+      "en": "to borrow",
+      "vi": "mượn"
     },
     "pos": "v",
     "ex": "Boleh pinjam pensil?",
@@ -2295,7 +2527,8 @@
     "ex_gloss": {
       "zh": "能借一下铅笔吗？",
       "ja": "鉛筆を借りてもいいですか。",
-      "en": "May I borrow a pencil?"
+      "en": "May I borrow a pencil?",
+      "vi": "Cho mượn bút chì được không?"
     },
     "note": null
   },
@@ -2307,7 +2540,8 @@
     "gloss": {
       "zh": "带（口语）",
       "ja": "持ってくる（くだけた言い方）",
-      "en": "to bring (informal)"
+      "en": "to bring (informal)",
+      "vi": "mang (văn nói)"
     },
     "pos": "v",
     "ex": "Aku bawa kamus.",
@@ -2315,7 +2549,8 @@
     "ex_gloss": {
       "zh": "我带了词典。",
       "ja": "わたしは辞書を持ってきました。",
-      "en": "I brought a dictionary."
+      "en": "I brought a dictionary.",
+      "vi": "Mình có mang từ điển."
     },
     "note": null
   },
@@ -2327,7 +2562,8 @@
     "gloss": {
       "zh": "携带",
       "ja": "持ってくる",
-      "en": "to bring"
+      "en": "to bring",
+      "vi": "mang theo"
     },
     "pos": "v",
     "ex": "Dia membawa peta.",
@@ -2335,7 +2571,8 @@
     "ex_gloss": {
       "zh": "他带了地图。",
       "ja": "かれは地図を持ってきました。",
-      "en": "He brought a map."
+      "en": "He brought a map.",
+      "vi": "Anh ấy mang theo bản đồ."
     },
     "note": null
   },
@@ -2347,7 +2584,8 @@
     "gloss": {
       "zh": "看（口语）",
       "ja": "見る（くだけた言い方）",
-      "en": "to see (informal)"
+      "en": "to see (informal)",
+      "vi": "nhìn · xem (văn nói)"
     },
     "pos": "v",
     "ex": "Aku lihat peta.",
@@ -2355,7 +2593,8 @@
     "ex_gloss": {
       "zh": "我看地图。",
       "ja": "わたしは地図を見ます。",
-      "en": "I look at the map."
+      "en": "I look at the map.",
+      "vi": "Mình xem bản đồ."
     },
     "note": null
   },
@@ -2367,7 +2606,8 @@
     "gloss": {
       "zh": "观看",
       "ja": "見る",
-      "en": "to see"
+      "en": "to see",
+      "vi": "xem · quan sát"
     },
     "pos": "v",
     "ex": "Senang melihat peta.",
@@ -2375,7 +2615,8 @@
     "ex_gloss": {
       "zh": "很高兴看到地图。",
       "ja": "地図を見るのは楽しいです。",
-      "en": "I enjoy looking at maps."
+      "en": "I enjoy looking at maps.",
+      "vi": "Rất vui được xem bản đồ."
     },
     "note": null
   },
@@ -2387,7 +2628,8 @@
     "gloss": {
       "zh": "明白，懂",
       "ja": "わかる",
-      "en": "to understand"
+      "en": "to understand",
+      "vi": "hiểu"
     },
     "pos": "v",
     "ex": "Saya mengerti.",
@@ -2395,7 +2637,8 @@
     "ex_gloss": {
       "zh": "我明白了。",
       "ja": "わかりました。",
-      "en": "I understand."
+      "en": "I understand.",
+      "vi": "Tôi hiểu rồi."
     },
     "note": null
   },
@@ -2407,7 +2650,8 @@
     "gloss": {
       "zh": "重复",
       "ja": "繰り返す",
-      "en": "to repeat"
+      "en": "to repeat",
+      "vi": "nhắc lại"
     },
     "pos": "v",
     "ex": "Tolong ulangi.",
@@ -2415,7 +2659,8 @@
     "ex_gloss": {
       "zh": "请再说一遍。",
       "ja": "もう一度お願いします。",
-      "en": "Please repeat."
+      "en": "Please repeat.",
+      "vi": "Xin nhắc lại một lần nữa."
     },
     "note": null
   },
@@ -2427,7 +2672,8 @@
     "gloss": {
       "zh": "说话",
       "ja": "話す",
-      "en": "to speak"
+      "en": "to speak",
+      "vi": "nói · nói chuyện"
     },
     "pos": "v",
     "ex": "Tolong bicara lambat.",
@@ -2435,7 +2681,8 @@
     "ex_gloss": {
       "zh": "请说慢一点。",
       "ja": "ゆっくり話してください。",
-      "en": "Please speak slowly."
+      "en": "Please speak slowly.",
+      "vi": "Xin nói chậm một chút."
     },
     "note": null
   },
@@ -2447,7 +2694,8 @@
     "gloss": {
       "zh": "能，会（能力）",
       "ja": "できる",
-      "en": "can, be able to"
+      "en": "can, be able to",
+      "vi": "có thể (năng lực)"
     },
     "pos": "aux",
     "ex": "Saya bisa bicara.",
@@ -2455,7 +2703,8 @@
     "ex_gloss": {
       "zh": "我会说。",
       "ja": "わたしは話せます。",
-      "en": "I can speak."
+      "en": "I can speak.",
+      "vi": "Tôi nói được."
     },
     "note": null
   },
@@ -2467,7 +2716,8 @@
     "gloss": {
       "zh": "可以（许可）",
       "ja": "〜してもよい",
-      "en": "may, be allowed"
+      "en": "may, be allowed",
+      "vi": "được phép"
     },
     "pos": "aux",
     "ex": "Boleh pinjam bolpoin?",
@@ -2475,7 +2725,8 @@
     "ex_gloss": {
       "zh": "可以借圆珠笔吗？",
       "ja": "ボールペンを借りてもいいですか。",
-      "en": "May I borrow a pen?"
+      "en": "May I borrow a pen?",
+      "vi": "Cho mượn bút bi được không?"
     },
     "note": null
   },
@@ -2487,7 +2738,8 @@
     "gloss": {
       "zh": "必须",
       "ja": "〜しなければならない",
-      "en": "must, have to"
+      "en": "must, have to",
+      "vi": "phải"
     },
     "pos": "aux",
     "ex": "Saya harus belajar.",
@@ -2495,7 +2747,8 @@
     "ex_gloss": {
       "zh": "我必须学习。",
       "ja": "わたしは勉強しなければなりません。",
-      "en": "I have to study."
+      "en": "I have to study.",
+      "vi": "Tôi phải học."
     },
     "note": null
   },
@@ -2507,7 +2760,8 @@
     "gloss": {
       "zh": "已经",
       "ja": "もう、すでに",
-      "en": "already"
+      "en": "already",
+      "vi": "đã · rồi"
     },
     "pos": "aux",
     "ex": "Dia sudah datang.",
@@ -2515,7 +2769,8 @@
     "ex_gloss": {
       "zh": "他已经来了。",
       "ja": "かれはもう来ました。",
-      "en": "He has already arrived."
+      "en": "He has already arrived.",
+      "vi": "Anh ấy đến rồi."
     },
     "note": null
   },
@@ -2527,7 +2782,8 @@
     "gloss": {
       "zh": "大的",
       "ja": "大きい",
-      "en": "big"
+      "en": "big",
+      "vi": "to · lớn"
     },
     "pos": "adj",
     "ex": "Kelas kami besar.",
@@ -2535,7 +2791,8 @@
     "ex_gloss": {
       "zh": "我们的教室很大。",
       "ja": "わたしたちの教室は大きいです。",
-      "en": "Our classroom is big."
+      "en": "Our classroom is big.",
+      "vi": "Lớp học của chúng tôi rộng."
     },
     "note": null
   },
@@ -2547,7 +2804,8 @@
     "gloss": {
       "zh": "宽敞的",
       "ja": "広い",
-      "en": "spacious"
+      "en": "spacious",
+      "vi": "rộng rãi"
     },
     "pos": "adj",
     "ex": "Halamannya luas.",
@@ -2555,7 +2813,8 @@
     "ex_gloss": {
       "zh": "他家的院子很宽敞。",
       "ja": "その庭は広いです。",
-      "en": "The yard is spacious."
+      "en": "The yard is spacious.",
+      "vi": "Sân nhà anh ấy rộng rãi."
     },
     "note": null
   },
@@ -2567,7 +2826,8 @@
     "gloss": {
       "zh": "贵的",
       "ja": "高い（値段）",
-      "en": "expensive"
+      "en": "expensive",
+      "vi": "đắt"
     },
     "pos": "adj",
     "ex": "Tas itu mahal.",
@@ -2575,7 +2835,8 @@
     "ex_gloss": {
       "zh": "那个包很贵。",
       "ja": "あのかばんは高いです。",
-      "en": "That bag is expensive."
+      "en": "That bag is expensive.",
+      "vi": "Cái túi đó đắt."
     },
     "note": null
   },
@@ -2587,7 +2848,8 @@
     "gloss": {
       "zh": "漂亮的",
       "ja": "きれいな",
-      "en": "pretty, lovely"
+      "en": "pretty, lovely",
+      "vi": "đẹp · xinh"
     },
     "pos": "adj",
     "ex": "Bajumu cantik.",
@@ -2595,7 +2857,8 @@
     "ex_gloss": {
       "zh": "你的衣服真好看。",
       "ja": "あなたの服はすてきです。",
-      "en": "Your shirt is lovely."
+      "en": "Your shirt is lovely.",
+      "vi": "Áo của bạn xinh quá."
     },
     "note": null
   },
@@ -2607,7 +2870,8 @@
     "gloss": {
       "zh": "旧的；年老的",
       "ja": "古い・年老いた",
-      "en": "old"
+      "en": "old",
+      "vi": "cũ; già"
     },
     "pos": "adj",
     "ex": "Sepeda saya tua.",
@@ -2615,7 +2879,8 @@
     "ex_gloss": {
       "zh": "我的自行车很旧。",
       "ja": "わたしの自転車は古いです。",
-      "en": "My bicycle is old."
+      "en": "My bicycle is old.",
+      "vi": "Xe đạp của tôi cũ rồi."
     },
     "note": null
   },
@@ -2627,7 +2892,8 @@
     "gloss": {
       "zh": "大声的；硬的",
       "ja": "大きい（声）",
-      "en": "loud; hard"
+      "en": "loud; hard",
+      "vi": "to (tiếng); cứng"
     },
     "pos": "adj",
     "ex": "Silakan lebih keras.",
@@ -2635,7 +2901,8 @@
     "ex_gloss": {
       "zh": "请大声一点。",
       "ja": "もっと大きな声でお願いします。",
-      "en": "Please speak louder."
+      "en": "Please speak louder.",
+      "vi": "Xin nói to hơn một chút."
     },
     "note": null
   },
@@ -2647,7 +2914,8 @@
     "gloss": {
       "zh": "慢的",
       "ja": "ゆっくりな",
-      "en": "slow"
+      "en": "slow",
+      "vi": "chậm"
     },
     "pos": "adj",
     "ex": "Bicara lambat.",
@@ -2655,7 +2923,8 @@
     "ex_gloss": {
       "zh": "说得慢。",
       "ja": "ゆっくり話す。",
-      "en": "Speak slowly."
+      "en": "Speak slowly.",
+      "vi": "Nói chậm."
     },
     "note": null
   },
@@ -2667,7 +2936,8 @@
     "gloss": {
       "zh": "请（用、做吧）",
       "ja": "どうぞ",
-      "en": "please, go ahead"
+      "en": "please, go ahead",
+      "vi": "xin mời"
     },
     "pos": "interj",
     "ex": "Silakan masuk.",
@@ -2675,7 +2945,8 @@
     "ex_gloss": {
       "zh": "请进。",
       "ja": "どうぞお入りください。",
-      "en": "Please come in."
+      "en": "Please come in.",
+      "vi": "Mời vào."
     },
     "note": null
   },
@@ -2687,7 +2958,8 @@
     "gloss": {
       "zh": "请（求人帮忙）",
       "ja": "〜してください",
-      "en": "please (asking a favour)"
+      "en": "please (asking a favour)",
+      "vi": "làm ơn (nhờ giúp)"
     },
     "pos": "interj",
     "ex": "Tolong ulangi.",
@@ -2695,7 +2967,8 @@
     "ex_gloss": {
       "zh": "请再说一遍。",
       "ja": "もう一度お願いします。",
-      "en": "Please repeat."
+      "en": "Please repeat.",
+      "vi": "Xin nhắc lại một lần nữa."
     },
     "note": null
   },
@@ -2707,7 +2980,8 @@
     "gloss": {
       "zh": "打扰一下",
       "ja": "すみません",
-      "en": "excuse me"
+      "en": "excuse me",
+      "vi": "xin phép · làm phiền"
     },
     "pos": "interj",
     "ex": "Permisi, Pak.",
@@ -2715,7 +2989,8 @@
     "ex_gloss": {
       "zh": "打扰一下，先生。",
       "ja": "すみません、パッ。",
-      "en": "Excuse me, sir."
+      "en": "Excuse me, sir.",
+      "vi": "Xin lỗi làm phiền, thưa ông."
     },
     "note": null
   },
@@ -2727,7 +3002,8 @@
     "gloss": {
       "zh": "问题",
       "ja": "質問",
-      "en": "question"
+      "en": "question",
+      "vi": "câu hỏi"
     },
     "pos": "n",
     "ex": "Apakah ada pertanyaan?",
@@ -2735,7 +3011,8 @@
     "ex_gloss": {
       "zh": "有问题吗？",
       "ja": "質問はありますか。",
-      "en": "Are there any questions?"
+      "en": "Are there any questions?",
+      "vi": "Có câu hỏi nào không?"
     },
     "note": null
   },
@@ -2747,7 +3024,8 @@
     "gloss": {
       "zh": "多少，几",
       "ja": "いくつ、何",
-      "en": "how many, what number"
+      "en": "how many, what number",
+      "vi": "bao nhiêu, mấy"
     },
     "pos": "interrog",
     "ex": "Halaman berapa?",
@@ -2755,7 +3033,8 @@
     "ex_gloss": {
       "zh": "第几页？",
       "ja": "何ページですか。",
-      "en": "What page?"
+      "en": "What page?",
+      "vi": "Trang mấy?"
     },
     "note": null
   },
@@ -2767,7 +3046,8 @@
     "gloss": {
       "zh": "当然",
       "ja": "もちろん",
-      "en": "of course"
+      "en": "of course",
+      "vi": "tất nhiên"
     },
     "pos": "adv",
     "ex": "Tentu saja.",
@@ -2775,7 +3055,8 @@
     "ex_gloss": {
       "zh": "当然。",
       "ja": "もちろんです。",
-      "en": "Of course."
+      "en": "Of course.",
+      "vi": "Tất nhiên rồi."
     },
     "note": null
   },
@@ -2787,7 +3068,8 @@
     "gloss": {
       "zh": "演艺明星",
       "ja": "芸能人",
-      "en": "celebrity, performer"
+      "en": "celebrity, performer",
+      "vi": "nghệ sĩ, người nổi tiếng"
     },
     "pos": "n",
     "ex": "Dia artis.",
@@ -2795,7 +3077,8 @@
     "ex_gloss": {
       "zh": "他是演艺明星。",
       "ja": "かのじょは芸能人です。",
-      "en": "She is a celebrity."
+      "en": "She is a celebrity.",
+      "vi": "Cô ấy là nghệ sĩ."
     },
     "note": null
   },
@@ -2807,7 +3090,8 @@
     "gloss": {
       "zh": "二，两个",
       "ja": "二",
-      "en": "two"
+      "en": "two",
+      "vi": "hai"
     },
     "pos": "num",
     "ex": "Saya punya dua buku.",
@@ -2815,7 +3099,8 @@
     "ex_gloss": {
       "zh": "我有两本书。",
       "ja": "わたしは本を二冊持っています。",
-      "en": "I have two books."
+      "en": "I have two books.",
+      "vi": "Tôi có hai quyển sách."
     },
     "note": null
   },
@@ -2827,7 +3112,8 @@
     "gloss": {
       "zh": "十",
       "ja": "十",
-      "en": "ten"
+      "en": "ten",
+      "vi": "mười"
     },
     "pos": "num",
     "ex": "Sepuluh menit.",
@@ -2835,7 +3121,8 @@
     "ex_gloss": {
       "zh": "十分钟。",
       "ja": "十分。",
-      "en": "Ten minutes."
+      "en": "Ten minutes.",
+      "vi": "Mười phút."
     },
     "note": null
   },
@@ -2847,7 +3134,8 @@
     "gloss": {
       "zh": "蜡染布（巴迪）",
       "ja": "バティック（ろうけつ染めの布）",
-      "en": "batik"
+      "en": "batik",
+      "vi": "vải batik"
     },
     "pos": "n",
     "ex": "Baju batik cantik.",
@@ -2855,7 +3143,8 @@
     "ex_gloss": {
       "zh": "巴迪衫很好看。",
       "ja": "バティックの服はすてきです。",
-      "en": "Batik shirts are lovely."
+      "en": "Batik shirts are lovely.",
+      "vi": "Áo batik rất đẹp."
     },
     "note": null
   },
@@ -2867,7 +3156,8 @@
     "gloss": {
       "zh": "纱笼（筒状腰布）",
       "ja": "サルン（筒状の腰布）",
-      "en": "sarung (tubular wrap cloth)"
+      "en": "sarung (tubular wrap cloth)",
+      "vi": "sarung (khăn quấn ống)"
     },
     "pos": "n",
     "ex": "Itu sarung saya.",
@@ -2875,7 +3165,8 @@
     "ex_gloss": {
       "zh": "那是我的纱笼。",
       "ja": "あれはわたしのサルンです。",
-      "en": "That is my sarung."
+      "en": "That is my sarung.",
+      "vi": "Đó là sarung của tôi."
     },
     "note": null
   },
@@ -2887,7 +3178,8 @@
     "gloss": {
       "zh": "佩奇帽（男性黑色无檐帽）",
       "ja": "ペチ（黒い縁なし帽）",
-      "en": "peci (brimless cap)"
+      "en": "peci (brimless cap)",
+      "vi": "peci (mũ không vành)"
     },
     "pos": "n",
     "ex": "Peci itu hitam.",
@@ -2895,7 +3187,8 @@
     "ex_gloss": {
       "zh": "那顶帽子是黑色的。",
       "ja": "あの帽子は黒いです。",
-      "en": "That cap is black."
+      "en": "That cap is black.",
+      "vi": "Chiếc mũ đó màu đen."
     },
     "note": null
   },
@@ -2907,7 +3200,8 @@
     "gloss": {
       "zh": "格里斯短剑（波刃匕首）",
       "ja": "クリス（波形の刃の短剣）",
-      "en": "keris (wavy-bladed dagger)"
+      "en": "keris (wavy-bladed dagger)",
+      "vi": "keris (dao lưỡi lượn sóng)"
     },
     "pos": "n",
     "ex": "Keris itu tua.",
@@ -2915,7 +3209,8 @@
     "ex_gloss": {
       "zh": "那把短剑很旧。",
       "ja": "あの短剣は古いです。",
-      "en": "That keris is old."
+      "en": "That keris is old.",
+      "vi": "Con dao keris đó đã cũ."
     },
     "note": null
   },
@@ -2927,7 +3222,8 @@
     "gloss": {
       "zh": "希贾布（穆斯林女性头巾）",
       "ja": "ジルバブ（ムスリム女性のスカーフ）",
-      "en": "jilbab (headscarf)"
+      "en": "jilbab (headscarf)",
+      "vi": "jilbab (khăn trùm đầu)"
     },
     "pos": "n",
     "ex": "Jilbabnya cantik.",
@@ -2935,7 +3231,8 @@
     "ex_gloss": {
       "zh": "她的头巾很好看。",
       "ja": "そのジルバブはすてきです。",
-      "en": "Her jilbab is lovely."
+      "en": "Her jilbab is lovely.",
+      "vi": "Khăn trùm đầu của cô ấy rất đẹp."
     },
     "note": null
   },
@@ -2947,7 +3244,8 @@
     "gloss": {
       "zh": "黑色的",
       "ja": "黒い",
-      "en": "black"
+      "en": "black",
+      "vi": "màu đen"
     },
     "pos": "adj",
     "ex": "Peci itu hitam.",
@@ -2955,7 +3253,8 @@
     "ex_gloss": {
       "zh": "那顶帽子是黑的。",
       "ja": "あの帽子は黒いです。",
-      "en": "That cap is black."
+      "en": "That cap is black.",
+      "vi": "Chiếc mũ đó màu đen."
     },
     "note": null
   },
@@ -2967,7 +3266,8 @@
     "gloss": {
       "zh": "不太⋯ · 不够",
       "ja": "あまり〜でない · 足りない",
-      "en": "not quite, insufficiently"
+      "en": "not quite, insufficiently",
+      "vi": "không lắm · chưa đủ"
     },
     "pos": "adv",
     "ex": "Saya kurang sehat.",
@@ -2975,12 +3275,14 @@
     "ex_gloss": {
       "zh": "我不太舒服。",
       "ja": "少し体調がよくありません。",
-      "en": "I'm not feeling well."
+      "en": "I'm not feeling well.",
+      "vi": "Tôi không được khỏe lắm."
     },
     "note": {
       "zh": "放在形容词前面，是委婉的否定 —— 比直接说「不」客气。",
       "ja": "形容詞の前に置く、やわらかい否定。「〜でない」と言い切るより丁寧です。",
-      "en": "Placed before an adjective it softens the negative — gentler than a flat “not”."
+      "en": "Placed before an adjective it softens the negative — gentler than a flat “not”.",
+      "vi": "Đặt trước tính từ, nó phủ định một cách nhẹ nhàng — lịch sự hơn là nói thẳng “không”."
     }
   },
   {
@@ -2991,7 +3293,8 @@
     "gloss": {
       "zh": "健康的 · 舒服",
       "ja": "健康な · 元気な",
-      "en": "healthy, well"
+      "en": "healthy, well",
+      "vi": "khỏe mạnh · khỏe"
     },
     "pos": "adj",
     "ex": "Saya sehat.",
@@ -2999,7 +3302,8 @@
     "ex_gloss": {
       "zh": "我很好。",
       "ja": "元気です。",
-      "en": "I'm well."
+      "en": "I'm well.",
+      "vi": "Tôi khỏe."
     },
     "note": null
   },
@@ -3011,7 +3315,8 @@
     "gloss": {
       "zh": "还行 · 还不错",
       "ja": "まずまず · そこそこ",
-      "en": "not bad, so-so"
+      "en": "not bad, so-so",
+      "vi": "cũng được · tạm ổn"
     },
     "pos": "adj",
     "ex": "Lumayan.",
@@ -3019,7 +3324,8 @@
     "ex_gloss": {
       "zh": "还行。",
       "ja": "まずまずです。",
-      "en": "Not bad."
+      "en": "Not bad.",
+      "vi": "Cũng được."
     },
     "note": null
   },
@@ -3031,7 +3337,8 @@
     "gloss": {
       "zh": "累",
       "ja": "疲れた",
-      "en": "tired"
+      "en": "tired",
+      "vi": "mệt"
     },
     "pos": "adj",
     "ex": "Saya sedikit capek.",
@@ -3039,12 +3346,14 @@
     "ex_gloss": {
       "zh": "我有点累。",
       "ja": "少し疲れています。",
-      "en": "I'm a bit tired."
+      "en": "I'm a bit tired.",
+      "vi": "Tôi hơi mệt."
     },
     "note": {
       "zh": "口语词，正式场合说 lelah。",
       "ja": "くだけた語。あらたまった場では lelah。",
-      "en": "Colloquial; the formal word is lelah."
+      "en": "Colloquial; the formal word is lelah.",
+      "vi": "Từ văn nói; trong tình huống trang trọng dùng lelah."
     }
   },
   {
@@ -3055,7 +3364,8 @@
     "gloss": {
       "zh": "怎么样 · 如何",
       "ja": "どのように · どう",
-      "en": "how"
+      "en": "how",
+      "vi": "thế nào · như thế nào"
     },
     "pos": "interrog",
     "ex": "Bagaimana kabar Anda?",
@@ -3063,7 +3373,8 @@
     "ex_gloss": {
       "zh": "您近来好吗？",
       "ja": "お変わりありませんか。",
-      "en": "How have you been?"
+      "en": "How have you been?",
+      "vi": "Dạo này bạn thế nào?"
     },
     "note": null
   },
@@ -3075,7 +3386,8 @@
     "gloss": {
       "zh": "怎么样（口语）",
       "ja": "どう（くだけた言い方）",
-      "en": "how (colloquial)"
+      "en": "how (colloquial)",
+      "vi": "thế nào (văn nói)"
     },
     "pos": "interrog",
     "ex": "Gimana kabarnya?",
@@ -3083,7 +3395,8 @@
     "ex_gloss": {
       "zh": "你怎么样？",
       "ja": "調子どう？",
-      "en": "How's it going?"
+      "en": "How's it going?",
+      "vi": "Dạo này thế nào?"
     },
     "note": null
   },
@@ -3095,7 +3408,8 @@
     "gloss": {
       "zh": "自己 · 本人",
       "ja": "自分 · 〜自身",
-      "en": "oneself; and you?"
+      "en": "oneself; and you?",
+      "vi": "tự mình · còn bạn?"
     },
     "pos": "pron",
     "ex": "Anda sendiri?",
@@ -3103,12 +3417,14 @@
     "ex_gloss": {
       "zh": "您呢？",
       "ja": "あなたは？",
-      "en": "And you?"
+      "en": "And you?",
+      "vi": "Còn bạn thì sao?"
     },
     "note": {
       "zh": "跟在人称代词后面反问，等于中文的「你呢」。",
       "ja": "人称代名詞のあとにつけて聞き返すと「あなたは？」の意味になります。",
-      "en": "After a pronoun it turns into “and you?”"
+      "en": "After a pronoun it turns into “and you?”",
+      "vi": "Đứng sau đại từ nhân xưng, nó thành câu hỏi ngược “còn bạn?”."
     }
   },
   {
@@ -3119,7 +3435,8 @@
     "gloss": {
       "zh": "容我介绍（开场白）",
       "ja": "ご紹介します（切り出し）",
-      "en": "let me introduce"
+      "en": "let me introduce",
+      "vi": "xin giới thiệu"
     },
     "pos": "v",
     "ex": "Perkenalkan, nama saya Ilfat.",
@@ -3127,12 +3444,14 @@
     "ex_gloss": {
       "zh": "容我介绍一下，我叫 Ilfat。",
       "ja": "ご紹介します。名前は Ilfat です。",
-      "en": "Let me introduce myself: my name is Ilfat."
+      "en": "Let me introduce myself: my name is Ilfat.",
+      "vi": "Xin giới thiệu, tôi tên là Ilfat."
     },
     "note": {
       "zh": "kenalkan 是同一个词的短形式，两个都对。",
       "ja": "kenalkan は同じ語の短い形。どちらも正しい言い方です。",
-      "en": "kenalkan is the short form of the same word; both are correct."
+      "en": "kenalkan is the short form of the same word; both are correct.",
+      "vi": "kenalkan là dạng ngắn của cùng từ này; cả hai đều đúng."
     }
   },
   {
@@ -3143,7 +3462,8 @@
     "gloss": {
       "zh": "叫 · 称呼",
       "ja": "呼ぶ",
-      "en": "to call (someone something)"
+      "en": "to call (someone something)",
+      "vi": "gọi · xưng hô"
     },
     "pos": "v",
     "ex": "Panggil saya Novi.",
@@ -3151,7 +3471,8 @@
     "ex_gloss": {
       "zh": "叫我 Novi 就行。",
       "ja": "Novi と呼んでください。",
-      "en": "Please call me Novi."
+      "en": "Please call me Novi.",
+      "vi": "Cứ gọi tôi là Novi."
     },
     "note": null
   },
@@ -3163,7 +3484,8 @@
     "gloss": {
       "zh": "称呼 · 小名",
       "ja": "呼び名 · 通称",
-      "en": "the name people call you"
+      "en": "the name people call you",
+      "vi": "tên gọi · tên thân mật"
     },
     "pos": "n",
     "ex": "Nama panggilan saya Novi.",
@@ -3171,7 +3493,8 @@
     "ex_gloss": {
       "zh": "我的小名叫 Novi。",
       "ja": "通称は Novi です。",
-      "en": "My short name is Novi."
+      "en": "My short name is Novi.",
+      "vi": "Tên thân mật của tôi là Novi."
     },
     "note": null
   },
@@ -3183,7 +3506,8 @@
     "gloss": {
       "zh": "一位（人的量词）",
       "ja": "一人の（人の助数詞）",
-      "en": "a (one person)"
+      "en": "a (one person)",
+      "vi": "một (người)"
     },
     "pos": "num",
     "ex": "Saya seorang guru.",
@@ -3191,12 +3515,14 @@
     "ex_gloss": {
       "zh": "我是老师。",
       "ja": "わたしは教師です。",
-      "en": "I'm a teacher."
+      "en": "I'm a teacher.",
+      "vi": "Tôi là giáo viên."
     },
     "note": {
       "zh": "se-（一）+ orang（人）。省掉也对，加上更正式。",
       "ja": "se-（一）+ orang（人）。省いてもよく、入れるとあらたまった言い方になります。",
-      "en": "se- (one) + orang (person). It can be dropped; keeping it sounds more formal."
+      "en": "se- (one) + orang (person). It can be dropped; keeping it sounds more formal.",
+      "vi": "se- (một) + orang (người). Bỏ đi cũng được; giữ lại thì trang trọng hơn."
     }
   },
   {
@@ -3207,7 +3533,8 @@
     "gloss": {
       "zh": "出身 · 来处",
       "ja": "出身 · 出どころ",
-      "en": "origin, where someone is from"
+      "en": "origin, where someone is from",
+      "vi": "nguồn gốc · quê quán"
     },
     "pos": "n",
     "ex": "Apa asal Anda?",
@@ -3215,7 +3542,8 @@
     "ex_gloss": {
       "zh": "您是哪里人？",
       "ja": "ご出身はどちらですか。",
-      "en": "Where are you from?"
+      "en": "Where are you from?",
+      "vi": "Bạn quê ở đâu?"
     },
     "note": null
   },
@@ -3227,7 +3555,8 @@
     "gloss": {
       "zh": "来自 · 出身于",
       "ja": "〜の出身である",
-      "en": "to come from"
+      "en": "to come from",
+      "vi": "đến từ · xuất thân từ"
     },
     "pos": "v",
     "ex": "Dia berasal dari Lombok.",
@@ -3235,12 +3564,14 @@
     "ex_gloss": {
       "zh": "她来自龙目岛。",
       "ja": "ロンボク島の出身です。",
-      "en": "She comes from Lombok."
+      "en": "She comes from Lombok.",
+      "vi": "Cô ấy đến từ Lombok."
     },
     "note": {
       "zh": "berasal dari 比 dari 正式一点，意思一样。",
       "ja": "berasal dari は dari よりややあらたまった言い方で、意味は同じです。",
-      "en": "berasal dari is a shade more formal than plain dari; the meaning is the same."
+      "en": "berasal dari is a shade more formal than plain dari; the meaning is the same.",
+      "vi": "berasal dari trang trọng hơn dari một chút, nghĩa thì giống nhau."
     }
   },
   {
@@ -3251,7 +3582,8 @@
     "gloss": {
       "zh": "完整的 · 齐全的",
       "ja": "完全な · そろっている",
-      "en": "complete, full"
+      "en": "complete, full",
+      "vi": "đầy đủ · trọn vẹn"
     },
     "pos": "adj",
     "ex": "Nama lengkap saya Novi Wulandari.",
@@ -3259,7 +3591,8 @@
     "ex_gloss": {
       "zh": "我的全名是 Novi Wulandari。",
       "ja": "正式な名前は Novi Wulandari です。",
-      "en": "My full name is Novi Wulandari."
+      "en": "My full name is Novi Wulandari.",
+      "vi": "Tên đầy đủ của tôi là Novi Wulandari."
     },
     "note": null
   },
@@ -3271,7 +3604,8 @@
     "gloss": {
       "zh": "年龄",
       "ja": "年齢",
-      "en": "age"
+      "en": "age",
+      "vi": "tuổi"
     },
     "pos": "n",
     "ex": "Umur saya dua puluh tahun.",
@@ -3279,7 +3613,8 @@
     "ex_gloss": {
       "zh": "我二十岁。",
       "ja": "わたしは 20 歳です。",
-      "en": "I'm twenty years old."
+      "en": "I'm twenty years old.",
+      "vi": "Tôi hai mươi tuổi."
     },
     "note": null
   },
@@ -3291,7 +3626,8 @@
     "gloss": {
       "zh": "年龄是 · 有⋯岁",
       "ja": "〜歳である",
-      "en": "to be (so many) years old"
+      "en": "to be (so many) years old",
+      "vi": "được … tuổi"
     },
     "pos": "v",
     "ex": "Saya berumur dua puluh tahun.",
@@ -3299,12 +3635,14 @@
     "ex_gloss": {
       "zh": "我二十岁。",
       "ja": "わたしは 20 歳です。",
-      "en": "I'm twenty years old."
+      "en": "I'm twenty years old.",
+      "vi": "Tôi hai mươi tuổi."
     },
     "note": {
       "zh": "Umur saya … tahun 和 Saya berumur … tahun 完全等价。",
       "ja": "Umur saya … tahun と Saya berumur … tahun はまったく同じ意味です。",
-      "en": "Umur saya … tahun and Saya berumur … tahun are exact equivalents."
+      "en": "Umur saya … tahun and Saya berumur … tahun are exact equivalents.",
+      "vi": "Umur saya … tahun và Saya berumur … tahun hoàn toàn tương đương."
     }
   },
   {
@@ -3315,7 +3653,8 @@
     "gloss": {
       "zh": "爱好",
       "ja": "趣味",
-      "en": "hobby"
+      "en": "hobby",
+      "vi": "sở thích"
     },
     "pos": "n",
     "ex": "Apa hobi Anda?",
@@ -3323,7 +3662,8 @@
     "ex_gloss": {
       "zh": "您有什么爱好？",
       "ja": "ご趣味は何ですか。",
-      "en": "What are your hobbies?"
+      "en": "What are your hobbies?",
+      "vi": "Sở thích của bạn là gì?"
     },
     "note": null
   },
@@ -3335,7 +3675,8 @@
     "gloss": {
       "zh": "采访 · 面试",
       "ja": "インタビュー · 面接",
-      "en": "interview"
+      "en": "interview",
+      "vi": "phỏng vấn"
     },
     "pos": "n",
     "ex": "Kita wawancara teman.",
@@ -3343,7 +3684,8 @@
     "ex_gloss": {
       "zh": "我们采访同学。",
       "ja": "クラスメイトにインタビューします。",
-      "en": "We interview a classmate."
+      "en": "We interview a classmate.",
+      "vi": "Chúng ta phỏng vấn bạn học."
     },
     "note": null
   },
@@ -3355,7 +3697,8 @@
     "gloss": {
       "zh": "字母",
       "ja": "文字",
-      "en": "letter (of the alphabet)"
+      "en": "letter (of the alphabet)",
+      "vi": "chữ cái"
     },
     "pos": "n",
     "ex": "Huruf apa ini?",
@@ -3363,7 +3706,8 @@
     "ex_gloss": {
       "zh": "这是什么字母？",
       "ja": "これは何の文字ですか。",
-      "en": "What letter is this?"
+      "en": "What letter is this?",
+      "vi": "Đây là chữ cái gì?"
     },
     "note": null
   },
@@ -3375,7 +3719,8 @@
     "gloss": {
       "zh": "字母表",
       "ja": "アルファベット",
-      "en": "the alphabet"
+      "en": "the alphabet",
+      "vi": "bảng chữ cái"
     },
     "pos": "n",
     "ex": "Abjad Indonesia ada dua puluh enam huruf.",
@@ -3383,7 +3728,8 @@
     "ex_gloss": {
       "zh": "印尼语字母表有二十六个字母。",
       "ja": "インドネシア語のアルファベットは 26 文字です。",
-      "en": "The Indonesian alphabet has twenty-six letters."
+      "en": "The Indonesian alphabet has twenty-six letters.",
+      "vi": "Bảng chữ cái tiếng Indonesia có hai mươi sáu chữ cái."
     },
     "note": null
   },
@@ -3395,7 +3741,8 @@
     "gloss": {
       "zh": "声音 · 读音",
       "ja": "音 · 発音",
-      "en": "sound"
+      "en": "sound",
+      "vi": "âm · cách đọc"
     },
     "pos": "n",
     "ex": "Bunyi huruf c.",
@@ -3403,7 +3750,8 @@
     "ex_gloss": {
       "zh": "字母 c 的读音。",
       "ja": "文字 c の音。",
-      "en": "The sound of the letter c."
+      "en": "The sound of the letter c.",
+      "vi": "Âm của chữ c."
     },
     "note": null
   },
@@ -3415,7 +3763,8 @@
     "gloss": {
       "zh": "元音",
       "ja": "母音",
-      "en": "vowel"
+      "en": "vowel",
+      "vi": "nguyên âm"
     },
     "pos": "n",
     "ex": "Ada lima vokal.",
@@ -3423,7 +3772,8 @@
     "ex_gloss": {
       "zh": "有五个元音。",
       "ja": "母音は五つあります。",
-      "en": "There are five vowels."
+      "en": "There are five vowels.",
+      "vi": "Có năm nguyên âm."
     },
     "note": null
   },
@@ -3435,7 +3785,8 @@
     "gloss": {
       "zh": "辅音",
       "ja": "子音",
-      "en": "consonant"
+      "en": "consonant",
+      "vi": "phụ âm"
     },
     "pos": "n",
     "ex": "Huruf c konsonan.",
@@ -3443,7 +3794,8 @@
     "ex_gloss": {
       "zh": "字母 c 是辅音。",
       "ja": "文字 c は子音です。",
-      "en": "The letter c is a consonant."
+      "en": "The letter c is a consonant.",
+      "vi": "Chữ c là phụ âm."
     },
     "note": null
   },
@@ -3455,7 +3807,8 @@
     "gloss": {
       "zh": "拼写",
       "ja": "つづる",
-      "en": "to spell out"
+      "en": "to spell out",
+      "vi": "đánh vần"
     },
     "pos": "v",
     "ex": "Tolong eja nama Anda.",
@@ -3463,7 +3816,8 @@
     "ex_gloss": {
       "zh": "请把您的名字拼一下。",
       "ja": "お名前をつづってください。",
-      "en": "Please spell your name."
+      "en": "Please spell your name.",
+      "vi": "Xin hãy đánh vần tên của bạn."
     },
     "note": null
   },
@@ -3475,7 +3829,8 @@
     "gloss": {
       "zh": "数字",
       "ja": "数字",
-      "en": "number, digit"
+      "en": "number, digit",
+      "vi": "số · chữ số"
     },
     "pos": "n",
     "ex": "Angka berapa ini?",
@@ -3483,7 +3838,8 @@
     "ex_gloss": {
       "zh": "这是几？",
       "ja": "これは何の数字ですか。",
-      "en": "What number is this?"
+      "en": "What number is this?",
+      "vi": "Đây là số mấy?"
     },
     "note": null
   },
@@ -3495,7 +3851,8 @@
     "gloss": {
       "zh": "零",
       "ja": "ゼロ",
-      "en": "zero"
+      "en": "zero",
+      "vi": "không (số 0)"
     },
     "pos": "num",
     "ex": "Nol koma lima.",
@@ -3503,12 +3860,14 @@
     "ex_gloss": {
       "zh": "零点五。",
       "ja": "〇・五。",
-      "en": "Nought point five."
+      "en": "Nought point five.",
+      "vi": "Không phẩy năm."
     },
     "note": {
       "zh": "念电话号码和房号时改说 kosong。",
       "ja": "電話番号や部屋番号を読むときは kosong に変わります。",
-      "en": "Reading phone or room numbers, it becomes kosong instead."
+      "en": "Reading phone or room numbers, it becomes kosong instead.",
+      "vi": "Khi đọc số điện thoại hay số phòng thì đổi thành kosong."
     }
   },
   {
@@ -3519,7 +3878,8 @@
     "gloss": {
       "zh": "空的；（念号码时）零",
       "ja": "からの；（番号を読むとき）ゼロ",
-      "en": "empty; zero when reading digits"
+      "en": "empty; zero when reading digits",
+      "vi": "trống; (khi đọc số) không"
     },
     "pos": "adj",
     "ex": "Kelas ini kosong.",
@@ -3527,12 +3887,14 @@
     "ex_gloss": {
       "zh": "这间教室是空的。",
       "ja": "この教室はからです。",
-      "en": "This classroom is empty."
+      "en": "This classroom is empty.",
+      "vi": "Lớp học này trống."
     },
     "note": {
       "zh": "0812 念作 kosong delapan satu dua。",
       "ja": "0812 は kosong delapan satu dua と読みます。",
-      "en": "0812 is read kosong delapan satu dua."
+      "en": "0812 is read kosong delapan satu dua.",
+      "vi": "0812 đọc là kosong delapan satu dua."
     }
   },
   {
@@ -3543,7 +3905,8 @@
     "gloss": {
       "zh": "一",
       "ja": "一",
-      "en": "one"
+      "en": "one",
+      "vi": "một"
     },
     "pos": "num",
     "ex": "Satu buku.",
@@ -3551,12 +3914,14 @@
     "ex_gloss": {
       "zh": "一本书。",
       "ja": "本が一冊。",
-      "en": "One book."
+      "en": "One book.",
+      "vi": "Một quyển sách."
     },
     "note": {
       "zh": "当前缀时缩成 se-：sepuluh、seratus、seorang。",
       "ja": "接頭辞になると se- に縮みます —— sepuluh・seratus・seorang。",
-      "en": "As a prefix it shrinks to se-: sepuluh, seratus, seorang."
+      "en": "As a prefix it shrinks to se-: sepuluh, seratus, seorang.",
+      "vi": "Khi làm tiền tố, nó rút thành se-: sepuluh, seratus, seorang."
     }
   },
   {
@@ -3567,7 +3932,8 @@
     "gloss": {
       "zh": "三",
       "ja": "三",
-      "en": "three"
+      "en": "three",
+      "vi": "ba"
     },
     "pos": "num",
     "ex": "Tiga tahun.",
@@ -3575,7 +3941,8 @@
     "ex_gloss": {
       "zh": "三年。",
       "ja": "三年。",
-      "en": "Three years."
+      "en": "Three years.",
+      "vi": "Ba năm."
     },
     "note": null
   },
@@ -3587,7 +3954,8 @@
     "gloss": {
       "zh": "四",
       "ja": "四",
-      "en": "four"
+      "en": "four",
+      "vi": "bốn"
     },
     "pos": "num",
     "ex": "Empat orang.",
@@ -3595,7 +3963,8 @@
     "ex_gloss": {
       "zh": "四个人。",
       "ja": "四人。",
-      "en": "Four people."
+      "en": "Four people.",
+      "vi": "Bốn người."
     },
     "note": null
   },
@@ -3607,7 +3976,8 @@
     "gloss": {
       "zh": "五",
       "ja": "五",
-      "en": "five"
+      "en": "five",
+      "vi": "năm"
     },
     "pos": "num",
     "ex": "Lima buku.",
@@ -3615,7 +3985,8 @@
     "ex_gloss": {
       "zh": "五本书。",
       "ja": "本が五冊。",
-      "en": "Five books."
+      "en": "Five books.",
+      "vi": "Năm quyển sách."
     },
     "note": null
   },
@@ -3627,7 +3998,8 @@
     "gloss": {
       "zh": "六",
       "ja": "六",
-      "en": "six"
+      "en": "six",
+      "vi": "sáu"
     },
     "pos": "num",
     "ex": "Enam kursi.",
@@ -3635,7 +4007,8 @@
     "ex_gloss": {
       "zh": "六把椅子。",
       "ja": "いすが六脚。",
-      "en": "Six chairs."
+      "en": "Six chairs.",
+      "vi": "Sáu cái ghế."
     },
     "note": null
   },
@@ -3647,7 +4020,8 @@
     "gloss": {
       "zh": "七",
       "ja": "七",
-      "en": "seven"
+      "en": "seven",
+      "vi": "bảy"
     },
     "pos": "num",
     "ex": "Tujuh hari.",
@@ -3655,7 +4029,8 @@
     "ex_gloss": {
       "zh": "七天。",
       "ja": "七日。",
-      "en": "Seven days."
+      "en": "Seven days.",
+      "vi": "Bảy ngày."
     },
     "note": null
   },
@@ -3667,7 +4042,8 @@
     "gloss": {
       "zh": "八",
       "ja": "八",
-      "en": "eight"
+      "en": "eight",
+      "vi": "tám"
     },
     "pos": "num",
     "ex": "Delapan orang.",
@@ -3675,7 +4051,8 @@
     "ex_gloss": {
       "zh": "八个人。",
       "ja": "八人。",
-      "en": "Eight people."
+      "en": "Eight people.",
+      "vi": "Tám người."
     },
     "note": null
   },
@@ -3687,7 +4064,8 @@
     "gloss": {
       "zh": "九",
       "ja": "九",
-      "en": "nine"
+      "en": "nine",
+      "vi": "chín"
     },
     "pos": "num",
     "ex": "Sembilan tahun.",
@@ -3695,7 +4073,8 @@
     "ex_gloss": {
       "zh": "九年。",
       "ja": "九年。",
-      "en": "Nine years."
+      "en": "Nine years.",
+      "vi": "Chín năm."
     },
     "note": null
   },
@@ -3707,7 +4086,8 @@
     "gloss": {
       "zh": "十一",
       "ja": "十一",
-      "en": "eleven"
+      "en": "eleven",
+      "vi": "mười một"
     },
     "pos": "num",
     "ex": "Umur saya sebelas tahun.",
@@ -3715,12 +4095,14 @@
     "ex_gloss": {
       "zh": "我十一岁。",
       "ja": "わたしは 11 歳です。",
-      "en": "I'm eleven years old."
+      "en": "I'm eleven years old.",
+      "vi": "Tôi mười một tuổi."
     },
     "note": {
       "zh": "不说 satu belas。",
       "ja": "satu belas とは言いません。",
-      "en": "Never “satu belas”."
+      "en": "Never “satu belas”.",
+      "vi": "Không bao giờ nói “satu belas”."
     }
   },
   {
@@ -3731,7 +4113,8 @@
     "gloss": {
       "zh": "⋯十几（12–19 的后缀）",
       "ja": "〜十いくつ（12〜19 をつくる語）",
-      "en": "-teen (forms 12 to 19)"
+      "en": "-teen (forms 12 to 19)",
+      "vi": "mười mấy (hậu tố 12–19)"
     },
     "pos": "num",
     "ex": "Dua belas buku.",
@@ -3739,12 +4122,14 @@
     "ex_gloss": {
       "zh": "十二本书。",
       "ja": "本が十二冊。",
-      "en": "Twelve books."
+      "en": "Twelve books.",
+      "vi": "Mười hai quyển sách."
     },
     "note": {
       "zh": "分开写：dua belas、lima belas。只有 sebelas 连写。",
       "ja": "分けて書きます —— dua belas・lima belas。続けて書くのは sebelas だけ。",
-      "en": "Written as two words: dua belas, lima belas. Only sebelas is joined."
+      "en": "Written as two words: dua belas, lima belas. Only sebelas is joined.",
+      "vi": "Viết tách thành hai từ: dua belas, lima belas. Chỉ có sebelas viết liền."
     }
   },
   {
@@ -3755,7 +4140,8 @@
     "gloss": {
       "zh": "十（构成几十）",
       "ja": "十（十の位をつくる語）",
-      "en": "ten (forms the tens)"
+      "en": "ten (forms the tens)",
+      "vi": "mươi (tạo hàng chục)"
     },
     "pos": "num",
     "ex": "Dua puluh lima.",
@@ -3763,12 +4149,14 @@
     "ex_gloss": {
       "zh": "二十五。",
       "ja": "二十五。",
-      "en": "Twenty-five."
+      "en": "Twenty-five.",
+      "vi": "Hai mươi lăm."
     },
     "note": {
       "zh": "几十在前、个位在后，中间不加词。",
       "ja": "十の位が先、一の位があと。あいだに語は入りません。",
-      "en": "Tens first, unit after, with nothing in between."
+      "en": "Tens first, unit after, with nothing in between.",
+      "vi": "Hàng chục đứng trước, hàng đơn vị đứng sau, ở giữa không thêm từ nào."
     }
   },
   {
@@ -3779,7 +4167,8 @@
     "gloss": {
       "zh": "百",
       "ja": "百",
-      "en": "hundred"
+      "en": "hundred",
+      "vi": "trăm"
     },
     "pos": "num",
     "ex": "Dua ratus.",
@@ -3787,7 +4176,8 @@
     "ex_gloss": {
       "zh": "二百。",
       "ja": "二百。",
-      "en": "Two hundred."
+      "en": "Two hundred.",
+      "vi": "Hai trăm."
     },
     "note": null
   },
@@ -3799,7 +4189,8 @@
     "gloss": {
       "zh": "一百",
       "ja": "百",
-      "en": "one hundred"
+      "en": "one hundred",
+      "vi": "một trăm"
     },
     "pos": "num",
     "ex": "Seratus dua puluh lima.",
@@ -3807,7 +4198,8 @@
     "ex_gloss": {
       "zh": "一百二十五。",
       "ja": "百二十五。",
-      "en": "A hundred and twenty-five."
+      "en": "A hundred and twenty-five.",
+      "vi": "Một trăm hai mươi lăm."
     },
     "note": null
   },
@@ -3819,7 +4211,8 @@
     "gloss": {
       "zh": "千",
       "ja": "千",
-      "en": "thousand"
+      "en": "thousand",
+      "vi": "nghìn"
     },
     "pos": "num",
     "ex": "Dua puluh lima ribu.",
@@ -3827,7 +4220,8 @@
     "ex_gloss": {
       "zh": "两万五千。",
       "ja": "二万五千。",
-      "en": "Twenty-five thousand."
+      "en": "Twenty-five thousand.",
+      "vi": "Hai mươi lăm nghìn."
     },
     "note": null
   },
@@ -3839,7 +4233,8 @@
     "gloss": {
       "zh": "一千",
       "ja": "千",
-      "en": "one thousand"
+      "en": "one thousand",
+      "vi": "một nghìn"
     },
     "pos": "num",
     "ex": "Seribu rupiah.",
@@ -3847,7 +4242,8 @@
     "ex_gloss": {
       "zh": "一千印尼盾。",
       "ja": "千ルピア。",
-      "en": "One thousand rupiah."
+      "en": "One thousand rupiah.",
+      "vi": "Một nghìn rupiah."
     },
     "note": null
   },
@@ -3859,7 +4255,8 @@
     "gloss": {
       "zh": "印尼盾",
       "ja": "ルピア",
-      "en": "rupiah (Indonesian currency)"
+      "en": "rupiah (Indonesian currency)",
+      "vi": "rupiah (tiền Indonesia)"
     },
     "pos": "n",
     "ex": "Dua puluh lima ribu rupiah.",
@@ -3867,7 +4264,8 @@
     "ex_gloss": {
       "zh": "两万五千印尼盾。",
       "ja": "二万五千ルピア。",
-      "en": "Twenty-five thousand rupiah."
+      "en": "Twenty-five thousand rupiah.",
+      "vi": "Hai mươi lăm nghìn rupiah."
     },
     "note": null
   },
@@ -3879,7 +4277,8 @@
     "gloss": {
       "zh": "学生（中小学）",
       "ja": "生徒",
-      "en": "school pupil"
+      "en": "school pupil",
+      "vi": "học sinh (phổ thông)"
     },
     "pos": "n",
     "ex": "Dia seorang pelajar.",
@@ -3887,12 +4286,14 @@
     "ex_gloss": {
       "zh": "他是中学生。",
       "ja": "彼は生徒です。",
-      "en": "He's a school pupil."
+      "en": "He's a school pupil.",
+      "vi": "Bạn ấy là học sinh."
     },
     "note": {
       "zh": "大学生是 mahasiswa。",
       "ja": "大学生は mahasiswa。",
-      "en": "A university student is a mahasiswa."
+      "en": "A university student is a mahasiswa.",
+      "vi": "Sinh viên đại học là mahasiswa."
     }
   },
   {
@@ -3903,7 +4304,8 @@
     "gloss": {
       "zh": "医生",
       "ja": "医者",
-      "en": "doctor"
+      "en": "doctor",
+      "vi": "bác sĩ"
     },
     "pos": "n",
     "ex": "Saya seorang dokter.",
@@ -3911,7 +4313,8 @@
     "ex_gloss": {
       "zh": "我是医生。",
       "ja": "わたしは医者です。",
-      "en": "I'm a doctor."
+      "en": "I'm a doctor.",
+      "vi": "Tôi là bác sĩ."
     },
     "note": null
   },
@@ -3923,7 +4326,8 @@
     "gloss": {
       "zh": "护士",
       "ja": "看護師",
-      "en": "nurse"
+      "en": "nurse",
+      "vi": "y tá"
     },
     "pos": "n",
     "ex": "Dia seorang perawat.",
@@ -3931,7 +4335,8 @@
     "ex_gloss": {
       "zh": "她是护士。",
       "ja": "彼女は看護師です。",
-      "en": "She's a nurse."
+      "en": "She's a nurse.",
+      "vi": "Cô ấy là y tá."
     },
     "note": null
   },
@@ -3943,7 +4348,8 @@
     "gloss": {
       "zh": "公司职员",
       "ja": "会社員",
-      "en": "company employee"
+      "en": "company employee",
+      "vi": "nhân viên công ty"
     },
     "pos": "n",
     "ex": "Saya seorang karyawan.",
@@ -3951,7 +4357,8 @@
     "ex_gloss": {
       "zh": "我是公司职员。",
       "ja": "わたしは会社員です。",
-      "en": "I'm a company employee."
+      "en": "I'm a company employee.",
+      "vi": "Tôi là nhân viên công ty."
     },
     "note": null
   },
@@ -3963,7 +4370,8 @@
     "gloss": {
       "zh": "职员 · 公务员",
       "ja": "職員 · 公務員",
-      "en": "staff member, civil servant"
+      "en": "staff member, civil servant",
+      "vi": "nhân viên · công chức"
     },
     "pos": "n",
     "ex": "Dia seorang pegawai.",
@@ -3971,7 +4379,8 @@
     "ex_gloss": {
       "zh": "他是职员。",
       "ja": "彼は職員です。",
-      "en": "He's a staff member."
+      "en": "He's a staff member.",
+      "vi": "Anh ấy là nhân viên."
     },
     "note": null
   },
@@ -3983,7 +4392,8 @@
     "gloss": {
       "zh": "工程师",
       "ja": "技師",
-      "en": "engineer"
+      "en": "engineer",
+      "vi": "kỹ sư"
     },
     "pos": "n",
     "ex": "Saya seorang insinyur.",
@@ -3991,7 +4401,8 @@
     "ex_gloss": {
       "zh": "我是工程师。",
       "ja": "わたしは技師です。",
-      "en": "I'm an engineer."
+      "en": "I'm an engineer.",
+      "vi": "Tôi là kỹ sư."
     },
     "note": null
   },
@@ -4003,7 +4414,8 @@
     "gloss": {
       "zh": "到处逛 · 出游",
       "ja": "出かける · 散策する",
-      "en": "to go out and about"
+      "en": "to go out and about",
+      "vi": "đi dạo · đi chơi"
     },
     "pos": "v",
     "ex": "Hobi saya jalan-jalan.",
@@ -4011,7 +4423,8 @@
     "ex_gloss": {
       "zh": "我的爱好是到处逛。",
       "ja": "趣味は出かけることです。",
-      "en": "My hobby is getting out and about."
+      "en": "My hobby is getting out and about.",
+      "vi": "Sở thích của tôi là đi chơi."
     },
     "note": null
   },
@@ -4023,7 +4436,8 @@
     "gloss": {
       "zh": "购物",
       "ja": "買い物をする",
-      "en": "to go shopping"
+      "en": "to go shopping",
+      "vi": "đi mua sắm"
     },
     "pos": "v",
     "ex": "Hobinya berbelanja.",
@@ -4031,7 +4445,8 @@
     "ex_gloss": {
       "zh": "她的爱好是逛街。",
       "ja": "趣味は買い物です。",
-      "en": "Her hobby is shopping."
+      "en": "Her hobby is shopping.",
+      "vi": "Sở thích của cô ấy là mua sắm."
     },
     "note": null
   },
@@ -4043,7 +4458,8 @@
     "gloss": {
       "zh": "阅读",
       "ja": "読む",
-      "en": "to read"
+      "en": "to read",
+      "vi": "đọc sách"
     },
     "pos": "v",
     "ex": "Hobi saya membaca.",
@@ -4051,7 +4467,8 @@
     "ex_gloss": {
       "zh": "我的爱好是读书。",
       "ja": "趣味は読書です。",
-      "en": "My hobby is reading."
+      "en": "My hobby is reading.",
+      "vi": "Sở thích của tôi là đọc sách."
     },
     "note": null
   },
@@ -4063,7 +4480,8 @@
     "gloss": {
       "zh": "做饭",
       "ja": "料理する",
-      "en": "to cook"
+      "en": "to cook",
+      "vi": "nấu ăn"
     },
     "pos": "v",
     "ex": "Hobinya memasak.",
@@ -4071,7 +4489,8 @@
     "ex_gloss": {
       "zh": "他的爱好是做饭。",
       "ja": "趣味は料理です。",
-      "en": "Their hobby is cooking."
+      "en": "Their hobby is cooking.",
+      "vi": "Sở thích của anh ấy là nấu ăn."
     },
     "note": null
   },
@@ -4083,7 +4502,8 @@
     "gloss": {
       "zh": "做运动",
       "ja": "運動する",
-      "en": "to do sport"
+      "en": "to do sport",
+      "vi": "tập thể thao"
     },
     "pos": "v",
     "ex": "Saya suka berolahraga.",
@@ -4091,7 +4511,8 @@
     "ex_gloss": {
       "zh": "我喜欢运动。",
       "ja": "運動するのが好きです。",
-      "en": "I like doing sport."
+      "en": "I like doing sport.",
+      "vi": "Tôi thích tập thể thao."
     },
     "note": null
   },
@@ -4103,7 +4524,8 @@
     "gloss": {
       "zh": "看电影",
       "ja": "映画を見る",
-      "en": "to watch films"
+      "en": "to watch films",
+      "vi": "xem phim"
     },
     "pos": "v",
     "ex": "Hobi saya menonton film.",
@@ -4111,7 +4533,8 @@
     "ex_gloss": {
       "zh": "我的爱好是看电影。",
       "ja": "趣味は映画鑑賞です。",
-      "en": "My hobby is watching films."
+      "en": "My hobby is watching films.",
+      "vi": "Sở thích của tôi là xem phim."
     },
     "note": null
   },
@@ -4123,7 +4546,8 @@
     "gloss": {
       "zh": "听音乐",
       "ja": "音楽を聴く",
-      "en": "to listen to music"
+      "en": "to listen to music",
+      "vi": "nghe nhạc"
     },
     "pos": "v",
     "ex": "Hobi saya mendengarkan musik.",
@@ -4131,7 +4555,8 @@
     "ex_gloss": {
       "zh": "我的爱好是听音乐。",
       "ja": "趣味は音楽を聴くことです。",
-      "en": "My hobby is listening to music."
+      "en": "My hobby is listening to music.",
+      "vi": "Sở thích của tôi là nghe nhạc."
     },
     "note": null
   },
@@ -4143,7 +4568,8 @@
     "gloss": {
       "zh": "游泳",
       "ja": "泳ぐ",
-      "en": "to swim"
+      "en": "to swim",
+      "vi": "bơi"
     },
     "pos": "v",
     "ex": "Saya suka berenang.",
@@ -4151,7 +4577,8 @@
     "ex_gloss": {
       "zh": "我喜欢游泳。",
       "ja": "泳ぐのが好きです。",
-      "en": "I like swimming."
+      "en": "I like swimming.",
+      "vi": "Tôi thích bơi."
     },
     "note": null
   },
@@ -4163,7 +4590,8 @@
     "gloss": {
       "zh": "唱歌",
       "ja": "歌う",
-      "en": "to sing"
+      "en": "to sing",
+      "vi": "hát"
     },
     "pos": "v",
     "ex": "Hobi saya menyanyi.",
@@ -4171,7 +4599,8 @@
     "ex_gloss": {
       "zh": "我的爱好是唱歌。",
       "ja": "趣味は歌うことです。",
-      "en": "My hobby is singing."
+      "en": "My hobby is singing.",
+      "vi": "Sở thích của tôi là hát."
     },
     "note": null
   },
@@ -4183,7 +4612,8 @@
     "gloss": {
       "zh": "也",
       "ja": "〜も",
-      "en": "also, too"
+      "en": "also, too",
+      "vi": "cũng"
     },
     "pos": "adv",
     "ex": "Dia juga guru.",
@@ -4191,12 +4621,14 @@
     "ex_gloss": {
       "zh": "她也是老师。",
       "ja": "彼女も教師です。",
-      "en": "She's a teacher too."
+      "en": "She's a teacher too.",
+      "vi": "Cô ấy cũng là giáo viên."
     },
     "note": {
       "zh": "放在它修饰的成分前面。",
       "ja": "修飾する語の前に置きます。",
-      "en": "It goes in front of what it modifies."
+      "en": "It goes in front of what it modifies.",
+      "vi": "Nó đứng trước thành phần mà nó bổ nghĩa."
     }
   },
   {
@@ -4207,7 +4639,8 @@
     "gloss": {
       "zh": "全部 · 各位",
       "ja": "すべて · みなさん",
-      "en": "all, everyone"
+      "en": "all, everyone",
+      "vi": "tất cả · mọi người"
     },
     "pos": "pron",
     "ex": "Senang bertemu dengan Anda semua.",
@@ -4215,7 +4648,8 @@
     "ex_gloss": {
       "zh": "很高兴见到各位。",
       "ja": "みなさんにお会いできてうれしいです。",
-      "en": "Pleased to meet you all."
+      "en": "Pleased to meet you all.",
+      "vi": "Rất vui được gặp tất cả các bạn."
     },
     "note": null
   },
@@ -4227,7 +4661,8 @@
     "gloss": {
       "zh": "男的 · 男性",
       "ja": "男性",
-      "en": "male, man"
+      "en": "male, man",
+      "vi": "nam · đàn ông"
     },
     "pos": "n",
     "ex": "Dia laki-laki.",
@@ -4235,7 +4670,8 @@
     "ex_gloss": {
       "zh": "他是男的。",
       "ja": "その人は男性です。",
-      "en": "They're male."
+      "en": "They're male.",
+      "vi": "Anh ấy là nam."
     },
     "note": null
   },
@@ -4247,7 +4683,8 @@
     "gloss": {
       "zh": "女的 · 女性",
       "ja": "女性",
-      "en": "female, woman"
+      "en": "female, woman",
+      "vi": "nữ · phụ nữ"
     },
     "pos": "n",
     "ex": "Dia perempuan.",
@@ -4255,12 +4692,14 @@
     "ex_gloss": {
       "zh": "她是女的。",
       "ja": "その人は女性です。",
-      "en": "They're female."
+      "en": "They're female.",
+      "vi": "Cô ấy là nữ."
     },
     "note": {
       "zh": "印尼语的 dia 不分男女，要说清楚就加这两个词。",
       "ja": "インドネシア語の dia は男女を区別しないので、はっきりさせたいときにこの二語を使います。",
-      "en": "Indonesian dia is gender-neutral, so these two words are how you make it explicit."
+      "en": "Indonesian dia is gender-neutral, so these two words are how you make it explicit.",
+      "vi": "dia trong tiếng Indonesia không phân biệt nam nữ; muốn nói rõ thì thêm hai từ này."
     }
   },
   {
@@ -4271,7 +4710,8 @@
     "gloss": {
       "zh": "如果 · 至于",
       "ja": "もし · 〜については",
-      "en": "if; as for"
+      "en": "if; as for",
+      "vi": "nếu · còn về"
     },
     "pos": "conj",
     "ex": "Kalau saya, hobi saya membaca.",
@@ -4279,7 +4719,8 @@
     "ex_gloss": {
       "zh": "我的话，爱好是读书。",
       "ja": "わたしはというと、趣味は読書です。",
-      "en": "As for me, my hobby is reading."
+      "en": "As for me, my hobby is reading.",
+      "vi": "Còn tôi, sở thích của tôi là đọc sách."
     },
     "note": null
   },
@@ -4291,7 +4732,8 @@
     "gloss": {
       "zh": "或者",
       "ja": "または",
-      "en": "or"
+      "en": "or",
+      "vi": "hoặc"
     },
     "pos": "conj",
     "ex": "Guru atau mahasiswa?",
@@ -4299,7 +4741,8 @@
     "ex_gloss": {
       "zh": "是老师还是学生？",
       "ja": "教師ですか、学生ですか。",
-      "en": "Teacher or student?"
+      "en": "Teacher or student?",
+      "vi": "Giáo viên hay sinh viên?"
     },
     "note": null
   },
@@ -4311,7 +4754,8 @@
     "gloss": {
       "zh": "眼睛",
       "ja": "目",
-      "en": "eye"
+      "en": "eye",
+      "vi": "mắt"
     },
     "pos": "n",
     "ex": "Mata saya.",
@@ -4319,7 +4763,8 @@
     "ex_gloss": {
       "zh": "我的眼睛。",
       "ja": "わたしの目。",
-      "en": "My eyes."
+      "en": "My eyes.",
+      "vi": "Mắt của tôi."
     },
     "note": null
   },
@@ -4331,7 +4776,8 @@
     "gloss": {
       "zh": "咖啡",
       "ja": "コーヒー",
-      "en": "coffee"
+      "en": "coffee",
+      "vi": "cà phê"
     },
     "pos": "n",
     "ex": "Saya suka kopi.",
@@ -4339,7 +4785,8 @@
     "ex_gloss": {
       "zh": "我喜欢咖啡。",
       "ja": "コーヒーが好きです。",
-      "en": "I like coffee."
+      "en": "I like coffee.",
+      "vi": "Tôi thích cà phê."
     },
     "note": null
   },
@@ -4351,7 +4798,8 @@
     "gloss": {
       "zh": "牛奶",
       "ja": "牛乳",
-      "en": "milk"
+      "en": "milk",
+      "vi": "sữa"
     },
     "pos": "n",
     "ex": "Saya minum susu.",
@@ -4359,7 +4807,8 @@
     "ex_gloss": {
       "zh": "我喝牛奶。",
       "ja": "牛乳を飲みます。",
-      "en": "I drink milk."
+      "en": "I drink milk.",
+      "vi": "Tôi uống sữa."
     },
     "note": null
   },
@@ -4371,7 +4820,8 @@
     "gloss": {
       "zh": "金子",
       "ja": "金",
-      "en": "gold"
+      "en": "gold",
+      "vi": "vàng"
     },
     "pos": "n",
     "ex": "Ini emas.",
@@ -4379,7 +4829,8 @@
     "ex_gloss": {
       "zh": "这是金子。",
       "ja": "これは金です。",
-      "en": "This is gold."
+      "en": "This is gold.",
+      "vi": "Đây là vàng."
     },
     "note": null
   },
@@ -4391,7 +4842,8 @@
     "gloss": {
       "zh": "球",
       "ja": "ボール",
-      "en": "ball"
+      "en": "ball",
+      "vi": "quả bóng"
     },
     "pos": "n",
     "ex": "Bola itu besar.",
@@ -4399,7 +4851,8 @@
     "ex_gloss": {
       "zh": "那个球很大。",
       "ja": "あのボールは大きいです。",
-      "en": "That ball is big."
+      "en": "That ball is big.",
+      "vi": "Quả bóng đó to."
     },
     "note": null
   },
@@ -4411,7 +4864,8 @@
     "gloss": {
       "zh": "面包",
       "ja": "パン",
-      "en": "bread"
+      "en": "bread",
+      "vi": "bánh mì"
     },
     "pos": "n",
     "ex": "Saya makan roti.",
@@ -4419,7 +4873,8 @@
     "ex_gloss": {
       "zh": "我吃面包。",
       "ja": "パンを食べます。",
-      "en": "I eat bread."
+      "en": "I eat bread.",
+      "vi": "Tôi ăn bánh mì."
     },
     "note": null
   },
@@ -4431,7 +4886,8 @@
     "gloss": {
       "zh": "洗",
       "ja": "洗う",
-      "en": "to wash"
+      "en": "to wash",
+      "vi": "rửa · giặt"
     },
     "pos": "v",
     "ex": "Cuci tangan.",
@@ -4439,12 +4895,14 @@
     "ex_gloss": {
       "zh": "洗手。",
       "ja": "手を洗う。",
-      "en": "Wash your hands."
+      "en": "Wash your hands.",
+      "vi": "Rửa tay."
     },
     "note": {
       "zh": "c 读作「ch」：cuci 念 chu-chi。",
       "ja": "c は「チ」の子音。cuci は「チュチ」と読みます。",
-      "en": "c is “ch”: cuci is “choo-chee”."
+      "en": "c is “ch”: cuci is “choo-chee”.",
+      "vi": "c đọc như “ch” tiếng Việt: cuci đọc là “chu-chi”."
     }
   },
   {
@@ -4455,7 +4913,8 @@
     "gloss": {
       "zh": "蚊子",
       "ja": "蚊",
-      "en": "mosquito"
+      "en": "mosquito",
+      "vi": "con muỗi"
     },
     "pos": "n",
     "ex": "Ada nyamuk.",
@@ -4463,7 +4922,8 @@
     "ex_gloss": {
       "zh": "有蚊子。",
       "ja": "蚊がいます。",
-      "en": "There's a mosquito."
+      "en": "There's a mosquito.",
+      "vi": "Có muỗi."
     },
     "note": null
   },
@@ -4475,7 +4935,8 @@
     "gloss": {
       "zh": "手",
       "ja": "手",
-      "en": "hand"
+      "en": "hand",
+      "vi": "tay"
     },
     "pos": "n",
     "ex": "Tangan saya.",
@@ -4483,7 +4944,8 @@
     "ex_gloss": {
       "zh": "我的手。",
       "ja": "わたしの手。",
-      "en": "My hand."
+      "en": "My hand.",
+      "vi": "Tay của tôi."
     },
     "note": null
   },
@@ -4495,7 +4957,8 @@
     "gloss": {
       "zh": "特别的 · 专用的",
       "ja": "特別な · 専用の",
-      "en": "special, dedicated"
+      "en": "special, dedicated",
+      "vi": "đặc biệt · chuyên biệt"
     },
     "pos": "adj",
     "ex": "Kelas khusus.",
@@ -4503,7 +4966,8 @@
     "ex_gloss": {
       "zh": "专门的班。",
       "ja": "特別クラス。",
-      "en": "A special class."
+      "en": "A special class.",
+      "vi": "Lớp chuyên biệt."
     },
     "note": null
   },
@@ -4515,7 +4979,8 @@
     "gloss": {
       "zh": "奶奶 · 外婆",
       "ja": "おばあさん",
-      "en": "grandmother"
+      "en": "grandmother",
+      "vi": "bà (nội, ngoại)"
     },
     "pos": "n",
     "ex": "Nenek saya di Jogja.",
@@ -4523,7 +4988,8 @@
     "ex_gloss": {
       "zh": "我奶奶在日惹。",
       "ja": "祖母はジョグジャにいます。",
-      "en": "My grandmother is in Jogja."
+      "en": "My grandmother is in Jogja.",
+      "vi": "Bà tôi ở Jogja."
     },
     "note": null
   },
@@ -4535,7 +5001,8 @@
     "gloss": {
       "zh": "水",
       "ja": "水",
-      "en": "water"
+      "en": "water",
+      "vi": "nước"
     },
     "pos": "n",
     "ex": "Saya minum air.",
@@ -4543,12 +5010,14 @@
     "ex_gloss": {
       "zh": "我喝水。",
       "ja": "水を飲みます。",
-      "en": "I drink water."
+      "en": "I drink water.",
+      "vi": "Tôi uống nước."
     },
     "note": {
       "zh": "读作 a-ir 两个音节，不是「ai」。",
       "ja": "a-ir と二音節で読みます。「アイ」ではありません。",
-      "en": "Two syllables, a-ir — not a single “ai”."
+      "en": "Two syllables, a-ir — not a single “ai”.",
+      "vi": "Đọc thành hai âm tiết a-ir, không phải một vần “ai”."
     }
   },
   {
@@ -4559,7 +5028,8 @@
     "gloss": {
       "zh": "海滩",
       "ja": "浜辺",
-      "en": "beach"
+      "en": "beach",
+      "vi": "bãi biển"
     },
     "pos": "n",
     "ex": "Saya suka pantai.",
@@ -4567,7 +5037,8 @@
     "ex_gloss": {
       "zh": "我喜欢海滩。",
       "ja": "浜辺が好きです。",
-      "en": "I like the beach."
+      "en": "I like the beach.",
+      "vi": "Tôi thích bãi biển."
     },
     "note": null
   },
@@ -4579,7 +5050,8 @@
     "gloss": {
       "zh": "最后 · 末尾",
       "ja": "終わり · 最後",
-      "en": "end, final"
+      "en": "end, final",
+      "vi": "cuối · kết thúc"
     },
     "pos": "n",
     "ex": "Akhir tahun.",
@@ -4587,7 +5059,8 @@
     "ex_gloss": {
       "zh": "年底。",
       "ja": "年末。",
-      "en": "The end of the year."
+      "en": "The end of the year.",
+      "vi": "Cuối năm."
     },
     "note": null
   }

@@ -6,9 +6,9 @@
 ## 0. 通用约定
 
 - **印尼语永远是纯字符串。** 不要包成对象。
-- **面向学习者的文字永远是 `{"zh":…, "ja":…, "en":…}`**，三个键都必须在，值可以是 `null`。
+- **面向学习者的文字永远是 `{"zh":…, "ja":…, "en":…, "vi":…}`**，四个键都必须在，值可以是 `null`。
   引擎的 `L(x)` 会按 当前语言 → zh → en → ja 兜底。
-- 哪几种语言是**硬性要求**看 `content/meta.json` 的 `required_langs`（目前 `["zh","ja","en"]`，三语齐全）。
+- 哪几种语言是**硬性要求**看 `content/meta.json` 的 `required_langs`（目前 `["zh","ja","en","vi"]`，四语齐全）。
 - 中文 / 日文句内引号一律 `「」`，不要用 `"`。
 - `reg`：`casual`（口语）/ `formal`（正式）/ `neutral`（通用）。
 - `alt`：另一语体的整句。**只在整句替换完全安全时才写**，不确定就 `null`。
@@ -23,7 +23,7 @@
   "num": 14,
   "source": "UGM BIPA 1 · Bab 3（课本第 41–52 页 + 8/28 课堂笔记）",
   "reg_default": "formal",
-  "name": { "zh": "自我介绍", "ja": "自己紹介", "en": "Introductions" },
+  "name": { "zh": "自我介绍", "ja": "自己紹介", "en": "Introductions", "vi": "Giới thiệu bản thân" },
   "pages": [
     [ { "k": "phead", "...": "" }, { "k": "examples", "...": "" } ],
     [ "第 2 页的块" ]
@@ -69,7 +69,7 @@
 ### `note.lines`
 数组，元素两种：
 ```json
-{ "text": { "zh": "……<s>udah</s>……", "ja": "……", "en": "……" } }
+{ "text": { "zh": "……<s>udah</s>……", "ja": "……", "en": "……", "vi": "……" } }
 { "qa": true, "who": "Q", "id": "Kamu udah makan?", "reg": "casual",
   "alt": "Anda sudah makan?", "gloss": {…}, "kw": ["udah"] }
 ```
@@ -79,7 +79,7 @@
 两种形态，按哪一侧是印尼语来写：
 ```json
 { "lang": "id",      "text": "Aku udah makan.", "reg": "casual", "alt": "Saya sudah makan.", "kw": ["udah"] }
-{ "lang": "learner", "text": { "zh": "我已经吃过了。", "ja": "もう食べました。", "en": "I've already eaten." } }
+{ "lang": "learner", "text": { "zh": "我已经吃过了。", "ja": "もう食べました。", "en": "I've already eaten.", "vi": "Tôi ăn rồi." } }
 ```
 
 ### `listen`
@@ -121,11 +121,11 @@
   "les": 14,
   "reg": "casual",
   "pair": "sudah",
-  "gloss": { "zh": "已经", "ja": "もう（〜した）", "en": "already" },
+  "gloss": { "zh": "已经", "ja": "もう（〜した）", "en": "already", "vi": "đã / rồi" },
   "pos": "adv",
   "ex": "Aku udah makan.",
   "ex_reg": "casual",
-  "ex_gloss": { "zh": "我吃过了。", "ja": "もう食べた。", "en": "I've already eaten." },
+  "ex_gloss": { "zh": "我吃过了。", "ja": "もう食べた。", "en": "I've already eaten.", "vi": "Tôi ăn rồi." },
   "note": null
 }
 ```
@@ -141,7 +141,7 @@
 ```json
 {
   "situasi": [ { "q": "Jam berapa sekarang?", "q_reg": "neutral",
-                 "hint": { "zh": "现在 7 点", "ja": "いま 7 時", "en": "it's 7 o'clock" },
+                 "hint": { "zh": "现在 7 点", "ja": "いま 7 時", "en": "it's 7 o'clock", "vi": "bây giờ là 7 giờ" },
                  "a": "Jam tujuh.", "a_reg": "neutral",
                  "alts": ["Jam tuju.", "Tujuh jam.", "Setengah tujuh."] } ],
   "tempat":  [ { "hint": { "zh": "我在家", … }, "a": "Aku di rumah.", "a_reg": "casual" } ],

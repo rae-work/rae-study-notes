@@ -5,7 +5,8 @@
  "name": {
   "zh": "自我介绍 · 字母与数字",
   "ja": "自己紹介 · 文字と数字",
-  "en": "Introductions, letters and numbers"
+  "en": "Introductions, letters and numbers",
+  "vi": "Giới thiệu bản thân · Bảng chữ cái và số đếm"
  },
  "pages": [
   [
@@ -15,7 +16,8 @@
     "sub": {
      "zh": "自我介绍",
      "ja": "自己紹介",
-     "en": "Introductions"
+     "en": "Introductions",
+     "vi": "Giới thiệu bản thân"
     }
    },
    {
@@ -23,7 +25,8 @@
     "text": {
      "zh": "第一课：怎么打招呼、怎么问对方是谁、从哪来、多大、做什么、有什么爱好。教材是 UGM INCULS 的《Titian Bahasa Pemula 1》，另外并进了口语课（Kelas Berbicara）第一次课的讲义 —— <b>字母怎么念</b>、<b>数字怎么念</b>这两块就是从那里来的，课本没细讲，却天天要用。全课用<b>正式体</b>（saya / Anda），这是课堂和对老师说话的语体。点任意印尼语词或 ▶ 都能听发音。",
      "ja": "第 1 課：あいさつの仕方、相手の名前・出身・年齢・職業・趣味の尋ね方。教科書は UGM INCULS の『Titian Bahasa Pemula 1』で、これに会話クラス（Kelas Berbicara）第 1 回のプリントを合わせています —— <b>アルファベットの読み方</b>と<b>数字の読み方</b>はそこから来ています。教科書ではあまり扱われないのに毎日使う二つです。全体を通して<b>フォーマルな言い方</b>（saya / Anda）を使います。教室や、先生に話すときの言い方です。インドネシア語の単語や ▶ をタップすると発音が聞けます。",
-     "en": "Lesson one: how to greet someone, and how to ask their name, where they are from, how old they are, what they do and what they enjoy. The book is UGM INCULS's «Titian Bahasa Pemula 1», combined here with the handout from the first meeting of the speaking class (Kelas Berbicara) — that is where <b>what the letters are called</b> and <b>how numbers are read</b> come from, two things the book skims over although you need them every day. Throughout, the register is <b>formal</b> (saya / Anda), the one for the classroom and for speaking to a teacher. Tap any Indonesian word or ▶ to hear it."
+     "en": "Lesson one: how to greet someone, and how to ask their name, where they are from, how old they are, what they do and what they enjoy. The book is UGM INCULS's «Titian Bahasa Pemula 1», combined here with the handout from the first meeting of the speaking class (Kelas Berbicara) — that is where <b>what the letters are called</b> and <b>how numbers are read</b> come from, two things the book skims over although you need them every day. Throughout, the register is <b>formal</b> (saya / Anda), the one for the classroom and for speaking to a teacher. Tap any Indonesian word or ▶ to hear it.",
+     "vi": "Bài 1: cách chào hỏi, cách hỏi tên người khác, hỏi quê quán, tuổi, nghề nghiệp và sở thích. Giáo trình là “Titian Bahasa Pemula 1” của UGM INCULS, ghép thêm phần phát tay của buổi đầu lớp nói (Kelas Berbicara) — <b>cách đọc tên chữ cái</b> và <b>cách đọc số</b> là lấy từ đó: sách giáo khoa nói lướt qua, nhưng ngày nào cũng phải dùng. Cả bài dùng <b>thể trang trọng</b> (saya / Anda), thể dùng trong lớp và khi nói với giáo viên. Chạm vào bất kỳ từ tiếng Indonesia nào hoặc ▶ để nghe phát âm."
     }
    },
    {
@@ -32,63 +35,72 @@
     "tag": {
      "zh": "本课目标",
      "ja": "この課の目標",
-     "en": "What this chapter covers"
+     "en": "What this chapter covers",
+     "vi": "Mục tiêu của bài"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>听</b>　听懂和自我介绍有关的简单词和短语。",
        "ja": "<b>聞く</b>　自己紹介にかかわる簡単な語や句を聞き取る。",
-       "en": "<b>Listening</b> Recognise simple words and phrases about personal information."
+       "en": "<b>Listening</b> Recognise simple words and phrases about personal information.",
+       "vi": "<b>Nghe</b> Hiểu được những từ và cụm từ đơn giản về giới thiệu bản thân."
       }
      },
      {
       "text": {
        "zh": "<b>读</b>　读懂和自我介绍有关的短文。",
        "ja": "<b>読む</b>　自己紹介にかかわる短い文章を読み取る。",
-       "en": "<b>Reading</b> Understand short, simple texts about personal information."
+       "en": "<b>Reading</b> Understand short, simple texts about personal information.",
+       "vi": "<b>Đọc</b> Đọc hiểu những đoạn văn ngắn về giới thiệu bản thân."
       }
      },
      {
       "text": {
        "zh": "<b>字母</b>　26 个字母的<b>名字</b>怎么念 —— 拼名字、听老师拼写生词时都要用。",
        "ja": "<b>アルファベット</b>　26 文字の<b>名前</b>の言い方。名前をつづるとき、先生のつづりを聞き取るときに必要です。",
-       "en": "<b>Letters</b> What the 26 letters are called — you need this to spell your name and to follow a teacher spelling a word."
+       "en": "<b>Letters</b> What the 26 letters are called — you need this to spell your name and to follow a teacher spelling a word.",
+       "vi": "<b>Chữ cái</b> Cách đọc <b>tên</b> của 26 chữ cái — cần khi đánh vần tên mình và khi nghe giáo viên đánh vần từ mới."
       }
      },
      {
       "text": {
        "zh": "<b>发音</b>　元音和辅音里最容易念错的那几个。",
        "ja": "<b>発音</b>　母音・子音のうち、まちがえやすいものを重点的に。",
-       "en": "<b>Sounds</b> The vowels and consonants that most often go wrong."
+       "en": "<b>Sounds</b> The vowels and consonants that most often go wrong.",
+       "vi": "<b>Phát âm</b> Những nguyên âm và phụ âm hay bị đọc sai nhất."
       }
      },
      {
       "text": {
        "zh": "<b>数字</b>　0 到 99 怎么念，以及 se- 这条规则。",
        "ja": "<b>数字</b>　0 から 99 までの読み方と、se- のきまり。",
-       "en": "<b>Numbers</b> How to read 0 to 99, and the se- rule behind them."
+       "en": "<b>Numbers</b> How to read 0 to 99, and the se- rule behind them.",
+       "vi": "<b>Số đếm</b> Cách đọc từ 0 đến 99, và quy tắc se-."
       }
      },
      {
       "text": {
        "zh": "<b>词汇</b>　问候、初次见面、告别、称呼；疑问词 <s>apa</s>、<s>siapa</s>、<s>dari mana</s>、<s>di mana</s>、<s>apakah</s>。",
        "ja": "<b>語彙</b>　あいさつ、初対面、別れ、呼びかけ。疑問詞 <s>apa</s>・<s>siapa</s>・<s>dari mana</s>・<s>di mana</s>・<s>apakah</s>。",
-       "en": "<b>Vocabulary</b> Greetings, meeting, parting, and forms of address; the question words <s>apa</s>, <s>siapa</s>, <s>dari mana</s>, <s>di mana</s>, <s>apakah</s>."
+       "en": "<b>Vocabulary</b> Greetings, meeting, parting, and forms of address; the question words <s>apa</s>, <s>siapa</s>, <s>dari mana</s>, <s>di mana</s>, <s>apakah</s>.",
+       "vi": "<b>Từ vựng</b> Chào hỏi, làm quen, tạm biệt, cách xưng hô; các từ để hỏi <s>apa</s>, <s>siapa</s>, <s>dari mana</s>, <s>di mana</s>, <s>apakah</s>."
       }
      },
      {
       "text": {
        "zh": "<b>语法</b>　第一、第二、第三人称代词：<s>saya</s>、<s>Anda</s>、<s>ia</s>／<s>dia</s>、<s>mereka</s>、<s>kami</s>、<s>kita</s>。",
        "ja": "<b>文法</b>　一・二・三人称の代名詞：<s>saya</s>・<s>Anda</s>・<s>ia</s>／<s>dia</s>・<s>mereka</s>・<s>kami</s>・<s>kita</s>。",
-       "en": "<b>Grammar</b> First, second and third person pronouns: <s>saya</s>, <s>Anda</s>, <s>ia</s>/<s>dia</s>, <s>mereka</s>, <s>kami</s>, <s>kita</s>."
+       "en": "<b>Grammar</b> First, second and third person pronouns: <s>saya</s>, <s>Anda</s>, <s>ia</s>/<s>dia</s>, <s>mereka</s>, <s>kami</s>, <s>kita</s>.",
+       "vi": "<b>Ngữ pháp</b> Đại từ nhân xưng ngôi thứ nhất, thứ hai và thứ ba: <s>saya</s>, <s>Anda</s>, <s>ia</s>/<s>dia</s>, <s>mereka</s>, <s>kami</s>, <s>kita</s>."
       }
      },
      {
       "text": {
        "zh": "<b>说 · 写</b>　用简单句子介绍自己和别人（写 10–15 个词）。",
        "ja": "<b>話す・書く</b>　簡単な文で自分と他の人を紹介する（書くのは 10〜15 語）。",
-       "en": "<b>Speaking & writing</b> Describe yourself and someone else in simple sentences (10–15 words in writing)."
+       "en": "<b>Speaking & writing</b> Describe yourself and someone else in simple sentences (10–15 words in writing).",
+       "vi": "<b>Nói · Viết</b> Giới thiệu bản thân và người khác bằng những câu đơn giản (viết 10–15 từ)."
       }
      }
     ]
@@ -98,21 +110,24 @@
     "tag": {
      "zh": "怎么用这一课",
      "ja": "この課の使い方",
-     "en": "How to use this chapter"
+     "en": "How to use this chapter",
+     "vi": "Cách dùng bài này"
     },
     "lines": [
      {
       "text": {
        "zh": "字母页和数字页的每个格子都能点，点一下就读一遍，跟着念。",
        "ja": "アルファベットと数字のページはマスをタップすると音が出ます。まねして言ってみてください。",
-       "en": "Every tile on the letters page and the numbers pages is tappable — tap it, then say it back."
+       "en": "Every tile on the letters page and the numbers pages is tappable — tap it, then say it back.",
+       "vi": "Mỗi ô ở trang chữ cái và trang số đều chạm được: chạm một cái là nghe được một lần, rồi đọc theo."
       }
      },
      {
       "text": {
        "zh": "课本和讲义都有几处笔误，App 里已经改好；改了什么会在对应的地方说明。",
        "ja": "教科書にもプリントにもいくつか誤りがあります。アプリでは直してあり、どこをどう直したかはその場で説明します。",
-       "en": "Both the book and the handout contain a few slips. They are corrected here, and each correction is explained where it belongs."
+       "en": "Both the book and the handout contain a few slips. They are corrected here, and each correction is explained where it belongs.",
+       "vi": "Sách giáo khoa và phần phát tay có vài chỗ sai. App đã sửa lại, và mỗi chỗ sửa đều được nói rõ ngay tại đó."
       }
      }
     ]
@@ -125,7 +140,8 @@
     "sub": {
      "zh": "字母表 · 26 个字母的名字",
      "ja": "アルファベット · 26 文字の名前",
-     "en": "The alphabet · what the 26 letters are called"
+     "en": "The alphabet · what the 26 letters are called",
+     "vi": "Bảng chữ cái · tên gọi của 26 chữ cái"
     }
    },
    {
@@ -133,7 +149,8 @@
     "text": {
      "zh": "讲义第 3 节列的是<b>字母的音</b>（在单词里怎么发），这里先补上<b>字母的名字</b>（单独念这个字母时怎么叫）。报名字、报房号、听老师拼写生词，用的都是名字。点格子听。",
      "ja": "プリントの第 3 節にあるのは<b>字母の音</b>（単語の中での発音）です。ここではまず<b>文字の名前</b>（その文字を単独で言うときの呼び方）を補います。名前をつづる、部屋番号を言う、先生のつづりを聞き取る —— 使うのはすべて名前のほうです。マスをタップすると音が出ます。",
-     "en": "Section 3 of the handout gives the <b>sounds</b> the letters make inside words. What it leaves out is the <b>names</b> of the letters — what you say when you name one on its own. Spelling your name, giving a room number, following a teacher spelling a word: all of those use the names. Tap a tile to hear it."
+     "en": "Section 3 of the handout gives the <b>sounds</b> the letters make inside words. What it leaves out is the <b>names</b> of the letters — what you say when you name one on its own. Spelling your name, giving a room number, following a teacher spelling a word: all of those use the names. Tap a tile to hear it.",
+     "vi": "Mục 3 của phần phát tay chỉ cho <b>âm của chữ cái</b> (đọc thế nào khi nằm trong từ); ở đây bổ sung trước <b>tên của chữ cái</b> (gọi thế nào khi đọc riêng chữ đó). Đánh vần tên, đọc số phòng, nghe giáo viên đánh vần từ mới — tất cả đều dùng tên. Chạm vào ô để nghe."
     }
    },
    {
@@ -250,28 +267,32 @@
     "tag": {
      "zh": "拼给别人听",
      "ja": "つづって伝える",
-     "en": "Spelling out loud"
+     "en": "Spelling out loud",
+     "vi": "Đánh vần cho người khác nghe"
     },
     "lines": [
      {
       "text": {
        "zh": "拼名字就是把字母名一个一个念出来。<b>ILFAT</b> 拼作 <s>i</s> · <s>el</s> · <s>ef</s> · <s>a</s> · <s>te</s>。",
        "ja": "名前をつづるとは、文字の名前を一つずつ言うことです。<b>ILFAT</b> なら <s>i</s> · <s>el</s> · <s>ef</s> · <s>a</s> · <s>te</s>。",
-       "en": "Spelling a name means saying the letter names one by one. <b>ILFAT</b> is <s>i</s> · <s>el</s> · <s>ef</s> · <s>a</s> · <s>te</s>."
+       "en": "Spelling a name means saying the letter names one by one. <b>ILFAT</b> is <s>i</s> · <s>el</s> · <s>ef</s> · <s>a</s> · <s>te</s>.",
+       "vi": "Đánh vần một cái tên là đọc lần lượt tên từng chữ cái. <b>ILFAT</b> đánh vần là <s>i</s> · <s>el</s> · <s>ef</s> · <s>a</s> · <s>te</s>."
       }
      },
      {
       "text": {
        "zh": "只有五个字母的名字和它的音完全一样：<b>a i u e o</b>。其余都是「辅音 + e」（be、ce、de）或者「e + 辅音」（ef、el、em）。",
        "ja": "名前と音がまったく同じなのは五つだけ —— <b>a i u e o</b>。ほかは「子音 + e」（be・ce・de）か「e + 子音」（ef・el・em）の形です。",
-       "en": "Only five letters are called exactly what they sound like: <b>a i u e o</b>. The rest are either “consonant + e” (be, ce, de) or “e + consonant” (ef, el, em)."
+       "en": "Only five letters are called exactly what they sound like: <b>a i u e o</b>. The rest are either “consonant + e” (be, ce, de) or “e + consonant” (ef, el, em).",
+       "vi": "Chỉ có năm chữ cái mà tên gọi trùng đúng với âm: <b>a i u e o</b>. Những chữ còn lại đều theo dạng “phụ âm + e” (be, ce, de) hoặc “e + phụ âm” (ef, el, em)."
       }
      },
      {
       "text": {
        "zh": "四个容易念错的：<b>Q</b> 念 <s>ki</s>（不是英语的「kyu」）、<b>V</b> 念 <s>ve</s>（听起来像「fe」）、<b>X</b> 念 <s>eks</s>、<b>Z</b> 念 <s>zet</s>。",
        "ja": "まちがえやすい四つ —— <b>Q</b> は <s>ki</s>（英語の「キュー」ではありません）、<b>V</b> は <s>ve</s>（「フェ」に聞こえます）、<b>X</b> は <s>eks</s>、<b>Z</b> は <s>zet</s>。",
-       "en": "Four that trip people up: <b>Q</b> is <s>ki</s> (not English “kyu”), <b>V</b> is <s>ve</s> (it sounds like “fe”), <b>X</b> is <s>eks</s> and <b>Z</b> is <s>zet</s>."
+       "en": "Four that trip people up: <b>Q</b> is <s>ki</s> (not English “kyu”), <b>V</b> is <s>ve</s> (it sounds like “fe”), <b>X</b> is <s>eks</s> and <b>Z</b> is <s>zet</s>.",
+       "vi": "Bốn chữ hay bị đọc sai: <b>Q</b> đọc là <s>ki</s> (không phải “kyu” như tiếng Anh), <b>V</b> đọc là <s>ve</s> (nghe như “fe”), <b>X</b> đọc là <s>eks</s>, <b>Z</b> đọc là <s>zet</s>."
       }
      }
     ]
@@ -281,7 +302,8 @@
     "title": {
      "zh": "课上会听到的",
      "ja": "教室で聞くことば",
-     "en": "You will hear these in class"
+     "en": "You will hear these in class",
+     "vi": "Những câu bạn sẽ nghe trong lớp"
     },
     "items": [
      {
@@ -291,7 +313,8 @@
       "gloss": {
        "zh": "请把您的名字拼一下。",
        "ja": "お名前をつづってください。",
-       "en": "Please spell your name."
+       "en": "Please spell your name.",
+       "vi": "Xin hãy đánh vần tên của bạn."
       },
       "alt_gloss": null,
       "kw": [
@@ -305,7 +328,8 @@
       "gloss": {
        "zh": "我叫 Ilfat。",
        "ja": "わたしの名前は Ilfat です。",
-       "en": "My name is Ilfat."
+       "en": "My name is Ilfat.",
+       "vi": "Tôi tên là Ilfat."
       },
       "alt_gloss": null,
       "kw": [
@@ -319,7 +343,8 @@
       "gloss": {
        "zh": "这是什么字母？",
        "ja": "これは何の文字ですか。",
-       "en": "What letter is this?"
+       "en": "What letter is this?",
+       "vi": "Đây là chữ gì?"
       },
       "alt_gloss": null,
       "kw": [
@@ -333,21 +358,24 @@
     "tag": {
      "zh": "讲义补充",
      "ja": "プリントの補足",
-     "en": "Filling a gap in the handout"
+     "en": "Filling a gap in the handout",
+     "vi": "Bổ sung cho phần phát tay"
     },
     "lines": [
      {
       "text": {
        "zh": "讲义的表只给了「音」，没给字母名 —— 上面这一格补上了。两套都要会：拼写用名字，读单词用音。",
        "ja": "プリントの表には「音」だけで文字の名前がありません。上のマスがその補いです。つづるときは名前、単語を読むときは音、と使い分けます。",
-       "en": "The handout's table gives only the sounds, never the names — the grid above supplies them. You need both: names for spelling, sounds for reading words."
+       "en": "The handout's table gives only the sounds, never the names — the grid above supplies them. You need both: names for spelling, sounds for reading words.",
+       "vi": "Bảng trong phần phát tay chỉ có “âm”, không có tên chữ cái — ô ở trên đã bổ sung. Cần biết cả hai: đánh vần thì dùng tên, đọc từ thì dùng âm."
       }
      },
      {
       "text": {
        "zh": "辅音表还漏了两个组合：<b>sy</b>（<s>syarat</s>、<s>masyarakat</s>）和 <b>kh</b>（<s>khusus</s>、<s>akhir</s>）。下一页有。",
        "ja": "子音の表にはさらに二つの組み合わせが抜けています —— <b>sy</b>（<s>syarat</s>・<s>masyarakat</s>）と <b>kh</b>（<s>khusus</s>・<s>akhir</s>）。次のページで扱います。",
-       "en": "The consonant table also omits two digraphs: <b>sy</b> (<s>syarat</s>, <s>masyarakat</s>) and <b>kh</b> (<s>khusus</s>, <s>akhir</s>). They are on the next page."
+       "en": "The consonant table also omits two digraphs: <b>sy</b> (<s>syarat</s>, <s>masyarakat</s>) and <b>kh</b> (<s>khusus</s>, <s>akhir</s>). They are on the next page.",
+       "vi": "Bảng phụ âm còn thiếu hai tổ hợp: <b>sy</b> (<s>syarat</s>, <s>masyarakat</s>) và <b>kh</b> (<s>khusus</s>, <s>akhir</s>). Trang sau sẽ có."
       }
      }
     ]
@@ -360,7 +388,8 @@
     "sub": {
      "zh": "元音 · a i u e o",
      "ja": "母音 · a i u e o",
-     "en": "Vowels · a i u e o"
+     "en": "Vowels · a i u e o",
+     "vi": "Nguyên âm · a i u e o"
     }
    },
    {
@@ -368,7 +397,8 @@
     "text": {
      "zh": "印尼语只有五个元音字母，读音固定，比英语好办得多 —— 唯一的例外是 <b>e</b>，它有两个读音，写出来却一模一样。",
      "ja": "インドネシア語の母音字は五つだけで、読み方も一定です。英語よりずっと楽ですが、<b>e</b> だけは例外 —— 音が二つあるのに、書き方は同じです。",
-     "en": "Indonesian has just five vowel letters and each has a fixed value — far easier than English. The one exception is <b>e</b>: two different sounds, written identically."
+     "en": "Indonesian has just five vowel letters and each has a fixed value — far easier than English. The one exception is <b>e</b>: two different sounds, written identically.",
+     "vi": "Tiếng Indonesia chỉ có năm chữ nguyên âm, âm cố định, dễ hơn tiếng Anh rất nhiều — ngoại lệ duy nhất là <b>e</b>: có hai cách đọc, nhưng viết ra thì giống hệt nhau."
     }
    },
    {
@@ -377,17 +407,20 @@
      {
       "zh": "字母",
       "ja": "文字",
-      "en": "Letter"
+      "en": "Letter",
+      "vi": "Chữ cái"
      },
      {
       "zh": "怎么读",
       "ja": "読み方",
-      "en": "How it sounds"
+      "en": "How it sounds",
+      "vi": "Cách đọc"
      },
      {
       "zh": "例词",
       "ja": "例語",
-      "en": "Example"
+      "en": "Example",
+      "vi": "Ví dụ"
      }
     ],
     "rows": [
@@ -396,14 +429,16 @@
        "text": {
         "zh": "a",
         "ja": "a",
-        "en": "a"
+        "en": "a",
+        "vi": "a"
        }
       },
       {
        "text": {
         "zh": "像「啊」，嘴张开",
         "ja": "「ア」に近い。口を開いて",
-        "en": "like “ah”, mouth open"
+        "en": "like “ah”, mouth open",
+        "vi": "như “a”, mở miệng rộng"
        }
       },
       {
@@ -416,14 +451,16 @@
        "text": {
         "zh": "i",
         "ja": "i",
-        "en": "i"
+        "en": "i",
+        "vi": "i"
        }
       },
       {
        "text": {
         "zh": "像「衣」",
         "ja": "「イ」に近い",
-        "en": "like “ee”"
+        "en": "like “ee”",
+        "vi": "như “i”"
        }
       },
       {
@@ -436,14 +473,16 @@
        "text": {
         "zh": "u",
         "ja": "u",
-        "en": "u"
+        "en": "u",
+        "vi": "u"
        }
       },
       {
        "text": {
         "zh": "像「乌」",
         "ja": "「ウ」に近い（唇を丸めて）",
-        "en": "like “oo”"
+        "en": "like “oo”",
+        "vi": "như “u”"
        }
       },
       {
@@ -456,14 +495,16 @@
        "text": {
         "zh": "e",
         "ja": "e",
-        "en": "e"
+        "en": "e",
+        "vi": "e"
        }
       },
       {
        "text": {
         "zh": "两个音，见下面",
         "ja": "音が二つ。下の説明を",
-        "en": "two sounds — see below"
+        "en": "two sounds — see below",
+        "vi": "hai âm — xem bên dưới"
        }
       },
       {
@@ -476,14 +517,16 @@
        "text": {
         "zh": "o",
         "ja": "o",
-        "en": "o"
+        "en": "o",
+        "vi": "o"
        }
       },
       {
        "text": {
         "zh": "像「哦」",
         "ja": "「オ」に近い",
-        "en": "like “oh”"
+        "en": "like “oh”",
+        "vi": "gần “ô” hơn là “o”"
        }
       },
       {
@@ -495,7 +538,8 @@
     "note": {
      "zh": "这五个音不像英语那样随拼写变来变去：写什么就念什么，念长念短都一样。",
      "ja": "英語のようにつづりで音が変わることはありません。書いてあるとおりに読めば大丈夫です。",
-     "en": "Unlike English, the value never shifts with spelling: read what is written and you are right."
+     "en": "Unlike English, the value never shifts with spelling: read what is written and you are right.",
+     "vi": "Năm âm này không đổi theo cách viết như trong tiếng Anh: viết sao đọc vậy, đọc dài hay ngắn cũng thế."
     }
    },
    {
@@ -507,7 +551,8 @@
       "gloss": {
        "zh": "什么",
        "ja": "何",
-       "en": "what"
+       "en": "what",
+       "vi": "cái gì"
       }
      },
      {
@@ -516,7 +561,8 @@
       "gloss": {
        "zh": "眼睛",
        "ja": "目",
-       "en": "eye"
+       "en": "eye",
+       "vi": "mắt"
       }
      },
      {
@@ -525,7 +571,8 @@
       "gloss": {
        "zh": "这个",
        "ja": "これ",
-       "en": "this"
+       "en": "this",
+       "vi": "cái này"
       }
      },
      {
@@ -534,7 +581,8 @@
       "gloss": {
        "zh": "咖啡",
        "ja": "コーヒー",
-       "en": "coffee"
+       "en": "coffee",
+       "vi": "cà phê"
       }
      },
      {
@@ -543,7 +591,8 @@
       "gloss": {
        "zh": "牛奶",
        "ja": "牛乳",
-       "en": "milk"
+       "en": "milk",
+       "vi": "sữa"
       }
      },
      {
@@ -552,7 +601,8 @@
       "gloss": {
        "zh": "书",
        "ja": "本",
-       "en": "book"
+       "en": "book",
+       "vi": "sách"
       }
      },
      {
@@ -561,7 +611,8 @@
       "gloss": {
        "zh": "金子",
        "ja": "金",
-       "en": "gold"
+       "en": "gold",
+       "vi": "vàng"
       }
      },
      {
@@ -570,7 +621,8 @@
       "gloss": {
        "zh": "桌子",
        "ja": "つくえ",
-       "en": "table"
+       "en": "table",
+       "vi": "cái bàn"
       }
      },
      {
@@ -579,7 +631,8 @@
       "gloss": {
        "zh": "球",
        "ja": "ボール",
-       "en": "ball"
+       "en": "ball",
+       "vi": "quả bóng"
       }
      },
      {
@@ -588,7 +641,8 @@
       "gloss": {
        "zh": "面包",
        "ja": "パン",
-       "en": "bread"
+       "en": "bread",
+       "vi": "bánh mì"
       }
      }
     ]
@@ -598,28 +652,32 @@
     "tag": {
      "zh": "e 的两个读音",
      "ja": "e の二つの音",
-     "en": "The two e's"
+     "en": "The two e's",
+     "vi": "Hai cách đọc của e"
     },
     "lines": [
      {
       "text": {
        "zh": "轻轻带过的 /ə/（像轻声的「呃」）：<s>emas</s>、<s>enam</s>、<s>selamat</s>、<s>sepuluh</s>、<s>belas</s>。张开一点的 /e/：<s>meja</s>、<s>sore</s>、<s>bebek</s>、<s>nenek</s>。",
        "ja": "あいまいに軽く出す /ə/：<s>emas</s>・<s>enam</s>・<s>selamat</s>・<s>sepuluh</s>・<s>belas</s>。口を少し開ける /e/：<s>meja</s>・<s>sore</s>・<s>bebek</s>・<s>nenek</s>。",
-       "en": "The light, swallowed /ə/: <s>emas</s>, <s>enam</s>, <s>selamat</s>, <s>sepuluh</s>, <s>belas</s>. The open /e/: <s>meja</s>, <s>sore</s>, <s>bebek</s>, <s>nenek</s>."
+       "en": "The light, swallowed /ə/: <s>emas</s>, <s>enam</s>, <s>selamat</s>, <s>sepuluh</s>, <s>belas</s>. The open /e/: <s>meja</s>, <s>sore</s>, <s>bebek</s>, <s>nenek</s>.",
+       "vi": "Âm /ə/ nhẹ, lướt qua (như “ơ” không nhấn): <s>emas</s>, <s>enam</s>, <s>selamat</s>, <s>sepuluh</s>, <s>belas</s>. Âm /e/ mở hơn, gần “ê” tiếng Việt: <s>meja</s>, <s>sore</s>, <s>bebek</s>, <s>nenek</s>."
       }
      },
      {
       "text": {
        "zh": "有一条很好用的线索：<b>se- be- me- ke- te- pe-</b> 这些前缀里的 e 一律读 /ə/。所以 <s>sepuluh</s>、<s>sebelas</s>、<s>berumur</s>、<s>membaca</s> 开头那个 e 都是轻的。",
        "ja": "便利な手がかりが一つ。<b>se- be- me- ke- te- pe-</b> という接頭辞の e はすべて /ə/ です。<s>sepuluh</s>・<s>sebelas</s>・<s>berumur</s>・<s>membaca</s> の最初の e はどれも軽い音になります。",
-       "en": "One reliable clue: the e in the prefixes <b>se- be- me- ke- te- pe-</b> is always /ə/. So the first e of <s>sepuluh</s>, <s>sebelas</s>, <s>berumur</s> and <s>membaca</s> is the light one."
+       "en": "One reliable clue: the e in the prefixes <b>se- be- me- ke- te- pe-</b> is always /ə/. So the first e of <s>sepuluh</s>, <s>sebelas</s>, <s>berumur</s> and <s>membaca</s> is the light one.",
+       "vi": "Có một dấu hiệu rất tiện: e trong các tiền tố <b>se- be- me- ke- te- pe-</b> luôn đọc là /ə/. Vì vậy chữ e đầu của <s>sepuluh</s>, <s>sebelas</s>, <s>berumur</s>, <s>membaca</s> đều là âm nhẹ."
       }
      },
      {
       "text": {
        "zh": "词典和课本都不标这个区别，只能一个词一个词记。听不准就点一下卡片再跟读一遍。",
        "ja": "辞書も教科書もこの区別を表記しません。語ごとに覚えるしかないので、迷ったらカードをタップして声に出してみてください。",
-       "en": "Neither dictionaries nor the coursebook mark the difference, so it has to be learnt word by word. When in doubt, tap the card and say it back."
+       "en": "Neither dictionaries nor the coursebook mark the difference, so it has to be learnt word by word. When in doubt, tap the card and say it back.",
+       "vi": "Từ điển và sách giáo khoa đều không ghi phân biệt này, chỉ còn cách nhớ từng từ. Nghe chưa rõ thì chạm vào thẻ rồi đọc lại theo."
       }
      }
     ]
@@ -629,21 +687,24 @@
     "tag": {
      "zh": "讲义没提的双元音",
      "ja": "プリントにない二重母音",
-     "en": "Diphthongs the handout skips"
+     "en": "Diphthongs the handout skips",
+     "vi": "Nguyên âm đôi mà phần phát tay bỏ qua"
     },
     "lines": [
      {
       "text": {
        "zh": "两个元音挨在一起时连成一个音：<b>ai</b> 如 <s>pantai</s>（海滩）、<b>au</b> 如 <s>kalau</s>（如果）和 <s>atau</s>（或者）。",
        "ja": "母音が二つ続くと一つの音になります。<b>ai</b> は <s>pantai</s>（浜辺）、<b>au</b> は <s>kalau</s>（もし）や <s>atau</s>（または）。",
-       "en": "Two vowels together can fuse into one sound: <b>ai</b> in <s>pantai</s> (beach), <b>au</b> in <s>kalau</s> (if) and <s>atau</s> (or)."
+       "en": "Two vowels together can fuse into one sound: <b>ai</b> in <s>pantai</s> (beach), <b>au</b> in <s>kalau</s> (if) and <s>atau</s> (or).",
+       "vi": "Hai nguyên âm đứng cạnh nhau thì nhập thành một âm: <b>ai</b> như trong <s>pantai</s> (bãi biển), <b>au</b> như trong <s>kalau</s> (nếu) và <s>atau</s> (hoặc)."
       }
      },
      {
       "text": {
        "zh": "但分属两个音节时要分开念：<s>air</s>（水）是 a-ir 两个音节，不是「ai」。",
        "ja": "ただし音節が分かれる場合は続けません。<s>air</s>（水）は a-ir の二音節で、「アイ」ではありません。",
-       "en": "But when they belong to separate syllables they stay apart: <s>air</s> (water) is a-ir, two syllables, not “ai”."
+       "en": "But when they belong to separate syllables they stay apart: <s>air</s> (water) is a-ir, two syllables, not “ai”.",
+       "vi": "Nhưng khi chúng thuộc hai âm tiết khác nhau thì phải đọc tách ra: <s>air</s> (nước) là a-ir, hai âm tiết, không phải “ai”."
       }
      }
     ]
@@ -656,7 +717,8 @@
     "sub": {
      "zh": "辅音 · 最容易念错的几个",
      "ja": "子音 · まちがえやすいもの",
-     "en": "Consonants · the ones that go wrong"
+     "en": "Consonants · the ones that go wrong",
+     "vi": "Phụ âm · những âm hay bị đọc sai nhất"
     }
    },
    {
@@ -664,7 +726,8 @@
     "text": {
      "zh": "大部分辅音和拼音、罗马字差不多，照着写的念就行。真正要练的是下面这几个 —— 母语里要么没有，要么长得像但不是一回事。",
      "ja": "子音の多くはピンインやローマ字と大きく変わらず、書いてあるとおりに読めます。練習が要るのは次のいくつか —— 母語にない音か、似ているようで別の音です。",
-     "en": "Most consonants behave much as they look, so read them as written. The ones worth drilling are below — either your first language has no such sound, or it has one that merely looks similar."
+     "en": "Most consonants behave much as they look, so read them as written. The ones worth drilling are below — either your first language has no such sound, or it has one that merely looks similar.",
+     "vi": "Phần lớn phụ âm đọc đúng như cách viết, giống chữ Quốc ngữ, cứ thấy sao đọc vậy. Cần luyện thật sự là mấy âm dưới đây — hoặc tiếng mẹ đẻ không có, hoặc trông giống mà thật ra là âm khác."
     }
    },
    {
@@ -673,17 +736,20 @@
      {
       "zh": "字母",
       "ja": "文字",
-      "en": "Letter"
+      "en": "Letter",
+      "vi": "Chữ cái"
      },
      {
       "zh": "怎么读",
       "ja": "読み方",
-      "en": "How it sounds"
+      "en": "How it sounds",
+      "vi": "Cách đọc"
      },
      {
       "zh": "例词",
       "ja": "例語",
-      "en": "Example"
+      "en": "Example",
+      "vi": "Ví dụ"
      }
     ],
     "rows": [
@@ -692,14 +758,16 @@
        "text": {
         "zh": "c",
         "ja": "c",
-        "en": "c"
+        "en": "c",
+        "vi": "c"
        }
       },
       {
        "text": {
         "zh": "像「吃」的声母 /tʃ/",
         "ja": "「チ」の子音 /tʃ/",
-        "en": "English “ch” /tʃ/"
+        "en": "English “ch” /tʃ/",
+        "vi": "như “ch” tiếng Việt /tʃ/"
        }
       },
       {
@@ -712,14 +780,16 @@
        "text": {
         "zh": "j",
         "ja": "j",
-        "en": "j"
+        "en": "j",
+        "vi": "j"
        }
       },
       {
        "text": {
         "zh": "像英语 jam 的 j /dʒ/",
         "ja": "英語 jam の j /dʒ/",
-        "en": "English “j” /dʒ/"
+        "en": "English “j” /dʒ/",
+        "vi": "như j trong jam tiếng Anh /dʒ/"
        }
       },
       {
@@ -732,14 +802,16 @@
        "text": {
         "zh": "ny",
         "ja": "ny",
-        "en": "ny"
+        "en": "ny",
+        "vi": "ny"
        }
       },
       {
        "text": {
         "zh": "像「捏」的开头 /ɲ/",
         "ja": "「ニャ」の子音 /ɲ/",
-        "en": "like “ny” in canyon /ɲ/"
+        "en": "like “ny” in canyon /ɲ/",
+        "vi": "như “nh” tiếng Việt /ɲ/"
        }
       },
       {
@@ -752,14 +824,16 @@
        "text": {
         "zh": "ng",
         "ja": "ng",
-        "en": "ng"
+        "en": "ng",
+        "vi": "ng"
        }
       },
       {
        "text": {
         "zh": "像英语 sing 的结尾 /ŋ/",
         "ja": "英語 sing の語尾 /ŋ/",
-        "en": "like “ng” in sing /ŋ/"
+        "en": "like “ng” in sing /ŋ/",
+        "vi": "như “ng” trong không /ŋ/"
        }
       },
       {
@@ -772,14 +846,16 @@
        "text": {
         "zh": "r",
         "ja": "r",
-        "en": "r"
+        "en": "r",
+        "vi": "r"
        }
       },
       {
        "text": {
         "zh": "舌尖弹一下（大舌音）",
         "ja": "舌先を軽く弾く巻き舌",
-        "en": "a tapped or trilled r"
+        "en": "a tapped or trilled r",
+        "vi": "búng nhẹ đầu lưỡi, hơi rung"
        }
       },
       {
@@ -792,14 +868,16 @@
        "text": {
         "zh": "sy",
         "ja": "sy",
-        "en": "sy"
+        "en": "sy",
+        "vi": "sy"
        }
       },
       {
        "text": {
         "zh": "像英语 she /ʃ/",
         "ja": "英語 she の sh /ʃ/",
-        "en": "like “sh” in she /ʃ/"
+        "en": "like “sh” in she /ʃ/",
+        "vi": "như “sh” tiếng Anh /ʃ/"
        }
       },
       {
@@ -812,14 +890,16 @@
        "text": {
         "zh": "kh",
         "ja": "kh",
-        "en": "kh"
+        "en": "kh",
+        "vi": "kh"
        }
       },
       {
        "text": {
         "zh": "喉咙里摩擦 /x/",
         "ja": "のどの奥でこすらせる /x/",
-        "en": "a rasping /x/ at the back of the throat"
+        "en": "a rasping /x/ at the back of the throat",
+        "vi": "xát ở cuống họng /x/"
        }
       },
       {
@@ -831,7 +911,8 @@
     "note": {
      "zh": "<b>sy</b> 和 <b>kh</b> 是讲义漏掉的两个，多见于阿拉伯语借词。",
      "ja": "<b>sy</b> と <b>kh</b> はプリントにない二つ。アラビア語からの借用語によく出ます。",
-     "en": "<b>sy</b> and <b>kh</b> are the two the handout leaves out; both come mostly from Arabic loanwords."
+     "en": "<b>sy</b> and <b>kh</b> are the two the handout leaves out; both come mostly from Arabic loanwords.",
+     "vi": "<b>sy</b> và <b>kh</b> là hai tổ hợp phần phát tay bỏ sót, phần lớn gặp trong từ mượn tiếng Ả Rập."
     }
    },
    {
@@ -843,7 +924,8 @@
       "gloss": {
        "zh": "洗",
        "ja": "洗う",
-       "en": "to wash"
+       "en": "to wash",
+       "vi": "rửa · giặt"
       }
      },
      {
@@ -852,7 +934,8 @@
       "gloss": {
        "zh": "蚊子",
        "ja": "蚊",
-       "en": "mosquito"
+       "en": "mosquito",
+       "vi": "con muỗi"
       }
      },
      {
@@ -861,7 +944,8 @@
       "gloss": {
        "zh": "手",
        "ja": "手",
-       "en": "hand"
+       "en": "hand",
+       "vi": "bàn tay"
       }
      },
      {
@@ -870,7 +954,8 @@
       "gloss": {
        "zh": "房子",
        "ja": "家",
-       "en": "house"
+       "en": "house",
+       "vi": "nhà"
       }
      },
      {
@@ -879,7 +964,8 @@
       "gloss": {
        "zh": "路 · 走",
        "ja": "道 · 歩く",
-       "en": "road; to walk"
+       "en": "road; to walk",
+       "vi": "đường · đi bộ"
       }
      },
      {
@@ -888,7 +974,8 @@
       "gloss": {
        "zh": "特别的",
        "ja": "特別な",
-       "en": "special"
+       "en": "special",
+       "vi": "đặc biệt"
       }
      }
     ]
@@ -898,35 +985,40 @@
     "tag": {
      "zh": "母语干扰",
      "ja": "母語にひきずられやすい点",
-     "en": "Where your first language gets in the way"
+     "en": "Where your first language gets in the way",
+     "vi": "Chỗ tiếng mẹ đẻ hay kéo bạn đi sai"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>c</b> 是最常错的一个：<s>cuci</s> 读成「chu-chi」，既不是拼音的「cu-ci」，也不是日语的「tsu-tsi」。",
        "ja": "いちばんまちがえやすいのが <b>c</b>。<s>cuci</s> は「チュチ」で、ローマ字読みの「ツツ」ではありません。",
-       "en": "<b>c</b> is the classic slip: <s>cuci</s> is “choo-chee”, not “tsoo-tsee” and not a hard “k”."
+       "en": "<b>c</b> is the classic slip: <s>cuci</s> is “choo-chee”, not “tsoo-tsee” and not a hard “k”.",
+       "vi": "<b>c</b> là chữ hay đọc sai nhất: <s>cuci</s> đọc là “chu-chi”, tức “ch” của tiếng Việt, không phải âm /k/ như chữ c tiếng Việt."
       }
      },
      {
       "text": {
        "zh": "<b>r</b> 要弹舌，<s>rumah</s> 的 r 舌尖轻轻打一下；不弹也听得懂，但一听就知道不是本地人。",
        "ja": "<b>r</b> は巻き舌ぎみに。<s>rumah</s> の r は舌先を軽く一度弾きます。弾かなくても通じますが、すぐに外国人だとわかります。",
-       "en": "<b>r</b> wants a tap: flick the tongue tip once in <s>rumah</s>. Skipping it is still understandable, but instantly marks you as a foreigner."
+       "en": "<b>r</b> wants a tap: flick the tongue tip once in <s>rumah</s>. Skipping it is still understandable, but instantly marks you as a foreigner.",
+       "vi": "<b>r</b> phải rung: r trong <s>rumah</s> là một cái búng nhẹ của đầu lưỡi. Không búng thì người ta vẫn hiểu, nhưng nghe là biết ngay không phải người bản xứ."
       }
      },
      {
       "text": {
        "zh": "<b>ng</b> 在印尼语里可以出现在词首：<s>nganggur</s>（闲着没事）。中文和日语没有这个位置，多念几遍就顺了。",
        "ja": "<b>ng</b> は語頭にも立ちます —— <s>nganggur</s>（暇でいる）。中国語にも日本語にもない位置なので、くり返して慣れましょう。",
-       "en": "<b>ng</b> can start a word in Indonesian: <s>nganggur</s> (to be idle). No such position exists in Chinese or Japanese, so it just needs repetition."
+       "en": "<b>ng</b> can start a word in Indonesian: <s>nganggur</s> (to be idle). No such position exists in Chinese or Japanese, so it just needs repetition.",
+       "vi": "<b>ng</b> trong tiếng Indonesia đứng được ở đầu từ: <s>nganggur</s> (rảnh rỗi, không có việc làm). Tiếng Việt cũng có vị trí này (người, ngủ, nghe), nên với bạn thì chỗ này rất dễ."
       }
      },
      {
       "text": {
        "zh": "词尾的 <b>k</b> 不爆破，喉咙一挡就停：<s>bapak</s> 听起来像「bapa'」。",
        "ja": "語末の <b>k</b> は破裂させず、のどで止めます。<s>bapak</s> は「バパッ」のように聞こえます。",
-       "en": "A final <b>k</b> is not released — the throat simply closes: <s>bapak</s> comes out as “bapa'”."
+       "en": "A final <b>k</b> is not released — the throat simply closes: <s>bapak</s> comes out as “bapa'”.",
+       "vi": "<b>k</b> ở cuối từ không bật hơi, chỉ chặn lại ở cổ họng: <s>bapak</s> nghe như “bapa'”."
       }
      }
     ]
@@ -936,21 +1028,24 @@
     "tag": {
      "zh": "四个借来的字母",
      "ja": "借用された四文字",
-     "en": "Four borrowed letters"
+     "en": "Four borrowed letters",
+     "vi": "Bốn chữ cái vay mượn"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>v</b> 基本读成 f，<s>video</s> 听起来像「fideo」；<b>x</b> 只在外来词里读 /ks/，如 <s>ekstra</s>；<b>q</b> 只见于阿拉伯语借词，读作 k；<b>z</b> 读 /z/，如 <s>zaman</s>（时代）。",
        "ja": "<b>v</b> はほぼ f の音（<s>video</s> は「フィデオ」に近い）。<b>x</b> は外来語でのみ /ks/（<s>ekstra</s>）。<b>q</b> はアラビア語からの借用語だけに現れ k の音。<b>z</b> は /z/ で <s>zaman</s>（時代）など。",
-       "en": "<b>v</b> is normally said as f (<s>video</s> sounds like “fideo”); <b>x</b> is /ks/ and only in loanwords such as <s>ekstra</s>; <b>q</b> appears only in Arabic loans and is said as k; <b>z</b> is a true /z/, as in <s>zaman</s> (era)."
+       "en": "<b>v</b> is normally said as f (<s>video</s> sounds like “fideo”); <b>x</b> is /ks/ and only in loanwords such as <s>ekstra</s>; <b>q</b> appears only in Arabic loans and is said as k; <b>z</b> is a true /z/, as in <s>zaman</s> (era).",
+       "vi": "<b>v</b> hầu như đọc thành f, <s>video</s> nghe như “fideo”; <b>x</b> chỉ có trong từ ngoại lai và đọc là /ks/, như <s>ekstra</s>; <b>q</b> chỉ gặp trong từ mượn tiếng Ả Rập, đọc như k; <b>z</b> đọc /z/, như <s>zaman</s> (thời đại)."
       }
      },
      {
       "text": {
        "zh": "讲义给 <b>v</b> 标的 IPA 是 /f/ —— 这条没写错，印尼人确实这么念。",
        "ja": "プリントが <b>v</b> に /f/ と記しているのは誤りではありません。実際にそう発音されます。",
-       "en": "The handout marks <b>v</b> as /f/ — that is not a mistake; it really is pronounced that way."
+       "en": "The handout marks <b>v</b> as /f/ — that is not a mistake; it really is pronounced that way.",
+       "vi": "Phần phát tay ghi IPA của <b>v</b> là /f/ — chỗ này không sai, người Indonesia đúng là đọc như vậy."
       }
      }
     ]
@@ -963,7 +1058,8 @@
     "sub": {
      "zh": "听力",
      "ja": "聞き取り",
-     "en": "Listening"
+     "en": "Listening",
+     "vi": "Nghe hiểu"
     }
    },
    {
@@ -973,12 +1069,14 @@
     "title": {
      "zh": "Simakan 1 · 课本听力",
      "ja": "Simakan 1 · 教科書の聞き取り",
-     "en": "Simakan 1 · textbook listening"
+     "en": "Simakan 1 · textbook listening",
+     "vi": "Simakan 1 · bài nghe của sách giáo khoa"
     },
     "note": {
      "zh": "边听边留意下面这些词有没有出现。第一遍不用全懂，抓住听得出来的就行；听两三遍再看下一页的对话。",
      "ja": "下の語が出てくるかどうかに気をつけながら聞いてください。一度目は全部わからなくてかまいません。聞き取れたものだけで大丈夫です。二、三回聞いてから次のページの会話を見ましょう。",
-     "en": "Listen for the words below. You are not meant to catch everything the first time — take what you can. Play it two or three times before you look at the dialogue on the next page."
+     "en": "Listen for the words below. You are not meant to catch everything the first time — take what you can. Play it two or three times before you look at the dialogue on the next page.",
+     "vi": "Vừa nghe vừa để ý xem những từ dưới đây có xuất hiện không. Lần đầu không cần hiểu hết, nghe được chữ nào hay chữ đó. Nghe hai ba lần rồi mới xem đoạn hội thoại ở trang sau."
     }
    },
    {
@@ -986,7 +1084,8 @@
     "text": {
      "zh": "听到了哪些词？· kata yang Anda dengar",
      "ja": "どの語が聞こえましたか · kata yang Anda dengar",
-     "en": "Which words did you hear? · kata yang Anda dengar"
+     "en": "Which words did you hear? · kata yang Anda dengar",
+     "vi": "Bạn nghe được những từ nào? · kata yang Anda dengar"
     }
    },
    {
@@ -998,7 +1097,8 @@
       "gloss": {
        "zh": "名字",
        "ja": "名前",
-       "en": "name"
+       "en": "name",
+       "vi": "tên"
       }
      },
      {
@@ -1007,7 +1107,8 @@
       "gloss": {
        "zh": "我",
        "ja": "わたし",
-       "en": "I, me"
+       "en": "I, me",
+       "vi": "tôi"
       }
      },
      {
@@ -1016,7 +1117,8 @@
       "gloss": {
        "zh": "住",
        "ja": "住む",
-       "en": "to live, to stay"
+       "en": "to live, to stay",
+       "vi": "ở · sống"
       }
      },
      {
@@ -1025,7 +1127,8 @@
       "gloss": {
        "zh": "学习",
        "ja": "学ぶ",
-       "en": "to study"
+       "en": "to study",
+       "vi": "học"
       }
      },
      {
@@ -1034,7 +1137,8 @@
       "gloss": {
        "zh": "年 · 岁",
        "ja": "年 · 歳",
-       "en": "year"
+       "en": "year",
+       "vi": "năm · tuổi"
       }
      },
      {
@@ -1043,7 +1147,8 @@
       "gloss": {
        "zh": "大学生",
        "ja": "大学生",
-       "en": "university student"
+       "en": "university student",
+       "vi": "sinh viên"
       }
      },
      {
@@ -1052,7 +1157,8 @@
       "gloss": {
        "zh": "从 · 来自",
        "ja": "〜から",
-       "en": "from"
+       "en": "from",
+       "vi": "từ · đến từ"
       }
      },
      {
@@ -1061,7 +1167,8 @@
       "gloss": {
        "zh": "大学",
        "ja": "大学",
-       "en": "university"
+       "en": "university",
+       "vi": "trường đại học"
       }
      },
      {
@@ -1070,7 +1177,8 @@
       "gloss": {
        "zh": "城市",
        "ja": "町 · 都市",
-       "en": "city, town"
+       "en": "city, town",
+       "vi": "thành phố"
       }
      },
      {
@@ -1079,7 +1187,8 @@
       "gloss": {
        "zh": "二十",
        "ja": "20",
-       "en": "twenty"
+       "en": "twenty",
+       "vi": "hai mươi"
       }
      },
      {
@@ -1088,7 +1197,8 @@
       "gloss": {
        "zh": "介绍一下",
        "ja": "紹介します",
-       "en": "let me introduce"
+       "en": "let me introduce",
+       "vi": "xin giới thiệu"
       }
      },
      {
@@ -1097,7 +1207,8 @@
       "gloss": {
        "zh": "地理学",
        "ja": "地理学",
-       "en": "geography"
+       "en": "geography",
+       "vi": "địa lý học"
       }
      },
      {
@@ -1106,7 +1217,8 @@
       "gloss": {
        "zh": "老师（中小学）",
        "ja": "先生（小中高）",
-       "en": "teacher (school)"
+       "en": "teacher (school)",
+       "vi": "giáo viên (phổ thông)"
       }
      },
      {
@@ -1115,7 +1227,8 @@
       "gloss": {
        "zh": "苏门答腊（岛）",
        "ja": "スマトラ（島）",
-       "en": "Sumatra"
+       "en": "Sumatra",
+       "vi": "Sumatra (đảo)"
       }
      },
      {
@@ -1124,7 +1237,8 @@
       "gloss": {
        "zh": "棉兰（苏门答腊城市）",
        "ja": "メダン（スマトラの都市）",
-       "en": "Medan (city in Sumatra)"
+       "en": "Medan (city in Sumatra)",
+       "vi": "Medan (thành phố ở Sumatra)"
       }
      },
      {
@@ -1133,7 +1247,8 @@
       "gloss": {
        "zh": "泗水（东爪哇）",
        "ja": "スラバヤ（東ジャワ）",
-       "en": "Surabaya (East Java)"
+       "en": "Surabaya (East Java)",
+       "vi": "Surabaya (Đông Java)"
       }
      },
      {
@@ -1142,7 +1257,8 @@
       "gloss": {
        "zh": "巴厘（岛）",
        "ja": "バリ（島）",
-       "en": "Bali"
+       "en": "Bali",
+       "vi": "Bali (đảo)"
       }
      },
      {
@@ -1151,7 +1267,8 @@
       "gloss": {
        "zh": "库塔（巴厘的海滩区）",
        "ja": "クタ（バリのビーチ）",
-       "en": "Kuta (beach area in Bali)"
+       "en": "Kuta (beach area in Bali)",
+       "vi": "Kuta (khu bãi biển ở Bali)"
       }
      }
     ]
@@ -1164,7 +1281,8 @@
     "sub": {
      "zh": "新生 · 对话（上）",
      "ja": "新入生 · 会話（前半）",
-     "en": "New students · dialogue (1)"
+     "en": "New students · dialogue (1)",
+     "vi": "Sinh viên mới · hội thoại (phần 1)"
     }
    },
    {
@@ -1172,7 +1290,8 @@
     "text": {
      "zh": "Ziah 是印尼学生，Sanggi 是韩国来的留学生。两人在 UGM 第一次见面。",
      "ja": "Ziah はインドネシア人の学生、Sanggi は韓国から来た留学生です。二人は UGM ではじめて会います。",
-     "en": "Ziah is an Indonesian student; Sanggi is an exchange student from Korea. They meet for the first time at UGM."
+     "en": "Ziah is an Indonesian student; Sanggi is an exchange student from Korea. They meet for the first time at UGM.",
+     "vi": "Ziah là sinh viên Indonesia, Sanggi là du học sinh đến từ Hàn Quốc. Hai người gặp nhau lần đầu ở UGM."
     }
    },
    {
@@ -1186,7 +1305,8 @@
       "gloss": {
        "zh": "早上好。",
        "ja": "おはようございます。",
-       "en": "Good morning."
+       "en": "Good morning.",
+       "vi": "Chào buổi sáng."
       },
       "alt_gloss": null,
       "kw": [
@@ -1202,7 +1322,8 @@
       "gloss": {
        "zh": "早上好。",
        "ja": "おはようございます。",
-       "en": "Good morning."
+       "en": "Good morning.",
+       "vi": "Chào buổi sáng."
       },
       "alt_gloss": null,
       "kw": [
@@ -1218,7 +1339,8 @@
       "gloss": {
        "zh": "我叫 Ziah。您叫什么名字？",
        "ja": "わたしは Ziah です。お名前は何ですか。",
-       "en": "My name is Ziah. What is your name?"
+       "en": "My name is Ziah. What is your name?",
+       "vi": "Tôi tên là Ziah. Bạn tên là gì?"
       },
       "alt_gloss": null,
       "kw": [
@@ -1235,7 +1357,8 @@
       "gloss": {
        "zh": "我叫 Sanggi。",
        "ja": "わたしは Sanggi です。",
-       "en": "My name is Sanggi."
+       "en": "My name is Sanggi.",
+       "vi": "Tôi tên là Sanggi."
       },
       "alt_gloss": null,
       "kw": [
@@ -1250,7 +1373,8 @@
       "gloss": {
        "zh": "Sanggi 兄，您从哪儿来？",
        "ja": "Sanggi さん、どちらのご出身ですか。",
-       "en": "Where are you from, Mas Sanggi?"
+       "en": "Where are you from, Mas Sanggi?",
+       "vi": "Mas Sanggi, bạn đến từ đâu?"
       },
       "alt_gloss": null,
       "kw": [
@@ -1267,7 +1391,8 @@
       "gloss": {
        "zh": "我从韩国来。您是印尼人吗？",
        "ja": "韓国から来ました。インドネシアの方ですか。",
-       "en": "I'm from Korea. Are you Indonesian?"
+       "en": "I'm from Korea. Are you Indonesian?",
+       "vi": "Tôi đến từ Hàn Quốc. Bạn là người Indonesia phải không?"
       },
       "alt_gloss": null,
       "kw": [
@@ -1284,7 +1409,8 @@
       "gloss": {
        "zh": "是，我是印尼人。您是 UGM 的学生吗？",
        "ja": "はい、わたしはインドネシア人です。UGM の学生ですか。",
-       "en": "Yes, I'm Indonesian. Are you a student at UGM?"
+       "en": "Yes, I'm Indonesian. Are you a student at UGM?",
+       "vi": "Vâng, tôi là người Indonesia. Bạn là sinh viên UGM phải không?"
       },
       "alt_gloss": null,
       "kw": [
@@ -1301,7 +1427,8 @@
       "gloss": {
        "zh": "是，我是 UGM 的学生。",
        "ja": "はい、UGM の学生です。",
-       "en": "Yes, I'm a student at UGM."
+       "en": "Yes, I'm a student at UGM.",
+       "vi": "Vâng, tôi là sinh viên UGM."
       },
       "alt_gloss": null,
       "kw": [
@@ -1316,14 +1443,16 @@
     "tag": {
      "zh": "笔误修正",
      "ja": "誤植の訂正",
-     "en": "Typo corrected"
+     "en": "Typo corrected",
+     "vi": "Sửa lỗi in"
     },
     "lines": [
      {
       "text": {
        "zh": "课本第 2 页 Sanggi 的第一句印成了 <s>Selamat pagi?</s>（带问号）。回应问候不是提问，这里按 <s>Selamat pagi.</s> 处理。App 里已经改成句号，读出来也是陈述语调。",
        "ja": "教科書 2 ページの Sanggi の最初のせりふは <s>Selamat pagi?</s> と疑問符つきで印刷されています。あいさつへの返しは質問ではないので、ここでは <s>Selamat pagi.</s> としました。アプリでは句点に直してあり、読み上げも平叙のイントネーションです。",
-       "en": "On page 2 of the book, Sanggi's first line is printed as <s>Selamat pagi?</s> with a question mark. Returning a greeting is not a question, so it is treated here as <s>Selamat pagi.</s> The app uses a full stop, and the audio reads it as a statement."
+       "en": "On page 2 of the book, Sanggi's first line is printed as <s>Selamat pagi?</s> with a question mark. Returning a greeting is not a question, so it is treated here as <s>Selamat pagi.</s> The app uses a full stop, and the audio reads it as a statement.",
+       "vi": "Ở trang 2 của sách, câu đầu tiên của Sanggi được in là <s>Selamat pagi?</s> (có dấu hỏi). Đáp lại lời chào không phải là câu hỏi, nên ở đây xử lý thành <s>Selamat pagi.</s> App đã đổi sang dấu chấm, và phần đọc cũng theo ngữ điệu câu khẳng định."
       }
      }
     ]
@@ -1336,7 +1465,8 @@
     "sub": {
      "zh": "新生 · 对话（下）",
      "ja": "新入生 · 会話（後半）",
-     "en": "New students · dialogue (2)"
+     "en": "New students · dialogue (2)",
+     "vi": "Sinh viên mới · hội thoại (phần 2)"
     }
    },
    {
@@ -1350,7 +1480,8 @@
       "gloss": {
        "zh": "您学什么？",
        "ja": "何を勉強していますか。",
-       "en": "What are you studying?"
+       "en": "What are you studying?",
+       "vi": "Bạn học gì?"
       },
       "alt_gloss": null,
       "kw": [
@@ -1366,7 +1497,8 @@
       "gloss": {
        "zh": "我在 INCULS 学印尼语。",
        "ja": "INCULS でインドネシア語を勉強しています。",
-       "en": "I study Indonesian at INCULS."
+       "en": "I study Indonesian at INCULS.",
+       "vi": "Tôi học tiếng Indonesia ở INCULS."
       },
       "alt_gloss": null,
       "kw": [
@@ -1383,7 +1515,8 @@
       "gloss": {
        "zh": "您住在哪儿？",
        "ja": "どこに住んでいますか。",
-       "en": "Where do you live?"
+       "en": "Where do you live?",
+       "vi": "Bạn sống ở đâu?"
       },
       "alt_gloss": null,
       "kw": [
@@ -1400,7 +1533,8 @@
       "gloss": {
        "zh": "我住在日惹的 Kaliurang 路。",
        "ja": "ジョグジャカルタの Kaliurang 通りに住んでいます。",
-       "en": "I live on Jalan Kaliurang, Yogyakarta."
+       "en": "I live on Jalan Kaliurang, Yogyakarta.",
+       "vi": "Tôi sống ở đường Kaliurang, Yogyakarta."
       },
       "alt_gloss": null,
       "kw": [
@@ -1416,7 +1550,8 @@
       "gloss": {
        "zh": "Sanggi 兄，这是我朋友 Zach。",
        "ja": "Sanggi さん、こちらはわたしの友だちの Zach です。",
-       "en": "Mas Sanggi, this is my friend Zach."
+       "en": "Mas Sanggi, this is my friend Zach.",
+       "vi": "Mas Sanggi, đây là bạn tôi, Zach."
       },
       "alt_gloss": null,
       "kw": [
@@ -1432,7 +1567,8 @@
       "gloss": {
        "zh": "嗨，Zach。很高兴见到您。",
        "ja": "こんにちは、Zach さん。お会いできてうれしいです。",
-       "en": "Hi, Zach. Nice to meet you."
+       "en": "Hi, Zach. Nice to meet you.",
+       "vi": "Chào Zach. Rất vui được gặp bạn."
       },
       "alt_gloss": null,
       "kw": [
@@ -1448,7 +1584,8 @@
       "gloss": {
        "zh": "嗨，Sanggi。很高兴见到您。",
        "ja": "こんにちは、Sanggi さん。お会いできてうれしいです。",
-       "en": "Hi, Sanggi. Nice to meet you."
+       "en": "Hi, Sanggi. Nice to meet you.",
+       "vi": "Chào Sanggi. Rất vui được gặp bạn."
       },
       "alt_gloss": null,
       "kw": [
@@ -1464,7 +1601,8 @@
       "gloss": {
        "zh": "Zach，您是从英国来的吗？",
        "ja": "Zach さんはイギリスから来たのですか。",
-       "en": "Zach, are you from England?"
+       "en": "Zach, are you from England?",
+       "vi": "Zach, bạn đến từ Anh phải không?"
       },
       "alt_gloss": null,
       "kw": [
@@ -1480,7 +1618,8 @@
       "gloss": {
        "zh": "是的。我从英国来。",
        "ja": "はい。イギリスから来ました。",
-       "en": "Yes. I'm from England."
+       "en": "Yes. I'm from England.",
+       "vi": "Vâng. Tôi đến từ Anh."
       },
       "alt_gloss": null,
       "kw": [
@@ -1495,7 +1634,8 @@
       "gloss": {
        "zh": "不好意思，我要去上课了。回头见！",
        "ja": "すみません、これから授業に行きます。では、また！",
-       "en": "Sorry, I'm about to go to class. See you!"
+       "en": "Sorry, I'm about to go to class. See you!",
+       "vi": "Xin lỗi, tôi phải vào lớp đây. Hẹn gặp lại!"
       },
       "alt_gloss": null,
       "kw": [
@@ -1513,7 +1653,8 @@
       "gloss": {
        "zh": "回头见！",
        "ja": "では、また！",
-       "en": "See you!"
+       "en": "See you!",
+       "vi": "Hẹn gặp lại!"
       },
       "alt_gloss": null,
       "kw": [
@@ -1534,7 +1675,8 @@
       "gloss": {
        "zh": "回头见！",
        "ja": "では、また！",
-       "en": "See you!"
+       "en": "See you!",
+       "vi": "Hẹn gặp lại!"
       }
      }
     ]
@@ -1545,14 +1687,16 @@
     "tag": {
      "zh": "笔误修正",
      "ja": "誤植の訂正",
-     "en": "Typo fixed"
+     "en": "Typo fixed",
+     "vi": "Sửa lỗi in"
     },
     "lines": [
      {
       "text": {
        "zh": "课本第 3 页对话的最后一行，说话人印成了 Sanggi —— 但 Sanggi 上一句已经说过「Sampai jumpa!」了，按场景应该是 Ziah 在道别（课本这一行的前引号也漏印了）。这里改成 Ziah。",
        "ja": "教科書 3 ページの会話の最終行は、話し手が Sanggi と印刷されています。しかし Sanggi は直前の行ですでに「Sampai jumpa!」と言っているので、場面から見て別れを告げているのは Ziah です（この行は開き括弧も抜けています）。ここでは Ziah に直しました。",
-       "en": "On page 3 the last line of the dialogue is attributed to Sanggi — but Sanggi has already said “Sampai jumpa!” in the line before, so the person taking leave here should be Ziah (the book also drops the opening quotation mark on that line). Corrected to Ziah here."
+       "en": "On page 3 the last line of the dialogue is attributed to Sanggi — but Sanggi has already said “Sampai jumpa!” in the line before, so the person taking leave here should be Ziah (the book also drops the opening quotation mark on that line). Corrected to Ziah here.",
+       "vi": "Ở trang 3 của sách giáo khoa, dòng cuối bài hội thoại được in là lời của Sanggi — nhưng Sanggi vừa nói “Sampai jumpa!” ở dòng ngay trước đó, nên theo tình huống thì người chào tạm biệt ở đây phải là Ziah (dòng này trong sách cũng thiếu dấu mở ngoặc kép). Ở đây đã sửa thành Ziah."
       }
      }
     ]
@@ -1563,21 +1707,24 @@
     "tag": {
      "zh": "容易踩的坑",
      "ja": "つまずきやすいところ",
-     "en": "Easy to get wrong"
+     "en": "Easy to get wrong",
+     "vi": "Chỗ dễ nhầm"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>Mas</s> 是对年纪相仿或稍长的男性的称呼（爪哇话，日惹到处在用），女性对应 <s>Mbak</s>。放在名字前面：Mas Sanggi、Mbak Ziah。比直接叫名字更礼貌，但又不像 <s>Bapak</s>／<s>Ibu</s> 那么正式。",
        "ja": "<s>Mas</s> は同年代か少し年上の男性への呼びかけです（ジャワ語で、ジョグジャカルタでは日常的に使います）。女性には <s>Mbak</s>。名前の前に置いて Mas Sanggi、Mbak Ziah のように使います。名前を呼び捨てにするより丁寧で、<s>Bapak</s>／<s>Ibu</s> ほど硬くありません。",
-       "en": "<s>Mas</s> is how you address a man of about your own age or a little older (it is Javanese, and in Yogyakarta it is everywhere). For a woman it is <s>Mbak</s>. Put it before the name: Mas Sanggi, Mbak Ziah. It is more polite than using the bare name and less formal than <s>Bapak</s>/<s>Ibu</s>."
+       "en": "<s>Mas</s> is how you address a man of about your own age or a little older (it is Javanese, and in Yogyakarta it is everywhere). For a woman it is <s>Mbak</s>. Put it before the name: Mas Sanggi, Mbak Ziah. It is more polite than using the bare name and less formal than <s>Bapak</s>/<s>Ibu</s>.",
+       "vi": "<s>Mas</s> là cách gọi một người nam bằng tuổi hoặc lớn hơn bạn một chút (gốc tiếng Java, ở Yogyakarta chỗ nào cũng dùng). Với nữ thì là <s>Mbak</s>. Đặt trước tên: Mas Sanggi, Mbak Ziah. Lịch sự hơn gọi trống tên, nhưng không trang trọng bằng <s>Bapak</s>/<s>Ibu</s>."
       }
      },
      {
       "text": {
        "zh": "<s>Senang bertemu Anda</s> 直译是「高兴见到您」。初次见面用它最稳。熟了以后口语会说 <s>Senang ketemu kamu</s>；课本给的是正式的那句，拿不准的场合用它不会错。",
        "ja": "<s>Senang bertemu Anda</s> は「お会いできてうれしいです」。初対面ではこれが無難です。親しくなると話しことばで <s>Senang ketemu kamu</s> と言いますが、教科書が挙げているのはフォーマルな言い方で、迷う場面ではこちらにしておけば外しません。",
-       "en": "<s>Senang bertemu Anda</s> is «pleased to meet you». It is the safe choice on a first meeting. Once you know someone, the spoken version is <s>Senang ketemu kamu</s> — The book gives the formal one, and it is the safe choice whenever you are unsure."
+       "en": "<s>Senang bertemu Anda</s> is «pleased to meet you». It is the safe choice on a first meeting. Once you know someone, the spoken version is <s>Senang ketemu kamu</s> — The book gives the formal one, and it is the safe choice whenever you are unsure.",
+       "vi": "<s>Senang bertemu Anda</s> dịch sát là “rất vui được gặp bạn”. Lần đầu gặp nhau, dùng câu này là chắc nhất. Khi đã thân, văn nói sẽ là <s>Senang ketemu kamu</s>; sách giáo khoa cho câu trang trọng, và lúc không chắc thì dùng nó không bao giờ sai."
       }
      }
     ]
@@ -1590,7 +1737,8 @@
     "sub": {
      "zh": "问候 · 称呼 · 告别",
      "ja": "あいさつ · 呼びかけ · 別れ",
-     "en": "Greetings, address, farewells"
+     "en": "Greetings, address, farewells",
+     "vi": "Chào hỏi · xưng hô · tạm biệt"
     }
    },
    {
@@ -1601,7 +1749,8 @@
     "gloss": {
      "zh": "问候语",
      "ja": "あいさつ",
-     "en": "greetings"
+     "en": "greetings",
+     "vi": "lời chào"
     }
    },
    {
@@ -1614,7 +1763,8 @@
       "gloss": {
        "zh": "早上好。（天亮到 11 点左右）",
        "ja": "おはようございます。（夜明けから 11 時ごろまで）",
-       "en": "Good morning. (dawn until about 11)"
+       "en": "Good morning. (dawn until about 11)",
+       "vi": "Chào buổi sáng. (từ rạng sáng đến khoảng 11 giờ)"
       },
       "alt_gloss": null,
       "kw": [
@@ -1628,7 +1778,8 @@
       "gloss": {
        "zh": "中午好。（11 点到 3 点左右，太阳最高的时候）",
        "ja": "こんにちは。（11 時から 3 時ごろ、日が高い時間）",
-       "en": "Good day. (about 11 to 3, when the sun is high)"
+       "en": "Good day. (about 11 to 3, when the sun is high)",
+       "vi": "Chào buổi trưa. (khoảng 11 giờ đến 3 giờ, lúc nắng cao nhất)"
       },
       "alt_gloss": null,
       "kw": [
@@ -1642,7 +1793,8 @@
       "gloss": {
        "zh": "下午好。（3 点到天黑）",
        "ja": "こんにちは。（3 時ごろから日が暮れるまで）",
-       "en": "Good afternoon. (about 3 until dark)"
+       "en": "Good afternoon. (about 3 until dark)",
+       "vi": "Chào buổi chiều. (khoảng 3 giờ đến khi trời tối)"
       },
       "alt_gloss": null,
       "kw": [
@@ -1656,7 +1808,8 @@
       "gloss": {
        "zh": "晚上好。（天黑以后）",
        "ja": "こんばんは。（日が暮れてから）",
-       "en": "Good evening. (after dark)"
+       "en": "Good evening. (after dark)",
+       "vi": "Chào buổi tối. (sau khi trời tối)"
       },
       "alt_gloss": null,
       "kw": [
@@ -1670,7 +1823,8 @@
       "gloss": {
        "zh": "你好！（随时都能用，比较随意）",
        "ja": "やあ！（時間を選ばない、くだけた言い方）",
-       "en": "Hello! (any time of day, casual)"
+       "en": "Hello! (any time of day, casual)",
+       "vi": "Xin chào! (dùng được mọi lúc, khá thân mật)"
       },
       "alt_gloss": null,
       "kw": [
@@ -1684,7 +1838,8 @@
       "gloss": {
        "zh": "你好吗？",
        "ja": "お元気ですか。",
-       "en": "How are you?"
+       "en": "How are you?",
+       "vi": "Bạn khỏe không?"
       },
       "alt_gloss": null,
       "kw": [
@@ -1699,7 +1854,8 @@
       "gloss": {
        "zh": "挺好。（回答 Apa kabar? 的标准说法）",
        "ja": "元気です。（Apa kabar? への定番の答え）",
-       "en": "Fine. (the standard answer to Apa kabar?)"
+       "en": "Fine. (the standard answer to Apa kabar?)",
+       "vi": "Khỏe. (câu trả lời chuẩn cho Apa kabar?)"
       },
       "alt_gloss": null,
       "kw": [
@@ -1714,21 +1870,24 @@
     "tag": {
      "zh": "容易踩的坑",
      "ja": "つまずきやすいところ",
-     "en": "Easy to get wrong"
+     "en": "Easy to get wrong",
+     "vi": "Chỗ dễ nhầm"
     },
     "lines": [
      {
       "text": {
        "zh": "四个 <s>Selamat …</s> 是按<b>一天中的时段</b>分的，不是按「见面／告别」分的。到了下午还说 Selamat pagi 会很奇怪。分界大致是：11 点、3 点、天黑。",
        "ja": "四つの <s>Selamat …</s> は<b>一日の時間帯</b>で分かれています。「会うとき／別れるとき」の区別ではありません。午後に Selamat pagi と言うと不自然です。目安は 11 時、3 時、日暮れです。",
-       "en": "The four <s>Selamat …</s> greetings split the <b>day into parts</b>; they are not a meeting/parting distinction. Saying Selamat pagi in the afternoon sounds odd. The rough boundaries are 11am, 3pm and nightfall."
+       "en": "The four <s>Selamat …</s> greetings split the <b>day into parts</b>; they are not a meeting/parting distinction. Saying Selamat pagi in the afternoon sounds odd. The rough boundaries are 11am, 3pm and nightfall.",
+       "vi": "Bốn câu <s>Selamat …</s> chia theo <b>thời điểm trong ngày</b>, không phải theo “lúc gặp / lúc chia tay”. Đến chiều rồi mà còn nói Selamat pagi thì rất lạ. Ranh giới đại khái là: 11 giờ, 3 giờ và lúc trời tối."
       }
      },
      {
       "text": {
        "zh": "<s>Selamat malam</s> 只是「晚上好」。睡前说的「晚安」是 <s>Selamat tidur</s>（tidur = 睡）。",
        "ja": "<s>Selamat malam</s> は「こんばんは」だけです。寝る前の「おやすみ」は <s>Selamat tidur</s>（tidur ＝ 寝る）です。",
-       "en": "<s>Selamat malam</s> only means «good evening». «Good night», said before sleeping, is <s>Selamat tidur</s> (tidur = to sleep)."
+       "en": "<s>Selamat malam</s> only means «good evening». «Good night», said before sleeping, is <s>Selamat tidur</s> (tidur = to sleep).",
+       "vi": "<s>Selamat malam</s> chỉ có nghĩa “chào buổi tối”. Câu “chúc ngủ ngon” nói trước khi đi ngủ là <s>Selamat tidur</s> (tidur = ngủ)."
       }
      }
     ]
@@ -1741,7 +1900,8 @@
     "gloss": {
      "zh": "称呼",
      "ja": "呼びかけ",
-     "en": "forms of address"
+     "en": "forms of address",
+     "vi": "cách xưng hô"
     }
    },
    {
@@ -1753,7 +1913,8 @@
       "gloss": {
        "zh": "先生（对年长男性，最正式）",
        "ja": "〜さん（年上の男性へ、いちばん丁寧）",
-       "en": "Sir / Mr (older man, most formal)"
+       "en": "Sir / Mr (older man, most formal)",
+       "vi": "ông (nam lớn tuổi, trang trọng nhất)"
       }
      },
      {
@@ -1762,7 +1923,8 @@
       "gloss": {
        "zh": "Bapak 的短形式，日常最常用",
        "ja": "Bapak の短い形。日常でいちばんよく使う",
-       "en": "short form of Bapak, the everyday one"
+       "en": "short form of Bapak, the everyday one",
+       "vi": "dạng ngắn của Bapak, thường dùng nhất"
       }
      },
      {
@@ -1771,7 +1933,8 @@
       "gloss": {
        "zh": "女士（对年长女性，最正式）",
        "ja": "〜さん（年上の女性へ、いちばん丁寧）",
-       "en": "Madam / Mrs (older woman, most formal)"
+       "en": "Madam / Mrs (older woman, most formal)",
+       "vi": "bà (nữ lớn tuổi, trang trọng nhất)"
       }
      },
      {
@@ -1780,7 +1943,8 @@
       "gloss": {
        "zh": "Ibu 的短形式",
        "ja": "Ibu の短い形",
-       "en": "short form of Ibu"
+       "en": "short form of Ibu",
+       "vi": "dạng ngắn của Ibu"
       }
      },
      {
@@ -1789,7 +1953,8 @@
       "gloss": {
        "zh": "阁下（正式、书面，对同辈）",
        "ja": "〜氏（フォーマル・文語、同年代へ）",
-       "en": "you / sir (formal, written, to a peer)"
+       "en": "you / sir (formal, written, to a peer)",
+       "vi": "quý vị (trang trọng, văn viết, với người ngang hàng)"
       }
      },
      {
@@ -1798,7 +1963,8 @@
       "gloss": {
        "zh": "哥（对同辈或稍长男性，爪哇话）",
        "ja": "〜さん（同年代か少し年上の男性、ジャワ語）",
-       "en": "elder brother (peer or slightly older man, Javanese)"
+       "en": "elder brother (peer or slightly older man, Javanese)",
+       "vi": "anh (nam ngang tuổi hoặc hơn chút, tiếng Java)"
       }
      },
      {
@@ -1807,7 +1973,8 @@
       "gloss": {
        "zh": "姐（对同辈或稍长女性，爪哇话）",
        "ja": "〜さん（同年代か少し年上の女性、ジャワ語）",
-       "en": "elder sister (peer or slightly older woman, Javanese)"
+       "en": "elder sister (peer or slightly older woman, Javanese)",
+       "vi": "chị (nữ ngang tuổi hoặc hơn chút, tiếng Java)"
       }
      },
      {
@@ -1816,7 +1983,8 @@
       "gloss": {
        "zh": "弟／妹（对比自己小的人）",
        "ja": "〜くん・〜ちゃん（年下の人へ）",
-       "en": "younger sibling (to someone younger)"
+       "en": "younger sibling (to someone younger)",
+       "vi": "em (với người ít tuổi hơn mình)"
       }
      }
     ]
@@ -1827,14 +1995,16 @@
     "tag": {
      "zh": "在日惹怎么用",
      "ja": "ジョグジャカルタでの使い分け",
-     "en": "How this works in Yogyakarta"
+     "en": "How this works in Yogyakarta",
+     "vi": "Ở Yogyakarta dùng thế nào"
     },
     "lines": [
      {
       "text": {
        "zh": "对老师、店主、司机、比自己明显年长的人 → <s>Pak</s>／<s>Bu</s>。对同学、咖啡店店员、网约车司机（年纪相仿）→ <s>Mas</s>／<s>Mbak</s>。拿不准就用 Pak／Bu，往上抬一档一般不会失礼，往下就容易失礼。",
        "ja": "先生・お店の人・運転手・明らかに年上の人には <s>Pak</s>／<s>Bu</s>。同級生・カフェの店員・同年代の配車ドライバーには <s>Mas</s>／<s>Mbak</s>。迷ったら Pak／Bu を使いましょう。一段上に見るのは失礼になりませんが、下に見ると失礼になります。",
-       "en": "For teachers, shopkeepers, drivers and anyone clearly older than you → <s>Pak</s>/<s>Bu</s>. For classmates, café staff and ride-hailing drivers of about your own age → <s>Mas</s>/<s>Mbak</s>. When in doubt use Pak/Bu: erring upwards is rarely a problem, erring downwards can be."
+       "en": "For teachers, shopkeepers, drivers and anyone clearly older than you → <s>Pak</s>/<s>Bu</s>. For classmates, café staff and ride-hailing drivers of about your own age → <s>Mas</s>/<s>Mbak</s>. When in doubt use Pak/Bu: erring upwards is rarely a problem, erring downwards can be.",
+       "vi": "Với giáo viên, chủ tiệm, tài xế và người rõ ràng lớn tuổi hơn bạn → <s>Pak</s>/<s>Bu</s>. Với bạn cùng lớp, nhân viên quán cà phê, tài xế xe công nghệ trạc tuổi bạn → <s>Mas</s>/<s>Mbak</s>. Không chắc thì cứ dùng Pak/Bu: gọi cao lên một bậc thường không sao, gọi thấp xuống thì dễ thất lễ."
       }
      }
     ]
@@ -1847,7 +2017,8 @@
     "gloss": {
      "zh": "自我介绍",
      "ja": "自己紹介",
-     "en": "introducing yourself"
+     "en": "introducing yourself",
+     "vi": "tự giới thiệu"
     }
    },
    {
@@ -1865,7 +2036,8 @@
       "gloss": {
        "zh": "我叫 Ziah。",
        "ja": "わたしの名前は Ziah です。",
-       "en": "My name is Ziah."
+       "en": "My name is Ziah.",
+       "vi": "Tôi tên là Ziah."
       }
      },
      {
@@ -1879,7 +2051,8 @@
       "gloss": {
        "zh": "我从韩国来。",
        "ja": "韓国から来ました。",
-       "en": "I'm from Korea."
+       "en": "I'm from Korea.",
+       "vi": "Tôi đến từ Hàn Quốc."
       }
      },
      {
@@ -1893,7 +2066,8 @@
       "gloss": {
        "zh": "我是 UGM 的学生。",
        "ja": "わたしは UGM の学生です。",
-       "en": "I'm a UGM student."
+       "en": "I'm a UGM student.",
+       "vi": "Tôi là sinh viên UGM."
       }
      },
      {
@@ -1908,7 +2082,8 @@
       "gloss": {
        "zh": "我住在 Kaliurang 路。",
        "ja": "カリウラン通りに住んでいます。",
-       "en": "I live on Jalan Kaliurang."
+       "en": "I live on Jalan Kaliurang.",
+       "vi": "Tôi sống ở đường Kaliurang."
       }
      }
     ]
@@ -1921,7 +2096,8 @@
     "gloss": {
      "zh": "初次见面",
      "ja": "初対面",
-     "en": "meeting someone"
+     "en": "meeting someone",
+     "vi": "lần đầu gặp mặt"
     }
    },
    {
@@ -1939,7 +2115,8 @@
       "gloss": {
        "zh": "很高兴见到您。",
        "ja": "お会いできてうれしいです。",
-       "en": "Pleased to meet you."
+       "en": "Pleased to meet you.",
+       "vi": "Rất vui được gặp bạn."
       }
      },
      {
@@ -1949,7 +2126,8 @@
       "gloss": {
        "zh": "欢迎。",
        "ja": "ようこそ。",
-       "en": "Welcome."
+       "en": "Welcome.",
+       "vi": "Chào mừng bạn."
       },
       "alt_gloss": null,
       "kw": [
@@ -1966,7 +2144,8 @@
     "gloss": {
      "zh": "告别",
      "ja": "別れのあいさつ",
-     "en": "parting"
+     "en": "parting",
+     "vi": "chia tay"
     }
    },
    {
@@ -1979,7 +2158,8 @@
       "gloss": {
        "zh": "回头见！",
        "ja": "またね！",
-       "en": "See you!"
+       "en": "See you!",
+       "vi": "Hẹn gặp lại!"
       },
       "alt_gloss": null,
       "kw": [
@@ -1994,7 +2174,8 @@
       "gloss": {
        "zh": "再见！（下次再会）",
        "ja": "また会いましょう！",
-       "en": "See you again!"
+       "en": "See you again!",
+       "vi": "Hẹn gặp lại lần sau!"
       },
       "alt_gloss": null,
       "kw": [
@@ -2008,7 +2189,8 @@
       "gloss": {
        "zh": "待会儿见！（同一天之内）",
        "ja": "また後で！（同じ日のうちに）",
-       "en": "See you later! (same day)"
+       "en": "See you later! (same day)",
+       "vi": "Lát nữa gặp lại! (trong cùng một ngày)"
       },
       "alt_gloss": null,
       "kw": [
@@ -2022,7 +2204,8 @@
       "gloss": {
        "zh": "路上小心！（送人走的时候说）",
        "ja": "道中、気をつけて！（見送るときに言う）",
-       "en": "Take care on the way! (said to someone leaving)"
+       "en": "Take care on the way! (said to someone leaving)",
+       "vi": "Đi đường cẩn thận nhé! (nói khi tiễn ai đó)"
       },
       "alt_gloss": null,
       "kw": [
@@ -2037,7 +2220,8 @@
       "gloss": {
        "zh": "谢谢。",
        "ja": "ありがとうございます。",
-       "en": "Thank you."
+       "en": "Thank you.",
+       "vi": "Cảm ơn."
       },
       "alt_gloss": null,
       "kw": [
@@ -2052,7 +2236,8 @@
       "gloss": {
        "zh": "不客气。",
        "ja": "どういたしまして。",
-       "en": "You're welcome."
+       "en": "You're welcome.",
+       "vi": "Không có gì."
       },
       "alt_gloss": null,
       "kw": [
@@ -2069,7 +2254,8 @@
     "sub": {
      "zh": "打招呼 · 问好",
      "ja": "あいさつ · ごきげんうかがい",
-     "en": "Greetings and how you are"
+     "en": "Greetings and how you are",
+     "vi": "Chào hỏi · hỏi thăm"
     }
    },
    {
@@ -2077,7 +2263,8 @@
     "text": {
      "zh": "见面第一句是 <b>Selamat …</b>，第二句几乎一定是 <b>Apa kabar?</b>。完整的问候和告别前一页已经列过，这里练的是<b>怎么答</b>，以及自我介绍的三句开场白。",
      "ja": "会ってまず言うのが <b>Selamat …</b>、そのつぎはたいてい <b>Apa kabar?</b> です。あいさつと別れの表現は前のページにまとめてあります。ここで練習するのは<b>答え方</b>と、自己紹介の切り出し三文です。",
-     "en": "The first thing you say is <b>Selamat …</b>; the second is almost always <b>Apa kabar?</b>. The previous page has the full list of greetings and farewells — here we practise <b>how to answer</b>, plus the three opening lines of a self-introduction."
+     "en": "The first thing you say is <b>Selamat …</b>; the second is almost always <b>Apa kabar?</b>. The previous page has the full list of greetings and farewells — here we practise <b>how to answer</b>, plus the three opening lines of a self-introduction.",
+     "vi": "Câu đầu tiên khi gặp nhau là <b>Selamat …</b>, câu thứ hai gần như chắc chắn là <b>Apa kabar?</b>. Trang trước đã liệt kê đầy đủ lời chào và lời tạm biệt; ở đây ta luyện <b>cách trả lời</b>, cùng ba câu mở đầu khi tự giới thiệu."
     }
    },
    {
@@ -2088,7 +2275,8 @@
     "gloss": {
      "zh": "你好吗？（字面是「什么消息」）",
      "ja": "お元気ですか（直訳は「どんな知らせ」）",
-     "en": "How are you? (literally “what news?”)"
+     "en": "How are you? (literally “what news?”)",
+     "vi": "Bạn khỏe không? (nghĩa đen là “tin tức thế nào”)"
     }
    },
    {
@@ -2096,7 +2284,8 @@
     "title": {
      "zh": "问",
      "ja": "たずねる",
-     "en": "Asking"
+     "en": "Asking",
+     "vi": "Hỏi"
     },
     "items": [
      {
@@ -2106,7 +2295,8 @@
       "gloss": {
        "zh": "你好吗？",
        "ja": "お元気ですか。",
-       "en": "How are you?"
+       "en": "How are you?",
+       "vi": "Bạn khỏe không?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2120,7 +2310,8 @@
       "gloss": {
        "zh": "您近来好吗？",
        "ja": "お変わりありませんか。",
-       "en": "How have you been?"
+       "en": "How have you been?",
+       "vi": "Dạo này bạn thế nào?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2134,12 +2325,14 @@
       "gloss": {
        "zh": "你怎么样？",
        "ja": "調子どう？",
-       "en": "How's it going?"
+       "en": "How's it going?",
+       "vi": "Dạo này bạn sao rồi?"
       },
       "alt_gloss": {
        "zh": "您怎么样？",
        "ja": "いかがお過ごしですか。",
-       "en": "How are things?"
+       "en": "How are things?",
+       "vi": "Bạn thế nào?"
       },
       "kw": [
        "gimana"
@@ -2152,7 +2345,8 @@
     "title": {
      "zh": "答",
      "ja": "答える",
-     "en": "Answering"
+     "en": "Answering",
+     "vi": "Trả lời"
     },
     "items": [
      {
@@ -2162,7 +2356,8 @@
       "gloss": {
        "zh": "很好，谢谢。",
        "ja": "元気です、ありがとうございます。",
-       "en": "Fine, thank you."
+       "en": "Fine, thank you.",
+       "vi": "Khỏe, cảm ơn bạn."
       },
       "alt_gloss": null,
       "kw": [
@@ -2176,7 +2371,8 @@
       "gloss": {
        "zh": "挺好的。",
        "ja": "まあまあ元気です。",
-       "en": "Doing all right."
+       "en": "Doing all right.",
+       "vi": "Vẫn ổn cả."
       },
       "alt_gloss": null,
       "kw": [
@@ -2190,7 +2386,8 @@
       "gloss": {
        "zh": "还行。",
        "ja": "まずまずです。",
-       "en": "Not bad."
+       "en": "Not bad.",
+       "vi": "Cũng tạm."
       },
       "alt_gloss": null,
       "kw": [
@@ -2204,7 +2401,8 @@
       "gloss": {
        "zh": "我不太舒服。",
        "ja": "少し体調がよくありません。",
-       "en": "I'm not feeling well."
+       "en": "I'm not feeling well.",
+       "vi": "Tôi thấy không được khỏe."
       },
       "alt_gloss": null,
       "kw": [
@@ -2219,7 +2417,8 @@
       "gloss": {
        "zh": "我有点累。",
        "ja": "少し疲れています。",
-       "en": "I'm a bit tired."
+       "en": "I'm a bit tired.",
+       "vi": "Tôi hơi mệt."
       },
       "alt_gloss": null,
       "kw": [
@@ -2233,7 +2432,8 @@
       "gloss": {
        "zh": "您呢？",
        "ja": "あなたは？",
-       "en": "And you?"
+       "en": "And you?",
+       "vi": "Còn bạn?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2247,28 +2447,32 @@
     "tag": {
      "zh": "地道说法",
      "ja": "自然な言い方",
-     "en": "Saying it like a local"
+     "en": "Saying it like a local",
+     "vi": "Nói cho tự nhiên"
     },
     "lines": [
      {
       "text": {
        "zh": "讲义写的 <s>Saya baik</s> 语法没错，但印尼人一般不带主语，直接说 <s>Baik</s> 或 <s>Baik-baik saja</s>。",
        "ja": "プリントの <s>Saya baik</s> は文法的に正しいのですが、実際には主語を言わず <s>Baik</s>／<s>Baik-baik saja</s> だけで答えるのがふつうです。",
-       "en": "The handout's <s>Saya baik</s> is grammatical, but people normally drop the subject and just say <s>Baik</s> or <s>Baik-baik saja</s>."
+       "en": "The handout's <s>Saya baik</s> is grammatical, but people normally drop the subject and just say <s>Baik</s> or <s>Baik-baik saja</s>.",
+       "vi": "Câu <s>Saya baik</s> trong tài liệu không sai ngữ pháp, nhưng người Indonesia thường bỏ chủ ngữ, chỉ nói <s>Baik</s> hoặc <s>Baik-baik saja</s>."
       }
      },
      {
       "text": {
        "zh": "答完顺手反问一句 <s>Anda sendiri?</s>（对同学说 <s>Kamu gimana?</s>），对话才接得下去。",
        "ja": "答えたら <s>Anda sendiri?</s>（友だちには <s>Kamu gimana?</s>）と聞き返すと会話が続きます。",
-       "en": "Follow your answer with <s>Anda sendiri?</s> (or <s>Kamu gimana?</s> among classmates) and the conversation keeps going."
+       "en": "Follow your answer with <s>Anda sendiri?</s> (or <s>Kamu gimana?</s> among classmates) and the conversation keeps going.",
+       "vi": "Trả lời xong thì hỏi lại một câu <s>Anda sendiri?</s> (với bạn cùng lớp thì <s>Kamu gimana?</s>), cuộc trò chuyện mới đi tiếp được."
       }
      },
      {
       "text": {
        "zh": "<s>kurang</s> 是「不太⋯」的委婉说法：<s>kurang sehat</s> 比直接说 <s>sakit</s>（病了）客气得多。",
        "ja": "<s>kurang</s> は「あまり〜でない」とやわらげる語。<s>kurang sehat</s> は <s>sakit</s>（病気だ）より控えめな言い方です。",
-       "en": "<s>kurang</s> softens things to “not quite”: <s>kurang sehat</s> is far gentler than saying <s>sakit</s> (ill)."
+       "en": "<s>kurang</s> softens things to “not quite”: <s>kurang sehat</s> is far gentler than saying <s>sakit</s> (ill).",
+       "vi": "<s>kurang</s> là cách nói giảm “không … lắm”: <s>kurang sehat</s> nhẹ nhàng hơn hẳn so với nói thẳng <s>sakit</s> (ốm)."
       }
      }
     ]
@@ -2281,7 +2485,8 @@
     "gloss": {
      "zh": "（开场白）容我介绍一下",
      "ja": "（切り出し）ご紹介します",
-     "en": "(opening line) let me introduce…"
+     "en": "(opening line) let me introduce…",
+     "vi": "(câu mở đầu) xin cho tôi giới thiệu"
     }
    },
    {
@@ -2294,7 +2499,8 @@
       "gloss": {
        "zh": "容我介绍一下，我叫 Novi Wulandari。",
        "ja": "ご紹介します。わたしの名前は Novi Wulandari です。",
-       "en": "Let me introduce myself — my name is Novi Wulandari."
+       "en": "Let me introduce myself — my name is Novi Wulandari.",
+       "vi": "Xin cho tôi giới thiệu, tôi tên là Novi Wulandari."
       },
       "alt_gloss": null,
       "kw": [
@@ -2308,7 +2514,8 @@
       "gloss": {
        "zh": "叫我 Mbak Novi 就行。",
        "ja": "Mbak Novi と呼んでください。",
-       "en": "Please call me Mbak Novi."
+       "en": "Please call me Mbak Novi.",
+       "vi": "Cứ gọi tôi là Mbak Novi."
       },
       "alt_gloss": null,
       "kw": [
@@ -2322,7 +2529,8 @@
       "gloss": {
        "zh": "很高兴见到各位。",
        "ja": "みなさんにお会いできてうれしいです。",
-       "en": "Pleased to meet you all."
+       "en": "Pleased to meet you all.",
+       "vi": "Rất vui được gặp tất cả các bạn."
       },
       "alt_gloss": null,
       "kw": [
@@ -2336,7 +2544,8 @@
       "gloss": {
        "zh": "您叫什么名字？",
        "ja": "お名前は何ですか。",
-       "en": "What is your name?"
+       "en": "What is your name?",
+       "vi": "Bạn tên là gì?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2350,7 +2559,8 @@
       "gloss": {
        "zh": "我叫 Ilfat。",
        "ja": "わたしの名前は Ilfat です。",
-       "en": "My name is Ilfat."
+       "en": "My name is Ilfat.",
+       "vi": "Tôi tên là Ilfat."
       },
       "alt_gloss": null,
       "kw": [
@@ -2364,28 +2574,32 @@
     "tag": {
      "zh": "两个近义词",
      "ja": "似ている二語",
-     "en": "Two near-twins"
+     "en": "Two near-twins",
+     "vi": "Hai từ gần giống nhau"
     },
     "lines": [
      {
       "text": {
        "zh": "前面学过 <s>Kenalkan</s>，这里的 <s>Perkenalkan</s> 是同一个词的完整形式，正式场合更常用；两个都对。",
        "ja": "すでに出てきた <s>Kenalkan</s> と、ここの <s>Perkenalkan</s> は同じ語の短い形と完全な形です。あらたまった場では後者をよく使います。どちらも正しい言い方です。",
-       "en": "You have already met <s>Kenalkan</s>; <s>Perkenalkan</s> here is the full form of the same word and is the more formal of the two. Both are correct."
+       "en": "You have already met <s>Kenalkan</s>; <s>Perkenalkan</s> here is the full form of the same word and is the more formal of the two. Both are correct.",
+       "vi": "Trước đây bạn đã gặp <s>Kenalkan</s>; <s>Perkenalkan</s> ở đây là dạng đầy đủ của cùng một từ, hay dùng hơn trong tình huống trang trọng. Cả hai đều đúng."
       }
      },
      {
       "text": {
        "zh": "<s>Panggil saya</s> 后面接小名 —— 印尼人正式名字往往很长，日常都用小名。老师全名是 Novi Wulandari，课上叫她 <s>Mbak Novi</s>。",
        "ja": "<s>Panggil saya</s> のあとには通称を入れます。インドネシア人の正式な名前は長いことが多く、ふだんは通称で呼び合います。先生の正式名は Novi Wulandari、教室では <s>Mbak Novi</s> です。",
-       "en": "<s>Panggil saya</s> is followed by your short name. Indonesian full names are often long, so everyday address uses the short one: our teacher is Novi Wulandari, and in class she is <s>Mbak Novi</s>."
+       "en": "<s>Panggil saya</s> is followed by your short name. Indonesian full names are often long, so everyday address uses the short one: our teacher is Novi Wulandari, and in class she is <s>Mbak Novi</s>.",
+       "vi": "Sau <s>Panggil saya</s> là tên gọi thân mật — tên đầy đủ của người Indonesia thường rất dài, hằng ngày ai cũng dùng tên ngắn. Cô giáo có tên đầy đủ là Novi Wulandari, trên lớp mọi người gọi cô là <s>Mbak Novi</s>."
       }
      },
      {
       "text": {
        "zh": "<s>Mbak</s> 是爪哇话里对年轻女性的称呼，男性对应 <s>Mas</s>。前一页的称呼表可以回去看一眼。",
        "ja": "<s>Mbak</s> はジャワ語由来の若い女性への呼びかけ、男性は <s>Mas</s>。前のページの呼称の表も見直しておきましょう。",
-       "en": "<s>Mbak</s> is the Javanese form of address for a younger woman; <s>Mas</s> is its male counterpart. The table of address terms on the previous page is worth another look."
+       "en": "<s>Mbak</s> is the Javanese form of address for a younger woman; <s>Mas</s> is its male counterpart. The table of address terms on the previous page is worth another look.",
+       "vi": "<s>Mbak</s> là cách gọi phụ nữ trẻ trong tiếng Java, tương ứng với nam là <s>Mas</s>. Bạn có thể xem lại bảng xưng hô ở trang trước."
       }
      }
     ]
@@ -2398,7 +2612,8 @@
     "sub": {
      "zh": "疑问词",
      "ja": "疑問詞",
-     "en": "Question words"
+     "en": "Question words",
+     "vi": "Từ để hỏi"
     }
    },
    {
@@ -2406,7 +2621,8 @@
     "text": {
      "zh": "这一课的五个疑问词。印尼语的疑问词可以放句首也可以放句尾，意思一样，句尾更口语一点。",
      "ja": "この課で扱う疑問詞は五つ。インドネシア語の疑問詞は文頭にも文末にも置けます。意味は変わらず、文末のほうが少しくだけた感じになります。",
-     "en": "Five question words in this chapter. In Indonesian a question word can sit at the front or at the end of the sentence; the meaning is the same, and the end position sounds a little more conversational."
+     "en": "Five question words in this chapter. In Indonesian a question word can sit at the front or at the end of the sentence; the meaning is the same, and the end position sounds a little more conversational.",
+     "vi": "Bài này có năm từ để hỏi. Trong tiếng Indonesia, từ để hỏi đặt ở đầu câu hay cuối câu đều được, nghĩa như nhau; đặt ở cuối nghe văn nói hơn một chút."
     }
    },
    {
@@ -2417,7 +2633,8 @@
     "gloss": {
      "zh": "谁 · 什么（名字）",
      "ja": "だれ · 何（名前）",
-     "en": "who · what (for names)"
+     "en": "who · what (for names)",
+     "vi": "ai · gì (khi hỏi tên)"
     }
    },
    {
@@ -2430,7 +2647,8 @@
       "gloss": {
        "zh": "您叫什么名字？",
        "ja": "お名前は何ですか。",
-       "en": "What is your name?"
+       "en": "What is your name?",
+       "vi": "Bạn tên là gì?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2445,7 +2663,8 @@
       "gloss": {
        "zh": "那是谁？",
        "ja": "あの人はだれですか。",
-       "en": "Who is that?"
+       "en": "Who is that?",
+       "vi": "Kia là ai?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2460,7 +2679,8 @@
       "gloss": {
        "zh": "那是谁？（同上，疑问词在前）",
        "ja": "あの人はだれですか。（同じ意味、疑問詞が前）",
-       "en": "Who is that? (same, question word first)"
+       "en": "Who is that? (same, question word first)",
+       "vi": "Kia là ai? (như trên, từ để hỏi đứng trước)"
       },
       "alt_gloss": null,
       "kw": [
@@ -2475,7 +2695,8 @@
       "gloss": {
        "zh": "那是 Zach。",
        "ja": "あの人は Zach です。",
-       "en": "That's Zach."
+       "en": "That's Zach.",
+       "vi": "Kia là Zach."
       },
       "alt_gloss": null,
       "kw": [
@@ -2490,14 +2711,16 @@
     "tag": {
      "zh": "容易踩的坑",
      "ja": "つまずきやすいところ",
-     "en": "Easy to get wrong"
+     "en": "Easy to get wrong",
+     "vi": "Chỗ dễ nhầm"
     },
     "lines": [
      {
       "text": {
        "zh": "问名字用 <s>siapa</s>（谁），不用 <s>apa</s>（什么）。「Apa nama Anda?」在印尼语里是问「你这个东西叫什么」，用来问人会很怪。名字属于人，所以是 siapa。",
        "ja": "名前を尋ねるときは <s>siapa</s>（だれ）を使い、<s>apa</s>（何）は使いません。「Apa nama Anda?」はモノの名前を尋ねる言い方で、人に対して使うと不自然です。名前は人に属するものなので siapa になります。",
-       "en": "Ask for a name with <s>siapa</s> (who), not <s>apa</s> (what). «Apa nama Anda?» asks what a thing is called and sounds strange applied to a person. A name belongs to a person, so it takes siapa."
+       "en": "Ask for a name with <s>siapa</s> (who), not <s>apa</s> (what). «Apa nama Anda?» asks what a thing is called and sounds strange applied to a person. A name belongs to a person, so it takes siapa.",
+       "vi": "Hỏi tên thì dùng <s>siapa</s> (ai), không dùng <s>apa</s> (gì). “Apa nama Anda?” trong tiếng Indonesia là hỏi tên của một đồ vật, dùng cho người sẽ rất lạ tai. Tên là của con người, nên phải dùng siapa."
       }
      }
     ]
@@ -2510,7 +2733,8 @@
     "gloss": {
      "zh": "什么",
      "ja": "何",
-     "en": "what"
+     "en": "what",
+     "vi": "gì"
     }
    },
    {
@@ -2523,7 +2747,8 @@
       "gloss": {
        "zh": "这是什么？",
        "ja": "これは何ですか。",
-       "en": "What is this?"
+       "en": "What is this?",
+       "vi": "Đây là cái gì?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2538,7 +2763,8 @@
       "gloss": {
        "zh": "您学什么？",
        "ja": "何を勉強していますか。",
-       "en": "What are you studying?"
+       "en": "What are you studying?",
+       "vi": "Bạn học gì?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2553,7 +2779,8 @@
       "gloss": {
        "zh": "我学印尼语。",
        "ja": "インドネシア語を勉強しています。",
-       "en": "I study Indonesian."
+       "en": "I study Indonesian.",
+       "vi": "Tôi học tiếng Indonesia."
       },
       "alt_gloss": null,
       "kw": [
@@ -2571,7 +2798,8 @@
     "gloss": {
      "zh": "从哪里（来）",
      "ja": "どこから",
-     "en": "where from"
+     "en": "where from",
+     "vi": "từ đâu (đến)"
     }
    },
    {
@@ -2584,7 +2812,8 @@
       "gloss": {
        "zh": "您从哪儿来？",
        "ja": "どちらのご出身ですか。",
-       "en": "Where are you from?"
+       "en": "Where are you from?",
+       "vi": "Bạn đến từ đâu?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2599,7 +2828,8 @@
       "gloss": {
        "zh": "Sanggi 从哪儿来？",
        "ja": "Sanggi さんはどこから来ましたか。",
-       "en": "Where is Sanggi from?"
+       "en": "Where is Sanggi from?",
+       "vi": "Sanggi đến từ đâu?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2614,7 +2844,8 @@
       "gloss": {
        "zh": "Sanggi 从韩国来。",
        "ja": "Sanggi さんは韓国から来ました。",
-       "en": "Sanggi is from Korea."
+       "en": "Sanggi is from Korea.",
+       "vi": "Sanggi đến từ Hàn Quốc."
       },
       "alt_gloss": null,
       "kw": [
@@ -2631,7 +2862,8 @@
     "gloss": {
      "zh": "在哪里",
      "ja": "どこに",
-     "en": "where"
+     "en": "where",
+     "vi": "ở đâu"
     }
    },
    {
@@ -2644,7 +2876,8 @@
       "gloss": {
        "zh": "您住在哪儿？",
        "ja": "どこに住んでいますか。",
-       "en": "Where do you live?"
+       "en": "Where do you live?",
+       "vi": "Bạn sống ở đâu?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2660,7 +2893,8 @@
       "gloss": {
        "zh": "您住在哪儿？（同上，疑问词在前）",
        "ja": "どこに住んでいますか。（同じ意味、疑問詞が前）",
-       "en": "Where do you live? (same, question word first)"
+       "en": "Where do you live? (same, question word first)",
+       "vi": "Bạn sống ở đâu? (như trên, từ để hỏi đứng trước)"
       },
       "alt_gloss": null,
       "kw": [
@@ -2676,7 +2910,8 @@
       "gloss": {
        "zh": "我住在 Kaliurang 路。",
        "ja": "Kaliurang 通りに住んでいます。",
-       "en": "I live on Jalan Kaliurang."
+       "en": "I live on Jalan Kaliurang.",
+       "vi": "Tôi sống ở đường Kaliurang."
       },
       "alt_gloss": null,
       "kw": [
@@ -2692,14 +2927,16 @@
     "tag": {
      "zh": "容易踩的坑",
      "ja": "つまずきやすいところ",
-     "en": "Easy to get wrong"
+     "en": "Easy to get wrong",
+     "vi": "Chỗ dễ nhầm"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>di</s> 表示<b>在哪里</b>（位置），<s>dari</s> 表示<b>从哪里</b>（来源），<s>ke</s> 表示<b>去哪里</b>（方向）。三个只差一个词，问的却是完全不同的事：Saya tinggal <b>di</b> Jogja（我住在日惹）／ Saya <b>dari</b> {NEGARA}（我从{NAMA}来）／ Saya pergi <b>ke</b> pasar（我去市场）。",
        "ja": "<s>di</s> は<b>どこに</b>（位置）、<s>dari</s> は<b>どこから</b>（出どころ）、<s>ke</s> は<b>どこへ</b>（方向）です。一語違うだけで尋ねている内容がまったく変わります。Saya tinggal <b>di</b> Jogja（ジョグジャに住んでいます）／ Saya <b>dari</b> {NEGARA}（{NAMA}から来ました）／ Saya pergi <b>ke</b> pasar（市場へ行きます）。",
-       "en": "<s>di</s> marks <b>where something is</b>, <s>dari</s> marks <b>where it comes from</b>, and <s>ke</s> marks <b>where it is going</b>. One small word apart, three quite different questions: Saya tinggal <b>di</b> Jogja (I live in Jogja) / Saya <b>dari</b> {NEGARA} (I'm from {NAMA}) / Saya pergi <b>ke</b> pasar (I'm going to the market)."
+       "en": "<s>di</s> marks <b>where something is</b>, <s>dari</s> marks <b>where it comes from</b>, and <s>ke</s> marks <b>where it is going</b>. One small word apart, three quite different questions: Saya tinggal <b>di</b> Jogja (I live in Jogja) / Saya <b>dari</b> {NEGARA} (I'm from {NAMA}) / Saya pergi <b>ke</b> pasar (I'm going to the market).",
+       "vi": "<s>di</s> chỉ <b>ở đâu</b> (vị trí), <s>dari</s> chỉ <b>từ đâu</b> (nguồn gốc), <s>ke</s> chỉ <b>đi đâu</b> (hướng). Chỉ khác nhau một từ nhỏ mà hỏi ba chuyện hoàn toàn khác: Saya tinggal <b>di</b> Jogja (tôi sống ở Jogja) / Saya <b>dari</b> {NEGARA} (tôi đến từ {NAMA}) / Saya pergi <b>ke</b> pasar (tôi đi chợ)."
       }
      }
     ]
@@ -2712,7 +2949,8 @@
     "gloss": {
      "zh": "是不是 · 吗（是非问句）",
      "ja": "〜ですか（はい／いいえで答える質問）",
-     "en": "yes/no question marker"
+     "en": "yes/no question marker",
+     "vi": "có phải … không (câu hỏi có/không)"
     }
    },
    {
@@ -2725,7 +2963,8 @@
       "gloss": {
        "zh": "Ziah 是大学生吗？",
        "ja": "Ziah さんは大学生ですか。",
-       "en": "Is Ziah a student?"
+       "en": "Is Ziah a student?",
+       "vi": "Ziah là sinh viên phải không?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2740,7 +2979,8 @@
       "gloss": {
        "zh": "是。Ziah 是大学生。",
        "ja": "はい。Ziah さんは大学生です。",
-       "en": "Yes. Ziah is a student."
+       "en": "Yes. Ziah is a student.",
+       "vi": "Đúng vậy. Ziah là sinh viên."
       },
       "alt_gloss": null,
       "kw": [
@@ -2754,7 +2994,8 @@
       "gloss": {
        "zh": "您是印尼人吗？",
        "ja": "インドネシアの方ですか。",
-       "en": "Are you Indonesian?"
+       "en": "Are you Indonesian?",
+       "vi": "Bạn là người Indonesia phải không?"
       },
       "alt_gloss": null,
       "kw": [
@@ -2769,7 +3010,8 @@
       "gloss": {
        "zh": "不是，我是{PEOPLE}。",
        "ja": "いいえ、わたしは{PEOPLE}です。",
-       "en": "No, I'm {PEOPLE}."
+       "en": "No, I'm {PEOPLE}.",
+       "vi": "Không, tôi là {PEOPLE}."
       },
       "alt_gloss": null,
       "kw": [
@@ -2785,21 +3027,24 @@
     "tag": {
      "zh": "容易踩的坑",
      "ja": "つまずきやすいところ",
-     "en": "Easy to get wrong"
+     "en": "Easy to get wrong",
+     "vi": "Chỗ dễ nhầm"
     },
     "lines": [
      {
       "text": {
        "zh": "否定「不是」用 <s>bukan</s>（否定名词），不是 <s>tidak</s>。<s>tidak</s> 否定的是动词和形容词：Saya <b>bukan</b> guru（我不是老师）／ Saya <b>tidak</b> tahu（我不知道）。这一条这一课还没讲，但只要回答 Apakah… 的问句就会立刻用到。",
        "ja": "「〜ではない」と名詞を否定するときは <s>bukan</s> を使い、<s>tidak</s> は使いません。<s>tidak</s> が否定するのは動詞と形容詞です。Saya <b>bukan</b> guru（わたしは先生ではありません）／ Saya <b>tidak</b> tahu（知りません）。この課ではまだ説明されていませんが、Apakah… の質問に答えるとすぐ必要になります。",
-       "en": "To say «is not» about a noun, use <s>bukan</s>, not <s>tidak</s>. <s>tidak</s> negates verbs and adjectives: Saya <b>bukan</b> guru (I'm not a teacher) / Saya <b>tidak</b> tahu (I don't know). The book hasn't covered this yet, but you need it the moment you answer an Apakah… question."
+       "en": "To say «is not» about a noun, use <s>bukan</s>, not <s>tidak</s>. <s>tidak</s> negates verbs and adjectives: Saya <b>bukan</b> guru (I'm not a teacher) / Saya <b>tidak</b> tahu (I don't know). The book hasn't covered this yet, but you need it the moment you answer an Apakah… question.",
+       "vi": "Để phủ định một danh từ (“không phải là”), dùng <s>bukan</s> chứ không dùng <s>tidak</s>. <s>tidak</s> chỉ phủ định động từ và tính từ: Saya <b>bukan</b> guru (tôi không phải giáo viên) / Saya <b>tidak</b> tahu (tôi không biết). Bài này chưa dạy điểm đó, nhưng hễ trả lời câu hỏi Apakah… là bạn cần đến ngay."
       }
      },
      {
       "text": {
        "zh": "<s>apakah</s> 是正式体。口语里直接把陈述句读成升调就是问句了：<s>Anda orang Indonesia?</s> 课本练习和书面作业用的是 apakah 这种写法。",
        "ja": "<s>apakah</s> はフォーマルな言い方です。話しことばでは平叙文を上げ調子で言うだけで質問になります：<s>Anda orang Indonesia?</s> 教科書の練習や書きことばでは apakah のほうが使われます。",
-       "en": "<s>apakah</s> belongs to the formal register. In speech, a statement said with rising intonation is already a question: <s>Anda orang Indonesia?</s> The book's exercises and written Indonesian use apakah."
+       "en": "<s>apakah</s> belongs to the formal register. In speech, a statement said with rising intonation is already a question: <s>Anda orang Indonesia?</s> The book's exercises and written Indonesian use apakah.",
+       "vi": "<s>apakah</s> thuộc văn trang trọng. Trong văn nói, chỉ cần đọc một câu khẳng định với ngữ điệu lên là đã thành câu hỏi: <s>Anda orang Indonesia?</s> Bài tập trong sách và bài viết thì dùng cách viết có apakah."
       }
      }
     ]
@@ -2812,7 +3057,8 @@
     "sub": {
      "zh": "语法 · 人称代词",
      "ja": "文法 · 人称代名詞",
-     "en": "Grammar · pronouns"
+     "en": "Grammar · pronouns",
+     "vi": "Ngữ pháp · đại từ nhân xưng"
     }
    },
    {
@@ -2821,17 +3067,20 @@
      {
       "zh": "人称",
       "ja": "人称",
-      "en": "Person"
+      "en": "Person",
+      "vi": "Ngôi"
      },
      {
       "zh": "单数",
       "ja": "単数",
-      "en": "Singular"
+      "en": "Singular",
+      "vi": "Số ít"
      },
      {
       "zh": "复数",
       "ja": "複数",
-      "en": "Plural"
+      "en": "Plural",
+      "vi": "Số nhiều"
      }
     ],
     "rows": [
@@ -2840,7 +3089,8 @@
        "text": {
         "zh": "第一人称",
         "ja": "一人称",
-        "en": "First person"
+        "en": "First person",
+        "vi": "Ngôi thứ nhất"
        }
       },
       {
@@ -2868,7 +3118,8 @@
        "text": {
         "zh": "第二人称",
         "ja": "二人称",
-        "en": "Second person"
+        "en": "Second person",
+        "vi": "Ngôi thứ hai"
        }
       },
       {
@@ -2896,7 +3147,8 @@
        "text": {
         "zh": "第三人称",
         "ja": "三人称",
-        "en": "Third person"
+        "en": "Third person",
+        "vi": "Ngôi thứ ba"
        }
       },
       {
@@ -2923,7 +3175,8 @@
     "note": {
      "zh": "教材还列了 <b>beliau</b>（第三人称的敬语，用于长辈、老师、地位高的人）和 <b>Saudara</b>（书面正式的「您」），以及三个带 <b>sekalian</b> 的强调复数：<b>kita sekalian</b>、<b>Saudara-saudara</b>／<b>Saudara sekalian</b>、<b>mereka sekalian</b>（都相当于「各位／全体」，正式场合才用）。课本没给 beliau 标语体，其实它比 dia 更敬。",
      "ja": "教科書にはほかに <b>beliau</b>（三人称の敬語。目上の人・先生などに使います）と <b>Saudara</b>（書きことばの「あなた」）、それに <b>sekalian</b> のついた強調の複数形 <b>kita sekalian</b>・<b>Saudara-saudara</b>／<b>Saudara sekalian</b>・<b>mereka sekalian</b>（いずれも「みなさん／全員」にあたり、あらたまった場面で使います）も挙げられています。教科書は beliau に語体の印をつけていませんが、実際には dia より敬意が高い語です。",
-     "en": "The book also lists <b>beliau</b> (the respectful third person, used for elders, teachers and people of standing) and <b>Saudara</b> (a formal written “you”), plus three emphatic plurals formed with <b>sekalian</b>: <b>kita sekalian</b>, <b>Saudara-saudara</b> / <b>Saudara sekalian</b> and <b>mereka sekalian</b> (all meaning roughly “all of you / everyone”, for formal occasions). The book gives beliau no register mark, though it is more deferential than dia."
+     "en": "The book also lists <b>beliau</b> (the respectful third person, used for elders, teachers and people of standing) and <b>Saudara</b> (a formal written “you”), plus three emphatic plurals formed with <b>sekalian</b>: <b>kita sekalian</b>, <b>Saudara-saudara</b> / <b>Saudara sekalian</b> and <b>mereka sekalian</b> (all meaning roughly “all of you / everyone”, for formal occasions). The book gives beliau no register mark, though it is more deferential than dia.",
+     "vi": "Giáo trình còn liệt kê <b>beliau</b> (ngôi thứ ba kính trọng, dùng cho người lớn tuổi, giáo viên, người có địa vị) và <b>Saudara</b> (“bạn” trang trọng trong văn viết), cùng ba dạng số nhiều nhấn mạnh có <b>sekalian</b>: <b>kita sekalian</b>, <b>Saudara-saudara</b>/<b>Saudara sekalian</b>, <b>mereka sekalian</b> (đều mang nghĩa “quý vị / tất cả mọi người”, chỉ dùng ở nơi trang trọng). Sách không ghi ngữ thể cho beliau, nhưng thực ra nó kính trọng hơn dia."
     }
    },
    {
@@ -2932,28 +3185,32 @@
     "tag": {
      "zh": "课本没讲，但用得上",
      "ja": "教科書にはないが、よく使うところ",
-     "en": "Not in the book, but worth knowing"
+     "en": "Not in the book, but worth knowing",
+     "vi": "Sách không dạy, nhưng rất cần"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>kami 和 kita 都是「我们」，但不能互换。</b><s>kami</s> <b>不包括</b>听话的人，<s>kita</s> <b>包括</b>听话的人。对老师说「我们（学生）是 UGM 的学生」用 kami；对同学说「我们一起去吧」用 kita。说反了意思就变了 —— 这是印尼语最经典的一个坑，中文和英文都没有这个区分。",
        "ja": "<b>kami と kita はどちらも「わたしたち」ですが、入れ替えられません。</b><s>kami</s> は聞き手を<b>含みません</b>。<s>kita</s> は聞き手を<b>含みます</b>。先生に「わたしたち（学生）は UGM の学生です」と言うときは kami、友だちに「いっしょに行こう」と言うときは kita です。取り違えると意味が変わります。日本語にはこの区別がないので、いちばんつまずきやすいところです。",
-       "en": "<b>kami and kita both mean «we», and they are not interchangeable.</b> <s>kami</s> <b>excludes</b> the person you are talking to; <s>kita</s> <b>includes</b> them. Telling a teacher «we (students) are at UGM» takes kami; telling a friend «let's go» takes kita. Get it the wrong way round and the meaning changes. English has no such distinction, which is why it takes some getting used to."
+       "en": "<b>kami and kita both mean «we», and they are not interchangeable.</b> <s>kami</s> <b>excludes</b> the person you are talking to; <s>kita</s> <b>includes</b> them. Telling a teacher «we (students) are at UGM» takes kami; telling a friend «let's go» takes kita. Get it the wrong way round and the meaning changes. English has no such distinction, which is why it takes some getting used to.",
+       "vi": "<b>kami và kita đều là “chúng ta”, nhưng không thay thế cho nhau được.</b> <s>kami</s> <b>không gồm</b> người nghe, <s>kita</s> <b>có gồm</b> người nghe. Nói với cô giáo “chúng tôi (sinh viên) là sinh viên UGM” thì dùng kami; rủ bạn cùng lớp “chúng ta đi nào” thì dùng kita. Tiếng Việt có đúng sự phân biệt này — kami = chúng tôi, kita = chúng ta — nên người Việt gần như không nhầm chỗ này."
       }
      },
      {
       "text": {
        "zh": "<s>Anda</s> <b>永远大写</b>，句子中间也一样。这是印尼语的正字法规定，不是排版风格。",
        "ja": "<s>Anda</s> は<b>つねに大文字で書きます</b>。文の途中でも同じです。これはインドネシア語の正書法の決まりで、体裁の問題ではありません。",
-       "en": "<s>Anda</s> is <b>always capitalised</b>, mid-sentence included. That is Indonesian orthography, not a typesetting choice."
+       "en": "<s>Anda</s> is <b>always capitalised</b>, mid-sentence included. That is Indonesian orthography, not a typesetting choice.",
+       "vi": "<s>Anda</s> <b>luôn viết hoa</b>, kể cả khi nằm giữa câu. Đây là quy định chính tả của tiếng Indonesia, chứ không phải kiểu trình bày."
       }
      },
      {
       "text": {
        "zh": "<s>ia</s> 和 <s>dia</s> 都是「他／她」，印尼语的第三人称<b>不分性别</b>。<s>ia</s> 偏书面，<s>dia</s> 口笔都能用，日常说 dia 就行。",
        "ja": "<s>ia</s> も <s>dia</s> も「かれ・かのじょ」で、インドネシア語の三人称は<b>性別を区別しません</b>。<s>ia</s> は文語寄り、<s>dia</s> は話しことばでも書きことばでも使えます。ふだんは dia で問題ありません。",
-       "en": "<s>ia</s> and <s>dia</s> both mean «he» or «she» — Indonesian third person <b>does not mark gender</b>. <s>ia</s> leans literary; <s>dia</s> works in speech and writing alike, and is what you will say day to day."
+       "en": "<s>ia</s> and <s>dia</s> both mean «he» or «she» — Indonesian third person <b>does not mark gender</b>. <s>ia</s> leans literary; <s>dia</s> works in speech and writing alike, and is what you will say day to day.",
+       "vi": "<s>ia</s> và <s>dia</s> đều là “anh ấy / cô ấy”: ngôi thứ ba trong tiếng Indonesia <b>không phân biệt giới tính</b>. <s>ia</s> thiên về văn viết, <s>dia</s> dùng được cả khi nói lẫn khi viết; hằng ngày cứ nói dia là được."
       }
      }
     ]
@@ -2966,7 +3223,8 @@
     "sub": {
      "zh": "数字 · 0 到 19",
      "ja": "数字 · 0 から 19",
-     "en": "Numbers · 0 to 19"
+     "en": "Numbers · 0 to 19",
+     "vi": "Số đếm · 0 đến 19"
     }
    },
    {
@@ -2974,7 +3232,8 @@
     "text": {
      "zh": "数字是这一课最实用的部分：报年龄、报电话、买东西、听老师说页码，全靠它。先把 0–19 念熟，几十和组合在下一页。",
      "ja": "この課でいちばん実用的なのが数字です。年齢を言う、電話番号を伝える、買い物をする、先生の言うページ番号を聞き取る —— どれも数字が要ります。まず 0〜19 を口になじませ、十の位と組み合わせは次のページで。",
-     "en": "Numbers are the most immediately useful part of this chapter: your age, your phone number, shopping, the page the teacher just called out. Get 0–19 fluent here; tens and combinations come on the next page."
+     "en": "Numbers are the most immediately useful part of this chapter: your age, your phone number, shopping, the page the teacher just called out. Get 0–19 fluent here; tens and combinations come on the next page.",
+     "vi": "Số đếm là phần thiết thực nhất của bài này: nói tuổi, đọc số điện thoại, đi mua đồ, nghe cô giáo đọc số trang — đều cần đến nó. Hãy đọc thật quen 0–19 trước, hàng chục và cách ghép để sang trang sau."
     }
    },
    {
@@ -2982,7 +3241,8 @@
     "glab": {
      "zh": "个位 · satuan",
      "ja": "一の位 · satuan",
-     "en": "Units · satuan"
+     "en": "Units · satuan",
+     "vi": "Hàng đơn vị · satuan"
     },
     "items": [
      [
@@ -3032,7 +3292,8 @@
     "glab": {
      "zh": "十几 · belasan",
      "ja": "十いくつ · belasan",
-     "en": "Teens · belasan"
+     "en": "Teens · belasan",
+     "vi": "Mười mấy · belasan"
     },
     "items": [
      [
@@ -3082,21 +3343,24 @@
     "tag": {
      "zh": "se- 的规则",
      "ja": "se- のきまり",
-     "en": "The se- rule"
+     "en": "The se- rule",
+     "vi": "Quy tắc se-"
     },
     "lines": [
      {
       "text": {
        "zh": "10 和 11 不说「satu puluh」「satu belas」。<b>satu</b> 当前缀时缩成 <b>se-</b>，而且<b>连写</b>：<s>sepuluh</s>、<s>sebelas</s>，再往上还有 <s>seratus</s>（100）、<s>seribu</s>（1000）。",
        "ja": "10 と 11 を「satu puluh」「satu belas」とは言いません。<b>satu</b> は接頭辞になると <b>se-</b> に縮み、しかも<b>続けて書きます</b> —— <s>sepuluh</s>・<s>sebelas</s>。さらに上には <s>seratus</s>（100）・<s>seribu</s>（1000）があります。",
-       "en": "You never say “satu puluh” or “satu belas”. As a prefix <b>satu</b> shrinks to <b>se-</b> and is written <b>joined</b>: <s>sepuluh</s>, <s>sebelas</s> — and above them <s>seratus</s> (100) and <s>seribu</s> (1000)."
+       "en": "You never say “satu puluh” or “satu belas”. As a prefix <b>satu</b> shrinks to <b>se-</b> and is written <b>joined</b>: <s>sepuluh</s>, <s>sebelas</s> — and above them <s>seratus</s> (100) and <s>seribu</s> (1000).",
+       "vi": "10 và 11 không nói “satu puluh” hay “satu belas”. Khi làm tiền tố, <b>satu</b> rút thành <b>se-</b> và <b>viết liền</b>: <s>sepuluh</s>, <s>sebelas</s>; lên cao hơn còn có <s>seratus</s> (100) và <s>seribu</s> (1000)."
       }
      },
      {
       "text": {
        "zh": "12 以后就规矩了，<b>数字 + belas</b>，而且<b>分开写</b>：<s>dua belas</s>、<s>lima belas</s>、<s>sembilan belas</s>。",
        "ja": "12 からは規則的です。<b>数字 + belas</b> で、しかも<b>分けて書きます</b> —— <s>dua belas</s>・<s>lima belas</s>・<s>sembilan belas</s>。",
-       "en": "From 12 on it is regular: <b>number + belas</b>, written as <b>two words</b> — <s>dua belas</s>, <s>lima belas</s>, <s>sembilan belas</s>."
+       "en": "From 12 on it is regular: <b>number + belas</b>, written as <b>two words</b> — <s>dua belas</s>, <s>lima belas</s>, <s>sembilan belas</s>.",
+       "vi": "Từ 12 trở đi thì đều đặn: <b>số + belas</b>, và <b>viết tách rời</b>: <s>dua belas</s>, <s>lima belas</s>, <s>sembilan belas</s>."
       }
      }
     ]
@@ -3106,21 +3370,24 @@
     "tag": {
      "zh": "笔误修正",
      "ja": "誤りの訂正",
-     "en": "Correction"
+     "en": "Correction",
+     "vi": "Sửa lỗi in"
     },
     "lines": [
      {
       "text": {
        "zh": "讲义把 <b>Angka Belasan</b> 译成「Dozen Numbers」，其实 belasan 指的是 <b>11–19</b>「十几」，和「一打」没关系 —— 一打印尼语叫 <s>selusin</s>。",
        "ja": "プリントは <b>Angka Belasan</b> を「Dozen Numbers」と訳していますが、belasan は <b>11〜19</b>「十いくつ」のことで、「1 ダース」とは関係ありません。1 ダースは <s>selusin</s> です。",
-       "en": "The handout glosses <b>Angka Belasan</b> as “Dozen Numbers”. In fact belasan means the <b>teens, 11–19</b>; it has nothing to do with a dozen, which is <s>selusin</s>."
+       "en": "The handout glosses <b>Angka Belasan</b> as “Dozen Numbers”. In fact belasan means the <b>teens, 11–19</b>; it has nothing to do with a dozen, which is <s>selusin</s>.",
+       "vi": "Tài liệu phát tay dịch <b>Angka Belasan</b> thành “Dozen Numbers”, nhưng belasan là <b>11–19</b>, tức “mười mấy”, không liên quan gì đến một tá — một tá tiếng Indonesia là <s>selusin</s>."
       }
      },
      {
       "text": {
        "zh": "belasan 单独用时是「十几个」：<s>belasan orang</s> 就是十几个人。",
        "ja": "belasan は単独で「十いくつかの」の意味にもなります。<s>belasan orang</s> で「十数人」。",
-       "en": "On its own belasan means “a dozen-ish, ten-something”: <s>belasan orang</s> is “a dozen or so people”."
+       "en": "On its own belasan means “a dozen-ish, ten-something”: <s>belasan orang</s> is “a dozen or so people”.",
+       "vi": "Dùng một mình, belasan có nghĩa “mười mấy”: <s>belasan orang</s> là mười mấy người."
       }
      }
     ]
@@ -3130,21 +3397,24 @@
     "tag": {
      "zh": "0 有两个读法",
      "ja": "0 の読み方は二つ",
-     "en": "Zero has two names"
+     "en": "Zero has two names",
+     "vi": "0 có hai cách đọc"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>nol</s> 用在数学、编号、比分这类正式场合；<s>kosong</s> 用在念电话号码、房间号、门牌号 —— 0812 念作「kosong delapan satu dua」。",
        "ja": "<s>nol</s> は数学・番号・スコアなどあらたまった場面で、<s>kosong</s> は電話番号・部屋番号・番地を読むときに使います。0812 は「kosong delapan satu dua」。",
-       "en": "<s>nol</s> is for arithmetic, official numbering and scores; <s>kosong</s> is what you say reading a phone number, a room number or a house number — 0812 is “kosong delapan satu dua”."
+       "en": "<s>nol</s> is for arithmetic, official numbering and scores; <s>kosong</s> is what you say reading a phone number, a room number or a house number — 0812 is “kosong delapan satu dua”.",
+       "vi": "<s>nol</s> dùng cho toán học, số hiệu, tỉ số — những chỗ trang trọng; <s>kosong</s> dùng khi đọc số điện thoại, số phòng, số nhà — 0812 đọc là “kosong delapan satu dua”."
       }
      },
      {
       "text": {
        "zh": "<s>kosong</s> 本来就是「空的」的意思，这样记不容易忘。",
        "ja": "<s>kosong</s> はもともと「からの」という意味です。そう覚えておくと忘れません。",
-       "en": "<s>kosong</s> literally means “empty”, which makes the usage easy to remember."
+       "en": "<s>kosong</s> literally means “empty”, which makes the usage easy to remember.",
+       "vi": "<s>kosong</s> vốn có nghĩa là “trống, rỗng”, nhớ như vậy thì khó quên."
       }
      }
     ]
@@ -3157,7 +3427,8 @@
     "sub": {
      "zh": "数字 · 几十与组合",
      "ja": "数字 · 十の位と組み合わせ",
-     "en": "Numbers · tens and combinations"
+     "en": "Numbers · tens and combinations",
+     "vi": "Số đếm · hàng chục và cách ghép"
     }
    },
    {
@@ -3165,7 +3436,8 @@
     "glab": {
      "zh": "几十 · puluhan",
      "ja": "十の位 · puluhan",
-     "en": "Tens · puluhan"
+     "en": "Tens · puluhan",
+     "vi": "Hàng chục · puluhan"
     },
     "items": [
      [
@@ -3212,7 +3484,8 @@
     "note": {
      "zh": "几十在前，个位在后 —— 和中文「二十五」的顺序一样，中间不加任何词。",
      "ja": "十の位が先、一の位があと。「二十五」と同じ順序で、あいだに何も入れません。",
-     "en": "Tens first, then the unit — the same order as English “twenty-five”, with nothing in between."
+     "en": "Tens first, then the unit — the same order as English “twenty-five”, with nothing in between.",
+     "vi": "Hàng chục trước, hàng đơn vị sau — đúng thứ tự như “hai mươi lăm” trong tiếng Việt, ở giữa không thêm từ nào."
     }
    },
    {
@@ -3221,7 +3494,8 @@
     "glab": {
      "zh": "组合练习 · 先自己说一遍",
      "ja": "組み合わせの練習 · まず自分で",
-     "en": "Combinations · say it yourself first"
+     "en": "Combinations · say it yourself first",
+     "vi": "Luyện ghép · tự nói trước một lượt"
     },
     "items": [
      [
@@ -3263,28 +3537,32 @@
     "tag": {
      "zh": "再往上",
      "ja": "もっと大きい数",
-     "en": "Going higher"
+     "en": "Going higher",
+     "vi": "Lên số lớn hơn"
     },
     "lines": [
      {
       "text": {
        "zh": "页眉那个眼睛按钮可以把答案遮起来 —— 打开它，先自己说，再点一下那一格看对不对。",
        "ja": "ヘッダーの目のボタンで答えを隠せます。まず自分で言ってから、マスをタップして確かめましょう。",
-       "en": "The eye button in the header blurs the answers — switch it on, say the number yourself, then tap the tile to check."
+       "en": "The eye button in the header blurs the answers — switch it on, say the number yourself, then tap the tile to check.",
+       "vi": "Nút hình con mắt ở đầu trang có thể che đáp án — bật nó lên, tự nói trước, rồi chạm vào ô đó để xem có đúng không."
       }
      },
      {
       "text": {
        "zh": "100 是 <s>seratus</s>，1000 是 <s>seribu</s> —— 还是那条 se- 规则。中间的数照样往下拼：125 就是 <s>seratus dua puluh lima</s>。",
        "ja": "100 は <s>seratus</s>、1000 は <s>seribu</s>。やはり se- のきまりです。あいだの数もそのままつなげます —— 125 なら <s>seratus dua puluh lima</s>。",
-       "en": "100 is <s>seratus</s> and 1000 is <s>seribu</s> — the se- rule again. Everything in between simply strings together: 125 is <s>seratus dua puluh lima</s>."
+       "en": "100 is <s>seratus</s> and 1000 is <s>seribu</s> — the se- rule again. Everything in between simply strings together: 125 is <s>seratus dua puluh lima</s>.",
+       "vi": "100 là <s>seratus</s>, 1000 là <s>seribu</s> — vẫn là quy tắc se- đó. Các số ở giữa cứ ghép nối tiếp: 125 là <s>seratus dua puluh lima</s>."
       }
      },
      {
       "text": {
        "zh": "印尼盾金额位数多，书写时用点号分位：Rp 25.000 读作 <s>dua puluh lima ribu rupiah</s>。",
        "ja": "ルピアは桁が多く、表記ではピリオドで区切ります。Rp 25.000 は <s>dua puluh lima ribu rupiah</s> と読みます。",
-       "en": "Rupiah amounts run long, and the thousands separator is a full stop: Rp 25.000 is read <s>dua puluh lima ribu rupiah</s>."
+       "en": "Rupiah amounts run long, and the thousands separator is a full stop: Rp 25.000 is read <s>dua puluh lima ribu rupiah</s>.",
+       "vi": "Số tiền rupiah có rất nhiều chữ số, khi viết dùng dấu chấm để phân nhóm: Rp 25.000 đọc là <s>dua puluh lima ribu rupiah</s>."
       }
      }
     ]
@@ -3307,21 +3585,24 @@
     "tag": {
      "zh": "电话号码",
      "ja": "電話番号",
-     "en": "Phone numbers"
+     "en": "Phone numbers",
+     "vi": "Số điện thoại"
     },
     "lines": [
      {
       "text": {
        "zh": "电话号码<b>一位一位</b>念，不合成「八十一」这种读法；0 一律念 <s>kosong</s>。",
        "ja": "電話番号は<b>一桁ずつ</b>読み、「八十一」のようにまとめません。0 はすべて <s>kosong</s>。",
-       "en": "Phone numbers are read <b>digit by digit</b>; you never group them into “eighty-one”. Every 0 is <s>kosong</s>."
+       "en": "Phone numbers are read <b>digit by digit</b>; you never group them into “eighty-one”. Every 0 is <s>kosong</s>.",
+       "vi": "Số điện thoại đọc <b>từng chữ số một</b>, không gộp lại thành kiểu “tám mươi mốt”; số 0 luôn đọc là <s>kosong</s>."
       }
      },
      {
       "text": {
        "zh": "印尼手机号都以 08 开头，日惹的固定电话区号是 0274。",
        "ja": "インドネシアの携帯番号はすべて 08 で始まり、ジョグジャカルタの市外局番は 0274 です。",
-       "en": "All Indonesian mobile numbers begin 08, and the Yogyakarta landline code is 0274."
+       "en": "All Indonesian mobile numbers begin 08, and the Yogyakarta landline code is 0274.",
+       "vi": "Số di động ở Indonesia đều bắt đầu bằng 08, mã vùng điện thoại cố định của Yogyakarta là 0274."
       }
      }
     ]
@@ -3334,7 +3615,8 @@
     "sub": {
      "zh": "自我介绍 · 五件事",
      "ja": "自己紹介 · 五つの項目",
-     "en": "Introducing yourself · five slots"
+     "en": "Introducing yourself · five slots",
+     "vi": "Tự giới thiệu · năm mục"
     }
    },
    {
@@ -3342,7 +3624,8 @@
     "text": {
      "zh": "讲义把自我介绍拆成五件事：<b>名字、来自哪里、年龄、职业、爱好</b>。记住这五个槽，换个人、换个场合都能套着说。",
      "ja": "プリントは自己紹介を五つに分けています —— <b>名前・出身・年齢・職業・趣味</b>。この五つの枠さえ覚えれば、相手や場面が変わっても組み立てられます。",
-     "en": "The handout breaks a self-introduction into five slots: <b>name, where you are from, age, job, hobby</b>. Learn the five and you can rebuild the introduction for any person and any occasion."
+     "en": "The handout breaks a self-introduction into five slots: <b>name, where you are from, age, job, hobby</b>. Learn the five and you can rebuild the introduction for any person and any occasion.",
+     "vi": "Tài liệu chia phần tự giới thiệu thành năm mục: <b>tên, quê quán, tuổi, nghề nghiệp, sở thích</b>. Nhớ năm ô này thì đổi người, đổi hoàn cảnh vẫn nói được."
     }
    },
    {
@@ -3353,7 +3636,8 @@
     "gloss": {
      "zh": "名字",
      "ja": "名前",
-     "en": "name"
+     "en": "name",
+     "vi": "tên"
     }
    },
    {
@@ -3366,7 +3650,8 @@
       "gloss": {
        "zh": "我叫 Ilfat。",
        "ja": "わたしの名前は Ilfat です。",
-       "en": "My name is Ilfat."
+       "en": "My name is Ilfat.",
+       "vi": "Tôi tên là Ilfat."
       },
       "alt_gloss": null,
       "kw": [
@@ -3380,7 +3665,8 @@
       "gloss": {
        "zh": "我的全名是 Novi Wulandari。",
        "ja": "わたしの正式な名前は Novi Wulandari です。",
-       "en": "My full name is Novi Wulandari."
+       "en": "My full name is Novi Wulandari.",
+       "vi": "Tên đầy đủ của tôi là Novi Wulandari."
       },
       "alt_gloss": null,
       "kw": [
@@ -3394,7 +3680,8 @@
       "gloss": {
        "zh": "我的小名叫 Novi。",
        "ja": "通称は Novi です。",
-       "en": "My short name is Novi."
+       "en": "My short name is Novi.",
+       "vi": "Tên thường gọi của tôi là Novi."
       },
       "alt_gloss": null,
       "kw": [
@@ -3411,7 +3698,8 @@
     "gloss": {
      "zh": "来自哪里",
      "ja": "出身",
-     "en": "where you are from"
+     "en": "where you are from",
+     "vi": "quê quán"
     }
    },
    {
@@ -3424,7 +3712,8 @@
       "gloss": {
        "zh": "我从中国来。",
        "ja": "日本から来ました。",
-       "en": "I'm from England."
+       "en": "I'm from England.",
+       "vi": "Tôi đến từ Việt Nam."
       },
       "alt_gloss": null,
       "kw": [
@@ -3438,7 +3727,8 @@
       "gloss": {
        "zh": "我来自中国。（更正式的说法）",
        "ja": "日本の出身です。（よりあらたまった言い方）",
-       "en": "I come from England. (more formal)"
+       "en": "I come from England. (more formal)",
+       "vi": "Tôi xuất thân từ Việt Nam. (cách nói trang trọng hơn)"
       },
       "alt_gloss": null,
       "kw": [
@@ -3452,7 +3742,8 @@
       "gloss": {
        "zh": "我现在住在日惹。",
        "ja": "いまはジョグジャに住んでいます。",
-       "en": "I live in Jogja now."
+       "en": "I live in Jogja now.",
+       "vi": "Bây giờ tôi sống ở Yogyakarta."
       },
       "alt_gloss": null,
       "kw": [
@@ -3466,7 +3757,8 @@
       "gloss": {
        "zh": "您是哪里人？",
        "ja": "ご出身はどちらですか。",
-       "en": "Where are you from?"
+       "en": "Where are you from?",
+       "vi": "Bạn đến từ đâu ạ?"
       },
       "alt_gloss": null,
       "kw": [
@@ -3483,7 +3775,8 @@
     "gloss": {
      "zh": "年龄",
      "ja": "年齢",
-     "en": "age"
+     "en": "age",
+     "vi": "tuổi"
     }
    },
    {
@@ -3496,7 +3789,8 @@
       "gloss": {
        "zh": "我二十岁。",
        "ja": "わたしは 20 歳です。",
-       "en": "I'm twenty years old."
+       "en": "I'm twenty years old.",
+       "vi": "Tôi hai mươi tuổi."
       },
       "alt_gloss": null,
       "kw": [
@@ -3510,7 +3804,8 @@
       "gloss": {
        "zh": "我二十一岁。",
        "ja": "わたしは 21 歳です。",
-       "en": "I'm twenty-one years old."
+       "en": "I'm twenty-one years old.",
+       "vi": "Tôi hai mươi mốt tuổi."
       },
       "alt_gloss": null,
       "kw": [
@@ -3524,7 +3819,8 @@
       "gloss": {
        "zh": "您多大了？",
        "ja": "おいくつですか。",
-       "en": "How old are you?"
+       "en": "How old are you?",
+       "vi": "Bạn bao nhiêu tuổi ạ?"
       },
       "alt_gloss": null,
       "kw": [
@@ -3541,7 +3837,8 @@
     "gloss": {
      "zh": "职业",
      "ja": "職業",
-     "en": "job"
+     "en": "job",
+     "vi": "nghề nghiệp"
     }
    },
    {
@@ -3554,7 +3851,8 @@
       "gloss": {
        "zh": "我是大学生。",
        "ja": "わたしは大学生です。",
-       "en": "I'm a university student."
+       "en": "I'm a university student.",
+       "vi": "Tôi là sinh viên."
       },
       "alt_gloss": null,
       "kw": [
@@ -3568,7 +3866,8 @@
       "gloss": {
        "zh": "我的工作是老师。",
        "ja": "仕事は教師です。",
-       "en": "My job is teaching."
+       "en": "My job is teaching.",
+       "vi": "Nghề của tôi là giáo viên."
       },
       "alt_gloss": null,
       "kw": [
@@ -3582,7 +3881,8 @@
       "gloss": {
        "zh": "您做什么工作？",
        "ja": "お仕事は何ですか。",
-       "en": "What do you do?"
+       "en": "What do you do?",
+       "vi": "Bạn làm nghề gì ạ?"
       },
       "alt_gloss": null,
       "kw": [
@@ -3599,7 +3899,8 @@
     "gloss": {
      "zh": "爱好",
      "ja": "趣味",
-     "en": "hobby"
+     "en": "hobby",
+     "vi": "sở thích"
     }
    },
    {
@@ -3612,7 +3913,8 @@
       "gloss": {
        "zh": "我的爱好是读书。",
        "ja": "趣味は読書です。",
-       "en": "My hobby is reading."
+       "en": "My hobby is reading.",
+       "vi": "Sở thích của tôi là đọc sách."
       },
       "alt_gloss": null,
       "kw": [
@@ -3626,7 +3928,8 @@
       "gloss": {
        "zh": "我喜欢到处逛。",
        "ja": "出かけるのが好きです。",
-       "en": "I like going out and about."
+       "en": "I like going out and about.",
+       "vi": "Tôi thích đi dạo đây đó."
       },
       "alt_gloss": null,
       "kw": [
@@ -3640,7 +3943,8 @@
       "gloss": {
        "zh": "您有什么爱好？",
        "ja": "ご趣味は何ですか。",
-       "en": "What are your hobbies?"
+       "en": "What are your hobbies?",
+       "vi": "Bạn có sở thích gì ạ?"
       },
       "alt_gloss": null,
       "kw": [
@@ -3654,21 +3958,24 @@
     "tag": {
      "zh": "两个「名字」",
      "ja": "二種類の「名前」",
-     "en": "Two kinds of name"
+     "en": "Two kinds of name",
+     "vi": "Hai loại “tên”"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>nama lengkap</s> 是证件上的全名，<s>nama panggilan</s> 是大家平时叫的小名。印尼人全名可以很长，课上互相叫的都是小名。",
        "ja": "<s>nama lengkap</s> は書類に書く正式名、<s>nama panggilan</s> はふだん呼ばれる通称です。インドネシア人の正式名は長いことが多く、教室では通称で呼び合います。",
-       "en": "<s>nama lengkap</s> is the full name on your documents; <s>nama panggilan</s> is what people actually call you. Indonesian full names can be long, so class runs on short names."
+       "en": "<s>nama lengkap</s> is the full name on your documents; <s>nama panggilan</s> is what people actually call you. Indonesian full names can be long, so class runs on short names.",
+       "vi": "<s>nama lengkap</s> là tên đầy đủ trên giấy tờ, <s>nama panggilan</s> là tên mọi người vẫn gọi hằng ngày. Tên đầy đủ của người Indonesia có thể rất dài, nên trong lớp ai cũng gọi nhau bằng tên thường gọi."
       }
      },
      {
       "text": {
        "zh": "说完名字加一句 <s>Panggil saya</s> 再接小名，对方就知道该怎么称呼你了。",
        "ja": "名前のあとに <s>Panggil saya</s> と通称を続ければ、相手は呼び方に迷いません。",
-       "en": "Follow your name with <s>Panggil saya</s> and your short name, and nobody has to guess how to address you."
+       "en": "Follow your name with <s>Panggil saya</s> and your short name, and nobody has to guess how to address you.",
+       "vi": "Nói tên xong, thêm một câu <s>Panggil saya</s> rồi đến tên thường gọi, người nghe sẽ biết ngay nên gọi bạn thế nào."
       }
      }
     ]
@@ -3681,7 +3988,8 @@
     "sub": {
      "zh": "职业 · 爱好 · 完整示范",
      "ja": "職業 · 趣味 · 通しの例",
-     "en": "Jobs, hobbies and the whole thing"
+     "en": "Jobs, hobbies and the whole thing",
+     "vi": "Nghề nghiệp · sở thích · bài mẫu hoàn chỉnh"
     }
    },
    {
@@ -3689,7 +3997,8 @@
     "text": {
      "zh": "上一页的第四、五件事各缺一份词库。先挑出自己要用的那个词，再照最后那段把五句连起来。",
      "ja": "前のページの四つめと五つめには、当てはめる語が必要です。自分に合う語を選んでから、最後の例のように五文をつなげてみましょう。",
-     "en": "Slots four and five each need a word to fill them. Pick yours from the two sets below, then string all five sentences together the way the model does at the end."
+     "en": "Slots four and five each need a word to fill them. Pick yours from the two sets below, then string all five sentences together the way the model does at the end.",
+     "vi": "Mục thứ tư và thứ năm ở trang trước, mỗi mục còn thiếu một bộ từ. Hãy chọn từ hợp với mình trước, rồi nối năm câu lại theo đoạn mẫu ở cuối trang."
     }
    },
    {
@@ -3697,7 +4006,8 @@
     "text": {
      "zh": "职业 · pekerjaan",
      "ja": "職業 · pekerjaan",
-     "en": "Jobs · pekerjaan"
+     "en": "Jobs · pekerjaan",
+     "vi": "Nghề nghiệp · pekerjaan"
     }
    },
    {
@@ -3709,7 +4019,8 @@
       "gloss": {
        "zh": "学生（中小学）",
        "ja": "生徒",
-       "en": "school pupil"
+       "en": "school pupil",
+       "vi": "học sinh (phổ thông)"
       }
      },
      {
@@ -3718,7 +4029,8 @@
       "gloss": {
        "zh": "医生",
        "ja": "医者",
-       "en": "doctor"
+       "en": "doctor",
+       "vi": "bác sĩ"
       }
      },
      {
@@ -3727,7 +4039,8 @@
       "gloss": {
        "zh": "护士",
        "ja": "看護師",
-       "en": "nurse"
+       "en": "nurse",
+       "vi": "y tá"
       }
      },
      {
@@ -3736,7 +4049,8 @@
       "gloss": {
        "zh": "公司职员",
        "ja": "会社員",
-       "en": "company employee"
+       "en": "company employee",
+       "vi": "nhân viên công ty"
       }
      },
      {
@@ -3745,7 +4059,8 @@
       "gloss": {
        "zh": "职员 · 公务员",
        "ja": "職員 · 公務員",
-       "en": "staff member, civil servant"
+       "en": "staff member, civil servant",
+       "vi": "nhân viên · công chức"
       }
      },
      {
@@ -3754,7 +4069,8 @@
       "gloss": {
        "zh": "工程师",
        "ja": "技師",
-       "en": "engineer"
+       "en": "engineer",
+       "vi": "kỹ sư"
       }
      }
     ]
@@ -3764,7 +4080,8 @@
     "text": {
      "zh": "爱好 · hobi",
      "ja": "趣味 · hobi",
-     "en": "Hobbies · hobi"
+     "en": "Hobbies · hobi",
+     "vi": "Sở thích · hobi"
     }
    },
    {
@@ -3776,7 +4093,8 @@
       "gloss": {
        "zh": "到处逛 · 出游",
        "ja": "出かける · 散策する",
-       "en": "to go out, stroll around"
+       "en": "to go out, stroll around",
+       "vi": "đi dạo · đi chơi"
       }
      },
      {
@@ -3785,7 +4103,8 @@
       "gloss": {
        "zh": "购物",
        "ja": "買い物をする",
-       "en": "to go shopping"
+       "en": "to go shopping",
+       "vi": "mua sắm"
       }
      },
      {
@@ -3794,7 +4113,8 @@
       "gloss": {
        "zh": "阅读",
        "ja": "読む",
-       "en": "to read"
+       "en": "to read",
+       "vi": "đọc sách"
       }
      },
      {
@@ -3803,7 +4123,8 @@
       "gloss": {
        "zh": "做饭",
        "ja": "料理する",
-       "en": "to cook"
+       "en": "to cook",
+       "vi": "nấu ăn"
       }
      },
      {
@@ -3812,7 +4133,8 @@
       "gloss": {
        "zh": "做运动",
        "ja": "運動する",
-       "en": "to do sport"
+       "en": "to do sport",
+       "vi": "tập thể thao"
       }
      },
      {
@@ -3821,7 +4143,8 @@
       "gloss": {
        "zh": "看电影",
        "ja": "映画を見る",
-       "en": "to watch films"
+       "en": "to watch films",
+       "vi": "xem phim"
       }
      },
      {
@@ -3830,7 +4153,8 @@
       "gloss": {
        "zh": "听音乐",
        "ja": "音楽を聴く",
-       "en": "to listen to music"
+       "en": "to listen to music",
+       "vi": "nghe nhạc"
       }
      },
      {
@@ -3839,7 +4163,8 @@
       "gloss": {
        "zh": "游泳",
        "ja": "泳ぐ",
-       "en": "to swim"
+       "en": "to swim",
+       "vi": "bơi"
       }
      },
      {
@@ -3848,7 +4173,8 @@
       "gloss": {
        "zh": "唱歌",
        "ja": "歌う",
-       "en": "to sing"
+       "en": "to sing",
+       "vi": "hát"
       }
      }
     ]
@@ -3858,7 +4184,8 @@
     "title": {
      "zh": "连起来说一遍",
      "ja": "つなげて言ってみる",
-     "en": "Now say it all in one go"
+     "en": "Now say it all in one go",
+     "vi": "Nói liền một mạch"
     },
     "items": [
      {
@@ -3868,7 +4195,8 @@
       "gloss": {
        "zh": "各位好。",
        "ja": "みなさん、こんにちは。",
-       "en": "Good afternoon, everyone."
+       "en": "Good afternoon, everyone.",
+       "vi": "Chào buổi chiều, thưa quý vị."
       },
       "alt_gloss": null,
       "kw": [
@@ -3882,7 +4210,8 @@
       "gloss": {
        "zh": "容我介绍一下，我叫 Novi Wulandari。",
        "ja": "ご紹介します。名前は Novi Wulandari です。",
-       "en": "Let me introduce myself: my name is Novi Wulandari."
+       "en": "Let me introduce myself: my name is Novi Wulandari.",
+       "vi": "Xin phép tự giới thiệu, tôi tên là Novi Wulandari."
       },
       "alt_gloss": null,
       "kw": [
@@ -3896,7 +4225,8 @@
       "gloss": {
        "zh": "叫我 Mbak Novi 就行。",
        "ja": "Mbak Novi とだけ呼んでください。",
-       "en": "Just call me Mbak Novi."
+       "en": "Just call me Mbak Novi.",
+       "vi": "Cứ gọi tôi là Mbak Novi."
       },
       "alt_gloss": null,
       "kw": [
@@ -3910,7 +4240,8 @@
       "gloss": {
        "zh": "我是日惹人。",
        "ja": "ジョグジャの出身です。",
-       "en": "I come from Jogja."
+       "en": "I come from Jogja.",
+       "vi": "Tôi quê ở Yogyakarta."
       },
       "alt_gloss": null,
       "kw": [
@@ -3924,7 +4255,8 @@
       "gloss": {
        "zh": "我三十四岁。",
        "ja": "34 歳です。",
-       "en": "I'm thirty-four."
+       "en": "I'm thirty-four.",
+       "vi": "Tôi ba mươi bốn tuổi."
       },
       "alt_gloss": null,
       "kw": [
@@ -3938,7 +4270,8 @@
       "gloss": {
        "zh": "我是印尼语老师。",
        "ja": "インドネシア語の教師をしています。",
-       "en": "I'm a teacher of Indonesian."
+       "en": "I'm a teacher of Indonesian.",
+       "vi": "Tôi là giáo viên tiếng Indonesia."
       },
       "alt_gloss": null,
       "kw": [
@@ -3952,7 +4285,8 @@
       "gloss": {
        "zh": "我的爱好是到处逛和做饭。",
        "ja": "趣味は出かけることと料理です。",
-       "en": "My hobbies are getting out and about, and cooking."
+       "en": "My hobbies are getting out and about, and cooking.",
+       "vi": "Sở thích của tôi là đi dạo và nấu ăn."
       },
       "alt_gloss": null,
       "kw": [
@@ -3966,7 +4300,8 @@
       "gloss": {
        "zh": "很高兴见到各位。",
        "ja": "みなさんにお会いできてうれしいです。",
-       "en": "Pleased to meet you all."
+       "en": "Pleased to meet you all.",
+       "vi": "Rất vui được gặp quý vị."
       },
       "alt_gloss": null,
       "kw": [
@@ -3980,21 +4315,24 @@
     "tag": {
      "zh": "seorang 是什么",
      "ja": "seorang とは",
-     "en": "What seorang is doing"
+     "en": "What seorang is doing",
+     "vi": "seorang dùng để làm gì"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>seorang</s> = se-（一）+ orang（人），字面就是「一位」。<s>Saya guru</s> 也对，加上 <s>seorang</s> 更完整、更正式，自我介绍时常用。",
        "ja": "<s>seorang</s> は se-（一）+ orang（人）で、文字どおり「一人の」。<s>Saya guru</s> でも正しいのですが、<s>seorang</s> を入れると、よりあらたまった完全な言い方になり、自己紹介でよく使われます。",
-       "en": "<s>seorang</s> is se- (one) + orang (person), literally “a single person”. <s>Saya guru</s> is fine on its own; adding <s>seorang</s> makes it fuller and more formal, which is why introductions use it."
+       "en": "<s>seorang</s> is se- (one) + orang (person), literally “a single person”. <s>Saya guru</s> is fine on its own; adding <s>seorang</s> makes it fuller and more formal, which is why introductions use it.",
+       "vi": "<s>seorang</s> = se- (một) + orang (người), nghĩa đen là “một người”. Nói <s>Saya guru</s> cũng đúng; thêm <s>seorang</s> thì câu đầy đủ và trang trọng hơn, nên khi tự giới thiệu người ta hay dùng."
       }
      },
      {
       "text": {
        "zh": "两种语序都行：<s>Saya seorang guru</s> 和 <s>Pekerjaan saya guru</s>。",
        "ja": "語順はどちらでもかまいません —— <s>Saya seorang guru</s> と <s>Pekerjaan saya guru</s>。",
-       "en": "Either order works: <s>Saya seorang guru</s> or <s>Pekerjaan saya guru</s>."
+       "en": "Either order works: <s>Saya seorang guru</s> or <s>Pekerjaan saya guru</s>.",
+       "vi": "Cả hai trật tự đều được: <s>Saya seorang guru</s> và <s>Pekerjaan saya guru</s>."
       }
      }
     ]
@@ -4007,7 +4345,8 @@
     "sub": {
      "zh": "说 · 介绍自己",
      "ja": "話す · 自己紹介",
-     "en": "Speaking · introduce yourself"
+     "en": "Speaking · introduce yourself",
+     "vi": "Nói · giới thiệu bản thân"
     }
    },
    {
@@ -4015,7 +4354,8 @@
     "text": {
      "zh": "课本的范文。照这个骨架换成自己的信息，就是一段完整的自我介绍。",
      "ja": "教科書の例文です。この型に自分の情報を入れれば、そのまま自己紹介になります。",
-     "en": "The model text from the book. Swap in your own details and this is a complete self-introduction."
+     "en": "The model text from the book. Swap in your own details and this is a complete self-introduction.",
+     "vi": "Bài mẫu trong giáo trình. Cứ giữ nguyên khung này rồi thay bằng thông tin của bạn là thành một đoạn tự giới thiệu hoàn chỉnh."
     }
    },
    {
@@ -4023,7 +4363,8 @@
     "title": {
      "zh": "① 介绍自己 · memperkenalkan diri",
      "ja": "① 自分を紹介する · memperkenalkan diri",
-     "en": "① Introducing yourself · memperkenalkan diri"
+     "en": "① Introducing yourself · memperkenalkan diri",
+     "vi": "① Giới thiệu bản thân · memperkenalkan diri"
     },
     "items": [
      {
@@ -4033,7 +4374,8 @@
       "gloss": {
        "zh": "早上好。我叫 Akira。",
        "ja": "おはようございます。わたしは Akira です。",
-       "en": "Good morning. My name is Akira."
+       "en": "Good morning. My name is Akira.",
+       "vi": "Chào buổi sáng. Tôi tên là Akira."
       },
       "alt_gloss": null,
       "kw": [
@@ -4047,7 +4389,8 @@
       "gloss": {
        "zh": "我从日本神户市来。",
        "ja": "日本の神戸市から来ました。",
-       "en": "I'm from the city of Kobe, Japan."
+       "en": "I'm from the city of Kobe, Japan.",
+       "vi": "Tôi đến từ thành phố Kobe, Nhật Bản."
       },
       "alt_gloss": null,
       "kw": [
@@ -4062,7 +4405,8 @@
       "gloss": {
        "zh": "我在 UGM 学印尼语。",
        "ja": "UGM でインドネシア語を勉強しています。",
-       "en": "I study Indonesian at UGM."
+       "en": "I study Indonesian at UGM.",
+       "vi": "Tôi học tiếng Indonesia ở UGM."
       },
       "alt_gloss": null,
       "kw": [
@@ -4077,7 +4421,8 @@
       "gloss": {
        "zh": "我两周前来到日惹。",
        "ja": "二週間前にジョグジャカルタに来ました。",
-       "en": "I came to Yogyakarta two weeks ago."
+       "en": "I came to Yogyakarta two weeks ago.",
+       "vi": "Tôi đến Yogyakarta hai tuần trước."
       },
       "alt_gloss": null,
       "kw": [
@@ -4093,7 +4438,8 @@
       "gloss": {
        "zh": "我现在住在日惹 Kaliurang 路 8 号。",
        "ja": "いまはジョグジャカルタの Kaliurang 通り 8 番地に住んでいます。",
-       "en": "I now live at 8 Jalan Kaliurang, Yogyakarta."
+       "en": "I now live at 8 Jalan Kaliurang, Yogyakarta.",
+       "vi": "Bây giờ tôi sống ở số 8 đường Kaliurang, Yogyakarta."
       },
       "alt_gloss": null,
       "kw": [
@@ -4109,7 +4455,8 @@
       "gloss": {
        "zh": "我喜欢吃炒饭、喝茶。",
        "ja": "ナシゴレンを食べるのと、お茶を飲むのが好きです。",
-       "en": "I like eating nasi goreng and drinking tea."
+       "en": "I like eating nasi goreng and drinking tea.",
+       "vi": "Tôi thích ăn nasi goreng và uống trà."
       },
       "alt_gloss": null,
       "kw": [
@@ -4125,7 +4472,8 @@
       "gloss": {
        "zh": "我喜欢游泳和看电影。",
        "ja": "泳ぐことと映画を見ることが好きです。",
-       "en": "I like swimming and watching films."
+       "en": "I like swimming and watching films.",
+       "vi": "Tôi thích bơi và xem phim."
       },
       "alt_gloss": null,
       "kw": [
@@ -4141,7 +4489,8 @@
       "gloss": {
        "zh": "我很喜欢住在印尼。谢谢。",
        "ja": "インドネシアでの暮らしが気に入っています。ありがとうございました。",
-       "en": "I'm happy living in Indonesia. Thank you."
+       "en": "I'm happy living in Indonesia. Thank you.",
+       "vi": "Tôi rất thích cuộc sống ở Indonesia. Xin cảm ơn."
       },
       "alt_gloss": null,
       "kw": [
@@ -4156,7 +4505,8 @@
     "title": {
      "zh": "② 介绍别人 · memperkenalkan teman",
      "ja": "② 友だちを紹介する · memperkenalkan teman",
-     "en": "② Introducing someone else · memperkenalkan teman"
+     "en": "② Introducing someone else · memperkenalkan teman",
+     "vi": "② Giới thiệu người khác · memperkenalkan teman"
     },
     "items": [
      {
@@ -4166,7 +4516,8 @@
       "gloss": {
        "zh": "早上好。这是 Rama。他是我朋友。",
        "ja": "おはようございます。こちらは Rama です。わたしの友だちです。",
-       "en": "Good morning. This is Rama. He's my friend."
+       "en": "Good morning. This is Rama. He's my friend.",
+       "vi": "Chào buổi sáng. Đây là Rama. Anh ấy là bạn tôi."
       },
       "alt_gloss": null,
       "kw": [
@@ -4182,7 +4533,8 @@
       "gloss": {
        "zh": "他是印尼人。他是大学生。",
        "ja": "かれはインドネシア人です。大学生です。",
-       "en": "He's Indonesian. He's a student."
+       "en": "He's Indonesian. He's a student.",
+       "vi": "Anh ấy là người Indonesia. Anh ấy là sinh viên."
       },
       "alt_gloss": null,
       "kw": [
@@ -4198,7 +4550,8 @@
       "gloss": {
        "zh": "他在 UGM 学经济学。",
        "ja": "UGM で経済学を勉強しています。",
-       "en": "He studies economics at UGM."
+       "en": "He studies economics at UGM.",
+       "vi": "Anh ấy học kinh tế ở UGM."
       },
       "alt_gloss": null,
       "kw": [
@@ -4213,7 +4566,8 @@
       "gloss": {
        "zh": "他住在日惹 Magelang 路 15A 号。",
        "ja": "ジョグジャカルタの Magelang 通り 15A に住んでいます。",
-       "en": "He lives at 15A Jalan Magelang, Yogyakarta."
+       "en": "He lives at 15A Jalan Magelang, Yogyakarta.",
+       "vi": "Anh ấy sống ở số 15A đường Magelang, Yogyakarta."
       },
       "alt_gloss": null,
       "kw": [
@@ -4228,7 +4582,8 @@
       "gloss": {
        "zh": "他喜欢吃肉丸汤，喜欢到处逛。谢谢。",
        "ja": "かれはバッソを食べることと、出かけることが好きです。ありがとうございました。",
-       "en": "He likes eating bakso and going out. Thank you."
+       "en": "He likes eating bakso and going out. Thank you.",
+       "vi": "Anh ấy thích ăn bakso và thích đi dạo. Xin cảm ơn."
       },
       "alt_gloss": null,
       "kw": [
@@ -4245,14 +4600,16 @@
     "tag": {
      "zh": "换成自己的",
      "ja": "自分の情報に置きかえる",
-     "en": "Make it yours"
+     "en": "Make it yours",
+     "vi": "Đổi thành của bạn"
     },
     "lines": [
      {
       "text": {
        "zh": "介绍自己用 <s>saya</s>，介绍别人用 <s>dia</s>，其余句型一模一样。把 Akira／Kobe／两周／炒饭换成你自己的答案，多念几遍，需要开口的时候就不用现想。",
        "ja": "自分を紹介するときは <s>saya</s>、人を紹介するときは <s>dia</s>。ほかの文型はまったく同じです。Akira・神戸・二週間・ナシゴレンのところを自分の答えに入れかえて、何度か声に出しておくと、話す場面で考えずにすみます。",
-       "en": "Use <s>saya</s> for yourself and <s>dia</s> for someone else; every other pattern is identical. Swap Akira, Kobe, two weeks and nasi goreng for your own answers and say it aloud a few times, so it is there when you need it."
+       "en": "Use <s>saya</s> for yourself and <s>dia</s> for someone else; every other pattern is identical. Swap Akira, Kobe, two weeks and nasi goreng for your own answers and say it aloud a few times, so it is there when you need it.",
+       "vi": "Giới thiệu mình thì dùng <s>saya</s>, giới thiệu người khác thì dùng <s>dia</s>, các mẫu câu còn lại y hệt nhau. Thay Akira / Kobe / hai tuần / nasi goreng bằng câu trả lời của chính bạn, đọc to vài lần, đến lúc cần mở miệng sẽ không phải nghĩ."
       }
      }
     ]
@@ -4265,7 +4622,8 @@
     "sub": {
      "zh": "介绍别人",
      "ja": "人を紹介する",
-     "en": "Introducing someone else"
+     "en": "Introducing someone else",
+     "vi": "Giới thiệu người khác"
     }
    },
    {
@@ -4273,7 +4631,8 @@
     "text": {
      "zh": "把自我介绍里的 <b>saya</b> 换成 <b>dia</b>，名词后面加 <b>-nya</b>，就是介绍别人。<b>-nya</b> 是「他的」，Bab 2 还会专门讲这个词缀。",
      "ja": "自己紹介の <b>saya</b> を <b>dia</b> に替え、名詞のうしろに <b>-nya</b> をつければ、人の紹介になります。<b>-nya</b> は「その人の」の意味で、Bab 2 であらためて扱います。",
-     "en": "Swap <b>saya</b> for <b>dia</b> and hang <b>-nya</b> on the nouns, and the self-introduction becomes an introduction of someone else. <b>-nya</b> means “his/her”, and Bab 2 returns to it properly."
+     "en": "Swap <b>saya</b> for <b>dia</b> and hang <b>-nya</b> on the nouns, and the self-introduction becomes an introduction of someone else. <b>-nya</b> means “his/her”, and Bab 2 returns to it properly.",
+     "vi": "Đổi <b>saya</b> trong bài tự giới thiệu thành <b>dia</b>, rồi gắn <b>-nya</b> vào sau danh từ là thành lời giới thiệu người khác. <b>-nya</b> nghĩa là “của anh ấy / cô ấy”, Bab 2 sẽ nói riêng về hậu tố này."
     }
    },
    {
@@ -4282,7 +4641,8 @@
     "note": {
      "zh": "nama + -nya = 他的名字。同理还有 umurnya、hobinya、pekerjaannya。",
      "ja": "nama + -nya で「その人の名前」。同じように umurnya・hobinya・pekerjaannya も作れます。",
-     "en": "nama + -nya is “his/her name”. The same goes for umurnya, hobinya and pekerjaannya."
+     "en": "nama + -nya is “his/her name”. The same goes for umurnya, hobinya and pekerjaannya.",
+     "vi": "nama + -nya = tên của người đó. Tương tự còn có umurnya, hobinya, pekerjaannya."
     }
    },
    {
@@ -4291,12 +4651,14 @@
      {
       "zh": "说自己",
       "ja": "自分のこと",
-      "en": "About yourself"
+      "en": "About yourself",
+      "vi": "Nói về mình"
      },
      {
       "zh": "说别人",
       "ja": "人のこと",
-      "en": "About someone else"
+      "en": "About someone else",
+      "vi": "Nói về người khác"
      }
     ],
     "rows": [
@@ -4344,7 +4706,8 @@
     "note": {
      "zh": "<b>-nya</b> 直接黏在名词后面，写成一个词，男女通用。",
      "ja": "<b>-nya</b> は名詞に直接くっつけて一語で書きます。男女の区別はありません。",
-     "en": "<b>-nya</b> attaches straight to the noun as one word, and is the same for men and women."
+     "en": "<b>-nya</b> attaches straight to the noun as one word, and is the same for men and women.",
+     "vi": "<b>-nya</b> gắn thẳng vào sau danh từ, viết liền thành một từ, nam nữ dùng như nhau."
     }
    },
    {
@@ -4352,7 +4715,8 @@
     "title": {
      "zh": "介绍一位同事",
      "ja": "同僚を紹介する",
-     "en": "Introducing a colleague"
+     "en": "Introducing a colleague",
+     "vi": "Giới thiệu một đồng nghiệp"
     },
     "items": [
      {
@@ -4362,7 +4726,8 @@
       "gloss": {
        "zh": "介绍一下，这是我的朋友。",
        "ja": "ご紹介します。こちらはわたしの友人です。",
-       "en": "Let me introduce my friend."
+       "en": "Let me introduce my friend.",
+       "vi": "Xin giới thiệu, đây là bạn của tôi."
       },
       "alt_gloss": null,
       "kw": [
@@ -4376,7 +4741,8 @@
       "gloss": {
        "zh": "她叫 Ilfat，叫她 Mbak Ilfat 就行。",
        "ja": "名前は Ilfat、Mbak Ilfat と呼んでください。",
-       "en": "Her name is Ilfat — just call her Mbak Ilfat."
+       "en": "Her name is Ilfat — just call her Mbak Ilfat.",
+       "vi": "Cô ấy tên là Ilfat, cứ gọi là Mbak Ilfat."
       },
       "alt_gloss": null,
       "kw": [
@@ -4390,7 +4756,8 @@
       "gloss": {
        "zh": "她来自龙目岛。",
        "ja": "ロンボク島の出身です。",
-       "en": "She comes from Lombok."
+       "en": "She comes from Lombok.",
+       "vi": "Cô ấy đến từ đảo Lombok."
       },
       "alt_gloss": null,
       "kw": [
@@ -4404,7 +4771,8 @@
       "gloss": {
        "zh": "她现在住在日惹。",
        "ja": "いまはジョグジャに住んでいます。",
-       "en": "She lives in Jogja now."
+       "en": "She lives in Jogja now.",
+       "vi": "Bây giờ cô ấy sống ở Yogyakarta."
       },
       "alt_gloss": null,
       "kw": [
@@ -4418,7 +4786,8 @@
       "gloss": {
        "zh": "她也是老师。",
        "ja": "彼女も教師です。",
-       "en": "She is a teacher too."
+       "en": "She is a teacher too.",
+       "vi": "Cô ấy cũng là giáo viên."
       },
       "alt_gloss": null,
       "kw": [
@@ -4432,7 +4801,8 @@
       "gloss": {
        "zh": "她二十八岁。",
        "ja": "28 歳です。",
-       "en": "She is twenty-eight."
+       "en": "She is twenty-eight.",
+       "vi": "Cô ấy hai mươi tám tuổi."
       },
       "alt_gloss": null,
       "kw": [
@@ -4446,7 +4816,8 @@
       "gloss": {
        "zh": "她的爱好是逛街和看电影。",
        "ja": "趣味は買い物と映画鑑賞です。",
-       "en": "Her hobbies are shopping and watching films."
+       "en": "Her hobbies are shopping and watching films.",
+       "vi": "Sở thích của cô ấy là mua sắm và xem phim."
       },
       "alt_gloss": null,
       "kw": [
@@ -4460,21 +4831,24 @@
     "tag": {
      "zh": "印尼语不分他和她",
      "ja": "「彼」と「彼女」の区別がない",
-     "en": "No he and she"
+     "en": "No he and she",
+     "vi": "Tiếng Indonesia không phân biệt anh ấy và cô ấy"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>dia</s> 男女通用，<b>-nya</b> 也一样。光看 <s>Dia seorang guru</s> 判断不出性别 —— 要么靠上下文，要么直接问 <s>Dia laki-laki atau perempuan?</s>",
        "ja": "<s>dia</s> は男女どちらにも使い、<b>-nya</b> も同じです。<s>Dia seorang guru</s> だけでは性別はわかりません。文脈で判断するか、<s>Dia laki-laki atau perempuan?</s> と聞きます。",
-       "en": "<s>dia</s> covers both sexes, and so does <b>-nya</b>. <s>Dia seorang guru</s> tells you nothing about gender — you rely on context, or you ask <s>Dia laki-laki atau perempuan?</s>"
+       "en": "<s>dia</s> covers both sexes, and so does <b>-nya</b>. <s>Dia seorang guru</s> tells you nothing about gender — you rely on context, or you ask <s>Dia laki-laki atau perempuan?</s>",
+       "vi": "<s>dia</s> dùng chung cho cả nam và nữ, <b>-nya</b> cũng vậy. Chỉ nhìn <s>Dia seorang guru</s> thì không đoán được giới tính — hoặc dựa vào ngữ cảnh, hoặc hỏi thẳng <s>Dia laki-laki atau perempuan?</s>"
       }
      },
      {
       "text": {
        "zh": "<s>juga</s>（也）放在它修饰的成分前面：<s>Dia juga seorang guru</s>。",
        "ja": "<s>juga</s>（〜も）は修飾する語の前に置きます —— <s>Dia juga seorang guru</s>。",
-       "en": "<s>juga</s> (“too”) goes in front of what it modifies: <s>Dia juga seorang guru</s>."
+       "en": "<s>juga</s> (“too”) goes in front of what it modifies: <s>Dia juga seorang guru</s>.",
+       "vi": "<s>juga</s> (cũng) đứng trước thành phần mà nó bổ nghĩa: <s>Dia juga seorang guru</s>."
       }
      }
     ]
@@ -4484,14 +4858,16 @@
     "tag": {
      "zh": "两种说法都对",
      "ja": "どちらの言い方でもよい",
-     "en": "Both are fine"
+     "en": "Both are fine",
+     "vi": "Cả hai cách nói đều đúng"
     },
     "lines": [
      {
       "text": {
        "zh": "年龄可以说 <s>Umurnya dua puluh delapan tahun</s>，也可以说 <s>Dia berumur dua puluh delapan tahun</s> —— 讲义两种都用了。",
        "ja": "年齢は <s>Umurnya dua puluh delapan tahun</s> でも <s>Dia berumur dua puluh delapan tahun</s> でもかまいません。プリントは両方使っています。",
-       "en": "For age you can say either <s>Umurnya dua puluh delapan tahun</s> or <s>Dia berumur dua puluh delapan tahun</s> — the handout uses both."
+       "en": "For age you can say either <s>Umurnya dua puluh delapan tahun</s> or <s>Dia berumur dua puluh delapan tahun</s> — the handout uses both.",
+       "vi": "Nói tuổi thì có thể dùng <s>Umurnya dua puluh delapan tahun</s>, cũng có thể dùng <s>Dia berumur dua puluh delapan tahun</s> — tài liệu dùng cả hai."
       }
      }
     ]
@@ -4504,7 +4880,8 @@
     "sub": {
      "zh": "写 · 身份信息",
      "ja": "書く · 身分証の項目",
-     "en": "Writing · identity details"
+     "en": "Writing · identity details",
+     "vi": "Viết · thông tin cá nhân"
     }
    },
    {
@@ -4512,7 +4889,8 @@
     "text": {
      "zh": "印尼身份证（KTP）上的栏目。填表、办手机卡、租房、注册常会遇到这些词。",
      "ja": "インドネシアの身分証（KTP）の項目です。書類の記入、SIM カードの契約、部屋探し、登録手続きでよく出てきます。",
-     "en": "The fields on an Indonesian ID card (KTP). These words turn up on forms, when getting a SIM card, renting a room and registering for anything."
+     "en": "The fields on an Indonesian ID card (KTP). These words turn up on forms, when getting a SIM card, renting a room and registering for anything.",
+     "vi": "Các mục trên thẻ căn cước Indonesia (KTP). Điền giấy tờ, mua SIM điện thoại, thuê phòng, đăng ký thủ tục đều hay gặp những từ này."
     }
    },
    {
@@ -4524,7 +4902,8 @@
       "gloss": {
        "zh": "姓名",
        "ja": "氏名",
-       "en": "Name"
+       "en": "Name",
+       "vi": "Họ và tên"
       }
      },
      {
@@ -4533,7 +4912,8 @@
       "gloss": {
        "zh": "出生地／出生日期",
        "ja": "出生地／生年月日",
-       "en": "Place / date of birth"
+       "en": "Place / date of birth",
+       "vi": "Nơi sinh / ngày sinh"
       }
      },
      {
@@ -4542,7 +4922,8 @@
       "gloss": {
        "zh": "性别",
        "ja": "性別",
-       "en": "Sex"
+       "en": "Sex",
+       "vi": "Giới tính"
       }
      },
      {
@@ -4551,7 +4932,8 @@
       "gloss": {
        "zh": "血型",
        "ja": "血液型",
-       "en": "Blood type"
+       "en": "Blood type",
+       "vi": "Nhóm máu"
       }
      },
      {
@@ -4560,7 +4942,8 @@
       "gloss": {
        "zh": "地址",
        "ja": "住所",
-       "en": "Address"
+       "en": "Address",
+       "vi": "Địa chỉ"
       }
      },
      {
@@ -4569,7 +4952,8 @@
       "gloss": {
        "zh": "宗教",
        "ja": "宗教",
-       "en": "Religion"
+       "en": "Religion",
+       "vi": "Tôn giáo"
       }
      },
      {
@@ -4578,7 +4962,8 @@
       "gloss": {
        "zh": "婚姻状况",
        "ja": "婚姻の有無",
-       "en": "Marital status"
+       "en": "Marital status",
+       "vi": "Tình trạng hôn nhân"
       }
      },
      {
@@ -4587,7 +4972,8 @@
       "gloss": {
        "zh": "职业",
        "ja": "職業",
-       "en": "Occupation"
+       "en": "Occupation",
+       "vi": "Nghề nghiệp"
       }
      },
      {
@@ -4596,7 +4982,8 @@
       "gloss": {
        "zh": "国籍",
        "ja": "国籍",
-       "en": "Nationality"
+       "en": "Nationality",
+       "vi": "Quốc tịch"
       }
      }
     ]
@@ -4606,7 +4993,8 @@
     "title": {
      "zh": "照身份证写一段介绍 · contoh",
      "ja": "身分証をもとに紹介文を書く · contoh",
-     "en": "An introduction written from an ID card · contoh"
+     "en": "An introduction written from an ID card · contoh",
+     "vi": "Viết đoạn giới thiệu theo thẻ căn cước · contoh"
     },
     "items": [
      {
@@ -4616,7 +5004,8 @@
       "gloss": {
        "zh": "我叫 Slamet Sujoko。",
        "ja": "わたしは Slamet Sujoko です。",
-       "en": "My name is Slamet Sujoko."
+       "en": "My name is Slamet Sujoko.",
+       "vi": "Tôi tên là Slamet Sujoko."
       },
       "alt_gloss": null,
       "kw": [
@@ -4630,7 +5019,8 @@
       "gloss": {
        "zh": "我从中爪哇的库杜斯来。",
        "ja": "中部ジャワのクドゥスから来ました。",
-       "en": "I'm from Kudus, Central Java."
+       "en": "I'm from Kudus, Central Java.",
+       "vi": "Tôi đến từ Kudus, Trung Java."
       },
       "alt_gloss": null,
       "kw": [
@@ -4644,7 +5034,8 @@
       "gloss": {
        "zh": "我 1978 年 5 月 17 日生于库杜斯。",
        "ja": "1978 年 5 月 17 日にクドゥスで生まれました。",
-       "en": "I was born in Kudus on 17 May 1978."
+       "en": "I was born in Kudus on 17 May 1978.",
+       "vi": "Tôi sinh ngày 17 tháng 5 năm 1978 tại Kudus."
       },
       "alt_gloss": null,
       "kw": [
@@ -4659,7 +5050,8 @@
       "gloss": {
        "zh": "我是私企职员。",
        "ja": "民間企業の会社員です。",
-       "en": "I'm a private-sector employee."
+       "en": "I'm a private-sector employee.",
+       "vi": "Tôi là nhân viên doanh nghiệp tư nhân."
       },
       "alt_gloss": null,
       "kw": [
@@ -4673,7 +5065,8 @@
       "gloss": {
        "zh": "我住在库杜斯的 Wergu Wetan。",
        "ja": "クドゥスの Wergu Wetan に住んでいます。",
-       "en": "I live in Wergu Wetan, Kudus."
+       "en": "I live in Wergu Wetan, Kudus.",
+       "vi": "Tôi sống ở Wergu Wetan, Kudus."
       },
       "alt_gloss": null,
       "kw": [
@@ -4688,7 +5081,8 @@
       "gloss": {
        "zh": "我信伊斯兰教。",
        "ja": "宗教はイスラム教です。",
-       "en": "My religion is Islam."
+       "en": "My religion is Islam.",
+       "vi": "Tôn giáo của tôi là Hồi giáo."
       },
       "alt_gloss": null,
       "kw": [
@@ -4702,7 +5096,8 @@
       "gloss": {
        "zh": "我是 B 型血。",
        "ja": "血液型は B 型です。",
-       "en": "My blood type is B."
+       "en": "My blood type is B.",
+       "vi": "Nhóm máu của tôi là B."
       },
       "alt_gloss": null,
       "kw": [
@@ -4717,7 +5112,8 @@
       "gloss": {
        "zh": "我是印尼公民。",
        "ja": "インドネシア国民です。",
-       "en": "I'm an Indonesian citizen."
+       "en": "I'm an Indonesian citizen.",
+       "vi": "Tôi là công dân Indonesia."
       },
       "alt_gloss": null,
       "kw": [
@@ -4732,14 +5128,16 @@
     "tag": {
      "zh": "笔误修正",
      "ja": "誤植の訂正",
-     "en": "Typo corrected"
+     "en": "Typo corrected",
+     "vi": "Sửa lỗi in"
     },
     "lines": [
      {
       "text": {
        "zh": "课本第 9 页范文写的是「Saya tinggal di <s>Wegu</s> Wetan」，但同一页身份证图上印的是 <b>WERGU WETAN</b>。地名是 Wergu Wetan（库杜斯的一个区），App 里已按正确拼写。",
        "ja": "教科書 9 ページの例文は「Saya tinggal di <s>Wegu</s> Wetan」となっていますが、同じページの身分証の画像には <b>WERGU WETAN</b> と印刷されています。地名は Wergu Wetan（クドゥスの一地区）です。アプリでは正しいつづりに直してあります。",
-       "en": "On page 9 the model text reads «Saya tinggal di <s>Wegu</s> Wetan», but the ID card pictured on the same page shows <b>WERGU WETAN</b>. The place is Wergu Wetan, a district of Kudus; the app uses the correct spelling."
+       "en": "On page 9 the model text reads «Saya tinggal di <s>Wegu</s> Wetan», but the ID card pictured on the same page shows <b>WERGU WETAN</b>. The place is Wergu Wetan, a district of Kudus; the app uses the correct spelling.",
+       "vi": "Bài mẫu ở trang 9 của sách viết “Saya tinggal di <s>Wegu</s> Wetan”, nhưng ảnh chứng minh thư in ngay trang đó lại ghi <b>WERGU WETAN</b>. Địa danh đúng là Wergu Wetan, một quận của Kudus; app dùng cách viết đúng."
       }
      }
     ]
@@ -4752,7 +5150,8 @@
     "sub": {
      "zh": "练习 · 采访同学",
      "ja": "練習 · インタビュー",
-     "en": "Practice and the interview"
+     "en": "Practice and the interview",
+     "vi": "Luyện tập · Phỏng vấn bạn học"
     }
    },
    {
@@ -4760,7 +5159,8 @@
     "text": {
      "zh": "讲义最后两项是课堂任务：先填自己的资料上台介绍，再找一个同学做采访、替他向全班介绍。下面把要用的句子整理成填空和问答，先在这儿过一遍，上课就不慌了。",
      "ja": "プリントの最後の二項目は教室での課題です。まず自分の情報を書き込んで前で自己紹介し、つぎにクラスメイトにインタビューして、その人を紹介します。使う文を穴埋めと問答にまとめました。ここで一度通しておけば、授業で困りません。",
-     "en": "The last two items on the handout are classroom tasks: fill in your own details and introduce yourself at the front, then interview a classmate and introduce them to the group. The sentences you will need are set out below as gap-fills and question-and-answer pairs — run through them once here and the class itself is easy."
+     "en": "The last two items on the handout are classroom tasks: fill in your own details and introduce yourself at the front, then interview a classmate and introduce them to the group. The sentences you will need are set out below as gap-fills and question-and-answer pairs — run through them once here and the class itself is easy.",
+     "vi": "Hai mục cuối của tài liệu là bài tập trên lớp: trước hết điền thông tin của mình rồi lên bảng tự giới thiệu, sau đó phỏng vấn một bạn học và giới thiệu bạn ấy với cả lớp. Những câu cần dùng được sắp thành bài điền từ và hỏi đáp ở dưới; luyện qua một lượt ở đây thì vào lớp sẽ không lúng túng."
     }
    },
    {
@@ -4768,7 +5168,8 @@
     "title": {
      "zh": "补上缺的那个词",
      "ja": "抜けている語を入れる",
-     "en": "Fill in the missing word"
+     "en": "Fill in the missing word",
+     "vi": "Điền từ còn thiếu"
     },
     "items": [
      {
@@ -4779,7 +5180,8 @@
       "gloss": {
        "zh": "容我介绍一下，我叫 Ilfat。",
        "ja": "ご紹介します。名前は Ilfat です。",
-       "en": "Let me introduce myself — my name is Ilfat."
+       "en": "Let me introduce myself — my name is Ilfat.",
+       "vi": "Xin phép giới thiệu, tôi tên là Ilfat."
       }
      },
      {
@@ -4790,7 +5192,8 @@
       "gloss": {
        "zh": "我二十岁。",
        "ja": "わたしは 20 歳です。",
-       "en": "I'm twenty years old."
+       "en": "I'm twenty years old.",
+       "vi": "Tôi hai mươi tuổi."
       }
      },
      {
@@ -4801,7 +5204,8 @@
       "gloss": {
        "zh": "我是大学生。",
        "ja": "わたしは大学生です。",
-       "en": "I'm a university student."
+       "en": "I'm a university student.",
+       "vi": "Tôi là sinh viên."
       }
      },
      {
@@ -4812,7 +5216,8 @@
       "gloss": {
        "zh": "我的爱好是读书。",
        "ja": "趣味は読書です。",
-       "en": "My hobby is reading."
+       "en": "My hobby is reading.",
+       "vi": "Sở thích của tôi là đọc sách."
       }
      },
      {
@@ -4823,7 +5228,8 @@
       "gloss": {
        "zh": "这是我朋友，她叫 Ilfat。",
        "ja": "こちらはわたしの友人で、名前は Ilfat です。",
-       "en": "This is my friend; her name is Ilfat."
+       "en": "This is my friend; her name is Ilfat.",
+       "vi": "Đây là bạn tôi, cô ấy tên là Ilfat."
       }
      },
      {
@@ -4834,7 +5240,8 @@
       "gloss": {
        "zh": "她来自龙目岛。",
        "ja": "ロンボク島の出身です。",
-       "en": "She comes from Lombok."
+       "en": "She comes from Lombok.",
+       "vi": "Cô ấy đến từ đảo Lombok."
       }
      }
     ]
@@ -4844,7 +5251,8 @@
     "title": {
      "zh": "采访同学 · Wawancara",
      "ja": "インタビュー · Wawancara",
-     "en": "The interview · Wawancara"
+     "en": "The interview · Wawancara",
+     "vi": "Phỏng vấn bạn học · Wawancara"
     },
     "items": [
      {
@@ -4944,7 +5352,8 @@
     "title": {
      "zh": "想一想怎么说",
      "ja": "どう言うか考えてみる",
-     "en": "Work out how to say it"
+     "en": "Work out how to say it",
+     "vi": "Thử nghĩ xem nói thế nào"
     },
     "items": [
      {
@@ -4953,7 +5362,8 @@
        "text": {
         "zh": "请问您叫什么名字？",
         "ja": "お名前は何ですか。",
-        "en": "What is your name?"
+        "en": "What is your name?",
+        "vi": "Xin hỏi bạn tên là gì?"
        }
       },
       "answer": {
@@ -4971,7 +5381,8 @@
        "text": {
         "zh": "我三十岁。",
         "ja": "わたしは 30 歳です。",
-        "en": "I'm thirty years old."
+        "en": "I'm thirty years old.",
+        "vi": "Tôi ba mươi tuổi."
        }
       },
       "answer": {
@@ -4989,7 +5400,8 @@
        "text": {
         "zh": "她也是老师。",
         "ja": "彼女も教師です。",
-        "en": "She is a teacher too."
+        "en": "She is a teacher too.",
+        "vi": "Cô ấy cũng là giáo viên."
        }
       },
       "answer": {
@@ -5007,7 +5419,8 @@
        "text": {
         "zh": "他的爱好是做饭。",
         "ja": "その人の趣味は料理です。",
-        "en": "Their hobby is cooking."
+        "en": "Their hobby is cooking.",
+        "vi": "Sở thích của anh ấy là nấu ăn."
        }
       },
       "answer": {
@@ -5025,7 +5438,8 @@
        "text": {
         "zh": "很高兴见到各位。",
         "ja": "みなさんにお会いできてうれしいです。",
-        "en": "Pleased to meet you all."
+        "en": "Pleased to meet you all.",
+        "vi": "Rất vui được gặp mọi người."
        }
       },
       "answer": {
@@ -5044,28 +5458,32 @@
     "tag": {
      "zh": "笔误修正",
      "ja": "誤りの訂正",
-     "en": "Corrections"
+     "en": "Corrections",
+     "vi": "Sửa lỗi in"
     },
     "lines": [
      {
       "text": {
        "zh": "讲义第 7 项写的是 <b>Silahkan</b>，规范拼法是 <b>Silakan</b>（<s>silakan</s>）。日常里两种写法都能见到，考试和正式文书用 <b>Silakan</b>。",
        "ja": "プリントの第 7 項は <b>Silahkan</b> と書かれていますが、規範的なつづりは <b>Silakan</b>（<s>silakan</s>）です。日常では両方見かけますが、試験や公式文書では <b>Silakan</b> を使います。",
-       "en": "Item 7 of the handout writes <b>Silahkan</b>; the standard spelling is <b>Silakan</b> (<s>silakan</s>). Both turn up in everyday writing, but exams and official documents want <b>Silakan</b>."
+       "en": "Item 7 of the handout writes <b>Silahkan</b>; the standard spelling is <b>Silakan</b> (<s>silakan</s>). Both turn up in everyday writing, but exams and official documents want <b>Silakan</b>.",
+       "vi": "Mục 7 của tài liệu viết <b>Silahkan</b>; cách viết chuẩn là <b>Silakan</b> (<s>silakan</s>). Trong đời thường gặp cả hai cách, nhưng bài thi và văn bản chính thức dùng <b>Silakan</b>."
       }
      },
      {
       "text": {
        "zh": "讲义的 <s>Umur kamu berapa?</s> 是口语顺序，完全没问题；书面和正式场合更常见的是 <s>Berapa umur Anda?</s>。",
        "ja": "プリントの <s>Umur kamu berapa?</s> は話しことばの語順で、問題ありません。書きことばやあらたまった場面では <s>Berapa umur Anda?</s> のほうがふつうです。",
-       "en": "The handout's <s>Umur kamu berapa?</s> is the spoken word order and is perfectly good; writing and formal speech prefer <s>Berapa umur Anda?</s>."
+       "en": "The handout's <s>Umur kamu berapa?</s> is the spoken word order and is perfectly good; writing and formal speech prefer <s>Berapa umur Anda?</s>.",
+       "vi": "Câu <s>Umur kamu berapa?</s> trong tài liệu là trật tự của văn nói, hoàn toàn ổn; văn viết và những dịp trang trọng thường dùng <s>Berapa umur Anda?</s> hơn."
       }
      },
      {
       "text": {
        "zh": "采访表里 <s>Siapa nama kamu?</s> 和 <s>Siapa nama Anda?</s> 差的是语体：<b>kamu</b> 对同学，<b>Anda</b> 对老师和不熟的人。",
        "ja": "インタビュー表の <s>Siapa nama kamu?</s> と <s>Siapa nama Anda?</s> の違いは語体です。<b>kamu</b> は友だちに、<b>Anda</b> は先生や親しくない相手に。",
-       "en": "In the interview table, <s>Siapa nama kamu?</s> and <s>Siapa nama Anda?</s> differ in register: <b>kamu</b> for classmates, <b>Anda</b> for teachers and people you do not know."
+       "en": "In the interview table, <s>Siapa nama kamu?</s> and <s>Siapa nama Anda?</s> differ in register: <b>kamu</b> for classmates, <b>Anda</b> for teachers and people you do not know.",
+       "vi": "Trong bảng phỏng vấn, <s>Siapa nama kamu?</s> và <s>Siapa nama Anda?</s> khác nhau ở mức độ trang trọng: <b>kamu</b> dùng với bạn học, <b>Anda</b> dùng với giáo viên và người chưa quen."
       }
      }
     ]
@@ -5075,12 +5493,14 @@
     "tag": {
      "zh": "课堂任务",
      "ja": "教室での課題",
-     "en": "Your task in class"
+     "en": "Your task in class",
+     "vi": "Nhiệm vụ trên lớp"
     },
     "text": {
      "zh": "填好自己的五件事，上台念一遍；然后找一个同学，用上面五个问题采访他，把答案记下来，再替他向全班介绍一遍。",
      "ja": "自分の五項目を書き込んで、前で言ってみましょう。つぎにクラスメイトを一人つかまえ、上の五つの質問でインタビューし、答えをメモして、その人をクラスに紹介します。",
-     "en": "Fill in your own five slots and say them at the front. Then find one classmate, put the five questions above to them, note the answers down, and introduce them to the class."
+     "en": "Fill in your own five slots and say them at the front. Then find one classmate, put the five questions above to them, note the answers down, and introduce them to the class.",
+     "vi": "Điền năm thông tin của mình rồi lên bảng đọc một lượt; sau đó tìm một bạn học, dùng năm câu hỏi ở trên để phỏng vấn, ghi lại câu trả lời, rồi giới thiệu bạn ấy với cả lớp."
     }
    }
   ],
@@ -5091,7 +5511,8 @@
     "sub": {
      "zh": "印尼常识 · 名字与问候",
      "ja": "インドネシア豆知識 · 名前とあいさつ",
-     "en": "About Indonesia · names and greetings"
+     "en": "About Indonesia · names and greetings",
+     "vi": "Kiến thức về Indonesia · tên gọi và lời chào"
     }
    },
    {
@@ -5099,7 +5520,8 @@
     "text": {
      "zh": "印尼名字常常能看出一个人来自哪个族群、信什么教。知道这一点，第一次见面就能少猜几次。",
      "ja": "インドネシアの名前からは、その人がどの民族の出身か、どの宗教を信じているかが見えてくることがよくあります。これを知っておくと、初対面で当てずっぽうをしなくてすみます。",
-     "en": "An Indonesian name often tells you which ethnic group someone comes from and which religion they follow. Knowing this saves a good deal of guessing at a first meeting."
+     "en": "An Indonesian name often tells you which ethnic group someone comes from and which religion they follow. Knowing this saves a good deal of guessing at a first meeting.",
+     "vi": "Tên người Indonesia thường cho biết người đó thuộc dân tộc nào và theo tôn giáo nào. Biết điều này thì lần đầu gặp nhau bạn sẽ đỡ phải đoán."
     }
    },
    {
@@ -5108,12 +5530,14 @@
      {
       "zh": "族群 · 地区",
       "ja": "民族 · 地域",
-      "en": "Group · region"
+      "en": "Group · region",
+      "vi": "Dân tộc · vùng"
      },
      {
       "zh": "常见名字",
       "ja": "よくある名前",
-      "en": "Typical names"
+      "en": "Typical names",
+      "vi": "Tên thường gặp"
      }
     ],
     "rows": [
@@ -5122,14 +5546,16 @@
        "text": {
         "zh": "巴厘 <s>Bali</s>",
         "ja": "バリ <s>Bali</s>",
-        "en": "<s>Bali</s>"
+        "en": "<s>Bali</s>",
+        "vi": "<s>Bali</s>"
        }
       },
       {
        "text": {
         "zh": "<s>Wayan</s> · <s>Nyoman</s> · <s>Made</s> · <s>Ni</s>",
         "ja": "<s>Wayan</s> · <s>Nyoman</s> · <s>Made</s> · <s>Ni</s>",
-        "en": "<s>Wayan</s> · <s>Nyoman</s> · <s>Made</s> · <s>Ni</s>"
+        "en": "<s>Wayan</s> · <s>Nyoman</s> · <s>Made</s> · <s>Ni</s>",
+        "vi": "<s>Wayan</s> · <s>Nyoman</s> · <s>Made</s> · <s>Ni</s>"
        }
       }
      ],
@@ -5138,14 +5564,16 @@
        "text": {
         "zh": "爪哇 <s>Jawa</s>",
         "ja": "ジャワ <s>Jawa</s>",
-        "en": "<s>Jawa</s>"
+        "en": "<s>Jawa</s>",
+        "vi": "Java <s>Jawa</s>"
        }
       },
       {
        "text": {
         "zh": "<s>Slamet</s> · <s>Pujo</s> · <s>Suharto</s> · <s>Sri</s> · <s>Endang</s> · <s>Joko</s>",
         "ja": "<s>Slamet</s> · <s>Pujo</s> · <s>Suharto</s> · <s>Sri</s> · <s>Endang</s> · <s>Joko</s>",
-        "en": "<s>Slamet</s> · <s>Pujo</s> · <s>Suharto</s> · <s>Sri</s> · <s>Endang</s> · <s>Joko</s>"
+        "en": "<s>Slamet</s> · <s>Pujo</s> · <s>Suharto</s> · <s>Sri</s> · <s>Endang</s> · <s>Joko</s>",
+        "vi": "<s>Slamet</s> · <s>Pujo</s> · <s>Suharto</s> · <s>Sri</s> · <s>Endang</s> · <s>Joko</s>"
        }
       }
      ],
@@ -5154,14 +5582,16 @@
        "text": {
         "zh": "巽他 <s>Sunda</s>",
         "ja": "スンダ <s>Sunda</s>",
-        "en": "<s>Sunda</s>"
+        "en": "<s>Sunda</s>",
+        "vi": "<s>Sunda</s>"
        }
       },
       {
        "text": {
         "zh": "<s>Asep</s> · <s>Ujang</s> · <s>Elis</s> · <s>Iin</s>",
         "ja": "<s>Asep</s> · <s>Ujang</s> · <s>Elis</s> · <s>Iin</s>",
-        "en": "<s>Asep</s> · <s>Ujang</s> · <s>Elis</s> · <s>Iin</s>"
+        "en": "<s>Asep</s> · <s>Ujang</s> · <s>Elis</s> · <s>Iin</s>",
+        "vi": "<s>Asep</s> · <s>Ujang</s> · <s>Elis</s> · <s>Iin</s>"
        }
       }
      ],
@@ -5170,14 +5600,16 @@
        "text": {
         "zh": "巴塔克 <s>Batak</s>",
         "ja": "バタック <s>Batak</s>",
-        "en": "<s>Batak</s>"
+        "en": "<s>Batak</s>",
+        "vi": "<s>Batak</s>"
        }
       },
       {
        "text": {
         "zh": "<s>Togar</s> · <s>Luhut</s> · <s>Duma</s> · <s>Tiar</s>",
         "ja": "<s>Togar</s> · <s>Luhut</s> · <s>Duma</s> · <s>Tiar</s>",
-        "en": "<s>Togar</s> · <s>Luhut</s> · <s>Duma</s> · <s>Tiar</s>"
+        "en": "<s>Togar</s> · <s>Luhut</s> · <s>Duma</s> · <s>Tiar</s>",
+        "vi": "<s>Togar</s> · <s>Luhut</s> · <s>Duma</s> · <s>Tiar</s>"
        }
       }
      ],
@@ -5186,14 +5618,16 @@
        "text": {
         "zh": "带宗教色彩的名字",
         "ja": "宗教に由来する名前",
-        "en": "Religious names"
+        "en": "Religious names",
+        "vi": "Tên theo tôn giáo"
        }
       },
       {
        "text": {
         "zh": "<s>Siti</s> · <s>Ahmad</s>（伊斯兰）· <s>Josep</s> · <s>Markus</s>（基督教）",
         "ja": "<s>Siti</s> · <s>Ahmad</s>（イスラム）· <s>Josep</s> · <s>Markus</s>（キリスト教）",
-        "en": "<s>Siti</s> · <s>Ahmad</s> (Islamic) · <s>Josep</s> · <s>Markus</s> (Christian)"
+        "en": "<s>Siti</s> · <s>Ahmad</s> (Islamic) · <s>Josep</s> · <s>Markus</s> (Christian)",
+        "vi": "<s>Siti</s> · <s>Ahmad</s> (Hồi giáo) · <s>Josep</s> · <s>Markus</s> (Kitô giáo)"
        }
       }
      ]
@@ -5201,7 +5635,8 @@
     "note": {
      "zh": "巽他人住在西爪哇，巴塔克人住在北苏门答腊。词尾能看出性别：<b>-man</b>、<b>-wan</b> 多是男名（Hermawan、Suparman），<b>-wati</b> 多是女名（Hermawati、Ratnawati）。",
      "ja": "スンダの人びとは西ジャワに、バタックの人びとは北スマトラに住んでいます。語尾から性別が見えることがあります。<b>-man</b>・<b>-wan</b> は男性名に多く（Hermawan、Suparman）、<b>-wati</b> は女性名に多い（Hermawati、Ratnawati）です。",
-     "en": "The Sunda live in West Java and the Batak in North Sumatra. The ending often marks gender: <b>-man</b> and <b>-wan</b> tend to be men's names (Hermawan, Suparman), <b>-wati</b> women's (Hermawati, Ratnawati)."
+     "en": "The Sunda live in West Java and the Batak in North Sumatra. The ending often marks gender: <b>-man</b> and <b>-wan</b> tend to be men's names (Hermawan, Suparman), <b>-wati</b> women's (Hermawati, Ratnawati).",
+     "vi": "Người Sunda sống ở Tây Java, người Batak ở Bắc Sumatra. Đuôi tên thường cho biết giới tính: <b>-man</b> và <b>-wan</b> hay là tên nam (Hermawan, Suparman), <b>-wati</b> hay là tên nữ (Hermawati, Ratnawati)."
     }
    },
    {
@@ -5209,7 +5644,8 @@
     "text": {
      "zh": "各宗教的问候语 · ungkapan salam",
      "ja": "宗教ごとのあいさつ · ungkapan salam",
-     "en": "Greetings by religion · ungkapan salam"
+     "en": "Greetings by religion · ungkapan salam",
+     "vi": "Lời chào theo từng tôn giáo · ungkapan salam"
     }
    },
    {
@@ -5218,12 +5654,14 @@
      {
       "zh": "问候语",
       "ja": "あいさつ",
-      "en": "Greeting"
+      "en": "Greeting",
+      "vi": "Lời chào"
      },
      {
       "zh": "属于哪个宗教",
       "ja": "どの宗教のもの",
-      "en": "Which religion"
+      "en": "Which religion",
+      "vi": "Thuộc tôn giáo nào"
      }
     ],
     "rows": [
@@ -5236,7 +5674,8 @@
        "text": {
         "zh": "伊斯兰教",
         "ja": "イスラム教",
-        "en": "Islam"
+        "en": "Islam",
+        "vi": "Hồi giáo"
        }
       }
      ],
@@ -5249,7 +5688,8 @@
        "text": {
         "zh": "通用（正式场合、官方讲话常用）",
         "ja": "共通（式典や公式のあいさつでよく使う）",
-        "en": "General (common in formal and official speech)"
+        "en": "General (common in formal and official speech)",
+        "vi": "Dùng chung (hay gặp trong dịp trang trọng, phát biểu chính thức)"
        }
       }
      ],
@@ -5262,7 +5702,8 @@
        "text": {
         "zh": "基督教",
         "ja": "キリスト教",
-        "en": "Christianity"
+        "en": "Christianity",
+        "vi": "Kitô giáo"
        }
       }
      ],
@@ -5275,7 +5716,8 @@
        "text": {
         "zh": "印度教（巴厘）",
         "ja": "ヒンドゥー教（バリ）",
-        "en": "Hinduism (Bali)"
+        "en": "Hinduism (Bali)",
+        "vi": "Ấn Độ giáo (Bali)"
        }
       }
      ],
@@ -5288,7 +5730,8 @@
        "text": {
         "zh": "佛教",
         "ja": "仏教",
-        "en": "Buddhism"
+        "en": "Buddhism",
+        "vi": "Phật giáo"
        }
       }
      ],
@@ -5301,7 +5744,8 @@
        "text": {
         "zh": "孔教",
         "ja": "儒教",
-        "en": "Confucianism"
+        "en": "Confucianism",
+        "vi": "Khổng giáo"
        }
       }
      ]
@@ -5309,7 +5753,8 @@
     "note": {
      "zh": "官方讲话常常把这几句<b>连着念一遍</b>，表示照顾到所有宗教。你自己用的话，跟着对方说、或者用中性的 <b>Selamat pagi</b> 最稳妥。",
      "ja": "公式のあいさつでは、これらを<b>続けて全部読み上げる</b>ことがよくあります。すべての宗教に配慮するためです。自分で使うときは相手に合わせるか、中立的な <b>Selamat pagi</b> にしておくのが無難です。",
-     "en": "In official speeches these are often <b>read out one after another</b>, so that every religion is addressed. For your own use, follow whatever the other person says, or stay with the neutral <b>Selamat pagi</b>."
+     "en": "In official speeches these are often <b>read out one after another</b>, so that every religion is addressed. For your own use, follow whatever the other person says, or stay with the neutral <b>Selamat pagi</b>.",
+     "vi": "Trong các bài phát biểu chính thức, người ta thường <b>đọc liền một mạch</b> tất cả những câu này, để không bỏ sót tôn giáo nào. Còn bạn thì cứ chào lại theo cách người kia chào, hoặc dùng câu trung tính <b>Selamat pagi</b> là an toàn nhất."
     }
    },
    {

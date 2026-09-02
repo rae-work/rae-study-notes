@@ -5,7 +5,8 @@
  "name": {
   "zh": "教室与身边的东西",
   "ja": "教室と身のまわりのもの",
-  "en": "The classroom and things around you"
+  "en": "The classroom and things around you",
+  "vi": "Lớp học và những thứ quanh bạn"
  },
  "pages": [
   [
@@ -15,7 +16,8 @@
     "sub": {
      "zh": "教室与身边的东西",
      "ja": "教室と身のまわりのもの",
-     "en": "The classroom and things around you"
+     "en": "The classroom and things around you",
+     "vi": "Lớp học và những thứ quanh bạn"
     }
    },
    {
@@ -23,7 +25,8 @@
     "text": {
      "zh": "这一章围绕教室转：桌椅、书本、笔和地图怎么说，课堂上要用的固定说法，以及两件语法 —— 「这个 / 那个」和「谁的」。",
      "ja": "この章のテーマは教室です。机やいす、本、ペン、地図の言い方、授業で使う決まった表現、そして文法が二つ ——「これ／あれ」と「だれの」。",
-     "en": "This chapter is about the classroom: what to call the desks, books, pens and maps; the set phrases you need in class; and two pieces of grammar — “this / that” and “whose”."
+     "en": "This chapter is about the classroom: what to call the desks, books, pens and maps; the set phrases you need in class; and two pieces of grammar — “this / that” and “whose”.",
+     "vi": "Bài này xoay quanh lớp học: gọi tên bàn ghế, sách vở, bút và bản đồ; những câu cố định dùng trong giờ học; và hai điểm ngữ pháp — “cái này / cái kia” và “của ai”."
     }
    },
    {
@@ -31,7 +34,8 @@
     "text": {
      "zh": "学完这一章",
      "ja": "この章を終えると",
-     "en": "By the end of this chapter"
+     "en": "By the end of this chapter",
+     "vi": "Học xong bài này"
     }
    },
    {
@@ -40,42 +44,48 @@
     "tag": {
      "zh": "课本列的目标",
      "ja": "教科書が挙げる目標",
-     "en": "The book's objectives"
+     "en": "The book's objectives",
+     "vi": "Mục tiêu sách giáo khoa nêu ra"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>听</b>　听得出跟身边物品有关的简单词和短语。",
        "ja": "<b>聞く</b>　身のまわりの物に関する簡単な語や句を聞き取る。",
-       "en": "<b>Listening</b>　Recognise simple words and phrases about everyday objects."
+       "en": "<b>Listening</b>　Recognise simple words and phrases about everyday objects.",
+       "vi": "<b>Nghe</b>　Nhận ra được những từ và cụm từ đơn giản về đồ vật xung quanh."
       }
      },
      {
       "text": {
        "zh": "<b>读</b>　读懂跟身边物品有关的简短文章。",
        "ja": "<b>読む</b>　身のまわりの物に関する短く簡単な文章を理解する。",
-       "en": "<b>Reading</b>　Understand short, simple texts about everyday objects."
+       "en": "<b>Reading</b>　Understand short, simple texts about everyday objects.",
+       "vi": "<b>Đọc</b>　Hiểu được những đoạn văn ngắn, đơn giản về đồ vật xung quanh."
       }
      },
      {
       "text": {
        "zh": "<b>词汇</b>　会用身边物品的词和课堂用语；会用指示词 <s>ini</s> 和 <s>itu</s>。",
        "ja": "<b>語彙</b>　身のまわりの物の語彙と教室で使う表現を使う。指示詞 <s>ini</s>・<s>itu</s> を使う。",
-       "en": "<b>Vocabulary</b>　Use everyday-object words and classroom expressions; use <s>ini</s> and <s>itu</s>."
+       "en": "<b>Vocabulary</b>　Use everyday-object words and classroom expressions; use <s>ini</s> and <s>itu</s>.",
+       "vi": "<b>Từ vựng</b>　Dùng được từ chỉ đồ vật xung quanh và các cách nói trong lớp; dùng được đại từ chỉ định <s>ini</s> và <s>itu</s>."
       }
      },
      {
       "text": {
        "zh": "<b>语法</b>　会用两个成分的领属短语；会用所有格后缀 <b>-ku</b>、<b>-mu</b>、<b>-nya</b>。",
        "ja": "<b>文法</b>　二つの要素からなる所有句を使う。所有の接尾辞 <b>-ku</b>・<b>-mu</b>・<b>-nya</b> を使う。",
-       "en": "<b>Grammar</b>　Use two-part possessive phrases and the suffixes <b>-ku</b>, <b>-mu</b>, <b>-nya</b>."
+       "en": "<b>Grammar</b>　Use two-part possessive phrases and the suffixes <b>-ku</b>, <b>-mu</b>, <b>-nya</b>.",
+       "vi": "<b>Ngữ pháp</b>　Dùng được cụm sở hữu gồm hai thành phần; dùng được hậu tố sở hữu <b>-ku</b>, <b>-mu</b>, <b>-nya</b>."
       }
      },
      {
       "text": {
        "zh": "<b>说 · 写</b>　用简单的句子说出、写出身边的物品（写 15–25 个词）。",
        "ja": "<b>話す・書く</b>　身のまわりの物について簡単な文で述べ、15〜25 語で書く。",
-       "en": "<b>Speaking · Writing</b>　Describe objects around you in simple sentences (15–25 words in writing)."
+       "en": "<b>Speaking · Writing</b>　Describe objects around you in simple sentences (15–25 words in writing).",
+       "vi": "<b>Nói · Viết</b>　Nói và viết về đồ vật xung quanh bằng những câu đơn giản (bài viết 15–25 từ)."
       }
      }
     ]
@@ -86,14 +96,16 @@
     "tag": {
      "zh": "笔误修正",
      "ja": "誤植の訂正",
-     "en": "Typo fixed"
+     "en": "Typo fixed",
+     "vi": "Sửa lỗi in"
     },
     "lines": [
      {
       "text": {
        "zh": "课本第 11 页把三个所有格后缀印成了「-ku, -mu, nya」—— 第三个漏了连字符。同一本书第 17 页写的是 <b>-nya</b>，那个才对。三个后缀一律带连字符。",
        "ja": "教科書 11 ページでは所有の接尾辞が「-ku, -mu, nya」と印刷されていて、三つめのハイフンが抜けています。同じ本の 17 ページでは <b>-nya</b> となっており、そちらが正しい形です。三つとも必ずハイフンをつけます。",
-       "en": "On page 11 the book prints the three possessive suffixes as “-ku, -mu, nya” — the third one has lost its hyphen. Page 17 of the same book has <b>-nya</b>, which is correct. All three always take a hyphen."
+       "en": "On page 11 the book prints the three possessive suffixes as “-ku, -mu, nya” — the third one has lost its hyphen. Page 17 of the same book has <b>-nya</b>, which is correct. All three always take a hyphen.",
+       "vi": "Trang 11 của sách in ba hậu tố sở hữu thành “-ku, -mu, nya” — cái thứ ba mất dấu gạch nối. Cũng trong sách đó, trang 17 viết <b>-nya</b>, đấy mới đúng. Cả ba hậu tố đều luôn có dấu gạch nối."
       }
      }
     ]
@@ -106,7 +118,8 @@
     "sub": {
      "zh": "身边的东西",
      "ja": "身のまわりのもの",
-     "en": "Things around you"
+     "en": "Things around you",
+     "vi": "Đồ vật xung quanh"
     }
    },
    {
@@ -114,7 +127,8 @@
     "text": {
      "zh": "课本这一栏用照片配词，一共二十个。点词就能听发音。",
      "ja": "この節は写真と語を並べたもので、全部で二十語です。語をタップすると読み上げます。",
-     "en": "The book pairs each of these twenty words with a photo. Tap a word to hear it."
+     "en": "The book pairs each of these twenty words with a photo. Tap a word to hear it.",
+     "vi": "Mục này trong sách ghép mỗi từ với một tấm ảnh, tất cả hai mươi từ. Chạm vào từ để nghe cách đọc."
     }
    },
    {
@@ -125,7 +139,8 @@
     "gloss": {
      "zh": "桌上的",
      "ja": "机の上のもの",
-     "en": "on the desk"
+     "en": "on the desk",
+     "vi": "trên bàn"
     }
    },
    {
@@ -137,7 +152,8 @@
       "gloss": {
        "zh": "书",
        "ja": "本",
-       "en": "book"
+       "en": "book",
+       "vi": "sách"
       }
      },
      {
@@ -146,7 +162,8 @@
       "gloss": {
        "zh": "词典",
        "ja": "辞書",
-       "en": "dictionary"
+       "en": "dictionary",
+       "vi": "từ điển"
       }
      },
      {
@@ -155,7 +172,8 @@
       "gloss": {
        "zh": "铅笔",
        "ja": "鉛筆",
-       "en": "pencil"
+       "en": "pencil",
+       "vi": "bút chì"
       }
      },
      {
@@ -164,7 +182,8 @@
       "gloss": {
        "zh": "圆珠笔",
        "ja": "ボールペン",
-       "en": "ballpoint pen"
+       "en": "ballpoint pen",
+       "vi": "bút bi"
       }
      },
      {
@@ -173,7 +192,8 @@
       "gloss": {
        "zh": "尺子",
        "ja": "定規",
-       "en": "ruler"
+       "en": "ruler",
+       "vi": "thước kẻ"
       }
      },
      {
@@ -182,7 +202,8 @@
       "gloss": {
        "zh": "包",
        "ja": "かばん",
-       "en": "bag"
+       "en": "bag",
+       "vi": "túi, cặp"
       }
      }
     ]
@@ -195,7 +216,8 @@
     "gloss": {
      "zh": "教室里的",
      "ja": "教室にあるもの",
-     "en": "in the classroom"
+     "en": "in the classroom",
+     "vi": "trong lớp học"
     }
    },
    {
@@ -207,7 +229,8 @@
       "gloss": {
        "zh": "桌子",
        "ja": "机",
-       "en": "table, desk"
+       "en": "table, desk",
+       "vi": "bàn"
       }
      },
      {
@@ -216,7 +239,8 @@
       "gloss": {
        "zh": "椅子",
        "ja": "いす",
-       "en": "chair"
+       "en": "chair",
+       "vi": "ghế"
       }
      },
      {
@@ -225,7 +249,8 @@
       "gloss": {
        "zh": "黑板",
        "ja": "黒板",
-       "en": "whiteboard, blackboard"
+       "en": "whiteboard, blackboard",
+       "vi": "bảng viết"
       }
      },
      {
@@ -234,7 +259,8 @@
       "gloss": {
        "zh": "地图",
        "ja": "地図",
-       "en": "map"
+       "en": "map",
+       "vi": "bản đồ"
       }
      },
      {
@@ -243,7 +269,8 @@
       "gloss": {
        "zh": "挂钟",
        "ja": "壁掛け時計",
-       "en": "wall clock"
+       "en": "wall clock",
+       "vi": "đồng hồ treo tường"
       }
      },
      {
@@ -252,7 +279,8 @@
       "gloss": {
        "zh": "书架",
        "ja": "本棚",
-       "en": "bookshelf"
+       "en": "bookshelf",
+       "vi": "giá sách"
       }
      },
      {
@@ -261,7 +289,8 @@
       "gloss": {
        "zh": "灯",
        "ja": "電灯",
-       "en": "lamp, light"
+       "en": "lamp, light",
+       "vi": "đèn"
       }
      },
      {
@@ -270,7 +299,8 @@
       "gloss": {
        "zh": "窗帘",
        "ja": "カーテン",
-       "en": "curtain"
+       "en": "curtain",
+       "vi": "rèm cửa"
       }
      },
      {
@@ -279,7 +309,8 @@
       "gloss": {
        "zh": "日历",
        "ja": "カレンダー",
-       "en": "calendar"
+       "en": "calendar",
+       "vi": "lịch"
       }
      },
      {
@@ -288,7 +319,8 @@
       "gloss": {
        "zh": "照片",
        "ja": "写真",
-       "en": "photo"
+       "en": "photo",
+       "vi": "ảnh"
       }
      },
      {
@@ -297,7 +329,8 @@
       "gloss": {
        "zh": "图画",
        "ja": "絵",
-       "en": "picture, drawing"
+       "en": "picture, drawing",
+       "vi": "tranh, hình vẽ"
       }
      },
      {
@@ -306,7 +339,8 @@
       "gloss": {
        "zh": "屋顶",
        "ja": "屋根",
-       "en": "roof"
+       "en": "roof",
+       "vi": "mái nhà"
       }
      }
     ]
@@ -319,7 +353,8 @@
     "gloss": {
      "zh": "随身的",
      "ja": "身につけるもの",
-     "en": "what you carry or wear"
+     "en": "what you carry or wear",
+     "vi": "mang theo bên mình"
     }
    },
    {
@@ -331,7 +366,8 @@
       "gloss": {
        "zh": "衣服",
        "ja": "服",
-       "en": "clothes, shirt"
+       "en": "clothes, shirt",
+       "vi": "áo, quần áo"
       }
      },
      {
@@ -340,7 +376,8 @@
       "gloss": {
        "zh": "鞋",
        "ja": "くつ",
-       "en": "shoes"
+       "en": "shoes",
+       "vi": "giày"
       }
      },
      {
@@ -349,7 +386,8 @@
       "gloss": {
        "zh": "眼镜",
        "ja": "めがね",
-       "en": "glasses"
+       "en": "glasses",
+       "vi": "kính mắt"
       }
      },
      {
@@ -358,7 +396,8 @@
       "gloss": {
        "zh": "自行车",
        "ja": "自転車",
-       "en": "bicycle"
+       "en": "bicycle",
+       "vi": "xe đạp"
       }
      },
      {
@@ -367,7 +406,8 @@
       "gloss": {
        "zh": "伞",
        "ja": "傘",
-       "en": "umbrella"
+       "en": "umbrella",
+       "vi": "ô, dù"
       }
      }
     ]
@@ -378,14 +418,16 @@
     "tag": {
      "zh": "两个词写成一个意思",
      "ja": "二語で一つの意味",
-     "en": "Two words, one thing"
+     "en": "Two words, one thing",
+     "vi": "Hai từ, một sự vật"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>papan tulis</s>（板 + 写）、<s>jam dinding</s>（钟 + 墙）、<s>rak buku</s>（架 + 书）—— 印尼语常把两个词摆在一起表示一样东西，前面那个是主体，后面那个说明它是干什么的、在哪儿的。这跟这一章的语法「谁的」是同一个语序道理。",
        "ja": "<s>papan tulis</s>（板＋書く）、<s>jam dinding</s>（時計＋壁）、<s>rak buku</s>（棚＋本）—— インドネシア語では二つの語を並べて一つのものを表すことがよくあります。前が本体、後ろがその用途や場所を表します。この章の文法「だれの」と同じ語順の考え方です。",
-       "en": "<s>papan tulis</s> (board + write), <s>jam dinding</s> (clock + wall), <s>rak buku</s> (rack + book) — Indonesian often puts two words together to name one thing. The first is the thing itself; the second says what it is for or where it belongs. Same word order as this chapter’s possessives."
+       "en": "<s>papan tulis</s> (board + write), <s>jam dinding</s> (clock + wall), <s>rak buku</s> (rack + book) — Indonesian often puts two words together to name one thing. The first is the thing itself; the second says what it is for or where it belongs. Same word order as this chapter’s possessives.",
+       "vi": "<s>papan tulis</s> (bảng + viết), <s>jam dinding</s> (đồng hồ + tường), <s>rak buku</s> (giá + sách) — tiếng Indonesia hay đặt hai từ cạnh nhau để gọi một sự vật: từ đứng trước là bản thân sự vật, từ đứng sau cho biết nó dùng để làm gì hoặc ở đâu. Trật tự này giống hệt tiếng Việt, và cũng chính là trật tự của phần ngữ pháp “của ai” trong bài này."
       }
      }
     ]
@@ -398,7 +440,8 @@
     "sub": {
      "zh": "进教室",
      "ja": "教室に入る",
-     "en": "Going into class"
+     "en": "Going into class",
+     "vi": "Vào lớp"
     }
    },
    {
@@ -406,7 +449,8 @@
     "text": {
      "zh": "早上在楼下碰见，一起进教室。留意他们怎么说「我的笔」「你的地图」。",
      "ja": "朝、校舎の下で会って、いっしょに教室に入ります。「わたしのペン」「あなたの地図」の言い方に注目してください。",
-     "en": "They meet downstairs in the morning and go into class together. Notice how they say “my pen” and “your map”."
+     "en": "They meet downstairs in the morning and go into class together. Notice how they say “my pen” and “your map”.",
+     "vi": "Buổi sáng hai người gặp nhau dưới nhà rồi cùng vào lớp. Hãy để ý cách họ nói “bút của tôi”, “bản đồ của bạn”."
     }
    },
    {
@@ -424,7 +468,8 @@
       "gloss": {
        "zh": "早上好，Zhang！你好吗？",
        "ja": "おはようございます、Zhang さん。お元気ですか。",
-       "en": "Good morning, Zhang! How are you?"
+       "en": "Good morning, Zhang! How are you?",
+       "vi": "Chào buổi sáng, Zhang! Bạn khỏe không?"
       }
      },
      {
@@ -439,7 +484,8 @@
       "gloss": {
        "zh": "我很好。来，我们进教室吧！",
        "ja": "元気です。さあ、教室に入りましょう。",
-       "en": "I'm fine. Come on, let's go into class!"
+       "en": "I'm fine. Come on, let's go into class!",
+       "vi": "Tôi khỏe. Nào, chúng ta vào lớp thôi!"
       }
      },
      {
@@ -454,7 +500,8 @@
       "gloss": {
        "zh": "我们的教室在 Soegondo 楼，对吧？",
        "ja": "わたしたちの教室は Soegondo 棟ですよね。",
-       "en": "Our classroom is in the Soegondo Building, right?"
+       "en": "Our classroom is in the Soegondo Building, right?",
+       "vi": "Lớp của chúng ta ở tòa nhà Soegondo, đúng không?"
       }
      },
      {
@@ -470,7 +517,8 @@
       "gloss": {
        "zh": "对。糟了，我没带圆珠笔。",
        "ja": "はい。あ、ボールペンを持ってきていません。",
-       "en": "Yes. Oh no, I didn't bring a pen."
+       "en": "Yes. Oh no, I didn't bring a pen.",
+       "vi": "Đúng rồi. Ôi, tôi không mang bút bi."
       }
      },
      {
@@ -486,7 +534,8 @@
       "gloss": {
        "zh": "我有两支。你可以借我的笔。",
        "ja": "わたしは二本持っています。わたしのボールペンを使ってください。",
-       "en": "I have two. You can borrow my pen."
+       "en": "I have two. You can borrow my pen.",
+       "vi": "Tôi có hai cái. Bạn mượn bút của tôi cũng được."
       }
      },
      {
@@ -501,7 +550,8 @@
       "gloss": {
        "zh": "谢谢！你的笔真好看。",
        "ja": "ありがとう！あなたのボールペン、すてきですね。",
-       "en": "Thank you! Your pen is nice."
+       "en": "Thank you! Your pen is nice.",
+       "vi": "Cảm ơn! Bút của bạn đẹp thật."
       }
      },
      {
@@ -517,7 +567,8 @@
       "gloss": {
        "zh": "不客气。咦，墙上那个是什么？",
        "ja": "どういたしまして。あれ、壁のあれは何ですか。",
-       "en": "You're welcome. Hey, what's that on the wall?"
+       "en": "You're welcome. Hey, what's that on the wall?",
+       "vi": "Không có gì. Ơ, cái trên tường kia là gì thế?"
       }
      },
      {
@@ -533,7 +584,8 @@
       "gloss": {
        "zh": "那是世界地图。那张地图特别大。",
        "ja": "あれは世界地図です。その地図はとても大きいです。",
-       "en": "That's a world map. It's really big."
+       "en": "That's a world map. It's really big.",
+       "vi": "Kia là bản đồ thế giới. Tấm bản đồ ấy to lắm."
       }
      },
      {
@@ -548,7 +600,8 @@
       "gloss": {
        "zh": "我们今天要学地图吗？",
        "ja": "きょうは地図を勉強するのですか。",
-       "en": "Are we going to study maps today?"
+       "en": "Are we going to study maps today?",
+       "vi": "Hôm nay chúng ta sẽ học về bản đồ à?"
       }
      },
      {
@@ -563,7 +616,8 @@
       "gloss": {
        "zh": "是的，跟我们的老师一起。来，进去吧！",
        "ja": "はい、わたしたちの先生といっしょに。さあ、入りましょう。",
-       "en": "Yes, with our lecturer. Come on, in we go!"
+       "en": "Yes, with our lecturer. Come on, in we go!",
+       "vi": "Vâng, cùng với giảng viên của chúng ta. Nào, vào thôi!"
       }
      }
     ]
@@ -574,28 +628,32 @@
     "tag": {
      "zh": "这段里的两件事",
      "ja": "この会話の二つのポイント",
-     "en": "Two things in this dialogue"
+     "en": "Two things in this dialogue",
+     "vi": "Hai điểm trong đoạn hội thoại này"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>借东西</b>　<s>Boleh pinjam ...?</s> 是最常用的说法，比 <s>Saya mau pinjam</s> 客气。",
        "ja": "<b>物を借りる</b>　<s>Boleh pinjam ...?</s> がいちばんよく使う言い方で、<s>Saya mau pinjam</s> より丁寧です。",
-       "en": "<b>Borrowing</b>　<s>Boleh pinjam ...?</s> is the usual way to ask, and softer than <s>Saya mau pinjam</s>."
+       "en": "<b>Borrowing</b>　<s>Boleh pinjam ...?</s> is the usual way to ask, and softer than <s>Saya mau pinjam</s>.",
+       "vi": "<b>Mượn đồ</b>　<s>Boleh pinjam ...?</s> là cách hỏi thông dụng nhất, lịch sự hơn <s>Saya mau pinjam</s>."
       }
      },
      {
       "text": {
        "zh": "<b>课本人物</b>　课本这一课的三个人是 Zach、Zhang、Momoka，老师是 Ibu Mahmudah。上面这段是照着课本的场景另写的，句子不一样，用到的说法一样。",
        "ja": "<b>教科書の登場人物</b>　この課に出てくるのは Zach・Zhang・Momoka の三人、先生は Ibu Mahmudah です。上の会話は教科書と同じ場面で書き直したもので、文は違いますが使う表現は同じです。",
-       "en": "<b>Characters</b>　The book’s three students here are Zach, Zhang and Momoka, with Ibu Mahmudah as the lecturer. The dialogue above is written for the same situation, with different sentences but the same expressions."
+       "en": "<b>Characters</b>　The book’s three students here are Zach, Zhang and Momoka, with Ibu Mahmudah as the lecturer. The dialogue above is written for the same situation, with different sentences but the same expressions.",
+       "vi": "<b>Nhân vật trong sách</b>　Ba người học ở bài này là Zach, Zhang, Momoka; giảng viên là Ibu Mahmudah. Đoạn hội thoại trên được viết lại theo đúng tình huống của sách: câu chữ khác, nhưng các cách nói thì giống."
       }
      },
      {
       "text": {
        "zh": "<b>Gedung Soegondo</b>　UGM 文学院的楼名，用的是旧拼写（oe = u）。这是人名，不要「改正」成 Sugondo。",
        "ja": "<b>Gedung Soegondo</b>　UGM 文学部の建物名で、旧つづり（oe＝u）です。人名なので Sugondo に「直さ」ないでください。",
-       "en": "<b>Gedung Soegondo</b>　The name of the UGM humanities building, in the old spelling (oe = u). It is a person’s name — do not “correct” it to Sugondo."
+       "en": "<b>Gedung Soegondo</b>　The name of the UGM humanities building, in the old spelling (oe = u). It is a person’s name — do not “correct” it to Sugondo.",
+       "vi": "<b>Gedung Soegondo</b>　Tên tòa nhà của khoa Nhân văn UGM, viết theo chính tả cũ (oe = u). Đây là tên người, đừng “sửa” thành Sugondo."
       }
      }
     ]
@@ -608,7 +666,8 @@
     "sub": {
      "zh": "课堂上要用的话",
      "ja": "教室で使う表現",
-     "en": "Classroom expressions"
+     "en": "Classroom expressions",
+     "vi": "Cách nói dùng trong lớp"
     }
    },
    {
@@ -616,7 +675,8 @@
     "text": {
      "zh": "这些是课堂上天天要用的固定说法，整句记，不用拆开分析。",
      "ja": "どれも授業で毎日使う決まった言い方です。文ごと覚えてしまいましょう。",
-     "en": "These are fixed expressions you will use in class every day. Learn them whole; there is no need to take them apart."
+     "en": "These are fixed expressions you will use in class every day. Learn them whole; there is no need to take them apart.",
+     "vi": "Đây là những câu cố định bạn sẽ dùng hằng ngày trong lớp. Cứ học thuộc cả câu, không cần tách ra phân tích."
     }
    },
    {
@@ -627,7 +687,8 @@
     "gloss": {
      "zh": "回应对方",
      "ja": "受け答え",
-     "en": "responding"
+     "en": "responding",
+     "vi": "đáp lời"
     }
    },
    {
@@ -644,7 +705,8 @@
       "gloss": {
        "zh": "请。（请用、请做）",
        "ja": "どうぞ。",
-       "en": "Please, go ahead."
+       "en": "Please, go ahead.",
+       "vi": "Xin mời. (mời dùng, mời làm)"
       }
      },
      {
@@ -656,7 +718,8 @@
       "gloss": {
        "zh": "谢谢。",
        "ja": "ありがとうございます。",
-       "en": "Thank you."
+       "en": "Thank you.",
+       "vi": "Cảm ơn."
       }
      },
      {
@@ -670,7 +733,8 @@
       "gloss": {
        "zh": "对不起。",
        "ja": "すみません。",
-       "en": "Sorry."
+       "en": "Sorry.",
+       "vi": "Xin lỗi."
       }
      },
      {
@@ -684,7 +748,8 @@
       "gloss": {
        "zh": "当然可以。",
        "ja": "もちろんです。",
-       "en": "Of course."
+       "en": "Of course.",
+       "vi": "Tất nhiên rồi."
       }
      },
      {
@@ -696,7 +761,8 @@
       "gloss": {
        "zh": "好的，那就这样。",
        "ja": "わかりました。",
-       "en": "All right then."
+       "en": "All right then.",
+       "vi": "Được, vậy nhé."
       }
      },
      {
@@ -710,7 +776,8 @@
       "gloss": {
        "zh": "很好！",
        "ja": "いいですね！",
-       "en": "Good!"
+       "en": "Good!",
+       "vi": "Tốt lắm!"
       }
      }
     ]
@@ -723,7 +790,8 @@
     "gloss": {
      "zh": "向老师提问",
      "ja": "先生にたずねる",
-     "en": "asking the teacher"
+     "en": "asking the teacher",
+     "vi": "hỏi giáo viên"
     }
    },
    {
@@ -740,7 +808,8 @@
       "gloss": {
        "zh": "有问题吗？（老师问学生）",
        "ja": "質問はありますか。（先生から）",
-       "en": "Are there any questions? (teacher to class)"
+       "en": "Are there any questions? (teacher to class)",
+       "vi": "Có câu hỏi nào không? (giáo viên hỏi lớp)"
       }
      },
      {
@@ -754,7 +823,8 @@
       "gloss": {
        "zh": "明白了吗？",
        "ja": "わかりましたか。",
-       "en": "Do you understand?"
+       "en": "Do you understand?",
+       "vi": "Bạn hiểu chưa?"
       }
      },
      {
@@ -769,7 +839,8 @@
       "gloss": {
        "zh": "第几页？",
        "ja": "何ページですか。",
-       "en": "What page?"
+       "en": "What page?",
+       "vi": "Trang bao nhiêu?"
       }
      },
      {
@@ -783,7 +854,8 @@
       "gloss": {
        "zh": "有作业吗？",
        "ja": "宿題はありますか。",
-       "en": "Is there homework?"
+       "en": "Is there homework?",
+       "vi": "Có bài tập về nhà không?"
       }
      },
      {
@@ -798,7 +870,8 @@
       "gloss": {
        "zh": "打扰一下，我可以问个问题吗？",
        "ja": "すみません、質問してもいいですか。",
-       "en": "Excuse me, may I ask a question?"
+       "en": "Excuse me, may I ask a question?",
+       "vi": "Xin lỗi, tôi hỏi một câu được không ạ?"
       }
      }
     ]
@@ -811,7 +884,8 @@
     "gloss": {
      "zh": "请对方帮忙",
      "ja": "お願いする",
-     "en": "asking a favour"
+     "en": "asking a favour",
+     "vi": "nhờ giúp đỡ"
     }
    },
    {
@@ -829,7 +903,8 @@
       "gloss": {
        "zh": "请再说一遍。",
        "ja": "もう一度お願いします。",
-       "en": "Please say that again."
+       "en": "Please say that again.",
+       "vi": "Xin nhắc lại một lần nữa."
       }
      },
      {
@@ -844,7 +919,8 @@
       "gloss": {
        "zh": "请说慢一点。",
        "ja": "ゆっくり話してください。",
-       "en": "Please speak slowly."
+       "en": "Please speak slowly.",
+       "vi": "Xin nói chậm một chút."
       }
      },
      {
@@ -858,7 +934,8 @@
       "gloss": {
        "zh": "请大声一点。",
        "ja": "もっと大きな声でお願いします。",
-       "en": "Please speak up."
+       "en": "Please speak up.",
+       "vi": "Xin nói to hơn một chút."
       }
      },
      {
@@ -872,7 +949,8 @@
       "gloss": {
        "zh": "我可以借一下词典吗？",
        "ja": "辞書を借りてもいいですか。",
-       "en": "May I borrow a dictionary?"
+       "en": "May I borrow a dictionary?",
+       "vi": "Tôi mượn từ điển được không ạ?"
       }
      }
     ]
@@ -883,14 +961,16 @@
     "tag": {
      "zh": "两个「请」不一样",
      "ja": "二つの「どうぞ」",
-     "en": "Two different “please”"
+     "en": "Two different “please”",
+     "vi": "“Mời” và “nhờ” khác nhau"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>Silakan</s> 是「你请便」—— 请进、请坐、请说，是把机会让给对方。<s>Tolong</s> 是「帮我一下」—— 请你重复、请你说慢点，是有求于人。搞反了会很奇怪：让人进门说 <s>Tolong masuk</s> 就成了「求你进来」。",
        "ja": "<s>Silakan</s> は「どうぞ」—— 入ってください、座ってください、と相手にゆずる言い方です。<s>Tolong</s> は「お願いします」—— くり返してください、ゆっくり話してください、と相手に頼む言い方です。取りちがえると変になります。入室をうながすのに <s>Tolong masuk</s> と言うと「入ってくれと頼む」になってしまいます。",
-       "en": "<s>Silakan</s> offers something to the other person — come in, sit down, go ahead. <s>Tolong</s> asks them for something — repeat that, speak slowly. Swapping them sounds odd: <s>Tolong masuk</s> at a door means “please, I beg you, come in”."
+       "en": "<s>Silakan</s> offers something to the other person — come in, sit down, go ahead. <s>Tolong</s> asks them for something — repeat that, speak slowly. Swapping them sounds odd: <s>Tolong masuk</s> at a door means “please, I beg you, come in”.",
+       "vi": "<s>Silakan</s> là “mời bạn” — mời vào, mời ngồi, mời nói: nhường lượt cho người kia. <s>Tolong</s> là “giúp tôi một chút” — nhờ nhắc lại, nhờ nói chậm: mình đang cần nhờ người ta. Dùng lẫn sẽ rất buồn cười: mời người ta vào cửa mà nói <s>Tolong masuk</s> thì thành “xin bạn làm ơn vào giúp tôi”."
       }
      }
     ]
@@ -903,7 +983,8 @@
     "sub": {
      "zh": "这个和那个",
      "ja": "これとあれ",
-     "en": "This and that"
+     "en": "This and that",
+     "vi": "Cái này và cái kia"
     }
    },
    {
@@ -911,7 +992,8 @@
     "text": {
      "zh": "<s>ini</s> 是「这个」，<s>itu</s> 是「那个」。距离以<b>说话的人</b>为准 —— 谁在说话，就从谁的位置算。",
      "ja": "<s>ini</s> は「これ」、<s>itu</s> は「あれ・それ」。距離は<b>話している人</b>を基準に決まります。",
-     "en": "<s>ini</s> is “this”, <s>itu</s> is “that”. The distance is measured from <b>whoever is speaking</b>."
+     "en": "<s>ini</s> is “this”, <s>itu</s> is “that”. The distance is measured from <b>whoever is speaking</b>.",
+     "vi": "<s>ini</s> là “cái này”, <s>itu</s> là “cái kia”. Khoảng cách tính từ <b>người đang nói</b> — ai nói thì lấy vị trí của người đó làm mốc."
     }
    },
    {
@@ -920,7 +1002,8 @@
     "note": {
      "zh": "这是…… / 那是……（benda ＝ 东西）",
      "ja": "これは……です／あれは……です（benda ＝ もの）",
-     "en": "This is … / That is … (benda = thing)"
+     "en": "This is … / That is … (benda = thing)",
+     "vi": "Đây là… / Kia là… (benda = đồ vật)"
     }
    },
    {
@@ -928,7 +1011,8 @@
     "title": {
      "zh": "问东西",
      "ja": "ものについて",
-     "en": "asking about a thing"
+     "en": "asking about a thing",
+     "vi": "hỏi về đồ vật"
     },
     "items": [
      {
@@ -942,7 +1026,8 @@
       "gloss": {
        "zh": "这是什么？",
        "ja": "これは何ですか。",
-       "en": "What is this?"
+       "en": "What is this?",
+       "vi": "Đây là cái gì?"
       }
      },
      {
@@ -956,7 +1041,8 @@
       "gloss": {
        "zh": "这是词典。",
        "ja": "これは辞書です。",
-       "en": "This is a dictionary."
+       "en": "This is a dictionary.",
+       "vi": "Đây là từ điển."
       }
      },
      {
@@ -970,7 +1056,8 @@
       "gloss": {
        "zh": "那是什么？",
        "ja": "あれは何ですか。",
-       "en": "What is that?"
+       "en": "What is that?",
+       "vi": "Kia là cái gì?"
       }
      },
      {
@@ -984,7 +1071,8 @@
       "gloss": {
        "zh": "那是黑板。",
        "ja": "あれは黒板です。",
-       "en": "That is the whiteboard."
+       "en": "That is the whiteboard.",
+       "vi": "Kia là cái bảng."
       }
      }
     ]
@@ -994,7 +1082,8 @@
     "title": {
      "zh": "问谁的",
      "ja": "だれのものか",
-     "en": "asking whose"
+     "en": "asking whose",
+     "vi": "hỏi của ai"
     },
     "items": [
      {
@@ -1008,7 +1097,8 @@
       "gloss": {
        "zh": "这是谁的圆珠笔？",
        "ja": "これはだれのボールペンですか。",
-       "en": "Whose pen is this?"
+       "en": "Whose pen is this?",
+       "vi": "Đây là bút bi của ai?"
       }
      },
      {
@@ -1022,7 +1112,8 @@
       "gloss": {
        "zh": "那是我的圆珠笔。",
        "ja": "それはわたしのボールペンです。",
-       "en": "That is my pen."
+       "en": "That is my pen.",
+       "vi": "Kia là bút bi của tôi."
       }
      },
      {
@@ -1036,7 +1127,8 @@
       "gloss": {
        "zh": "这是您的书吗？",
        "ja": "これはあなたの本ですか。",
-       "en": "Is this your book?"
+       "en": "Is this your book?",
+       "vi": "Đây có phải sách của bạn không?"
       }
      },
      {
@@ -1050,7 +1142,8 @@
       "gloss": {
        "zh": "是的，那是我的书。",
        "ja": "はい、それはわたしの本です。",
-       "en": "Yes, that is my book."
+       "en": "Yes, that is my book.",
+       "vi": "Vâng, kia là sách của tôi."
       }
      }
     ]
@@ -1061,14 +1154,16 @@
     "tag": {
      "zh": "课本没讲，但一定会卡住",
      "ja": "教科書にはないが必ず引っかかるところ",
-     "en": "Not in the book, but it will trip you up"
+     "en": "Not in the book, but it will trip you up",
+     "vi": "Sách không nói, nhưng chắc chắn sẽ vướng"
     },
     "lines": [
      {
       "text": {
        "zh": "注意上面几组：问的人说 <s>ini</s>（东西在他手边），答的人却说 <s>itu</s> —— 因为对答话的人来说，那东西在对方那边。<b>不是印错，也不是随便换的</b>。中文说「这是你的书吗？」「是，<b>这</b>是我的书」，两边都用「这」；印尼语会跟着各自的位置换成 ini / itu。",
        "ja": "上のやりとりに注目してください。たずねる人は <s>ini</s>（手もとにあるから）、答える人は <s>itu</s> と言っています。答える人から見れば、その物は相手の側にあるからです。<b>誤植でも気まぐれでもありません</b>。日本語なら「これはあなたの本ですか」「はい、<b>これ</b>はわたしの本です」と両方「これ」で通りますが、インドネシア語はそれぞれの位置で言い分けます。",
-       "en": "Look at the pairs above: the asker says <s>ini</s> (it is beside them) but the answerer says <s>itu</s>, because from where they stand the thing is over there. <b>This is not a misprint and not arbitrary.</b> English keeps “this” on both sides — “Is this your book?” “Yes, this is my book” — while Indonesian switches to match each speaker’s position."
+       "en": "Look at the pairs above: the asker says <s>ini</s> (it is beside them) but the answerer says <s>itu</s>, because from where they stand the thing is over there. <b>This is not a misprint and not arbitrary.</b> English keeps “this” on both sides — “Is this your book?” “Yes, this is my book” — while Indonesian switches to match each speaker’s position.",
+       "vi": "Hãy nhìn lại mấy cặp câu ở trên: người hỏi nói <s>ini</s> (vật ở ngay bên cạnh họ), còn người trả lời lại nói <s>itu</s> — vì đứng từ chỗ người trả lời, vật đó nằm ở phía bên kia. <b>Đây không phải lỗi in, cũng không phải đổi tùy tiện.</b> Tiếng Việt nói “Đây có phải sách của bạn không?” – “Vâng, <b>đây</b> là sách của tôi”, cả hai bên đều dùng “đây”; tiếng Indonesia thì đổi ini / itu theo vị trí của từng người."
       }
      }
     ]
@@ -1079,14 +1174,16 @@
     "tag": {
      "zh": "课本里的两个称呼",
      "ja": "教科書に出てくる二つの呼びかけ",
-     "en": "Two forms of address in the book"
+     "en": "Two forms of address in the book",
+     "vi": "Hai cách xưng hô trong sách"
     },
     "lines": [
      {
       "text": {
        "zh": "课本的例句里有 <s>Mas</s>（对年纪相仿或稍长的男性）和 <s>Mbak</s>（对女性）。这两个词从爪哇语来，在日惹到处都听得到 —— 买东西、问路、叫服务员都用。对老师仍然用 <s>Pak</s> / <s>Bu</s>。",
        "ja": "教科書の例文には <s>Mas</s>（同年代か少し年上の男性へ）と <s>Mbak</s>（女性へ）が出てきます。どちらもジャワ語から来た呼びかけで、ジョグジャでは買い物でも道をたずねるときにも耳にします。先生には <s>Pak</s>／<s>Bu</s> を使います。",
-       "en": "The book’s examples use <s>Mas</s> (to a man of similar age or a little older) and <s>Mbak</s> (to a woman). Both come from Javanese and you will hear them all over Jogja — in shops, asking directions, calling a waiter. For teachers, still use <s>Pak</s> / <s>Bu</s>."
+       "en": "The book’s examples use <s>Mas</s> (to a man of similar age or a little older) and <s>Mbak</s> (to a woman). Both come from Javanese and you will hear them all over Jogja — in shops, asking directions, calling a waiter. For teachers, still use <s>Pak</s> / <s>Bu</s>.",
+       "vi": "Các câu ví dụ trong sách dùng <s>Mas</s> (với nam giới cùng tuổi hoặc lớn hơn một chút) và <s>Mbak</s> (với nữ giới). Hai từ này gốc tiếng Java, ở Jogja bạn nghe thấy khắp nơi — đi mua đồ, hỏi đường, gọi nhân viên phục vụ đều dùng. Với giáo viên thì vẫn dùng <s>Pak</s> / <s>Bu</s>."
       }
      }
     ]
@@ -1099,7 +1196,8 @@
     "sub": {
      "zh": "「谁的」怎么说",
      "ja": "「だれの」の言い方",
-     "en": "Saying whose it is"
+     "en": "Saying whose it is",
+     "vi": "Nói “của ai”"
     }
    },
    {
@@ -1107,7 +1205,8 @@
     "text": {
      "zh": "这是这一章最要紧的一条，也是中文、日文、英文使用者共同的坑：<b>印尼语把「谁的」放在后面</b>。",
      "ja": "この章でいちばん大事なところであり、日本語・中国語・英語の話し手が共通してつまずくところでもあります。<b>インドネシア語は「だれの」を後ろに置きます。</b>",
-     "en": "This is the most important point in the chapter, and the one that trips up Chinese, Japanese and English speakers alike: <b>Indonesian puts the owner second</b>."
+     "en": "This is the most important point in the chapter, and the one that trips up Chinese, Japanese and English speakers alike: <b>Indonesian puts the owner second</b>.",
+     "vi": "Đây là điểm quan trọng nhất của bài này, và cũng là điểm người Việt có sẵn lợi thế: <b>tiếng Indonesia đặt người sở hữu ở sau</b>, giống hệt tiếng Việt."
     }
    },
    {
@@ -1116,7 +1215,8 @@
     "note": {
      "zh": "东西在前、主人在后 —— 跟中文正好相反。",
      "ja": "もの→持ち主の順で、日本語とは逆です。",
-     "en": "Thing first, owner second — the opposite of English."
+     "en": "Thing first, owner second — the opposite of English.",
+     "vi": "Vật đứng trước, người sở hữu đứng sau — giống hệt tiếng Việt."
     }
    },
    {
@@ -1125,17 +1225,20 @@
      {
       "zh": "东西",
       "ja": "もの",
-      "en": "thing"
+      "en": "thing",
+      "vi": "vật"
      },
      {
       "zh": "主人",
       "ja": "持ち主",
-      "en": "owner"
+      "en": "owner",
+      "vi": "người sở hữu"
      },
      {
       "zh": "合起来",
       "ja": "合わせると",
-      "en": "together"
+      "en": "together",
+      "vi": "ghép lại"
      }
     ],
     "rows": [
@@ -1213,7 +1316,8 @@
     "note": {
      "zh": "主人是名词时就这样直接摆在后面，不用加任何东西。注意最后两个：<s>kantin fakultas</s>（院系的食堂）、<s>peta dunia</s>（世界地图）—— 「主人」不一定是人，也可以是地方或范围。",
      "ja": "持ち主が名詞のときは、そのまま後ろに置くだけで、何も加えません。最後の二つに注目してください。<s>kantin fakultas</s>（学部の食堂）、<s>peta dunia</s>（世界地図）—— 「持ち主」は人とはかぎらず、場所や範囲のこともあります。",
-     "en": "When the owner is a noun it simply follows, with nothing added. Note the last two: <s>kantin fakultas</s> (the faculty canteen), <s>peta dunia</s> (a world map) — the “owner” need not be a person; it can be a place or a domain."
+     "en": "When the owner is a noun it simply follows, with nothing added. Note the last two: <s>kantin fakultas</s> (the faculty canteen), <s>peta dunia</s> (a world map) — the “owner” need not be a person; it can be a place or a domain.",
+     "vi": "Khi người sở hữu là danh từ thì cứ đặt thẳng phía sau, không thêm gì cả. Chú ý hai dòng cuối: <s>kantin fakultas</s> (căng tin của khoa), <s>peta dunia</s> (bản đồ thế giới) — “người sở hữu” không nhất thiết là người, có thể là một nơi chốn hay một phạm vi."
     }
    },
    {
@@ -1222,14 +1326,16 @@
     "tag": {
      "zh": "反过来就变了意思",
      "ja": "逆にすると意味が変わる",
-     "en": "Reverse it and the meaning changes"
+     "en": "Reverse it and the meaning changes",
+     "vi": "Đảo lại là đổi nghĩa"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>tas teman</s> 是「朋友的包」，<s>teman tas</s> 就成了「包的朋友」—— 印尼语没有「的」这个字，全靠位置分辨，所以顺序错了意思就错了。",
        "ja": "<s>tas teman</s> は「友だちのかばん」ですが、<s>teman tas</s> にすると「かばんの友だち」になってしまいます。インドネシア語には「の」にあたる語がなく、位置だけで決まるので、順序をまちがえると意味が変わります。",
-       "en": "<s>tas teman</s> is “a friend’s bag”; <s>teman tas</s> would be “the bag’s friend”. Indonesian has no word for “of” or “’s” — position alone carries the meaning, so the wrong order gives the wrong sense."
+       "en": "<s>tas teman</s> is “a friend’s bag”; <s>teman tas</s> would be “the bag’s friend”. Indonesian has no word for “of” or “’s” — position alone carries the meaning, so the wrong order gives the wrong sense.",
+       "vi": "<s>tas teman</s> là “cái túi của người bạn”, còn <s>teman tas</s> lại thành “người bạn của cái túi” — tiếng Indonesia không có từ nào tương ứng với “của”, nghĩa nằm hết ở vị trí, nên sai thứ tự là sai nghĩa."
       }
      }
     ]
@@ -1242,7 +1348,8 @@
     "sub": {
      "zh": "我的、你的、他的",
      "ja": "わたしの・あなたの・かれの",
-     "en": "My, your, his"
+     "en": "My, your, his",
+     "vi": "Của tôi, của bạn, của anh ấy"
     }
    },
    {
@@ -1250,7 +1357,8 @@
     "text": {
      "zh": "主人是「我 / 你 / 他」的时候，可以不写整个词，直接把后缀粘在东西后面。",
      "ja": "持ち主が「わたし・あなた・かれ」のときは、語をそのまま書かずに、接尾辞をものの後ろにつけることができます。",
-     "en": "When the owner is “me / you / him”, you can drop the full pronoun and attach a suffix to the thing instead."
+     "en": "When the owner is “me / you / him”, you can drop the full pronoun and attach a suffix to the thing instead.",
+     "vi": "Khi người sở hữu là “tôi / bạn / anh ấy”, bạn có thể bỏ đại từ đầy đủ và gắn thẳng một hậu tố vào sau tên vật."
     }
    },
    {
@@ -1259,17 +1367,20 @@
      {
       "zh": "主人",
       "ja": "持ち主",
-      "en": "owner"
+      "en": "owner",
+      "vi": "người sở hữu"
      },
      {
       "zh": "写全",
       "ja": "語で書くと",
-      "en": "full form"
+      "en": "full form",
+      "vi": "viết đầy đủ"
      },
      {
       "zh": "用后缀",
       "ja": "接尾辞なら",
-      "en": "with a suffix"
+      "en": "with a suffix",
+      "vi": "dùng hậu tố"
      }
     ],
     "rows": [
@@ -1278,7 +1389,8 @@
        "text": {
         "zh": "我",
         "ja": "わたし",
-        "en": "me"
+        "en": "me",
+        "vi": "tôi"
        }
       },
       {
@@ -1295,7 +1407,8 @@
        "text": {
         "zh": "你",
         "ja": "あなた",
-        "en": "you"
+        "en": "you",
+        "vi": "bạn"
        }
       },
       {
@@ -1312,7 +1425,8 @@
        "text": {
         "zh": "他 / 她",
         "ja": "かれ・かのじょ",
-        "en": "him / her"
+        "en": "him / her",
+        "vi": "anh ấy / cô ấy"
        }
       },
       {
@@ -1328,7 +1442,8 @@
     "note": {
      "zh": "后缀直接连写，中间<b>不加连字符</b>：bukuku，不是 buku-ku。另外 <s>saya</s>（正式的「我」）<b>没有</b>后缀形式 —— 只能说 <s>buku saya</s>。",
      "ja": "接尾辞はそのままつなげて書き、<b>ハイフンは入れません</b>：bukuku であって buku-ku ではありません。なお <s>saya</s>（あらたまった「わたし」）に<b>接尾辞の形はありません</b> —— <s>buku saya</s> としか言えません。",
-     "en": "The suffix attaches directly, with <b>no hyphen</b>: bukuku, not buku-ku. Note also that <s>saya</s> (the formal “I”) has <b>no</b> suffix form — only <s>buku saya</s>."
+     "en": "The suffix attaches directly, with <b>no hyphen</b>: bukuku, not buku-ku. Note also that <s>saya</s> (the formal “I”) has <b>no</b> suffix form — only <s>buku saya</s>.",
+     "vi": "Hậu tố viết liền, <b>không có gạch nối</b>: bukuku, không phải buku-ku. Ngoài ra <s>saya</s> (“tôi” trang trọng) <b>không có</b> dạng hậu tố — chỉ nói được <s>buku saya</s>."
     }
    },
    {
@@ -1336,7 +1451,8 @@
     "text": {
      "zh": "从「有」到「他的」",
      "ja": "「持っている」から「その」へ",
-     "en": "From “has” to “his”"
+     "en": "From “has” to “his”",
+     "vi": "Từ “có” đến “của cô ấy”"
     }
    },
    {
@@ -1344,7 +1460,8 @@
     "text": {
      "zh": "课本用三步演示这个变化。看懂这三步，这一章的语法就通了：",
      "ja": "教科書はこの変化を三段階で示しています。この三段階がわかれば、この章の文法は理解できたことになります。",
-     "en": "The book shows this change in three steps. Understand these three and you have the grammar of this chapter:"
+     "en": "The book shows this change in three steps. Understand these three and you have the grammar of this chapter:",
+     "vi": "Sách giáo khoa trình bày thay đổi này bằng ba bước. Hiểu được ba bước này là bạn nắm được ngữ pháp của bài:"
     }
    },
    {
@@ -1361,7 +1478,8 @@
       "gloss": {
        "zh": "① Momoka 有一把伞。",
        "ja": "① Momoka さんは傘を持っています。",
-       "en": "① Momoka has an umbrella."
+       "en": "① Momoka has an umbrella.",
+       "vi": "① Momoka có một cái ô."
       }
      },
      {
@@ -1375,7 +1493,8 @@
       "gloss": {
        "zh": "② Momoka 的伞（东西在前，主人在后）",
        "ja": "②「Momoka さんの傘」（もの→持ち主の順）",
-       "en": "② Momoka’s umbrella (thing first, owner second)"
+       "en": "② Momoka’s umbrella (thing first, owner second)",
+       "vi": "② cái ô của Momoka (vật trước, người sở hữu sau)"
       }
      },
      {
@@ -1389,7 +1508,8 @@
       "gloss": {
        "zh": "③ 她的伞很大。（主人换成后缀）",
        "ja": "③ その傘は大きいです。（持ち主を接尾辞に）",
-       "en": "③ Her umbrella is big. (owner becomes a suffix)"
+       "en": "③ Her umbrella is big. (owner becomes a suffix)",
+       "vi": "③ Ô của cô ấy to. (người sở hữu thành hậu tố)"
       }
      }
     ]
@@ -1399,7 +1519,8 @@
     "title": {
      "zh": "再来一组",
      "ja": "もう一組",
-     "en": "One more"
+     "en": "One more",
+     "vi": "Thêm một nhóm nữa"
     },
     "items": [
      {
@@ -1413,7 +1534,8 @@
       "gloss": {
        "zh": "① 我有弟弟妹妹。",
        "ja": "① わたしには弟・妹がいます。",
-       "en": "① I have younger siblings."
+       "en": "① I have younger siblings.",
+       "vi": "① Tôi có em."
       }
      },
      {
@@ -1427,7 +1549,8 @@
       "gloss": {
        "zh": "② 我的弟弟妹妹",
        "ja": "②「わたしの弟・妹」",
-       "en": "② my younger siblings"
+       "en": "② my younger siblings",
+       "vi": "② em của tôi"
       }
      },
      {
@@ -1441,7 +1564,8 @@
       "gloss": {
        "zh": "③ 我有两个弟弟妹妹。",
        "ja": "③ 弟・妹は二人です。",
-       "en": "③ I have two of them."
+       "en": "③ I have two of them.",
+       "vi": "③ Tôi có hai em."
       }
      }
     ]
@@ -1452,14 +1576,16 @@
     "tag": {
      "zh": "对谁说，用哪个",
      "ja": "相手によって使い分け",
-     "en": "Mind who you are talking to"
+     "en": "Mind who you are talking to",
+     "vi": "Nói với ai thì dùng cái nào"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>-ku</b> 和 <b>-mu</b> 是口语，对朋友、同学用。对老师、长辈、不熟的人要说 <s>buku saya</s>、<s>buku Anda</s>，不要说 <s>bukumu</s>。课本的练习用的都是正式说法。",
        "ja": "<b>-ku</b> と <b>-mu</b> はくだけた言い方で、友だちや同級生に使います。先生や目上の人、親しくない相手には <s>buku saya</s>・<s>buku Anda</s> と言い、<s>bukumu</s> は使いません。教科書の練習はすべてフォーマルな言い方です。",
-       "en": "<b>-ku</b> and <b>-mu</b> are casual, for friends and classmates. With teachers, elders or people you do not know, say <s>buku saya</s> and <s>buku Anda</s>, not <s>bukumu</s>. The book’s exercises all use the formal forms."
+       "en": "<b>-ku</b> and <b>-mu</b> are casual, for friends and classmates. With teachers, elders or people you do not know, say <s>buku saya</s> and <s>buku Anda</s>, not <s>bukumu</s>. The book’s exercises all use the formal forms.",
+       "vi": "<b>-ku</b> và <b>-mu</b> là văn nói, dùng với bạn bè, bạn cùng lớp. Với giáo viên, người lớn tuổi hay người chưa quen thì nói <s>buku saya</s>, <s>buku Anda</s>, đừng nói <s>bukumu</s>. Bài tập trong sách đều dùng cách trang trọng."
       }
      }
     ]
@@ -1470,14 +1596,16 @@
     "tag": {
      "zh": "-nya 的另一个用法",
      "ja": "-nya のもう一つの使い方",
-     "en": "Another use of -nya"
+     "en": "Another use of -nya",
+     "vi": "Một cách dùng khác của -nya"
     },
     "lines": [
      {
       "text": {
        "zh": "<b>-nya</b> 除了「他的」，还能指「刚才说的那个」：<s>Itu peta dunia. Petanya besar.</s>—— 第二句的 petanya 不是「他的地图」，是「那张地图」。上一页对话里就是这么用的。",
        "ja": "<b>-nya</b> は「かれの」のほかに、「いま話に出たそれ」を指すこともできます：<s>Itu peta dunia. Petanya besar.</s> —— 二つめの petanya は「かれの地図」ではなく「その地図」です。前のページの会話でもこの使い方が出てきました。",
-       "en": "Besides “his/her”, <b>-nya</b> can point back to something just mentioned: <s>Itu peta dunia. Petanya besar.</s> — here petanya is not “his map” but “that map”. The dialogue two pages back uses it this way."
+       "en": "Besides “his/her”, <b>-nya</b> can point back to something just mentioned: <s>Itu peta dunia. Petanya besar.</s> — here petanya is not “his map” but “that map”. The dialogue two pages back uses it this way.",
+       "vi": "Ngoài nghĩa “của anh ấy / cô ấy”, <b>-nya</b> còn dùng để chỉ lại thứ vừa nhắc đến: <s>Itu peta dunia. Petanya besar.</s> — petanya ở câu thứ hai không phải “bản đồ của anh ấy” mà là “tấm bản đồ đó”. Đoạn hội thoại ở trang trước dùng đúng kiểu này."
       }
      }
     ]
@@ -1490,7 +1618,8 @@
     "sub": {
      "zh": "印尼人的物件",
      "ja": "インドネシアの人びとの品物",
-     "en": "Things Indonesians live with"
+     "en": "Things Indonesians live with",
+     "vi": "Đồ vật của người Indonesia"
     }
    },
    {
@@ -1498,7 +1627,8 @@
     "text": {
      "zh": "课本每章末尾有一栏文化介绍。这一章讲的是印尼人日常会用到、外国人一眼认得出的几样东西。",
      "ja": "教科書は各章の終わりに文化の紹介を置いています。この章では、インドネシアの人びとが日常で使い、外国人にもすぐそれとわかる品物を取り上げています。",
-     "en": "Each chapter of the book ends with a page on culture. This one is about a few things Indonesians use daily and visitors notice straight away."
+     "en": "Each chapter of the book ends with a page on culture. This one is about a few things Indonesians use daily and visitors notice straight away.",
+     "vi": "Cuối mỗi bài trong sách đều có một mục giới thiệu văn hóa. Bài này nói về vài thứ người Indonesia dùng hằng ngày mà người nước ngoài nhìn là nhận ra ngay."
     }
    },
    {
@@ -1510,7 +1640,8 @@
       "gloss": {
        "zh": "蜡染布（巴迪）",
        "ja": "バティック（ろうけつ染めの布）",
-       "en": "batik"
+       "en": "batik",
+       "vi": "vải batik (nhuộm sáp)"
       }
      },
      {
@@ -1519,7 +1650,8 @@
       "gloss": {
        "zh": "纱笼（筒状腰布）",
        "ja": "サルン（筒状の腰布）",
-       "en": "sarung (tubular wrap cloth)"
+       "en": "sarung (tubular wrap cloth)",
+       "vi": "xà rông (vải quấn hình ống)"
       }
      },
      {
@@ -1528,7 +1660,8 @@
       "gloss": {
        "zh": "佩奇帽（男性黑色无檐帽）",
        "ja": "ペチ（黒い縁なし帽）",
-       "en": "peci (brimless cap)"
+       "en": "peci (brimless cap)",
+       "vi": "mũ peci (mũ đen không vành)"
       }
      },
      {
@@ -1537,7 +1670,8 @@
       "gloss": {
        "zh": "希贾布（穆斯林女性头巾）",
        "ja": "ジルバブ（ムスリム女性のスカーフ）",
-       "en": "jilbab (headscarf)"
+       "en": "jilbab (headscarf)",
+       "vi": "jilbab (khăn trùm đầu)"
       }
      },
      {
@@ -1546,7 +1680,8 @@
       "gloss": {
        "zh": "格里斯短剑（波刃匕首）",
        "ja": "クリス（波形の刃の短剣）",
-       "en": "keris (wavy-bladed dagger)"
+       "en": "keris (wavy-bladed dagger)",
+       "vi": "keris (dao lưỡi lượn sóng)"
       }
      }
     ]
@@ -1557,28 +1692,32 @@
     "tag": {
      "zh": "在日惹会看到什么",
      "ja": "ジョグジャで目にするもの",
-     "en": "What you will see in Jogja"
+     "en": "What you will see in Jogja",
+     "vi": "Ở Jogja bạn sẽ thấy gì"
     },
     "lines": [
      {
       "text": {
        "zh": "<s>batik</s> 是蜡染布。周五很多机构、学校要求穿巴迪衫，是正装。Malioboro 街和 Beringharjo 市场都能买到。",
        "ja": "<s>batik</s> はろうけつ染めの布です。金曜日にはバティックの着用を求める職場や学校が多く、正装として扱われます。マリオボロ通りやブリンハルジョ市場で買えます。",
-       "en": "<s>batik</s> is wax-dyed cloth. Many offices and schools ask for batik on Fridays, where it counts as formal dress. You can buy it along Malioboro and in Beringharjo market."
+       "en": "<s>batik</s> is wax-dyed cloth. Many offices and schools ask for batik on Fridays, where it counts as formal dress. You can buy it along Malioboro and in Beringharjo market.",
+       "vi": "<s>batik</s> là vải nhuộm sáp. Thứ Sáu nhiều cơ quan, trường học yêu cầu mặc áo batik, coi như lễ phục. Bạn mua được ở phố Malioboro và chợ Beringharjo."
       }
      },
      {
       "text": {
        "zh": "<s>peci</s> 是男性戴的黑色无檐帽，礼拜和正式场合都戴；<s>jilbab</s> 是穆斯林女性的头巾，日常穿戴。",
        "ja": "<s>peci</s> は男性がかぶる黒い縁なし帽で、礼拝や正式な場でかぶります。<s>jilbab</s> はムスリム女性のスカーフで、日常的に身につけます。",
-       "en": "<s>peci</s> is the black brimless cap men wear for prayer and formal occasions; <s>jilbab</s> is the headscarf worn daily by Muslim women."
+       "en": "<s>peci</s> is the black brimless cap men wear for prayer and formal occasions; <s>jilbab</s> is the headscarf worn daily by Muslim women.",
+       "vi": "<s>peci</s> là mũ đen không vành nam giới đội khi cầu nguyện và trong dịp trang trọng; <s>jilbab</s> là khăn trùm đầu phụ nữ Hồi giáo đội hằng ngày."
       }
      },
      {
       "text": {
        "zh": "<s>keris</s> 是传统短剑，刃是波形的，属于家传或仪礼用品，不是日常物件。日惹王宫（Kraton）里能看到。",
        "ja": "<s>keris</s> は刃が波形の伝統的な短剣で、家宝や儀礼の品であり、日用品ではありません。ジョグジャの王宮（クラトン）で見ることができます。",
-       "en": "<s>keris</s> is the traditional wavy-bladed dagger — an heirloom and ceremonial object rather than something in daily use. You can see them at the Kraton in Jogja."
+       "en": "<s>keris</s> is the traditional wavy-bladed dagger — an heirloom and ceremonial object rather than something in daily use. You can see them at the Kraton in Jogja.",
+       "vi": "<s>keris</s> là dao ngắn truyền thống, lưỡi uốn lượn sóng, thuộc loại đồ gia bảo hay đồ nghi lễ chứ không phải vật dụng hằng ngày. Bạn xem được ở hoàng cung Kraton tại Jogja."
       }
      }
     ]

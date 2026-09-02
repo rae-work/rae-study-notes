@@ -151,7 +151,7 @@ function progClear(){
 
 /* ===== 语言 =====
    LANG 的确定顺序：存下来的选择 → 浏览器语言 → meta 的默认值。
-   L(x)  把 {zh, ja, en} 解析成当前语言的字符串（缺则 zh → en → ja 兜底）。
+   L(x)  把 {zh, ja, en, vi} 解析成当前语言的字符串（缺则 zh → en → ja 兜底）。
    T(k)  取界面文案，键见 content/i18n/ui.*.json，支持 {0} {1} 占位。
    印尼语字段是纯字符串，L() 原样返回。 */
 var LANGS = CONTENT.meta.langs;
@@ -160,7 +160,7 @@ function detectLang(){
   /* ① 用户上次的选择 */
   var saved = STORE.getRaw("lang");
   if(saved && LANGS.indexOf(saved) >= 0) return saved;
-  /* ② 浏览器语言。zh-CN / zh-Hans / ja-JP / en-GB 都要认得出 */
+  /* ② 浏览器语言。zh-CN / zh-Hans / ja-JP / en-GB / vi-VN 都要认得出 */
   if(CONTENT.meta.detect_browser_lang){
     var cands = [];
     if(navigator.languages && navigator.languages.length) cands = cands.concat(navigator.languages);
@@ -176,6 +176,9 @@ function detectLang(){
 }
 
 var LANG = detectLang();
+/* 模板里写死的是构建时的默认语言；检测出别的语言就立刻同步到 <html lang>，
+   不然 app.css 里按 html[lang] 走的字体规则要等用户手动切一次语言才生效。 */
+document.documentElement.setAttribute("lang", LANG);
 
 /* ===== 深浅色主题 =====
    三档：auto（跟系统走）/ light / dark。auto 时不写 data-theme，
@@ -228,10 +231,10 @@ applyTheme();
    ------------------------------------------------------------
    例句里「我从中国来」对日本同学没有代入感。内容里写占位符，
    渲染时按当前界面语言替换：
-     {NEGARA} → 印尼语国名（Cina / Jepang / Inggris）—— 会进朗读文本，
+     {NEGARA} → 印尼语国名（Cina / Jepang / Inggris / Vietnam）—— 会进朗读文本，
                所以每种语言的句子都必须有音频
-     {NAMA}   → 该语言里的国名（中国 / 日本 / England）
-     {PEOPLE} → 该语言里的「某国人」（中国人 / 日本人 / English）
+     {NAMA}   → 该语言里的国名（中国 / 日本 / England / Việt Nam）
+     {PEOPLE} → 该语言里的「某国人」（中国人 / 日本人 / English / người Việt Nam）
    映射表在 content/meta.json 的 learner。
    ============================================================ */
 function LZ(s){
@@ -780,8 +783,8 @@ var gFilter = "all", gQuery = "", gTimer = null, gFillTimer = null;
 
 function glossCard(v){
   var zh = L(v.gloss), en = L2(v.gloss);
-  /* 搜索索引：印尼语 + 三种释义全部进去，切语言也搜得到 */
-  var q = esc((v.w + " " + zh + " " + (v.gloss.zh||"") + " " + (v.gloss.ja||"") + " " + (v.gloss.en||"")).toLowerCase());
+  /* 搜索索引：印尼语 + 每种语言的释义全部进去，切语言也搜得到 */
+  var q = esc((v.w + " " + zh + " " + LANGS.map(function(k){ return v.gloss[k] || ""; }).join(" ")).toLowerCase());
   var lv = progLevel(v.w);
   var dot = lv ? '<i class="gdot l' + lv + '" title="' + esc(T("prog.dot_" + lv)) + '"></i>' : "";
   return '<div class="gentry card-tap" data-say="' + esc(sayText(v.w)) + '" data-les="' + v.les + '" data-q="' + q + '">' +

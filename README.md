@@ -3,7 +3,7 @@
 An offline Indonesian study app built around UGM INCULS's *Titian Bahasa Pemula 1*.
 One self-contained HTML file: tap any Indonesian word or sentence to hear it,
 plus a searchable glossary, a spaced-review mode and situational drills.
-Interface in Chinese, Japanese and English.
+Interface in Chinese, Japanese, English and Vietnamese.
 
 **Just open it: https://belajar.rae.work** — it runs straight in a mobile
 browser; add it to your home screen and it behaves like an app, no install
@@ -54,7 +54,7 @@ Other commands:
 | `.claude/skills/` | Skills for Claude Code: turning classroom material into a lesson, and packaging the app |
 
 Everything in `content/` is JSON. Learner-facing text is always a
-`{"zh":…, "ja":…, "en":…}` trilingual object; Indonesian text is always a
+`{"zh":…, "ja":…, "en":…, "vi":…}` multilingual object; Indonesian text is always a
 plain string. Run `npm run validate` after any change — its nine checks will
 flag anything wrong.
 

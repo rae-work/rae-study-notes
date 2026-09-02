@@ -3,7 +3,7 @@
  * 校验 —— 每次改完内容都必须跑，不过就别构建。
  *
  *   1  JSON 结构与必填字段
- *   2  三语齐全（zh / ja / en 都不为空）
+ *   2  多语齐全（zh / ja / en / vi 都不为空，名单见 lib/content.js 的 TRI_LANGS）
  *   3  语体值合法（casual / formal / neutral）+ alt 可解析
  *   4  语体配对表自洽
  *   5  词汇表查重
@@ -21,7 +21,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { ROOT, P } from './lib/paths.js';
-import { loadContent, loadAudioManifest, walkTri } from './lib/content.js';
+import { loadContent, loadAudioManifest, walkTri, TRI_LANGS } from './lib/content.js';
 import { REG, detectRegister } from './lib/register.js';
 
 const ALLOW_TODO = process.argv.includes('--allow-todo');
@@ -127,7 +127,7 @@ if (!Array.isArray(content.drills.angka_pool)) {
 /* ── 2. 三语齐全 ─────────────────────────────────────────── */
 
 const G2 = '三语';
-const missing = { zh: [], ja: [], en: [] };
+const missing = Object.fromEntries(TRI_LANGS.map((l) => [l, []]));
 let triTotal = 0;
 const roots = [
   ...content.lessons.map((l) => [`L${l.num}`, l]),
@@ -138,15 +138,15 @@ const roots = [
 for (const [name, root] of roots) {
   walkTri(root, (o, p) => {
     triTotal++;
-    for (const lang of ['zh', 'ja', 'en']) {
+    for (const lang of TRI_LANGS) {
       if (o[lang] == null || String(o[lang]).trim() === '') missing[lang].push(`${name}.${p}`);
     }
   }, '');
 }
 /* 哪些语言是硬性要求，由 content/meta.json 的 required_langs 决定。
    不在名单里的语言只报完成度，不算失败 —— 现在日文暂缓、英文待定。 */
-const REQUIRED = new Set(content.meta.required_langs || ['zh', 'ja', 'en']);
-for (const lang of ['zh', 'ja', 'en']) {
+const REQUIRED = new Set(content.meta.required_langs || TRI_LANGS);
+for (const lang of TRI_LANGS) {
   if (!missing[lang].length) continue;
   const msg = `${triTotal} 个三语对象里，缺 ${lang} ${missing[lang].length} 处`;
   if (!REQUIRED.has(lang)) notes.push(`  ${msg}（${lang} 不在 required_langs 里，不算失败）`);
@@ -357,7 +357,7 @@ const line = (s) => console.log(s);
 line('');
 line('━━━ 校验报告 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 line(`内容        ${content.lessons.length} 课 / ${content.lessons.reduce((n, l) => n + l.pages.length, 0)} 页 / ${content.vocab.length} 词`);
-line(`三语        ${triTotal} 个对象，缺 zh ${missing.zh.length} · ja ${missing.ja.length} · en ${missing.en.length}`);
+line(`多语        ${triTotal} 个对象，缺 ${TRI_LANGS.map((l) => `${l} ${missing[l].length}`).join(' · ')}`);
 line(`语体        ${regChecked} 处标记；alt 已有 ${altCount} 句，口语句待补 ${altMissing} 句`);
 line(`配对        ${REG.pairs.length} 组；词汇表里可跳转 ${pairLinked} 条，对方不在库 ${pairDangling} 条`);
 line(`实战        ${speak ? `${speak.drillStats.rounds} 次出题：` + Object.entries(speak.drillStats.types).map(([k, v]) => `${k} ${v}`).join(' · ') : '（--quick 跳过）'}`);

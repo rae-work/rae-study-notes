@@ -4,6 +4,23 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.4.0 — 2026-09-02
+
+**Vietnamese interface**
+
+The whole app now speaks Vietnamese as well: every page, every gloss, every
+practice hint and the settings themselves. Pick *Tiếng Việt* under Settings →
+Language, or just open the app on a phone set to Vietnamese.
+
+- **Written for Vietnamese readers, not translated word for word.** Where the
+  Chinese notes warn that Indonesian puts the owner *after* the thing
+  (*buku saya*), the Vietnamese notes point out that this is exactly how
+  Vietnamese works. The same goes for *kami / kita* (*chúng tôi / chúng ta*),
+  words that start with *ng*, and the two readings of *e* (*ê* and *e*)
+- **Example sentences follow the interface language.** In Vietnamese the
+  learner comes from Vietnam: *Saya dari Vietnam.* — with its own audio
+- Chinese, Japanese and English are unchanged
+
 ## 1.3.0 — 2026-08-27
 
 **Chapter 1 grows to twenty pages**

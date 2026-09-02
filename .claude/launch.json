@@ -4,8 +4,8 @@
     {
       "name": "preview",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "preview"],
-      "port": 8787
+      "runtimeArgs": ["run", "preview", "--", "8788"],
+      "port": 8788
     }
   ]
 }

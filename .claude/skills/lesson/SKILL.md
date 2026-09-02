@@ -1,6 +1,6 @@
 ---
 name: lesson
-description: 把课堂材料（课本照片、PDF 讲义、手写笔记、老师发的文件）做成 Ruang Belajar 里的一节课，含三语释义、语体标注、词汇入库、实战题、ElevenLabs 语音，最后出网页版给 Rae 确认。当 Rae 提到 新课、加课、教材、讲义、课堂笔记、拍照、inbox、第 N 课、UGM、BIPA、Cindy，或者往 inbox/ 里放了东西时使用 —— 她不打 /lesson 也要用。
+description: 把课堂材料（课本照片、PDF 讲义、手写笔记、老师发的文件）做成 Ruang Belajar 里的一节课，含四语释义（中 / 日 / 英 / 越）、语体标注、词汇入库、实战题、ElevenLabs 语音，最后出网页版给 Rae 确认。当 Rae 提到 新课、加课、教材、讲义、课堂笔记、拍照、inbox、第 N 课、UGM、BIPA、Cindy，或者往 inbox/ 里放了东西时使用 —— 她不打 /lesson 也要用。
 ---
 
 # /lesson · 从材料到成品
@@ -23,8 +23,8 @@ description: 把课堂材料（课本照片、PDF 讲义、手写笔记、老师
 
 ### 3 · 起草 `content/lessons/Lxx.json`
 照抄已有课程的结构。要点：
-- 印尼语 = 纯字符串；面向学习者的文字 = `{zh, ja, en}` 对象
-- **硬性要求哪几种语言看 `content/meta.json` 的 `required_langs`**（**现在是 `["zh","ja","en"]`，三语全必填**）。
+- 印尼语 = 纯字符串；面向学习者的文字 = `{zh, ja, en, vi}` 对象
+- **硬性要求哪几种语言看 `content/meta.json` 的 `required_langs`**（**现在是 `["zh","ja","en","vi"]`，四语全必填**）。越南语按 `CLAUDE.md` 里的说明写：不是中文直译，语言对比要站在越南语使用者的角度。
   不在名单里的填 `null` 即可，校验只报完成度。
 - 每页第一块必须是 `phead`
 - 讲义几乎每次都有笔误：**内容里静默改正**，再加一个 `note` 块（`tag: {zh:"笔误修正"}`）
@@ -106,8 +106,8 @@ git add -A && git commit -m "Bab N" && git push
 
 ## 常犯的错
 
-- 三语对象少写一个键（**`zh` / `ja` / `en` 三个都必须有值** ——
-  `required_langs` 现在是三语全必填，填 `null` 会让第 2 关失败）
+- 多语对象少写一个键（**`zh` / `ja` / `en` / `vi` 四个都必须有值** ——
+  `required_langs` 现在是四语全必填，填 `null` 会让第 2 关失败）
 - 中文、日文句内用了 ASCII 双引号 —— 一律用「」
 - 朗读文本把 `?` `!` 去掉了 —— 问句会被读成陈述句，**保留**
 - 词汇表重复入库

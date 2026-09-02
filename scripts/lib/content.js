@@ -36,8 +36,12 @@ export function loadAudioManifest() {
   return readJson(f);
 }
 
+/** 学习者语言对象必须有的键。加语言时这里加一个，再把 meta.langs / required_langs
+ *  / ui.<lang>.json / learner.<lang> 一起补上。 */
+export const TRI_LANGS = ['zh', 'ja', 'en', 'vi'];
+
 /**
- * 遍历内容里的每一个「三语对象」（恰好 zh / ja / en 三个键）。
+ * 遍历内容里的每一个「多语对象」（恰好 TRI_LANGS 那几个键）。
  * cb(obj, 路径字符串)
  */
 export function walkTri(root, cb, base = '') {
@@ -52,6 +56,6 @@ export function walkTri(root, cb, base = '') {
 export function isTri(o) {
   return (
     o != null && typeof o === 'object' && !Array.isArray(o) &&
-    Object.keys(o).length === 3 && 'zh' in o && 'ja' in o && 'en' in o
+    Object.keys(o).length === TRI_LANGS.length && TRI_LANGS.every((k) => k in o)
   );
 }

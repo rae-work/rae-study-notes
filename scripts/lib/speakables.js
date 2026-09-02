@@ -44,7 +44,7 @@ export function collectSpeakables(opts = {}) {
   const alts = [];
 
   /* 例句里「学习者的国籍」跟着界面语言变（{NEGARA} 等占位符，见 engine.js 的 LZ）。
-     所以三种语言各跑一遍 —— 只收默认语言的话，日文界面的
+     所以每种界面语言各跑一遍 —— 只收默认语言的话，日文界面的
      「Saya dari Jepang.」永远不会出现在清单里，发版时就会缺音频。 */
   const LANGS = w.CONTENT.meta.langs && w.CONTENT.meta.langs.length
     ? w.CONTENT.meta.langs
@@ -136,11 +136,13 @@ export function collectSpeakables(opts = {}) {
   }
   w.setLang(DEFAULT_LANG);
 
-  /* 5. 语言渗漏检查：把界面切成英文，整个跑一遍。
-     英文界面下渲染出的任何中日文字符都说明有写死的文案没走 T()。 */
+  /* 5. 语言渗漏检查：把界面切成拉丁字母的语言（英文、越南文），整个跑一遍。
+     这些界面下渲染出的任何中日文字符都说明有写死的文案没走 T()。 */
   const leaks = [];
-  if (w.CONTENT.meta.langs.indexOf('en') >= 0) {
-    w.setLang('en');
+  const LATIN = ['en', 'vi'].filter((l) => w.CONTENT.meta.langs.indexOf(l) >= 0);
+  for (const latin of LATIN) {
+    w.setLang(latin);
+    const tag = (s) => `[${latin}] ${s}`;
     const CJK = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uff00-\uffef]/;
     const scan = (label, html) => {
       const d = doc.createElement('div');
@@ -153,31 +155,31 @@ export function collectSpeakables(opts = {}) {
         leaks.push(`${label}：${(m ? m[0] : '').trim()}`);
       }
     };
-    for (let i = 0; i < w.PAGES.length; i++) { w.go(i); scan('第 ' + (i + 1) + ' 页', sheet.innerHTML); }
-    scan('顶栏', doc.getElementById('hdr').innerHTML);
-    scan('目录', doc.getElementById('toc').innerHTML);
+    for (let i = 0; i < w.PAGES.length; i++) { w.go(i); scan(tag('第 ' + (i + 1) + ' 页'), sheet.innerHTML); }
+    scan(tag('顶栏'), doc.getElementById('hdr').innerHTML);
+    scan(tag('目录'), doc.getElementById('toc').innerHTML);
     // 复习 / 实战 的答题界面
     w.go(w.REVIEW_INDEX);
     w.CONTENT.lessons.forEach((l) => { w.QZ.sel[l.num] = true; });
     for (const mode of ['read', 'listen', 'recall', 'mix']) {
       w.QZ.mode = mode; w.QZ.count = 10; w.quizStart(false);
       for (let i = 0; i < 8 && w.QZ.phase === 'q'; i++) {
-        scan(`复习(${mode})`, sheet.innerHTML);
+        scan(tag(`复习(${mode})`), sheet.innerHTML);
         w.quizAnswer((w.QZ.curQ.ok + 1) % 4);   // 故意答错，把反馈区也渲染出来
-        scan(`复习(${mode})反馈`, sheet.innerHTML);
+        scan(tag(`复习(${mode})反馈`), sheet.innerHTML);
         w.qzNext();
       }
-      scan(`复习(${mode})结算`, sheet.innerHTML);
+      scan(tag(`复习(${mode})结算`), sheet.innerHTML);
     }
     w.go(w.DRILL_INDEX);
     w.DR.count = 10; w.drillStart(false);
     for (let i = 0; i < 12 && w.DR.curQ; i++) {
-      scan('实战', sheet.innerHTML);
+      scan(tag('实战'), sheet.innerHTML);
       w.drillAnswer((w.DR.curQ.ok + 1) % 4);
-      scan('实战反馈', sheet.innerHTML);
+      scan(tag('实战反馈'), sheet.innerHTML);
       w.drillNext();
     }
-    scan('实战结算', sheet.innerHTML);
+    scan(tag('实战结算'), sheet.innerHTML);
     w.setLang(w.CONTENT.meta.default_lang);
   }
 
