@@ -6,7 +6,7 @@
 > **§3–§8 已作废**，只在追溯历史时看。
 
 **当前状态：v1.5.0 已上线（2026-09-02）。三课 45 页 + 总目录页，297 词，音频 100%。**
-**进行中（分支 `bab3-buku`，未上线）：v1.6.0 —— Bab 3 按课本照片补全，14 页 → 20 页，366 词；等 Rae 看预览、批准 TTS（约 7,300 字符）。**
+**进行中（分支 `bab3-buku`，未上线）：v1.6.0 —— Bab 3 按课本照片补全，14 页 → 20 页，366 词；音频 335 条已合成（Rae 批准，2026-09-02），覆盖率 100%；等 Rae 手机上确认后 `npm run site` 上线。**
 
 > **2026-09-02 起 APK / 离线版永久停用（Rae 定的）。** 网站 `docs/` 是唯一产物，
 > `dist/` 只是它的中间产物。`/apk` 技能、`scripts/apk.sh`、`prepare-assets.js`、
@@ -29,7 +29,7 @@
 | 第三课 | 14 页 → **20 页**。新增 6 页：`Keterangan Waktu`（第 6）、`Pukul Berapa?`（第 8）、`Membaca: Ulang Tahun Shinta`（第 11）、`Berbicara: Kampus UGM`（第 12）、`Menulis: Kartu Undangan`（第 13）、`Wawasan Keindonesiaan`（第 20，`reviewbtn` 挪到这里）。原第 2–8 页按课本逐页核过：加纸币 `currency` 块、Rp 写法、kesatu / keseratus / keseribu、Ahad、疑问词前置后置四个框、adalah 的说明、课本笔误 |
 | 词汇 | +69（共 366），全部 `les: 3`。`pukul` ⇄ `jam` 互设 `pair`（formal / neutral，没进 `register.json`，那张表只收口语⇄正式） |
 | 题库 | `situasi` +7（整点、1949、bagaimana、价格、ke berapa、三个月前）、`tempat` +2。`jam_enabled` 仍是 `false`：课本只教整点，引擎的钟点题带 setengah 陷阱 |
-| 语音 | 待合成 335 条 / 7,308 字符（账号剩 15,760）。**还没跑**，等 Rae 点头 |
+| 语音 | 已合成 335 条 / 7,308 字符（Rae 批准，2026-09-02），覆盖率 100%，本月累计约 31,500 / 40,000 |
 | 顺手修 | L03 的 20 个 `note` 原来写的是 `tone: "green"/"amber"`，引擎只认 `green: true` —— 线上 v1.5.0 里 Bab 3 的绿框全显示成琥珀色。已全部改成 `green: true` / 无字段 |
 
 **这一轮值得记的**
