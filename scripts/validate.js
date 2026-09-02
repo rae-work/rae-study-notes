@@ -124,9 +124,9 @@ if (!Array.isArray(content.drills.angka_pool)) {
   err(G1, `数字池只有 ${content.drills.angka_pool.length} 个，太少了（每个数都要有音频，至少 20）`);
 }
 
-/* ── 2. 三语齐全 ─────────────────────────────────────────── */
+/* ── 2. 多语齐全 ─────────────────────────────────────────── */
 
-const G2 = '三语';
+const G2 = '多语';
 const missing = Object.fromEntries(TRI_LANGS.map((l) => [l, []]));
 let triTotal = 0;
 const roots = [
@@ -148,14 +148,14 @@ for (const [name, root] of roots) {
 const REQUIRED = new Set(content.meta.required_langs || TRI_LANGS);
 for (const lang of TRI_LANGS) {
   if (!missing[lang].length) continue;
-  const msg = `${triTotal} 个三语对象里，缺 ${lang} ${missing[lang].length} 处`;
+  const msg = `${triTotal} 个多语对象里，缺 ${lang} ${missing[lang].length} 处`;
   if (!REQUIRED.has(lang)) notes.push(`  ${msg}（${lang} 不在 required_langs 里，不算失败）`);
   else if (ALLOW_TODO) warn(G2, msg + '（--allow-todo：暂不算失败）');
   else err(G2, msg);
   if (REQUIRED.has(lang)) notes.push(`  缺 ${lang} 的前几处：${missing[lang].slice(0, 3).join('  ')}`);
 }
 
-/* 界面文案：三个文件的键集合必须完全一致 */
+/* 界面文案：每种语言的 ui.*.json 键集合必须完全一致 */
 const uiLangs = content.meta.langs;
 const uiKeys = {};
 for (const lang of uiLangs) uiKeys[lang] = new Set(Object.keys(flatten(content.ui[lang] || {})));
@@ -379,4 +379,4 @@ if (errors.length) {
   line('先修这些，再继续。');
   process.exit(1);
 }
-line('✅ 全部通过' + (ALLOW_TODO ? '（迁移期：三语未齐全被降级为警告）' : ''));
+line('✅ 全部通过' + (ALLOW_TODO ? '（迁移期：多语未齐全被降级为警告）' : ''));

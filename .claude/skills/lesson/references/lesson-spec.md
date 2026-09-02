@@ -37,33 +37,33 @@
 
 ## 2. 块类型
 
-`gloss` / `text` / `sub` 之类写着「三语」的字段都是 `{zh,ja,en}` 对象。
+`gloss` / `text` / `sub` 之类写着「多语」的字段都是 `{zh,ja,en,vi}` 对象。
 
 | `k` | 用途 | 字段 |
 |---|---|---|
-| `phead` | 页标题（每页第一个） | `title`（印尼语）· `sub`（三语） |
-| `lead` | 页首导语 | `text`（三语） |
-| `psub2` | 小段说明 | `text`（三语） |
-| `mini` | 居中小标题 | `text`（三语，可以是「中文 · indonesia」这种双语装饰） |
+| `phead` | 页标题（每页第一个） | `title`（印尼语）· `sub`（多语） |
+| `lead` | 页首导语 | `text`（多语） |
+| `psub2` | 小段说明 | `text`（多语） |
+| `mini` | 居中小标题 | `text`（多语，可以是「中文 · indonesia」这种双语装饰） |
 | `rule` | 分隔线 | 可选 `short: true` |
-| `sec` | 编号大节 | `num`（①②③）· `word`（印尼语，可点读）· `reg` · `gloss`（三语，可含 `<b>`） |
-| `pattern` | 句型公式框 | `code`（印尼语，可含 `<b>`）· `note`（三语） |
+| `sec` | 编号大节 | `num`（①②③）· `word`（印尼语，可点读）· `reg` · `gloss`（多语，可含 `<b>`） |
+| `pattern` | 句型公式框 | `code`（印尼语，可含 `<b>`）· `note`（多语） |
 | `alpha` | 字母卡格 | `items: [["A","a"], …]` |
 | `pics` | Emoji 图卡格 | `items: [{emoji, w, gloss}]` |
 | `vocab` | 词汇卡格 | `items: [{w, reg, gloss}]` |
 | `dialog` | 对话行（带 ▶） | `rows: [{who, id, reg, alt, gloss, alt_gloss, kw}]` |
-| `examples` | 例句行（带 ▶） | 可选 `title`（三语）· `items: [{id, reg, alt, gloss, alt_gloss, kw}]` |
-| `numgrp` | 数字格 | `glab`（三语）· `items: [["25","dua puluh lima"], …]`，`ans: true` 可遮挡 |
+| `examples` | 例句行（带 ▶） | 可选 `title`（多语）· `items: [{id, reg, alt, gloss, alt_gloss, kw}]` |
+| `numgrp` | 数字格 | `glab`（多语）· `items: [["25","dua puluh lima"], …]`，`ans: true` 可遮挡 |
 | `phones` | 电话号码卡 | `items: [{d, say}]` |
-| `ladder` | 正式度阶梯 | `items: [{lvl（三语）, id, reg, gloss}]` |
-| `currency` | 货币示例 | `rp` · `id`（印尼语读法）· `gloss`（三语） |
-| `note` | 注意 / 知识框 | `tag`（三语）· `green: true/false` · `lines` |
-| `prompt` | 开放任务框 | `tag`（三语）· `text`（三语） |
+| `ladder` | 正式度阶梯 | `items: [{lvl（多语）, id, reg, gloss}]` |
+| `currency` | 货币示例 | `rp` · `id`（印尼语读法）· `gloss`（多语） |
+| `note` | 注意 / 知识框 | `tag`（多语）· `green: true/false` · `lines` |
+| `prompt` | 开放任务框 | `tag`（多语）· `text`（多语） |
 | `qa_list` | 问答 / 翻译练习 | 可选 `title` · `items: [{prompt, answer}]`，answer 自动可遮挡 |
 | `fillblank` | 填空练习 | 可选 `title` · `items: [{pre, ans, post, say, reg, gloss}]`，ans 自动可遮挡 |
 | `syll` | 发音卡（带练习工具条） | `items: [{w, s:"音节-用-连字符", gloss}]` |
-| `listen` | 教材整段听力音轨 | `file`（不含扩展名）· `dur`（秒）· `title`（三语）· `note`（三语，可选） |
-| `table` | 表格（语法、对照表） | `cols: [三语, …]` · `rows: [[cell, …], …]` · `note`（三语，可选） |
+| `listen` | 教材整段听力音轨 | `file`（不含扩展名）· `dur`（秒）· `title`（多语）· `note`（多语，可选） |
+| `table` | 表格（语法、对照表） | `cols: [多语, …]` · `rows: [[cell, …], …]` · `note`（多语，可选） |
 | `reviewbtn` | 「进入复习模式」按钮 | 无字段 |
 
 ### `note.lines`
@@ -102,7 +102,7 @@
   "note": { "zh": "…", … } }
 ```
 单元格三种写法：`{"id":…,"reg":…}` 印尼语（可点读 + 语体徽章）·
-`{"text":{三语}}` 说明文字 · `""` 空格（承接上一行）。
+`{"text":{多语}}` 说明文字 · `""` 空格（承接上一行）。
 窄屏上表格横向滚动，不会被压扁。
 
 ### 富文本

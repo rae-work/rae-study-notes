@@ -60,14 +60,14 @@ npm run tts
 不要退回系统 TTS 当交付方案。模型 `eleven_multilingual_v2`，**绝不传 `language_code`**。
 
 跑完看 `npm run validate` 的「语音」那一行：**不到 100% 就别往下走。**
-它只报警告不会失败，但 `npm run site` 和 `npm run apk` 会直接拒绝。
+它只报警告不会失败，但 `npm run site` 会直接拒绝。
 
 ### 8 · 出网页版给 Rae 看
 ```bash
 npm run build
 npm run preview
 ```
-把打印出来的局域网地址（`http://10.x.x.x:8787/`）给 Rae，让她在手机上看。
+把打印出来的局域网地址（`http://10.x.x.x:8787/`，端口被占时 `npm run preview -- 8788`）给 Rae，让她在手机上看。
 **先网页版，这是规矩。**
 
 ### 9 · 她说可以了 → 更新线上网站
@@ -79,8 +79,8 @@ git add -A && git commit -m "Bab N" && git push
 ⚠️ 仓库是**公开**的，这一推同时公开代码和更新网站。
 **确认自己在 `main` 分支** —— `history-archive-private` 含旧密钥，永远不能推。
 
-### 10 · 最后才问要不要打 App
-要就用 `/apk`。她没明确同意就不要打包。
+### 10 · 不再有 App 这一步
+APK / 离线版 2026-09-02 起永久停用，网站就是最终产物。不要问「要不要打包」。
 
 ### 11 · 收尾
 - 处理过的文件移到 `inbox/done/Lxx/`
@@ -94,9 +94,9 @@ git add -A && git commit -m "Bab N" && git push
 
 | 占位符 | 替换成 | 注意 |
 |---|---|---|
-| `{NEGARA}` | 印尼语国名（Cina / Jepang / Inggris） | **进朗读文本，三种语言各产生一句、每句都要有音频** |
-| `{NAMA}` | 该语言里的国名（中国 / 日本 / England） | |
-| `{PEOPLE}` | 该语言里的「某国人」（中国人 / 日本人 / English） | |
+| `{NEGARA}` | 印尼语国名（Cina / Jepang / Inggris / Vietnam） | **进朗读文本，每种界面语言各产生一句、每句都要有音频** |
+| `{NAMA}` | 该语言里的国名（中国 / 日本 / England / Việt Nam） | |
+| `{PEOPLE}` | 该语言里的「某国人」（中国人 / 日本人 / English / người Việt Nam） | |
 
 映射表在 `content/meta.json` 的 `learner`。可用于 `vocab.ex` / `ex_gloss` /
 `drills` 的 `hint` / `a` / `alts`。
@@ -112,7 +112,7 @@ git add -A && git commit -m "Bab N" && git push
 - 朗读文本把 `?` `!` 去掉了 —— 问句会被读成陈述句，**保留**
 - 词汇表重复入库
 - 没跑校验就构建
-- 顺序搞反：先打了 APK 才给 Rae 看
+- 顺序搞反：Rae 还没看预览就合并进 main
 - 改了 `data-say` 的文本（多一个空格都算）没重跑 tts —— 覆盖率会立刻掉
 - `drills.angka_pool` 非空时**必须至少 20 个数**，少于 20 直接报错
 - `alts` 引擎只取前 3 条，写第 4 条是白写

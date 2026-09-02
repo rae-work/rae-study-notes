@@ -83,6 +83,8 @@
     "transcode_note": "64k/32kHz 是实测拐点。24 kHz 会削掉 ny / sy / c 的高频，不要降。"
   },
   "android": {
+    "status": "discontinued",
+    "status_note": "APK / 离线版 2026-09-02 起永久停用（Rae 定的）。下面的字段只是历史记录，android-app/ 目录留作归档不要动，release.keystore 本机唯一一份不要删。",
     "package": "com.raenotes.app",
     "package_note": "和旧的 com.ruangbelajar.app 不同，两个 App 可以同时装在手机上。",
     "version_code": 1,

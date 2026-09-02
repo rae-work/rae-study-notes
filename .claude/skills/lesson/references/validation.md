@@ -5,11 +5,11 @@ npm run validate     # 九道关，一道不过就退出码非 0
 npm run build        # → dist/<meta.app.id>.html
 npm run preview      # 本地 + 局域网地址，手机能开
 npm run tts          # 增量合成语音（先报数，等确认）
-npm run apk          # 打包安卓（要 Rae 先确认过网页版）
+npm run site         # → docs/（网站产物，Rae 点头后才跑）
 ```
 
 参数：
-- `npm run validate -- --allow-todo` 内容还没补齐时用：三语不齐只警告不失败
+- `npm run validate -- --allow-todo` 内容还没补齐时用：多语不齐只警告不失败
 - `npm run validate -- --quick` 跳过要跑 jsdom 的第 7–9 关（快，但覆盖不全）
 
 ## 九道关
@@ -17,7 +17,7 @@ npm run apk          # 打包安卓（要 Rae 先确认过网页版）
 | # | 关卡 | 查什么 | 常见失败 |
 |---|---|---|---|
 | 1 | 结构 | 课号不重复、必填字段齐、每页首块是 `phead`、block 类型已登记、词条 `les` 有对应课程、情景题干扰项 ≥3 | 新增 block 类型忘了在 `BLOCK_FIELDS` 里登记 |
-| 2 | 三语 | `required_langs` 里的语言不能为空；`ui.*.json` 三个文件键集合必须完全一致 | 三语对象少写一个键 |
+| 2 | 多语 | `required_langs` 里的语言（zh / ja / en / vi）不能为空；`ui.*.json` 四个文件键集合必须完全一致 | 多语对象少写一个键 |
 | 3 | 语体 | `reg` 只能是 casual/formal/neutral；`alt` 不能和原句相同；`alt` 不能仍被判为口语体 | `alt` 里漏换了一个口语词 |
 | 4 | 配对 | `register.json` 自洽：无重复、两端不同、`safe_swap` 里的词在 `pairs` 里有配对、`casual_only` 和 `pairs` 不重叠 | 往 `safe_swap` 加词时忘了先加进 `pairs` |
 | 5 | 查重 | 同一个词只入库一次（不分大小写） | 新课的词上一课已经有了 |

@@ -63,7 +63,7 @@ var STORE = (function(){
    引擎只负责「报告刚才发生了什么」，至于要不要记、记到哪去，
    由外面决定 —— 这样同一份引擎能出三种产物：
 
-   · dist/ 单文件和 APK：外面什么都没有，TRK() 空转，一个字节都不外发。
+   · dist/ 单文件（本地预览）：外面什么都没有，TRK() 空转，一个字节都不外发。
      离线约束（lib/build.js 的 assertOffline）因此永远不会被触到。
    · 网站版：scripts/site.js 在页面末尾注入收集脚本，它把
      window.__RSN_TRACK 换成真的实现。
@@ -562,7 +562,7 @@ function tableCell(cell){
     return sayWhole(cell.id, sayText(cell.id)) + badge;
   }
   /* 走 richText：单元格里也能用 <s>词</s> 标出可点读的印尼语。
-     地方人名那种表格里，印尼语和三语说明混在一格，只能靠标记区分。 */
+     地方人名那种表格里，印尼语和多语说明混在一格，只能靠标记区分。 */
   return richText(cell.text);
 }
 
@@ -672,7 +672,7 @@ function renderBlock(b){
             (L(it.gloss) ? '<span class="gloss">' + esc(L(it.gloss)) + "</span>" : "") + "</span></div>";
         }).join("") + "</div>";
     case "listen": {
-      /* 教材官方听力音轨。文件在 audio/ 下，网页版和 APK 用同一个相对路径。 */
+      /* 教材官方听力音轨。文件在 audio/ 下，用相对路径。 */
       var lid = "lis_" + b.file;
       return '<div class="listen" id="' + esc(lid) + '" data-file="' + esc(b.file) + '">' +
         '<div class="lis-top"><button class="lis-play" data-listen="' + esc(b.file) + '">' +
@@ -945,7 +945,7 @@ function exBlank(v){
   var ex = LZ(v.ex);                       /* 先把 {NEGARA} 之类解析掉再挖空 */
   var i = ex.toLowerCase().indexOf(v.w.toLowerCase());
   if(i < 0) return null;
-  /* 用 ASCII 下划线，不用全角＿ —— 全角属于 CJK 区，三语界面下不该出现 */
+  /* 用 ASCII 下划线，不用全角＿ —— 全角属于 CJK 区，英文 / 越南文界面下不该出现 */
   return ex.slice(0, i) + "______" + ex.slice(i + v.w.length);
 }
 function chooseType(){
@@ -1809,7 +1809,7 @@ function renderDrillQ(){
     /* 答对：给一句规则（趁刚答对把「为什么对」钉一下），并且**一定要给「继续」**。
        原来这一屏全靠音频播完自动翻页，可 render() 会把在途回调作废 ——
        答对之后切个语言、点一下目录，这一轮就再也走不下去，只能刷新页面
-       （装成 APK 连刷新都没有）。自动翻页现在只是省一下手，不是唯一出路。 */
+       （加到主屏幕后连刷新都没有）。自动翻页现在只是省一下手，不是唯一出路。 */
     fb = '<div class="qz-fb ok">' +
       (q.src && q.src.note ? '<div class="fnote">' + L(q.src.note) + "</div>" : "") +
       '<button class="qz-next alt" data-dr="cont">' + esc(T("review.cont")) + "</button></div>";
@@ -1971,7 +1971,7 @@ function restorePos(){
    手机厂商 TTS 引擎——从根源上解决"用英文音读印尼语"的问题。
    网页版(不带 voices 文件夹)这段静默失效,自动走原来的系统语音。 */
 /* 音频清单由 build.js 内联（AUDIO），不再走 XHR。
-   文件本身要么在 APK 的 assets/audio/ 里，要么在网页同目录的 audio/ 下；
+   文件本身在网页同目录的 audio/ 下；
    都没有时 <audio> 加载失败，自动回退到系统 TTS（见 playBundled）。 */
 var BUNDLE_MAP = AUDIO, BUNDLE_READY = true;
 var bundleAudio = new Audio();
@@ -1984,7 +1984,7 @@ var bundleAudio = new Audio();
    在后台抓成 blob 存住，点的时候直接从内存播，没有网络等待。
 
    两个前提：
-   · 只在 http(s) 下预取。APK 走 file://，fetch 取不到本地文件，
+   · 只在 http(s) 下预取。本地 file:// 打开时 fetch 取不到本地文件，
      而且本地读盘本来就快，不需要预取。
    · 缓存有上限，超了按先进先出释放，避免翻几十页之后把内存吃满。
    ============================================================ */
@@ -2628,7 +2628,7 @@ on("accentSeg", "click", function(e){
 });
 
 /* ===== 启动 ===== */
-/* 访问统计只注入网页版（见 scripts/site.js），APK 是离线运行的、没有统计。
+/* 访问统计只注入网页版 docs/（见 scripts/site.js），dist/ 里没有统计。
    所以 file:// 下要把页脚那句隐私说明藏起来 —— 不能说没做的事。 */
 (function(){
   var pv = document.getElementById("footPrivacy");

@@ -10,14 +10,13 @@
  * 为什么必须带 audio/：音频没有内联进 HTML，页面是按相对路径去取的。
  * 只传一个 HTML 上去，点读会全部 404，然后退回设备自带语音（发音不准）。
  *
- * 访问统计：只注入这一份，不进 dist/、不进 APK。
- * 统计脚本是外部资源，assertOffline() 必然拦下 —— 而且 APK 本来就离线运行，
+ * 访问统计：只注入这一份，不进 dist/。
+ * 统计脚本是外部资源，assertOffline() 必然拦下 —— 而且本地 file:// 打开时
  * 注进去也统计不到。token 填在 content/meta.json 的 site.analytics_token。
  *
  * 使用情况收集（src/site-telemetry.js）同理，只注入这一份。
- * 它是**内联**的（没有 src 属性），所以就算有人误把 docs/index.html
- * 拷进 APK，prepare-assets.js 那道防线也不会被它误伤 —— 真正拦下误拷的
- * 是上面那段 Cloudflare 统计的 <script src>。
+ * 它是**内联**的（没有 src 属性），所以 assertOffline() 那类只看 src 的
+ * 检查不会被它误伤 —— 会被拦下的是上面那段 Cloudflare 统计的 <script src>。
  *
  * 用法：
  *   npm run site                          只生成，不写 CNAME
@@ -33,7 +32,7 @@ import { neededAudio, copyAudio, assertNoMissing } from './lib/bundle.js';
 import { loadContent } from './lib/content.js';
 
 /* 统计服务商的域名写死在这里，不放 meta.json ——
-   meta 会被整个内联进 dist/（跟着进 APK），那一份里不该出现任何外部域名。 */
+   meta 会被整个内联进 dist/，那一份里不该出现任何外部域名。 */
 const BEACON = 'https://static.cloudflareinsights.com/beacon.min.js';
 
 /* 使用情况收集的接收地址（worker/ 那个 Cloudflare Worker）。

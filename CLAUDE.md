@@ -12,34 +12,29 @@
 
 ## 绝对不做
 - 不读取、不打印、不让 Rae 在对话里粘贴任何密钥。密钥只存在 `.env`（已 gitignore），脚本用 `process.env.ELEVENLABS_API_KEY` 读取。
-- 不删除、不改动 `android-app/` 里的 `release.keystore`（丢了以后 APK 无法覆盖升级）。
+- **APK / 离线版已于 2026-09-02 永久停用**（Rae 定的）。不要再打包、不要再提
+  「要不要出 App」、不要恢复 `/apk` 技能或打包工作流。`android-app/` 目录只是归档，
+  不要动它，也不要删 —— 里面的 `release.keystore` 是本机唯一一份（已 gitignore）。
 - 不手改 `dist/` 和 `docs/` 里的文件（都是构建产物）。
-  `docs/` 比 `dist/` 多一段访问统计，是网站专用；APK 只能用 `dist/` 那份。
-- 不删、不改 `android-app/release.keystore`。它已 gitignore、**只存在本机**，
-  云端从 Secret 还原。本机丢了就真的没了。
+  `docs/` 比 `dist/` 多一段访问统计，是网站专用。
 - 不把 `.env`、`dist/`、`node_modules/`、`inbox/`、`legacy/`、`*.keystore` 提交进 git。
   （反过来：**`docs/` 必须提交** —— Pages 就是从它发布的，只是不许手改。）
 - **永远不要 push `history-archive-private` 分支** —— 那是开源前的完整历史，
   里面有旧签名密钥。仓库现在是**公开**的。
-- 不要把签名口令写进任何文件。它和密钥都在 GitHub Secrets
-  （`KEYSTORE_BASE64` / `KEYSTORE_PASSWORD` / `KEY_ALIAS` / `KEY_PASSWORD`）。
-  注意 `meta.json` 里的 `site.analytics_token` **不是密钥**，公开可提交。
+- 不要把签名口令写进任何文件（旧 APK 签名的口令和密钥还留在 GitHub Secrets 里，
+  不用也不要删）。注意 `meta.json` 里的 `site.analytics_token` **不是密钥**，公开可提交。
 
 ## 交付形式
-- 三个产物：
-  - `dist/rae-study-notes.html` —— 离线单文件（文件名跟着 `meta.app.id` 走）。
-    CSS / JS / 数据内联，**但音频不内联** —— 按相对路径 `audio/<哈希>.m4a` 取，
-    托管和打包都必须把音频目录一起带上。
-  - `docs/` —— 网站产物（`npm run site` 生成），GitHub Pages 从 `main` 的 `/docs`
-    发布到 https://belajar.rae.work 。**这一份要提交进仓库，但不许手改。**
-  - APK。
-- 离线约束（不引用外部资源、不用 web font）**管 `dist/` 和 APK**；
-  `docs/` 例外，多一段访问统计脚本。两道防线：`lib/build.js` 的 `assertOffline()`、
-  `prepare-assets.js` 的外部资源检查。`@font-face` 无条件拦（base64 内嵌也不行）；
-  `<a href="https://…">` 放行（超链接不加载东西）。
-- 安卓：同一个 HTML 打包成 APK（原生 WebView 工程 `android-app/`，GitHub Actions 云端构建）。iOS：网页加到主屏幕。
-- **每次改动的三个出口**：本地预览（给 Rae 看）→ 网站 `docs/` → APK。
-  后两个都要等 Rae 点头。
+- **唯一正式产物是网站** `docs/`（`npm run site` 生成），GitHub Pages 从 `main` 的 `/docs`
+  发布到 https://belajar.rae.work 。**这一份要提交进仓库，但不许手改。**
+  手机上「加到主屏幕」就是 App 的用法（iOS 和安卓都一样）。
+- `dist/rae-study-notes.html` 是中间产物（`npm run build` 生成，文件名跟着 `meta.app.id` 走）：
+  CSS / JS / 数据内联，**音频不内联** —— 按相对路径 `audio/<哈希>.m4a` 取。
+  本地预览伺服的是它；`site.js` 拿它改名成 `docs/index.html` 再注入统计。
+- `lib/build.js` 的 `assertOffline()` 仍然拦 `dist/` 里的外部资源和 `@font-face`
+  （`docs/` 例外，多一段统计脚本）。离线版已经不做了，这道防线现在只是
+  「别不小心引外部资源」的保险；哪天真要用 web font，可以改它，先问 Rae。
+- **每次改动的两个出口**：本地预览（给 Rae 看）→ 网站 `docs/`。后者要等 Rae 点头。
 - 兼容基线：iOS 15 Safari / Android Chrome 100+。可以用现代 CSS（flex gap、CSS 变量、grid）和 ES2020。旧的 iOS 12 限制已作废。
 - `localStorage` 统一走 `engine.js` 里的 `STORE`：老三样 `lang` / `theme` / `accent`
   保持裸键名（线上已有用户存过，改名等于把大家的设置清空一次），新增的一律带
@@ -76,12 +71,12 @@
 
 ## 发布流程（顺序不能颠倒）
 1. **先出网页版**：`npm run validate` → `npm run build` → `npm run preview`，把局域网地址给 Rae。
-2. **等 Rae 在手机上看过、明确说可以**。她没点头之前不要打包、不要推 GitHub、不要动 APK。
-3. 她同意后**先更新网站**：`npm run site` → `git add -A && git commit && git push`，
+2. **等 Rae 在手机上看过、明确说可以**。她没点头之前不要合并进 main、不要推 GitHub。
+3. 她同意后**更新网站**：`npm run site` → `git add -A && git commit && git push`，
    约一分钟后 belajar.rae.work 生效。
-4. 最后才 `/apk`：拷贝产物 → versionCode +1 → commit → push → 云端构建 → 取回 APK。
 
-不要因为「反正最后都要打包」就提前跑第 3 步。App 装到手机上改起来麻烦，网页版改一行就能重看。
+改动一律在分支上做（同学都在用线上版）。预览默认端口 8787，被别的项目占着时
+`npm run preview -- 8788`（`.claude/launch.json` 现在就是 8788）。
 
 ## 内容规则
 - 目录职责：`content/` 是唯一内容来源；`src/` 是模板与引擎；`scripts/` 是流水线；`dist/` 是产物；`audio/` 是语音库；`inbox/` 是 Rae 放新材料的地方。
@@ -125,5 +120,5 @@
 
 ## 每次改动后必跑
 `npm run validate` → `npm run build`。校验内容：JSON 结构、四语齐全、语体值合法、配对可解析、词汇查重、`node --check`、jsdom 逐块渲染冒烟、实战题库压力测试（选项恰好 4 个且不重复、答案索引正确）、朗读文本的音频覆盖率。前 8 关不过会直接失败；**第 9 关（音频覆盖率）只是警告** ——
-缺音频照样「✅ 全部通过」、照样能 build，真正拦下的是 `npm run site` 和
-`npm run apk`。发版前自己确认覆盖率那行是 100%。
+缺音频照样「✅ 全部通过」、照样能 build，真正拦下的是 `npm run site`。
+发版前自己确认覆盖率那行是 100%。

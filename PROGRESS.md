@@ -5,7 +5,12 @@
 > `KICKOFF.md` 描述的是 2026-08 之前的旧 App（Cindy 私教 13 课那版），
 > **§3–§8 已作废**，只在追溯历史时看。
 
-**当前状态：v1.4.0 越南语界面在分支 `feat/vietnamese` 上做完，等 Rae 看预览（2026-09-02）。线上仍是 v1.3.0。**
+**当前状态：v1.4.0 已上线（2026-09-02）。四语界面（中 / 日 / 英 / 越），第一课 20 页 + 第二课 8 页，225 词，音频 100%。**
+
+> **2026-09-02 起 APK / 离线版永久停用（Rae 定的）。** 网站 `docs/` 是唯一产物，
+> `dist/` 只是它的中间产物。`/apk` 技能、`scripts/apk.sh`、`prepare-assets.js`、
+> 云端打包工作流都已删除；`android-app/` 留作归档不要动（里面的 `release.keystore`
+> 是本机唯一一份）。下文凡是提到 APK 的历史段落，只当背景看。
 
 > ⚠️ **App 已经上线，全班同学在用。任何改动未经 Rae 明确同意不得合并进 `main`** ——
 > push main 会立刻重新发布 belajar.rae.work，等于直接改所有人正在用的版本。
@@ -13,7 +18,7 @@
 
 ---
 
-## v1.4.0 做了什么（2026-09-02，分支 `feat/vietnamese`，未合并）
+## v1.4.0 做了什么（2026-09-02）
 
 面向学习者的说明在 `CHANGELOG.md`，下面只记工程上要知道的。
 
@@ -22,7 +27,9 @@
 | 内容 | 全部 1,203 个多语对象补上 `vi`（两课 + 词汇 + 题库 + 标题），界面文案 `ui.vi.json` 177 键 |
 | 引擎 / 脚本 | `scripts/lib/content.js` 新增 `TRI_LANGS = ['zh','ja','en','vi']`，`isTri()` 按它判定；`validate.js` 的缺语言统计、`speakables.js` 的渗漏检查（英文、越南文各跑一遍）、`engine.js` 的词汇搜索索引都改成按语言列表走 |
 | meta.json | `langs` / `required_langs` 加 `vi`，`lang_names.vi = Tiếng Việt`，`learner.vi = { negara: Vietnam, nama: Việt Nam, people: người Việt Nam }` |
-| 语音 | 越南语界面的 `{NEGARA}` 句子新增 11 条 / 227 字符，**还没合成**（等 Rae 点头再跑 `npm run tts`） |
+| 语音 | 越南语界面的 `{NEGARA}` 句子新增 11 条 / 227 字符，已合成，覆盖率 100% |
+| 顺手修 | 首次打开时 `<html lang>` 一直是构建时的 zh，现在跟检测到的语言走（日文用户首次打开也能拿到明朝体） |
+| 停用 | APK / 离线版永久停用，相关脚本、技能、工作流已删，文档全部改成「网站是唯一产物」 |
 
 **这一轮值得记的**
 
@@ -131,7 +138,7 @@
 ## 使用情况收集（v1.2.0 加的，只在网站版）
 
 同学在用了，需要知道大家卡在哪。**只有 `docs/` 那一份带收集代码**；
-`dist/` 单文件和 APK 里一个字节都没有，离线约束因此完全没被触到。
+中间产物 `dist/` 里一个字节都没有，`assertOffline()` 因此完全没被触到。
 
 **三层结构**
 
@@ -141,7 +148,7 @@
 | `src/site-telemetry.js` | 收集脚本。**只由 `scripts/site.js` 内联进 `docs/`**，接管 `window.__RSN_TRACK` 并把开机那几条领走 |
 | `worker/` | Cloudflare Worker + D1。收数据 + 带口令的统计页。部署见 `worker/README.md` |
 
-**为什么这么分层**：引擎是三个产物共用的，收集代码写进去就会跟着进 APK；
+**为什么这么分层**：引擎是 `dist/` 和 `docs/` 共用的，收集代码写进去 `dist/` 也会带上；
 而 `assertOffline()` 见到外部地址会直接让构建失败。所以引擎里只留一个
 空转的出口，真正联网的部分只在网站那一份里出现。
 
@@ -182,15 +189,15 @@
 
 ## 这个 App 是什么
 
-UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。三语界面
-（中文 / 日本語 / English），印尼语点读音频全部由 ElevenLabs 合成。
+UGM INCULS《Titian Bahasa Pemula 1》的配套学习网站。四语界面
+（中文 / 日本語 / English / Tiếng Việt），印尼语点读音频全部由 ElevenLabs 合成。
 
-- 名字 **Rae's Study Note**，安卓包名 `com.raenotes.app`
-- 三个产物：`dist/rae-study-notes.html`（离线单文件）、`docs/`（网站）、APK
+- 名字 **Rae's Study Note**
+- 唯一产物是网站 `docs/`；`dist/rae-study-notes.html` 是它的中间产物（本地预览用）
 - 内容：**Bab 1 Perkenalan** 20 页（课本 Bab 1 + 口语课 Pertemuan 1）+ **Bab 2 Kelas INCULS** 8 页 · 225 词
 - 实战题：情景 26 / 地点 10 / 领属 15 / 指示词 8 / 看图认词 20 / 数字池 40（时间题仍关着）
-- 音频 1068/1068（100%），音库 2732 条（含旧内容留下的，只增不减），教材听力音轨 1 条
-- 额度：ElevenLabs starter 40,000 字符/月，v1.3.0 之后累计用掉约 23,200
+- 音频 1079/1079（100%），音库 2743 条（含旧内容留下的，只增不减），教材听力音轨 1 条
+- 额度：ElevenLabs starter 40,000 字符/月，v1.4.0 之后本月累计用掉约 21,500
 
 ## 线上
 
@@ -200,7 +207,7 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习 App。三语界面
 | 仓库 | https://github.com/rae-work/rae-study-notes（**公开**） |
 | 发布 | GitHub Pages 从 `main` 的 `/docs` 目录 |
 | DNS | Cloudflare，`belajar` CNAME → `rae-work.github.io`，**灰云** |
-| 统计 | Cloudflare Web Analytics（只在网站，不在 APK） |
+| 统计 | Cloudflare Web Analytics（只注入 `docs/`） |
 | 使用情况 | Worker `catatan` + D1 `rsn-data`。收数据 `https://catatan.zirui-mail.workers.dev/n`，看统计 `/lihat?k=口令`（口令只在 Cloudflare Secret `VIEW_KEY` 里，本机和仓库都没有） |
 
 **更新网站：**
@@ -217,7 +224,6 @@ git add -A && git commit -m "更新网站" && git push
 - [ ] Bab 3 起：Rae 拍照放 `inbox/`，走 `/lesson`。
       ⚠️ 口语课（Kelas Berbicara）的讲义按**内容**归课，不按次数 ——
       Pertemuan 1 讲的是 Perkenalan，就并进 Bab 1。
-- [ ] 打第一个 APK（要 Rae 先确认过网页版）
 
 细节和其余待办见文末「待办 / 待确认」。
 
@@ -228,21 +234,21 @@ git add -A && git commit -m "更新网站" && git push
 **红线**
 
 - **`history-archive-private` 分支永远不能 push。** 本机保留的开源前完整
-  历史，里面有旧签名密钥。公开仓库用的是重建过的干净历史。跑 `/apk` 前
-  确认自己在 `main` 上（`apk.sh` 推的是当前分支，而且是 `git add -A`）。
+  历史，里面有旧签名密钥。公开仓库用的是重建过的干净历史。push 前确认
+  自己在 `main` 上。
 - **Cloudflare 那条 DNS 记录必须保持灰云。** 改橙云 → Let's Encrypt 的
   HTTP-01 挑战打不到 GitHub → 证书续期失败 → 三个月后网站报安全警告。
-- **`android-app/release.keystore` 不能删。** 已 gitignore，**只存在本机**；
-  云端从 Secret `KEYSTORE_BASE64` 还原。本机丢了就真的没了。
+- **`android-app/` 不要动。** APK 已永久停用，目录只是归档；里面的
+  `release.keystore` 已 gitignore、只存在本机，留着不碍事，删了就没了。
 - **仓库是公开的。** push 等于对外发布代码 + 更新线上网站，两件事一起发生。
 
-**离线约束**
+**外部资源防线（原来叫离线约束）**
 
-- `assertOffline()`（`scripts/lib/build.js`）只管 `dist/` 和 APK，`docs/` 例外
-  （多一段统计脚本）。`prepare-assets.js` 有第二道防线，把网站版误拷进
-  APK 会 exit(1)。
+- 离线版已停用，但 `assertOffline()`（`scripts/lib/build.js`）还在：拦 `dist/`
+  里的外部资源，`docs/` 例外（多一段统计脚本）。现在它只是「别不小心引外部
+  资源」的保险，真要放开（比如 web font）先问 Rae。
 - **`@font-face` 无条件拦截**，base64 内嵌也不行 —— 字体只能用系统栈。
-- **`<a href="https://…">` 放行**（超链接不加载东西，页面照样离线可用）。
+- **`<a href="https://…">` 放行**（超链接不加载东西）。
   页脚的 GitHub 链接靠这条。`<link href>` / `src` / `action` 仍一律拦。
 
 **引擎**
@@ -263,7 +269,7 @@ git add -A && git commit -m "更新网站" && git push
 
 - 改任何 `data-say` 文本（多一个空格都算）会立刻掉音频覆盖率，要重跑 tts。
 - 整句朗读用 `sayText()`（保 `? ! . ,`），逐词点读才用 `clean()`。
-- 界面文案一律走 `T()`，键要同时加进 `ui.zh/ja/en.json` 三个文件，
+- 界面文案一律走 `T()`，键要同时加进 `ui.zh/ja/en/vi.json` 四个文件，
   **键集合必须完全一致**。渗漏检查**只查中日文**，写死的英文和属性里的
   中文都查不出来。
 - **音频不内联**，按相对路径 `audio/<哈希>.m4a` 取。托管必须带 `docs/audio/`。
@@ -273,7 +279,7 @@ git add -A && git commit -m "更新网站" && git push
 **校验**
 
 - **第 9 关（音频覆盖率）只是警告**，缺音频照样「✅ 全部通过」、照样能 build。
-  真正拦下的是 `npm run site` 和 `npm run apk`（`lib/bundle.js` 的
+  真正拦下的是 `npm run site`（`lib/bundle.js` 的
   `assertNoMissing()` → exit 1）。发版前自己确认那行是 100%。
 - 第 8 关「四种题型都出到」也是条件警告：`angka_pool` 为空时
   `jam`/`angka` 不出题是正常的。
@@ -283,15 +289,13 @@ git add -A && git commit -m "更新网站" && git push
 ## 命令
 
 ```bash
-npm run validate         # 九道关（--quick 跳 7–9 关，--allow-todo 三语降级为警告）
+npm run validate         # 九道关（--quick 跳 7–9 关，--allow-todo 多语不齐降级为警告）
 npm run build            # → dist/rae-study-notes.html
-npm run preview          # 本地 + 局域网地址，手机能开（伺服 dist/）
+npm run preview          # 本地 + 局域网地址，手机能开（伺服 dist/；端口被占时 npm run preview -- 8788）
 npm run preview -- --site    # 改伺服 docs/ —— 只有这一份带统计和使用情况收集
 npm run site             # → docs/（网站：HTML + 音频 + CNAME + 统计 + 使用情况收集）
 npm run site -- --tag test   # 同上，但数据标成「试用」，统计页默认不显示
-npm run prepare-assets   # → 安卓 assets（云端工作流也跑它）
 npm run tts              # 增量合成语音（--dry 只报计划，--limit N 试音，--yes 跳过确认）
-npm run apk              # 打包安卓（要 Rae 先确认过网页版）
 ```
 
 ⚠️ node / ffmpeg / git / gh 在 `/opt/homebrew/bin`，不在默认 PATH 里。
@@ -304,11 +308,11 @@ npm run apk              # 打包安卓（要 Rae 先确认过网页版）
 | `content/` | 唯一内容来源：课程 / 词汇 / 题库 / 界面文案 / 配置 | ✅ |
 | `src/` | `template.html` + `app.css` + `engine.js` + `site-telemetry.js`（**只进 `docs/`**） | ✅ |
 | `worker/` | 收使用情况数据的 Cloudflare Worker + D1 表结构 + 统计页 | ✅（除登录凭证） |
-| `scripts/` | 校验 / 构建 / 网站 / 语音 / 预览 / 打包 | ✅ |
+| `scripts/` | 校验 / 构建 / 网站 / 语音 / 预览 | ✅ |
 | `audio/` | 语音库（按朗读文本哈希命名，只增不减的缓存） | ✅ |
 | `docs/` | **网站产物**，Pages 从这里发布 | ✅ **但不许手改** |
-| `dist/` | 单文件产物 | ❌ |
-| `android-app/` | WebView 外壳（`assets/` 是构建时生成的） | ✅（除密钥） |
+| `dist/` | 中间产物（网站从它生成） | ❌ |
+| `android-app/` | 旧 WebView 外壳，**归档不用、不要动** | ✅（除密钥） |
 | `inbox/` | Rae 放原始照片 / PDF 的地方 | ❌ |
 | `legacy/` | 旧 App 归档 | ❌ |
 
@@ -366,7 +370,7 @@ npm run apk              # 打包安卓（要 Rae 先确认过网页版）
   最后更新日期、反馈方式、许可与内容出处、作者、隐私说明。**是正式声明的口气**，
   不要写成「Rae 做的，用 Claude 写的」那样。五个构建占位符：
   `{{APP_NAME}}` / `{{BUILD_VERSION}}` / `{{BUILD_DATE}}` / `{{REPO_URL}}` /
-  `{{CHANGELOG_URL}}`。隐私那行只在 http(s) 下显示（APK 没有统计）。
+  `{{CHANGELOG_URL}}`。隐私那行只在 http(s) 下显示（本地 `file://` 打开时没有统计）。
 
 ## 例句本地化
 
@@ -379,7 +383,7 @@ npm run apk              # 打包安卓（要 Rae 先确认过网页版）
 - 映射表在 `meta.json` 的 `learner`：zh→Cina / ja→Jepang / en→Inggris。
   **改了必须跑 `npm run tts` 补新句子的音频**
 - **只用于第一人称。** 讲 Sanggi、Ziah 这些课本人物的例句不动
-- ⚠️ `speakables.js` 因此**三种语言各收一遍**朗读文本。只收默认语言的话，
+- ⚠️ `speakables.js` 因此**每种界面语言各收一遍**朗读文本。只收默认语言的话，
   日文界面的句子永远不进清单，发版才发现缺音频
 
 ## 存储与记忆（v1.1.0 加的）
@@ -408,7 +412,7 @@ npm run apk              # 打包安卓（要 Rae 先确认过网页版）
 ## 音频性能
 
 - **进页面预取**：把本页 clip fetch 成 blob 存内存，点词零网络等待
-  （线上实测 335ms → 5ms）。只在 http(s) 下预取，APK 走 `file://` 跳过。
+  （线上实测 335ms → 5ms）。只在 http(s) 下预取，`file://` 下跳过。
   缓存上限 240 条先进先出，换页丢掉上一页没取完的队列。
 - 播放复用同一个 `<audio>`（见「已知的坑」）。
 - 单条加载失败只退回系统语音；只有**网络源**失败才全局关掉内置音库。
@@ -417,9 +421,9 @@ npm run apk              # 打包安卓（要 Rae 先确认过网页版）
 
 ## 已完成（归档）
 
-- **基础设施**：validate 九关（含英文渗漏检查）、build（含离线自检）、
-  site（网站）、`lib/bundle.js`（安卓和网站共用的音频裁剪）、
-  preview / tts / apk.sh、`.claude/skills/` 两个技能
+- **基础设施**：validate 九关（含英文 / 越南文渗漏检查）、build（含外部资源自检）、
+  site（网站）、`lib/bundle.js`（网站用的音频裁剪）、preview / tts、
+  `.claude/skills/lesson` 技能（`/apk` 技能已随 APK 停用一起删除）
 - **语音**：Yetty `Lpe7uP03WRpCk9XkpFnf`，AAC 64k / 32 kHz 单声道，
   starter 档 40,000 字符/月
 - **签名（两轮踩坑）**：① 原来写的是 `signingConfigs.debug`，每次构建换
@@ -445,12 +449,12 @@ npm run apk              # 打包安卓（要 Rae 先确认过网页版）
 2. **`alt` 字段（另一语体的整句）现在全库 116 处都是 `null`** —— 语体切换功能
    没做，所以也没浪费额度。`speakables.js` 会把有值的 alt 收进音频清单，
    新课要不要写 alt 先问 Rae（写了就要花钱合成界面上暂时看不到的句子）。
-3. **中文衬线在安卓上退到黑体** —— 系统没有中文宋体，且离线约束禁止
-   web font。要真用上宋体只能内嵌字体子集，那要先改 `assertOffline`。
+3. **中文衬线在安卓上退到黑体** —— 系统没有中文宋体，`assertOffline` 又拦
+   web font。离线版已经不做了，要不要放开 web font 是个可以重新问 Rae 的问题。
 4. **课本 Bab 2 的听力题和成组的 Latihan 还没做。** 听力音频挂在 ugm.id 的
-   外链上，离线约束下不能内嵌；Latihan 是整页的练习题，照搬进公开仓库不合适
+   外链上，当时的离线约束不能内嵌（现在只剩版权问题）；Latihan 是整页的练习题，照搬进公开仓库不合适
    （Rae 定的是仿写）。要做的话得想个别的形式。
 5. **还差三处跟课本对齐的修改需要新音频**：`Sanggi dari mana?`（课本用同一个
    主语演示疑问词能放句首也能放句尾，App 现在写成了 `Anda dari mana?`，
    对照就没了）、听力词表缺的 `selamat pagi`。
-6. **APK 还没打过第一个。** 网页版已经上线跑了，打包流程本身没验证过。
+6. ~~APK~~ —— 2026-09-02 永久停用，不再是待办。

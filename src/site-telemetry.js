@@ -2,7 +2,7 @@
    Rae's Study Note · 使用情况收集
    ------------------------------------------------------------
    ⚠️ 这个文件**只进网站版**。scripts/site.js 生成 docs/ 时才把它
-   内联到页面末尾；dist/ 单文件和 APK 里一个字节都没有 ——
+   内联到页面末尾；dist/ 单文件里一个字节都没有 ——
    所以离线约束（lib/build.js 的 assertOffline）永远碰不到它。
 
    分工：引擎只管调 TRK()「报告刚才发生了什么」（见 src/engine.js
@@ -101,7 +101,7 @@
     else if ((m = u.match(/(?:FxiOS|Firefox)\/(\d+)/))) { d.br = "Firefox"; d.brv = m[1]; }
     else if ((m = u.match(/Version\/(\d+)[\d.]* Safari/))) { d.br = "Safari"; d.brv = m[1]; }
     else if (/Safari/.test(u)) d.br = "Safari";
-    if (/;\s*wv\)/.test(u)) d.wv = 1;          /* 安卓 WebView（比如 APK 里那层壳） */
+    if (/;\s*wv\)/.test(u)) d.wv = 1;          /* 安卓 WebView（在别的 App 里打开时） */
     return d;
   }
 
