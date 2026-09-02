@@ -577,6 +577,125 @@
         "Tanggal Kamis.",
         "Bulan Kamis."
       ]
+    },
+    {
+      "q": "Sekarang pukul berapa?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "现在 9 点",
+        "ja": "いま 9 時",
+        "en": "it's 9 o'clock",
+        "vi": "bây giờ 9 giờ"
+      },
+      "a": "Sekarang pukul sembilan.",
+      "a_reg": "neutral",
+      "alts": [
+        "Sekarang pukul sepuluh.",
+        "Sekarang sembilan jam.",
+        "Sekarang tanggal sembilan."
+      ]
+    },
+    {
+      "q": "Kapan UGM berdiri?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "1949 年",
+        "ja": "1949 年",
+        "en": "in 1949",
+        "vi": "năm 1949"
+      },
+      "a": "Tahun seribu sembilan ratus empat puluh sembilan.",
+      "a_reg": "neutral",
+      "alts": [
+        "Tahun seribu sembilan ratus sembilan puluh empat.",
+        "Tahun sembilan belas empat puluh sembilan.",
+        "Tanggal seribu sembilan ratus empat puluh sembilan."
+      ]
+    },
+    {
+      "q": "Bagaimana kampus UGM?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "校园很大",
+        "ja": "キャンパスは大きい",
+        "en": "the campus is big",
+        "vi": "trường rộng lớn"
+      },
+      "a": "Kampus UGM besar.",
+      "a_reg": "neutral",
+      "alts": [
+        "Kampus UGM kemarin.",
+        "Kampus UGM sepuluh ribu.",
+        "Kampus UGM di Yogyakarta."
+      ]
+    },
+    {
+      "q": "Berapa harga tas ini?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "十万盾",
+        "ja": "10 万ルピア",
+        "en": "a hundred thousand rupiah",
+        "vi": "một trăm nghìn rupiah"
+      },
+      "a": "Seratus ribu rupiah.",
+      "a_reg": "neutral",
+      "alts": [
+        "Sepuluh ribu rupiah.",
+        "Seribu rupiah.",
+        "Seratus rupiah."
+      ]
+    },
+    {
+      "q": "Kapan ulang tahun Shinta?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "8 月 1 日",
+        "ja": "8 月 1 日",
+        "en": "1 August",
+        "vi": "ngày 1 tháng Tám"
+      },
+      "a": "Tanggal satu Agustus.",
+      "a_reg": "neutral",
+      "alts": [
+        "Tanggal satu April.",
+        "Tanggal delapan Agustus.",
+        "Bulan satu Agustus."
+      ]
+    },
+    {
+      "q": "Dia duduk di baris ke berapa?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "第三排",
+        "ja": "3 列目",
+        "en": "the third row",
+        "vi": "hàng thứ ba"
+      },
+      "a": "Di baris ketiga.",
+      "a_reg": "neutral",
+      "alts": [
+        "Di baris tiga.",
+        "Di baris kedua.",
+        "Di tiga baris."
+      ]
+    },
+    {
+      "q": "Kapan Anda datang ke Indonesia?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "三个月前",
+        "ja": "3 か月前",
+        "en": "three months ago",
+        "vi": "ba tháng trước"
+      },
+      "a": "Tiga bulan lalu.",
+      "a_reg": "formal",
+      "alts": [
+        "Tiga bulan depan.",
+        "Tiga hari lalu.",
+        "Bulan tiga lalu."
+      ]
     }
   ],
   "tempat": [
@@ -719,6 +838,26 @@
       },
       "a": "Mereka di kampus.",
       "a_reg": "neutral"
+    },
+    {
+      "hint": {
+        "zh": "他们去 Shinta 家",
+        "ja": "彼らはシンタの家へ行く",
+        "en": "they go to Shinta's house",
+        "vi": "họ đến nhà Shinta"
+      },
+      "a": "Mereka ke rumah Shinta.",
+      "a_reg": "neutral"
+    },
+    {
+      "hint": {
+        "zh": "我们在保安亭见面",
+        "ja": "私たちは警備員詰所で会う",
+        "en": "we meet at the security post",
+        "vi": "chúng tôi gặp nhau ở chốt bảo vệ"
+      },
+      "a": "Kami bertemu di pos satpam.",
+      "a_reg": "formal"
     }
   ],
   "angka_pool": [

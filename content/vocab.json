@@ -6697,5 +6697,1578 @@
       "vi": "Ani bán rau."
     },
     "note": null
+  },
+  {
+    "w": "Ahad",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "星期日（另一说法）",
+      "ja": "日曜日（別の言い方）",
+      "en": "Sunday (alternative word)",
+      "vi": "Chủ nhật (cách nói khác)"
+    },
+    "pos": "n",
+    "ex": "Besok hari Ahad.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "明天是星期日。",
+      "ja": "明日は日曜日です。",
+      "en": "Tomorrow is Sunday.",
+      "vi": "Mai là Chủ nhật."
+    },
+    "note": {
+      "zh": "课本写 Minggu / Ahad。日常说 Minggu 多，Ahad 在穆斯林社区和日历上常见。",
+      "ja": "教科書は Minggu / Ahad と併記。日常は Minggu が多く、Ahad はムスリムのコミュニティやカレンダーでよく見る。",
+      "en": "The book gives Minggu / Ahad. Minggu is the everyday word; Ahad is common in Muslim communities and on calendars.",
+      "vi": "Sách ghi Minggu / Ahad. Hằng ngày nói Minggu nhiều hơn; Ahad hay gặp trong cộng đồng Hồi giáo và trên lịch."
+    }
+  },
+  {
+    "w": "pukul",
+    "les": 3,
+    "reg": "formal",
+    "pair": "jam",
+    "gloss": {
+      "zh": "点（钟点，正式）",
+      "ja": "〜時（改まった言い方）",
+      "en": "o'clock (formal)",
+      "vi": "giờ (trang trọng)"
+    },
+    "pos": "n",
+    "ex": "Sekarang pukul sembilan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "现在九点。",
+      "ja": "いま 9 時です。",
+      "en": "It is nine o'clock.",
+      "vi": "Bây giờ là chín giờ."
+    },
+    "note": {
+      "zh": "书面和课本用 pukul，口语更常说 jam。",
+      "ja": "書き言葉と教科書は pukul、話し言葉では jam が多い。",
+      "en": "Written Indonesian and the book use pukul; speech prefers jam.",
+      "vi": "Văn viết và sách dùng pukul; khi nói hay dùng jam hơn."
+    }
+  },
+  {
+    "w": "jam",
+    "les": 3,
+    "reg": "neutral",
+    "pair": "pukul",
+    "gloss": {
+      "zh": "点（钟点） · 小时",
+      "ja": "〜時 · 時間",
+      "en": "o'clock · hour",
+      "vi": "giờ · tiếng đồng hồ"
+    },
+    "pos": "n",
+    "ex": "Sekarang jam sembilan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "现在九点。",
+      "ja": "いま 9 時です。",
+      "en": "It is nine o'clock.",
+      "vi": "Bây giờ là chín giờ."
+    },
+    "note": {
+      "zh": "jam dua 是两点，dua jam 是两个小时。",
+      "ja": "jam dua は 2 時、dua jam は 2 時間。",
+      "en": "jam dua is two o'clock; dua jam is two hours.",
+      "vi": "jam dua là hai giờ; dua jam là hai tiếng."
+    }
+  },
+  {
+    "w": "kesebelas",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第十一",
+      "ja": "第 11",
+      "en": "eleventh",
+      "vi": "thứ mười một"
+    },
+    "pos": "num",
+    "ex": "Ini halaman kesebelas.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第十一页。",
+      "ja": "これは 11 ページ目です。",
+      "en": "This is the eleventh page.",
+      "vi": "Đây là trang thứ mười một."
+    },
+    "note": null
+  },
+  {
+    "w": "berulang tahun",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "过生日",
+      "ja": "誕生日を迎える",
+      "en": "to have a birthday",
+      "vi": "có sinh nhật"
+    },
+    "pos": "v",
+    "ex": "Hari ini saya berulang tahun.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "今天我过生日。",
+      "ja": "今日は私の誕生日です。",
+      "en": "Today is my birthday.",
+      "vi": "Hôm nay tôi có sinh nhật."
+    },
+    "note": null
+  },
+  {
+    "w": "merayakan",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "庆祝",
+      "ja": "祝う",
+      "en": "to celebrate",
+      "vi": "ăn mừng / kỷ niệm"
+    },
+    "pos": "v",
+    "ex": "Kami merayakan ulang tahun Shinta.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们庆祝 Shinta 的生日。",
+      "ja": "私たちはシンタの誕生日を祝います。",
+      "en": "We celebrate Shinta's birthday.",
+      "vi": "Chúng tôi mừng sinh nhật Shinta."
+    },
+    "note": null
+  },
+  {
+    "w": "mengundang",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "邀请",
+      "ja": "招待する",
+      "en": "to invite",
+      "vi": "mời"
+    },
+    "pos": "v",
+    "ex": "Saya mengundang teman-teman.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我邀请朋友们。",
+      "ja": "友だちを招待します。",
+      "en": "I invite my friends.",
+      "vi": "Tôi mời các bạn."
+    },
+    "note": null
+  },
+  {
+    "w": "undangan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "邀请 · 请柬",
+      "ja": "招待（状）",
+      "en": "invitation",
+      "vi": "lời mời / thiệp mời"
+    },
+    "pos": "n",
+    "ex": "Ini undangan ulang tahun.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是生日请柬。",
+      "ja": "これは誕生日の招待状です。",
+      "en": "This is a birthday invitation.",
+      "vi": "Đây là thiệp mời sinh nhật."
+    },
+    "note": null
+  },
+  {
+    "w": "membeli",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "买",
+      "ja": "買う",
+      "en": "to buy",
+      "vi": "mua"
+    },
+    "pos": "v",
+    "ex": "Saya membeli kue.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了蛋糕。",
+      "ja": "ケーキを買いました。",
+      "en": "I buy a cake.",
+      "vi": "Tôi mua bánh."
+    },
+    "note": null
+  },
+  {
+    "w": "memberi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "给 · 送",
+      "ja": "あげる · 与える",
+      "en": "to give",
+      "vi": "cho / tặng"
+    },
+    "pos": "v",
+    "ex": "Mereka memberi kue ulang tahun.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他们送了生日蛋糕。",
+      "ja": "誕生日ケーキをくれました。",
+      "en": "They give a birthday cake.",
+      "vi": "Họ tặng bánh sinh nhật."
+    },
+    "note": null
+  },
+  {
+    "w": "hadiah",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "礼物",
+      "ja": "プレゼント",
+      "en": "gift",
+      "vi": "quà"
+    },
+    "pos": "n",
+    "ex": "Apa hadiah dari Brian dan Rakha?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Brian 和 Rakha 送的礼物是什么？",
+      "ja": "ブライアンとラカからのプレゼントは何ですか。",
+      "en": "What is the gift from Brian and Rakha?",
+      "vi": "Quà của Brian và Rakha là gì?"
+    },
+    "note": null
+  },
+  {
+    "w": "kue",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "蛋糕 · 糕点",
+      "ja": "ケーキ · 菓子",
+      "en": "cake",
+      "vi": "bánh"
+    },
+    "pos": "n",
+    "ex": "Saya membeli kue.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了蛋糕。",
+      "ja": "ケーキを買いました。",
+      "en": "I buy a cake.",
+      "vi": "Tôi mua bánh."
+    },
+    "note": null
+  },
+  {
+    "w": "naik",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "乘坐 · 上（车）",
+      "ja": "乗る",
+      "en": "to ride, to take (transport)",
+      "vi": "đi (xe), lên"
+    },
+    "pos": "v",
+    "ex": "Mereka naik bus dari Yogyakarta.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他们从日惹坐公交车来。",
+      "ja": "ジョグジャカルタからバスで来ました。",
+      "en": "They come by bus from Yogyakarta.",
+      "vi": "Họ đi xe buýt từ Yogyakarta."
+    },
+    "note": null
+  },
+  {
+    "w": "bus",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "公交车",
+      "ja": "バス",
+      "en": "bus",
+      "vi": "xe buýt"
+    },
+    "pos": "n",
+    "ex": "Mereka naik bus dari Yogyakarta.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他们从日惹坐公交车来。",
+      "ja": "ジョグジャカルタからバスで来ました。",
+      "en": "They come by bus from Yogyakarta.",
+      "vi": "Họ đi xe buýt từ Yogyakarta."
+    },
+    "note": null
+  },
+  {
+    "w": "baris",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "排 · 行",
+      "ja": "列",
+      "en": "row",
+      "vi": "hàng"
+    },
+    "pos": "n",
+    "ex": "Dia duduk di baris ketiga.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他坐在第三排。",
+      "ja": "彼は 3 列目に座っています。",
+      "en": "He sits in the third row.",
+      "vi": "Anh ấy ngồi ở hàng thứ ba."
+    },
+    "note": null
+  },
+  {
+    "w": "duduk",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "坐",
+      "ja": "座る",
+      "en": "to sit",
+      "vi": "ngồi"
+    },
+    "pos": "v",
+    "ex": "Dia duduk di baris ketiga.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他坐在第三排。",
+      "ja": "彼は 3 列目に座っています。",
+      "en": "He sits in the third row.",
+      "vi": "Anh ấy ngồi ở hàng thứ ba."
+    },
+    "note": null
+  },
+  {
+    "w": "keluarga",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "家庭 · 家人",
+      "ja": "家族",
+      "en": "family",
+      "vi": "gia đình"
+    },
+    "pos": "n",
+    "ex": "Saya anak ketiga di keluarga Pak Harilaksana.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是 Harilaksana 先生家的老三。",
+      "ja": "私はハリラクサナ家の三番目の子です。",
+      "en": "I am the third child in Pak Harilaksana's family.",
+      "vi": "Tôi là con thứ ba trong gia đình ông Harilaksana."
+    },
+    "note": null
+  },
+  {
+    "w": "sangat",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "非常",
+      "ja": "とても",
+      "en": "very",
+      "vi": "rất"
+    },
+    "pos": "adv",
+    "ex": "Saya sangat senang hari ini.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我今天非常开心。",
+      "ja": "今日はとてもうれしいです。",
+      "en": "I am very happy today.",
+      "vi": "Hôm nay tôi rất vui."
+    },
+    "note": {
+      "zh": "中文的「很」大多不用翻；真的「非常」才用 sangat。",
+      "ja": "日本語の「とても」に当たる強めの語。単なる述語の形容詞には付けない。",
+      "en": "Only for a real “very”; a plain adjective predicate needs nothing.",
+      "vi": "Chỉ dùng khi thật sự là “rất”; vị ngữ tính từ bình thường không cần thêm gì."
+    }
+  },
+  {
+    "w": "makanan",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "食物",
+      "ja": "食べ物",
+      "en": "food",
+      "vi": "đồ ăn"
+    },
+    "pos": "n",
+    "ex": "Saya membeli makanan dan minuman.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了吃的和喝的。",
+      "ja": "食べ物と飲み物を買いました。",
+      "en": "I buy food and drinks.",
+      "vi": "Tôi mua đồ ăn và đồ uống."
+    },
+    "note": null
+  },
+  {
+    "w": "minuman",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "饮料",
+      "ja": "飲み物",
+      "en": "drink",
+      "vi": "đồ uống"
+    },
+    "pos": "n",
+    "ex": "Saya membeli makanan dan minuman.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了吃的和喝的。",
+      "ja": "食べ物と飲み物を買いました。",
+      "en": "I buy food and drinks.",
+      "vi": "Tôi mua đồ ăn và đồ uống."
+    },
+    "note": null
+  },
+  {
+    "w": "sate",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "沙爹（烤肉串）",
+      "ja": "サテ（串焼き）",
+      "en": "satay",
+      "vi": "sate (thịt xiên nướng)"
+    },
+    "pos": "n",
+    "ex": "Saya membeli sate ayam, bakso, es jeruk, dan es teh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了鸡肉沙爹、肉丸汤、冰橙汁和冰茶。",
+      "ja": "鶏のサテ、バクソ、アイスオレンジジュース、アイスティーを買いました。",
+      "en": "I buy chicken satay, bakso, iced orange juice and iced tea.",
+      "vi": "Tôi mua sate gà, bakso, nước cam đá và trà đá."
+    },
+    "note": null
+  },
+  {
+    "w": "ayam",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "鸡 · 鸡肉",
+      "ja": "鶏 · 鶏肉",
+      "en": "chicken",
+      "vi": "gà"
+    },
+    "pos": "n",
+    "ex": "Saya membeli sate ayam, bakso, es jeruk, dan es teh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了鸡肉沙爹、肉丸汤、冰橙汁和冰茶。",
+      "ja": "鶏のサテ、バクソ、アイスオレンジジュース、アイスティーを買いました。",
+      "en": "I buy chicken satay, bakso, iced orange juice and iced tea.",
+      "vi": "Tôi mua sate gà, bakso, nước cam đá và trà đá."
+    },
+    "note": null
+  },
+  {
+    "w": "bakso",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "肉丸（汤）",
+      "ja": "バクソ（肉団子スープ）",
+      "en": "meatball soup",
+      "vi": "bakso (súp thịt viên)"
+    },
+    "pos": "n",
+    "ex": "Saya membeli sate ayam, bakso, es jeruk, dan es teh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了鸡肉沙爹、肉丸汤、冰橙汁和冰茶。",
+      "ja": "鶏のサテ、バクソ、アイスオレンジジュース、アイスティーを買いました。",
+      "en": "I buy chicken satay, bakso, iced orange juice and iced tea.",
+      "vi": "Tôi mua sate gà, bakso, nước cam đá và trà đá."
+    },
+    "note": null
+  },
+  {
+    "w": "es",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "冰 · 冰饮",
+      "ja": "氷 · アイス〜",
+      "en": "ice; iced (drink)",
+      "vi": "đá; (đồ uống) đá"
+    },
+    "pos": "n",
+    "ex": "Saya membeli sate ayam, bakso, es jeruk, dan es teh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了鸡肉沙爹、肉丸汤、冰橙汁和冰茶。",
+      "ja": "鶏のサテ、バクソ、アイスオレンジジュース、アイスティーを買いました。",
+      "en": "I buy chicken satay, bakso, iced orange juice and iced tea.",
+      "vi": "Tôi mua sate gà, bakso, nước cam đá và trà đá."
+    },
+    "note": {
+      "zh": "es jeruk 冰橙汁、es teh 冰茶：es 放在饮料前面。",
+      "ja": "es jeruk アイスオレンジジュース、es teh アイスティー：es は飲み物の前。",
+      "en": "es jeruk iced orange juice, es teh iced tea: es goes before the drink.",
+      "vi": "es jeruk nước cam đá, es teh trà đá: es đứng trước tên đồ uống."
+    }
+  },
+  {
+    "w": "jeruk",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "橙子 · 柑橘",
+      "ja": "オレンジ · みかん",
+      "en": "orange (fruit)",
+      "vi": "cam / quýt"
+    },
+    "pos": "n",
+    "ex": "Saya membeli sate ayam, bakso, es jeruk, dan es teh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我买了鸡肉沙爹、肉丸汤、冰橙汁和冰茶。",
+      "ja": "鶏のサテ、バクソ、アイスオレンジジュース、アイスティーを買いました。",
+      "en": "I buy chicken satay, bakso, iced orange juice and iced tea.",
+      "vi": "Tôi mua sate gà, bakso, nước cam đá và trà đá."
+    },
+    "note": null
+  },
+  {
+    "w": "liburan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "假期 · 度假",
+      "ja": "休暇",
+      "en": "holiday",
+      "vi": "kỳ nghỉ"
+    },
+    "pos": "n",
+    "ex": "Dia liburan ke Bali.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他去巴厘岛度假。",
+      "ja": "彼はバリに休暇で行きます。",
+      "en": "He is going to Bali on holiday.",
+      "vi": "Anh ấy đi nghỉ ở Bali."
+    },
+    "note": null
+  },
+  {
+    "w": "menikah",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "结婚",
+      "ja": "結婚する",
+      "en": "to marry",
+      "vi": "kết hôn"
+    },
+    "pos": "v",
+    "ex": "Kakak saya menikah tahun depan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我哥哥明年结婚。",
+      "ja": "兄は来年結婚します。",
+      "en": "My brother is getting married next year.",
+      "vi": "Anh tôi năm sau kết hôn."
+    },
+    "note": null
+  },
+  {
+    "w": "toko",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "商店",
+      "ja": "店",
+      "en": "shop",
+      "vi": "cửa hàng"
+    },
+    "pos": "n",
+    "ex": "Toko sepeda di mana?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "自行车店在哪儿？",
+      "ja": "自転車屋はどこですか。",
+      "en": "Where is the bicycle shop?",
+      "vi": "Cửa hàng xe đạp ở đâu?"
+    },
+    "note": null
+  },
+  {
+    "w": "ikut",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "跟着去 · 一起",
+      "ja": "ついて行く",
+      "en": "to come along",
+      "vi": "đi cùng"
+    },
+    "pos": "v",
+    "ex": "Saya ikut ke toko.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我一起去商店。",
+      "ja": "私も店について行きます。",
+      "en": "I am coming along to the shop.",
+      "vi": "Tôi đi cùng đến cửa hàng."
+    },
+    "note": null
+  },
+  {
+    "w": "terbang",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "飞",
+      "ja": "飛ぶ",
+      "en": "to fly",
+      "vi": "bay"
+    },
+    "pos": "v",
+    "ex": "Mereka terbang ke Jakarta.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他们飞去雅加达。",
+      "ja": "彼らは飛行機でジャカルタへ行きます。",
+      "en": "They fly to Jakarta.",
+      "vi": "Họ bay đi Jakarta."
+    },
+    "note": null
+  },
+  {
+    "w": "gembira",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "高兴",
+      "ja": "うれしい",
+      "en": "glad",
+      "vi": "vui mừng"
+    },
+    "pos": "adj",
+    "ex": "Adik saya gembira.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我弟弟很高兴。",
+      "ja": "弟はうれしがっています。",
+      "en": "My little brother is glad.",
+      "vi": "Em tôi vui mừng."
+    },
+    "note": null
+  },
+  {
+    "w": "berdiri",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "站 · （机构）成立",
+      "ja": "立つ · 創立される",
+      "en": "to stand; to be founded",
+      "vi": "đứng; thành lập"
+    },
+    "pos": "v",
+    "ex": "Kapan UGM berdiri?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "UGM 什么时候成立的？",
+      "ja": "UGM はいつ創立されたのですか。",
+      "en": "When was UGM founded?",
+      "vi": "UGM thành lập khi nào?"
+    },
+    "note": null
+  },
+  {
+    "w": "usia",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "年龄（正式）",
+      "ja": "年齢（改まった語）",
+      "en": "age (formal)",
+      "vi": "tuổi (trang trọng)"
+    },
+    "pos": "n",
+    "ex": "Usianya lebih dari tujuh puluh tahun.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "它有七十多年了。",
+      "ja": "70 年以上になります。",
+      "en": "It is more than seventy years old.",
+      "vi": "Nó hơn bảy mươi năm tuổi."
+    },
+    "note": {
+      "zh": "口语说 umur（Bab 1）。",
+      "ja": "話し言葉では umur（Bab 1）。",
+      "en": "In speech, umur (Bab 1).",
+      "vi": "Khi nói dùng umur (Bab 1)."
+    }
+  },
+  {
+    "w": "lebih",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "更 · 多于",
+      "ja": "より · 以上",
+      "en": "more",
+      "vi": "hơn"
+    },
+    "pos": "adv",
+    "ex": "Usianya lebih dari tujuh puluh tahun.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "它有七十多年了。",
+      "ja": "70 年以上になります。",
+      "en": "It is more than seventy years old.",
+      "vi": "Nó hơn bảy mươi năm tuổi."
+    },
+    "note": {
+      "zh": "lebih dari = 多于、超过。",
+      "ja": "lebih dari = 〜以上、〜より多い。",
+      "en": "lebih dari = more than.",
+      "vi": "lebih dari = hơn, nhiều hơn."
+    }
+  },
+  {
+    "w": "hampir",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "将近 · 差不多",
+      "ja": "ほぼ · 〜近く",
+      "en": "almost",
+      "vi": "gần / hầu như"
+    },
+    "pos": "adv",
+    "ex": "Ada hampir sepuluh ribu mahasiswa baru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "有将近一万名新生。",
+      "ja": "新入生が 1 万人近くいます。",
+      "en": "There are almost ten thousand new students.",
+      "vi": "Có gần mười nghìn sinh viên mới."
+    },
+    "note": null
+  },
+  {
+    "w": "setiap",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "每",
+      "ja": "毎〜",
+      "en": "every",
+      "vi": "mỗi"
+    },
+    "pos": "det",
+    "ex": "Setiap hari saya belajar.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我每天学习。",
+      "ja": "私は毎日勉強します。",
+      "en": "I study every day.",
+      "vi": "Ngày nào tôi cũng học."
+    },
+    "note": null
+  },
+  {
+    "w": "sekolah",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "学校",
+      "ja": "学校",
+      "en": "school",
+      "vi": "trường học"
+    },
+    "pos": "n",
+    "ex": "Sekolah itu besar.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那所学校很大。",
+      "ja": "その学校は大きいです。",
+      "en": "That school is big.",
+      "vi": "Trường đó lớn."
+    },
+    "note": {
+      "zh": "sekolah vokasi = 职业学院。",
+      "ja": "sekolah vokasi = 職業学校。",
+      "en": "sekolah vokasi = vocational school.",
+      "vi": "sekolah vokasi = trường nghề."
+    }
+  },
+  {
+    "w": "program studi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "专业（学位项目）",
+      "ja": "専攻 · 学科",
+      "en": "study programme",
+      "vi": "ngành học"
+    },
+    "pos": "n",
+    "ex": "Ada sembilan puluh satu program studi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "有九十一个专业。",
+      "ja": "専攻が 91 あります。",
+      "en": "There are ninety-one study programmes.",
+      "vi": "Có chín mươi mốt ngành học."
+    },
+    "note": null
+  },
+  {
+    "w": "peringkat",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "排名",
+      "ja": "順位",
+      "en": "ranking",
+      "vi": "thứ hạng"
+    },
+    "pos": "n",
+    "ex": "UGM peringkat ke berapa di dunia?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "UGM 在世界上排第几？",
+      "ja": "UGM は世界で何位ですか。",
+      "en": "Where does UGM rank in the world?",
+      "vi": "UGM xếp hạng thứ mấy trên thế giới?"
+    },
+    "note": null
+  },
+  {
+    "w": "menurut",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "根据 · 按",
+      "ja": "〜によれば",
+      "en": "according to",
+      "vi": "theo"
+    },
+    "pos": "prep",
+    "ex": "Menurut saya, kampus ini bagus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我觉得这个校园很好。",
+      "ja": "私の考えでは、このキャンパスはいいです。",
+      "en": "In my opinion this campus is good.",
+      "vi": "Theo tôi, trường này tốt."
+    },
+    "note": null
+  },
+  {
+    "w": "berkeliling",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "绕着走 · 逛",
+      "ja": "一回りする",
+      "en": "to go around",
+      "vi": "đi vòng quanh / dạo"
+    },
+    "pos": "v",
+    "ex": "Kami berkeliling kampus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们逛校园。",
+      "ja": "私たちはキャンパスを一回りします。",
+      "en": "We walk around the campus.",
+      "vi": "Chúng tôi đi dạo quanh trường."
+    },
+    "note": null
+  },
+  {
+    "w": "satpam",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "保安",
+      "ja": "警備員",
+      "en": "security guard",
+      "vi": "bảo vệ"
+    },
+    "pos": "n",
+    "ex": "Pukul delapan pagi di pos satpam.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "早上八点，在保安亭。",
+      "ja": "朝 8 時、警備員詰所で。",
+      "en": "Eight in the morning, at the security post.",
+      "vi": "Tám giờ sáng, ở chốt bảo vệ."
+    },
+    "note": {
+      "zh": "pos satpam = 保安亭；satpam 是 satuan pengamanan 的缩写。",
+      "ja": "pos satpam = 警備員詰所。satpam は satuan pengamanan の略。",
+      "en": "pos satpam = security post; satpam is short for satuan pengamanan.",
+      "vi": "pos satpam = chốt bảo vệ; satpam là viết tắt của satuan pengamanan."
+    }
+  },
+  {
+    "w": "terkenal",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "有名",
+      "ja": "有名な",
+      "en": "well known",
+      "vi": "nổi tiếng"
+    },
+    "pos": "adj",
+    "ex": "Kampus saya besar dan terkenal.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的校园很大、很有名。",
+      "ja": "私のキャンパスは大きくて有名です。",
+      "en": "My campus is big and well known.",
+      "vi": "Trường tôi lớn và nổi tiếng."
+    },
+    "note": null
+  },
+  {
+    "w": "pasti",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "一定",
+      "ja": "きっと",
+      "en": "surely",
+      "vi": "chắc chắn"
+    },
+    "pos": "adv",
+    "ex": "Mahasiswanya pasti banyak.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那学生一定很多。",
+      "ja": "学生はきっと多い。",
+      "en": "There must be a lot of students.",
+      "vi": "Chắc sinh viên đông lắm."
+    },
+    "note": null
+  },
+  {
+    "w": "banyak",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "多",
+      "ja": "多い · たくさん",
+      "en": "many, much",
+      "vi": "nhiều"
+    },
+    "pos": "adj",
+    "ex": "Mahasiswanya pasti banyak.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那学生一定很多。",
+      "ja": "学生はきっと多い。",
+      "en": "There must be a lot of students.",
+      "vi": "Chắc sinh viên đông lắm."
+    },
+    "note": null
+  },
+  {
+    "w": "sekali",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "很 · 非常（放在形容词后）",
+      "ja": "とても（形容詞の後ろ）",
+      "en": "very (after the adjective)",
+      "vi": "rất / lắm (đứng sau tính từ)"
+    },
+    "pos": "adv",
+    "ex": "Kampus UGM luas sekali.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "UGM 的校园非常大。",
+      "ja": "UGM のキャンパスはとても広いです。",
+      "en": "The UGM campus is very big.",
+      "vi": "Trường UGM rộng lắm."
+    },
+    "note": {
+      "zh": "sangat 放前面、sekali 放后面：sangat luas = luas sekali。口语 banget。",
+      "ja": "sangat は前、sekali は後ろ：sangat luas = luas sekali。話し言葉では banget。",
+      "en": "sangat goes before, sekali after: sangat luas = luas sekali. Casual: banget.",
+      "vi": "sangat đứng trước, sekali đứng sau: sangat luas = luas sekali. Văn nói: banget."
+    }
+  },
+  {
+    "w": "mulai",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "开始",
+      "ja": "始まる · 始める",
+      "en": "to start",
+      "vi": "bắt đầu"
+    },
+    "pos": "v",
+    "ex": "Kelas mulai pukul berapa?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "几点上课？",
+      "ja": "授業は何時に始まりますか。",
+      "en": "What time does class start?",
+      "vi": "Lớp bắt đầu lúc mấy giờ?"
+    },
+    "note": null
+  },
+  {
+    "w": "harga",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "价格",
+      "ja": "値段",
+      "en": "price",
+      "vi": "giá"
+    },
+    "pos": "n",
+    "ex": "Berapa harga tas ini?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这个包多少钱？",
+      "ja": "このかばんはいくらですか。",
+      "en": "How much is this bag?",
+      "vi": "Cái túi này giá bao nhiêu?"
+    },
+    "note": null
+  },
+  {
+    "w": "rapi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "整洁",
+      "ja": "きちんとした",
+      "en": "tidy",
+      "vi": "gọn gàng"
+    },
+    "pos": "adj",
+    "ex": "Kamar Zhang rapi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Zhang 的房间很整洁。",
+      "ja": "チャンの部屋はきれいに片付いています。",
+      "en": "Zhang's room is tidy.",
+      "vi": "Phòng của Zhang gọn gàng."
+    },
+    "note": null
+  },
+  {
+    "w": "kamar",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "房间",
+      "ja": "部屋",
+      "en": "room",
+      "vi": "phòng"
+    },
+    "pos": "n",
+    "ex": "Kamar Zhang rapi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Zhang 的房间很整洁。",
+      "ja": "チャンの部屋はきれいに片付いています。",
+      "en": "Zhang's room is tidy.",
+      "vi": "Phòng của Zhang gọn gàng."
+    },
+    "note": null
+  },
+  {
+    "w": "bahagia",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "幸福",
+      "ja": "幸せな",
+      "en": "happy",
+      "vi": "hạnh phúc"
+    },
+    "pos": "adj",
+    "ex": "Mereka sekarang bahagia.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他们现在很幸福。",
+      "ja": "彼らはいま幸せです。",
+      "en": "They are happy now.",
+      "vi": "Bây giờ họ hạnh phúc."
+    },
+    "note": null
+  },
+  {
+    "w": "ramah",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "和善 · 友好",
+      "ja": "親切な · 愛想がいい",
+      "en": "friendly",
+      "vi": "thân thiện"
+    },
+    "pos": "adj",
+    "ex": "Pak Dokter ramah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "医生先生很和善。",
+      "ja": "お医者さんは親切です。",
+      "en": "The doctor is friendly.",
+      "vi": "Bác sĩ thân thiện."
+    },
+    "note": null
+  },
+  {
+    "w": "nyaman",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "舒适",
+      "ja": "快適な",
+      "en": "comfortable",
+      "vi": "thoải mái / dễ chịu"
+    },
+    "pos": "adj",
+    "ex": "Rumah nenek nyaman.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "奶奶家很舒服。",
+      "ja": "祖母の家は快適です。",
+      "en": "Grandmother's house is comfortable.",
+      "vi": "Nhà bà thoải mái."
+    },
+    "note": null
+  },
+  {
+    "w": "jam tangan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "手表",
+      "ja": "腕時計",
+      "en": "wristwatch",
+      "vi": "đồng hồ đeo tay"
+    },
+    "pos": "n",
+    "ex": "Brian dan Rakha memberi jam tangan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Brian 和 Rakha 送了手表。",
+      "ja": "ブライアンとラカは腕時計をくれました。",
+      "en": "Brian and Rakha give a watch.",
+      "vi": "Brian và Rakha tặng đồng hồ đeo tay."
+    },
+    "note": null
+  },
+  {
+    "w": "uang",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "钱",
+      "ja": "お金",
+      "en": "money",
+      "vi": "tiền"
+    },
+    "pos": "n",
+    "ex": "Uang saya seratus ribu rupiah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我有十万盾。",
+      "ja": "私のお金は 10 万ルピアです。",
+      "en": "I have a hundred thousand rupiah.",
+      "vi": "Tiền của tôi là một trăm nghìn rupiah."
+    },
+    "note": {
+      "zh": "uang kertas 纸币、uang kuliah 学费。口语 duit。",
+      "ja": "uang kertas 紙幣、uang kuliah 学費。話し言葉では duit。",
+      "en": "uang kertas banknote, uang kuliah tuition. Casual: duit.",
+      "vi": "uang kertas tiền giấy, uang kuliah học phí. Văn nói: duit."
+    }
+  },
+  {
+    "w": "kepada",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "致 · 给（某人）",
+      "ja": "〜へ（宛名）",
+      "en": "to (a person)",
+      "vi": "kính gửi / gửi"
+    },
+    "pos": "prep",
+    "ex": "Undangan ini kepada siapa?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这份请柬是给谁的？",
+      "ja": "この招待状は誰宛てですか。",
+      "en": "Who is this invitation for?",
+      "vi": "Thiệp mời này gửi ai?"
+    },
+    "note": null
+  },
+  {
+    "w": "waktu",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "时间",
+      "ja": "時間 · 時刻",
+      "en": "time",
+      "vi": "thời gian"
+    },
+    "pos": "n",
+    "ex": "Waktu kuliah pukul delapan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "上课时间是八点。",
+      "ja": "授業の時刻は 8 時です。",
+      "en": "Class time is eight o'clock.",
+      "vi": "Giờ học là tám giờ."
+    },
+    "note": null
+  },
+  {
+    "w": "tempat",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "地点",
+      "ja": "場所",
+      "en": "place",
+      "vi": "địa điểm"
+    },
+    "pos": "n",
+    "ex": "Tempatnya di rumah saya.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "地点在我家。",
+      "ja": "場所は私の家です。",
+      "en": "The place is my house.",
+      "vi": "Địa điểm là nhà tôi."
+    },
+    "note": null
+  },
+  {
+    "w": "lokasi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "地点（较正式）",
+      "ja": "所在地",
+      "en": "location",
+      "vi": "địa điểm"
+    },
+    "pos": "n",
+    "ex": "Lokasinya di Yogyakarta.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "地点在日惹。",
+      "ja": "所在地はジョグジャカルタです。",
+      "en": "The location is in Yogyakarta.",
+      "vi": "Địa điểm ở Yogyakarta."
+    },
+    "note": null
+  },
+  {
+    "w": "busana",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "着装",
+      "ja": "服装",
+      "en": "dress code, attire",
+      "vi": "trang phục"
+    },
+    "pos": "n",
+    "ex": "Busananya putih dan biru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "着装：白色和蓝色。",
+      "ja": "服装は白と青。",
+      "en": "Dress code: white and blue.",
+      "vi": "Trang phục: trắng và xanh dương."
+    },
+    "note": null
+  },
+  {
+    "w": "pesta",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "派对 · 聚会",
+      "ja": "パーティー",
+      "en": "party",
+      "vi": "tiệc"
+    },
+    "pos": "n",
+    "ex": "Halo teman-teman, saya mengundang kalian ke pesta ulang tahun saya yang kedua puluh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "朋友们好，我邀请你们来我的二十岁生日派对。",
+      "ja": "みなさん、私の 20 歳の誕生日パーティーにご招待します。",
+      "en": "Hi everyone, I invite you to my twentieth birthday party.",
+      "vi": "Chào các bạn, tôi mời các bạn đến tiệc sinh nhật thứ hai mươi của tôi."
+    },
+    "note": null
+  },
+  {
+    "w": "acara",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "活动 · 仪式",
+      "ja": "行事 · イベント",
+      "en": "event",
+      "vi": "sự kiện / buổi lễ"
+    },
+    "pos": "n",
+    "ex": "Acaranya pukul berapa?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "活动几点？",
+      "ja": "行事は何時ですか。",
+      "en": "What time is the event?",
+      "vi": "Sự kiện lúc mấy giờ?"
+    },
+    "note": null
+  },
+  {
+    "w": "hadir",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "出席",
+      "ja": "出席する",
+      "en": "to attend",
+      "vi": "có mặt / tham dự"
+    },
+    "pos": "v",
+    "ex": "Semua teman hadir.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "所有朋友都到了。",
+      "ja": "友だちは全員出席しました。",
+      "en": "All my friends are here.",
+      "vi": "Tất cả bạn bè đều có mặt."
+    },
+    "note": null
+  },
+  {
+    "w": "selesai",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "结束 · 完",
+      "ja": "終わる",
+      "en": "finished",
+      "vi": "kết thúc / xong"
+    },
+    "pos": "v",
+    "ex": "Kelas selesai pukul sepuluh.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "十点下课。",
+      "ja": "授業は 10 時に終わります。",
+      "en": "Class finishes at ten.",
+      "vi": "Lớp kết thúc lúc mười giờ."
+    },
+    "note": null
+  },
+  {
+    "w": "menunggu",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "等待",
+      "ja": "待つ",
+      "en": "to wait for",
+      "vi": "chờ / đợi"
+    },
+    "pos": "v",
+    "ex": "Saya menunggu kedatangan kalian!",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "等你们来！",
+      "ja": "みなさんのお越しをお待ちしています！",
+      "en": "I look forward to seeing you there!",
+      "vi": "Tôi chờ các bạn đến!"
+    },
+    "note": null
+  },
+  {
+    "w": "syukuran",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "感恩宴",
+      "ja": "感謝の宴",
+      "en": "thanksgiving meal",
+      "vi": "tiệc tạ ơn"
+    },
+    "pos": "n",
+    "ex": "Besok ada syukuran di rumah Wayan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "明天 Wayan 家办感恩宴。",
+      "ja": "明日ワヤンの家で syukuran があります。",
+      "en": "Tomorrow there is a syukuran at Wayan's house.",
+      "vi": "Mai có tiệc tạ ơn ở nhà Wayan."
+    },
+    "note": null
+  },
+  {
+    "w": "kenduri",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "纪念性聚餐",
+      "ja": "記念の会食",
+      "en": "commemorative feast",
+      "vi": "tiệc kỷ niệm"
+    },
+    "pos": "n",
+    "ex": "Kenduri itu di rumah nenek.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那场聚餐在奶奶家。",
+      "ja": "その会食は祖母の家でです。",
+      "en": "The kenduri is at grandmother's house.",
+      "vi": "Bữa kenduri đó ở nhà bà."
+    },
+    "note": null
+  },
+  {
+    "w": "tujuh bulanan",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "怀孕七月礼",
+      "ja": "妊娠 7 か月の儀礼",
+      "en": "seventh-month pregnancy ceremony",
+      "vi": "lễ thai bảy tháng"
+    },
+    "pos": "n",
+    "ex": "Kakak saya ada acara tujuh bulanan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我姐姐有七月礼。",
+      "ja": "姉に妊娠 7 か月の儀礼があります。",
+      "en": "My sister has her seventh-month ceremony.",
+      "vi": "Chị tôi có lễ thai bảy tháng."
+    },
+    "note": null
+  },
+  {
+    "w": "selamatan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "平安宴（总称）",
+      "ja": "無事を祈る宴（総称）",
+      "en": "well-being meal (general term)",
+      "vi": "tiệc cầu an (gọi chung)"
+    },
+    "pos": "n",
+    "ex": "Ini selamatan ulang tahun.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是生日平安宴。",
+      "ja": "これは誕生日の selamatan です。",
+      "en": "This is a birthday selamatan.",
+      "vi": "Đây là tiệc cầu an mừng sinh nhật."
+    },
+    "note": null
   }
 ]

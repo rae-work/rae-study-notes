@@ -4,6 +4,39 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.6.0 — 2026-09-02
+
+**Bab 3 completed from the printed textbook**
+
+- **The whole of Bab 3 is now in.** The vocabulary and skills pages (book pages
+  24–33 and 37–41) were only sketched from the chapter objectives before; they
+  have been rewritten against the printed book. Bab 3 grows from 14 to 20 pages
+- **New pages.** *Keterangan Waktu*: one table for last / this / next week,
+  month and year, plus *dua hari lalu* and the *dua hari lagi* trap. *Pukul
+  Berapa?*: whole hours with *pagi / siang / sore / malam*, and *pukul* vs
+  *jam*. *Membaca*: a retelling of the book's reading text about Shinta's
+  birthday with comprehension questions. *Berbicara*: the Vladimir–Wahyu
+  dialogue about UGM (founded 1949, 18 faculties, ranking). *Menulis*: a
+  birthday invitation card with its six fields and the casual *-ku / -mu*
+  forms. *Wawasan Keindonesiaan*: *syukuran*, *kenduri*, *tujuh bulanan*
+- **Existing pages checked against the book.** Banknotes from Rp1.000 to
+  Rp100.000 and the *Rp78.000,00* price format; *kesatu* alongside *pertama*,
+  *keseratus / keseribu*, *ulang tahun yang ke-20*; *Ahad* next to *Minggu*;
+  each question word with its question-first and question-last forms; a note
+  on *adalah*, which the book itself uses in one exercise
+- **Practice.** Two new exercise sets modelled on the book's Latihan: turn a
+  statement into a question, and build a simple sentence from a given word.
+  Seven new situation drills (time, prices, *ke berapa*, *kapan*) and two
+  place drills
+- **Glossary +69 words** (366 in total): food, invitations, campus talk,
+  time words, and the three culture terms
+- **Typos in the book pointed out**: *keyujuh* → *ketujuh* (p. 32), two
+  exercises both numbered Latihan 5 (p. 33), *Buat kalimat tanya* where the
+  task is statements (pp. 34–36), a table headed *Nomina + Adjektiva* that
+  holds verbs (p. 35)
+- **Fixed:** the green “good to know” boxes in Bab 3 were rendering in the
+  warning colour; they are green again
+
 ## 1.5.0 — 2026-09-02
 
 **Bab 3, classroom grammar notes, a table of contents you can actually search, and an online dictionary**
