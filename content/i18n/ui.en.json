@@ -66,7 +66,9 @@
     "drill_name": "Practice · Situasi",
     "drill_title": "Situational Q&A · randomised",
     "gloss_name": "Glossary · Kosakata",
-    "gloss_title": "Every word (searchable)"
+    "gloss_title": "Every word (searchable)",
+    "home_name": "Contents · Daftar Isi",
+    "home_title": "All chapters at a glance"
   },
   "gloss": {
     "h1": "Glossary",
@@ -214,7 +216,8 @@
     "empty": "No matching pages",
     "find_word": "Search the glossary for “{0}”",
     "pages": "{0} pages",
-    "expand": "Expand / collapse this chapter"
+    "expand": "Expand / collapse this chapter",
+    "home": "Contents"
   },
   "dict": {
     "btn": "Look up “{0}” in the online dictionary",
@@ -225,5 +228,13 @@
     "src": "Wiktionary · Wikipedia · MyMemory (machine translation, for reference only)",
     "play": "Read aloud with the system voice",
     "local_miss": "This word is not in the glossary."
+  },
+  "home": {
+    "h1": "Contents",
+    "sub": "{0} chapters · {1} pages · {2} words",
+    "lead": "Tap a chapter to open it, or tap a category (vocabulary, grammar, dialogues…) to jump straight to the first page of that kind. The menu button at the top left brings you back here any time.",
+    "tools": "Tools",
+    "cont": "Pick up where you left off: {0}",
+    "cat_n": "{0} pages"
   }
 }

@@ -235,26 +235,35 @@
      改成抽屉之后全局只有正文一个滚动区。 */
   nav.toc{position:fixed;top:0;bottom:0;left:0;width:272px;z-index:50;
     background:var(--surface);color:var(--ink);
-    border-right:1px solid var(--line);overflow:auto;-webkit-overflow-scrolling:touch;
-    padding:calc(14px + env(safe-area-inset-top)) 0 calc(28px + env(safe-area-inset-bottom));
+    border-right:1px solid var(--line);overflow:hidden;display:flex;flex-direction:column;
     transform:translateX(-100%);transition:transform var(--t-slow) var(--ease)}
   nav.toc.open{transform:none}
-  /* 顶部：搜索框 + 三个常用入口（查词最频繁，放最上面） */
-  .toc-top{padding:0 14px 6px}
+  /* 顶部：搜索框 + 三个常用入口（查词最频繁，放最上面）。
+     这一块不滚动、宽度固定 —— 下面出不出滚动条都不会让它变形。 */
+  .toc-top{flex:0 0 auto;padding:calc(14px + env(safe-area-inset-top)) 14px 10px;border-bottom:1px solid var(--line)}
+  .toc-scroll{flex:1 1 auto;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;scrollbar-gutter:stable;
+    padding-bottom:calc(28px + env(safe-area-inset-bottom))}
   .toc-search{width:100%;box-sizing:border-box;font-family:var(--ui);font-size:15px;color:var(--ink);background:var(--paper);
     border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;min-height:40px;-webkit-appearance:none;appearance:none}
   .toc-search::-webkit-search-cancel-button{-webkit-appearance:none}
   .toc-quick{display:flex;gap:6px;margin-top:10px}
-  .toc .toc-quick a{flex:1 1 0;justify-content:center;padding:8px 6px;font-size:12.5px;font-weight:600;border:1px solid var(--line);
-    border-radius:999px;border-left-width:1px;color:var(--ink-soft)}
+  .toc .toc-quick a{flex:1 1 0;min-width:0;justify-content:center;padding:8px 4px;font-size:12px;font-weight:600;border:1px solid var(--line);
+    border-radius:999px;border-left-width:1px;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;text-align:center}
   .toc .toc-quick a.active{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+  /* 总目录入口 */
+  .toc a.toc-home{align-items:center;gap:10px;padding:12px 18px;font-size:12.5px;font-weight:700;color:var(--ink);border-left-width:3px}
+  .toc a.toc-home .ico{width:11px;height:11px;border:1.6px solid var(--ink-faint);border-radius:2px;flex:0 0 auto;
+    box-shadow:inset 0 3px 0 -1.4px var(--ink-faint)}
+  .toc a.toc-home.active{color:var(--accent-ink)}
   /* 每一课一折：标题是按钮，只展开当前课 */
   .toc h3{margin:0;font-weight:700}
+  .toc-les-sum{font-family:var(--ui);font-size:11px;line-height:1.5;color:var(--ink-faint);padding:0 18px 12px;margin-top:-6px}
+  .toc-les.open .toc-les-sum,.toc.searching .toc-les-sum{display:none}
   .toc-les{border-top:1px solid var(--line)}
   .toc-les-btn{display:flex;align-items:center;gap:8px;width:100%;text-align:left;background:none;border:0;cursor:pointer;
     font-family:var(--ui);font-size:12.5px;font-weight:700;color:var(--ink);padding:13px 18px;line-height:1.3}
   .toc-les-btn span{flex:1 1 auto;min-width:0}
-  .toc-les-btn small{font-weight:500;font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  .toc-les-btn small{font-weight:500;font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums;white-space:nowrap;flex:0 0 auto}
   .toc-les-btn .chev{width:7px;height:7px;border-right:1.6px solid var(--ink-faint);border-bottom:1.6px solid var(--ink-faint);
     transform:rotate(-45deg);transition:transform var(--t-fast) var(--ease);flex:0 0 auto;margin-right:2px}
   .toc-les.open .toc-les-btn .chev{transform:rotate(45deg)}
@@ -278,6 +287,27 @@
   .toc-empty{display:none;color:var(--ink-soft);font-family:var(--ui);font-size:13px;text-align:center;padding:22px 18px 6px}
   .toc a.toc-find{display:none;margin:8px 14px;justify-content:center;border:1px solid var(--line);border-radius:999px;
     border-left-width:1px;font-size:12.5px;font-weight:600;color:var(--accent-ink)}
+
+  /* ===== 总目录页 ===== */
+  .home-cont{display:block;font-family:var(--ui);font-size:13px;font-weight:600;color:var(--accent-ink);
+    border:1px dashed var(--accent-line);border-radius:999px;padding:10px 16px;margin:0 0 14px;cursor:pointer;text-decoration:none}
+  .home-les{border:1px solid var(--line);border-radius:var(--r-md);padding:14px 16px 13px;margin:12px 0;cursor:pointer;
+    transition:border-color var(--t-fast) var(--ease),background var(--t-fast) var(--ease)}
+  .home-les-h{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+  .home-n{font-family:var(--ui);font-size:12px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  .home-name{font-size:1.12em;font-weight:600;margin-top:2px;line-height:1.35}
+  .home-cats{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .home-cat{font-family:var(--ui);font-size:12px;color:var(--ink-soft);background:transparent;border:1px solid var(--line);
+    border-radius:999px;padding:5px 10px;cursor:pointer;display:inline-flex;align-items:center;gap:5px;
+    transition:color var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
+  .home-cat i{font-style:normal;font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  .home-tools{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:6px}
+  .home-tool{display:flex;flex-direction:column;gap:3px;border:1px solid var(--line);border-radius:var(--r-md);padding:12px 12px;
+    text-decoration:none;color:var(--ink);cursor:pointer;min-width:0;
+    transition:border-color var(--t-fast) var(--ease),background var(--t-fast) var(--ease)}
+  .home-tool b{font-family:var(--ui);font-size:13px;font-weight:600}
+  .home-tool small{font-family:var(--ui);font-size:11px;color:var(--ink-faint);line-height:1.4}
+  @media (max-width:420px){ .home-tools{grid-template-columns:1fr} .home-tool{flex-direction:row;align-items:baseline;gap:10px} }
 
   /* ===== 阅读区：像书页，不是卡片 ===== */
   .reader{flex:1 1 auto;overflow:auto;-webkit-overflow-scrolling:touch;
@@ -638,6 +668,8 @@
     .icon-btn:hover{color:var(--ink);background:var(--surface)}
     .icon-btn.on:hover{color:var(--accent-ink);background:var(--accent-wash)}
     .toc a:hover{color:var(--ink);background:var(--line-soft)}
+    .home-les:hover,.home-tool:hover{border-color:var(--accent-line);background:var(--accent-wash)}
+    .home-cat:hover{color:var(--accent-ink);border-color:var(--accent-line)}
     .play:hover{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
     .nav-btn:hover:not(:disabled){background:var(--accent-wash)}
     .chip:hover{border-color:var(--accent-line);color:var(--ink)}

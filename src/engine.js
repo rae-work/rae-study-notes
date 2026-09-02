@@ -584,7 +584,7 @@ function renderBlock(b){
          分母只数课文页，不含末尾追加的复习／实战／词汇表三张特殊页。 */
       var pc = "";
       if(CURMETA && CURMETA.num && typeof REVIEW_INDEX === "number" && REVIEW_INDEX > 0)
-        pc = '<span class="pcount">' + (cur + 1) + " / " + REVIEW_INDEX + "</span>";
+        pc = '<span class="pcount">' + cur + " / " + (REVIEW_INDEX - 1) + "</span>";
       return '<div class="phead"><div class="eyebrow">' + esc(eyebrow) + '</div>' +
         '<div class="ptitle-row"><h1 class="ptitle">' + esc(b.title) + "</h1>" + pc + "</div>" +
         (L(b.sub) ? '<div class="ptitle-sub">' + esc(L(b.sub)) + "</div>" : "") + "</div>";
@@ -730,6 +730,10 @@ function renderBlock(b){
 /* ===== 页面拼装:课程(按 num 排序)+ 词汇表(顶级单元,固定最后) ===== */
 D.sort(function(a,b){ return a.num - b.num; });
 var PAGES = [];
+/* 第 0 页是总目录：全部章节一览。新用户第一次打开看到的是它，
+   老用户会被 restorePos() 带回上次读到的那一页。 */
+PAGES.push({home:true, idxInLesson:1, total:1});
+var HOME_INDEX = 0;
 D.forEach(function(les){
   les.pages.forEach(function(blocks, i){
     PAGES.push({num:les.num, lessonName:les.name, idxInLesson:i+1, total:les.pages.length, blocks:blocks});
@@ -751,6 +755,7 @@ var GLOSS_INDEX = PAGES.length - 1;
    ============================================================ */
 function pageKey(p){
   if(!p) return "";
+  if(p.home) return "home";
   if(p.review) return "review";
   if(p.drill) return "drill";
   if(p.glossary) return "gloss";
@@ -764,12 +769,14 @@ function findPageByKey(k){
 
 /* 目录和页眉上的名字要跟着语言走，所以每次现算，不写死进 PAGES */
 function pageLesson(p){
+  if(p.home) return T("page.home_name");
   if(p.review) return T("page.review_name");
   if(p.drill) return T("page.drill_name");
   if(p.glossary) return T("page.gloss_name");
   return UNIT + " " + p.num + " · " + L(p.lessonName);
 }
 function pageTitle(p){
+  if(p.home) return T("page.home_title");
   if(p.review) return T("page.review_title");
   if(p.drill) return T("page.drill_title");
   if(p.glossary) return T("page.gloss_title");
@@ -2023,6 +2030,71 @@ var counter = document.getElementById("counter");
 var prevBtn = document.getElementById("prevBtn"), nextBtn = document.getElementById("nextBtn");
 var cur = 0, zoom = 2, masked = false;
 
+
+/* ============================================================
+   总目录页（第 0 页）—— 全部章节一览
+   ------------------------------------------------------------
+   一张卡一课：课名、页数、这一课有哪几类内容（点分类直接跳到
+   那一类的第一页）。下面是三个工具入口。有上次的阅读记录时
+   最上面给一条「接着上次读」。
+   ============================================================ */
+function lessonOutline(){
+  var out = [], by = {};
+  PAGES.forEach(function(p, i){
+    if(!p.blocks) return;
+    var o = by[p.num];
+    if(!o){ o = by[p.num] = {num:p.num, name:p.lessonName, first:i, total:p.total, cats:{}, catOrder:[]}; out.push(o); }
+    var ph = pageHead(p), cat = (ph && ph.cat && CAT_ORDER.indexOf(ph.cat) >= 0) ? ph.cat : "kosakata";
+    if(!o.cats[cat]){ o.cats[cat] = {first:i, n:0}; o.catOrder.push(cat); }
+    o.cats[cat].n++;
+  });
+  out.forEach(function(o){ o.catOrder.sort(function(a,b){ return CAT_ORDER.indexOf(a) - CAT_ORDER.indexOf(b); }); });
+  return out;
+}
+function renderHome(){
+  var les = lessonOutline(), pages = 0;
+  les.forEach(function(o){ pages += o.total; });
+  var h = '<div class="phead"><div class="eyebrow">Daftar Isi</div>' +
+    '<div class="ptitle-row"><h1 class="ptitle">' + esc(T("home.h1")) + "</h1></div>" +
+    '<div class="ptitle-sub">' + esc(T("home.sub", les.length, pages, VOCAB.length)) + "</div></div>" +
+    '<p class="lead">' + esc(T("home.lead")) + "</p>";
+  /* 接着上次读 */
+  var pos = STORE.get("pos", null);
+  if(pos && pos.k && pos.k !== "home"){
+    var pi = findPageByKey(pos.k);
+    if(pi > 0){
+      var pp = PAGES[pi], ph0 = pageHead(pp);
+      var nm = pageLesson(pp) + (ph0 ? " · " + (L(ph0.sub) || ph0.title) : "");
+      h += '<a class="home-cont" data-i="' + pi + '">' + esc(T("home.cont", nm)) + '</a>';
+    }
+  }
+  les.forEach(function(o){
+    h += '<div class="home-les card-tap" data-i="' + o.first + '">' +
+      '<div class="home-les-h"><span class="eyebrow">' + esc(UNIT + " " + o.num) + '</span>' +
+      '<span class="home-n">' + esc(T("toc.pages", o.total)) + '</span></div>' +
+      '<div class="home-name">' + esc(L(o.name)) + '</div>' +
+      '<div class="home-cats">' + o.catOrder.filter(function(c){ return c !== "intro"; }).map(function(c){
+        return '<button type="button" class="home-cat" data-i="' + o.cats[c].first + '">' + esc(T("cat." + c)) +
+          '<i>' + o.cats[c].n + '</i></button>';
+      }).join("") + '</div></div>';
+  });
+  h += '<div class="mini"><span>' + esc(T("home.tools")) + '</span></div>' +
+    '<div class="home-tools">' +
+      '<a class="home-tool" data-i="' + GLOSS_INDEX + '"><b>' + esc(T("nav.glossary")) + '</b><small>' + esc(T("gloss.sub", VOCAB.length)) + '</small></a>' +
+      '<a class="home-tool" data-i="' + REVIEW_INDEX + '"><b>' + esc(T("nav.review")) + '</b><small>' + esc(T("review.setup_sub")) + '</small></a>' +
+      '<a class="home-tool" data-i="' + DRILL_INDEX + '"><b>' + esc(T("nav.drill")) + '</b><small>' + esc(T("drill.setup_sub")) + '</small></a>' +
+    '</div>';
+  return h;
+}
+function wireHome(){
+  toArr(sheet.querySelectorAll("[data-i]")).forEach(function(el){
+    el.addEventListener("click", function(e){
+      e.stopPropagation();
+      go(+el.getAttribute("data-i"), "home");
+    });
+  });
+}
+
 /* ============================================================
    目录抽屉 —— 当工具书用的目录
    ------------------------------------------------------------
@@ -2063,7 +2135,8 @@ function buildTOC(){
       '<a data-i="' + GLOSS_INDEX + '">' + esc(T("nav.glossary")) + '</a>' +
       '<a data-i="' + REVIEW_INDEX + '">' + esc(T("nav.review")) + '</a>' +
       '<a data-i="' + DRILL_INDEX + '">' + esc(T("nav.drill")) + '</a>' +
-    '</div></div>';
+    '</div></div><div class="toc-scroll">' +
+    '<a class="toc-home" data-i="' + HOME_INDEX + '"><i class="ico"></i><span>' + esc(T("toc.home")) + '</span></a>';
   /* 按课分组，课内再按分类分组 */
   var lessons = [], byNum = {};
   PAGES.forEach(function(p, i){
@@ -2072,15 +2145,20 @@ function buildTOC(){
     byNum[p.num].pages.push({i:i, p:p});
   });
   lessons.forEach(function(les){
-    html += '<section class="toc-les" data-num="' + les.num + '">' +
-      '<h3><button type="button" class="toc-les-btn" title="' + esc(T("toc.expand")) + '"><span>' + esc(les.name) + '</span>' +
-      '<small>' + esc(T("toc.pages", les.total)) + '</small><i class="chev"></i></button></h3><div class="toc-body">';
     var groups = {};
     les.pages.forEach(function(it){
       var ph = pageHead(it.p) || {title:"Halaman", sub:null};
       var cat = ph.cat && CAT_ORDER.indexOf(ph.cat) >= 0 ? ph.cat : "kosakata";
       (groups[cat] = groups[cat] || []).push({i:it.i, p:it.p, ph:ph});
     });
+    /* 折起来的时候露一行「词汇 8 · 语法 4 · 对话 3」—— 让人知道里面有东西、点了会展开 */
+    var sum = CAT_ORDER.filter(function(c){ return groups[c] && c !== "intro"; }).map(function(c){
+      return esc(T("cat." + c)) + " " + groups[c].length;
+    }).join(" · ");
+    html += '<section class="toc-les" data-num="' + les.num + '">' +
+      '<h3><button type="button" class="toc-les-btn" title="' + esc(T("toc.expand")) + '"><span>' + esc(les.name) + '</span>' +
+      '<small>' + esc(T("toc.pages", les.total)) + '</small><i class="chev"></i></button></h3>' +
+      '<div class="toc-les-sum">' + sum + '</div><div class="toc-body">';
     CAT_ORDER.forEach(function(cat){
       if(!groups[cat]) return;
       var catName = T("cat." + cat);
@@ -2097,7 +2175,7 @@ function buildTOC(){
     html += '</div></section>';
   });
   html += '<div class="toc-empty" id="tocEmpty">' + esc(T("toc.empty")) + '</div>' +
-    '<a class="toc-find" id="tocFind" data-i="' + GLOSS_INDEX + '"></a>';
+    '<a class="toc-find" id="tocFind" data-i="' + GLOSS_INDEX + '"></a></div>';
   toc.innerHTML = html;
   toArr(toc.querySelectorAll("a[data-i]")).forEach(function(a){
     a.addEventListener("click", function(){
@@ -2162,7 +2240,8 @@ function render(){
   stopSeq();
   qzAuto.cancel();
   drAuto.cancel();
-  sheet.innerHTML = p.drill ? renderDrill()
+  sheet.innerHTML = p.home ? renderHome()
+                  : p.drill ? renderDrill()
                   : p.review ? renderQuiz()
                   : (p.glossary ? renderGlossary() : p.blocks.map(renderBlock).join(""));
   applyMask();
@@ -2171,6 +2250,7 @@ function render(){
   nextBtn.disabled = (cur === PAGES.length-1);
   markTOC();
   if(p.glossary){ wireGlossary(); fillGlossary(); }
+  if(p.home) wireHome();
   reader.scrollTop = 0;
   lastScrollY = 0;
   showHeader();          /* 刚翻页就要能按上一页／下一页 */

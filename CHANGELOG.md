@@ -24,13 +24,19 @@ What changed in each version of *Rae's Study Note*. Newest first.
   Vocabulary & phrases · Grammar · Dialogues & texts · Practice · About
   Indonesia. The category shows above the page title, and the table of contents
   groups pages by it
+- **A contents page comes first.** Opening the app for the first time now
+  shows every chapter at a glance — name, page count, and what kinds of pages it
+  holds — plus the three tools. Tap a category chip to land on the first page of
+  that kind. Returning readers still go straight back to where they left off,
+  and the contents page offers a *pick up where you left off* link
 - **The table of contents is a reference tool now.** Page names are shown in
   your interface language (the Indonesian title sits underneath in small type),
-  chapters fold so only the current one is open, the glossary / review /
-  practice entries sit at the top, and there is a search box that matches page
-  names in any language — type *pronoun*, *数字* or *ngữ pháp* and jump. If
-  what you typed is a word rather than a page, one tap searches the glossary
-  for it
+  chapters fold so only the current one is open (a folded chapter still shows
+  what it contains: *Vocabulary 8 · Grammar 2 · …*), the glossary / review /
+  practice entries sit in a fixed bar at the top, and there is a search box that
+  matches page names in any language — type *pronoun*, *数字* or *ngữ pháp* and
+  jump. If what you typed is a word rather than a page, one tap searches the
+  glossary for it
 - **Online dictionary inside the glossary search.** Type a word the glossary
   does not have and the app looks it up for you: Indonesian definitions from
   Wiktionary (in English), a translation in your interface language, and a

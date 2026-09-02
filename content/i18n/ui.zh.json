@@ -66,7 +66,9 @@
     "drill_name": "实战 · Situasi",
     "drill_title": "情景问答 · 随机出题",
     "gloss_name": "词汇表 · Kosakata",
-    "gloss_title": "全部生词（可搜索）"
+    "gloss_title": "全部生词（可搜索）",
+    "home_name": "总目录 · Daftar Isi",
+    "home_title": "全部章节一览"
   },
   "gloss": {
     "h1": "词汇表",
@@ -214,7 +216,8 @@
     "empty": "没有找到相关的页",
     "find_word": "在词汇表里搜「{0}」",
     "pages": "{0} 页",
-    "expand": "展开／收起这一课"
+    "expand": "展开／收起这一课",
+    "home": "总目录"
   },
   "dict": {
     "btn": "查网上词典：「{0}」",
@@ -225,5 +228,13 @@
     "src": "Wiktionary · Wikipedia · MyMemory（机器翻译，仅供参考）",
     "play": "系统语音朗读",
     "local_miss": "词汇表里没有这个词。"
+  },
+  "home": {
+    "h1": "总目录",
+    "sub": "{0} 课 · {1} 页 · {2} 词",
+    "lead": "点一课进去，或者直接点某一类（词汇、语法、对话…）跳到那一课里的第一页。左上角的目录按钮随时能回到这里。",
+    "tools": "工具",
+    "cont": "接着上次读：{0}",
+    "cat_n": "{0} 页"
   }
 }

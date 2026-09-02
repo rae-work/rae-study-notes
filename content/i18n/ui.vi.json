@@ -66,7 +66,9 @@
     "drill_name": "Luyện tập · Situasi",
     "drill_title": "Hỏi đáp theo tình huống · câu hỏi ngẫu nhiên",
     "gloss_name": "Từ vựng · Kosakata",
-    "gloss_title": "Toàn bộ từ mới (có thể tìm kiếm)"
+    "gloss_title": "Toàn bộ từ mới (có thể tìm kiếm)",
+    "home_name": "Mục lục · Daftar Isi",
+    "home_title": "Toàn bộ các bài"
   },
   "gloss": {
     "h1": "Từ vựng",
@@ -214,7 +216,8 @@
     "empty": "Không có trang nào phù hợp",
     "find_word": "Tìm “{0}” trong bảng từ vựng",
     "pages": "{0} trang",
-    "expand": "Mở / thu gọn bài này"
+    "expand": "Mở / thu gọn bài này",
+    "home": "Mục lục"
   },
   "dict": {
     "btn": "Tra “{0}” trong từ điển trực tuyến",
@@ -225,5 +228,13 @@
     "src": "Wiktionary · Wikipedia · MyMemory (dịch máy, chỉ để tham khảo)",
     "play": "Đọc bằng giọng hệ thống",
     "local_miss": "Từ này chưa có trong bảng từ vựng."
+  },
+  "home": {
+    "h1": "Mục lục",
+    "sub": "{0} bài · {1} trang · {2} từ",
+    "lead": "Chạm vào một bài để mở, hoặc chạm vào một mục (từ vựng, ngữ pháp, hội thoại…) để đến thẳng trang đầu của mục đó trong bài. Nút mục lục ở góc trên bên trái luôn đưa bạn về đây.",
+    "tools": "Công cụ",
+    "cont": "Đọc tiếp từ lần trước: {0}",
+    "cat_n": "{0} trang"
   }
 }

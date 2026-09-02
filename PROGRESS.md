@@ -5,7 +5,7 @@
 > `KICKOFF.md` 描述的是 2026-08 之前的旧 App（Cindy 私教 13 课那版），
 > **§3–§8 已作废**，只在追溯历史时看。
 
-**当前状态：v1.5.0 在分支 `bab3-toc-dict` 上，等 Rae 看预览 + 批准语音合成（2026-09-02）。三课 45 页，297 词。线上仍是 v1.4.0。**
+**当前状态：v1.5.0 在分支 `bab3-toc-dict` 上，音频 100%，等 Rae 看预览点头后上线（2026-09-02）。三课 45 页 + 总目录页，297 词。线上仍是 v1.4.0。**
 
 > **2026-09-02 起 APK / 离线版永久停用（Rae 定的）。** 网站 `docs/` 是唯一产物，
 > `dist/` 只是它的中间产物。`/apk` 技能、`scripts/apk.sh`、`prepare-assets.js`、
@@ -33,7 +33,9 @@
 | 目录 | 重写 `buildTOC()`：顶部搜索框（按四种语言的页名 + 分类名过滤，`filterTOC()`）、词汇表 / 复习 / 实战三个入口提到最上面、每课可折叠（只展开当前课，`markTOC()` 负责）、课内按分类分组、页名显示界面语言的 `sub`（印尼语 `title` 退成小字；`sub` 开头是分类名时自动去掉那截）。搜索没命中页时给一个「在词汇表里搜」的按钮，跳过去顺手填进搜索框 |
 | 网上词典 | 并在词汇表搜索框里（`dictSync` / `dictLookup` / `dictRender`）。本地一个结果都没有 → 自动查；有结果 → 给一个「查网上词典」按钮。三个来源：Wiktionary REST（`/page/definition/`，取 `id` 节 → 词性 + 英文释义，查不到就去掉 -nya/-ku/-mu 再查）、MyMemory（界面语言译文）、印尼语维基百科跨语言链接（**只在 Wiktionary 说是名词时**用，名词最可靠）。发音走 `ttsOnly()` 系统语音。结果只在内存缓存 |
 | 外部资源防线 | `lib/build.js` 新增 `ALLOWED_HOSTS`（三个域名），`assertOffline()` 先把它们替换掉再查。**这是全站唯一主动联网取数据的地方**（统计除外） |
-| 语音 | 还没跑。计划 320 条 / 5,655 字符，余额 18,586。**等 Rae 批准** |
+| 总目录页 | `PAGES[0]` 是 `{home:true}`（`pageKey` = `home`，`HOME_INDEX = 0`）。`renderHome()` 用 `lessonOutline()` 列每课的分类和页数，分类芯片点了跳到那一类的第一页；有 `rsn.pos` 时给一条「接着上次读」。老用户被 `restorePos()` 带回原页，只有新用户和主动点「总目录」才看到它。页码分母改成 `REVIEW_INDEX - 1`、分子用 `cur`（第 0 页不计） |
+| 抽屉结构 | `nav.toc` 改成 flex 列：`.toc-top`（搜索框 + 三个芯片，**不滚动、宽度固定**，`white-space:nowrap`）+ `.toc-scroll`（`scrollbar-gutter:stable`，出不出滚动条都不改宽）。折起来的课下面露一行分类摘要 `.toc-les-sum`（展开或搜索时隐藏） |
+| 语音 | 已合成 320 条 / 5,655 字符（Rae 批准，2026-09-02），覆盖率 100%，本月累计约 27,100 / 40,000 |
 
 **这一轮值得记的**
 
@@ -227,7 +229,7 @@ UGM INCULS《Titian Bahasa Pemula 1》的配套学习网站。四语界面
 - 内容：**Bab 1 Perkenalan** 20 页（课本 Bab 1 + 口语课 Pertemuan 1）+ **Bab 2 Kelas INCULS** 8 页 · 225 词
 - 实战题：情景 26 / 地点 10 / 领属 15 / 指示词 8 / 看图认词 20 / 数字池 40（时间题仍关着）
 - 音频 1079/1079（100%），音库 2743 条（含旧内容留下的，只增不减），教材听力音轨 1 条
-- 额度：ElevenLabs starter 40,000 字符/月，v1.4.0 之后本月累计用掉约 21,500
+- 额度：ElevenLabs starter 40,000 字符/月，v1.5.0 之后本月累计用掉约 27,100
 
 ## 线上
 
@@ -251,7 +253,7 @@ git add -A && git commit -m "更新网站" && git push
 
 ## 下一步
 
-- [ ] **v1.5.0 收尾**：Rae 看预览 → 批准 `npm run tts -- --yes`（约 5,655 credits）→ 覆盖率 100% → `npm run site` → 合进 main → push。
+- [ ] **v1.5.0 收尾**：语音已合成、覆盖率 100%。Rae 看预览点头 → `npm run site` → 合进 main → push。
 - [ ] **课本 Bab 3 词汇页（第 24–33 页）**：拿到扫描件后逐页对照 L03 第 2–8 页。
 - [ ] Bab 4 起：Rae 拍照放 `inbox/`，走 `/lesson`。
       ⚠️ 口语课（Kelas Berbicara）的讲义按**内容**归课，不按次数 ——
