@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "preview", "--", "8788"],
       "port": 8788
+    },
+    {
+      "name": "preview-8789",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "preview", "--", "8789"],
+      "port": 8789
     }
   ]
 }

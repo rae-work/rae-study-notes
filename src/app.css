@@ -239,16 +239,45 @@
     padding:calc(14px + env(safe-area-inset-top)) 0 calc(28px + env(safe-area-inset-bottom));
     transform:translateX(-100%);transition:transform var(--t-slow) var(--ease)}
   nav.toc.open{transform:none}
-  .toc h3{font-family:var(--ui);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);
-    margin:14px 18px 8px;font-weight:700}
-  .toc h3:first-child{margin-top:4px}
-  .toc h3.ref{border-top:1px solid var(--line);padding-top:14px;color:var(--accent-ink)}
+  /* 顶部：搜索框 + 三个常用入口（查词最频繁，放最上面） */
+  .toc-top{padding:0 14px 6px}
+  .toc-search{width:100%;box-sizing:border-box;font-family:var(--ui);font-size:15px;color:var(--ink);background:var(--paper);
+    border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;min-height:40px;-webkit-appearance:none;appearance:none}
+  .toc-search::-webkit-search-cancel-button{-webkit-appearance:none}
+  .toc-quick{display:flex;gap:6px;margin-top:10px}
+  .toc .toc-quick a{flex:1 1 0;justify-content:center;padding:8px 6px;font-size:12.5px;font-weight:600;border:1px solid var(--line);
+    border-radius:999px;border-left-width:1px;color:var(--ink-soft)}
+  .toc .toc-quick a.active{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+  /* 每一课一折：标题是按钮，只展开当前课 */
+  .toc h3{margin:0;font-weight:700}
+  .toc-les{border-top:1px solid var(--line)}
+  .toc-les-btn{display:flex;align-items:center;gap:8px;width:100%;text-align:left;background:none;border:0;cursor:pointer;
+    font-family:var(--ui);font-size:12.5px;font-weight:700;color:var(--ink);padding:13px 18px;line-height:1.3}
+  .toc-les-btn span{flex:1 1 auto;min-width:0}
+  .toc-les-btn small{font-weight:500;font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  .toc-les-btn .chev{width:7px;height:7px;border-right:1.6px solid var(--ink-faint);border-bottom:1.6px solid var(--ink-faint);
+    transform:rotate(-45deg);transition:transform var(--t-fast) var(--ease);flex:0 0 auto;margin-right:2px}
+  .toc-les.open .toc-les-btn .chev{transform:rotate(45deg)}
+  .toc-body{display:none;padding-bottom:8px}
+  .toc-les.open .toc-body,.toc.searching .toc-body{display:block}
+  .toc.searching .toc-les-btn .chev{transform:rotate(45deg)}
+  /* 课内按分类分组：词汇 / 语法 / 对话… */
+  .toc-cat-h{font-family:var(--ui);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-ink);
+    margin:8px 18px 2px;font-weight:700}
   .toc a{display:flex;align-items:baseline;gap:9px;text-decoration:none;color:var(--ink-soft);
-    padding:11px 18px;font-size:13.5px;line-height:1.4;cursor:pointer;border-left:3px solid transparent;
+    padding:8px 18px;font-size:13.5px;line-height:1.35;cursor:pointer;border-left:3px solid transparent;
     font-family:var(--ui);transition:color var(--t-fast) var(--ease),background var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
-  .toc a .pg{font-family:var(--ui);font-variant-numeric:tabular-nums;font-size:11px;color:var(--ink-faint);width:34px;flex:0 0 auto}
-  .toc a.active{color:var(--accent-ink);border-left-color:var(--accent);background:var(--accent-wash);font-weight:600}
+  .toc a .pg{font-family:var(--ui);font-variant-numeric:tabular-nums;font-size:11px;color:var(--ink-faint);width:18px;flex:0 0 auto;text-align:right}
+  /* 页名：界面语言为主，印尼语标题退成小字 */
+  .toc a .tt{display:flex;flex-direction:column;min-width:0}
+  .toc a .tt b{font-weight:500}
+  .toc a .tt small{font-size:11px;color:var(--ink-faint)}
+  .toc a.active{color:var(--accent-ink);border-left-color:var(--accent);background:var(--accent-wash)}
+  .toc a.active .tt b{font-weight:600}
   .toc a.active .pg{color:var(--accent-ink)}
+  .toc-empty{display:none;color:var(--ink-soft);font-family:var(--ui);font-size:13px;text-align:center;padding:22px 18px 6px}
+  .toc a.toc-find{display:none;margin:8px 14px;justify-content:center;border:1px solid var(--line);border-radius:999px;
+    border-left-width:1px;font-size:12.5px;font-weight:600;color:var(--accent-ink)}
 
   /* ===== 阅读区：像书页，不是卡片 ===== */
   .reader{flex:1 1 auto;overflow:auto;-webkit-overflow-scrolling:touch;
@@ -443,6 +472,21 @@
   .gex{display:flex;align-items:baseline;gap:8px;border-top:1px solid var(--line);padding-top:9px}
   .gex .gloss{color:var(--ink-soft);font-size:.8em;display:block;margin-top:2px}
   .gempty{display:none;color:var(--ink-soft);text-align:center;padding:26px 0;font-size:.92em}
+  /* 网上词典：跟在搜索框下面，像一张多出来的词卡 */
+  .gdict{margin:0 0 12px}
+  .gdict:empty{margin:0}
+  .dict-btn{font-family:var(--ui);font-size:12.5px;font-weight:600;color:var(--accent-ink);background:transparent;
+    border:1px dashed var(--accent-line);border-radius:999px;padding:9px 16px;min-height:36px;cursor:pointer;max-width:100%;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .dict-card{border:1px dashed var(--accent-line);border-radius:var(--r-md);padding:13px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+  .dict-card .dict-status{color:var(--ink-soft);font-size:.9em}
+  .dict-card .dict-btn{align-self:flex-start;margin-top:4px}
+  .dict-card .play{flex:0 0 auto}
+  .dict-stem{font-family:var(--ui);font-size:.78em;color:var(--ink-faint)}
+  .dict-tr{font-size:1.02em}
+  .dict-sense{font-size:.86em;color:var(--ink-soft);line-height:1.6}
+  .dict-pos{font-family:var(--ui);font-size:.82em;font-style:italic;color:var(--accent-ink)}
+  .dict-src{font-family:var(--ui);font-size:.7em;color:var(--ink-faint);border-top:1px solid var(--line);padding-top:8px;margin-top:2px}
   .gmore{display:none;text-align:center;color:var(--ink-soft);font-size:.86em;padding:14px 0}
   .glist .ans.masked{filter:none;color:transparent;background:var(--accent-wash)}
   .glist .ans.masked *{color:transparent}

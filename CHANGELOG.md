@@ -4,6 +4,40 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.5.0 — 2026-09-02
+
+**Bab 3, classroom grammar notes, a table of contents you can actually search, and an online dictionary**
+
+- **Bab 3 · Numbers, days, months and years.** The grammar section of the
+  chapter — simple sentences in four patterns (*Nomina + Nomina*, *+ Adjektiva*,
+  *+ Verba*, *+ Preposisi*) — follows the textbook and the classroom handout.
+  The vocabulary pages (numbers above 100, ordinals, days, months, dates and
+  years, the question words *kapan / berapa / ke berapa / bagaimana*) were
+  written from the chapter's stated objectives; the book's own pages for them
+  are not in hand yet and will be checked against later
+- **Classroom notes for Bab 1 and Bab 2.** Three new grammar pages built from
+  the teacher's handouts: the full personal-pronoun inventory with *kami* vs
+  *kita* practice; *Ini gedung* vs *Gedung ini* and the *DM / MD* word-order
+  rule; and what *-nya* can stand for beyond *dia* (*kantin fakultas →
+  kantinnya*). The handouts' typos are corrected and pointed out
+- **Every page now belongs to a category** — Overview · Pronunciation ·
+  Vocabulary & phrases · Grammar · Dialogues & texts · Practice · About
+  Indonesia. The category shows above the page title, and the table of contents
+  groups pages by it
+- **The table of contents is a reference tool now.** Page names are shown in
+  your interface language (the Indonesian title sits underneath in small type),
+  chapters fold so only the current one is open, the glossary / review /
+  practice entries sit at the top, and there is a search box that matches page
+  names in any language — type *pronoun*, *数字* or *ngữ pháp* and jump. If
+  what you typed is a word rather than a page, one tap searches the glossary
+  for it
+- **Online dictionary inside the glossary search.** Type a word the glossary
+  does not have and the app looks it up for you: Indonesian definitions from
+  Wiktionary (in English), a translation in your interface language, and a
+  system-voice pronunciation. Words with *-nya / -ku / -mu* are reduced to
+  their stem first. This is the only feature that needs an internet connection;
+  everything else still works offline
+
 ## 1.4.0 — 2026-09-02
 
 **Vietnamese interface**

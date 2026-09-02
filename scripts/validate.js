@@ -46,8 +46,10 @@ try {
 /* ── 1. 结构 ─────────────────────────────────────────────── */
 
 const G1 = '结构';
+/* 页面分类（目录按它分组，眉标按它显示）。名字在 ui.*.json 的 cat.* 里，引擎的 CAT_ORDER 也是这一份。 */
+const PAGE_CATS = new Set(['intro', 'bunyi', 'kosakata', 'tatabahasa', 'percakapan', 'latihan', 'wawasan']);
 const BLOCK_FIELDS = {
-  phead: { req: ['title', 'sub'] },
+  phead: { req: ['title', 'sub', 'cat'] },
   lead: { req: ['text'] },
   psub2: { req: ['text'] },
   mini: { req: ['text'] },
@@ -87,6 +89,8 @@ for (const l of content.lessons) {
   l.pages.forEach((page, pi) => {
     if (!Array.isArray(page) || !page.length) { err(G1, `${at} 第 ${pi + 1} 页为空`); return; }
     if (page[0].k !== 'phead') err(G1, `${at} 第 ${pi + 1} 页首块不是 phead，而是 ${page[0].k}`);
+    else if (page[0].cat != null && !PAGE_CATS.has(page[0].cat))
+      err(G1, `${at} 第 ${pi + 1} 页 cat="${page[0].cat}" 不在分类表里（${[...PAGE_CATS].join(' / ')}）`);
     page.forEach((b, bi) => {
       const where = `${at} p${pi + 1} b${bi + 1}`;
       const spec = BLOCK_FIELDS[b.k];

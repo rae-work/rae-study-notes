@@ -199,5 +199,31 @@
     "count_w": "Đang theo dõi {0} từ",
     "count_q": "Đang theo dõi {0} câu",
     "count_both": "{0} từ · {1} câu"
+  },
+  "cat": {
+    "intro": "Tổng quan",
+    "bunyi": "Phát âm",
+    "kosakata": "Từ vựng & mẫu câu",
+    "tatabahasa": "Ngữ pháp",
+    "percakapan": "Hội thoại & bài đọc",
+    "latihan": "Luyện tập",
+    "wawasan": "Hiểu biết về Indonesia"
+  },
+  "toc": {
+    "search_ph": "Tìm trang: ngữ pháp, số đếm, chào hỏi…",
+    "empty": "Không có trang nào phù hợp",
+    "find_word": "Tìm “{0}” trong bảng từ vựng",
+    "pages": "{0} trang",
+    "expand": "Mở / thu gọn bài này"
+  },
+  "dict": {
+    "btn": "Tra “{0}” trong từ điển trực tuyến",
+    "loading": "Đang tra “{0}”…",
+    "fail": "Không kết nối được từ điển — hãy kiểm tra mạng",
+    "none": "Từ điển trực tuyến cũng không có “{0}”",
+    "tag": "Từ điển trực tuyến",
+    "src": "Wiktionary · Wikipedia · MyMemory (dịch máy, chỉ để tham khảo)",
+    "play": "Đọc bằng giọng hệ thống",
+    "local_miss": "Từ này chưa có trong bảng từ vựng."
   }
 }

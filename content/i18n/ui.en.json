@@ -199,5 +199,31 @@
     "count_w": "Tracking {0} words",
     "count_q": "Tracking {0} questions",
     "count_both": "{0} words · {1} questions"
+  },
+  "cat": {
+    "intro": "Overview",
+    "bunyi": "Pronunciation",
+    "kosakata": "Vocabulary & phrases",
+    "tatabahasa": "Grammar",
+    "percakapan": "Dialogues & texts",
+    "latihan": "Practice",
+    "wawasan": "About Indonesia"
+  },
+  "toc": {
+    "search_ph": "Find a page: grammar, numbers, greetings…",
+    "empty": "No matching pages",
+    "find_word": "Search the glossary for “{0}”",
+    "pages": "{0} pages",
+    "expand": "Expand / collapse this chapter"
+  },
+  "dict": {
+    "btn": "Look up “{0}” in the online dictionary",
+    "loading": "Looking up “{0}”…",
+    "fail": "Could not reach the dictionary — check your connection",
+    "none": "The online dictionary has no entry for “{0}”",
+    "tag": "Online dictionary",
+    "src": "Wiktionary · Wikipedia · MyMemory (machine translation, for reference only)",
+    "play": "Read aloud with the system voice",
+    "local_miss": "This word is not in the glossary."
   }
 }

@@ -89,10 +89,18 @@ function jsonForScript(obj) {
  * 而且是交给浏览器打开，不是页面自己发请求。页脚的 GitHub 链接就靠这条。
  * 但 `<link href>`（样式表 / 图标）和 src / action 仍然一律拦下。
  */
+/**
+ * 唯一的例外：词汇表里的「网上词典」（Rae 2026-09-02 定的）。
+ * 查词汇表没收录的词，只在用户主动搜索时才发请求，不影响其余功能离线可用。
+ * 这三个域名（Wiktionary 释义 · MyMemory 译文 · 印尼语维基百科跨语言链接）以外的一律照拦。
+ */
+const ALLOWED_HOSTS = ['https://en.wiktionary.org/', 'https://api.mymemory.translated.net/', 'https://id.wikipedia.org/'];
+
 function assertOffline(html) {
   // 把内联数据摘掉再查
-  const code = html
+  let code = html
     .replace(/var CONTENT = [\s\S]*?;\nvar AUDIO = [\s\S]*?;\n/, 'var CONTENT={};var AUDIO={};\n');
+  for (const h of ALLOWED_HOSTS) code = code.split(h).join('allowed://');
 
   const bad = [];
   const patterns = [

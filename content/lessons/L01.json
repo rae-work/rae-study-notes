@@ -18,7 +18,8 @@
      "ja": "自己紹介",
      "en": "Introductions",
      "vi": "Giới thiệu bản thân"
-    }
+    },
+    "cat": "intro"
    },
    {
     "k": "lead",
@@ -142,7 +143,8 @@
      "ja": "アルファベット · 26 文字の名前",
      "en": "The alphabet · what the 26 letters are called",
      "vi": "Bảng chữ cái · tên gọi của 26 chữ cái"
-    }
+    },
+    "cat": "bunyi"
    },
    {
     "k": "lead",
@@ -390,7 +392,8 @@
      "ja": "母音 · a i u e o",
      "en": "Vowels · a i u e o",
      "vi": "Nguyên âm · a i u e o"
-    }
+    },
+    "cat": "bunyi"
    },
    {
     "k": "lead",
@@ -719,7 +722,8 @@
      "ja": "子音 · まちがえやすいもの",
      "en": "Consonants · the ones that go wrong",
      "vi": "Phụ âm · những âm hay bị đọc sai nhất"
-    }
+    },
+    "cat": "bunyi"
    },
    {
     "k": "lead",
@@ -1060,7 +1064,8 @@
      "ja": "聞き取り",
      "en": "Listening",
      "vi": "Nghe hiểu"
-    }
+    },
+    "cat": "percakapan"
    },
    {
     "k": "listen",
@@ -1283,7 +1288,8 @@
      "ja": "新入生 · 会話（前半）",
      "en": "New students · dialogue (1)",
      "vi": "Sinh viên mới · hội thoại (phần 1)"
-    }
+    },
+    "cat": "percakapan"
    },
    {
     "k": "psub2",
@@ -1467,7 +1473,8 @@
      "ja": "新入生 · 会話（後半）",
      "en": "New students · dialogue (2)",
      "vi": "Sinh viên mới · hội thoại (phần 2)"
-    }
+    },
+    "cat": "percakapan"
    },
    {
     "k": "dialog",
@@ -1739,7 +1746,8 @@
      "ja": "あいさつ · 呼びかけ · 別れ",
      "en": "Greetings, address, farewells",
      "vi": "Chào hỏi · xưng hô · tạm biệt"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "sec",
@@ -2256,7 +2264,8 @@
      "ja": "あいさつ · ごきげんうかがい",
      "en": "Greetings and how you are",
      "vi": "Chào hỏi · hỏi thăm"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "lead",
@@ -2614,7 +2623,8 @@
      "ja": "疑問詞",
      "en": "Question words",
      "vi": "Từ để hỏi"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "lead",
@@ -3059,7 +3069,8 @@
      "ja": "文法 · 人称代名詞",
      "en": "Grammar · pronouns",
      "vi": "Ngữ pháp · đại từ nhân xưng"
-    }
+    },
+    "cat": "tatabahasa"
    },
    {
     "k": "table",
@@ -3225,7 +3236,8 @@
      "ja": "数字 · 0 から 19",
      "en": "Numbers · 0 to 19",
      "vi": "Số đếm · 0 đến 19"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "lead",
@@ -3429,7 +3441,8 @@
      "ja": "数字 · 十の位と組み合わせ",
      "en": "Numbers · tens and combinations",
      "vi": "Số đếm · hàng chục và cách ghép"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "numgrp",
@@ -3617,7 +3630,8 @@
      "ja": "自己紹介 · 五つの項目",
      "en": "Introducing yourself · five slots",
      "vi": "Tự giới thiệu · năm mục"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "lead",
@@ -3990,7 +4004,8 @@
      "ja": "職業 · 趣味 · 通しの例",
      "en": "Jobs, hobbies and the whole thing",
      "vi": "Nghề nghiệp · sở thích · bài mẫu hoàn chỉnh"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "lead",
@@ -4347,7 +4362,8 @@
      "ja": "話す · 自己紹介",
      "en": "Speaking · introduce yourself",
      "vi": "Nói · giới thiệu bản thân"
-    }
+    },
+    "cat": "latihan"
    },
    {
     "k": "psub2",
@@ -4624,7 +4640,8 @@
      "ja": "人を紹介する",
      "en": "Introducing someone else",
      "vi": "Giới thiệu người khác"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "lead",
@@ -4882,7 +4899,8 @@
      "ja": "書く · 身分証の項目",
      "en": "Writing · identity details",
      "vi": "Viết · thông tin cá nhân"
-    }
+    },
+    "cat": "latihan"
    },
    {
     "k": "psub2",
@@ -5152,7 +5170,8 @@
      "ja": "練習 · インタビュー",
      "en": "Practice and the interview",
      "vi": "Luyện tập · Phỏng vấn bạn học"
-    }
+    },
+    "cat": "latihan"
    },
    {
     "k": "lead",
@@ -5513,7 +5532,8 @@
      "ja": "インドネシア豆知識 · 名前とあいさつ",
      "en": "About Indonesia · names and greetings",
      "vi": "Kiến thức về Indonesia · tên gọi và lời chào"
-    }
+    },
+    "cat": "wawasan"
    },
    {
     "k": "psub2",

@@ -578,7 +578,8 @@ function renderBlock(b){
   var out, i;
   switch(b.k){
     case "phead":
-      var eyebrow = (CURMETA && CURMETA.num) ? (UNIT + " " + CURMETA.num) : "Kosakata";
+      /* 眉标带上页面分类（词汇 / 语法 / 对话…），翻到哪一页一眼知道自己在哪一类里 */
+      var eyebrow = (CURMETA && CURMETA.num) ? (UNIT + " " + CURMETA.num + (b.cat ? " · " + T("cat." + b.cat) : "")) : "Kosakata";
       /* 页码跟标题同一行（页眉已经没有品牌行了，这样省一行屏幕）。
          分母只数课文页，不含末尾追加的复习／实战／词汇表三张特殊页。 */
       var pc = "";
@@ -779,7 +780,7 @@ function pageTitle(p){
 
 /* ===== 词汇表:分批渲染(A7 上一次性插入几百张卡会卡死)+ 防抖搜索 ===== */
 var GLOSS_SORTED = VOCAB.slice().sort(function(a,b){ return a.les - b.les; });
-var gFilter = "all", gQuery = "", gTimer = null, gFillTimer = null;
+var gFilter = "all", gQuery = "", gTimer = null, gFillTimer = null, gFillDone = false;
 
 function glossCard(v){
   var zh = L(v.gloss), en = L2(v.gloss);
@@ -810,6 +811,7 @@ function renderGlossary(){
     '<div class="ptitle-sub">' + esc(T("gloss.sub", VOCAB.length)) + "</div></div>" +
     '<p class="lead">' + esc(T("gloss.lead")) + "</p>" +
     '<input class="gsearch" id="gsearch" type="text" placeholder="' + esc(T("gloss.search_ph")) + '" autocomplete="off" autocorrect="off" autocapitalize="off">' +
+    '<div class="gdict" id="gdict"></div>' +
     '<div class="gfilter">' + chips + '</div><div class="glist" id="glist"></div>' +
     '<div class="gmore" id="gmore">' + esc(T("gloss.loading")) + "</div>" +
     '<div class="gempty" id="gempty">' + esc(T("gloss.empty")) + "</div>";
@@ -827,11 +829,187 @@ function applyGlossFilter(){
   }
   var empty = document.getElementById("gempty");
   if(empty) empty.style.display = (shown || gFillTimer) ? "none" : "block";
+  /* 词表装完之后才知道到底有没有本地结果；一个都没有就自动去网上词典查 */
+  dictSync(gFillDone ? shown : -1);
 }
+
+/* ============================================================
+   网上词典 —— 并在词汇表的搜索框里
+   ------------------------------------------------------------
+   查词汇表里没收录的词。两个免费接口，都不用密钥、都允许跨域：
+   · Wiktionary（英文站）的 REST 释义接口 → 词性 + 英文释义
+   · MyMemory 翻译记忆库 → 界面语言的译文（机器翻译，只作参考）
+   结果只在内存里缓存（按 词+语言），不进 localStorage。
+   发音走系统语音（ttsOnly），不碰音库、也不记「音频缺失」。
+   这是全站唯一主动联网取数据的地方（统计除外）—— Rae 2026-09-02 定的，
+   lib/build.js 的 assertOffline() 为这两个域名开了例外。
+   ============================================================ */
+var DICT_WIKI = "https://en.wiktionary.org/api/rest_v1/page/definition/";
+var DICT_MM = "https://api.mymemory.translated.net/get";   /* 三个域名都登记在 lib/build.js 的 ALLOWED_HOSTS */
+var DICT_MM_LANG = {zh: "zh-CN", ja: "ja-JP", en: "en-GB", vi: "vi-VN"};
+var DICT_CACHE = {}, dictSeq = 0, dictAutoFor = "";
+var DICT_OK = typeof fetch === "function" && typeof Promise !== "undefined";
+
+/* 输入变化 → 只重画按钮；本地一个结果都没有 → 自动查 */
+function dictSync(shown){
+  var box = document.getElementById("gdict");
+  if(!box || !DICT_OK) return;
+  var q = dictWord(gQuery);
+  if(!q){ box.innerHTML = ""; box.className = "gdict"; dictAutoFor = "";
+    var ge = document.getElementById("gempty"); if(ge) ge.textContent = T("gloss.empty"); return; }
+  var key = q + "|" + LANG;
+  if(DICT_CACHE[key] && DICT_CACHE[key].done){ dictRender(q, DICT_CACHE[key]); return; }
+  if(shown === 0 && dictAutoFor !== key){ dictAutoFor = key; dictLookup(q); return; }
+  if(box.getAttribute("data-w") === q) return;      /* 正在查这个词，别打断 */
+  box.className = "gdict";
+  box.setAttribute("data-w", "");
+  box.innerHTML = '<button type="button" class="dict-btn" data-dict="' + esc(q) + '">' + esc(T("dict.btn", q)) + '</button>';
+}
+/* 只查「像一个印尼语词」的输入：字母、连字符、空格，最多三个词 */
+function dictWord(q){
+  q = (q || "").trim().toLowerCase().replace(/\s+/g, " ");
+  if(!q || q.length < 2 || q.length > 40) return "";
+  if(!/^[a-z][a-z' -]*$/.test(q)) return "";
+  if(q.split(" ").length > 3) return "";
+  return q;
+}
+function dictStrip(html){
+  var d = document.createElement("div");
+  d.innerHTML = html;
+  return (d.textContent || "").replace(/\s+/g, " ").trim();
+}
+function dictFetchJSON(url){
+  return fetch(url, {headers: {"Accept": "application/json"}}).then(function(r){
+    if(r.status === 404) return null;
+    if(!r.ok) throw new Error("http " + r.status);
+    return r.json();
+  });
+}
+/* Wiktionary：拿印尼语（id）那一节；查不到就试着去掉 -nya / -ku / -mu 再查一次 */
+function dictWiki(word){
+  return dictFetchJSON(DICT_WIKI + encodeURIComponent(word)).then(function(j){
+    var sec = j && j.id;
+    if(sec && sec.length) return {word: word, senses: sec.map(function(s){
+      return {pos: s.partOfSpeech || "", defs: (s.definitions || []).map(function(d){ return dictStrip(d.definition || ""); }).filter(Boolean).slice(0, 2)};
+    })};
+    var m = /^(.+?)(nya|ku|mu)$/.exec(word);
+    if(m && m[1].length >= 3) return dictWiki(m[1]);
+    return null;
+  });
+}
+/* MyMemory 是众包翻译记忆库，最靠前的一条常常是垃圾（「从印尼到中国的翻译」这种）。
+   只认原文恰好是这个词的条目，过滤掉等于原文、带「翻译」字样、
+   中日文里没有汉字假名的；照顺序取第一条过得了关的。 */
+function dictMM(word, lang){
+  var tgt = DICT_MM_LANG[lang] || lang;
+  var norm = function(x){ return (x || "").toLowerCase().replace(/[^a-z\u00e9\u00e8 ]/g, "").replace(/\s+/g, " ").trim(); };
+  /* 「前 往」「我们...」这种：汉字之间的空格、结尾的省略号都去掉 */
+  var tidy = function(t){
+    t = t.trim().replace(/[.…]+$/, "").replace(/。$/, "");
+    if(lang === "zh" || lang === "ja") t = t.replace(/([\u3040-\u30ff\u3400-\u9fff])\s+(?=[\u3040-\u30ff\u3400-\u9fff])/g, "$1");
+    return t;
+  };
+  var okTr = function(t){
+    if(!t) return false;
+    t = t.trim();
+    if(!t || norm(t) === word) return false;
+    if(/翻译|翻訳|translat|ngôn ngữ|bản dịch|mymemory|query length/i.test(t)) return false;
+    if((lang === "zh" || lang === "ja") && !/[\u3040-\u30ff\u3400-\u9fff]/.test(t)) return false;
+    if(t.length > 40) return false;
+    return true;
+  };
+  return dictFetchJSON(DICT_MM + "?q=" + encodeURIComponent(word) + "&langpair=" + encodeURIComponent("id|" + tgt)).then(function(j){
+    if(!j) return "";
+    var ms = (j.matches || []).slice(), i;
+    var exact = ms.filter(function(m){ return norm(m.segment) === word; });
+    for(i=0;i<exact.length;i++) if(okTr(exact[i].translation)) return tidy(exact[i].translation);
+    var t = j.responseData && j.responseData.translatedText;
+    if(okTr(t)) return tidy(t);
+    return "";
+  });
+}
+/* 印尼语维基百科的跨语言链接：名词最可靠的一条译名（「kucing」→ 中文条目「猫」）。
+   只在 Wiktionary 说它是名词时才用 —— kami 这种词会撞到别的东西。 */
+var DICT_WP = "https://id.wikipedia.org/w/api.php?action=query&prop=langlinks&format=json&origin=*&redirects=1&lllang=";
+function dictWP(word, lang){
+  return dictFetchJSON(DICT_WP + encodeURIComponent(lang) + "&titles=" + encodeURIComponent(word)).then(function(j){
+    var pages = j && j.query && j.query.pages;
+    if(!pages) return "";
+    for(var k in pages){
+      var ll = pages[k].langlinks;
+      if(ll && ll.length && ll[0]["*"]){
+        var t = ll[0]["*"];
+        if(/\(|消歧|曖昧|định hướng|disambig/i.test(t)) return "";
+        return t;
+      }
+    }
+    return "";
+  });
+}
+function dictLookup(word){
+  var box = document.getElementById("gdict");
+  if(!box) return;
+  var key = word + "|" + LANG, my = ++dictSeq;
+  var ent = DICT_CACHE[key] = DICT_CACHE[key] || {done: false};
+  box.className = "gdict";
+  box.setAttribute("data-w", word);
+  box.innerHTML = '<div class="dict-card"><div class="dict-status">' + esc(T("dict.loading", word)) + '</div></div>';
+  TRK("dict", {q: trkCut(word, 40)});
+  var jobs = [dictWiki(word)["catch"](function(){ return {err: true}; })];
+  jobs.push(LANG === "en" ? Promise.resolve("") : dictMM(word, LANG)["catch"](function(){ return ""; }));
+  jobs.push(LANG === "en" ? Promise.resolve("") : dictWP(word, LANG)["catch"](function(){ return ""; }));
+  Promise.all(jobs).then(function(res){
+    var wiki = res[0], tr = res[1] || "", wp = res[2] || "";
+    var isNoun = wiki && !wiki.err && wiki.senses.some(function(s){ return /noun/i.test(s.pos); });
+    ent.done = true;
+    ent.err = !!(wiki && wiki.err) && !tr && !wp;
+    ent.wiki = (wiki && !wiki.err) ? wiki : null;
+    ent.tr = (isNoun && wp) ? wp : (tr || (ent.wiki ? "" : wp));
+    if(my !== dictSeq) return;
+    if(document.getElementById("gdict") && dictWord(gQuery) === word) dictRender(word, ent);
+  });
+}
+function dictRender(word, ent){
+  var box = document.getElementById("gdict");
+  if(!box) return;
+  box.setAttribute("data-w", word);
+  var h = '<div class="dict-card">';
+  if(ent.err){
+    h += '<div class="dict-status">' + esc(T("dict.fail")) + '</div>' +
+      '<button type="button" class="dict-btn" data-dict="' + esc(word) + '">' + esc(T("dict.btn", word)) + '</button>';
+  } else if(!ent.wiki && !ent.tr){
+    h += '<div class="dict-status">' + esc(T("dict.none", word)) + '</div>';
+  } else {
+    var w = ent.wiki ? ent.wiki.word : word;
+    h += '<div class="gtop"><span class="gword dict-w">' + esc(w) + '</span>' +
+      '<button type="button" class="play dict-play" data-dictsay="' + esc(w) + '" title="' + esc(T("dict.play")) + '">' + PLAY_SVG + '</button>' +
+      '<span class="gbadge">' + esc(T("dict.tag")) + '</span></div>';
+    if(ent.wiki && ent.wiki.word !== word) h += '<div class="dict-stem">' + esc(word) + ' → ' + esc(ent.wiki.word) + '</div>';
+    if(ent.tr) h += '<div class="dict-tr">' + esc(ent.tr) + '</div>';
+    if(ent.wiki) ent.wiki.senses.forEach(function(s){
+      h += '<div class="dict-sense">' + (s.pos ? '<span class="dict-pos">' + esc(s.pos.toLowerCase()) + '</span> ' : "") +
+        esc(s.defs.join("; ")) + '</div>';
+    });
+    h += '<div class="dict-src">' + esc(T("dict.src")) + '</div>';
+  }
+  box.innerHTML = h + '</div>';
+  box.className = "gdict has";
+  /* 下面那句「没有匹配的词」改成「词汇表里没有」—— 网上已经查到了，别再劝人换关键词 */
+  var ge = document.getElementById("gempty");
+  if(ge) ge.textContent = T(ent.err || (!ent.wiki && !ent.tr) ? "gloss.empty" : "dict.local_miss");
+}
+/* 按钮和播放走事件委托（词表是分批插进来的，卡片也随时重画） */
+document.addEventListener("click", function(e){
+  var t = e.target.closest ? e.target.closest("[data-dict],[data-dictsay]") : null;
+  if(!t) return;
+  if(t.getAttribute("data-dict")){ dictLookup(t.getAttribute("data-dict")); return; }
+  ttsOnly(t.getAttribute("data-dictsay"), t);
+});
 function fillGlossary(){
   var list = document.getElementById("glist");
   if(!list) return;
   var i = 0, BATCH = 40;
+  gFillDone = false;
   var more = document.getElementById("gmore");
   if(more) more.style.display = "block";
   function step(){
@@ -848,7 +1026,7 @@ function fillGlossary(){
     applyMask();
     applyGlossFilter();
     if(i < GLOSS_SORTED.length){ gFillTimer = setTimeout(step, 0); }
-    else { var m = document.getElementById("gmore"); if(m) m.style.display = "none"; applyGlossFilter(); }
+    else { gFillDone = true; var m = document.getElementById("gmore"); if(m) m.style.display = "none"; applyGlossFilter(); }
   }
   gFillTimer = setTimeout(step, 0);
 }
@@ -1845,26 +2023,134 @@ var counter = document.getElementById("counter");
 var prevBtn = document.getElementById("prevBtn"), nextBtn = document.getElementById("nextBtn");
 var cur = 0, zoom = 2, masked = false;
 
+/* ============================================================
+   目录抽屉 —— 当工具书用的目录
+   ------------------------------------------------------------
+   课堂上同学是一边听课一边翻它的，所以目录要能「快查」：
+   · 最上面一个搜索框，按任何一种语言的页名、分类名过滤
+   · 词汇表 / 复习 / 实战三个入口放在最上面（查词是最频繁的动作）
+   · 每一课一折，只展开当前这一课；课里按分类（词汇 / 语法 / 对话…）分组
+   · 每一页显示**界面语言的名字**为主（phead.sub），印尼语标题退成小字 ——
+     外语使用者靠印尼语标题找不到「人称代词在哪一页」
+   ============================================================ */
+var CAT_ORDER = ["intro", "bunyi", "kosakata", "tatabahasa", "percakapan", "latihan", "wawasan"];
+function pageHead(p){
+  if(!p.blocks) return null;
+  for(var j=0;j<p.blocks.length;j++){ if(p.blocks[j].k === "phead") return p.blocks[j]; }
+  return null;
+}
+/* 目录里的页名：sub 开头如果就是分类名（「语法 · 人称代词」在「语法」组里），去掉那一截 */
+function tocLabel(ph, catName){
+  var s = L(ph.sub) || ph.title;
+  if(catName && s.indexOf(catName + " · ") === 0){
+    s = s.slice(catName.length + 3);
+    s = s.charAt(0).toUpperCase() + s.slice(1);   /* 英文的剩余部分是小写开头 */
+  }
+  return s;
+}
+/* 搜索索引：印尼语标题 + 四种语言的页名 + 分类名 —— 切了语言也照样搜得到 */
+function tocIndex(ph, cat){
+  var parts = [ph.title];
+  LANGS.forEach(function(k){ if(ph.sub && ph.sub[k]) parts.push(ph.sub[k]); });
+  if(cat){ LANGS.forEach(function(k){ var u = CONTENT.ui[k]; if(u && u.cat && u.cat[cat]) parts.push(u.cat[cat]); }); }
+  return parts.join(" ").toLowerCase();
+}
 function buildTOC(){
-  var toc = document.getElementById("toc"), html = "", last = "";
+  var toc = document.getElementById("toc"), html = "";
+  html += '<div class="toc-top">' +
+    '<input class="toc-search" id="tocSearch" type="search" placeholder="' + esc(T("toc.search_ph")) + '" autocomplete="off" autocorrect="off" autocapitalize="off">' +
+    '<div class="toc-quick">' +
+      '<a data-i="' + GLOSS_INDEX + '">' + esc(T("nav.glossary")) + '</a>' +
+      '<a data-i="' + REVIEW_INDEX + '">' + esc(T("nav.review")) + '</a>' +
+      '<a data-i="' + DRILL_INDEX + '">' + esc(T("nav.drill")) + '</a>' +
+    '</div></div>';
+  /* 按课分组，课内再按分类分组 */
+  var lessons = [], byNum = {};
   PAGES.forEach(function(p, i){
-    var group = pageLesson(p);
-    if(group !== last){
-      html += "<h3" + ((p.glossary || p.review || p.drill) ? ' class="ref"' : "") + ">" + esc(group) + "</h3>";
-      last = group;
-    }
-    var ph = null;
-    if(p.blocks){ for(var j=0;j<p.blocks.length;j++){ if(p.blocks[j].k === "phead"){ ph = p.blocks[j]; break; } } }
-    var title = pageTitle(p) || (ph && ph.title) || "Halaman";
-    html += '<a data-i="' + i + '"><span class="pg">' + esc(p.idxInLesson) + "/" + esc(p.total) + "</span><span>" + esc(title) + "</span></a>";
+    if(!p.blocks) return;
+    if(!byNum[p.num]){ byNum[p.num] = {num:p.num, name:pageLesson(p), total:p.total, cats:{}, pages:[]}; lessons.push(byNum[p.num]); }
+    byNum[p.num].pages.push({i:i, p:p});
   });
+  lessons.forEach(function(les){
+    html += '<section class="toc-les" data-num="' + les.num + '">' +
+      '<h3><button type="button" class="toc-les-btn" title="' + esc(T("toc.expand")) + '"><span>' + esc(les.name) + '</span>' +
+      '<small>' + esc(T("toc.pages", les.total)) + '</small><i class="chev"></i></button></h3><div class="toc-body">';
+    var groups = {};
+    les.pages.forEach(function(it){
+      var ph = pageHead(it.p) || {title:"Halaman", sub:null};
+      var cat = ph.cat && CAT_ORDER.indexOf(ph.cat) >= 0 ? ph.cat : "kosakata";
+      (groups[cat] = groups[cat] || []).push({i:it.i, p:it.p, ph:ph});
+    });
+    CAT_ORDER.forEach(function(cat){
+      if(!groups[cat]) return;
+      var catName = T("cat." + cat);
+      html += '<div class="toc-cat" data-cat="' + cat + '"><div class="toc-cat-h">' + esc(catName) + '</div>';
+      groups[cat].forEach(function(it){
+        var label = tocLabel(it.ph, catName);
+        html += '<a data-i="' + it.i + '" data-q="' + esc(tocIndex(it.ph, cat)) + '">' +
+          '<span class="pg">' + esc(it.p.idxInLesson) + '</span>' +
+          '<span class="tt"><b>' + esc(label) + '</b>' +
+          (label !== it.ph.title ? '<small>' + esc(it.ph.title) + '</small>' : "") + '</span></a>';
+      });
+      html += '</div>';
+    });
+    html += '</div></section>';
+  });
+  html += '<div class="toc-empty" id="tocEmpty">' + esc(T("toc.empty")) + '</div>' +
+    '<a class="toc-find" id="tocFind" data-i="' + GLOSS_INDEX + '"></a>';
   toc.innerHTML = html;
-  toArr(toc.querySelectorAll("a")).forEach(function(a){
-    a.addEventListener("click", function(){ go(+a.getAttribute("data-i"), "toc"); closeMenu(); });
+  toArr(toc.querySelectorAll("a[data-i]")).forEach(function(a){
+    a.addEventListener("click", function(){
+      var q = "";
+      if(a.id === "tocFind"){ q = (document.getElementById("tocSearch") || {}).value || ""; }
+      go(+a.getAttribute("data-i"), "toc"); closeMenu();
+      /* 「在词汇表里搜」：跳过去顺手把词填进搜索框 */
+      if(q){ var g = document.getElementById("gsearch"); if(g){ g.value = q; g.dispatchEvent(new Event("input")); } }
+    });
   });
-}function markTOC(){
-  toArr(document.querySelectorAll(".toc a")).forEach(function(a){
-    a.classList.toggle("active", +a.getAttribute("data-i") === cur);
+  toArr(toc.querySelectorAll(".toc-les-btn")).forEach(function(b){
+    b.addEventListener("click", function(){ b.closest(".toc-les").classList.toggle("open"); });
+  });
+  var inp = document.getElementById("tocSearch"), tt = null;
+  if(inp) inp.addEventListener("input", function(){
+    if(tt) clearTimeout(tt);
+    tt = setTimeout(function(){ filterTOC(inp.value); }, 120);
+  });
+  markTOC();
+}
+function filterTOC(q){
+  var toc = document.getElementById("toc");
+  q = (q || "").trim().toLowerCase();
+  toc.classList.toggle("searching", !!q);
+  var shown = 0;
+  toArr(toc.querySelectorAll(".toc-les")).forEach(function(sec){
+    var n = 0;
+    toArr(sec.querySelectorAll(".toc-cat")).forEach(function(c){
+      var m = 0;
+      toArr(c.querySelectorAll("a")).forEach(function(a){
+        var ok = !q || a.getAttribute("data-q").indexOf(q) >= 0;
+        a.style.display = ok ? "" : "none";
+        if(ok) m++;
+      });
+      c.style.display = m ? "" : "none";
+      n += m;
+    });
+    sec.style.display = n ? "" : "none";
+    shown += n;
+  });
+  var empty = document.getElementById("tocEmpty"), find = document.getElementById("tocFind");
+  if(empty) empty.style.display = (q && !shown) ? "block" : "none";
+  if(find){ find.style.display = q ? "flex" : "none"; find.textContent = T("toc.find_word", q); }
+  if(q) TRK("toc.q", {q: trkCut(q, 40), n: shown});
+}
+function markTOC(){
+  var p = PAGES[cur];
+  toArr(document.querySelectorAll(".toc a[data-i]")).forEach(function(a){
+    a.classList.toggle("active", +a.getAttribute("data-i") === cur && a.id !== "tocFind");
+  });
+  /* 只展开当前这一课；搜索时（.searching）CSS 会把所有课都摊开 */
+  toArr(document.querySelectorAll(".toc-les")).forEach(function(sec){
+    sec.classList.toggle("open", !!(p && p.blocks && +sec.getAttribute("data-num") === p.num));
   });
 }
 function render(){

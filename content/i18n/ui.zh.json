@@ -199,5 +199,31 @@
     "count_w": "记住了 {0} 个词的练习情况",
     "count_q": "记住了 {0} 道题的练习情况",
     "count_both": "{0} 个词 · {1} 道题"
+  },
+  "cat": {
+    "intro": "本章概览",
+    "bunyi": "发音",
+    "kosakata": "词汇与表达",
+    "tatabahasa": "语法",
+    "percakapan": "对话与课文",
+    "latihan": "练习",
+    "wawasan": "印尼常识"
+  },
+  "toc": {
+    "search_ph": "找页面：语法、数字、问候…",
+    "empty": "没有找到相关的页",
+    "find_word": "在词汇表里搜「{0}」",
+    "pages": "{0} 页",
+    "expand": "展开／收起这一课"
+  },
+  "dict": {
+    "btn": "查网上词典：「{0}」",
+    "loading": "正在查「{0}」…",
+    "fail": "查不到 —— 请检查网络后再试",
+    "none": "网上词典也没有「{0}」这个词",
+    "tag": "网上词典",
+    "src": "Wiktionary · Wikipedia · MyMemory（机器翻译，仅供参考）",
+    "play": "系统语音朗读",
+    "local_miss": "词汇表里没有这个词。"
   }
 }

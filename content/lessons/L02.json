@@ -18,7 +18,8 @@
      "ja": "教室と身のまわりのもの",
      "en": "The classroom and things around you",
      "vi": "Lớp học và những thứ quanh bạn"
-    }
+    },
+    "cat": "intro"
    },
    {
     "k": "lead",
@@ -120,7 +121,8 @@
      "ja": "身のまわりのもの",
      "en": "Things around you",
      "vi": "Đồ vật xung quanh"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "lead",
@@ -442,7 +444,8 @@
      "ja": "教室に入る",
      "en": "Going into class",
      "vi": "Vào lớp"
-    }
+    },
+    "cat": "percakapan"
    },
    {
     "k": "lead",
@@ -668,7 +671,8 @@
      "ja": "教室で使う表現",
      "en": "Classroom expressions",
      "vi": "Cách nói dùng trong lớp"
-    }
+    },
+    "cat": "kosakata"
    },
    {
     "k": "lead",
@@ -985,7 +989,8 @@
      "ja": "これとあれ",
      "en": "This and that",
      "vi": "Cái này và cái kia"
-    }
+    },
+    "cat": "tatabahasa"
    },
    {
     "k": "lead",
@@ -1198,7 +1203,8 @@
      "ja": "「だれの」の言い方",
      "en": "Saying whose it is",
      "vi": "Nói “của ai”"
-    }
+    },
+    "cat": "tatabahasa"
    },
    {
     "k": "lead",
@@ -1350,7 +1356,8 @@
      "ja": "わたしの・あなたの・かれの",
      "en": "My, your, his",
      "vi": "Của tôi, của bạn, của anh ấy"
-    }
+    },
+    "cat": "tatabahasa"
    },
    {
     "k": "lead",
@@ -1620,7 +1627,8 @@
      "ja": "インドネシアの人びとの品物",
      "en": "Things Indonesians live with",
      "vi": "Đồ vật của người Indonesia"
-    }
+    },
+    "cat": "wawasan"
    },
    {
     "k": "lead",
