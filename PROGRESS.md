@@ -5,7 +5,7 @@
 > `KICKOFF.md` 描述的是 2026-08 之前的旧 App（Cindy 私教 13 课那版），
 > **§3–§8 已作废**，只在追溯历史时看。
 
-**当前状态：v1.4.0 已上线（2026-09-02）。四语界面（中 / 日 / 英 / 越），第一课 20 页 + 第二课 8 页，225 词，音频 100%。**
+**当前状态：v1.5.0 在分支 `bab3-toc-dict` 上，等 Rae 看预览 + 批准语音合成（2026-09-02）。三课 45 页，297 词。线上仍是 v1.4.0。**
 
 > **2026-09-02 起 APK / 离线版永久停用（Rae 定的）。** 网站 `docs/` 是唯一产物，
 > `dist/` 只是它的中间产物。`/apk` 技能、`scripts/apk.sh`、`prepare-assets.js`、
@@ -15,6 +15,36 @@
 > ⚠️ **App 已经上线，全班同学在用。任何改动未经 Rae 明确同意不得合并进 `main`** ——
 > push main 会立刻重新发布 belajar.rae.work，等于直接改所有人正在用的版本。
 > 改动一律在分支上做，本地预览给她看，她说「可以上线」才合。
+
+---
+
+## v1.5.0 做了什么（2026-09-02，分支 `bab3-toc-dict`，未上线）
+
+面向学习者的说明在 `CHANGELOG.md`，下面只记工程上要知道的。
+
+| | |
+| --- | --- |
+| 来源 | Rae 给的教材 PDF「Titian Bahasa Pemula 1 **Tata Bahasa**」（57 页）+ 三份课堂讲义 docx（BAB 1 Kata Ganti Orang / BAB 2 Frasa Posesif / BAB 3 Kalimat Sederhana）。**这份 PDF 只是语法分册**：每章只有目标页 + Tata Bahasa 节，Bab 3 的词汇页（课本第 24–33 页）不在里面 |
+| 第三课 | `L03.json` 14 页：第 1 页概览、**第 2–8 页（大数、序数、星期、月份、日期年份、疑问词、对话）按课本目标补写，待对照课本**、第 9–13 页四种简单句（课本 + 讲义）、第 14 页练习。`source` 字段和第 1 页的绿色 note 都写明了哪几页是补的 |
+| 课堂笔记 | 三页语法笔记插进旧课：L01 第 12 页 `Catatan Kelas · Kata Ganti Orang`（Tata Bahasa 后）、L02 第 6 页 `Ini Gedung, Gedung Ini`（Ini dan Itu 后）、L02 第 9 页 `Catatan Kelas · -nya`（Kata Ganti Milik 后）。**L01 变 21 页、L02 变 10 页** |
+| 词汇 | +72（共 297）：L03 67 + 笔记页 5。星期日入库写成 `hari Minggu`（查重不分大小写，会和 `minggu` 撞） |
+| 题库 | `situasi` +8（星期 / 日期 / 生日）、`tempat` +4 |
+| 页面分类 | 每页 `phead` 新增必填字段 `cat`（7 种，名单在 `validate.js` 的 `PAGE_CATS`、顺序在 `engine.js` 的 `CAT_ORDER`、名字在 `ui.*.json` 的 `cat.*`）。眉标变成「Bab 2 · 语法」 |
+| 目录 | 重写 `buildTOC()`：顶部搜索框（按四种语言的页名 + 分类名过滤，`filterTOC()`）、词汇表 / 复习 / 实战三个入口提到最上面、每课可折叠（只展开当前课，`markTOC()` 负责）、课内按分类分组、页名显示界面语言的 `sub`（印尼语 `title` 退成小字；`sub` 开头是分类名时自动去掉那截）。搜索没命中页时给一个「在词汇表里搜」的按钮，跳过去顺手填进搜索框 |
+| 网上词典 | 并在词汇表搜索框里（`dictSync` / `dictLookup` / `dictRender`）。本地一个结果都没有 → 自动查；有结果 → 给一个「查网上词典」按钮。三个来源：Wiktionary REST（`/page/definition/`，取 `id` 节 → 词性 + 英文释义，查不到就去掉 -nya/-ku/-mu 再查）、MyMemory（界面语言译文）、印尼语维基百科跨语言链接（**只在 Wiktionary 说是名词时**用，名词最可靠）。发音走 `ttsOnly()` 系统语音。结果只在内存缓存 |
+| 外部资源防线 | `lib/build.js` 新增 `ALLOWED_HOSTS`（三个域名），`assertOffline()` 先把它们替换掉再查。**这是全站唯一主动联网取数据的地方**（统计除外） |
+| 语音 | 还没跑。计划 320 条 / 5,655 字符，余额 18,586。**等 Rae 批准** |
+
+**这一轮值得记的**
+
+- **MyMemory 最靠前的一条常是垃圾。** `kucing` → zh-CN 第一条是「从印尼到中国的翻译」（quality 74，match 1），正确的「猫」排第二、quality 0。quality 字段不可信。现在只认 `segment` 恰好等于查询词的条目，过滤掉等于原文、带「翻译 / 翻訳 / translat / ngôn ngữ」字样、中日文里没有汉字假名的，再顺序取第一条。名词优先用维基百科跨语言链接（`kucing` → 中文条目「猫」）。
+- **别对所有词用维基百科链接。** `kami` 在印尼语维基是日本的「神」。所以只在 Wiktionary 判定为名词时才用，并过滤带括号 / 消歧 / 曖昧 / định hướng 的标题。
+- **`assertOffline` 的 fetch 正则会拦字符串字面量里的 `https://`。** 常量 `DICT_WIKI = "https://en.wiktionary.org/…"` 本身不匹配（它查的是 `fetch("https://`），但保险起见还是登记进 `ALLOWED_HOSTS`，将来有人写成 `fetch("https://…" + word)` 也不会被拦。
+- **`.toc-quick a` 和 `.toc a` 特异性相同**，写在前面会被后面的 `.toc a` 覆盖（padding、左边框全丢）。要写成 `.toc .toc-quick a`。
+- **词表是分批插入的**，`applyGlossFilter()` 在中间批次也会跑，那时 `gFillTimer` 恰好是 null。判断「本地真的没结果」要靠单独的 `gFillDone` 标志，不能看 `gFillTimer`。否则第一批 40 个词里没有就会去联网。
+- **目录搜索的索引要四种语言都进去**（`tocIndex()`），切了语言也能搜到；分类名也进索引，搜「语法」能列出所有语法页。
+- 插页之后 `rsn.pos` 存的 `"L1:12"` 会指到新插的那一页 —— 只是回到「附近」，不算坏。
+- **L03 第 2–8 页是补写的**，拿到课本扫描件后要逐页核（尤其课本对日期读法、`ke berapa` 的处理）。第 1 页有一条绿色 note 对学习者说明了这一点，上线前 Rae 决定留不留。
 
 ---
 
@@ -221,7 +251,9 @@ git add -A && git commit -m "更新网站" && git push
 
 ## 下一步
 
-- [ ] Bab 3 起：Rae 拍照放 `inbox/`，走 `/lesson`。
+- [ ] **v1.5.0 收尾**：Rae 看预览 → 批准 `npm run tts -- --yes`（约 5,655 credits）→ 覆盖率 100% → `npm run site` → 合进 main → push。
+- [ ] **课本 Bab 3 词汇页（第 24–33 页）**：拿到扫描件后逐页对照 L03 第 2–8 页。
+- [ ] Bab 4 起：Rae 拍照放 `inbox/`，走 `/lesson`。
       ⚠️ 口语课（Kelas Berbicara）的讲义按**内容**归课，不按次数 ——
       Pertemuan 1 讲的是 Perkenalan，就并进 Bab 1。
 

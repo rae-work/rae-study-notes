@@ -5063,5 +5063,1639 @@
       "vi": "Cuối năm."
     },
     "note": null
+  },
+  {
+    "w": "Saudara sekalian",
+    "les": 1,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "各位（对一群听众的正式称呼）",
+      "ja": "みなさん（大勢への改まった呼びかけ）",
+      "en": "ladies and gentlemen; all of you (formal, to an audience)",
+      "vi": "thưa quý vị (xưng hô trang trọng với nhiều người)"
+    },
+    "pos": "pron",
+    "ex": "Selamat pagi, Saudara sekalian.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "各位早上好。",
+      "ja": "みなさん、おはようございます。",
+      "en": "Good morning, everyone.",
+      "vi": "Chào buổi sáng quý vị."
+    },
+    "note": {
+      "zh": "Saudara 当称呼用时大写，和 Anda 一样。开会、致辞时用；日常对话不用。",
+      "ja": "呼びかけの Saudara は Anda と同じく大文字。会議やあいさつで使い、日常会話では使いません。",
+      "en": "Saudara is capitalised as a form of address, like Anda. For meetings and speeches, not everyday talk.",
+      "vi": "Saudara viết hoa khi dùng để xưng hô, như Anda. Dùng khi họp, phát biểu; không dùng trong trò chuyện hằng ngày."
+    }
+  },
+  {
+    "w": "Saudara-saudara",
+    "les": 1,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "各位（重叠形式，和 Saudara sekalian 同义）",
+      "ja": "みなさん（重複形。Saudara sekalian と同じ）",
+      "en": "ladies and gentlemen (reduplicated form, same as Saudara sekalian)",
+      "vi": "thưa quý vị (dạng láy, cùng nghĩa với Saudara sekalian)"
+    },
+    "pos": "pron",
+    "ex": "Selamat datang, Saudara-saudara.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "各位，欢迎。",
+      "ja": "みなさん、ようこそ。",
+      "en": "Welcome, everyone.",
+      "vi": "Chào mừng quý vị."
+    },
+    "note": {
+      "zh": "重叠一次表示「许多人」，中间用连字符。",
+      "ja": "重ねて「大勢の人」を表します。間にハイフンを入れます。",
+      "en": "Reduplication marks “many people”; write it with a hyphen.",
+      "vi": "Láy lại để chỉ “nhiều người”; giữa hai từ có gạch nối."
+    }
+  },
+  {
+    "w": "kakek",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "爷爷 · 外公",
+      "ja": "祖父・おじいさん",
+      "en": "grandfather",
+      "vi": "ông (nội / ngoại)"
+    },
+    "pos": "n",
+    "ex": "Kakek punya sepeda.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "爷爷有一辆自行车。",
+      "ja": "おじいさんは自転車を持っています。",
+      "en": "Grandpa has a bicycle.",
+      "vi": "Ông có một chiếc xe đạp."
+    },
+    "note": null
+  },
+  {
+    "w": "merah",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "红色的",
+      "ja": "赤い",
+      "en": "red",
+      "vi": "đỏ"
+    },
+    "pos": "adj",
+    "ex": "Bajunya merah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他的衣服是红色的。",
+      "ja": "かれの服は赤いです。",
+      "en": "His shirt is red.",
+      "vi": "Áo của anh ấy màu đỏ."
+    },
+    "note": null
+  },
+  {
+    "w": "putih",
+    "les": 2,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "白色的",
+      "ja": "白い",
+      "en": "white",
+      "vi": "trắng"
+    },
+    "pos": "adj",
+    "ex": "Sepatunya putih.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他的鞋是白色的。",
+      "ja": "かれの靴は白いです。",
+      "en": "His shoes are white.",
+      "vi": "Giày của anh ấy màu trắng."
+    },
+    "note": null
+  },
+  {
+    "w": "Senin",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "星期一",
+      "ja": "月曜日",
+      "en": "Monday",
+      "vi": "thứ Hai"
+    },
+    "pos": "n",
+    "ex": "Hari ini hari Senin.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "今天星期一。",
+      "ja": "きょうは月曜日です。",
+      "en": "Today is Monday.",
+      "vi": "Hôm nay là thứ Hai."
+    },
+    "note": null
+  },
+  {
+    "w": "Selasa",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "星期二",
+      "ja": "火曜日",
+      "en": "Tuesday",
+      "vi": "thứ Ba"
+    },
+    "pos": "n",
+    "ex": "Besok hari Selasa.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "明天星期二。",
+      "ja": "あしたは火曜日です。",
+      "en": "Tomorrow is Tuesday.",
+      "vi": "Ngày mai là thứ Ba."
+    },
+    "note": null
+  },
+  {
+    "w": "Rabu",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "星期三",
+      "ja": "水曜日",
+      "en": "Wednesday",
+      "vi": "thứ Tư"
+    },
+    "pos": "n",
+    "ex": "Lusa hari Rabu.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "后天星期三。",
+      "ja": "あさっては水曜日です。",
+      "en": "The day after tomorrow is Wednesday.",
+      "vi": "Ngày kia là thứ Tư."
+    },
+    "note": null
+  },
+  {
+    "w": "Kamis",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "星期四",
+      "ja": "木曜日",
+      "en": "Thursday",
+      "vi": "thứ Năm"
+    },
+    "pos": "n",
+    "ex": "Kuliah hari Kamis.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "星期四上课。",
+      "ja": "授業は木曜日です。",
+      "en": "Class is on Thursday.",
+      "vi": "Buổi học vào thứ Năm."
+    },
+    "note": null
+  },
+  {
+    "w": "Jumat",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "星期五",
+      "ja": "金曜日",
+      "en": "Friday",
+      "vi": "thứ Sáu"
+    },
+    "pos": "n",
+    "ex": "Kemarin hari Jumat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "昨天星期五。",
+      "ja": "きのうは金曜日でした。",
+      "en": "Yesterday was Friday.",
+      "vi": "Hôm qua là thứ Sáu."
+    },
+    "note": {
+      "zh": "标准拼法不带撇号；老写法 Jum’at 还常见。",
+      "ja": "標準つづりにアポストロフィはありません。古い Jum’at もまだよく見ます。",
+      "en": "Standard spelling has no apostrophe; the older Jum’at is still common.",
+      "vi": "Chính tả chuẩn không có dấu nháy; cách viết cũ Jum’at vẫn còn phổ biến."
+    }
+  },
+  {
+    "w": "Sabtu",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "星期六",
+      "ja": "土曜日",
+      "en": "Saturday",
+      "vi": "thứ Bảy"
+    },
+    "pos": "n",
+    "ex": "Hari Sabtu saya ke pantai.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "星期六我去海边。",
+      "ja": "土曜日にわたしは海へ行きます。",
+      "en": "On Saturday I go to the beach.",
+      "vi": "Thứ Bảy tôi đi biển."
+    },
+    "note": null
+  },
+  {
+    "w": "hari Minggu",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "星期日",
+      "ja": "日曜日",
+      "en": "Sunday",
+      "vi": "Chủ nhật"
+    },
+    "pos": "n",
+    "ex": "Hari Minggu libur.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "星期日放假。",
+      "ja": "日曜日は休みです。",
+      "en": "Sunday is a day off.",
+      "vi": "Chủ nhật được nghỉ."
+    },
+    "note": {
+      "zh": "大写的 Minggu 是星期日；小写的 minggu 是「一周」，Bab 1 已入库。",
+      "ja": "大文字の Minggu は日曜日。小文字の minggu は「週」で、Bab 1 に登録済み。",
+      "en": "Capital Minggu is Sunday; lower-case minggu (week) is already in the list from Bab 1.",
+      "vi": "Minggu viết hoa là Chủ nhật; minggu viết thường là “tuần”, đã có trong danh sách từ Bab 1."
+    }
+  },
+  {
+    "w": "Januari",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "一月",
+      "ja": "一月",
+      "en": "January",
+      "vi": "tháng Một"
+    },
+    "pos": "n",
+    "ex": "Saya lahir bulan Januari.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我一月出生。",
+      "ja": "わたしは一月生まれです。",
+      "en": "I was born in January.",
+      "vi": "Tôi sinh vào tháng Một."
+    },
+    "note": null
+  },
+  {
+    "w": "Februari",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "二月",
+      "ja": "二月",
+      "en": "February",
+      "vi": "tháng Hai"
+    },
+    "pos": "n",
+    "ex": "Ulang tahun saya bulan Februari.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的生日在二月。",
+      "ja": "わたしの誕生日は二月です。",
+      "en": "My birthday is in February.",
+      "vi": "Sinh nhật của tôi vào tháng Hai."
+    },
+    "note": null
+  },
+  {
+    "w": "Maret",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "三月",
+      "ja": "三月",
+      "en": "March",
+      "vi": "tháng Ba"
+    },
+    "pos": "n",
+    "ex": "Sekarang bulan Maret.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "现在是三月。",
+      "ja": "いまは三月です。",
+      "en": "It is March now.",
+      "vi": "Bây giờ là tháng Ba."
+    },
+    "note": null
+  },
+  {
+    "w": "April",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "四月",
+      "ja": "四月",
+      "en": "April",
+      "vi": "tháng Tư"
+    },
+    "pos": "n",
+    "ex": "Bulan depan bulan April.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "下个月是四月。",
+      "ja": "来月は四月です。",
+      "en": "Next month is April.",
+      "vi": "Tháng sau là tháng Tư."
+    },
+    "note": null
+  },
+  {
+    "w": "Mei",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "五月",
+      "ja": "五月",
+      "en": "May",
+      "vi": "tháng Năm"
+    },
+    "pos": "n",
+    "ex": "Kemarin tanggal satu Mei.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "昨天是五月一号。",
+      "ja": "きのうは五月一日でした。",
+      "en": "Yesterday was the 1st of May.",
+      "vi": "Hôm qua là ngày 1 tháng Năm."
+    },
+    "note": null
+  },
+  {
+    "w": "Juni",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "六月",
+      "ja": "六月",
+      "en": "June",
+      "vi": "tháng Sáu"
+    },
+    "pos": "n",
+    "ex": "Bulan lalu bulan Juni.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "上个月是六月。",
+      "ja": "先月は六月でした。",
+      "en": "Last month was June.",
+      "vi": "Tháng trước là tháng Sáu."
+    },
+    "note": null
+  },
+  {
+    "w": "Juli",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "七月",
+      "ja": "七月",
+      "en": "July",
+      "vi": "tháng Bảy"
+    },
+    "pos": "n",
+    "ex": "Kami libur bulan Juli.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们七月放假。",
+      "ja": "わたしたちは七月に休みです。",
+      "en": "We are on holiday in July.",
+      "vi": "Chúng tôi nghỉ vào tháng Bảy."
+    },
+    "note": null
+  },
+  {
+    "w": "Agustus",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "八月",
+      "ja": "八月",
+      "en": "August",
+      "vi": "tháng Tám"
+    },
+    "pos": "n",
+    "ex": "Tanggal tujuh belas Agustus libur.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "8 月 17 日放假。",
+      "ja": "8 月 17 日は休みです。",
+      "en": "The 17th of August is a holiday.",
+      "vi": "Ngày 17 tháng Tám được nghỉ."
+    },
+    "note": null
+  },
+  {
+    "w": "September",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "九月",
+      "ja": "九月",
+      "en": "September",
+      "vi": "tháng Chín"
+    },
+    "pos": "n",
+    "ex": "Sekarang bulan September.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "现在是九月。",
+      "ja": "いまは九月です。",
+      "en": "It is September now.",
+      "vi": "Bây giờ là tháng Chín."
+    },
+    "note": null
+  },
+  {
+    "w": "Oktober",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "十月",
+      "ja": "十月",
+      "en": "October",
+      "vi": "tháng Mười"
+    },
+    "pos": "n",
+    "ex": "Ulang tahun Zhang bulan Oktober.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Zhang 的生日在十月。",
+      "ja": "Zhang の誕生日は十月です。",
+      "en": "Zhang’s birthday is in October.",
+      "vi": "Sinh nhật của Zhang vào tháng Mười."
+    },
+    "note": null
+  },
+  {
+    "w": "November",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "十一月",
+      "ja": "十一月",
+      "en": "November",
+      "vi": "tháng Mười Một"
+    },
+    "pos": "n",
+    "ex": "Bulan depan bulan November.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "下个月是十一月。",
+      "ja": "来月は十一月です。",
+      "en": "Next month is November.",
+      "vi": "Tháng sau là tháng Mười Một."
+    },
+    "note": null
+  },
+  {
+    "w": "Desember",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "十二月",
+      "ja": "十二月",
+      "en": "December",
+      "vi": "tháng Mười Hai"
+    },
+    "pos": "n",
+    "ex": "Bulan Desember kami pulang.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "十二月我们回家。",
+      "ja": "十二月にわたしたちは帰ります。",
+      "en": "In December we go home.",
+      "vi": "Tháng Mười Hai chúng tôi về nhà."
+    },
+    "note": null
+  },
+  {
+    "w": "hari",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "天 · 日子",
+      "ja": "日・曜日",
+      "en": "day",
+      "vi": "ngày"
+    },
+    "pos": "n",
+    "ex": "Hari ini hari apa?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "今天星期几？",
+      "ja": "きょうは何曜日ですか。",
+      "en": "What day is it today?",
+      "vi": "Hôm nay là thứ mấy?"
+    },
+    "note": null
+  },
+  {
+    "w": "bulan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "月份 · 月亮",
+      "ja": "月",
+      "en": "month; moon",
+      "vi": "tháng; mặt trăng"
+    },
+    "pos": "n",
+    "ex": "Bulan apa sekarang?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "现在几月？",
+      "ja": "いまは何月ですか。",
+      "en": "What month is it now?",
+      "vi": "Bây giờ là tháng mấy?"
+    },
+    "note": null
+  },
+  {
+    "w": "tanggal",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "日期 · 几号",
+      "ja": "日付",
+      "en": "date",
+      "vi": "ngày (trong tháng)"
+    },
+    "pos": "n",
+    "ex": "Tanggal berapa hari ini?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "今天几号？",
+      "ja": "きょうは何日ですか。",
+      "en": "What is the date today?",
+      "vi": "Hôm nay là ngày mấy?"
+    },
+    "note": null
+  },
+  {
+    "w": "hari ini",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "今天",
+      "ja": "きょう",
+      "en": "today",
+      "vi": "hôm nay"
+    },
+    "pos": "n",
+    "ex": "Hari ini hari Rabu.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "今天星期三。",
+      "ja": "きょうは水曜日です。",
+      "en": "Today is Wednesday.",
+      "vi": "Hôm nay là thứ Tư."
+    },
+    "note": null
+  },
+  {
+    "w": "besok",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "明天",
+      "ja": "あした",
+      "en": "tomorrow",
+      "vi": "ngày mai"
+    },
+    "pos": "n",
+    "ex": "Besok hari Kamis.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "明天星期四。",
+      "ja": "あしたは木曜日です。",
+      "en": "Tomorrow is Thursday.",
+      "vi": "Ngày mai là thứ Năm."
+    },
+    "note": null
+  },
+  {
+    "w": "lusa",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "后天",
+      "ja": "あさって",
+      "en": "the day after tomorrow",
+      "vi": "ngày kia"
+    },
+    "pos": "n",
+    "ex": "Lusa hari Jumat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "后天星期五。",
+      "ja": "あさっては金曜日です。",
+      "en": "The day after tomorrow is Friday.",
+      "vi": "Ngày kia là thứ Sáu."
+    },
+    "note": null
+  },
+  {
+    "w": "kemarin",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "昨天",
+      "ja": "きのう",
+      "en": "yesterday",
+      "vi": "hôm qua"
+    },
+    "pos": "n",
+    "ex": "Kemarin saya di rumah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "昨天我在家。",
+      "ja": "きのうわたしは家にいました。",
+      "en": "Yesterday I was at home.",
+      "vi": "Hôm qua tôi ở nhà."
+    },
+    "note": null
+  },
+  {
+    "w": "depan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "下一个 · 前面",
+      "ja": "次の・前",
+      "en": "next; front",
+      "vi": "sau (tháng sau, tuần sau); phía trước"
+    },
+    "pos": "adj",
+    "ex": "Bulan depan bulan Oktober.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "下个月是十月。",
+      "ja": "来月は十月です。",
+      "en": "Next month is October.",
+      "vi": "Tháng sau là tháng Mười."
+    },
+    "note": {
+      "zh": "bulan depan 下个月、minggu depan 下周、tahun depan 明年。",
+      "ja": "bulan depan 来月、minggu depan 来週、tahun depan 来年。",
+      "en": "bulan depan next month, minggu depan next week, tahun depan next year.",
+      "vi": "bulan depan tháng sau, minggu depan tuần sau, tahun depan năm sau."
+    }
+  },
+  {
+    "w": "kapan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "什么时候",
+      "ja": "いつ",
+      "en": "when",
+      "vi": "khi nào"
+    },
+    "pos": "interrog",
+    "ex": "Kapan Anda lahir?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您什么时候出生的？",
+      "ja": "いつ生まれましたか。",
+      "en": "When were you born?",
+      "vi": "Bạn sinh khi nào?"
+    },
+    "note": null
+  },
+  {
+    "w": "ke berapa",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第几",
+      "ja": "何番目",
+      "en": "which (in order)",
+      "vi": "thứ mấy"
+    },
+    "pos": "interrog",
+    "ex": "Anda anak ke berapa?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您是老几？",
+      "ja": "あなたは何番目のお子さんですか。",
+      "en": "Which child are you?",
+      "vi": "Bạn là con thứ mấy?"
+    },
+    "note": null
+  },
+  {
+    "w": "pertama",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第一",
+      "ja": "第一の・最初の",
+      "en": "first",
+      "vi": "thứ nhất, đầu tiên"
+    },
+    "pos": "num",
+    "ex": "Ini hari pertama.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第一天。",
+      "ja": "これは初日です。",
+      "en": "This is the first day.",
+      "vi": "Đây là ngày đầu tiên."
+    },
+    "note": {
+      "zh": "不说 kesatu。",
+      "ja": "kesatu とは言いません。",
+      "en": "Not kesatu.",
+      "vi": "Không nói kesatu."
+    }
+  },
+  {
+    "w": "kedua",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第二",
+      "ja": "第二の",
+      "en": "second",
+      "vi": "thứ hai"
+    },
+    "pos": "num",
+    "ex": "Saya anak kedua.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是老二。",
+      "ja": "わたしは二番目の子です。",
+      "en": "I am the second child.",
+      "vi": "Tôi là con thứ hai."
+    },
+    "note": null
+  },
+  {
+    "w": "ketiga",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第三",
+      "ja": "第三の",
+      "en": "third",
+      "vi": "thứ ba"
+    },
+    "pos": "num",
+    "ex": "Ini kuliah ketiga.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第三次课。",
+      "ja": "これは三回目の授業です。",
+      "en": "This is the third class.",
+      "vi": "Đây là buổi học thứ ba."
+    },
+    "note": null
+  },
+  {
+    "w": "keempat",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第四",
+      "ja": "第四の",
+      "en": "fourth",
+      "vi": "thứ tư"
+    },
+    "pos": "num",
+    "ex": "Dia anak keempat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他是老四。",
+      "ja": "かれは四番目の子です。",
+      "en": "He is the fourth child.",
+      "vi": "Anh ấy là con thứ tư."
+    },
+    "note": null
+  },
+  {
+    "w": "kelima",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第五",
+      "ja": "第五の",
+      "en": "fifth",
+      "vi": "thứ năm"
+    },
+    "pos": "num",
+    "ex": "Ini buku kelima.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第五本书。",
+      "ja": "これは五冊目の本です。",
+      "en": "This is the fifth book.",
+      "vi": "Đây là quyển sách thứ năm."
+    },
+    "note": null
+  },
+  {
+    "w": "keenam",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第六",
+      "ja": "第六の",
+      "en": "sixth",
+      "vi": "thứ sáu"
+    },
+    "pos": "num",
+    "ex": "Ini halaman keenam.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第六页。",
+      "ja": "これは六ページ目です。",
+      "en": "This is the sixth page.",
+      "vi": "Đây là trang thứ sáu."
+    },
+    "note": null
+  },
+  {
+    "w": "ketujuh",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第七",
+      "ja": "第七の",
+      "en": "seventh",
+      "vi": "thứ bảy"
+    },
+    "pos": "num",
+    "ex": "Ini hari ketujuh.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第七天。",
+      "ja": "これは七日目です。",
+      "en": "This is the seventh day.",
+      "vi": "Đây là ngày thứ bảy."
+    },
+    "note": null
+  },
+  {
+    "w": "kedelapan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第八",
+      "ja": "第八の",
+      "en": "eighth",
+      "vi": "thứ tám"
+    },
+    "pos": "num",
+    "ex": "Ini kuliah kedelapan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第八次课。",
+      "ja": "これは八回目の授業です。",
+      "en": "This is the eighth class.",
+      "vi": "Đây là buổi học thứ tám."
+    },
+    "note": null
+  },
+  {
+    "w": "kesembilan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第九",
+      "ja": "第九の",
+      "en": "ninth",
+      "vi": "thứ chín"
+    },
+    "pos": "num",
+    "ex": "Ini halaman kesembilan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第九页。",
+      "ja": "これは九ページ目です。",
+      "en": "This is the ninth page.",
+      "vi": "Đây là trang thứ chín."
+    },
+    "note": null
+  },
+  {
+    "w": "kesepuluh",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第十",
+      "ja": "第十の",
+      "en": "tenth",
+      "vi": "thứ mười"
+    },
+    "pos": "num",
+    "ex": "Ini tahun kesepuluh.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是第十年。",
+      "ja": "これは十年目です。",
+      "en": "This is the tenth year.",
+      "vi": "Đây là năm thứ mười."
+    },
+    "note": null
+  },
+  {
+    "w": "yang",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "（指代）……的那个",
+      "ja": "（〜の）もの・ほう",
+      "en": "the one (that)",
+      "vi": "cái / người (mà)"
+    },
+    "pos": "part",
+    "ex": "Saya yang kedua.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是第二个。",
+      "ja": "わたしは二番目です。",
+      "en": "I am the second one.",
+      "vi": "Tôi là người thứ hai."
+    },
+    "note": {
+      "zh": "先只记 yang pertama、yang kedua 这种用法。",
+      "ja": "いまは yang pertama・yang kedua の形だけ覚えれば十分です。",
+      "en": "For now, just learn it in yang pertama, yang kedua.",
+      "vi": "Trước mắt chỉ cần nhớ cách dùng yang pertama, yang kedua."
+    }
+  },
+  {
+    "w": "juta",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "百万",
+      "ja": "百万",
+      "en": "million",
+      "vi": "triệu"
+    },
+    "pos": "num",
+    "ex": "Dua juta rupiah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "两百万盾。",
+      "ja": "二百万ルピアです。",
+      "en": "Two million rupiah.",
+      "vi": "Hai triệu rupiah."
+    },
+    "note": null
+  },
+  {
+    "w": "sejuta",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "一百万",
+      "ja": "百万",
+      "en": "a million",
+      "vi": "một triệu"
+    },
+    "pos": "num",
+    "ex": "Ini sejuta rupiah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这是一百万盾。",
+      "ja": "これは百万ルピアです。",
+      "en": "This is a million rupiah.",
+      "vi": "Đây là một triệu rupiah."
+    },
+    "note": null
+  },
+  {
+    "w": "ulang tahun",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "生日",
+      "ja": "誕生日",
+      "en": "birthday",
+      "vi": "sinh nhật"
+    },
+    "pos": "n",
+    "ex": "Kapan ulang tahun Anda?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您的生日是什么时候？",
+      "ja": "お誕生日はいつですか。",
+      "en": "When is your birthday?",
+      "vi": "Sinh nhật của bạn là khi nào?"
+    },
+    "note": null
+  },
+  {
+    "w": "jadwal",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "时间表 · 课表",
+      "ja": "時間割・予定表",
+      "en": "schedule, timetable",
+      "vi": "thời khóa biểu, lịch"
+    },
+    "pos": "n",
+    "ex": "Ini jadwal kuliah saya.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "这是我的课表。",
+      "ja": "これはわたしの授業の時間割です。",
+      "en": "This is my class schedule.",
+      "vi": "Đây là thời khóa biểu của tôi."
+    },
+    "note": null
+  },
+  {
+    "w": "libur",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "放假 · 休息",
+      "ja": "休みである",
+      "en": "to be on holiday, off",
+      "vi": "nghỉ (lễ, học)"
+    },
+    "pos": "v",
+    "ex": "Hari Minggu libur.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "星期日放假。",
+      "ja": "日曜日は休みです。",
+      "en": "Sunday is a day off.",
+      "vi": "Chủ nhật được nghỉ."
+    },
+    "note": null
+  },
+  {
+    "w": "nomina",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "名词",
+      "ja": "名詞",
+      "en": "noun",
+      "vi": "danh từ"
+    },
+    "pos": "n",
+    "ex": "Kata ini nomina.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "这个词是名词。",
+      "ja": "この語は名詞です。",
+      "en": "This word is a noun.",
+      "vi": "Từ này là danh từ."
+    },
+    "note": null
+  },
+  {
+    "w": "adjektiva",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "形容词",
+      "ja": "形容詞",
+      "en": "adjective",
+      "vi": "tính từ"
+    },
+    "pos": "n",
+    "ex": "Kata ini adjektiva.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "这个词是形容词。",
+      "ja": "この語は形容詞です。",
+      "en": "This word is an adjective.",
+      "vi": "Từ này là tính từ."
+    },
+    "note": null
+  },
+  {
+    "w": "verba",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "动词",
+      "ja": "動詞",
+      "en": "verb",
+      "vi": "động từ"
+    },
+    "pos": "n",
+    "ex": "Kata ini verba.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "这个词是动词。",
+      "ja": "この語は動詞です。",
+      "en": "This word is a verb.",
+      "vi": "Từ này là động từ."
+    },
+    "note": null
+  },
+  {
+    "w": "preposisi",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "介词",
+      "ja": "前置詞",
+      "en": "preposition",
+      "vi": "giới từ"
+    },
+    "pos": "n",
+    "ex": "Kata ini preposisi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "这个词是介词。",
+      "ja": "この語は前置詞です。",
+      "en": "This word is a preposition.",
+      "vi": "Từ này là giới từ."
+    },
+    "note": null
+  },
+  {
+    "w": "kalimat",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "句子",
+      "ja": "文",
+      "en": "sentence",
+      "vi": "câu"
+    },
+    "pos": "n",
+    "ex": "Kalimat ini bagus.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "这个句子很好。",
+      "ja": "この文はいいです。",
+      "en": "This sentence is good.",
+      "vi": "Câu này hay."
+    },
+    "note": null
+  },
+  {
+    "w": "kata",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "词",
+      "ja": "語・ことば",
+      "en": "word",
+      "vi": "từ"
+    },
+    "pos": "n",
+    "ex": "Kata itu apa?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那个词是什么？",
+      "ja": "その語は何ですか。",
+      "en": "What is that word?",
+      "vi": "Từ đó là gì?"
+    },
+    "note": null
+  },
+  {
+    "w": "pandai",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "聪明的 · 擅长的",
+      "ja": "賢い・上手な",
+      "en": "clever, good at",
+      "vi": "giỏi, thông minh"
+    },
+    "pos": "adj",
+    "ex": "Zhang pandai.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Zhang 很聪明。",
+      "ja": "Zhang は賢いです。",
+      "en": "Zhang is clever.",
+      "vi": "Zhang giỏi."
+    },
+    "note": null
+  },
+  {
+    "w": "tampan",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "英俊的",
+      "ja": "ハンサムな",
+      "en": "handsome",
+      "vi": "đẹp trai"
+    },
+    "pos": "adj",
+    "ex": "Robert tampan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Robert 很帅。",
+      "ja": "Robert はハンサムです。",
+      "en": "Robert is handsome.",
+      "vi": "Robert đẹp trai."
+    },
+    "note": {
+      "zh": "只用于男性；女性用 cantik。",
+      "ja": "男性にだけ使います。女性には cantik。",
+      "en": "For men only; women are cantik.",
+      "vi": "Chỉ dùng cho nam; nữ dùng cantik."
+    }
+  },
+  {
+    "w": "tinggi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "高的",
+      "ja": "高い（高さ）",
+      "en": "tall, high",
+      "vi": "cao"
+    },
+    "pos": "adj",
+    "ex": "Pohon itu tinggi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那棵树很高。",
+      "ja": "あの木は高いです。",
+      "en": "That tree is tall.",
+      "vi": "Cây đó cao."
+    },
+    "note": null
+  },
+  {
+    "w": "sedih",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "难过的",
+      "ja": "悲しい",
+      "en": "sad",
+      "vi": "buồn"
+    },
+    "pos": "adj",
+    "ex": "Dia sedih.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他很难过。",
+      "ja": "かれは悲しんでいます。",
+      "en": "He is sad.",
+      "vi": "Anh ấy buồn."
+    },
+    "note": null
+  },
+  {
+    "w": "pohon",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "树",
+      "ja": "木",
+      "en": "tree",
+      "vi": "cây"
+    },
+    "pos": "n",
+    "ex": "Pohon itu tinggi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那棵树很高。",
+      "ja": "あの木は高いです。",
+      "en": "That tree is tall.",
+      "vi": "Cây đó cao."
+    },
+    "note": null
+  },
+  {
+    "w": "wanita",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "女士 · 女性",
+      "ja": "女性",
+      "en": "woman",
+      "vi": "phụ nữ"
+    },
+    "pos": "n",
+    "ex": "Wanita itu dosen.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那位女士是老师。",
+      "ja": "あの女性は先生です。",
+      "en": "That woman is a lecturer.",
+      "vi": "Người phụ nữ đó là giảng viên."
+    },
+    "note": {
+      "zh": "比 perempuan 正式。",
+      "ja": "perempuan よりあらたまった語。",
+      "en": "More formal than perempuan.",
+      "vi": "Trang trọng hơn perempuan."
+    }
+  },
+  {
+    "w": "pria",
+    "les": 3,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "先生 · 男性",
+      "ja": "男性",
+      "en": "man",
+      "vi": "đàn ông"
+    },
+    "pos": "n",
+    "ex": "Pria itu dokter.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那位先生是医生。",
+      "ja": "あの男性は医者です。",
+      "en": "That man is a doctor.",
+      "vi": "Người đàn ông đó là bác sĩ."
+    },
+    "note": {
+      "zh": "比 laki-laki 正式。",
+      "ja": "laki-laki よりあらたまった語。",
+      "en": "More formal than laki-laki.",
+      "vi": "Trang trọng hơn laki-laki."
+    }
+  },
+  {
+    "w": "anak",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "孩子",
+      "ja": "子ども",
+      "en": "child",
+      "vi": "con, đứa trẻ"
+    },
+    "pos": "n",
+    "ex": "Saya anak kedua.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是老二。",
+      "ja": "わたしは二番目の子です。",
+      "en": "I am the second child.",
+      "vi": "Tôi là con thứ hai."
+    },
+    "note": null
+  },
+  {
+    "w": "sayur",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "蔬菜",
+      "ja": "野菜",
+      "en": "vegetables",
+      "vi": "rau"
+    },
+    "pos": "n",
+    "ex": "Nenek menjual sayur.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "奶奶卖菜。",
+      "ja": "祖母は野菜を売っています。",
+      "en": "Grandmother sells vegetables.",
+      "vi": "Bà bán rau."
+    },
+    "note": null
+  },
+  {
+    "w": "pasar",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "市场",
+      "ja": "市場",
+      "en": "market",
+      "vi": "chợ"
+    },
+    "pos": "n",
+    "ex": "Teman saya ke pasar.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我朋友去市场。",
+      "ja": "友だちは市場へ行きます。",
+      "en": "My friend is going to the market.",
+      "vi": "Bạn tôi đi chợ."
+    },
+    "note": null
+  },
+  {
+    "w": "fotografer",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "摄影师",
+      "ja": "写真家",
+      "en": "photographer",
+      "vi": "nhiếp ảnh gia"
+    },
+    "pos": "n",
+    "ex": "Pria itu fotografer.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那位先生是摄影师。",
+      "ja": "あの男性は写真家です。",
+      "en": "That man is a photographer.",
+      "vi": "Người đàn ông đó là nhiếp ảnh gia."
+    },
+    "note": null
+  },
+  {
+    "w": "pulang",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "回家 · 回去",
+      "ja": "帰る",
+      "en": "to go home",
+      "vi": "về (nhà)"
+    },
+    "pos": "v",
+    "ex": "Zhang pulang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Zhang 回家。",
+      "ja": "Zhang は帰ります。",
+      "en": "Zhang goes home.",
+      "vi": "Zhang về nhà."
+    },
+    "note": null
+  },
+  {
+    "w": "pergi",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "去 · 走",
+      "ja": "行く・出かける",
+      "en": "to go, to leave",
+      "vi": "đi"
+    },
+    "pos": "v",
+    "ex": "Mereka pergi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他们走了。",
+      "ja": "かれらは出かけます。",
+      "en": "They are leaving.",
+      "vi": "Họ đi."
+    },
+    "note": null
+  },
+  {
+    "w": "tidur",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "睡觉",
+      "ja": "寝る",
+      "en": "to sleep",
+      "vi": "ngủ"
+    },
+    "pos": "v",
+    "ex": "Saya tidur.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我睡觉。",
+      "ja": "わたしは寝ます。",
+      "en": "I sleep.",
+      "vi": "Tôi ngủ."
+    },
+    "note": null
+  },
+  {
+    "w": "menari",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "跳舞",
+      "ja": "踊る",
+      "en": "to dance",
+      "vi": "múa, nhảy"
+    },
+    "pos": "v",
+    "ex": "Wayan menari.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Wayan 跳舞。",
+      "ja": "Wayan は踊ります。",
+      "en": "Wayan dances.",
+      "vi": "Wayan múa."
+    },
+    "note": null
+  },
+  {
+    "w": "menjual",
+    "les": 3,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "卖",
+      "ja": "売る",
+      "en": "to sell",
+      "vi": "bán"
+    },
+    "pos": "v",
+    "ex": "Ani menjual sayur.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Ani 卖菜。",
+      "ja": "Ani は野菜を売ります。",
+      "en": "Ani sells vegetables.",
+      "vi": "Ani bán rau."
+    },
+    "note": null
   }
 ]

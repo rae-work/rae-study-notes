@@ -441,6 +441,142 @@
         "Panggil saya Ilfat.",
         "Namanya Novi."
       ]
+    },
+    {
+      "q": "Hari ini hari apa?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "今天星期二",
+        "ja": "きょうは火曜日",
+        "en": "it's Tuesday today",
+        "vi": "hôm nay là thứ Ba"
+      },
+      "a": "Hari ini hari Selasa.",
+      "a_reg": "neutral",
+      "alts": [
+        "Hari ini hari Senin.",
+        "Hari ini hari Rabu.",
+        "Hari ini tanggal Selasa."
+      ]
+    },
+    {
+      "q": "Besok hari apa?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "明天星期五",
+        "ja": "あしたは金曜日",
+        "en": "tomorrow is Friday",
+        "vi": "ngày mai là thứ Sáu"
+      },
+      "a": "Besok hari Jumat.",
+      "a_reg": "neutral",
+      "alts": [
+        "Besok hari Sabtu.",
+        "Lusa hari Jumat.",
+        "Kemarin hari Jumat."
+      ]
+    },
+    {
+      "q": "Bulan apa sekarang?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "现在是三月",
+        "ja": "いまは三月",
+        "en": "it's March now",
+        "vi": "bây giờ là tháng Ba"
+      },
+      "a": "Sekarang bulan Maret.",
+      "a_reg": "neutral",
+      "alts": [
+        "Sekarang bulan Mei.",
+        "Sekarang bulan April.",
+        "Sekarang hari Maret."
+      ]
+    },
+    {
+      "q": "Tanggal berapa hari ini?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "今天 10 号",
+        "ja": "きょうは 10 日",
+        "en": "it's the 10th today",
+        "vi": "hôm nay là ngày 10"
+      },
+      "a": "Hari ini tanggal sepuluh.",
+      "a_reg": "neutral",
+      "alts": [
+        "Hari ini tanggal sebelas.",
+        "Hari ini hari sepuluh.",
+        "Hari ini tanggal kesepuluh."
+      ]
+    },
+    {
+      "q": "Kapan ulang tahun Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "我的生日是 8 月 5 日",
+        "ja": "わたしの誕生日は 8 月 5 日",
+        "en": "my birthday is 5 August",
+        "vi": "sinh nhật của tôi là ngày 5 tháng Tám"
+      },
+      "a": "Ulang tahun saya tanggal lima Agustus.",
+      "a_reg": "formal",
+      "alts": [
+        "Ulang tahun saya tanggal Agustus lima.",
+        "Ulang tahun saya bulan lima Agustus.",
+        "Ulang tahun saya tanggal lima Maret."
+      ]
+    },
+    {
+      "q": "Anda lahir tahun berapa?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "我 2005 年出生",
+        "ja": "わたしは 2005 年生まれ",
+        "en": "I was born in 2005",
+        "vi": "tôi sinh năm 2005"
+      },
+      "a": "Saya lahir tahun dua ribu lima.",
+      "a_reg": "formal",
+      "alts": [
+        "Saya lahir tahun dua ribu lima puluh.",
+        "Saya lahir tahun dua ratus lima.",
+        "Saya lahir tanggal dua ribu lima."
+      ]
+    },
+    {
+      "q": "Anda anak ke berapa?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "我是老三",
+        "ja": "わたしは三番目の子",
+        "en": "I'm the third child",
+        "vi": "tôi là con thứ ba"
+      },
+      "a": "Saya anak ketiga.",
+      "a_reg": "formal",
+      "alts": [
+        "Saya anak tiga.",
+        "Saya anak kedua.",
+        "Saya tiga anak."
+      ]
+    },
+    {
+      "q": "Kapan kuliah bahasa Indonesia?",
+      "q_reg": "neutral",
+      "hint": {
+        "zh": "星期四",
+        "ja": "木曜日",
+        "en": "on Thursday",
+        "vi": "thứ Năm"
+      },
+      "a": "Hari Kamis.",
+      "a_reg": "neutral",
+      "alts": [
+        "Hari Selasa.",
+        "Tanggal Kamis.",
+        "Bulan Kamis."
+      ]
     }
   ],
   "tempat": [
@@ -543,6 +679,46 @@
       },
       "a": "Sekarang saya tinggal di Jogja.",
       "a_reg": "formal"
+    },
+    {
+      "hint": {
+        "zh": "我在教室",
+        "ja": "わたしは教室にいます",
+        "en": "I'm in class",
+        "vi": "tôi ở trong lớp"
+      },
+      "a": "Saya di kelas.",
+      "a_reg": "formal"
+    },
+    {
+      "hint": {
+        "zh": "我们去食堂",
+        "ja": "わたしたちは食堂へ行きます",
+        "en": "we're going to the canteen",
+        "vi": "chúng tôi đến căng tin"
+      },
+      "a": "Kami ke kantin.",
+      "a_reg": "formal"
+    },
+    {
+      "hint": {
+        "zh": "老师从市场来",
+        "ja": "先生は市場から来ました",
+        "en": "the teacher has come from the market",
+        "vi": "giáo viên từ chợ về"
+      },
+      "a": "Guru dari pasar.",
+      "a_reg": "neutral"
+    },
+    {
+      "hint": {
+        "zh": "他们在校园",
+        "ja": "かれらはキャンパスにいます",
+        "en": "they're on campus",
+        "vi": "họ ở trong trường"
+      },
+      "a": "Mereka di kampus.",
+      "a_reg": "neutral"
     }
   ],
   "angka_pool": [

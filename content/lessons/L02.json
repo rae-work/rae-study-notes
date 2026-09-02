@@ -1197,6 +1197,446 @@
   [
    {
     "k": "phead",
+    "title": "Ini Gedung, Gedung Ini",
+    "cat": "tatabahasa",
+    "sub": {
+     "zh": "课堂笔记 · ini 放前面还是后面",
+     "ja": "授業ノート · ini は前か後か",
+     "en": "Class notes · ini before or after the noun",
+     "vi": "Ghi chép trên lớp · ini đứng trước hay sau"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "上一页教了 <s>Ini</s> + 东西 = 「这是……」。老师课上补了一条：<s>ini</s> 挪到名词<b>后面</b>，意思和句子结构都跟着变。",
+     "ja": "前のページでは <s>Ini</s> + もの = 「これは……です」を学びました。授業ではもう一つ：<s>ini</s> を名詞の<b>後ろ</b>に置くと、意味も文の形も変わります。",
+     "en": "The previous page taught <s>Ini</s> + thing = “this is a …”. The teacher added one more point: move <s>ini</s> <b>after</b> the noun and both the meaning and the shape of the sentence change.",
+     "vi": "Trang trước dạy <s>Ini</s> + vật = “đây là…”. Trên lớp giáo viên bổ sung thêm: đặt <s>ini</s> ra <b>sau</b> danh từ thì nghĩa lẫn cấu trúc câu đều đổi."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "<b>Ini</b> + benda　→　Ini gedung.",
+    "note": {
+     "zh": "「这是一栋楼。」—— 已经是一句完整的话。",
+     "ja": "「これは建物です。」—— これだけで完全な文。",
+     "en": "“This is a building.” — already a complete sentence.",
+     "vi": "“Đây là tòa nhà.” — đã là một câu hoàn chỉnh."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "benda + <b>ini</b>　→　Gedung ini …",
+    "note": {
+     "zh": "「这栋楼……」—— 还不是句子，后面要接谓语才完整：Gedung ini baru.",
+     "ja": "「この建物は……」—— まだ文になっていません。述語を続けてはじめて完成：Gedung ini baru.",
+     "en": "“This building …” — not a sentence yet; it needs a predicate: Gedung ini baru.",
+     "vi": "“Tòa nhà này…” — chưa thành câu, phải thêm vị ngữ mới đủ: Gedung ini baru."
+    }
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "哪个答案配哪个问题",
+     "ja": "どの答えがどの質問に合うか",
+     "en": "Which answer fits which question",
+     "vi": "Câu trả lời nào hợp với câu hỏi nào"
+    },
+    "items": [
+     {
+      "id": "Ini apa?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ini"
+      ],
+      "gloss": {
+       "zh": "这是什么？",
+       "ja": "これは何ですか。",
+       "en": "What is this?",
+       "vi": "Đây là cái gì?"
+      }
+     },
+     {
+      "id": "Ini gedung baru.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ini"
+      ],
+      "gloss": {
+       "zh": "这是一栋新楼。—— 答「是什么」：先说 ini，再说东西。",
+       "ja": "これは新しい建物です。——「何か」への答え：ini のあとに物。",
+       "en": "This is a new building. — Answers “what is it”: ini first, then the thing.",
+       "vi": "Đây là tòa nhà mới. — Trả lời “cái gì”: ini trước, rồi đến vật."
+      }
+     },
+     {
+      "id": "Bagaimana gedung ini?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "bagaimana"
+      ],
+      "gloss": {
+       "zh": "这栋楼怎么样？",
+       "ja": "この建物はどうですか。",
+       "en": "What is this building like?",
+       "vi": "Tòa nhà này thế nào?"
+      }
+     },
+     {
+      "id": "Gedung ini baru.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "baru"
+      ],
+      "gloss": {
+       "zh": "这栋楼是新的。—— 答「怎么样」：gedung ini 是主语，baru 是说明。",
+       "ja": "この建物は新しいです。——「どうか」への答え：gedung ini が主語、baru が説明。",
+       "en": "This building is new. — Answers “what is it like”: gedung ini is the subject, baru describes it.",
+       "vi": "Tòa nhà này mới. — Trả lời “thế nào”: gedung ini là chủ ngữ, baru là phần nhận xét."
+      }
+     },
+     {
+      "id": "Itu apa?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "itu"
+      ],
+      "gloss": {
+       "zh": "那是什么？",
+       "ja": "あれは何ですか。",
+       "en": "What is that?",
+       "vi": "Kia là cái gì?"
+      }
+     },
+     {
+      "id": "Itu kelas baru.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "itu"
+      ],
+      "gloss": {
+       "zh": "那是新教室。",
+       "ja": "あれは新しい教室です。",
+       "en": "That is a new classroom.",
+       "vi": "Kia là lớp học mới."
+      }
+     },
+     {
+      "id": "Bagaimana kelas itu?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "bagaimana"
+      ],
+      "gloss": {
+       "zh": "那间教室怎么样？",
+       "ja": "あの教室はどうですか。",
+       "en": "What is that classroom like?",
+       "vi": "Lớp học đó thế nào?"
+      }
+     },
+     {
+      "id": "Kelas itu luas.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "luas"
+      ],
+      "gloss": {
+       "zh": "那间教室很宽敞。",
+       "ja": "あの教室は広いです。",
+       "en": "That classroom is spacious.",
+       "vi": "Lớp học đó rộng."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "答非所问",
+     "ja": "質問とかみ合わない",
+     "en": "Answering the wrong question",
+     "vi": "Trả lời lạc câu hỏi"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "问 <s>Ini apa?</s>，答 <s>Gedung ini baru.</s> 就错了 —— 对方问的是「这是什么东西」，你却在评价它。反过来，问 <s>Bagaimana gedung ini?</s> 答 <s>Ini gedung baru.</s> 也不对。看问句的疑问词：<b>apa</b> 就用 Ini + 东西，<b>bagaimana</b> 就用 东西 + ini + 形容词。",
+       "ja": "<s>Ini apa?</s> と聞かれて <s>Gedung ini baru.</s> と答えるのは誤り —— 相手は「これは何か」を聞いているのに、建物の評価を返しています。逆に <s>Bagaimana gedung ini?</s> に <s>Ini gedung baru.</s> と答えるのも合いません。疑問詞を見てください：<b>apa</b> なら Ini + もの、<b>bagaimana</b> なら もの + ini + 形容詞。",
+       "en": "Ask <s>Ini apa?</s> and get <s>Gedung ini baru.</s> — wrong: the question was “what is this”, and the answer describes it instead. The reverse, <s>Bagaimana gedung ini?</s> answered with <s>Ini gedung baru.</s>, is just as off. Look at the question word: <b>apa</b> takes Ini + thing; <b>bagaimana</b> takes thing + ini + adjective.",
+       "vi": "Hỏi <s>Ini apa?</s> mà đáp <s>Gedung ini baru.</s> là sai — người ta hỏi “đây là cái gì”, bạn lại đi nhận xét về nó. Ngược lại, hỏi <s>Bagaimana gedung ini?</s> mà đáp <s>Ini gedung baru.</s> cũng không khớp. Nhìn từ để hỏi: <b>apa</b> thì dùng Ini + vật, <b>bagaimana</b> thì dùng vật + ini + tính từ."
+      }
+     }
+    ]
+   },
+   {
+    "k": "mini",
+    "text": {
+     "zh": "DM 和 MD",
+     "ja": "DM と MD",
+     "en": "DM and MD",
+     "vi": "DM và MD"
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "短语",
+      "ja": "語句",
+      "en": "Phrase",
+      "vi": "Cụm từ"
+     },
+     {
+      "zh": "顺序",
+      "ja": "順序",
+      "en": "Order",
+      "vi": "Trật tự"
+     },
+     {
+      "zh": "意思",
+      "ja": "意味",
+      "en": "Meaning",
+      "vi": "Nghĩa"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "sepeda baru",
+       "reg": "neutral"
+      },
+      {
+       "text": {
+        "zh": "DM",
+        "ja": "DM",
+        "en": "DM",
+        "vi": "DM"
+       }
+      },
+      {
+       "text": {
+        "zh": "新自行车",
+        "ja": "新しい自転車",
+        "en": "a new bicycle",
+        "vi": "xe đạp mới"
+       }
+      }
+     ],
+     [
+      {
+       "id": "buku bagus",
+       "reg": "neutral"
+      },
+      "",
+      {
+       "text": {
+        "zh": "好书",
+        "ja": "いい本",
+        "en": "a good book",
+        "vi": "sách hay"
+       }
+      }
+     ],
+     [
+      {
+       "id": "gedung baru",
+       "reg": "neutral"
+      },
+      "",
+      {
+       "text": {
+        "zh": "新楼",
+        "ja": "新しい建物",
+        "en": "a new building",
+        "vi": "tòa nhà mới"
+       }
+      }
+     ],
+     [
+      {
+       "id": "tiga mahasiswa",
+       "reg": "neutral"
+      },
+      {
+       "text": {
+        "zh": "MD",
+        "ja": "MD",
+        "en": "MD",
+        "vi": "MD"
+       }
+      },
+      {
+       "text": {
+        "zh": "三个学生",
+        "ja": "三人の学生",
+        "en": "three students",
+        "vi": "ba sinh viên"
+       }
+      }
+     ],
+     [
+      {
+       "id": "dua buku",
+       "reg": "neutral"
+      },
+      "",
+      {
+       "text": {
+        "zh": "两本书",
+        "ja": "二冊の本",
+        "en": "two books",
+        "vi": "hai quyển sách"
+       }
+      }
+     ],
+     [
+      {
+       "id": "sepuluh tahun",
+       "reg": "neutral"
+      },
+      "",
+      {
+       "text": {
+        "zh": "十年",
+        "ja": "十年",
+        "en": "ten years",
+        "vi": "mười năm"
+       }
+      }
+     ]
+    ],
+    "note": {
+     "zh": "D = <b>diterangkan</b>，被说明的那个东西；M = <b>menerangkan</b>，说明它的词。形容词跟在名词后面，是 DM；数词放在名词前面，是 MD。印尼语大多数修饰语都是 DM，数词是主要的例外。",
+     "ja": "D = <b>diterangkan</b>（説明される側、つまり物）、M = <b>menerangkan</b>（説明する側）。形容詞は名詞の後ろにつくので DM、数詞は名詞の前に来るので MD。インドネシア語の修飾語はほとんど DM で、数詞が主な例外です。",
+     "en": "D = <b>diterangkan</b>, the thing being described; M = <b>menerangkan</b>, the word describing it. An adjective follows its noun: DM. A number precedes its noun: MD. Most Indonesian modifiers are DM; numbers are the main exception.",
+     "vi": "D = <b>diterangkan</b>, vật được nói đến; M = <b>menerangkan</b>, từ mô tả nó. Tính từ đứng sau danh từ: DM. Số từ đứng trước danh từ: MD. Phần lớn từ bổ nghĩa trong tiếng Indonesia là DM, số từ là ngoại lệ chính."
+    }
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "和母语比一比",
+     "ja": "母語とくらべると",
+     "en": "Compared with your own language",
+     "vi": "So với tiếng Việt"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "中文说「<b>新</b>自行车」，形容词在前；印尼语 <s>sepeda baru</s> 正好反过来。数字倒是一样：「<b>三个</b>学生」和 <s>tiga mahasiswa</s> 都把数放前面。所以只要记一条：形容词换到后面，数字不动。",
+       "ja": "日本語は「<b>新しい</b>自転車」と形容詞が前に来ますが、<s>sepeda baru</s> はその逆です。数は同じで、「<b>三人の</b>学生」も <s>tiga mahasiswa</s> も数が前。覚えることは一つ：形容詞だけ後ろに回し、数はそのまま。",
+       "en": "English says “a <b>new</b> bicycle”, adjective first; <s>sepeda baru</s> is the other way round. Numbers behave as in English: “<b>three</b> students” and <s>tiga mahasiswa</s> both put the number first. So one rule to remember: adjectives move behind the noun, numbers stay put.",
+       "vi": "Ở đây bạn có lợi thế: <s>sepeda baru</s> đúng như “xe đạp <b>mới</b>”, <s>tiga mahasiswa</s> đúng như “<b>ba</b> sinh viên”. Trật tự DM / MD của tiếng Indonesia trùng hoàn toàn với tiếng Việt, bạn không cần đảo gì cả — chỉ các bạn học nói tiếng Trung, tiếng Nhật, tiếng Anh mới phải đảo tính từ ra sau."
+      }
+     }
+    ]
+   },
+   {
+    "k": "fillblank",
+    "title": {
+     "zh": "选「Ini X」还是「X ini」",
+     "ja": "「Ini X」か「X ini」か",
+     "en": "“Ini X” or “X ini”?",
+     "vi": "Chọn “Ini X” hay “X ini”"
+    },
+    "items": [
+     {
+      "pre": "Ini apa?",
+      "ans": "Ini sepeda",
+      "post": "baru.",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "这是什么？—— 这是一辆新自行车。",
+       "ja": "これは何ですか。—— これは新しい自転車です。",
+       "en": "What is this? — This is a new bicycle.",
+       "vi": "Đây là cái gì? — Đây là xe đạp mới."
+      }
+     },
+     {
+      "pre": "Bagaimana sepeda ini?",
+      "ans": "Sepeda ini",
+      "post": "baru.",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "这辆自行车怎么样？—— 这辆自行车是新的。",
+       "ja": "この自転車はどうですか。—— この自転車は新しいです。",
+       "en": "What is this bicycle like? — This bicycle is new.",
+       "vi": "Xe đạp này thế nào? — Xe đạp này mới."
+      }
+     },
+     {
+      "pre": "Itu apa?",
+      "ans": "Itu kantin",
+      "post": "fakultas.",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "那是什么？—— 那是院系食堂。",
+       "ja": "あれは何ですか。—— あれは学部の食堂です。",
+       "en": "What is that? — That is the faculty canteen.",
+       "vi": "Kia là cái gì? — Kia là căng tin của khoa."
+      }
+     },
+     {
+      "pre": "Bagaimana kantin itu?",
+      "ans": "Kantin itu",
+      "post": "luas.",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "那个食堂怎么样？—— 那个食堂很宽敞。",
+       "ja": "あの食堂はどうですか。—— あの食堂は広いです。",
+       "en": "What is that canteen like? — That canteen is spacious.",
+       "vi": "Căng tin đó thế nào? — Căng tin đó rộng."
+      }
+     },
+     {
+      "pre": "Ini apa?",
+      "ans": "Ini buku",
+      "post": "bagus.",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "这是什么？—— 这是一本好书。",
+       "ja": "これは何ですか。—— これはいい本です。",
+       "en": "What is this? — This is a good book.",
+       "vi": "Đây là cái gì? — Đây là quyển sách hay."
+      }
+     },
+     {
+      "pre": "Bagaimana buku ini?",
+      "ans": "Buku ini",
+      "post": "mahal.",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "这本书怎么样？—— 这本书很贵。",
+       "ja": "この本はどうですか。—— この本は高いです。",
+       "en": "What is this book like? — This book is expensive.",
+       "vi": "Quyển sách này thế nào? — Quyển sách này đắt."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
     "title": "Frasa Posesif",
     "sub": {
      "zh": "「谁的」怎么说",
@@ -1616,6 +2056,387 @@
       }
      }
     ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Catatan Kelas · -nya",
+    "cat": "tatabahasa",
+    "sub": {
+     "zh": "课堂笔记 · -nya 能替换谁",
+     "ja": "授業ノート · -nya は誰の代わりになるか",
+     "en": "Class notes · what -nya can stand for",
+     "vi": "Ghi chép trên lớp · -nya thay được cho ai"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "上一页的表只说 <b>-nya</b> 等于 <s>dia</s> 的。老师课上补了最有用的一句：主人只要是「第三方」—— 人、地方、机构都算 —— 第二次提到时都能缩成 -nya。",
+     "ja": "前のページの表では <b>-nya</b> は <s>dia</s> の所有形としてだけ出てきました。授業ではいちばん役に立つ一言が加わりました：持ち主が「第三者」なら —— 人でも場所でも組織でも —— 二度目に言うときは -nya に縮められます。",
+     "en": "The table on the previous page only presents <b>-nya</b> as the suffix for <s>dia</s>. In class the teacher added the most useful point: any third-party owner — a person, a place, an institution — can be shortened to -nya the second time it is mentioned.",
+     "vi": "Bảng ở trang trước chỉ nói <b>-nya</b> là dạng của <s>dia</s>. Trên lớp giáo viên bổ sung điều hữu ích nhất: người sở hữu cứ là “bên thứ ba” — người, nơi chốn hay cơ quan đều được — thì lần nhắc thứ hai đều rút thành -nya."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "benda + pemilik　→　benda + <b>-nya</b>",
+    "note": {
+     "zh": "主人不是我、不是你，说清楚是谁之后，就用 -nya 代替。",
+     "ja": "持ち主が「わたし」でも「あなた」でもなく、だれのものかがわかったあとは -nya で受けます。",
+     "en": "The owner is neither me nor you; once it is clear who, -nya takes over.",
+     "vi": "Người sở hữu không phải tôi, không phải bạn; khi đã rõ là của ai thì thay bằng -nya."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "写全",
+      "ja": "語で書くと",
+      "en": "Full form",
+      "vi": "Viết đầy đủ"
+     },
+     {
+      "zh": "用 -nya",
+      "ja": "-nya なら",
+      "en": "With -nya",
+      "vi": "Dùng -nya"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "kantin fakultas",
+       "reg": "neutral"
+      },
+      {
+       "id": "kantinnya",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "tas teman",
+       "reg": "neutral"
+      },
+      {
+       "id": "tasnya",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "peta Wira",
+       "reg": "neutral"
+      },
+      {
+       "id": "petanya",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "sepeda kampus",
+       "reg": "neutral"
+      },
+      {
+       "id": "sepedanya",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "tugas dosen",
+       "reg": "neutral"
+      },
+      {
+       "id": "tugasnya",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "buku adik",
+       "reg": "neutral"
+      },
+      {
+       "id": "bukunya",
+       "reg": "neutral"
+      }
+     ]
+    ],
+    "note": {
+     "zh": "第一次提到要写全，让人知道是谁的；之后再说就用 -nya。<s>kantinnya</s> 单独拿出来看，可能是「他的食堂」，也可能是「学院的食堂」—— 靠上下文决定，所以第一次一定要写全。",
+     "ja": "初出のときは語で書き、だれのものかを示します。そのあとは -nya で受けます。<s>kantinnya</s> だけ取り出すと「かれの食堂」とも「学部の食堂」とも取れます —— 文脈しだいなので、最初は必ず語で書くこと。",
+     "en": "Write the owner out the first time so people know whose it is; after that, -nya. On its own <s>kantinnya</s> could be “his canteen” or “the faculty’s canteen” — context decides, which is why the first mention must be in full.",
+     "vi": "Lần đầu nhắc đến phải viết đầy đủ để người nghe biết là của ai; sau đó mới dùng -nya. Tách riêng <s>kantinnya</s> ra thì có thể là “căng tin của anh ấy” hay “căng tin của khoa” — phải dựa vào ngữ cảnh, nên lần đầu nhất định viết đầy đủ."
+    }
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "三步走：punya → 写全 → -nya",
+     "ja": "三段階：punya → 語で → -nya",
+     "en": "Three steps: punya → full form → -nya",
+     "vi": "Ba bước: punya → viết đầy đủ → -nya"
+    },
+    "items": [
+     {
+      "id": "Nenek punya rumah.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "punya"
+      ],
+      "gloss": {
+       "zh": "① 奶奶有一栋房子。",
+       "ja": "① おばあさんは家を持っています。",
+       "en": "① Grandma has a house.",
+       "vi": "① Bà có một ngôi nhà."
+      }
+     },
+     {
+      "id": "Rumahnya besar.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "rumahnya"
+      ],
+      "gloss": {
+       "zh": "② rumah nenek → rumahnya　③ 她的房子很大。",
+       "ja": "② rumah nenek → rumahnya　③ その家は大きいです。",
+       "en": "② rumah nenek → rumahnya　③ Her house is big.",
+       "vi": "② rumah nenek → rumahnya　③ Nhà của bà to."
+      }
+     },
+     {
+      "id": "Kampus punya kantin.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "punya"
+      ],
+      "gloss": {
+       "zh": "① 校园里有食堂。",
+       "ja": "① キャンパスには食堂があります。",
+       "en": "① The campus has a canteen.",
+       "vi": "① Khuôn viên trường có căng tin."
+      }
+     },
+     {
+      "id": "Kantinnya luas.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kantinnya"
+      ],
+      "gloss": {
+       "zh": "② kantin kampus → kantinnya　③ 它的食堂很宽敞。—— 主人是地方，照样用 -nya。",
+       "ja": "② kantin kampus → kantinnya　③ その食堂は広いです。—— 持ち主が場所でも -nya。",
+       "en": "② kantin kampus → kantinnya　③ Its canteen is spacious. — The owner is a place, and -nya still applies.",
+       "vi": "② kantin kampus → kantinnya　③ Căng tin của trường rộng. — Chủ sở hữu là nơi chốn, vẫn dùng -nya."
+      }
+     },
+     {
+      "id": "Bethany punya kamus.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "punya"
+      ],
+      "gloss": {
+       "zh": "① Bethany 有一本词典。",
+       "ja": "① Bethany は辞書を持っています。",
+       "en": "① Bethany has a dictionary.",
+       "vi": "① Bethany có một quyển từ điển."
+      }
+     },
+     {
+      "id": "Kamusnya baru.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kamusnya"
+      ],
+      "gloss": {
+       "zh": "② kamus Bethany → kamusnya　③ 她的词典是新的。",
+       "ja": "② kamus Bethany → kamusnya　③ その辞書は新しいです。",
+       "en": "② kamus Bethany → kamusnya　③ Her dictionary is new.",
+       "vi": "② kamus Bethany → kamusnya　③ Từ điển của cô ấy mới."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "saya 永远写全",
+     "ja": "saya はつねに語で",
+     "en": "saya never takes a suffix",
+     "vi": "saya luôn viết đầy đủ"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>saya</s> 没有后缀：「我的书」是 <s>buku saya</s>，不能写 *bukunya —— <s>bukunya</s> 是「他的书」，意思整个变了。<s>Anda</s> 和 <s>beliau</s> 也一样，只能写全：<s>buku Anda</s>、<s>buku beliau</s>。",
+       "ja": "<s>saya</s> に接尾辞はありません。「わたしの本」は <s>buku saya</s> で、*bukunya とは言えません —— <s>bukunya</s> は「かれの本」で、意味がまるで変わります。<s>Anda</s> と <s>beliau</s> も同じで、語で書くしかありません：<s>buku Anda</s>・<s>buku beliau</s>。",
+       "en": "<s>saya</s> has no suffix: “my book” is <s>buku saya</s>, never *bukunya — <s>bukunya</s> means “his/her book”, a different thing altogether. <s>Anda</s> and <s>beliau</s> are the same: always in full, <s>buku Anda</s>, <s>buku beliau</s>.",
+       "vi": "<s>saya</s> không có hậu tố: “sách của tôi” là <s>buku saya</s>, không được viết *bukunya — <s>bukunya</s> là “sách của anh ấy”, nghĩa khác hẳn. <s>Anda</s> và <s>beliau</s> cũng vậy, chỉ viết đầy đủ: <s>buku Anda</s>, <s>buku beliau</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "语体：<b>-ku</b> / <b>-mu</b> 是口语，对同学朋友用；<s>saya</s> / <s>Anda</s> 是正式说法，对老师、长辈用。<b>-nya</b> 两边都能用。",
+       "ja": "語体：<b>-ku</b>／<b>-mu</b> はくだけた言い方で友だち向け、<s>saya</s>／<s>Anda</s> はあらたまった言い方で先生や目上の人向け。<b>-nya</b> はどちらでも使えます。",
+       "en": "Register: <b>-ku</b> / <b>-mu</b> are casual, for friends and classmates; <s>saya</s> / <s>Anda</s> are formal, for teachers and elders. <b>-nya</b> works in both.",
+       "vi": "Ngữ thể: <b>-ku</b> / <b>-mu</b> là thân mật, dùng với bạn bè; <s>saya</s> / <s>Anda</s> là trang trọng, dùng với giáo viên, người lớn tuổi. <b>-nya</b> dùng được ở cả hai."
+      }
+     }
+    ]
+   },
+   {
+    "k": "psub2",
+    "text": {
+     "zh": "下面每题给一个 punya 句，照上面的三步改成 -nya 句，再补一个形容词。参考答案里的形容词只是其中一种写法。",
+     "ja": "次の各問には punya の文があります。上の三段階で -nya の文に直し、形容詞を一つ足してください。解答例の形容詞は一例です。",
+     "en": "Each item below gives a punya sentence. Rewrite it as a -nya sentence following the three steps above, adding an adjective. The adjective in the model answer is only one possibility.",
+     "vi": "Mỗi câu dưới đây cho một câu punya. Hãy đổi thành câu -nya theo ba bước ở trên rồi thêm một tính từ. Tính từ trong đáp án mẫu chỉ là một cách viết."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "把主人换成 -nya",
+     "ja": "持ち主を -nya に",
+     "en": "Turn the owner into -nya",
+     "vi": "Đổi người sở hữu thành -nya"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kakek punya sepeda.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepedanya tua.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "sepedanya"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Ibu punya tas.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Tasnya hitam.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "tasnya"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Wayan punya baju.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Bajunya merah.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "bajunya"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Fakultas punya gedung.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Gedungnya baru.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "gedungnya"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Nicholas punya sepatu.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepatunya putih.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "sepatunya"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "k": "prompt",
+    "tag": {
+     "zh": "课后练习",
+     "ja": "宿題",
+     "en": "Homework",
+     "vi": "Bài tập về nhà"
+    },
+    "text": {
+     "zh": "自己写 10 个句子：<b>-ku</b>、<b>-mu</b>、<b>-nya</b>、<s>saya</s>、<s>Anda</s> 各两句。每句先写 punya 句，再改成领属句，例如：Aku punya sepeda. → Sepedaku baru. 主人是老师或长辈的那几句，记得用正式说法。",
+     "ja": "自分で 10 文書いてみましょう：<b>-ku</b>・<b>-mu</b>・<b>-nya</b>・<s>saya</s>・<s>Anda</s> を二文ずつ。まず punya の文を書き、それを所有の文に書き換えます。例：Aku punya sepeda. → Sepedaku baru. 持ち主が先生や目上の人なら、あらたまった形を使うこと。",
+     "en": "Write ten sentences of your own: two each with <b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s> and <s>Anda</s>. Start each from a punya sentence, then rewrite it, e.g. Aku punya sepeda. → Sepedaku baru. Where the owner is a teacher or an elder, use the formal form.",
+     "vi": "Tự viết 10 câu: <b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s> mỗi loại hai câu. Mỗi câu viết câu punya trước rồi đổi thành câu sở hữu, ví dụ: Aku punya sepeda. → Sepedaku baru. Câu nào người sở hữu là giáo viên hay người lớn tuổi thì nhớ dùng dạng trang trọng."
+    }
    }
   ],
   [

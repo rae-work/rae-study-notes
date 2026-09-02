@@ -3230,6 +3230,475 @@
   [
    {
     "k": "phead",
+    "title": "Catatan Kelas · Kata Ganti Orang",
+    "cat": "tatabahasa",
+    "sub": {
+     "zh": "课堂笔记 · 人称代词",
+     "ja": "授業ノート · 人称代名詞",
+     "en": "Class notes · personal pronouns",
+     "vi": "Ghi chép trên lớp · đại từ nhân xưng"
+    }
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "这一页是老师课上发的讲义，补上一页课本表格没列全的：完整的代词清单（含 <s>Saudara</s>、<s>ia</s>、<s>beliau</s>），以及 <s>kami</s> / <s>kita</s> 的用法对照。",
+     "ja": "このページは授業で配られたプリントの内容です。前のページの教科書の表を補い、代名詞の一覧（<s>Saudara</s>・<s>ia</s>・<s>beliau</s> を含む）と、<s>kami</s>／<s>kita</s> の使い分けをまとめます。",
+     "en": "This page follows the teacher’s classroom handout. It fills in what the book’s table on the previous page leaves out: the full inventory of pronouns (including <s>Saudara</s>, <s>ia</s> and <s>beliau</s>) and a side-by-side look at <s>kami</s> and <s>kita</s>.",
+     "vi": "Trang này theo tờ bài giảng giáo viên phát trên lớp, bổ sung cho bảng trong sách ở trang trước: danh sách đại từ đầy đủ (có <s>Saudara</s>, <s>ia</s>, <s>beliau</s>) và phần đối chiếu cách dùng <s>kami</s> / <s>kita</s>."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "人称",
+      "ja": "人称",
+      "en": "Person",
+      "vi": "Ngôi"
+     },
+     {
+      "zh": "单数",
+      "ja": "単数",
+      "en": "Singular",
+      "vi": "Số ít"
+     },
+     {
+      "zh": "复数",
+      "ja": "複数",
+      "en": "Plural",
+      "vi": "Số nhiều"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "text": {
+        "zh": "第一人称",
+        "ja": "一人称",
+        "en": "First person",
+        "vi": "Ngôi thứ nhất"
+       }
+      },
+      {
+       "id": "saya",
+       "reg": "formal"
+      },
+      {
+       "id": "kami",
+       "reg": "neutral"
+      }
+     ],
+     [
+      "",
+      {
+       "id": "aku",
+       "reg": "casual"
+      },
+      {
+       "id": "kita",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "第二人称",
+        "ja": "二人称",
+        "en": "Second person",
+        "vi": "Ngôi thứ hai"
+       }
+      },
+      {
+       "id": "Anda",
+       "reg": "formal"
+      },
+      {
+       "id": "kalian",
+       "reg": "neutral"
+      }
+     ],
+     [
+      "",
+      {
+       "id": "kamu",
+       "reg": "casual"
+      },
+      {
+       "id": "Saudara sekalian",
+       "reg": "formal"
+      }
+     ],
+     [
+      "",
+      {
+       "id": "Saudara",
+       "reg": "formal"
+      },
+      {
+       "id": "Saudara-saudara",
+       "reg": "formal"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "第三人称",
+        "ja": "三人称",
+        "en": "Third person",
+        "vi": "Ngôi thứ ba"
+       }
+      },
+      {
+       "id": "dia",
+       "reg": "neutral"
+      },
+      {
+       "id": "mereka",
+       "reg": "neutral"
+      }
+     ],
+     [
+      "",
+      {
+       "id": "ia",
+       "reg": "neutral"
+      },
+      ""
+     ],
+     [
+      "",
+      {
+       "id": "beliau",
+       "reg": "formal"
+      },
+      ""
+     ]
+    ],
+    "note": {
+     "zh": "语体标签是我们加的，讲义本身没标：<s>saya</s>、<s>Anda</s>、<s>Saudara</s>、<s>beliau</s> 正式，<s>aku</s>、<s>kamu</s> 口语，其余通用。第三人称复数只有 <s>mereka</s> 一个，<s>ia</s> 和 <s>beliau</s> 的复数也用它。",
+     "ja": "語体の印はこちらで付けたもので、プリントにはありません。<s>saya</s>・<s>Anda</s>・<s>Saudara</s>・<s>beliau</s> はフォーマル、<s>aku</s>・<s>kamu</s> はくだけた言い方、ほかは中立です。三人称の複数は <s>mereka</s> ひとつだけで、<s>ia</s> や <s>beliau</s> の複数もこれを使います。",
+     "en": "The register marks are ours; the handout has none. <s>saya</s>, <s>Anda</s>, <s>Saudara</s> and <s>beliau</s> are formal, <s>aku</s> and <s>kamu</s> casual, the rest neutral. There is only one third-person plural, <s>mereka</s> — it serves <s>ia</s> and <s>beliau</s> too.",
+     "vi": "Nhãn ngữ thể là do chúng tôi thêm, tờ bài giảng không ghi: <s>saya</s>, <s>Anda</s>, <s>Saudara</s>, <s>beliau</s> trang trọng; <s>aku</s>, <s>kamu</s> thân mật; còn lại trung tính. Ngôi thứ ba số nhiều chỉ có một từ <s>mereka</s> — dùng chung cho cả <s>ia</s> và <s>beliau</s>."
+    }
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "kami 还是 kita",
+     "ja": "kami か kita か",
+     "en": "kami or kita",
+     "vi": "kami hay kita"
+    },
+    "items": [
+     {
+      "id": "Kami belajar bahasa Indonesia, Bu.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kami"
+      ],
+      "gloss": {
+       "zh": "我们在学印尼语，老师。—— 对老师说：kami 是「我们学生」，不包括老师。",
+       "ja": "わたしたちはインドネシア語を勉強しています、先生。—— 先生に向かって：kami は「わたしたち学生」で、先生は含みません。",
+       "en": "We are learning Indonesian, Bu. — Said to the teacher: kami is “we students”; the teacher is not included.",
+       "vi": "Chúng tôi học tiếng Indonesia, thưa cô. — Nói với giáo viên: kami là “chúng tôi, sinh viên”, không gồm giáo viên."
+      }
+     },
+     {
+      "id": "Kita belajar bahasa Indonesia.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kita"
+      ],
+      "gloss": {
+       "zh": "我们（一起）学印尼语。—— 对同学说：kita 把对方算进来，你我都在学。",
+       "ja": "わたしたちはインドネシア語を勉強しています。—— 同級生に向かって：kita は相手も含みます。あなたもわたしも学んでいる。",
+       "en": "We are learning Indonesian. — Said to a classmate: kita counts them in; you and I both.",
+       "vi": "Chúng ta học tiếng Indonesia. — Nói với bạn cùng lớp: kita gồm cả người nghe, bạn và tôi đều học."
+      }
+     },
+     {
+      "id": "Kami makan siang di kantin, Pak.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kami"
+      ],
+      "gloss": {
+       "zh": "我们在食堂吃午饭，老师。—— 告诉老师我们几个在哪吃；老师不去。",
+       "ja": "わたしたちは食堂で昼ご飯を食べます、先生。—— どこで食べるかを先生に伝えるだけ。先生は来ません。",
+       "en": "We have lunch at the canteen, Pak. — Telling the teacher where we eat; he is not coming.",
+       "vi": "Chúng tôi ăn trưa ở căng tin, thưa thầy. — Kể cho thầy biết mình ăn ở đâu; thầy không đi cùng."
+      }
+     },
+     {
+      "id": "Kita makan siang di kantin, ya?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kita"
+      ],
+      "gloss": {
+       "zh": "我们去食堂吃午饭，好吗？—— 邀请对方一起：kita 包括对方。",
+       "ja": "食堂で昼ご飯にしようか。—— 相手を誘っている：kita は相手を含みます。",
+       "en": "Let’s have lunch at the canteen, shall we? — An invitation: kita includes the person you are asking.",
+       "vi": "Chúng ta ăn trưa ở căng tin nhé? — Rủ người kia đi cùng: kita gồm cả người nghe."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "Saudara 和 beliau",
+     "ja": "Saudara と beliau",
+     "en": "Saudara and beliau",
+     "vi": "Saudara và beliau"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>Saudara</s> 是正式的「您」，多用于书面、演讲、公文。对着一群人说，就用 <s>Saudara sekalian</s> 或 <s>Saudara-saudara</s>（「各位」）—— 开会、上台、致辞时用。平时对陌生人，说 <s>Bapak</s> / <s>Ibu</s> / <s>Mas</s> / <s>Mbak</s> 更自然。",
+       "ja": "<s>Saudara</s> はあらたまった「あなた」で、書きことば・スピーチ・公文書によく出てきます。大勢に向かって言うときは <s>Saudara sekalian</s> か <s>Saudara-saudara</s>（「みなさん」）—— 会議や壇上でのあいさつで使います。ふだん知らない人には <s>Bapak</s>／<s>Ibu</s>／<s>Mas</s>／<s>Mbak</s> のほうが自然です。",
+       "en": "<s>Saudara</s> is a formal “you”, common in writing, speeches and official letters. Addressing a group, use <s>Saudara sekalian</s> or <s>Saudara-saudara</s> (“ladies and gentlemen”) — for meetings and speaking from the front. With a stranger in daily life, <s>Bapak</s> / <s>Ibu</s> / <s>Mas</s> / <s>Mbak</s> sounds more natural.",
+       "vi": "<s>Saudara</s> là “bạn / quý vị” trang trọng, hay gặp trong văn viết, bài phát biểu, công văn. Nói trước đông người thì dùng <s>Saudara sekalian</s> hoặc <s>Saudara-saudara</s> (“thưa quý vị”) — khi họp, lên phát biểu. Ngoài đời gặp người lạ, gọi <s>Bapak</s> / <s>Ibu</s> / <s>Mas</s> / <s>Mbak</s> tự nhiên hơn."
+      }
+     },
+     {
+      "text": {
+       "zh": "<s>beliau</s> 是第三人称的敬称，讲老师、长辈、领导时用：<s>Itu Bu Ratna. Beliau dosen UGM.</s> 讲同学、朋友、小孩，用 <s>dia</s> 就好。",
+       "ja": "<s>beliau</s> は三人称の敬称で、先生・目上の人・上司について話すときに使います：<s>Itu Bu Ratna. Beliau dosen UGM.</s> 同級生や友だち、子どもについては <s>dia</s> で十分です。",
+       "en": "<s>beliau</s> is the respectful third person, for teachers, elders and superiors: <s>Itu Bu Ratna. Beliau dosen UGM.</s> For classmates, friends and children, <s>dia</s> is the word.",
+       "vi": "<s>beliau</s> là ngôi thứ ba kính trọng, dùng khi nói về giáo viên, người lớn tuổi, cấp trên: <s>Itu Bu Ratna. Beliau dosen UGM.</s> — giống “thầy ấy / cô ấy / ông ấy / bà ấy” trong tiếng Việt. Nói về bạn bè, bạn học, trẻ con thì dùng <s>dia</s>."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "笔误修正",
+     "ja": "誤植の訂正",
+     "en": "Typo in the handout",
+     "vi": "Sửa lỗi in"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "讲义把 <s>Saudara sekalian</s> 和 <s>Saudara-saudara</s> 写成了小写。<s>Saudara</s> 当称呼用时和 <s>Anda</s> 一样要大写，课本也是这么印的。另外讲义例句里的 bahasa <b>indonesia</b> 应写作 bahasa <b>Indonesia</b> —— 国名永远大写。",
+       "ja": "プリントでは <s>Saudara sekalian</s>・<s>Saudara-saudara</s> が小文字で書かれています。呼びかけの <s>Saudara</s> は <s>Anda</s> と同じく大文字で書き、教科書もそうなっています。また例文の bahasa <b>indonesia</b> は bahasa <b>Indonesia</b> が正しく、国名はつねに大文字です。",
+       "en": "The handout writes <s>Saudara sekalian</s> and <s>Saudara-saudara</s> in lower case. As a form of address, <s>Saudara</s> is capitalised like <s>Anda</s>, and that is how the book prints it. The handout’s bahasa <b>indonesia</b> should also be bahasa <b>Indonesia</b> — country names are always capitalised.",
+       "vi": "Tờ bài giảng viết thường <s>Saudara sekalian</s> và <s>Saudara-saudara</s>. Khi dùng để xưng hô, <s>Saudara</s> viết hoa như <s>Anda</s>, sách giáo khoa cũng in như vậy. Ngoài ra bahasa <b>indonesia</b> trong ví dụ phải là bahasa <b>Indonesia</b> — tên nước luôn viết hoa."
+      }
+     }
+    ]
+   },
+   {
+    "k": "fillblank",
+    "title": {
+     "zh": "填上合适的代词",
+     "ja": "ふさわしい代名詞を入れる",
+     "en": "Fill in the right pronoun",
+     "vi": "Điền đại từ thích hợp"
+    },
+    "items": [
+     {
+      "pre": "Itu Bu Ratna.",
+      "ans": "Beliau",
+      "post": "dosen UGM.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "那位是 Ratna 老师。她是 UGM 的老师。",
+       "ja": "あちらは Ratna 先生です。UGM の先生です。",
+       "en": "That is Bu Ratna. She teaches at UGM.",
+       "vi": "Kia là cô Ratna. Cô ấy là giảng viên UGM."
+      }
+     },
+     {
+      "pre": "Itu teman-teman saya.",
+      "ans": "Mereka",
+      "post": "mahasiswa INCULS.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "那些是我的朋友。他们是 INCULS 的学生。",
+       "ja": "あちらはわたしの友だちです。みんな INCULS の学生です。",
+       "en": "Those are my friends. They are INCULS students.",
+       "vi": "Kia là các bạn của tôi. Họ là sinh viên INCULS."
+      }
+     },
+     {
+      "pre": "Maaf, Bu,",
+      "ans": "Anda",
+      "post": "dari mana?",
+      "reg": "formal",
+      "gloss": {
+       "zh": "不好意思，女士，您来自哪里？",
+       "ja": "すみません、あなたはどちらのご出身ですか。",
+       "en": "Excuse me, Bu, where are you from?",
+       "vi": "Xin lỗi cô, cô đến từ đâu ạ?"
+      }
+     },
+     {
+      "pre": "Halo, Zach! Sekarang",
+      "ans": "kita",
+      "post": "makan siang, ya?",
+      "reg": "casual",
+      "gloss": {
+       "zh": "嗨，Zach！我们现在去吃午饭吧？",
+       "ja": "やあ、Zach！今から昼ご飯にしようか。",
+       "en": "Hi Zach! Shall we have lunch now?",
+       "vi": "Chào Zach! Giờ chúng ta đi ăn trưa nhé?"
+      }
+     },
+     {
+      "pre": "Selamat pagi, Pak.",
+      "ans": "Kami",
+      "post": "mahasiswa baru.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "早上好，老师。我们是新生。",
+       "ja": "おはようございます、先生。わたしたちは新入生です。",
+       "en": "Good morning, Pak. We are new students.",
+       "vi": "Chào buổi sáng thầy. Chúng tôi là sinh viên mới."
+      }
+     },
+     {
+      "pre": "Wayan, Ani, apakah",
+      "ans": "kalian",
+      "post": "tinggal di Yogyakarta?",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "Wayan、Ani，你们住在日惹吗？",
+       "ja": "Wayan、Ani、あなたたちはジョグジャに住んでいますか。",
+       "en": "Wayan, Ani, do you two live in Yogyakarta?",
+       "vi": "Wayan, Ani, các bạn sống ở Yogyakarta à?"
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "用指定的代词造句",
+     "ja": "指定の代名詞で文を作る",
+     "en": "Make a sentence with the given pronoun",
+     "vi": "Đặt câu với đại từ cho sẵn"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "aku · 我是大学生。",
+        "ja": "aku · わたしは大学生です。",
+        "en": "aku · I am a university student.",
+        "vi": "aku · Tôi là sinh viên."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Aku mahasiswa.",
+       "reg": "casual",
+       "alt": null,
+       "kw": [
+        "aku"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "beliau · 她（那位老师）来自巴厘岛。",
+        "ja": "beliau · あの先生はバリ島の出身です。",
+        "en": "beliau · She (the teacher) is from Bali.",
+        "vi": "beliau · Cô ấy (cô giáo) đến từ Bali."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Beliau dari Bali.",
+       "reg": "formal",
+       "alt": null,
+       "kw": [
+        "beliau"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "kita · 我们（包括你）现在在食堂吃饭。",
+        "ja": "kita · わたしたち（あなたも）は今、食堂で食べます。",
+        "en": "kita · We (you included) are eating at the canteen now.",
+        "vi": "kita · Chúng ta (có cả bạn) giờ ăn ở căng tin."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sekarang kita makan di kantin.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "kita"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "mereka · 他们住在雅加达。",
+        "ja": "mereka · かれらはジャカルタに住んでいます。",
+        "en": "mereka · They live in Jakarta.",
+        "vi": "mereka · Họ sống ở Jakarta."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Mereka tinggal di Jakarta.",
+       "reg": "neutral",
+       "alt": null,
+       "kw": [
+        "mereka"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "Saudara sekalian · 各位，早上好。",
+        "ja": "Saudara sekalian · みなさん、おはようございます。",
+        "en": "Saudara sekalian · Good morning, everyone.",
+        "vi": "Saudara sekalian · Chào buổi sáng quý vị."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Selamat pagi, Saudara sekalian.",
+       "reg": "formal",
+       "alt": null,
+       "kw": [
+        "saudara sekalian"
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
     "title": "Angka",
     "sub": {
      "zh": "数字 · 0 到 19",

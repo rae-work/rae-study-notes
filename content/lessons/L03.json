@@ -1,0 +1,3461 @@
+{
+ "num": 3,
+ "source": "INCULS · Titian Bahasa Pemula 1 · Bab 3 Angka, Hari, Bulan, Tahun（课本第 23、34–36 页 + 课堂讲义 Kalimat Sederhana；第 2–8 页按课本目标补写，课本第 24–33 页待对照）",
+ "reg_default": "formal",
+ "name": {
+  "zh": "数字、星期、月份与年份",
+  "ja": "数・曜日・月・年",
+  "en": "Numbers, days, months and years",
+  "vi": "Số đếm, thứ, tháng và năm"
+ },
+ "pages": [
+  [
+   {
+    "k": "phead",
+    "title": "Angka, Hari, Bulan, Tahun",
+    "sub": {
+     "zh": "数字、星期、月份与年份",
+     "ja": "数・曜日・月・年",
+     "en": "Numbers, days, months and years",
+     "vi": "Số đếm, thứ, tháng và năm"
+    },
+    "cat": "intro"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "这一章把数字往上数到一百万，再学序数、星期、月份、日期和年份，四个新的疑问词；最后是课堂讲义的重点 —— 印尼语的四种简单句。",
+     "ja": "この章では数を百万まで数え、序数、曜日、月、日付と年、新しい疑問詞を四つ学びます。最後は授業プリントの中心である、インドネシア語の四つの単純文です。",
+     "en": "This chapter counts up to a million, then covers ordinals, days, months, dates and years, and four new question words. It ends with the core of the class handout: the four simple sentence patterns of Indonesian.",
+     "vi": "Bài này đếm số lên tới một triệu, rồi học số thứ tự, các thứ trong tuần, tháng, ngày tháng năm và bốn từ để hỏi mới; cuối cùng là trọng tâm của tài liệu trên lớp — bốn mẫu câu đơn giản của tiếng Indonesia."
+    }
+   },
+   {
+    "k": "mini",
+    "text": {
+     "zh": "学完这一章",
+     "ja": "この章を終えると",
+     "en": "By the end of this chapter",
+     "vi": "Học xong bài này"
+    }
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "课本列的目标",
+     "ja": "教科書が挙げる目標",
+     "en": "The book's objectives",
+     "vi": "Mục tiêu sách giáo khoa nêu ra"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<b>听</b>　听得出跟数字、星期、月份、年份有关的简单词和短语。",
+       "ja": "<b>聞く</b>　数・曜日・月・年に関する簡単な語や句を聞き取る。",
+       "en": "<b>Listening</b>　Recognise simple words and phrases about numbers, days, months and years.",
+       "vi": "<b>Nghe</b>　Nhận ra được những từ và cụm từ đơn giản về số, thứ, tháng và năm."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>读</b>　读懂跟数字、星期、月份、年份有关的简短文章。",
+       "ja": "<b>読む</b>　数・曜日・月・年に関する短く簡単な文章を理解する。",
+       "en": "<b>Reading</b>　Understand short, simple texts about numbers, days, months and years.",
+       "vi": "<b>Đọc</b>　Hiểu được những đoạn văn ngắn, đơn giản về số, thứ, tháng và năm."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>词汇</b>　会用星期、月份、年份的词；会用数字和序数；会用疑问词 <s>bagaimana</s>、<s>kapan</s>、<s>berapa</s>、<s>ke berapa</s>。",
+       "ja": "<b>語彙</b>　曜日・月・年の語彙を使う。数と序数を使う。疑問詞 <s>bagaimana</s>・<s>kapan</s>・<s>berapa</s>・<s>ke berapa</s> を使う。",
+       "en": "<b>Vocabulary</b>　Use the words for days, months and years; use numbers and ordinals; use the question words <s>bagaimana</s>, <s>kapan</s>, <s>berapa</s>, <s>ke berapa</s>.",
+       "vi": "<b>Từ vựng</b>　Dùng được từ chỉ thứ, tháng, năm; dùng được số đếm và số thứ tự; dùng được từ để hỏi <s>bagaimana</s>, <s>kapan</s>, <s>berapa</s>, <s>ke berapa</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>语法</b>　会用四种简单句：名词 + 名词、名词 + 形容词、名词 + 动词、名词 + 介词。",
+       "ja": "<b>文法</b>　四つの単純文を使う：名詞＋名詞、名詞＋形容詞、名詞＋動詞、名詞＋前置詞。",
+       "en": "<b>Grammar</b>　Use the four simple sentence patterns: noun + noun, noun + adjective, noun + verb, noun + preposition.",
+       "vi": "<b>Ngữ pháp</b>　Dùng được bốn mẫu câu đơn giản: danh từ + danh từ, danh từ + tính từ, danh từ + động từ, danh từ + giới từ."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>说 · 写</b>　用简单句说出、写出数字、星期、月份和年份（写 25–30 个词）。",
+       "ja": "<b>話す・書く</b>　数・曜日・月・年について簡単な文で述べ、25〜30 語で書く。",
+       "en": "<b>Speaking · Writing</b>　Talk and write about numbers, days, months and years in simple sentences (25–30 words in writing).",
+       "vi": "<b>Nói · Viết</b>　Nói và viết về số, thứ, tháng, năm bằng những câu đơn giản (bài viết 25–30 từ)."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "这一课的材料",
+     "ja": "この課の材料について",
+     "en": "About the material for this chapter",
+     "vi": "Về tài liệu của bài này"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "课本这一章的语法部分（第 34–36 页）和课堂讲义是完整的；词汇部分（第 24–33 页）手头还没有扫描件，第 2–8 页是按课本列的目标和标准用法补写的，拿到课本后再逐页对照。",
+       "ja": "この章の文法部分（34〜36 ページ）と授業プリントはそろっています。語彙部分（24〜33 ページ）はまだ手もとにスキャンがないため、2〜8 ページは教科書の目標と標準的な用法にもとづいて補ったものです。教科書が手に入ったら照らし合わせます。",
+       "en": "The grammar section of this chapter (pages 34–36) and the class handout are complete. The vocabulary pages (24–33) are not scanned yet, so pages 2–8 here were written from the book’s stated objectives and standard usage; they will be checked against the book page by page later.",
+       "vi": "Phần ngữ pháp của bài này (trang 34–36) và tài liệu trên lớp đã đầy đủ; phần từ vựng (trang 24–33) chưa có bản quét, nên các trang 2–8 ở đây được viết theo mục tiêu của sách và cách dùng chuẩn, sau này sẽ đối chiếu lại từng trang với sách."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Angka Ratusan dan Ribuan",
+    "sub": {
+     "zh": "一百以上的数",
+     "ja": "百以上の数",
+     "en": "Numbers from 100 up",
+     "vi": "Số từ 100 trở lên"
+    },
+    "cat": "kosakata"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "Bab 1 数到 99。这一页往上：百、千、万、百万。规律只有一条：<s>se-</s> 就是「一」。",
+     "ja": "Bab 1 では 99 まで数えました。ここから上へ：百、千、万、百万。ルールは一つだけ、<s>se-</s> は「一」です。",
+     "en": "Bab 1 counted to 99. This page goes higher: hundreds, thousands and a million. There is only one rule to learn: <s>se-</s> means “one”.",
+     "vi": "Bab 1 đếm đến 99. Trang này đếm tiếp: trăm, nghìn, triệu. Chỉ có một quy tắc: <s>se-</s> nghĩa là “một”."
+    }
+   },
+   {
+    "k": "numgrp",
+    "glab": {
+     "zh": "百 · ratusan",
+     "ja": "百の位 · ratusan",
+     "en": "Hundreds · ratusan",
+     "vi": "Hàng trăm · ratusan"
+    },
+    "items": [
+     [
+      "100",
+      "seratus"
+     ],
+     [
+      "200",
+      "dua ratus"
+     ],
+     [
+      "500",
+      "lima ratus"
+     ],
+     [
+      "900",
+      "sembilan ratus"
+     ]
+    ]
+   },
+   {
+    "k": "numgrp",
+    "glab": {
+     "zh": "千、万、百万 · ribuan",
+     "ja": "千・万・百万 · ribuan",
+     "en": "Thousands and a million · ribuan",
+     "vi": "Hàng nghìn và triệu · ribuan"
+    },
+    "items": [
+     [
+      "1.000",
+      "seribu"
+     ],
+     [
+      "2.000",
+      "dua ribu"
+     ],
+     [
+      "10.000",
+      "sepuluh ribu"
+     ],
+     [
+      "100.000",
+      "seratus ribu"
+     ],
+     [
+      "1.000.000",
+      "sejuta"
+     ]
+    ]
+   },
+   {
+    "k": "pattern",
+    "code": "<b>se-</b> + ratus / ribu / juta　→　seratus · seribu · sejuta",
+    "note": {
+     "zh": "<s>se-</s> 是 satu（一）的缩写。一百、一千、一百万都不说 satu ratus、satu ribu。",
+     "ja": "<s>se-</s> は satu（一）の縮まった形です。百・千・百万は satu ratus・satu ribu とは言いません。",
+     "en": "<s>se-</s> is a shortened satu (“one”). One hundred, one thousand and one million are never satu ratus, satu ribu.",
+     "vi": "<s>se-</s> là dạng rút gọn của satu (“một”). Một trăm, một nghìn, một triệu không nói satu ratus, satu ribu."
+    }
+   },
+   {
+    "k": "mini",
+    "text": {
+     "zh": "组合起来读",
+     "ja": "つなげて読む",
+     "en": "Reading a whole number",
+     "vi": "Đọc cả con số"
+    }
+   },
+   {
+    "k": "numgrp",
+    "ans": true,
+    "glab": {
+     "zh": "先自己读，再点开看",
+     "ja": "まず自分で読んでから開く",
+     "en": "Read it yourself first, then reveal",
+     "vi": "Bạn tự đọc trước, rồi mở ra xem"
+    },
+    "items": [
+     [
+      "125",
+      "seratus dua puluh lima"
+     ],
+     [
+      "1.250",
+      "seribu dua ratus lima puluh"
+     ],
+     [
+      "2.026",
+      "dua ribu dua puluh enam"
+     ],
+     [
+      "15.000",
+      "lima belas ribu"
+     ],
+     [
+      "250.000",
+      "dua ratus lima puluh ribu"
+     ]
+    ]
+   },
+   {
+    "k": "pattern",
+    "code": "seribu + dua ratus + lima puluh　→　<b>1.250</b>",
+    "note": {
+     "zh": "从大到小依次念，中间不加「零」也不加「和」。中文的「一千零五」在印尼语只是 seribu lima。",
+     "ja": "大きい位から順に読み、あいだに何も入れません。日本語の「千五」と同じで、seribu lima です。",
+     "en": "Read from the largest unit down, with no “and” in between: 1.005 is simply seribu lima.",
+     "vi": "Đọc từ hàng lớn xuống hàng nhỏ, ở giữa không thêm gì. Số 1.005 chỉ là seribu lima — tiếng Việt phải nói “không trăm lẻ”, tiếng Indonesia thì không."
+    }
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "按「千」分组，不按「万」",
+     "ja": "「万」ではなく「千」で区切る",
+     "en": "Grouped by thousands",
+     "vi": "Chia nhóm theo nghìn"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "中文按「万」数，印尼语按「千」数：一万是 <s>sepuluh ribu</s>（十个千），十万是 <s>seratus ribu</s>（一百个千），到一百万才有新词 <s>sejuta</s>。说大数之前先在心里换算一下。",
+       "ja": "日本語は「万」で数えますが、インドネシア語は「千」で数えます。一万は <s>sepuluh ribu</s>（十の千）、十万は <s>seratus ribu</s>（百の千）、百万でようやく新しい語 <s>sejuta</s> が出てきます。大きな数を言う前に、頭の中で換算してください。",
+       "en": "Indonesian groups by thousands just like English: ten thousand is <s>sepuluh ribu</s>, a hundred thousand is <s>seratus ribu</s>, and a new word only appears at a million, <s>sejuta</s>.",
+       "vi": "Tiếng Indonesia chia nhóm theo nghìn, giống hệt tiếng Việt: mười nghìn là <s>sepuluh ribu</s>, một trăm nghìn là <s>seratus ribu</s>, đến một triệu mới có từ mới <s>sejuta</s>. Bạn cứ dịch thẳng từ tiếng Việt là đúng."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "点和逗号",
+     "ja": "点とコンマ",
+     "en": "Dots and commas",
+     "vi": "Dấu chấm và dấu phẩy"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "印尼语用<b>点</b>分千位、用<b>逗号</b>表小数，跟中文和英文正好相反：Rp 15.000 是一万五千盾，2,5 是二点五。",
+       "ja": "インドネシア語では千の位の区切りに<b>点</b>、小数点に<b>コンマ</b>を使います。日本語や英語とは逆です：Rp 15.000 は一万五千ルピア、2,5 は二・五です。",
+       "en": "Indonesian uses a <b>dot</b> to separate thousands and a <b>comma</b> for decimals — the reverse of English: Rp 15.000 is fifteen thousand rupiah, and 2,5 is two and a half.",
+       "vi": "Tiếng Indonesia dùng <b>dấu chấm</b> ngăn hàng nghìn và <b>dấu phẩy</b> cho phần thập phân, giống hệt tiếng Việt: Rp 15.000 là mười lăm nghìn rupiah, 2,5 là hai phẩy năm."
+      }
+     }
+    ]
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Ini seratus ribu rupiah.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "seratus ribu"
+      ],
+      "gloss": {
+       "zh": "这是十万盾。",
+       "ja": "これは十万ルピアです。",
+       "en": "This is a hundred thousand rupiah.",
+       "vi": "Đây là một trăm nghìn rupiah."
+      }
+     },
+     {
+      "id": "Buku itu lima puluh ribu rupiah.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "lima puluh ribu"
+      ],
+      "gloss": {
+       "zh": "那本书五万盾。",
+       "ja": "あの本は五万ルピアです。",
+       "en": "That book is fifty thousand rupiah.",
+       "vi": "Quyển sách kia năm mươi nghìn rupiah."
+      }
+     },
+     {
+      "id": "Sekarang tahun dua ribu dua puluh enam.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "dua ribu"
+      ],
+      "gloss": {
+       "zh": "现在是 2026 年。",
+       "ja": "いまは 2026 年です。",
+       "en": "It is now 2026.",
+       "vi": "Bây giờ là năm 2026."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Bilangan Tingkat",
+    "sub": {
+     "zh": "第几：序数",
+     "ja": "序数",
+     "en": "Ordinal numbers",
+     "vi": "Số thứ tự"
+    },
+    "cat": "kosakata"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "序数 = <s>ke-</s> + 数字。只有「第一」特殊，是 <s>pertama</s>。",
+     "ja": "序数は <s>ke-</s> ＋ 数です。「第一」だけ特別で、<s>pertama</s> と言います。",
+     "en": "Ordinals are <s>ke-</s> + the number. Only “first” is special: <s>pertama</s>.",
+     "vi": "Số thứ tự = <s>ke-</s> + số đếm. Chỉ có “thứ nhất” là đặc biệt: <s>pertama</s>."
+    }
+   },
+   {
+    "k": "numgrp",
+    "glab": {
+     "zh": "序数 · bilangan tingkat",
+     "ja": "序数 · bilangan tingkat",
+     "en": "Ordinals · bilangan tingkat",
+     "vi": "Số thứ tự · bilangan tingkat"
+    },
+    "items": [
+     [
+      "ke-1",
+      "pertama"
+     ],
+     [
+      "ke-2",
+      "kedua"
+     ],
+     [
+      "ke-3",
+      "ketiga"
+     ],
+     [
+      "ke-4",
+      "keempat"
+     ],
+     [
+      "ke-5",
+      "kelima"
+     ],
+     [
+      "ke-6",
+      "keenam"
+     ],
+     [
+      "ke-7",
+      "ketujuh"
+     ],
+     [
+      "ke-8",
+      "kedelapan"
+     ],
+     [
+      "ke-9",
+      "kesembilan"
+     ],
+     [
+      "ke-10",
+      "kesepuluh"
+     ],
+     [
+      "ke-11",
+      "kesebelas"
+     ],
+     [
+      "ke-20",
+      "kedua puluh"
+     ]
+    ]
+   },
+   {
+    "k": "pattern",
+    "code": "<b>ke-</b> + angka　→　ketiga · kesepuluh",
+    "note": {
+     "zh": "写成单词时连写（ketiga），写成数字时才加连字符（ke-3）。「第一」用 pertama，不说 kesatu。",
+     "ja": "語で書くときはつなげて書き（ketiga）、数字で書くときだけハイフンを入れます（ke-3）。「第一」は pertama で、kesatu とは言いません。",
+     "en": "Written as a word it is joined (ketiga); the hyphen appears only with a digit (ke-3). “First” is pertama, not kesatu.",
+     "vi": "Viết bằng chữ thì viết liền (ketiga), chỉ khi viết bằng số mới có gạch nối (ke-3). “Thứ nhất” là pertama, không nói kesatu."
+    }
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "序数跟在名词后面",
+     "ja": "序数は名詞の後ろ",
+     "en": "The ordinal follows the noun",
+     "vi": "Số thứ tự đứng sau danh từ"
+    },
+    "items": [
+     {
+      "id": "Ini hari pertama.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "pertama"
+      ],
+      "gloss": {
+       "zh": "这是第一天。",
+       "ja": "これは初日です。",
+       "en": "This is the first day.",
+       "vi": "Đây là ngày đầu tiên."
+      }
+     },
+     {
+      "id": "Dia anak kedua.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kedua"
+      ],
+      "gloss": {
+       "zh": "他是老二。",
+       "ja": "かれは二番目の子です。",
+       "en": "He is the second child.",
+       "vi": "Anh ấy là con thứ hai."
+      }
+     },
+     {
+      "id": "Ini kuliah ketiga.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ketiga"
+      ],
+      "gloss": {
+       "zh": "这是第三次课。",
+       "ja": "これは三回目の授業です。",
+       "en": "This is the third class.",
+       "vi": "Đây là buổi học thứ ba."
+      }
+     },
+     {
+      "id": "Saya yang kedua.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "yang"
+      ],
+      "gloss": {
+       "zh": "我是第二个。",
+       "ja": "わたしは二番目です。",
+       "en": "I am the second one.",
+       "vi": "Tôi là người thứ hai."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "yang pertama",
+     "ja": "yang pertama",
+     "en": "yang pertama",
+     "vi": "yang pertama"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "序数跟别的修饰语一样<b>放在名词后面</b>：<s>hari pertama</s>、<s>anak kedua</s>。单独说「第一个、第二个」时，前面加 <s>yang</s>：<s>yang pertama</s>、<s>yang kedua</s>。",
+       "ja": "序数もほかの修飾語と同じく<b>名詞の後ろ</b>に置きます：<s>hari pertama</s>・<s>anak kedua</s>。名詞なしで「一番目のもの」と言うときは前に <s>yang</s> をつけます：<s>yang pertama</s>・<s>yang kedua</s>。",
+       "en": "Like other modifiers, the ordinal <b>follows the noun</b>: <s>hari pertama</s>, <s>anak kedua</s>. To say “the first one, the second one” without a noun, put <s>yang</s> in front: <s>yang pertama</s>, <s>yang kedua</s>.",
+       "vi": "Cũng như các từ bổ nghĩa khác, số thứ tự <b>đứng sau danh từ</b>, giống tiếng Việt: <s>hari pertama</s>, <s>anak kedua</s>. Khi nói “cái thứ nhất, cái thứ hai” mà không có danh từ thì thêm <s>yang</s> phía trước: <s>yang pertama</s>, <s>yang kedua</s>."
+      }
+     }
+    ]
+   },
+   {
+    "k": "sec",
+    "num": "",
+    "word": "ke berapa",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "问「第几」",
+     "ja": "「何番目」とたずねる",
+     "en": "asking “which number”",
+     "vi": "hỏi “thứ mấy”"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Anda anak ke berapa?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ke berapa"
+      ],
+      "gloss": {
+       "zh": "您是老几？",
+       "ja": "あなたは何番目のお子さんですか。",
+       "en": "Which child are you (in the family)?",
+       "vi": "Bạn là con thứ mấy?"
+      }
+     },
+     {
+      "id": "Saya anak kedua.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kedua"
+      ],
+      "gloss": {
+       "zh": "我是老二。",
+       "ja": "わたしは二番目の子です。",
+       "en": "I am the second child.",
+       "vi": "Tôi là con thứ hai."
+      }
+     },
+     {
+      "id": "Ini kuliah ke berapa?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ke berapa"
+      ],
+      "gloss": {
+       "zh": "这是第几次课？",
+       "ja": "これは何回目の授業ですか。",
+       "en": "Which class is this?",
+       "vi": "Đây là buổi học thứ mấy?"
+      }
+     },
+     {
+      "id": "Kuliah ketiga.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ketiga"
+      ],
+      "gloss": {
+       "zh": "第三次。",
+       "ja": "三回目です。",
+       "en": "The third.",
+       "vi": "Buổi thứ ba."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "berapa 和 ke berapa",
+     "ja": "berapa と ke berapa",
+     "en": "berapa vs ke berapa",
+     "vi": "berapa và ke berapa"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>berapa</s> 问「多少」，答的是数量：<s>dua</s>。<s>ke berapa</s> 问「第几」，答的是序数：<s>kedua</s>。问句里有 ke-，回答里也要有 ke-。",
+       "ja": "<s>berapa</s> は「いくつ」で、答えは数量の <s>dua</s>。<s>ke berapa</s> は「何番目」で、答えは序数の <s>kedua</s>。質問に ke- があれば答えにも ke- が要ります。",
+       "en": "<s>berapa</s> asks “how many” and is answered with a quantity: <s>dua</s>. <s>ke berapa</s> asks “which number in order” and is answered with an ordinal: <s>kedua</s>. If the question has ke-, the answer needs it too.",
+       "vi": "<s>berapa</s> hỏi “bao nhiêu”, trả lời bằng số lượng: <s>dua</s>. <s>ke berapa</s> hỏi “thứ mấy”, trả lời bằng số thứ tự: <s>kedua</s>. Câu hỏi có ke- thì câu trả lời cũng phải có ke-."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Nama Hari",
+    "sub": {
+     "zh": "星期",
+     "ja": "曜日",
+     "en": "Days of the week",
+     "vi": "Các thứ trong tuần"
+    },
+    "cat": "kosakata"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "一周七天。星期名是专名，<b>首字母大写</b>，前面通常带 <s>hari</s>。",
+     "ja": "一週間の七日。曜日名は固有名詞として<b>頭文字を大文字</b>で書き、ふつう前に <s>hari</s> をつけます。",
+     "en": "The seven days of the week. Day names are proper nouns, <b>capitalised</b>, and usually preceded by <s>hari</s>.",
+     "vi": "Bảy ngày trong tuần. Tên thứ là danh từ riêng, <b>viết hoa chữ đầu</b>, thường có <s>hari</s> đứng trước."
+    }
+   },
+   {
+    "k": "vocab",
+    "items": [
+     {
+      "w": "Senin",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "星期一",
+       "ja": "月曜日",
+       "en": "Monday",
+       "vi": "thứ Hai"
+      }
+     },
+     {
+      "w": "Selasa",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "星期二",
+       "ja": "火曜日",
+       "en": "Tuesday",
+       "vi": "thứ Ba"
+      }
+     },
+     {
+      "w": "Rabu",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "星期三",
+       "ja": "水曜日",
+       "en": "Wednesday",
+       "vi": "thứ Tư"
+      }
+     },
+     {
+      "w": "Kamis",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "星期四",
+       "ja": "木曜日",
+       "en": "Thursday",
+       "vi": "thứ Năm"
+      }
+     },
+     {
+      "w": "Jumat",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "星期五",
+       "ja": "金曜日",
+       "en": "Friday",
+       "vi": "thứ Sáu"
+      }
+     },
+     {
+      "w": "Sabtu",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "星期六",
+       "ja": "土曜日",
+       "en": "Saturday",
+       "vi": "thứ Bảy"
+      }
+     },
+     {
+      "w": "Minggu",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "星期日",
+       "ja": "日曜日",
+       "en": "Sunday",
+       "vi": "Chủ nhật"
+      }
+     }
+    ]
+   },
+   {
+    "k": "sec",
+    "num": "",
+    "word": "hari ini, besok, kemarin",
+    "reg": "neutral",
+    "gloss": {
+     "zh": "今天、明天、昨天",
+     "ja": "きょう・あした・きのう",
+     "en": "today, tomorrow, yesterday",
+     "vi": "hôm nay, ngày mai, hôm qua"
+    }
+   },
+   {
+    "k": "vocab",
+    "items": [
+     {
+      "w": "kemarin",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "昨天",
+       "ja": "きのう",
+       "en": "yesterday",
+       "vi": "hôm qua"
+      }
+     },
+     {
+      "w": "hari ini",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "今天",
+       "ja": "きょう",
+       "en": "today",
+       "vi": "hôm nay"
+      }
+     },
+     {
+      "w": "besok",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "明天",
+       "ja": "あした",
+       "en": "tomorrow",
+       "vi": "ngày mai"
+      }
+     },
+     {
+      "w": "lusa",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "后天",
+       "ja": "あさって",
+       "en": "the day after tomorrow",
+       "vi": "ngày kia"
+      }
+     }
+    ]
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "问星期几",
+     "ja": "何曜日かたずねる",
+     "en": "Asking the day",
+     "vi": "Hỏi thứ"
+    },
+    "items": [
+     {
+      "id": "Hari ini hari apa?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "hari apa"
+      ],
+      "gloss": {
+       "zh": "今天星期几？",
+       "ja": "きょうは何曜日ですか。",
+       "en": "What day is it today?",
+       "vi": "Hôm nay là thứ mấy?"
+      }
+     },
+     {
+      "id": "Hari ini hari Senin.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "Senin"
+      ],
+      "gloss": {
+       "zh": "今天星期一。",
+       "ja": "きょうは月曜日です。",
+       "en": "Today is Monday.",
+       "vi": "Hôm nay là thứ Hai."
+      }
+     },
+     {
+      "id": "Besok hari apa?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "besok"
+      ],
+      "gloss": {
+       "zh": "明天星期几？",
+       "ja": "あしたは何曜日ですか。",
+       "en": "What day is it tomorrow?",
+       "vi": "Ngày mai là thứ mấy?"
+      }
+     },
+     {
+      "id": "Besok hari Selasa.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "Selasa"
+      ],
+      "gloss": {
+       "zh": "明天星期二。",
+       "ja": "あしたは火曜日です。",
+       "en": "Tomorrow is Tuesday.",
+       "vi": "Ngày mai là thứ Ba."
+      }
+     },
+     {
+      "id": "Kemarin hari Minggu.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kemarin"
+      ],
+      "gloss": {
+       "zh": "昨天是星期日。",
+       "ja": "きのうは日曜日でした。",
+       "en": "Yesterday was Sunday.",
+       "vi": "Hôm qua là Chủ nhật."
+      }
+     },
+     {
+      "id": "Lusa hari Rabu.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "lusa"
+      ],
+      "gloss": {
+       "zh": "后天是星期三。",
+       "ja": "あさっては水曜日です。",
+       "en": "The day after tomorrow is Wednesday.",
+       "vi": "Ngày kia là thứ Tư."
+      }
+     },
+     {
+      "id": "Hari Minggu libur.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "libur"
+      ],
+      "gloss": {
+       "zh": "星期日放假。",
+       "ja": "日曜日は休みです。",
+       "en": "Sunday is a day off.",
+       "vi": "Chủ nhật được nghỉ."
+      }
+     },
+     {
+      "id": "Ini jadwal kuliah saya.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "jadwal"
+      ],
+      "gloss": {
+       "zh": "这是我的课表。",
+       "ja": "これはわたしの授業の時間割です。",
+       "en": "This is my class schedule.",
+       "vi": "Đây là thời khóa biểu của tôi."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "课本没讲，但一定会卡住",
+     "ja": "教科書にはないが必ず引っかかるところ",
+     "en": "Not in the book, but it will trip you up",
+     "vi": "Sách không nói, nhưng chắc chắn sẽ vướng"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "问星期几用 <s>hari apa</s>，<b>不是</b> hari berapa —— 星期名是名字，不是数字。中文说「星期几」容易顺手用 berapa，那是错的。问「几号」才用 <s>tanggal berapa</s>（下两页）。",
+       "ja": "何曜日かは <s>hari apa</s> でたずねます。hari berapa <b>ではありません</b>。曜日は名前であって数ではないからです。日本語の「何曜日」につられて berapa を使わないように。「何日」をたずねるときだけ <s>tanggal berapa</s> を使います（二ページ先）。",
+       "en": "Ask the day with <s>hari apa</s>, <b>not</b> hari berapa — days have names, not numbers. Only the date takes <s>tanggal berapa</s> (two pages on).",
+       "vi": "Hỏi thứ thì dùng <s>hari apa</s>, <b>không phải</b> hari berapa — vì tên thứ là tên, không phải con số. Tiếng Việt nói “thứ mấy” nên bạn rất dễ buột miệng dùng berapa; như thế là sai. Chỉ khi hỏi “ngày mấy” mới dùng <s>tanggal berapa</s> (hai trang sau)."
+      }
+     },
+     {
+      "text": {
+       "zh": "大写的 <s>Minggu</s> 是星期日，小写的 <s>minggu</s> 是「一周」（Bab 1 学过 <s>dua minggu lalu</s>）。写的时候靠大小写分，说的时候靠前面有没有 <s>hari</s>。",
+       "ja": "大文字の <s>Minggu</s> は日曜日、小文字の <s>minggu</s> は「週」（Bab 1 の <s>dua minggu lalu</s>）。書くときは大文字小文字で、話すときは前に <s>hari</s> があるかどうかで区別します。",
+       "en": "Capital <s>Minggu</s> is Sunday; lower-case <s>minggu</s> is “week” (as in <s>dua minggu lalu</s> from Bab 1). In writing the capital tells them apart; in speech, whether <s>hari</s> comes before it.",
+       "vi": "<s>Minggu</s> viết hoa là Chủ nhật, <s>minggu</s> viết thường là “tuần” (Bab 1 đã học <s>dua minggu lalu</s>). Khi viết phân biệt bằng chữ hoa; khi nói phân biệt bằng việc có <s>hari</s> đứng trước hay không."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "星期名从哪来",
+     "ja": "曜日名の由来",
+     "en": "Where the names come from",
+     "vi": "Tên thứ từ đâu ra"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "Senin 到 Sabtu 来自阿拉伯语的数字（星期一是「二」，星期六是「七」），只有 Minggu 来自葡萄牙语 domingo。<s>Jumat</s> 现在的标准拼法不带撇号，老写法 Jum’at 还常见。",
+       "ja": "Senin から Sabtu まではアラビア語の数字が由来です（月曜が「二」、土曜が「七」）。Minggu だけはポルトガル語の domingo から来ています。<s>Jumat</s> の現在の標準つづりにはアポストロフィがなく、古い Jum’at もまだよく見かけます。",
+       "en": "Senin through Sabtu come from Arabic numerals (Monday is “two”, Saturday “seven”); only Minggu comes from Portuguese domingo. The standard spelling of <s>Jumat</s> has no apostrophe, though the older Jum’at is still common.",
+       "vi": "Từ Senin đến Sabtu bắt nguồn từ số đếm tiếng Ả Rập (thứ Hai là “hai”, thứ Bảy là “bảy”) — trùng hợp thú vị với cách gọi thứ bằng số của tiếng Việt; chỉ Minggu là từ tiếng Bồ Đào Nha domingo. Chính tả chuẩn hiện nay của <s>Jumat</s> không có dấu nháy, nhưng cách viết cũ Jum’at vẫn còn phổ biến."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Nama Bulan",
+    "sub": {
+     "zh": "月份",
+     "ja": "月の名前",
+     "en": "Months",
+     "vi": "Các tháng"
+    },
+    "cat": "kosakata"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "十二个月的名字跟英语同源，一眼能认出来。中文按「一月、二月」数数，印尼语是十二个名字，得一个个记。同样首字母大写，前面常带 <s>bulan</s>。",
+     "ja": "十二か月の名前は英語と同じ由来で、見ればすぐわかります。日本語は「一月、二月」と数で呼びますが、インドネシア語は十二の名前なので、一つずつ覚えます。こちらも頭文字は大文字で、前によく <s>bulan</s> をつけます。",
+     "en": "The twelve month names share their origin with English, so you will recognise them at once. They are capitalised and often preceded by <s>bulan</s>.",
+     "vi": "Tên mười hai tháng có cùng gốc với tiếng Anh, nhìn là nhận ra ngay. Tiếng Việt gọi tháng bằng số (tháng Một, tháng Hai), còn tiếng Indonesia là mười hai cái tên, phải học thuộc từng tên. Tên tháng cũng viết hoa chữ đầu và thường có <s>bulan</s> đứng trước."
+    }
+   },
+   {
+    "k": "vocab",
+    "items": [
+     {
+      "w": "Januari",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "一月",
+       "ja": "一月",
+       "en": "January",
+       "vi": "tháng Một"
+      }
+     },
+     {
+      "w": "Februari",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "二月",
+       "ja": "二月",
+       "en": "February",
+       "vi": "tháng Hai"
+      }
+     },
+     {
+      "w": "Maret",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "三月",
+       "ja": "三月",
+       "en": "March",
+       "vi": "tháng Ba"
+      }
+     },
+     {
+      "w": "April",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "四月",
+       "ja": "四月",
+       "en": "April",
+       "vi": "tháng Tư"
+      }
+     },
+     {
+      "w": "Mei",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "五月",
+       "ja": "五月",
+       "en": "May",
+       "vi": "tháng Năm"
+      }
+     },
+     {
+      "w": "Juni",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "六月",
+       "ja": "六月",
+       "en": "June",
+       "vi": "tháng Sáu"
+      }
+     },
+     {
+      "w": "Juli",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "七月",
+       "ja": "七月",
+       "en": "July",
+       "vi": "tháng Bảy"
+      }
+     },
+     {
+      "w": "Agustus",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "八月",
+       "ja": "八月",
+       "en": "August",
+       "vi": "tháng Tám"
+      }
+     },
+     {
+      "w": "September",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "九月",
+       "ja": "九月",
+       "en": "September",
+       "vi": "tháng Chín"
+      }
+     },
+     {
+      "w": "Oktober",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "十月",
+       "ja": "十月",
+       "en": "October",
+       "vi": "tháng Mười"
+      }
+     },
+     {
+      "w": "November",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "十一月",
+       "ja": "十一月",
+       "en": "November",
+       "vi": "tháng Mười Một"
+      }
+     },
+     {
+      "w": "Desember",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "十二月",
+       "ja": "十二月",
+       "en": "December",
+       "vi": "tháng Mười Hai"
+      }
+     }
+    ]
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "问几月",
+     "ja": "何月かたずねる",
+     "en": "Asking the month",
+     "vi": "Hỏi tháng"
+    },
+    "items": [
+     {
+      "id": "Bulan apa sekarang?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "bulan apa"
+      ],
+      "gloss": {
+       "zh": "现在几月？",
+       "ja": "いまは何月ですか。",
+       "en": "What month is it now?",
+       "vi": "Bây giờ là tháng mấy?"
+      }
+     },
+     {
+      "id": "Sekarang bulan September.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "September"
+      ],
+      "gloss": {
+       "zh": "现在是九月。",
+       "ja": "いまは九月です。",
+       "en": "It is September now.",
+       "vi": "Bây giờ là tháng Chín."
+      }
+     },
+     {
+      "id": "Bulan depan bulan Oktober.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "depan"
+      ],
+      "gloss": {
+       "zh": "下个月是十月。",
+       "ja": "来月は十月です。",
+       "en": "Next month is October.",
+       "vi": "Tháng sau là tháng Mười."
+      }
+     },
+     {
+      "id": "Bulan lalu bulan Agustus.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "lalu"
+      ],
+      "gloss": {
+       "zh": "上个月是八月。",
+       "ja": "先月は八月でした。",
+       "en": "Last month was August.",
+       "vi": "Tháng trước là tháng Tám."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "这个 · 下个 · 上个",
+     "ja": "今・来・先",
+     "en": "This, next, last",
+     "vi": "Này · sau · trước"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>bulan ini</s> 这个月、<s>bulan depan</s> 下个月、<s>bulan lalu</s> 上个月。<s>depan</s> 本义是「前面」，<s>lalu</s> 是「过去了的」。同一套词用在周和年上：<s>minggu depan</s> 下周、<s>tahun lalu</s> 去年。",
+       "ja": "<s>bulan ini</s> 今月、<s>bulan depan</s> 来月、<s>bulan lalu</s> 先月。<s>depan</s> の本来の意味は「前」、<s>lalu</s> は「過ぎた」。週と年にも同じ組み合わせが使えます：<s>minggu depan</s> 来週、<s>tahun lalu</s> 去年。",
+       "en": "<s>bulan ini</s> this month, <s>bulan depan</s> next month, <s>bulan lalu</s> last month. <s>depan</s> literally means “in front”, <s>lalu</s> “gone by”. The same pair works for weeks and years: <s>minggu depan</s> next week, <s>tahun lalu</s> last year.",
+       "vi": "<s>bulan ini</s> tháng này, <s>bulan depan</s> tháng sau, <s>bulan lalu</s> tháng trước. <s>depan</s> nghĩa gốc là “phía trước”, <s>lalu</s> là “đã qua” — trật tự “danh từ + ini / depan / lalu” giống hệt tiếng Việt. Dùng y hệt cho tuần và năm: <s>minggu depan</s> tuần sau, <s>tahun lalu</s> năm ngoái."
+      }
+     },
+     {
+      "text": {
+       "zh": "问几月也用 <s>bulan apa</s>，道理和 hari apa 一样：月份是名字。",
+       "ja": "何月かをたずねるときも <s>bulan apa</s> です。理由は hari apa と同じで、月は名前だからです。",
+       "en": "Ask the month with <s>bulan apa</s>, for the same reason as hari apa: months are names.",
+       "vi": "Hỏi tháng cũng dùng <s>bulan apa</s>, lý do giống hari apa: tháng là tên gọi, không phải con số."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Tanggal dan Tahun",
+    "sub": {
+     "zh": "日期和年份",
+     "ja": "日付と年",
+     "en": "Dates and years",
+     "vi": "Ngày tháng và năm"
+    },
+    "cat": "kosakata"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "日期的顺序是<b>日 → 月 → 年</b>，跟中文正好相反，前面加 <s>tanggal</s>。年份按完整的数读。",
+     "ja": "日付は<b>日 → 月 → 年</b>の順で、日本語とは逆です。前に <s>tanggal</s> をつけます。年は数としてそのまま読みます。",
+     "en": "Dates run <b>day → month → year</b>, as in British English, introduced by <s>tanggal</s>. Years are read as ordinary numbers.",
+     "vi": "Ngày tháng theo thứ tự <b>ngày → tháng → năm</b>, giống hệt tiếng Việt, phía trước thêm <s>tanggal</s>. Năm đọc như một con số bình thường."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "<b>tanggal</b> + angka + bulan + tahun　→　tanggal 17 Agustus 2026",
+    "note": {
+     "zh": "日在最前、年在最后。月份用名字，年份用整数。",
+     "ja": "日が先、年が最後。月は名前で、年は整数で言います。",
+     "en": "Day first, year last. The month is a name, the year a whole number.",
+     "vi": "Ngày trước nhất, năm sau cùng. Tháng gọi bằng tên, năm đọc thành số nguyên."
+    }
+   },
+   {
+    "k": "numgrp",
+    "ans": true,
+    "glab": {
+     "zh": "怎么读 · 先自己读再点开",
+     "ja": "読み方 · まず自分で読んでから開く",
+     "en": "How to read it · try first, then reveal",
+     "vi": "Cách đọc · bạn thử trước rồi mở ra"
+    },
+    "items": [
+     [
+      "17 Agustus 2026",
+      "tujuh belas Agustus dua ribu dua puluh enam"
+     ],
+     [
+      "1 Januari 2000",
+      "satu Januari dua ribu"
+     ],
+     [
+      "3 Mei 2004",
+      "tiga Mei dua ribu empat"
+     ],
+     [
+      "tahun 1998",
+      "seribu sembilan ratus sembilan puluh delapan"
+     ]
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "年份整个读",
+     "ja": "年は数として読む",
+     "en": "Years are read whole",
+     "vi": "Năm đọc cả con số"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "2026 读作 <s>dua ribu dua puluh enam</s>，就是一个普通的数。不像中文一位一位念「二零二六」，也不像英文两位两位念 twenty twenty-six。",
+       "ja": "2026 は <s>dua ribu dua puluh enam</s> と、ふつうの数として読みます。日本語の「二千二十六」と同じ読み方で、英語の twenty twenty-six のように二桁ずつ区切ることはありません。",
+       "en": "2026 is <s>dua ribu dua puluh enam</s> — an ordinary number, not “twenty twenty-six” in pairs of digits. 1998 is <s>seribu sembilan ratus sembilan puluh delapan</s>.",
+       "vi": "2026 đọc là <s>dua ribu dua puluh enam</s>, y như một con số bình thường — giống cách tiếng Việt đọc “hai nghìn không trăm hai mươi sáu”, chứ không tách từng cặp chữ số như tiếng Anh."
+      }
+     }
+    ]
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "问日期",
+     "ja": "日付をたずねる",
+     "en": "Asking the date",
+     "vi": "Hỏi ngày tháng"
+    },
+    "items": [
+     {
+      "id": "Tanggal berapa hari ini?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "tanggal berapa"
+      ],
+      "gloss": {
+       "zh": "今天几号？",
+       "ja": "きょうは何日ですか。",
+       "en": "What is the date today?",
+       "vi": "Hôm nay là ngày mấy?"
+      }
+     },
+     {
+      "id": "Hari ini tanggal dua September.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "tanggal"
+      ],
+      "gloss": {
+       "zh": "今天九月二号。",
+       "ja": "きょうは九月二日です。",
+       "en": "Today is the 2nd of September.",
+       "vi": "Hôm nay là ngày 2 tháng Chín."
+      }
+     },
+     {
+      "id": "Kapan Anda lahir?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kapan"
+      ],
+      "gloss": {
+       "zh": "您什么时候出生的？",
+       "ja": "いつ生まれましたか。",
+       "en": "When were you born?",
+       "vi": "Bạn sinh khi nào?"
+      }
+     },
+     {
+      "id": "Saya lahir tanggal 3 Mei 2004.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "lahir"
+      ],
+      "gloss": {
+       "zh": "我 2004 年 5 月 3 日出生。",
+       "ja": "わたしは 2004 年 5 月 3 日に生まれました。",
+       "en": "I was born on 3 May 2004.",
+       "vi": "Tôi sinh ngày 3 tháng Năm năm 2004."
+      }
+     },
+     {
+      "id": "Anda lahir tahun berapa?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "tahun berapa"
+      ],
+      "gloss": {
+       "zh": "您哪一年出生的？",
+       "ja": "何年に生まれましたか。",
+       "en": "What year were you born?",
+       "vi": "Bạn sinh năm bao nhiêu?"
+      }
+     },
+     {
+      "id": "Saya lahir tahun 2004.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "tahun"
+      ],
+      "gloss": {
+       "zh": "我 2004 年出生。",
+       "ja": "2004 年に生まれました。",
+       "en": "I was born in 2004.",
+       "vi": "Tôi sinh năm 2004."
+      }
+     },
+     {
+      "id": "Kapan ulang tahun Anda?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ulang tahun"
+      ],
+      "gloss": {
+       "zh": "您的生日是什么时候？",
+       "ja": "お誕生日はいつですか。",
+       "en": "When is your birthday?",
+       "vi": "Sinh nhật của bạn là khi nào?"
+      }
+     },
+     {
+      "id": "Ulang tahun saya tanggal 20 Oktober.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ulang tahun"
+      ],
+      "gloss": {
+       "zh": "我的生日是 10 月 20 日。",
+       "ja": "わたしの誕生日は 10 月 20 日です。",
+       "en": "My birthday is 20 October.",
+       "vi": "Sinh nhật của tôi là ngày 20 tháng Mười."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "顺手记住的日子",
+     "ja": "ついでに覚える日",
+     "en": "A date worth knowing",
+     "vi": "Một ngày đáng nhớ"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>tanggal 17 Agustus</s> 是印尼独立日（1945 年）。八月里满街都是红白旗，校园也会放假。",
+       "ja": "<s>tanggal 17 Agustus</s> はインドネシアの独立記念日（1945 年）です。八月は街じゅうに紅白の旗がかかり、大学も休みになります。",
+       "en": "<s>tanggal 17 Agustus</s> is Indonesian Independence Day (1945). In August the streets fill with red-and-white flags and campus takes the day off.",
+       "vi": "<s>tanggal 17 Agustus</s> là ngày Độc lập của Indonesia (năm 1945). Tháng Tám phố xá treo đầy cờ đỏ trắng, trường cũng được nghỉ."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Kata Tanya",
+    "sub": {
+     "zh": "疑问词",
+     "ja": "疑問詞",
+     "en": "Question words",
+     "vi": "Từ để hỏi"
+    },
+    "cat": "kosakata"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "Bab 1 已经学过 <s>apa</s>、<s>siapa</s>、<s>di mana</s>、<s>dari mana</s>、<s>apakah</s>。这一章再加四个，都跟数字和时间有关。",
+     "ja": "Bab 1 で <s>apa</s>・<s>siapa</s>・<s>di mana</s>・<s>dari mana</s>・<s>apakah</s> を学びました。この章ではさらに四つ、どれも数と時間に関わるものを加えます。",
+     "en": "Bab 1 already covered <s>apa</s>, <s>siapa</s>, <s>di mana</s>, <s>dari mana</s> and <s>apakah</s>. This chapter adds four more, all to do with numbers and time.",
+     "vi": "Bab 1 đã học <s>apa</s>, <s>siapa</s>, <s>di mana</s>, <s>dari mana</s>, <s>apakah</s>. Bài này thêm bốn từ nữa, đều liên quan đến số và thời gian."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "疑问词",
+      "ja": "疑問詞",
+      "en": "word",
+      "vi": "từ để hỏi"
+     },
+     {
+      "zh": "问什么",
+      "ja": "何をたずねる",
+      "en": "asks",
+      "vi": "hỏi gì"
+     },
+     {
+      "zh": "例句",
+      "ja": "例文",
+      "en": "example",
+      "vi": "ví dụ"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "kapan",
+       "reg": "neutral"
+      },
+      {
+       "text": {
+        "zh": "什么时候",
+        "ja": "いつ",
+        "en": "when",
+        "vi": "khi nào"
+       }
+      },
+      {
+       "id": "Kapan Anda lahir?",
+       "reg": "formal"
+      }
+     ],
+     [
+      {
+       "id": "berapa",
+       "reg": "neutral"
+      },
+      {
+       "text": {
+        "zh": "多少 · 几",
+        "ja": "いくつ・何",
+        "en": "how many / what number",
+        "vi": "bao nhiêu · mấy"
+       }
+      },
+      {
+       "id": "Tahun berapa sekarang?",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "ke berapa",
+       "reg": "neutral"
+      },
+      {
+       "text": {
+        "zh": "第几",
+        "ja": "何番目",
+        "en": "which (in order)",
+        "vi": "thứ mấy"
+       }
+      },
+      {
+       "id": "Anda anak ke berapa?",
+       "reg": "formal"
+      }
+     ],
+     [
+      {
+       "id": "bagaimana",
+       "reg": "neutral"
+      },
+      {
+       "text": {
+        "zh": "怎么样 · 怎么",
+        "ja": "どう・どのように",
+        "en": "how",
+        "vi": "thế nào · như thế nào"
+       }
+      },
+      {
+       "id": "Bagaimana kabar Anda?",
+       "reg": "formal"
+      }
+     ]
+    ],
+    "note": {
+     "zh": "<s>berapa</s> 在 Bab 2 出现过（Halaman berapa?），<s>bagaimana</s> 在 Bab 1 出现过（问候语），这里正式列进疑问词表。口语里 bagaimana 常说成 <s>gimana</s>。",
+     "ja": "<s>berapa</s> は Bab 2（Halaman berapa?）、<s>bagaimana</s> は Bab 1（あいさつ）にすでに出てきました。ここで疑問詞として正式に並べます。話しことばでは bagaimana はよく <s>gimana</s> になります。",
+     "en": "<s>berapa</s> appeared in Bab 2 (Halaman berapa?) and <s>bagaimana</s> in Bab 1 (greetings); here they join the official list. In casual speech bagaimana usually becomes <s>gimana</s>.",
+     "vi": "<s>berapa</s> đã gặp ở Bab 2 (Halaman berapa?), <s>bagaimana</s> đã gặp ở Bab 1 (câu chào); ở đây chúng được xếp chính thức vào bảng từ để hỏi. Trong văn nói bagaimana thường thành <s>gimana</s>."
+    }
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "问与答",
+     "ja": "問いと答え",
+     "en": "Question and answer",
+     "vi": "Hỏi và đáp"
+    },
+    "items": [
+     {
+      "id": "Kapan kuliah bahasa Indonesia?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kapan"
+      ],
+      "gloss": {
+       "zh": "印尼语课是什么时候？",
+       "ja": "インドネシア語の授業はいつですか。",
+       "en": "When is the Indonesian class?",
+       "vi": "Lớp tiếng Indonesia là khi nào?"
+      }
+     },
+     {
+      "id": "Hari Kamis.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "Kamis"
+      ],
+      "gloss": {
+       "zh": "星期四。",
+       "ja": "木曜日です。",
+       "en": "On Thursday.",
+       "vi": "Thứ Năm."
+      }
+     },
+     {
+      "id": "Tahun berapa sekarang?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "tahun berapa"
+      ],
+      "gloss": {
+       "zh": "现在是哪一年？",
+       "ja": "いまは何年ですか。",
+       "en": "What year is it now?",
+       "vi": "Bây giờ là năm bao nhiêu?"
+      }
+     },
+     {
+      "id": "Tahun dua ribu dua puluh enam.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "dua ribu"
+      ],
+      "gloss": {
+       "zh": "2026 年。",
+       "ja": "2026 年です。",
+       "en": "It is 2026.",
+       "vi": "Năm 2026."
+      }
+     },
+     {
+      "id": "Ini kuliah ke berapa?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ke berapa"
+      ],
+      "gloss": {
+       "zh": "这是第几次课？",
+       "ja": "これは何回目の授業ですか。",
+       "en": "Which class is this?",
+       "vi": "Đây là buổi học thứ mấy?"
+      }
+     },
+     {
+      "id": "Kuliah kedua.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kedua"
+      ],
+      "gloss": {
+       "zh": "第二次。",
+       "ja": "二回目です。",
+       "en": "The second.",
+       "vi": "Buổi thứ hai."
+      }
+     },
+     {
+      "id": "Bagaimana kuliah hari ini?",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "bagaimana"
+      ],
+      "gloss": {
+       "zh": "今天的课怎么样？",
+       "ja": "きょうの授業はどうでしたか。",
+       "en": "How was class today?",
+       "vi": "Buổi học hôm nay thế nào?"
+      }
+     },
+     {
+      "id": "Lumayan.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "lumayan"
+      ],
+      "gloss": {
+       "zh": "还行。",
+       "ja": "まあまあです。",
+       "en": "Not bad.",
+       "vi": "Cũng được."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "哪个词配哪个",
+     "ja": "どの語にどれを合わせるか",
+     "en": "Which word goes with which",
+     "vi": "Từ nào đi với từ nào"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<b>名字用 apa，数字用 berapa</b>：<s>hari apa</s>、<s>bulan apa</s>；<s>tanggal berapa</s>、<s>tahun berapa</s>、<s>umur berapa</s>。<s>berapa</s> 紧跟在它问的那个词后面。",
+       "ja": "<b>名前は apa、数は berapa</b>：<s>hari apa</s>・<s>bulan apa</s>、<s>tanggal berapa</s>・<s>tahun berapa</s>・<s>umur berapa</s>。<s>berapa</s> はたずねる語のすぐ後ろに置きます。",
+       "en": "<b>Names take apa, numbers take berapa</b>: <s>hari apa</s>, <s>bulan apa</s>; <s>tanggal berapa</s>, <s>tahun berapa</s>, <s>umur berapa</s>. <s>berapa</s> sits right after the word it asks about.",
+       "vi": "<b>Tên dùng apa, số dùng berapa</b>: <s>hari apa</s>, <s>bulan apa</s>; <s>tanggal berapa</s>, <s>tahun berapa</s>, <s>umur berapa</s>. <s>berapa</s> đứng ngay sau từ mà nó hỏi — giống “ngày mấy, năm bao nhiêu” của tiếng Việt."
+      }
+     },
+     {
+      "text": {
+       "zh": "<s>kapan</s> 放句首或句尾都行：<s>Kapan Anda lahir?</s> / <s>Anda lahir kapan?</s>。口语里放句尾更常见。",
+       "ja": "<s>kapan</s> は文頭でも文末でもかまいません：<s>Kapan Anda lahir?</s> / <s>Anda lahir kapan?</s>。話しことばでは文末のほうがよく使われます。",
+       "en": "<s>kapan</s> can open or close the sentence: <s>Kapan Anda lahir?</s> / <s>Anda lahir kapan?</s>. In speech the end position is more common.",
+       "vi": "<s>kapan</s> đặt đầu câu hay cuối câu đều được: <s>Kapan Anda lahir?</s> / <s>Anda lahir kapan?</s>. Trong văn nói đặt cuối câu phổ biến hơn, giống “Bạn sinh khi nào?”."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Percakapan",
+    "sub": {
+     "zh": "对话：课表和生日",
+     "ja": "会話：時間割と誕生日",
+     "en": "Dialogue: timetable and birthdays",
+     "vi": "Hội thoại: thời khóa biểu và sinh nhật"
+    },
+    "cat": "percakapan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "Zhang 和 Manik 在校园碰见，聊课表和生日。留意问星期用 <s>apa</s>、问几号用 <s>berapa</s>、问时间用 <s>kapan</s>。",
+     "ja": "Zhang と Manik がキャンパスで会い、時間割と誕生日の話をします。曜日は <s>apa</s>、日付は <s>berapa</s>、時は <s>kapan</s> でたずねている点に注目してください。",
+     "en": "Zhang and Manik meet on campus and talk about the timetable and birthdays. Notice <s>apa</s> for the day, <s>berapa</s> for the date and <s>kapan</s> for “when”.",
+     "vi": "Zhang và Manik gặp nhau trong trường, nói chuyện về thời khóa biểu và sinh nhật. Hãy để ý: hỏi thứ dùng <s>apa</s>, hỏi ngày dùng <s>berapa</s>, hỏi “khi nào” dùng <s>kapan</s>."
+    }
+   },
+   {
+    "k": "dialog",
+    "rows": [
+     {
+      "who": "Manik",
+      "id": "Selamat pagi, Zhang. Hari ini hari apa?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "hari apa"
+      ],
+      "gloss": {
+       "zh": "早上好，Zhang。今天星期几？",
+       "ja": "おはようございます、Zhang さん。きょうは何曜日ですか。",
+       "en": "Good morning, Zhang. What day is it today?",
+       "vi": "Chào buổi sáng, Zhang. Hôm nay là thứ mấy?"
+      }
+     },
+     {
+      "who": "Zhang",
+      "id": "Selamat pagi, Manik. Hari ini hari Selasa.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "Selasa"
+      ],
+      "gloss": {
+       "zh": "早上好，Manik。今天星期二。",
+       "ja": "おはようございます、Manik さん。きょうは火曜日です。",
+       "en": "Good morning, Manik. Today is Tuesday.",
+       "vi": "Chào buổi sáng, Manik. Hôm nay là thứ Ba."
+      }
+     },
+     {
+      "who": "Manik",
+      "id": "Kapan kuliah bahasa Indonesia?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "kapan"
+      ],
+      "gloss": {
+       "zh": "印尼语课是什么时候？",
+       "ja": "インドネシア語の授業はいつですか。",
+       "en": "When is the Indonesian class?",
+       "vi": "Lớp tiếng Indonesia là khi nào?"
+      }
+     },
+     {
+      "who": "Zhang",
+      "id": "Hari Kamis, tanggal tiga September.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "tanggal"
+      ],
+      "gloss": {
+       "zh": "星期四，九月三号。",
+       "ja": "木曜日、九月三日です。",
+       "en": "Thursday, the 3rd of September.",
+       "vi": "Thứ Năm, ngày 3 tháng Chín."
+      }
+     },
+     {
+      "who": "Manik",
+      "id": "Baik. Kapan ulang tahun Anda?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ulang tahun"
+      ],
+      "gloss": {
+       "zh": "好。您的生日是什么时候？",
+       "ja": "わかりました。お誕生日はいつですか。",
+       "en": "Right. When is your birthday?",
+       "vi": "Được rồi. Sinh nhật của bạn là khi nào?"
+      }
+     },
+     {
+      "who": "Zhang",
+      "id": "Tanggal dua puluh Oktober. Anda?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "Oktober"
+      ],
+      "gloss": {
+       "zh": "10 月 20 日。您呢？",
+       "ja": "10 月 20 日です。あなたは？",
+       "en": "The 20th of October. And you?",
+       "vi": "Ngày 20 tháng Mười. Còn bạn?"
+      }
+     },
+     {
+      "who": "Manik",
+      "id": "Tanggal lima belas Januari.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "Januari"
+      ],
+      "gloss": {
+       "zh": "1 月 15 日。",
+       "ja": "1 月 15 日です。",
+       "en": "The 15th of January.",
+       "vi": "Ngày 15 tháng Một."
+      }
+     },
+     {
+      "who": "Zhang",
+      "id": "Anda lahir tahun berapa?",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "tahun berapa"
+      ],
+      "gloss": {
+       "zh": "您哪一年出生的？",
+       "ja": "何年に生まれましたか。",
+       "en": "What year were you born?",
+       "vi": "Bạn sinh năm bao nhiêu?"
+      }
+     },
+     {
+      "who": "Manik",
+      "id": "Tahun dua ribu enam.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "dua ribu"
+      ],
+      "gloss": {
+       "zh": "2006 年。",
+       "ja": "2006 年です。",
+       "en": "In 2006.",
+       "vi": "Năm 2006."
+      }
+     },
+     {
+      "who": "Zhang",
+      "id": "Saya lahir tahun dua ribu lima. Sampai jumpa hari Kamis!",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "lahir"
+      ],
+      "gloss": {
+       "zh": "我 2005 年出生。星期四见！",
+       "ja": "わたしは 2005 年生まれです。木曜日にまた！",
+       "en": "I was born in 2005. See you on Thursday!",
+       "vi": "Tôi sinh năm 2005. Hẹn gặp bạn thứ Năm!"
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "这段里的几件事",
+     "ja": "この会話のポイント",
+     "en": "Points in this dialogue",
+     "vi": "Mấy điểm trong đoạn hội thoại này"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<b>三种问法</b>　星期几 <s>hari apa</s>，几号 <s>tanggal berapa</s>，哪一年 <s>tahun berapa</s>，什么时候 <s>kapan</s>。",
+       "ja": "<b>三つの聞き方</b>　曜日は <s>hari apa</s>、日付は <s>tanggal berapa</s>、年は <s>tahun berapa</s>、時は <s>kapan</s>。",
+       "en": "<b>Three ways to ask</b>　the day <s>hari apa</s>, the date <s>tanggal berapa</s>, the year <s>tahun berapa</s>, and “when” <s>kapan</s>.",
+       "vi": "<b>Ba cách hỏi</b>　thứ <s>hari apa</s>, ngày <s>tanggal berapa</s>, năm <s>tahun berapa</s>, “khi nào” <s>kapan</s>."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>回答可以省略</b>　<s>Tanggal dua puluh Oktober.</s> 就够了，不必重复「我的生日是」。",
+       "ja": "<b>答えは短くてよい</b>　<s>Tanggal dua puluh Oktober.</s> だけで十分で、「わたしの誕生日は」をくり返す必要はありません。",
+       "en": "<b>Answers can be short</b>　<s>Tanggal dua puluh Oktober.</s> is enough; there is no need to repeat “my birthday is”.",
+       "vi": "<b>Trả lời có thể rút gọn</b>　<s>Tanggal dua puluh Oktober.</s> là đủ, không cần nhắc lại “sinh nhật của tôi là”."
+      }
+     },
+     {
+      "text": {
+       "zh": "<b>课本人物</b>　Zhang 和 Manik 是课本里的名字；这段对话是照课本的场景另写的，句子不一样，用到的说法一样。",
+       "ja": "<b>教科書の登場人物</b>　Zhang と Manik は教科書に出てくる名前です。この会話は教科書の場面で書き直したもので、文は違いますが使う表現は同じです。",
+       "en": "<b>Characters</b>　Zhang and Manik are names from the book. The dialogue is written for the book’s situation with different sentences but the same expressions.",
+       "vi": "<b>Nhân vật trong sách</b>　Zhang và Manik là tên trong sách; đoạn hội thoại này viết lại theo tình huống của sách, câu chữ khác nhưng cách nói thì giống."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Kalimat Sederhana",
+    "sub": {
+     "zh": "简单句：四种句型",
+     "ja": "単純文：四つの型",
+     "en": "Simple sentences: the four patterns",
+     "vi": "Câu đơn giản: bốn mẫu câu"
+    },
+    "cat": "tatabahasa"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "这是课堂讲义的重点。印尼语最简单的句子 = <b>名词 + 一个别的成分</b>；「别的成分」有四种，所以有四种简单句。先认四个词类。",
+     "ja": "授業プリントの中心です。インドネシア語のいちばん簡単な文は<b>名詞＋もう一つの要素</b>で、その要素が四種類あるので、単純文も四つあります。まず四つの品詞を確認します。",
+     "en": "This is the core of the class handout. The simplest Indonesian sentence is <b>a noun + one other element</b>; that element comes in four kinds, hence four patterns. First, the four word classes.",
+     "vi": "Đây là trọng tâm của tài liệu trên lớp. Câu đơn giản nhất trong tiếng Indonesia = <b>danh từ + một thành phần khác</b>; thành phần đó có bốn loại, nên có bốn mẫu câu. Trước hết nhận diện bốn từ loại."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "词类",
+      "ja": "品詞",
+      "en": "word class",
+      "vi": "từ loại"
+     },
+     {
+      "zh": "例子",
+      "ja": "例",
+      "en": "examples",
+      "vi": "ví dụ"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "text": {
+        "zh": "<b>名词</b> nomina　—— 谁？什么？",
+        "ja": "<b>名詞</b> nomina　—— だれ？何？",
+        "en": "<b>Noun</b> nomina　— who? what?",
+        "vi": "<b>Danh từ</b> nomina　— ai? cái gì?"
+       }
+      },
+      {
+       "id": "guru, buku, rumah, aku",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "<b>形容词</b> adjektiva　—— 怎么样？",
+        "ja": "<b>形容詞</b> adjektiva　—— どんな？",
+        "en": "<b>Adjective</b> adjektiva　— what is it like?",
+        "vi": "<b>Tính từ</b> adjektiva　— như thế nào?"
+       }
+      },
+      {
+       "id": "cantik, tampan, sedih, tinggi",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "<b>动词</b> verba　—— 做什么？",
+        "ja": "<b>動詞</b> verba　—— 何をする？",
+        "en": "<b>Verb</b> verba　— do what?",
+        "vi": "<b>Động từ</b> verba　— làm gì?"
+       }
+      },
+      {
+       "id": "makan, belajar, pulang, tidur",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "text": {
+        "zh": "<b>介词</b> preposisi　—— 在哪 / 去哪 / 从哪",
+        "ja": "<b>前置詞</b> preposisi　—— どこに／どこへ／どこから",
+        "en": "<b>Preposition</b> preposisi　— where at / to / from",
+        "vi": "<b>Giới từ</b> preposisi　— ở đâu / đến đâu / từ đâu"
+       }
+      },
+      {
+       "id": "di, ke, dari",
+       "reg": "neutral"
+      }
+     ]
+    ],
+    "note": {
+     "zh": "表格里的问句是讲义给的判断办法：拿不准一个词是什么词类，就问它回答的是哪个问题。",
+     "ja": "表の問いかけはプリントに書かれていた見分け方です。品詞に迷ったら、その語がどの問いに答えているかを考えます。",
+     "en": "The questions in the table are the handout’s test: if you are unsure of a word’s class, ask which question it answers.",
+     "vi": "Những câu hỏi trong bảng là cách nhận biết mà tài liệu đưa ra: không chắc một từ thuộc loại nào thì hỏi xem nó trả lời cho câu hỏi nào."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "Nomina + <b>Nomina</b>　·　Nomina + <b>Adjektiva</b>　·　Nomina + <b>Verba</b>　·　Nomina + <b>Preposisi</b>",
+    "note": {
+     "zh": "四种简单句，主语都是名词，区别只在第二个成分。接下来一页一种。",
+     "ja": "四つの単純文はどれも主語が名詞で、違いは二つめの要素だけです。次のページから一つずつ見ていきます。",
+     "en": "Four simple patterns, all with a noun subject; only the second element differs. One page for each follows.",
+     "vi": "Bốn mẫu câu đơn giản, chủ ngữ đều là danh từ, chỉ khác nhau ở thành phần thứ hai. Mỗi trang tiếp theo nói về một mẫu."
+    }
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "动词永远不变形",
+     "ja": "動詞は形を変えない",
+     "en": "Verbs never change form",
+     "vi": "Động từ không bao giờ đổi dạng"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "讲义原话：<i>Verba dalam bahasa Indonesia tidak pernah berubah.</i> 没有时态。什么时候做的，靠时间词和 <s>akan</s>（将要）、<s>sudah</s>（已经）说清楚，动词本身一个字母都不改。",
+       "ja": "プリントの原文：<i>Verba dalam bahasa Indonesia tidak pernah berubah.</i> 時制がありません。いつのことかは時を表す語と <s>akan</s>（これから）・<s>sudah</s>（もう）で示し、動詞そのものは一文字も変わりません。",
+       "en": "The handout’s words: <i>Verba dalam bahasa Indonesia tidak pernah berubah.</i> There are no tenses. When something happens is shown by time words and by <s>akan</s> (will) and <s>sudah</s> (already); the verb itself never changes a letter.",
+       "vi": "Nguyên văn tài liệu: <i>Verba dalam bahasa Indonesia tidak pernah berubah.</i> Không có thì. Việc xảy ra lúc nào thì dùng từ chỉ thời gian và <s>akan</s> (sẽ), <s>sudah</s> (đã) — y như tiếng Việt, động từ không đổi một chữ nào."
+      }
+     },
+     {
+      "qa": true,
+      "who": "①",
+      "id": "Besok saya akan makan roti.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "akan"
+      ],
+      "gloss": {
+       "zh": "明天我要吃面包。",
+       "ja": "あしたわたしはパンを食べます。",
+       "en": "Tomorrow I will eat bread.",
+       "vi": "Ngày mai tôi sẽ ăn bánh mì."
+      }
+     },
+     {
+      "qa": true,
+      "who": "②",
+      "id": "Sekarang saya makan roti.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "sekarang"
+      ],
+      "gloss": {
+       "zh": "现在我在吃面包。",
+       "ja": "いまわたしはパンを食べています。",
+       "en": "Now I am eating bread.",
+       "vi": "Bây giờ tôi đang ăn bánh mì."
+      }
+     },
+     {
+      "qa": true,
+      "who": "③",
+      "id": "Kemarin saya sudah makan roti.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "sudah"
+      ],
+      "gloss": {
+       "zh": "昨天我已经吃了面包。",
+       "ja": "きのうわたしはもうパンを食べました。",
+       "en": "Yesterday I already ate bread.",
+       "vi": "Hôm qua tôi đã ăn bánh mì rồi."
+      }
+     },
+     {
+      "text": {
+       "zh": "三句里的 <s>makan</s> 一模一样。这一点和中文一样 —— 中文的「吃」也不变，靠「要 / 已经」；英文的 eat / ate 才要变。",
+       "ja": "三つの文の <s>makan</s> はまったく同じ形です。英語の eat / ate、日本語の「食べる／食べた」のような変化はありません。",
+       "en": "<s>makan</s> is identical in all three sentences — no eat / ate / eating.",
+       "vi": "<s>makan</s> trong ba câu giống hệt nhau. Điểm này giống tiếng Việt: “ăn” không đổi, chỉ thêm “sẽ / đã”; tiếng Anh mới phải đổi eat / ate."
+      }
+     }
+    ]
+   },
+   {
+    "k": "mini",
+    "text": {
+     "zh": "拆一句看看",
+     "ja": "一文を分解してみる",
+     "en": "Take a sentence apart",
+     "vi": "Thử tách một câu"
+    }
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Ani menjual sayur.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "menjual"
+      ],
+      "gloss": {
+       "zh": "Ani 卖菜。—— Ani（谁）名词 · menjual（做什么）动词 · sayur（什么）名词",
+       "ja": "Ani は野菜を売る。—— Ani（だれ）名詞 · menjual（何をする）動詞 · sayur（何）名詞",
+       "en": "Ani sells vegetables. — Ani (who) noun · menjual (does what) verb · sayur (what) noun",
+       "vi": "Ani bán rau. — Ani (ai) danh từ · menjual (làm gì) động từ · sayur (cái gì) danh từ"
+      }
+     },
+     {
+      "id": "Ani cantik.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "cantik"
+      ],
+      "gloss": {
+       "zh": "Ani 很漂亮。—— Ani（谁）名词 · cantik（怎么样）形容词",
+       "ja": "Ani はきれいだ。—— Ani（だれ）名詞 · cantik（どんな）形容詞",
+       "en": "Ani is pretty. — Ani (who) noun · cantik (what is she like) adjective",
+       "vi": "Ani đẹp. — Ani (ai) danh từ · cantik (như thế nào) tính từ"
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "没有「是」",
+     "ja": "「です」がない",
+     "en": "There is no “is”",
+     "vi": "Không có “là”"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "这四种句子里都<b>不需要「是」</b>：<s>Dia mahasiswa</s> 就是「他是学生」，<s>Ani cantik</s> 就是「Ani 很漂亮」。中文的「是」和「很」在这里都不翻。印尼语有一个 adalah，但只用在正式书面语、而且从来不用在形容词前面；这一章的句子里一律不要加。",
+       "ja": "四つの文型のどれにも<b>「です」にあたる語は要りません</b>。<s>Dia mahasiswa</s> で「かれは学生です」、<s>Ani cantik</s> で「Ani はきれいです」。adalah という語はありますが、あらたまった書きことばだけで使い、形容詞の前には決して置きません。この章の文には一切つけないでください。",
+       "en": "None of the four patterns needs a word for <b>“is”</b>: <s>Dia mahasiswa</s> is “he is a student”, <s>Ani cantik</s> is “Ani is pretty”. Indonesian does have adalah, but only in formal writing and never before an adjective; leave it out of every sentence in this chapter.",
+       "vi": "Cả bốn mẫu câu đều <b>không cần “là”</b>: <s>Dia mahasiswa</s> là “anh ấy là sinh viên”, <s>Ani cantik</s> là “Ani đẹp”. Tiếng Việt bỏ “là” trước tính từ (Ani đẹp) nhưng vẫn cần “là” trước danh từ (anh ấy là sinh viên); tiếng Indonesia bỏ cả hai. Có từ adalah, nhưng chỉ dùng trong văn viết trang trọng và không bao giờ đứng trước tính từ; các câu trong bài này đều không thêm."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Nomina + Nomina",
+    "sub": {
+     "zh": "名词 + 名词",
+     "ja": "名詞＋名詞",
+     "en": "Noun + noun",
+     "vi": "Danh từ + danh từ"
+    },
+    "cat": "tatabahasa"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "前一个名词是主语，后一个说它「是什么」。两个名词直接摆在一起，中间什么都不加。",
+     "ja": "前の名詞が主語、後ろの名詞が「何であるか」を言います。二つの名詞を並べるだけで、あいだに何も入れません。",
+     "en": "The first noun is the subject; the second says what it is. Just put the two side by side, with nothing in between.",
+     "vi": "Danh từ đứng trước là chủ ngữ, danh từ đứng sau nói nó “là gì”. Hai danh từ đặt cạnh nhau, ở giữa không thêm gì."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "Nomina + Nomina　→　<b>Dia mahasiswa.</b>",
+    "note": {
+     "zh": "他是学生。—— 没有「是」。",
+     "ja": "かれは学生です。—— 「です」なし。",
+     "en": "He is a student — with no “is”.",
+     "vi": "Anh ấy là sinh viên — không có “là”."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "名词",
+      "ja": "名詞",
+      "en": "noun",
+      "vi": "danh từ"
+     },
+     {
+      "zh": "名词",
+      "ja": "名詞",
+      "en": "noun",
+      "vi": "danh từ"
+     },
+     {
+      "zh": "句子",
+      "ja": "文",
+      "en": "sentence",
+      "vi": "câu"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "ini",
+       "reg": "neutral"
+      },
+      {
+       "id": "kamus",
+       "reg": "neutral"
+      },
+      {
+       "id": "Ini kamus.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "itu",
+       "reg": "neutral"
+      },
+      {
+       "id": "peta dunia",
+       "reg": "neutral"
+      },
+      {
+       "id": "Itu peta dunia.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "dia",
+       "reg": "neutral"
+      },
+      {
+       "id": "dosen",
+       "reg": "neutral"
+      },
+      {
+       "id": "Dia dosen.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "pria itu",
+       "reg": "neutral"
+      },
+      {
+       "id": "fotografer",
+       "reg": "neutral"
+      },
+      {
+       "id": "Pria itu fotografer.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "kami",
+       "reg": "formal"
+      },
+      {
+       "id": "mahasiswa UGM",
+       "reg": "neutral"
+      },
+      {
+       "id": "Kami mahasiswa UGM.",
+       "reg": "formal"
+      }
+     ]
+    ]
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Beliau guru saya.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "beliau"
+      ],
+      "gloss": {
+       "zh": "他是我的老师。",
+       "ja": "あの方はわたしの先生です。",
+       "en": "He is my teacher.",
+       "vi": "Thầy ấy là giáo viên của tôi."
+      }
+     },
+     {
+      "id": "Wanita itu perawat.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "wanita"
+      ],
+      "gloss": {
+       "zh": "那位女士是护士。",
+       "ja": "あの女性は看護師です。",
+       "en": "That woman is a nurse.",
+       "vi": "Người phụ nữ đó là y tá."
+      }
+     },
+     {
+      "id": "Zhang teman saya.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "teman"
+      ],
+      "gloss": {
+       "zh": "Zhang 是我的朋友。",
+       "ja": "Zhang はわたしの友だちです。",
+       "en": "Zhang is my friend.",
+       "vi": "Zhang là bạn của tôi."
+      }
+     },
+     {
+      "id": "Itu rumah nenek.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "rumah"
+      ],
+      "gloss": {
+       "zh": "那是奶奶的家。",
+       "ja": "あれは祖母の家です。",
+       "en": "That is grandmother’s house.",
+       "vi": "Kia là nhà của bà."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "ini / itu 的两个位置",
+     "ja": "ini / itu の二つの位置",
+     "en": "Two places for ini / itu",
+     "vi": "Hai vị trí của ini / itu"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "放在<b>句首</b>是主语「这 / 那」：<s>Itu peta dunia.</s>　放在<b>名词后面</b>是「这个 / 那个」：<s>pria itu</s>（那位先生）、<s>kelas ini</s>（这个班）。又是「名词在前」—— 跟中文「那位先生」正好相反。",
+       "ja": "<b>文頭</b>にあれば主語の「これ／あれ」：<s>Itu peta dunia.</s>　<b>名詞の後ろ</b>にあれば「この／あの」：<s>pria itu</s>（あの男性）・<s>kelas ini</s>（このクラス）。ここでも「名詞が先」で、日本語の「あの男性」とは逆です。",
+       "en": "At the <b>start</b> it is the subject “this / that”: <s>Itu peta dunia.</s>　<b>After a noun</b> it is “this / that” as a modifier: <s>pria itu</s> (that man), <s>kelas ini</s> (this class). Noun first again — the reverse of English.",
+       "vi": "Đứng <b>đầu câu</b> là chủ ngữ “đây / kia”: <s>Itu peta dunia.</s>　Đứng <b>sau danh từ</b> là “này / đó”: <s>pria itu</s> (người đàn ông đó), <s>kelas ini</s> (lớp này). Lại là “danh từ đứng trước” — giống hệt tiếng Việt."
+      }
+     },
+     {
+      "text": {
+       "zh": "<s>wanita</s> / <s>pria</s> 是「女士 / 先生」，比 Bab 1 的 <s>perempuan</s> / <s>laki-laki</s> 正式一点，讲义的例句用的就是 wanita itu。",
+       "ja": "<s>wanita</s>／<s>pria</s> は「女性／男性」で、Bab 1 の <s>perempuan</s>／<s>laki-laki</s> より少しあらたまった語です。プリントの例文も wanita itu を使っています。",
+       "en": "<s>wanita</s> / <s>pria</s> mean “woman / man”, slightly more formal than <s>perempuan</s> / <s>laki-laki</s> from Bab 1; the handout’s own example uses wanita itu.",
+       "vi": "<s>wanita</s> / <s>pria</s> là “phụ nữ / đàn ông”, trang trọng hơn một chút so với <s>perempuan</s> / <s>laki-laki</s> ở Bab 1; ví dụ trong tài liệu dùng chính wanita itu."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Nomina + Adjektiva",
+    "sub": {
+     "zh": "名词 + 形容词",
+     "ja": "名詞＋形容詞",
+     "en": "Noun + adjective",
+     "vi": "Danh từ + tính từ"
+    },
+    "cat": "tatabahasa"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "名词后面直接跟形容词，说它「怎么样」。",
+     "ja": "名詞のすぐ後ろに形容詞を置いて、「どんなであるか」を言います。",
+     "en": "The adjective follows the noun directly and says what it is like.",
+     "vi": "Tính từ đứng ngay sau danh từ, nói nó “như thế nào”."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "Nomina + Adjektiva　→　<b>Bethany cantik.</b>",
+    "note": {
+     "zh": "Bethany 很漂亮。—— 没有「是」，也没有「很」。",
+     "ja": "Bethany はきれいです。—— 「です」なし。",
+     "en": "Bethany is pretty — with no “is”.",
+     "vi": "Bethany đẹp — không “là”, không “thì”."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "名词",
+      "ja": "名詞",
+      "en": "noun",
+      "vi": "danh từ"
+     },
+     {
+      "zh": "形容词",
+      "ja": "形容詞",
+      "en": "adjective",
+      "vi": "tính từ"
+     },
+     {
+      "zh": "句子",
+      "ja": "文",
+      "en": "sentence",
+      "vi": "câu"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "Zhang",
+       "reg": "neutral"
+      },
+      {
+       "id": "pandai",
+       "reg": "neutral"
+      },
+      {
+       "id": "Zhang pandai.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Robert",
+       "reg": "neutral"
+      },
+      {
+       "id": "tampan",
+       "reg": "neutral"
+      },
+      {
+       "id": "Robert tampan.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "pohon itu",
+       "reg": "neutral"
+      },
+      {
+       "id": "tinggi",
+       "reg": "neutral"
+      },
+      {
+       "id": "Pohon itu tinggi.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "rumah ini",
+       "reg": "neutral"
+      },
+      {
+       "id": "luas",
+       "reg": "neutral"
+      },
+      {
+       "id": "Rumah ini luas.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "buku itu",
+       "reg": "neutral"
+      },
+      {
+       "id": "mahal",
+       "reg": "neutral"
+      },
+      {
+       "id": "Buku itu mahal.",
+       "reg": "neutral"
+      }
+     ]
+    ]
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Nenek saya sehat.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "sehat"
+      ],
+      "gloss": {
+       "zh": "我奶奶很健康。",
+       "ja": "わたしの祖母は元気です。",
+       "en": "My grandmother is healthy.",
+       "vi": "Bà tôi khỏe."
+      }
+     },
+     {
+      "id": "Kelas kami besar.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "besar"
+      ],
+      "gloss": {
+       "zh": "我们的教室很大。",
+       "ja": "わたしたちの教室は大きいです。",
+       "en": "Our classroom is big.",
+       "vi": "Lớp của chúng tôi rộng."
+      }
+     },
+     {
+      "id": "Sepatu baru itu bagus.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "bagus"
+      ],
+      "gloss": {
+       "zh": "那双新鞋很好看。",
+       "ja": "あの新しいくつはすてきです。",
+       "en": "Those new shoes are nice.",
+       "vi": "Đôi giày mới đó đẹp."
+      }
+     },
+     {
+      "id": "Dia sedih.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "sedih"
+      ],
+      "gloss": {
+       "zh": "他很难过。",
+       "ja": "かれは悲しんでいます。",
+       "en": "He is sad.",
+       "vi": "Anh ấy buồn."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "课本没讲，但一定会卡住",
+     "ja": "教科書にはないが必ず引っかかるところ",
+     "en": "Not in the book, but it will trip you up",
+     "vi": "Sách không nói, nhưng chắc chắn sẽ vướng"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "中文说「Ani <b>很</b>漂亮」，那个「很」不表示程度，只是让句子站得住。印尼语<b>不需要</b>这样的词：<s>Ani cantik</s> 已经是完整的句子。别顺手把「很」翻成 sangat —— sangat 是真的「非常」。",
+       "ja": "日本語は「Ani はきれい<b>です</b>」と「です」で文を終えますが、インドネシア語には<b>それにあたる語がなく</b>、<s>Ani cantik</s> でもう完全な文です。「とても」の sangat を足す必要もありません。",
+       "en": "English needs “is” — “Ani <b>is</b> pretty” — but Indonesian <b>does not</b>: <s>Ani cantik</s> is already a complete sentence. Do not add adalah, and do not add sangat unless you really mean “very”.",
+       "vi": "Ở đây tiếng Indonesia <b>giống hệt tiếng Việt</b>: “Ani đẹp” — <s>Ani cantik</s> — không cần “là”, không cần “thì”. Đừng tiện tay thêm sangat: sangat là “rất” thật sự."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Nomina + Verba",
+    "sub": {
+     "zh": "名词 + 动词",
+     "ja": "名詞＋動詞",
+     "en": "Noun + verb",
+     "vi": "Danh từ + động từ"
+    },
+    "cat": "tatabahasa"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "主语 + 动作。动词后面可以带宾语，也可以不带；动词本身永远不变。",
+     "ja": "主語＋動作。動詞の後ろに目的語をつけてもつけなくてもよく、動詞そのものは決して変わりません。",
+     "en": "Subject + action. The verb may take an object or stand alone, and it never changes form.",
+     "vi": "Chủ ngữ + hành động. Sau động từ có thể có tân ngữ hoặc không; bản thân động từ không bao giờ đổi."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "Nomina + Verba　→　<b>Kami belajar.</b>",
+    "note": {
+     "zh": "我们学习。",
+     "ja": "わたしたちは勉強します。",
+     "en": "We study.",
+     "vi": "Chúng tôi học."
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "名词",
+      "ja": "名詞",
+      "en": "noun",
+      "vi": "danh từ"
+     },
+     {
+      "zh": "动词",
+      "ja": "動詞",
+      "en": "verb",
+      "vi": "động từ"
+     },
+     {
+      "zh": "句子",
+      "ja": "文",
+      "en": "sentence",
+      "vi": "câu"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "saya",
+       "reg": "formal"
+      },
+      {
+       "id": "tidur",
+       "reg": "neutral"
+      },
+      {
+       "id": "Saya tidur.",
+       "reg": "formal"
+      }
+     ],
+     [
+      {
+       "id": "Zhang",
+       "reg": "neutral"
+      },
+      {
+       "id": "pulang",
+       "reg": "neutral"
+      },
+      {
+       "id": "Zhang pulang.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "mereka",
+       "reg": "neutral"
+      },
+      {
+       "id": "pergi",
+       "reg": "neutral"
+      },
+      {
+       "id": "Mereka pergi.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Wayan",
+       "reg": "neutral"
+      },
+      {
+       "id": "menari",
+       "reg": "neutral"
+      },
+      {
+       "id": "Wayan menari.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Ibu",
+       "reg": "neutral"
+      },
+      {
+       "id": "memasak",
+       "reg": "neutral"
+      },
+      {
+       "id": "Ibu memasak.",
+       "reg": "neutral"
+      }
+     ]
+    ]
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "带宾语也行",
+     "ja": "目的語をつけても",
+     "en": "With an object too",
+     "vi": "Có tân ngữ cũng được"
+    },
+    "items": [
+     {
+      "id": "Adik saya berenang.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "berenang"
+      ],
+      "gloss": {
+       "zh": "我弟弟在游泳。",
+       "ja": "弟は泳いでいます。",
+       "en": "My little brother is swimming.",
+       "vi": "Em tôi bơi."
+      }
+     },
+     {
+      "id": "Kami belajar bahasa Indonesia.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "belajar"
+      ],
+      "gloss": {
+       "zh": "我们学印尼语。",
+       "ja": "わたしたちはインドネシア語を勉強します。",
+       "en": "We study Indonesian.",
+       "vi": "Chúng tôi học tiếng Indonesia."
+      }
+     },
+     {
+      "id": "Nenek menjual sayur.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "menjual"
+      ],
+      "gloss": {
+       "zh": "奶奶卖菜。",
+       "ja": "祖母は野菜を売っています。",
+       "en": "Grandmother sells vegetables.",
+       "vi": "Bà bán rau."
+      }
+     },
+     {
+      "id": "Teman-teman makan roti.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "makan"
+      ],
+      "gloss": {
+       "zh": "朋友们在吃面包。",
+       "ja": "友だちはパンを食べています。",
+       "en": "The friends are eating bread.",
+       "vi": "Các bạn ăn bánh mì."
+      }
+     },
+     {
+      "id": "Dosen datang.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "datang"
+      ],
+      "gloss": {
+       "zh": "老师来了。",
+       "ja": "先生が来ました。",
+       "en": "The lecturer has arrived.",
+       "vi": "Giảng viên đến rồi."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "green",
+    "tag": {
+     "zh": "宾语可有可无；动词不变",
+     "ja": "目的語は任意、動詞は不変",
+     "en": "Object optional; verb unchanged",
+     "vi": "Tân ngữ có cũng được không có cũng được; động từ không đổi"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>Saya makan.</s> 和 <s>Saya makan roti.</s> 都是完整的句子。不管谁做、什么时候做，动词都是那一个形。",
+       "ja": "<s>Saya makan.</s> も <s>Saya makan roti.</s> も完全な文です。だれがするか、いつするかにかかわらず、動詞は同じ形のままです。",
+       "en": "<s>Saya makan.</s> and <s>Saya makan roti.</s> are both complete sentences. Whoever does it and whenever, the verb keeps one form.",
+       "vi": "<s>Saya makan.</s> và <s>Saya makan roti.</s> đều là câu hoàn chỉnh. Ai làm, làm lúc nào, động từ vẫn chỉ một dạng — giống tiếng Việt."
+      }
+     },
+     {
+      "text": {
+       "zh": "有些动词带前缀：<s>menjual</s>、<s>memasak</s>、<s>berenang</s>。现在整词记住就好，前缀的规律以后再讲。",
+       "ja": "接頭辞のつく動詞もあります：<s>menjual</s>・<s>memasak</s>・<s>berenang</s>。いまは語ごと覚えておけば十分で、接頭辞のルールはあとで扱います。",
+       "en": "Some verbs carry a prefix: <s>menjual</s>, <s>memasak</s>, <s>berenang</s>. For now learn them as whole words; the prefix rules come later.",
+       "vi": "Một số động từ có tiền tố: <s>menjual</s>, <s>memasak</s>, <s>berenang</s>. Bây giờ cứ học thuộc cả từ, quy tắc tiền tố sẽ nói sau."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Nomina + Preposisi",
+    "sub": {
+     "zh": "名词 + 介词",
+     "ja": "名詞＋前置詞",
+     "en": "Noun + preposition",
+     "vi": "Danh từ + giới từ"
+    },
+    "cat": "tatabahasa"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "介词后面接地点，整句<b>不需要动词</b>。三个介词：<s>di</s> 在、<s>ke</s> 去、<s>dari</s> 从。",
+     "ja": "前置詞の後ろに場所を置きます。文全体に<b>動詞は要りません</b>。前置詞は三つ：<s>di</s>（に・で）、<s>ke</s>（へ）、<s>dari</s>（から）。",
+     "en": "The preposition is followed by a place, and the sentence <b>needs no verb</b>. Three prepositions: <s>di</s> at / in, <s>ke</s> to, <s>dari</s> from.",
+     "vi": "Sau giới từ là địa điểm, cả câu <b>không cần động từ</b>. Ba giới từ: <s>di</s> ở, <s>ke</s> đến, <s>dari</s> từ."
+    }
+   },
+   {
+    "k": "pattern",
+    "code": "Nomina + Preposisi + tempat　→　<b>Manik di kelas.</b>",
+    "note": {
+     "zh": "Manik 在教室。（tempat ＝ 地点）",
+     "ja": "Manik は教室にいます。（tempat ＝ 場所）",
+     "en": "Manik is in class. (tempat = place)",
+     "vi": "Manik ở lớp. (tempat = nơi chốn)"
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "名词",
+      "ja": "名詞",
+      "en": "noun",
+      "vi": "danh từ"
+     },
+     {
+      "zh": "介词 + 地点",
+      "ja": "前置詞＋場所",
+      "en": "preposition + place",
+      "vi": "giới từ + nơi chốn"
+     },
+     {
+      "zh": "句子",
+      "ja": "文",
+      "en": "sentence",
+      "vi": "câu"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "nenek",
+       "reg": "neutral"
+      },
+      {
+       "id": "di rumah",
+       "reg": "neutral"
+      },
+      {
+       "id": "Nenek di rumah.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "kami",
+       "reg": "formal"
+      },
+      {
+       "id": "ke kampus",
+       "reg": "neutral"
+      },
+      {
+       "id": "Kami ke kampus.",
+       "reg": "formal"
+      }
+     ],
+     [
+      {
+       "id": "dosen",
+       "reg": "neutral"
+      },
+      {
+       "id": "dari kantin",
+       "reg": "neutral"
+      },
+      {
+       "id": "Dosen dari kantin.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Zhang",
+       "reg": "neutral"
+      },
+      {
+       "id": "dari Cina",
+       "reg": "neutral"
+      },
+      {
+       "id": "Zhang dari Cina.",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "buku saya",
+       "reg": "formal"
+      },
+      {
+       "id": "di tas",
+       "reg": "neutral"
+      },
+      {
+       "id": "Buku saya di tas.",
+       "reg": "formal"
+      }
+     ]
+    ]
+   },
+   {
+    "k": "examples",
+    "items": [
+     {
+      "id": "Kalian ke mana?",
+      "reg": "casual",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ke mana"
+      ],
+      "gloss": {
+       "zh": "你们去哪儿？",
+       "ja": "あなたたちはどこへ行くの？",
+       "en": "Where are you all going?",
+       "vi": "Các bạn đi đâu?"
+      }
+     },
+     {
+      "id": "Kami ke kantin.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "ke"
+      ],
+      "gloss": {
+       "zh": "我们去食堂。",
+       "ja": "わたしたちは食堂へ行きます。",
+       "en": "We are going to the canteen.",
+       "vi": "Chúng tôi đến căng tin."
+      }
+     },
+     {
+      "id": "Saya di kantin.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "di"
+      ],
+      "gloss": {
+       "zh": "我在食堂。",
+       "ja": "わたしは食堂にいます。",
+       "en": "I am at the canteen.",
+       "vi": "Tôi ở căng tin."
+      }
+     },
+     {
+      "id": "Teman saya ke pasar.",
+      "reg": "formal",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "pasar"
+      ],
+      "gloss": {
+       "zh": "我朋友去市场。",
+       "ja": "友だちは市場へ行きます。",
+       "en": "My friend is going to the market.",
+       "vi": "Bạn tôi đi chợ."
+      }
+     },
+     {
+      "id": "Mereka dari kampus.",
+      "reg": "neutral",
+      "alt": null,
+      "alt_gloss": null,
+      "kw": [
+       "dari"
+      ],
+      "gloss": {
+       "zh": "他们从校园来。",
+       "ja": "かれらはキャンパスから来ました。",
+       "en": "They have come from campus.",
+       "vi": "Họ từ trường về."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "三个介词，一个也不能混",
+     "ja": "三つの前置詞を混同しない",
+     "en": "Three prepositions, never swapped",
+     "vi": "Ba giới từ, không được lẫn"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>di</s> 是静止的「在」，<s>ke</s> 是有方向的「去 / 到」，<s>dari</s> 是来源的「从」。<s>Manik di kelas</s> = Manik 在教室，<s>Manik ke kelas</s> = Manik 去教室 —— 换一个介词意思就变。实战题会专门练这三个。",
+       "ja": "<s>di</s> は静止の「に・で」、<s>ke</s> は方向の「へ」、<s>dari</s> は出どころの「から」。<s>Manik di kelas</s> は「Manik は教室にいる」、<s>Manik ke kelas</s> は「Manik は教室へ行く」—— 前置詞を変えると意味が変わります。実戦問題でこの三つを集中的に練習します。",
+       "en": "<s>di</s> is static “at / in”, <s>ke</s> is directional “to”, <s>dari</s> is source “from”. <s>Manik di kelas</s> = Manik is in class; <s>Manik ke kelas</s> = Manik is going to class. Change the preposition and the meaning changes. The practice mode drills exactly these three.",
+       "vi": "<s>di</s> là “ở” (đứng yên), <s>ke</s> là “đến” (có hướng), <s>dari</s> là “từ” (nguồn gốc). <s>Manik di kelas</s> = Manik ở lớp, <s>Manik ke kelas</s> = Manik đến lớp — đổi giới từ là đổi nghĩa. Phần luyện tập sẽ tập trung vào đúng ba từ này."
+      }
+     },
+     {
+      "text": {
+       "zh": "这种句子<b>没有动词也完整</b>。中文的「在」「去」是动词，印尼语的 di、ke 只是介词，所以 <s>Kami ke kantin</s> 不用再加「去」。想强调「在」可以说 <s>Nenek ada di rumah</s>，但不加 ada 也对。",
+       "ja": "この文は<b>動詞がなくても完全</b>です。日本語なら「います」「行きます」が要りますが、<s>Kami ke kantin</s> はそれだけで「わたしたちは食堂へ行きます」。「いる」を強調したいときは <s>Nenek ada di rumah</s> と言えますが、ada なしでも正しい文です。",
+       "en": "These sentences are <b>complete without a verb</b>. English needs “is” or “goes”; Indonesian does not — <s>Kami ke kantin</s> is a full sentence. To stress “being there” you may say <s>Nenek ada di rumah</s>, but it is correct without ada.",
+       "vi": "Câu kiểu này <b>không có động từ vẫn hoàn chỉnh</b>. Tiếng Việt cũng nói “Manik ở lớp” không cần “đang”, nhưng “chúng tôi đến căng tin” thì “đến” là động từ; trong tiếng Indonesia ke chỉ là giới từ, <s>Kami ke kantin</s> không cần thêm gì. Muốn nhấn “có mặt ở đó” thì nói <s>Nenek ada di rumah</s>, nhưng không có ada cũng đúng."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan",
+    "sub": {
+     "zh": "练习",
+     "ja": "練習",
+     "en": "Practice",
+     "vi": "Luyện tập"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "这些题是照着讲义的练习另出的：先补词，再翻译，最后自己造句。答案点一下就能看。",
+     "ja": "プリントの練習にならって作り直した問題です。まず語を補い、つぎに翻訳し、最後に自分で文を作ります。答えはタップすると見られます。",
+     "en": "These exercises are modelled on the handout’s: first fill in a word, then translate, then write your own sentences. Tap to reveal an answer.",
+     "vi": "Các bài này được soạn lại theo bài tập của tài liệu: điền từ trước, rồi dịch, cuối cùng tự đặt câu. Chạm vào để xem đáp án."
+    }
+   },
+   {
+    "k": "fillblank",
+    "title": {
+     "zh": "补上缺的那个词",
+     "ja": "抜けている語を入れる",
+     "en": "Fill in the missing word",
+     "vi": "Điền từ còn thiếu"
+    },
+    "items": [
+     {
+      "pre": "Ini",
+      "ans": "kamus",
+      "post": "saya.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "这是我的词典。",
+       "ja": "これはわたしの辞書です。",
+       "en": "This is my dictionary.",
+       "vi": "Đây là từ điển của tôi."
+      }
+     },
+     {
+      "pre": "Pohon itu",
+      "ans": "tinggi",
+      "post": ".",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "那棵树很高。",
+       "ja": "あの木は高いです。",
+       "en": "That tree is tall.",
+       "vi": "Cây đó cao."
+      }
+     },
+     {
+      "pre": "Wayan",
+      "ans": "menari",
+      "post": ".",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "Wayan 在跳舞。",
+       "ja": "Wayan は踊っています。",
+       "en": "Wayan is dancing.",
+       "vi": "Wayan múa."
+      }
+     },
+     {
+      "pre": "Nenek",
+      "ans": "ke",
+      "post": "pasar.",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "奶奶去市场。",
+       "ja": "祖母は市場へ行きます。",
+       "en": "Grandmother is going to the market.",
+       "vi": "Bà đi chợ."
+      }
+     },
+     {
+      "pre": "Hari ini hari",
+      "ans": "Jumat",
+      "post": ".",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "今天星期五。",
+       "ja": "きょうは金曜日です。",
+       "en": "Today is Friday.",
+       "vi": "Hôm nay là thứ Sáu."
+      }
+     },
+     {
+      "pre": "Sekarang bulan",
+      "ans": "September",
+      "post": ".",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "现在是九月。",
+       "ja": "いまは九月です。",
+       "en": "It is September now.",
+       "vi": "Bây giờ là tháng Chín."
+      }
+     },
+     {
+      "pre": "Saya anak",
+      "ans": "kedua",
+      "post": ".",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我是老二。",
+       "ja": "わたしは二番目の子です。",
+       "en": "I am the second child.",
+       "vi": "Tôi là con thứ hai."
+      }
+     },
+     {
+      "pre": "Ulang tahun saya",
+      "ans": "tanggal",
+      "post": "dua puluh Oktober.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我的生日是 10 月 20 日。",
+       "ja": "わたしの誕生日は 10 月 20 日です。",
+       "en": "My birthday is on 20 October.",
+       "vi": "Sinh nhật của tôi là ngày 20 tháng Mười."
+      }
+     },
+     {
+      "pre": "Wanita itu",
+      "ans": "dosen",
+      "post": ".",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "那位女士是老师。",
+       "ja": "あの女性は先生です。",
+       "en": "That woman is a lecturer.",
+       "vi": "Người phụ nữ đó là giảng viên."
+      }
+     },
+     {
+      "pre": "Mahasiswa",
+      "ans": "di",
+      "post": "kelas.",
+      "reg": "neutral",
+      "gloss": {
+       "zh": "学生们在教室。",
+       "ja": "学生は教室にいます。",
+       "en": "The students are in class.",
+       "vi": "Sinh viên ở trong lớp."
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "翻成印尼语 · 四种句型都有",
+     "ja": "インドネシア語にする · 四つの型すべて",
+     "en": "Into Indonesian · all four patterns",
+     "vi": "Dịch sang tiếng Indonesia · đủ bốn mẫu câu"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "这是黑板。",
+        "ja": "これは黒板です。",
+        "en": "This is the whiteboard.",
+        "vi": "Đây là cái bảng."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ini papan tulis.",
+       "reg": "neutral",
+       "kw": [
+        "papan tulis"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "那位先生是医生。",
+        "ja": "あの男性は医者です。",
+        "en": "That man is a doctor.",
+        "vi": "Người đàn ông đó là bác sĩ."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Pria itu dokter.",
+       "reg": "neutral",
+       "kw": [
+        "pria"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "我的书很贵。",
+        "ja": "わたしの本は高いです。",
+        "en": "My book is expensive.",
+        "vi": "Sách của tôi đắt."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Buku saya mahal.",
+       "reg": "formal",
+       "kw": [
+        "mahal"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "这个教室很大。",
+        "ja": "この教室は大きいです。",
+        "en": "This classroom is big.",
+        "vi": "Lớp này rộng."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kelas ini besar.",
+       "reg": "neutral",
+       "kw": [
+        "besar"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "他们在游泳。",
+        "ja": "かれらは泳いでいます。",
+        "en": "They are swimming.",
+        "vi": "Họ đang bơi."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Mereka berenang.",
+       "reg": "neutral",
+       "kw": [
+        "berenang"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "我奶奶做饭。",
+        "ja": "わたしの祖母は料理をします。",
+        "en": "My grandmother cooks.",
+        "vi": "Bà tôi nấu ăn."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Nenek saya memasak.",
+       "reg": "formal",
+       "kw": [
+        "memasak"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "我们去食堂。",
+        "ja": "わたしたちは食堂へ行きます。",
+        "en": "We are going to the canteen.",
+        "vi": "Chúng tôi đến căng tin."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kami ke kantin.",
+       "reg": "formal",
+       "kw": [
+        "ke"
+       ]
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "Zhang 在家。",
+        "ja": "Zhang は家にいます。",
+        "en": "Zhang is at home.",
+        "vi": "Zhang ở nhà."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Zhang di rumah.",
+       "reg": "neutral",
+       "kw": [
+        "di"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "k": "prompt",
+    "tag": {
+     "zh": "讲义的 Latihan 5",
+     "ja": "プリントの Latihan 5",
+     "en": "Latihan 5 from the handout",
+     "vi": "Latihan 5 của tài liệu"
+    },
+    "text": {
+     "zh": "四种句型各写三句，一共十二句，只用学过的词。写完给每句标一下：第二个成分是名词、形容词、动词还是介词。",
+     "ja": "四つの型それぞれで三文ずつ、合わせて十二文を、習った語だけで書きます。書いたら各文に印をつけてください。二つめの要素は名詞か、形容詞か、動詞か、前置詞か。",
+     "en": "Write three sentences for each of the four patterns — twelve in all — using only words you have learned. Then label each one: is the second element a noun, an adjective, a verb or a preposition?",
+     "vi": "Mỗi mẫu câu viết ba câu, tổng cộng mười hai câu, chỉ dùng từ đã học. Viết xong bạn đánh dấu từng câu: thành phần thứ hai là danh từ, tính từ, động từ hay giới từ?"
+    }
+   },
+   {
+    "k": "note",
+    "tone": "amber",
+    "tag": {
+     "zh": "笔误修正",
+     "ja": "誤植の訂正",
+     "en": "Typo in the handout",
+     "vi": "Sửa lỗi in"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "讲义里 Latihan 2b、3b、4b 的题目都印成「Buat satu kalimat sederhana nomina+nomina!」，其实那三节分别是名词 + 形容词、名词 + 动词、名词 + 介词 —— 题目是从 1b 复制过去忘了改。做题时按各节自己的句型来。",
+       "ja": "プリントの Latihan 2b・3b・4b の指示はどれも「Buat satu kalimat sederhana nomina+nomina!」と印刷されていますが、その三節は名詞＋形容詞、名詞＋動詞、名詞＋前置詞の節です。1b からコピーして直し忘れたものなので、それぞれの節の型で解いてください。",
+       "en": "In the handout, the instructions for Latihan 2b, 3b and 4b all read “Buat satu kalimat sederhana nomina+nomina!”, although those sections are noun + adjective, noun + verb and noun + preposition — the line was copied from 1b and never changed. Do each one in its own pattern.",
+       "vi": "Trong tài liệu, đề của Latihan 2b, 3b, 4b đều in là “Buat satu kalimat sederhana nomina+nomina!”, trong khi ba phần đó lần lượt là danh từ + tính từ, danh từ + động từ, danh từ + giới từ — đề được chép từ 1b mà quên sửa. Bạn làm theo đúng mẫu câu của từng phần."
+      }
+     }
+    ]
+   },
+   {
+    "k": "reviewbtn"
+   }
+  ]
+ ]
+}
