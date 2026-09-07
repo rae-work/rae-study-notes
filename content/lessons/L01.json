@@ -6447,6 +6447,977 @@
   [
    {
     "k": "phead",
+    "title": "Latihan Kosakata",
+    "sub": {
+     "zh": "练习 · 用问候和疑问词造句",
+     "ja": "練習 · あいさつと疑問詞で文を作る",
+     "en": "Practice · make sentences with greetings and question words",
+     "vi": "Luyện tập · đặt câu với lời chào và từ để hỏi",
+     "pl": "Ćwiczenia · zdania z powitaniami i słowami pytającymi"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "用下面每个词各造一句",
+     "ja": "次の語でそれぞれ一文",
+     "en": "Make one sentence with each word below",
+     "vi": "Đặt một câu với mỗi từ dưới đây",
+     "pl": "Ułóż po jednym zdaniu z każdym słowem"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Selamat siang",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Selamat siang, Pak Joko.",
+       "reg": "formal",
+       "kw": [
+        "selamat",
+        "siang"
+       ],
+       "gloss": {
+        "zh": "中午好，Joko 先生。",
+        "ja": "こんにちは、ジョコさん。",
+        "en": "Good afternoon, Pak Joko.",
+        "vi": "Chào buổi trưa, chú Joko.",
+        "pl": "Dzień dobry, panie Joko."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Apa kabar",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Apa kabar, Rama?",
+       "reg": "formal",
+       "kw": [
+        "kabar"
+       ],
+       "gloss": {
+        "zh": "Rama，你好吗？",
+        "ja": "ラマさん、お元気ですか。",
+        "en": "How are you, Rama?",
+        "vi": "Rama, bạn khỏe không?",
+        "pl": "Jak się masz, Rama?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Sampai jumpa",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sampai jumpa, Mbak Ani.",
+       "reg": "formal",
+       "kw": [
+        "sampai",
+        "jumpa"
+       ],
+       "gloss": {
+        "zh": "再见，Ani 姐。",
+        "ja": "またね、アニさん。",
+        "en": "See you, Mbak Ani.",
+        "vi": "Hẹn gặp lại, chị Ani.",
+        "pl": "Do zobaczenia, Ani."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Terima kasih",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Terima kasih, Bu Wira.",
+       "reg": "formal",
+       "kw": [
+        "terima kasih"
+       ],
+       "gloss": {
+        "zh": "谢谢您，Wira 老师。",
+        "ja": "ありがとうございます、ウィラ先生。",
+        "en": "Thank you, Bu Wira.",
+        "vi": "Cảm ơn cô Wira.",
+        "pl": "Dziękuję, pani Wira."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Sama-sama",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sama-sama, Mas Togar.",
+       "reg": "formal",
+       "kw": [
+        "sama-sama"
+       ],
+       "gloss": {
+        "zh": "不客气，Togar。",
+        "ja": "どういたしまして、トガルさん。",
+        "en": "You're welcome, Mas Togar.",
+        "vi": "Không có gì, anh Togar.",
+        "pl": "Nie ma za co, Togar."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "apa",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Apa hobi Anda?",
+       "reg": "formal",
+       "kw": [
+        "apa",
+        "hobi"
+       ],
+       "gloss": {
+        "zh": "您的爱好是什么？",
+        "ja": "ご趣味は何ですか。",
+        "en": "What's your hobby?",
+        "vi": "Sở thích của bạn là gì?",
+        "pl": "Jakie masz hobby?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "siapa",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Itu siapa?",
+       "reg": "formal",
+       "kw": [
+        "siapa"
+       ],
+       "gloss": {
+        "zh": "那是谁？",
+        "ja": "あれはだれですか。",
+        "en": "Who is that?",
+        "vi": "Kia là ai?",
+        "pl": "Kto to jest?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "dari mana",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Anda berasal dari mana?",
+       "reg": "formal",
+       "kw": [
+        "berasal",
+        "dari",
+        "mana"
+       ],
+       "gloss": {
+        "zh": "您来自哪里？",
+        "ja": "ご出身はどちらですか。",
+        "en": "Where are you from?",
+        "vi": "Bạn đến từ đâu?",
+        "pl": "Skąd pochodzisz?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "di mana",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kamu tinggal di mana?",
+       "reg": "formal",
+       "kw": [
+        "tinggal",
+        "di",
+        "mana"
+       ],
+       "gloss": {
+        "zh": "你住在哪儿？",
+        "ja": "どこに住んでいますか。",
+        "en": "Where do you live?",
+        "vi": "Bạn sống ở đâu?",
+        "pl": "Gdzie mieszkasz?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "apakah",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Apakah Rama teman Anda?",
+       "reg": "formal",
+       "kw": [
+        "apakah",
+        "teman"
+       ],
+       "gloss": {
+        "zh": "Rama 是你的朋友吗？",
+        "ja": "ラマさんはあなたの友だちですか。",
+        "en": "Is Rama your friend?",
+        "vi": "Rama là bạn của bạn phải không?",
+        "pl": "Czy Rama jest twoim kolegą?"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "提醒",
+     "ja": "注意",
+     "en": "Note",
+     "vi": "Lưu ý",
+     "pl": "Uwaga"
+    },
+    "green": true,
+    "lines": [
+     {
+      "text": {
+       "zh": "课本这一题只给了十条横线，没写要用哪个词 —— 上面这十个是这一节出现过的：五个问候语、五个疑问词。造句时把称呼（<s>Pak</s> / <s>Bu</s> / <s>Mas</s> / <s>Mbak</s>）也带上，更像真的在说话。",
+       "ja": "教科書では線が十本あるだけで、どの語を使うかは書かれていません。上の十語はこの課に出てきたもの（あいさつ五つ、疑問詞五つ）です。呼びかけ（<s>Pak</s>／<s>Bu</s>／<s>Mas</s>／<s>Mbak</s>）も入れると、より自然な会話になります。",
+       "en": "The book just gives ten blank lines without saying which words to use. The ten above are the ones from this section: five greetings, five question words. Adding a title (<s>Pak</s>, <s>Bu</s>, <s>Mas</s>, <s>Mbak</s>) makes each sentence sound like real speech.",
+       "vi": "Trong sách chỉ có mười dòng trống, không nói dùng từ nào. Mười từ ở trên là những từ đã xuất hiện trong phần này: năm lời chào, năm từ để hỏi. Thêm cách xưng hô (<s>Pak</s> / <s>Bu</s> / <s>Mas</s> / <s>Mbak</s>) sẽ nghe tự nhiên hơn.",
+       "pl": "W podręczniku jest tylko dziesięć pustych linii, bez podanych słów. Powyższa dziesiątka pochodzi z tej części: pięć powitań i pięć słów pytających. Dodanie zwrotu grzecznościowego (<s>Pak</s>, <s>Bu</s>, <s>Mas</s>, <s>Mbak</s>) sprawia, że zdanie brzmi jak prawdziwa rozmowa."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Tata Bahasa 1",
+    "sub": {
+     "zh": "练习 · 补完句子",
+     "ja": "練習 · 文を完成させる",
+     "en": "Practice · complete the sentence",
+     "vi": "Luyện tập · hoàn thành câu",
+     "pl": "Ćwiczenia · uzupełnij zdanie"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "fillblank",
+    "title": {
+     "zh": "照例句补上缺的那一半 · Dia mahasiswa.",
+     "ja": "例にならって足りない方を補う · Dia mahasiswa.",
+     "en": "Fill in the missing half, as in the example · Dia mahasiswa.",
+     "vi": "Điền phần còn thiếu theo mẫu · Dia mahasiswa.",
+     "pl": "Uzupełnij brakującą część według wzoru · Dia mahasiswa."
+    },
+    "items": [
+     {
+      "pre": "Saya",
+      "ans": "mahasiswa",
+      "post": ".",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我是大学生。",
+       "ja": "わたしは大学生です。",
+       "en": "I'm a university student.",
+       "vi": "Tôi là sinh viên.",
+       "pl": "Jestem studentem / studentką."
+      }
+     },
+     {
+      "pre": "Itu Zach.",
+      "ans": "Dia",
+      "post": "guru.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "那是 Zach。他是老师。",
+       "ja": "あれはザックです。彼は先生です。",
+       "en": "That's Zach. He's a teacher.",
+       "vi": "Kia là Zach. Anh ấy là giáo viên.",
+       "pl": "To Zach. On jest nauczycielem."
+      }
+     },
+     {
+      "pre": "Mereka",
+      "ans": "perawat",
+      "post": ".",
+      "reg": "formal",
+      "gloss": {
+       "zh": "他们是护士。",
+       "ja": "かれらは看護師です。",
+       "en": "They're nurses.",
+       "vi": "Họ là y tá.",
+       "pl": "Oni są pielęgniarzami."
+      }
+     },
+     {
+      "pre": "Kami",
+      "ans": "pelajar",
+      "post": ".",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我们（不包括你）是中小学生。",
+       "ja": "わたしたち（あなたを含まない）は生徒です。",
+       "en": "We (not including you) are school pupils.",
+       "vi": "Chúng tôi (không gồm bạn) là học sinh.",
+       "pl": "My (bez ciebie) jesteśmy uczniami."
+      }
+     },
+     {
+      "pre": "Itu Prof. Wening.",
+      "ans": "Beliau",
+      "post": "dosen.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "那位是 Wening 教授。她是大学老师。",
+       "ja": "あちらはウェニン教授です。あの方は大学の先生です。",
+       "en": "That's Prof. Wening. She's a university lecturer.",
+       "vi": "Kia là giáo sư Wening. Cô ấy là giảng viên.",
+       "pl": "To profesor Wening. Ta osoba jest wykładowcą."
+      }
+     },
+     {
+      "pre": "Ani,",
+      "ans": "kamu",
+      "post": "karyawan?",
+      "reg": "formal",
+      "gloss": {
+       "zh": "Ani，你是公司职员吗？",
+       "ja": "アニ、あなたは会社員ですか。",
+       "en": "Ani, are you an office worker?",
+       "vi": "Ani, bạn là nhân viên công ty à?",
+       "pl": "Ani, czy pracujesz w biurze?"
+      }
+     },
+     {
+      "pre": "Teman saya",
+      "ans": "insinyur",
+      "post": ".",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我朋友是工程师。",
+       "ja": "わたしの友だちは技師です。",
+       "en": "My friend is an engineer.",
+       "vi": "Bạn tôi là kỹ sư.",
+       "pl": "Mój kolega jest inżynierem."
+      }
+     },
+     {
+      "pre": "Sari, Zach,",
+      "ans": "kalian",
+      "post": "mahasiswa baru?",
+      "reg": "formal",
+      "gloss": {
+       "zh": "Sari、Zach，你们是新生吗？",
+       "ja": "サリ、ザック、あなたたちは新入生ですか。",
+       "en": "Sari, Zach, are you two new students?",
+       "vi": "Sari, Zach, hai bạn là sinh viên mới à?",
+       "pl": "Sari, Zach, czy jesteście nowymi studentami?"
+      }
+     },
+     {
+      "pre": "Nenek saya",
+      "ans": "dokter",
+      "post": ".",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我奶奶是医生。",
+       "ja": "わたしの祖母は医者です。",
+       "en": "My grandmother is a doctor.",
+       "vi": "Bà tôi là bác sĩ.",
+       "pl": "Moja babcia jest lekarką."
+      }
+     },
+     {
+      "pre": "Wayan,",
+      "ans": "kita",
+      "post": "teman.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "Wayan，我们（连你）是朋友。",
+       "ja": "ワヤン、わたしたち（あなたも含む）は友だちです。",
+       "en": "Wayan, we (you included) are friends.",
+       "vi": "Wayan, chúng ta (có cả bạn) là bạn bè.",
+       "pl": "Wayan, jesteśmy przyjaciółmi (ty też)."
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "两种空",
+     "ja": "二種類の空欄",
+     "en": "Two kinds of blank",
+     "vi": "Hai kiểu chỗ trống",
+     "pl": "Dwa rodzaje luk"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "这一题的空有两种：空在<b>前面</b>就是缺主语，填代词；空在<b>后面</b>就是缺名词，填身份或职业。印尼语这种句子<b>不需要动词</b> —— 没有 adalah 也成立，两个名词并排就是一句话。",
+       "ja": "この問題の空欄は二種類です。<b>前</b>が空いていれば主語（代名詞）、<b>後ろ</b>が空いていれば身分や職業の名詞が入ります。インドネシア語のこの型は<b>動詞が要りません</b> —— adalah がなくても、名詞を二つ並べるだけで文になります。",
+       "en": "Two kinds of blank here. A blank at the <b>front</b> needs a subject pronoun; a blank at the <b>back</b> needs a noun — a role or job. This Indonesian pattern takes <b>no verb</b>: two nouns side by side already make a sentence, with no adalah.",
+       "vi": "Chỗ trống ở đây có hai kiểu. Trống ở <b>đầu</b> là thiếu chủ ngữ, điền đại từ; trống ở <b>cuối</b> là thiếu danh từ chỉ thân phận hay nghề nghiệp. Kiểu câu này trong tiếng Indonesia <b>không cần động từ</b> — không có adalah vẫn đúng, hai danh từ đặt cạnh nhau đã thành câu.",
+       "pl": "Luki są tu dwojakie. Luka na <b>początku</b> to brakujący podmiot — wstaw zaimek; luka na <b>końcu</b> to brakujący rzeczownik — rola albo zawód. Ten indonezyjski wzór <b>nie potrzebuje czasownika</b>: dwa rzeczowniki obok siebie to już zdanie, bez żadnego adalah."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Tata Bahasa 2",
+    "sub": {
+     "zh": "练习 · 对话里填代词",
+     "ja": "練習 · 会話に代名詞を入れる",
+     "en": "Practice · put the right pronoun in the dialogue",
+     "vi": "Luyện tập · điền đại từ vào hội thoại",
+     "pl": "Ćwiczenia · wstaw zaimek do dialogu"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "fillblank",
+    "title": {
+     "zh": "每句都缺一个代词",
+     "ja": "各文に代名詞が一つ足りません",
+     "en": "Each line is missing one pronoun",
+     "vi": "Mỗi câu thiếu một đại từ",
+     "pl": "W każdym zdaniu brakuje jednego zaimka"
+    },
+    "items": [
+     {
+      "pre": "Nama",
+      "ans": "saya",
+      "post": "Togar.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "我叫 Togar。—— 正式场合自我介绍。",
+       "ja": "わたしの名前はトガルです。—— 改まった場面の自己紹介。",
+       "en": "My name is Togar. — introducing yourself in a formal setting.",
+       "vi": "Tôi tên là Togar. — tự giới thiệu trong hoàn cảnh trang trọng.",
+       "pl": "Mam na imię Togar. — przedstawianie się w oficjalnej sytuacji."
+      }
+     },
+     {
+      "pre": "Hai, Wayan!",
+      "ans": "Aku",
+      "post": "mahasiswa baru.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "嗨，Wayan！我是新生。—— 对同龄同学，口语用 aku。",
+       "ja": "やあ、ワヤン。ぼくは新入生です。—— 同年代の相手にはくだけた aku。",
+       "en": "Hi, Wayan! I'm a new student. — casual aku with someone your own age.",
+       "vi": "Chào Wayan! Mình là sinh viên mới. — nói với bạn cùng lứa thì dùng aku.",
+       "pl": "Cześć, Wayan! Jestem nowym studentem. — do rówieśnika mówi się potocznie aku."
+      }
+     },
+     {
+      "pre": "Selamat pagi, Bu. Siapa nama",
+      "ans": "Anda",
+      "post": "?",
+      "reg": "formal",
+      "gloss": {
+       "zh": "早上好，女士。请问您叫什么名字？",
+       "ja": "おはようございます。お名前は何とおっしゃいますか。",
+       "en": "Good morning, ma’am. What is your name?",
+       "vi": "Chào buổi sáng ạ. Xin hỏi cô tên là gì?",
+       "pl": "Dzień dobry. Jak się pani nazywa?"
+      }
+     },
+     {
+      "pre": "Ani,",
+      "ans": "kamu",
+      "post": "tinggal di mana?",
+      "reg": "formal",
+      "gloss": {
+       "zh": "Ani，你住在哪儿？",
+       "ja": "アニ、どこに住んでいるの。",
+       "en": "Ani, where do you live?",
+       "vi": "Ani, bạn sống ở đâu?",
+       "pl": "Ani, gdzie mieszkasz?"
+      }
+     },
+     {
+      "pre": "Itu Zach.",
+      "ans": "Dia",
+      "post": "teman saya.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "那是 Zach。他是我朋友。—— dia 不分男女。",
+       "ja": "あれはザックです。彼はわたしの友だちです。—— dia は男女の区別がありません。",
+       "en": "That's Zach. He's my friend. — dia works for any gender.",
+       "vi": "Kia là Zach. Bạn ấy là bạn tôi. — dia không phân biệt nam nữ.",
+       "pl": "To Zach. To mój kolega. — dia nie rozróżnia płci."
+      }
+     },
+     {
+      "pre": "Rama tidak masuk kelas.",
+      "ans": "Ia",
+      "post": "kurang sehat.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "Rama 没来上课。他不太舒服。—— ia 和 dia 一样，多用于书面。",
+       "ja": "ラマは授業に来ていません。体調がよくないのです。—— ia は dia と同じで、書き言葉寄りです。",
+       "en": "Rama isn't in class. He's not well. — ia is the same as dia, more written.",
+       "vi": "Rama không đến lớp. Bạn ấy hơi mệt. — ia giống dia, thiên về văn viết.",
+       "pl": "Ramy nie ma na zajęciach. Źle się czuje. — ia znaczy to samo co dia, ale jest bardziej książkowe."
+      }
+     },
+     {
+      "pre": "Ini Prof. Wening.",
+      "ans": "Beliau",
+      "post": "dosen UGM.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "这位是 Wening 教授。她是 UGM 的老师。—— 说长辈、上级用 beliau。",
+       "ja": "こちらはウェニン教授です。UGM の先生でいらっしゃいます。—— 目上の人には beliau。",
+       "en": "This is Prof. Wening. She lectures at UGM. — beliau is for someone senior.",
+       "vi": "Đây là giáo sư Wening. Cô ấy là giảng viên UGM. — nói về người lớn tuổi, cấp trên thì dùng beliau.",
+       "pl": "To profesor Wening. Wykłada na UGM. — o osobie starszej albo wyższej rangą mówi się beliau."
+      }
+     },
+     {
+      "pre": "Pak Andi,",
+      "ans": "kami",
+      "post": "dari INCULS.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "Andi 老师，我们来自 INCULS。—— 不包括对方。",
+       "ja": "アンディ先生、わたしたちは INCULS から来ました。—— 相手を含みません。",
+       "en": "Pak Andi, we're from INCULS. — not counting the person spoken to.",
+       "vi": "Thầy Andi, chúng tôi từ INCULS đến. — không tính người nghe.",
+       "pl": "Panie Andi, jesteśmy z INCULS. — bez rozmówcy."
+      }
+     },
+     {
+      "pre": "Wayan, sekarang",
+      "ans": "kita",
+      "post": "belajar bahasa Indonesia.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "Wayan，我们现在一起学印尼语。—— 包括对方。",
+       "ja": "ワヤン、これから一緒にインドネシア語を勉強しよう。—— 相手を含みます。",
+       "en": "Wayan, now we're studying Indonesian together. — the listener is included.",
+       "vi": "Wayan, bây giờ chúng ta cùng học tiếng Indonesia. — có cả người nghe.",
+       "pl": "Wayan, teraz uczymy się razem indonezyjskiego. — razem ze słuchaczem."
+      }
+     },
+     {
+      "pre": "Sari, Zach, apa kabar?",
+      "ans": "Kalian",
+      "post": "sehat?",
+      "reg": "formal",
+      "gloss": {
+       "zh": "Sari、Zach，你们好吗？身体好吗？",
+       "ja": "サリ、ザック、元気ですか。体調はどうですか。",
+       "en": "Sari, Zach, how are you? Are you both well?",
+       "vi": "Sari, Zach, hai bạn khỏe không?",
+       "pl": "Sari, Zach, jak się macie? Zdrowi jesteście?"
+      }
+     },
+     {
+      "pre": "Itu Siti dan Josep.",
+      "ans": "Mereka",
+      "post": "mahasiswa UGM.",
+      "reg": "formal",
+      "gloss": {
+       "zh": "那是 Siti 和 Josep。他们是 UGM 的学生。",
+       "ja": "あれはシティとジョセフです。かれらは UGM の学生です。",
+       "en": "That's Siti and Josep. They're UGM students.",
+       "vi": "Kia là Siti và Josep. Họ là sinh viên UGM.",
+       "pl": "To Siti i Josep. Oni są studentami UGM."
+      }
+     },
+     {
+      "pre": "",
+      "ans": "Saudara",
+      "post": "berasal dari mana?",
+      "reg": "formal",
+      "gloss": {
+       "zh": "请问您来自哪里？—— Saudara 是对同辈的正式称呼。",
+       "ja": "あなたはどちらのご出身ですか。—— Saudara は同年代への改まった呼び方です。",
+       "en": "Where are you from? — Saudara is a formal way to address a peer.",
+       "vi": "Bạn đến từ đâu ạ? — Saudara là cách gọi trang trọng với người ngang hàng.",
+       "pl": "Skąd pochodzisz? — Saudara to oficjalny zwrot do osoby w tym samym wieku."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Tata Bahasa 3",
+    "sub": {
+     "zh": "练习 · 十个代词各造一句",
+     "ja": "練習 · 代名詞十個でそれぞれ一文",
+     "en": "Practice · one sentence for each of ten pronouns",
+     "vi": "Luyện tập · mỗi đại từ một câu",
+     "pl": "Ćwiczenia · po jednym zdaniu z każdym zaimkiem"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "用这个代词造一句",
+     "ja": "この代名詞で一文",
+     "en": "Make a sentence with this pronoun",
+     "vi": "Đặt một câu với đại từ này",
+     "pl": "Ułóż zdanie z tym zaimkiem"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Aku",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Aku suka minum kopi.",
+       "reg": "formal",
+       "kw": [
+        "aku",
+        "suka"
+       ],
+       "gloss": {
+        "zh": "我喜欢喝咖啡。",
+        "ja": "ぼくはコーヒーを飲むのが好きです。",
+        "en": "I like drinking coffee.",
+        "vi": "Mình thích uống cà phê.",
+        "pl": "Lubię pić kawę."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kamu",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kamu belajar bahasa Indonesia di UGM.",
+       "reg": "formal",
+       "kw": [
+        "kamu",
+        "belajar"
+       ],
+       "gloss": {
+        "zh": "你在 UGM 学印尼语。",
+        "ja": "あなたは UGM でインドネシア語を勉強しています。",
+        "en": "You study Indonesian at UGM.",
+        "vi": "Bạn học tiếng Indonesia ở UGM.",
+        "pl": "Uczysz się indonezyjskiego na UGM."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Anda",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Anda tinggal di Jalan Kaliurang, ya?",
+       "reg": "formal",
+       "kw": [
+        "Anda",
+        "tinggal"
+       ],
+       "gloss": {
+        "zh": "您住在 Kaliurang 路，对吧？",
+        "ja": "カリウラン通りにお住まいですよね。",
+        "en": "You live on Jalan Kaliurang, right?",
+        "vi": "Cô sống ở đường Kaliurang, đúng không ạ?",
+        "pl": "Mieszka pan przy Jalan Kaliurang, prawda?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Dia",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Dia berasal dari Lombok.",
+       "reg": "formal",
+       "kw": [
+        "dia",
+        "berasal"
+       ],
+       "gloss": {
+        "zh": "她来自龙目岛。",
+        "ja": "あの人はロンボク島の出身です。",
+        "en": "She comes from Lombok.",
+        "vi": "Bạn ấy đến từ đảo Lombok.",
+        "pl": "Ta osoba pochodzi z Lomboku."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Beliau",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Beliau guru bahasa Indonesia saya.",
+       "reg": "formal",
+       "kw": [
+        "beliau",
+        "guru"
+       ],
+       "gloss": {
+        "zh": "那位是我的印尼语老师。",
+        "ja": "あの方はわたしのインドネシア語の先生です。",
+        "en": "She's my Indonesian teacher.",
+        "vi": "Cô ấy là giáo viên tiếng Indonesia của tôi.",
+        "pl": "To moja nauczycielka indonezyjskiego."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kami",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kami mahasiswa INCULS.",
+       "reg": "formal",
+       "kw": [
+        "kami"
+       ],
+       "gloss": {
+        "zh": "我们（不包括你）是 INCULS 的学生。",
+        "ja": "わたしたち（あなたを含まない）は INCULS の学生です。",
+        "en": "We (not including you) are INCULS students.",
+        "vi": "Chúng tôi (không gồm bạn) là sinh viên INCULS.",
+        "pl": "My (bez ciebie) jesteśmy studentami INCULS."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kita",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sekarang kita belajar angka.",
+       "reg": "formal",
+       "kw": [
+        "kita",
+        "angka"
+       ],
+       "gloss": {
+        "zh": "现在我们（连你）一起学数字。",
+        "ja": "これから（あなたも一緒に）数を勉強します。",
+        "en": "Now we (you included) are learning numbers.",
+        "vi": "Bây giờ chúng ta (có cả bạn) học số.",
+        "pl": "Teraz uczymy się liczb (ty też)."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kalian",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kalian datang dari Bali?",
+       "reg": "formal",
+       "kw": [
+        "kalian",
+        "datang"
+       ],
+       "gloss": {
+        "zh": "你们是从巴厘来的吗？",
+        "ja": "あなたたちはバリから来たのですか。",
+        "en": "Did you all come from Bali?",
+        "vi": "Các bạn đến từ Bali à?",
+        "pl": "Przyjechaliście z Bali?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saudara sekalian",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Selamat sore, Saudara sekalian.",
+       "reg": "formal",
+       "kw": [
+        "Saudara sekalian"
+       ],
+       "gloss": {
+        "zh": "各位，下午好。",
+        "ja": "みなさん、こんにちは。",
+        "en": "Good afternoon, everyone.",
+        "vi": "Chào buổi chiều, thưa các bạn.",
+        "pl": "Dobry wieczór państwu."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Mereka",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Mereka teman-teman saya.",
+       "reg": "formal",
+       "kw": [
+        "mereka",
+        "teman-teman"
+       ],
+       "gloss": {
+        "zh": "他们是我的朋友。",
+        "ja": "かれらはわたしの友だちです。",
+        "en": "They are my friends.",
+        "vi": "Họ là bạn của tôi.",
+        "pl": "Oni są moimi znajomymi."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "挑哪一个",
+     "ja": "どれを選ぶか",
+     "en": "Which one to pick",
+     "vi": "Chọn từ nào",
+     "pl": "Który wybrać"
+    },
+    "green": true,
+    "lines": [
+     {
+      "text": {
+       "zh": "<s>aku</s> 和 <s>kamu</s> 是口语，对同龄朋友用；<s>saya</s> 和 <s>Anda</s> 是正式的，对老师、长辈、陌生人用。<b>拿不准就用 saya</b> —— 它任何场合都不失礼。",
+       "ja": "<s>aku</s> と <s>kamu</s> はくだけた形で、同年代の友だちに。<s>saya</s> と <s>Anda</s> は改まった形で、先生・目上・初対面の人に使います。<b>迷ったら saya</b> —— どんな場面でも失礼になりません。",
+       "en": "<s>aku</s> and <s>kamu</s> are casual, for friends your own age; <s>saya</s> and <s>Anda</s> are formal, for teachers, elders and strangers. <b>When in doubt, use saya</b> — it is never rude anywhere.",
+       "vi": "<s>aku</s> và <s>kamu</s> là khẩu ngữ, dùng với bạn cùng lứa; <s>saya</s> và <s>Anda</s> trang trọng, dùng với thầy cô, người lớn tuổi, người lạ. <b>Không chắc thì dùng saya</b> — chỗ nào cũng lịch sự.",
+       "pl": "<s>aku</s> i <s>kamu</s> są potoczne, do rówieśników; <s>saya</s> i <s>Anda</s> są oficjalne, do nauczycieli, osób starszych i nieznajomych. <b>W razie wątpliwości mów saya</b> — nigdy nie zabrzmi niegrzecznie."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
     "title": "Wawasan Keindonesiaan",
     "sub": {
      "zh": "印尼常识 · 名字与问候",

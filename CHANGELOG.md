@@ -4,6 +4,29 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.8.0 — 2026-09-07
+
+**Answer keys for every exercise in the coursebook**
+
+- **Sixteen new practice pages, one set per chapter, each question with a
+  worked answer you tap to reveal.** Every *Latihan* in the INCULS coursebook
+  and in the classroom handouts now has a counterpart here: the vocabulary
+  sentences and pronoun gap-fills of Bab 1; the *punya* → *-nya* conversions,
+  the three-column possessive table and the *ini* / *itu* naming drill of
+  Bab 2; the number readings, the four question words, the four simple-sentence
+  patterns, the reading comprehension and the invitation card of Bab 3
+- **The questions are new, the exercise types are not.** Each page follows the
+  same format as the book — same grammar point, same cue words, same number of
+  items — but the sentences are written fresh, so this is a companion to the
+  book rather than a copy of it. Answers are one possible version, and the
+  pages say so
+- **Answers now carry a translation.** Tapping an Indonesian answer reveals its
+  meaning in your language underneath, so a reference answer is readable even
+  when the sentence uses a word you have not met yet
+- **Two exercises are honestly marked as unanswerable.** Bab 3 section A needs
+  the coursebook's own audio, which is not part of this app; that page says so
+  and offers a true/false exercise on the chapter's reading text instead
+
 ## 1.7.0 — 2026-09-07
 
 **Polish, and a language menu that fits**

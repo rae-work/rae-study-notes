@@ -2627,6 +2627,1363 @@
   [
    {
     "k": "phead",
+    "title": "Latihan Kosakata",
+    "sub": {
+     "zh": "练习 · 说出东西的名字",
+     "ja": "練習 · ものの名前を言う",
+     "en": "Practice · name the things around you",
+     "vi": "Luyện tập · gọi tên đồ vật",
+     "pl": "Ćwiczenia · nazwij przedmioty"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "看着东西回答 · pakai ini / itu",
+     "ja": "ものを見て答える · pakai ini / itu",
+     "en": "Answer while looking at the object · pakai ini / itu",
+     "vi": "Nhìn đồ vật rồi trả lời · pakai ini / itu",
+     "pl": "Odpowiedz, patrząc na przedmiot · pakai ini / itu"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "这是什么？（词典）",
+        "ja": "これは何ですか。（辞書）",
+        "en": "What is this? (dictionary)",
+        "vi": "Đây là cái gì? (từ điển)",
+        "pl": "Co to jest? (słownik)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ini kamus.",
+       "reg": "formal",
+       "kw": [
+        "kamus"
+       ],
+       "gloss": {
+        "zh": "这是词典。",
+        "ja": "これは辞書です。",
+        "en": "This is a dictionary.",
+        "vi": "Đây là từ điển.",
+        "pl": "To jest słownik."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "那是什么？（黑板）",
+        "ja": "あれは何ですか。（ホワイトボード）",
+        "en": "What is that? (whiteboard)",
+        "vi": "Kia là cái gì? (cái bảng)",
+        "pl": "Co to jest tam? (tablica)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Itu papan tulis.",
+       "reg": "formal",
+       "kw": [
+        "papan tulis"
+       ],
+       "gloss": {
+        "zh": "那是黑板。",
+        "ja": "あれはホワイトボードです。",
+        "en": "That is a whiteboard.",
+        "vi": "Kia là cái bảng.",
+        "pl": "Tam jest tablica."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "这是什么？（尺子）",
+        "ja": "これは何ですか。（定規）",
+        "en": "What is this? (ruler)",
+        "vi": "Đây là cái gì? (thước kẻ)",
+        "pl": "Co to jest? (linijka)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ini penggaris.",
+       "reg": "formal",
+       "kw": [
+        "penggaris"
+       ],
+       "gloss": {
+        "zh": "这是尺子。",
+        "ja": "これは定規です。",
+        "en": "This is a ruler.",
+        "vi": "Đây là thước kẻ.",
+        "pl": "To jest linijka."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "那是什么？（挂钟）",
+        "ja": "あれは何ですか。（掛け時計）",
+        "en": "What is that? (wall clock)",
+        "vi": "Kia là cái gì? (đồng hồ treo tường)",
+        "pl": "Co to jest tam? (zegar ścienny)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Itu jam dinding.",
+       "reg": "formal",
+       "kw": [
+        "jam dinding"
+       ],
+       "gloss": {
+        "zh": "那是挂钟。",
+        "ja": "あれは掛け時計です。",
+        "en": "That is a wall clock.",
+        "vi": "Kia là đồng hồ treo tường.",
+        "pl": "Tam jest zegar ścienny."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "这是什么？（包）",
+        "ja": "これは何ですか。（かばん）",
+        "en": "What is this? (bag)",
+        "vi": "Đây là cái gì? (cái túi)",
+        "pl": "Co to jest? (torba)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ini tas.",
+       "reg": "formal",
+       "kw": [
+        "tas"
+       ],
+       "gloss": {
+        "zh": "这是包。",
+        "ja": "これはかばんです。",
+        "en": "This is a bag.",
+        "vi": "Đây là cái túi.",
+        "pl": "To jest torba."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "那是什么？（窗帘）",
+        "ja": "あれは何ですか。（カーテン）",
+        "en": "What is that? (curtain)",
+        "vi": "Kia là cái gì? (rèm cửa)",
+        "pl": "Co to jest tam? (zasłona)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Itu tirai.",
+       "reg": "formal",
+       "kw": [
+        "tirai"
+       ],
+       "gloss": {
+        "zh": "那是窗帘。",
+        "ja": "あれはカーテンです。",
+        "en": "That is a curtain.",
+        "vi": "Kia là rèm cửa.",
+        "pl": "Tam jest zasłona."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "这是什么？（眼镜）",
+        "ja": "これは何ですか。（めがね）",
+        "en": "What is this? (glasses)",
+        "vi": "Đây là cái gì? (kính)",
+        "pl": "Co to jest? (okulary)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ini kacamata.",
+       "reg": "formal",
+       "kw": [
+        "kacamata"
+       ],
+       "gloss": {
+        "zh": "这是眼镜。",
+        "ja": "これはめがねです。",
+        "en": "These are glasses.",
+        "vi": "Đây là cái kính.",
+        "pl": "To są okulary."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "那是什么？（地图）",
+        "ja": "あれは何ですか。（地図）",
+        "en": "What is that? (map)",
+        "vi": "Kia là cái gì? (bản đồ)",
+        "pl": "Co to jest tam? (mapa)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Itu peta dunia.",
+       "reg": "formal",
+       "kw": [
+        "peta",
+        "dunia"
+       ],
+       "gloss": {
+        "zh": "那是世界地图。",
+        "ja": "あれは世界地図です。",
+        "en": "That is a world map.",
+        "vi": "Kia là bản đồ thế giới.",
+        "pl": "Tam jest mapa świata."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "这是什么？（圆珠笔）",
+        "ja": "これは何ですか。（ボールペン）",
+        "en": "What is this? (ballpoint pen)",
+        "vi": "Đây là cái gì? (bút bi)",
+        "pl": "Co to jest? (długopis)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ini bolpoin.",
+       "reg": "formal",
+       "kw": [
+        "bolpoin"
+       ],
+       "gloss": {
+        "zh": "这是圆珠笔。",
+        "ja": "これはボールペンです。",
+        "en": "This is a ballpoint pen.",
+        "vi": "Đây là bút bi.",
+        "pl": "To jest długopis."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "那是什么？（书架）",
+        "ja": "あれは何ですか。（本棚）",
+        "en": "What is that? (bookshelf)",
+        "vi": "Kia là cái gì? (giá sách)",
+        "pl": "Co to jest tam? (regał na książki)"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Itu rak buku.",
+       "reg": "formal",
+       "kw": [
+        "rak buku"
+       ],
+       "gloss": {
+        "zh": "那是书架。",
+        "ja": "あれは本棚です。",
+        "en": "That is a bookshelf.",
+        "vi": "Kia là giá sách.",
+        "pl": "Tam jest regał na książki."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "prompt",
+    "tag": {
+     "zh": "课堂任务",
+     "ja": "教室での課題",
+     "en": "Classroom task",
+     "vi": "Nhiệm vụ trên lớp",
+     "pl": "Zadanie na zajęciach"
+    },
+    "text": {
+     "zh": "和同学两个人一组：一个人指着教室里的东西问 <s>Ini apa?</s> 或 <s>Itu apa?</s>，另一个人答。指近的用 <s>ini</s>，指远的用 <s>itu</s>，一人问十样再换。",
+     "ja": "二人一組で：一人が教室のものを指して <s>Ini apa?</s> か <s>Itu apa?</s> と聞き、もう一人が答えます。近いものは <s>ini</s>、遠いものは <s>itu</s>。十個聞いたら交代。",
+     "en": "In pairs: one person points at something in the room and asks <s>Ini apa?</s> or <s>Itu apa?</s>, the other answers. Use <s>ini</s> for what is near you and <s>itu</s> for what is further away. Ten questions each, then swap.",
+     "vi": "Làm theo cặp: một người chỉ vào đồ vật trong lớp và hỏi <s>Ini apa?</s> hoặc <s>Itu apa?</s>, người kia trả lời. Gần thì dùng <s>ini</s>, xa thì dùng <s>itu</s>. Mỗi người hỏi mười lần rồi đổi vai.",
+     "pl": "W parach: jedna osoba wskazuje przedmiot w sali i pyta <s>Ini apa?</s> albo <s>Itu apa?</s>, druga odpowiada. Blisko — <s>ini</s>, dalej — <s>itu</s>. Po dziesięciu pytaniach zamiana."
+    }
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Tata Bahasa 1",
+    "sub": {
+     "zh": "练习 · 从 punya 句改成领属句",
+     "ja": "練習 · punya の文を所有の文に",
+     "en": "Practice · turn a punya sentence into a possessive one",
+     "vi": "Luyện tập · đổi câu punya thành câu sở hữu",
+     "pl": "Ćwiczenia · zamień zdanie z punya na dzierżawcze"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "照例句改 · Hasan punya mobil. → Mobilnya baru.",
+     "ja": "例にならって書きかえる · Hasan punya mobil. → Mobilnya baru.",
+     "en": "Rewrite as in the example · Hasan punya mobil. → Mobilnya baru.",
+     "vi": "Viết lại theo mẫu · Hasan punya mobil. → Mobilnya baru.",
+     "pl": "Przekształć według wzoru · Hasan punya mobil. → Mobilnya baru."
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Rumah itu punya halaman.",
+       "reg": "formal",
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Halamannya luas.",
+       "reg": "formal",
+       "kw": [
+        "halaman"
+       ],
+       "gloss": {
+        "zh": "halaman rumah itu → halamannya。那房子的院子很宽敞。",
+        "ja": "halaman rumah itu → halamannya。あの家の庭は広いです。",
+        "en": "halaman rumah itu → halamannya. Its yard is spacious.",
+        "vi": "halaman rumah itu → halamannya. Sân của ngôi nhà đó rất rộng.",
+        "pl": "halaman rumah itu → halamannya. Jego podwórko jest przestronne."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Aku punya adik.",
+       "reg": "formal",
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Adikku dua orang.",
+       "reg": "formal",
+       "kw": [
+        "adik"
+       ],
+       "gloss": {
+        "zh": "adik aku → adikku。我有两个弟弟妹妹。",
+        "ja": "adik aku → adikku。弟妹は二人です。",
+        "en": "adik aku → adikku. I have two younger siblings.",
+        "vi": "adik aku → adikku. Mình có hai đứa em.",
+        "pl": "adik aku → adikku. Mam dwoje młodszego rodzeństwa."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kakek punya sepeda.",
+       "reg": "formal",
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepedanya tua.",
+       "reg": "formal",
+       "kw": [
+        "sepeda"
+       ],
+       "gloss": {
+        "zh": "sepeda kakek → sepedanya。爷爷的自行车很旧。",
+        "ja": "sepeda kakek → sepedanya。祖父の自転車は古いです。",
+        "en": "sepeda kakek → sepedanya. His bicycle is old.",
+        "vi": "sepeda kakek → sepedanya. Xe đạp của ông đã cũ.",
+        "pl": "sepeda kakek → sepedanya. Jego rower jest stary."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Anda punya kamus.",
+       "reg": "formal",
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kamus Anda baru.",
+       "reg": "formal",
+       "kw": [
+        "kamus"
+       ],
+       "gloss": {
+        "zh": "kamus Anda → 不缩写。您的词典是新的。",
+        "ja": "kamus Anda → 縮めません。あなたの辞書は新しいです。",
+        "en": "kamus Anda → no short form. Your dictionary is new.",
+        "vi": "kamus Anda → không rút gọn. Từ điển của bạn còn mới.",
+        "pl": "kamus Anda → bez formy skróconej. Twój słownik jest nowy."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Indonesia punya bendera.",
+       "reg": "formal",
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Benderanya merah putih.",
+       "reg": "formal",
+       "kw": [
+        "bendera"
+       ],
+       "gloss": {
+        "zh": "bendera Indonesia → benderanya。印尼的国旗是红白两色。",
+        "ja": "bendera Indonesia → benderanya。インドネシアの国旗は紅白です。",
+        "en": "bendera Indonesia → benderanya. Its flag is red and white.",
+        "vi": "bendera Indonesia → benderanya. Quốc kỳ của nước này màu đỏ trắng.",
+        "pl": "bendera Indonesia → benderanya. Jej flaga jest biało-czerwona."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kamu punya sepatu.",
+       "reg": "formal",
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepatumu hitam.",
+       "reg": "formal",
+       "kw": [
+        "sepatu"
+       ],
+       "gloss": {
+        "zh": "sepatu kamu → sepatumu。你的鞋是黑的。",
+        "ja": "sepatu kamu → sepatumu。あなたの靴は黒いです。",
+        "en": "sepatu kamu → sepatumu. Your shoes are black.",
+        "vi": "sepatu kamu → sepatumu. Giày của bạn màu đen.",
+        "pl": "sepatu kamu → sepatumu. Twoje buty są czarne."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Dia punya kacamata.",
+       "reg": "formal",
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kacamatanya mahal.",
+       "reg": "formal",
+       "kw": [
+        "kacamata"
+       ],
+       "gloss": {
+        "zh": "kacamata dia → kacamatanya。他的眼镜很贵。",
+        "ja": "kacamata dia → kacamatanya。あの人のめがねは高いです。",
+        "en": "kacamata dia → kacamatanya. Their glasses are expensive.",
+        "vi": "kacamata dia → kacamatanya. Kính của bạn ấy rất đắt.",
+        "pl": "kacamata dia → kacamatanya. Ich okulary są drogie."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Fakultas punya kantin.",
+       "reg": "formal",
+       "kw": [
+        "punya"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kantinnya luas.",
+       "reg": "formal",
+       "kw": [
+        "kantin"
+       ],
+       "gloss": {
+        "zh": "kantin fakultas → kantinnya。院系的食堂很宽敞。",
+        "ja": "kantin fakultas → kantinnya。学部の食堂は広いです。",
+        "en": "kantin fakultas → kantinnya. Its canteen is spacious.",
+        "vi": "kantin fakultas → kantinnya. Căng tin của khoa rất rộng.",
+        "pl": "kantin fakultas → kantinnya. Jego stołówka jest przestronna."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "三步",
+     "ja": "三つの手順",
+     "en": "Three steps",
+     "vi": "Ba bước",
+     "pl": "Trzy kroki"
+    },
+    "green": true,
+    "lines": [
+     {
+      "text": {
+       "zh": "每题都是三步：① <s>Kakek punya sepeda.</s> ② 东西在前、主人在后 → <s>sepeda kakek</s> ③ 主人是第三方，换成 <b>-nya</b> → <s>Sepedanya tua.</s><br>主人是 <s>aku</s> 就换 <b>-ku</b>，是 <s>kamu</s> 就换 <b>-mu</b>。<s>saya</s>、<s>Anda</s>、<s>beliau</s> <b>没有缩写形式</b>，原样写在名词后面。",
+       "ja": "各問三段階です。① <s>Kakek punya sepeda.</s> ② もの＋持ち主の順 → <s>sepeda kakek</s> ③ 持ち主が第三者なら <b>-nya</b> → <s>Sepedanya tua.</s><br>持ち主が <s>aku</s> なら <b>-ku</b>、<s>kamu</s> なら <b>-mu</b>。<s>saya</s>・<s>Anda</s>・<s>beliau</s> に<b>縮約形はありません</b>。そのまま名詞の後ろに置きます。",
+       "en": "Three steps each: (1) <s>Kakek punya sepeda.</s> (2) thing first, owner second → <s>sepeda kakek</s> (3) a third-person owner becomes <b>-nya</b> → <s>Sepedanya tua.</s><br>An <s>aku</s> owner becomes <b>-ku</b>, a <s>kamu</s> owner becomes <b>-mu</b>. <s>saya</s>, <s>Anda</s> and <s>beliau</s> have <b>no short form</b> — they stay as they are after the noun.",
+       "vi": "Mỗi câu có ba bước: ① <s>Kakek punya sepeda.</s> ② đồ vật trước, chủ sở hữu sau → <s>sepeda kakek</s> ③ chủ sở hữu là ngôi thứ ba thì đổi thành <b>-nya</b> → <s>Sepedanya tua.</s><br>Chủ là <s>aku</s> thì thành <b>-ku</b>, là <s>kamu</s> thì thành <b>-mu</b>. <s>saya</s>, <s>Anda</s>, <s>beliau</s> <b>không có dạng rút gọn</b>, giữ nguyên sau danh từ.",
+       "pl": "Każde zadanie ma trzy kroki: ① <s>Kakek punya sepeda.</s> ② najpierw rzecz, potem właściciel → <s>sepeda kakek</s> ③ właściciel w trzeciej osobie zamienia się w <b>-nya</b> → <s>Sepedanya tua.</s><br>Właściciel <s>aku</s> daje <b>-ku</b>, <s>kamu</s> daje <b>-mu</b>. <s>saya</s>, <s>Anda</s> i <s>beliau</s> <b>nie mają formy skróconej</b> — zostają po rzeczowniku bez zmian."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Tata Bahasa 2",
+    "sub": {
+     "zh": "练习 · 东西＋主人＋怎么样",
+     "ja": "練習 · もの＋持ち主＋どんな",
+     "en": "Practice · thing + owner + what it is like",
+     "vi": "Luyện tập · đồ vật + chủ sở hữu + tính chất",
+     "pl": "Ćwiczenia · rzecz + właściciel + jaka jest"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "把三栏拼成一句",
+     "ja": "三つの欄をつないで一文に",
+     "en": "Join the three columns into one sentence",
+     "vi": "Ghép ba cột thành một câu",
+     "pl": "Połącz trzy kolumny w jedno zdanie"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "buku ／ saya ／ baru",
+        "ja": "buku ／ saya ／ baru",
+        "en": "buku / saya / baru",
+        "vi": "buku / saya / baru",
+        "pl": "buku / saya / baru"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Buku saya baru.",
+       "reg": "formal",
+       "kw": [
+        "buku"
+       ],
+       "gloss": {
+        "zh": "我的书是新的。",
+        "ja": "わたしの本は新しいです。",
+        "en": "My book is new.",
+        "vi": "Sách của tôi còn mới.",
+        "pl": "Moja książka jest nowa."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "baju ／ Rakha ／ bagus",
+        "ja": "baju ／ Rakha ／ bagus",
+        "en": "baju / Rakha / bagus",
+        "vi": "baju / Rakha / bagus",
+        "pl": "baju / Rakha / bagus"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Baju Rakha bagus.",
+       "reg": "formal",
+       "kw": [
+        "baju"
+       ],
+       "gloss": {
+        "zh": "Rakha 的衣服很好看。",
+        "ja": "ラカの服はすてきです。",
+        "en": "Rakha's shirt looks good.",
+        "vi": "Áo của Rakha đẹp.",
+        "pl": "Koszula Rakhy jest ładna."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "sepeda ／ kakek ／ tua",
+        "ja": "sepeda ／ kakek ／ tua",
+        "en": "sepeda / kakek / tua",
+        "vi": "sepeda / kakek / tua",
+        "pl": "sepeda / kakek / tua"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepeda kakek tua.",
+       "reg": "formal",
+       "kw": [
+        "sepeda"
+       ],
+       "gloss": {
+        "zh": "爷爷的自行车很旧。",
+        "ja": "祖父の自転車は古いです。",
+        "en": "Grandpa's bicycle is old.",
+        "vi": "Xe đạp của ông đã cũ.",
+        "pl": "Rower dziadka jest stary."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "tas ／ Syifa ／ mahal",
+        "ja": "tas ／ Syifa ／ mahal",
+        "en": "tas / Syifa / mahal",
+        "vi": "tas / Syifa / mahal",
+        "pl": "tas / Syifa / mahal"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Tas Syifa mahal.",
+       "reg": "formal",
+       "kw": [
+        "tas"
+       ],
+       "gloss": {
+        "zh": "Syifa 的包很贵。",
+        "ja": "シファのかばんは高いです。",
+        "en": "Syifa's bag is expensive.",
+        "vi": "Túi của Syifa rất đắt.",
+        "pl": "Torba Syify jest droga."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "rumah ／ teman saya ／ besar",
+        "ja": "rumah ／ teman saya ／ besar",
+        "en": "rumah / teman saya / besar",
+        "vi": "rumah / teman saya / besar",
+        "pl": "rumah / teman saya / besar"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Rumah teman saya besar.",
+       "reg": "formal",
+       "kw": [
+        "rumah"
+       ],
+       "gloss": {
+        "zh": "我朋友的房子很大。",
+        "ja": "友だちの家は大きいです。",
+        "en": "My friend's house is big.",
+        "vi": "Nhà của bạn tôi rất lớn.",
+        "pl": "Dom mojego kolegi jest duży."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "kelas ／ kami ／ luas",
+        "ja": "kelas ／ kami ／ luas",
+        "en": "kelas / kami / luas",
+        "vi": "kelas / kami / luas",
+        "pl": "kelas / kami / luas"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kelas kami luas.",
+       "reg": "formal",
+       "kw": [
+        "kelas"
+       ],
+       "gloss": {
+        "zh": "我们的教室很宽敞。",
+        "ja": "わたしたちの教室は広いです。",
+        "en": "Our classroom is spacious.",
+        "vi": "Lớp của chúng tôi rất rộng.",
+        "pl": "Nasza sala jest przestronna."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "sepatu ／ adik ／ hitam",
+        "ja": "sepatu ／ adik ／ hitam",
+        "en": "sepatu / adik / hitam",
+        "vi": "sepatu / adik / hitam",
+        "pl": "sepatu / adik / hitam"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepatu adik hitam.",
+       "reg": "formal",
+       "kw": [
+        "sepatu"
+       ],
+       "gloss": {
+        "zh": "弟弟的鞋是黑的。",
+        "ja": "弟の靴は黒いです。",
+        "en": "My little brother's shoes are black.",
+        "vi": "Giày của em tôi màu đen.",
+        "pl": "Buty mojego młodszego brata są czarne."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "kacamata ／ Ani ／ cantik",
+        "ja": "kacamata ／ Ani ／ cantik",
+        "en": "kacamata / Ani / cantik",
+        "vi": "kacamata / Ani / cantik",
+        "pl": "kacamata / Ani / cantik"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kacamata Ani cantik.",
+       "reg": "formal",
+       "kw": [
+        "kacamata"
+       ],
+       "gloss": {
+        "zh": "Ani 的眼镜很好看。",
+        "ja": "アニのめがねはかわいいです。",
+        "en": "Ani's glasses are pretty.",
+        "vi": "Kính của Ani rất đẹp.",
+        "pl": "Okulary Ani są ładne."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "sarung ／ Pak Joko ／ merah",
+        "ja": "sarung ／ Pak Joko ／ merah",
+        "en": "sarung / Pak Joko / merah",
+        "vi": "sarung / Pak Joko / merah",
+        "pl": "sarung / Pak Joko / merah"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sarung Pak Joko merah.",
+       "reg": "formal",
+       "kw": [
+        "sarung"
+       ],
+       "gloss": {
+        "zh": "Joko 先生的纱笼是红的。",
+        "ja": "ジョコさんのサルンは赤いです。",
+        "en": "Pak Joko's sarong is red.",
+        "vi": "Sarung của chú Joko màu đỏ.",
+        "pl": "Sarong pana Joko jest czerwony."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "payung ／ Ibu ／ putih",
+        "ja": "payung ／ Ibu ／ putih",
+        "en": "payung / Ibu / putih",
+        "vi": "payung / Ibu / putih",
+        "pl": "payung / Ibu / putih"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Payung Ibu putih.",
+       "reg": "formal",
+       "kw": [
+        "payung"
+       ],
+       "gloss": {
+        "zh": "妈妈的伞是白的。",
+        "ja": "母の傘は白いです。",
+        "en": "Mum's umbrella is white.",
+        "vi": "Ô của mẹ màu trắng.",
+        "pl": "Parasol mamy jest biały."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "顺序",
+     "ja": "語順",
+     "en": "Word order",
+     "vi": "Trật tự từ",
+     "pl": "Szyk wyrazów"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "印尼语这三样东西的顺序是<b>「东西 → 主人 → 什么样」</b>，跟中文正好倒过来：中文说「我的<b>书</b>」，印尼语说「<b>buku</b> saya」。第三样（形容词）直接接在后面，不用系动词。",
+       "ja": "インドネシア語の語順は<b>「もの → 持ち主 → どんな」</b>で、日本語とは逆です。日本語は「わたしの<b>本</b>」、インドネシア語は「<b>buku</b> saya」。三つ目（形容詞）はそのまま後ろに続けます。コピュラは要りません。",
+       "en": "The order is <b>thing → owner → quality</b>. English puts the owner first (<b>my</b> book); Indonesian puts the thing first (<b>buku</b> saya). The adjective simply follows, with no verb \"to be\".",
+       "vi": "Trật tự tiếng Indonesia là <b>đồ vật → chủ sở hữu → tính chất</b>, giống tiếng Việt: «<b>sách</b> của tôi» → «<b>buku</b> saya». Tính từ đặt ngay sau, không cần hệ từ.",
+       "pl": "Kolejność to <b>rzecz → właściciel → jaka jest</b> — odwrotnie niż po polsku: „<b>moja</b> książka” to po indonezyjsku „<b>buku</b> saya”. Przymiotnik idzie zaraz potem, bez żadnego „jest”."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Tata Bahasa 3",
+    "sub": {
+     "zh": "练习 · 六种领属形式各造句",
+     "ja": "練習 · 六つの所有形でそれぞれ作文",
+     "en": "Practice · sentences for all six possessive forms",
+     "vi": "Luyện tập · đặt câu với sáu dạng sở hữu",
+     "pl": "Ćwiczenia · zdania z sześcioma formami dzierżawczymi"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "先说 punya，再改成领属句",
+     "ja": "まず punya、次に所有の文に",
+     "en": "Say it with punya first, then as a possessive sentence",
+     "vi": "Nói bằng punya trước, rồi đổi sang câu sở hữu",
+     "pl": "Najpierw z punya, potem jako zdanie dzierżawcze"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Aku punya kamus.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kamusku baru.",
+       "reg": "formal",
+       "kw": [
+        "kamusku"
+       ],
+       "gloss": {
+        "zh": "我的词典是新的。",
+        "ja": "ぼくの辞書は新しいです。",
+        "en": "My dictionary is new.",
+        "vi": "Từ điển của mình còn mới.",
+        "pl": "Mój słownik jest nowy."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Aku punya sepatu.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepatuku hitam.",
+       "reg": "formal",
+       "kw": [
+        "sepatuku"
+       ],
+       "gloss": {
+        "zh": "我的鞋是黑的。",
+        "ja": "ぼくの靴は黒いです。",
+        "en": "My shoes are black.",
+        "vi": "Giày của mình màu đen.",
+        "pl": "Moje buty są czarne."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kamu punya tas.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Tasmu bagus.",
+       "reg": "formal",
+       "kw": [
+        "tasmu"
+       ],
+       "gloss": {
+        "zh": "你的包很好看。",
+        "ja": "きみのかばんはすてきだね。",
+        "en": "Your bag looks good.",
+        "vi": "Túi của bạn đẹp đấy.",
+        "pl": "Twoja torba jest ładna."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kamu punya payung.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Payungmu merah.",
+       "reg": "formal",
+       "kw": [
+        "payungmu"
+       ],
+       "gloss": {
+        "zh": "你的伞是红的。",
+        "ja": "きみの傘は赤いね。",
+        "en": "Your umbrella is red.",
+        "vi": "Ô của bạn màu đỏ.",
+        "pl": "Twój parasol jest czerwony."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Dia punya rumah.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Rumahnya besar.",
+       "reg": "formal",
+       "kw": [
+        "rumahnya"
+       ],
+       "gloss": {
+        "zh": "他的房子很大。",
+        "ja": "あの人の家は大きいです。",
+        "en": "Their house is big.",
+        "vi": "Nhà của bạn ấy rất lớn.",
+        "pl": "Ich dom jest duży."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Wayan punya sepeda.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepedanya baru.",
+       "reg": "formal",
+       "kw": [
+        "sepedanya"
+       ],
+       "gloss": {
+        "zh": "Wayan 的自行车是新的。",
+        "ja": "ワヤンの自転車は新しいです。",
+        "en": "Wayan's bicycle is new.",
+        "vi": "Xe đạp của Wayan còn mới.",
+        "pl": "Rower Wayana jest nowy."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kampus punya gedung.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Gedungnya tua.",
+       "reg": "formal",
+       "kw": [
+        "gedungnya"
+       ],
+       "gloss": {
+        "zh": "校园的楼很旧。（gedung kampus → gedungnya）",
+        "ja": "キャンパスの建物は古いです。（gedung kampus → gedungnya）",
+        "en": "Its building is old. (gedung kampus → gedungnya)",
+        "vi": "Tòa nhà của trường đã cũ. (gedung kampus → gedungnya)",
+        "pl": "Jego budynek jest stary. (gedung kampus → gedungnya)"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya punya bolpoin.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Bolpoin saya hitam.",
+       "reg": "formal",
+       "kw": [
+        "bolpoin"
+       ],
+       "gloss": {
+        "zh": "我的圆珠笔是黑的。",
+        "ja": "わたしのボールペンは黒です。",
+        "en": "My ballpoint pen is black.",
+        "vi": "Bút bi của tôi màu đen.",
+        "pl": "Mój długopis jest czarny."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya punya peta.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Peta saya besar.",
+       "reg": "formal",
+       "kw": [
+        "peta"
+       ],
+       "gloss": {
+        "zh": "我的地图很大。",
+        "ja": "わたしの地図は大きいです。",
+        "en": "My map is big.",
+        "vi": "Bản đồ của tôi rất to.",
+        "pl": "Moja mapa jest duża."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Anda punya kalender.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kalender Anda bagus.",
+       "reg": "formal",
+       "kw": [
+        "kalender"
+       ],
+       "gloss": {
+        "zh": "您的挂历很好看。",
+        "ja": "あなたのカレンダーはすてきです。",
+        "en": "Your calendar looks good.",
+        "vi": "Cuốn lịch của bạn đẹp.",
+        "pl": "Twój kalendarz jest ładny."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Anda punya foto.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Foto Anda cantik.",
+       "reg": "formal",
+       "kw": [
+        "foto"
+       ],
+       "gloss": {
+        "zh": "您的照片很好看。",
+        "ja": "あなたの写真はきれいです。",
+        "en": "Your photo is lovely.",
+        "vi": "Ảnh của bạn rất đẹp.",
+        "pl": "Twoje zdjęcie jest ładne."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Prof. Wening punya rumah.",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Rumah beliau putih.",
+       "reg": "formal",
+       "kw": [
+        "beliau"
+       ],
+       "gloss": {
+        "zh": "教授的房子是白的。",
+        "ja": "あの先生のお宅は白いです。",
+        "en": "The professor's house is white.",
+        "vi": "Nhà của giáo sư màu trắng.",
+        "pl": "Dom pani profesor jest biały."
+       }
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Berbicara dan Menulis",
+    "sub": {
+     "zh": "练习 · 说和写（附范文）",
+     "ja": "練習 · 話す・書く（作例つき）",
+     "en": "Practice · speaking and writing (with a model text)",
+     "vi": "Luyện tập · nói và viết (có bài mẫu)",
+     "pl": "Ćwiczenia · mówienie i pisanie (z tekstem wzorcowym)"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这两节是开放题，没有标准答案。下面是一段可以照着改的范文 —— 把里面的东西和形容词换成你自己的，就是你的作业。",
+     "ja": "この二節は自由作文なので決まった答えはありません。下は書きかえて使える作例です。ものと形容詞を自分のものに差しかえれば、そのまま課題になります。",
+     "en": "These two sections in the book are open tasks with no single right answer. Below is a model you can copy and adapt — swap in your own objects and adjectives and it becomes your homework.",
+     "vi": "Hai phần này trong sách là bài mở, không có đáp án cố định. Dưới đây là một bài mẫu để bạn dựa vào — thay đồ vật và tính từ bằng của mình là thành bài của bạn.",
+     "pl": "Te dwie części w podręczniku to zadania otwarte, bez jednej poprawnej odpowiedzi. Poniżej jest wzór do przerobienia — wystarczy wstawić własne przedmioty i przymiotniki."
+    }
+   },
+   {
+    "k": "examples",
+    "title": {
+     "zh": "范文 · 我桌上有什么（22 个词）",
+     "ja": "作例 · 机の上にあるもの（22 語）",
+     "en": "Model text · what is on my desk (22 words)",
+     "vi": "Bài mẫu · trên bàn tôi có gì (22 từ)",
+     "pl": "Tekst wzorcowy · co jest na moim biurku (22 słowa)"
+    },
+    "items": [
+     {
+      "id": "Ini meja saya.",
+      "reg": "formal",
+      "alt": null,
+      "kw": [
+       "meja"
+      ],
+      "gloss": {
+       "zh": "这是我的桌子。",
+       "ja": "これはわたしの机です。",
+       "en": "This is my desk.",
+       "vi": "Đây là bàn của tôi.",
+       "pl": "To jest moje biurko."
+      },
+      "alt_gloss": null
+     },
+     {
+      "id": "Di atas meja ada buku, kamus, dan bolpoin.",
+      "reg": "formal",
+      "alt": null,
+      "kw": [
+       "ada"
+      ],
+      "gloss": {
+       "zh": "桌上有书、词典和圆珠笔。",
+       "ja": "机の上に本と辞書とボールペンがあります。",
+       "en": "On the desk there are books, a dictionary and a ballpoint pen.",
+       "vi": "Trên bàn có sách, từ điển và bút bi.",
+       "pl": "Na biurku są książki, słownik i długopis."
+      },
+      "alt_gloss": null
+     },
+     {
+      "id": "Kamus saya baru. Buku saya tua.",
+      "reg": "formal",
+      "alt": null,
+      "kw": [
+       "baru",
+       "tua"
+      ],
+      "gloss": {
+       "zh": "我的词典是新的，书是旧的。",
+       "ja": "辞書は新しく、本は古いです。",
+       "en": "My dictionary is new. My books are old.",
+       "vi": "Từ điển của tôi mới. Sách của tôi cũ.",
+       "pl": "Mój słownik jest nowy. Książki są stare."
+      },
+      "alt_gloss": null
+     },
+     {
+      "id": "Tasku hitam dan kacamataku merah.",
+      "reg": "casual",
+      "alt": null,
+      "kw": [
+       "tasku",
+       "kacamataku"
+      ],
+      "gloss": {
+       "zh": "我的包是黑的，眼镜是红的。",
+       "ja": "かばんは黒、めがねは赤です。",
+       "en": "My bag is black and my glasses are red.",
+       "vi": "Túi của mình màu đen, kính màu đỏ.",
+       "pl": "Moja torba jest czarna, a okulary czerwone."
+      },
+      "alt_gloss": null
+     }
+    ]
+   },
+   {
+    "k": "prompt",
+    "tag": {
+     "zh": "课本口语题",
+     "ja": "教科書の会話課題",
+     "en": "Speaking task from the book",
+     "vi": "Bài nói trong sách",
+     "pl": "Zadanie ustne z podręcznika"
+    },
+    "text": {
+     "zh": "和同学编一段对话，聊身边的东西，句子里一定要用上领属形式（<b>-ku</b>、<b>-mu</b>、<b>-nya</b>、<s>saya</s>、<s>Anda</s>）。编好上台念一遍。",
+     "ja": "身のまわりのものについて、友だちと会話を作ってください。所有の形（<b>-ku</b>・<b>-mu</b>・<b>-nya</b>・<s>saya</s>・<s>Anda</s>）を必ず入れること。できたら前で発表します。",
+     "en": "Write a dialogue with a classmate about the things around you, making sure to use possessive forms (<b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s>). Then perform it in front of the class.",
+     "vi": "Cùng bạn viết một đoạn hội thoại về những đồ vật quanh mình, nhớ dùng các dạng sở hữu (<b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s>). Viết xong thì lên trình bày trước lớp.",
+     "pl": "Napisz z kolegą dialog o przedmiotach wokół was, koniecznie z formami dzierżawczymi (<b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s>). Potem odegrajcie go przed klasą."
+    }
+   },
+   {
+    "k": "prompt",
+    "tag": {
+     "zh": "课本写作题",
+     "ja": "教科書の作文課題",
+     "en": "Writing task from the book",
+     "vi": "Bài viết trong sách",
+     "pl": "Zadanie pisemne z podręcznika"
+    },
+    "text": {
+     "zh": "用 15–25 个词描述身边的东西：是什么、谁的、什么样。照上面的范文改，写完念一遍。",
+     "ja": "15〜25 語で身のまわりのものを説明してください。何か、だれのか、どんなか。上の作例を書きかえて、できたら声に出して読みましょう。",
+     "en": "Describe the things around you in 15–25 words: what they are, whose they are, what they are like. Adapt the model above, then read it aloud.",
+     "vi": "Dùng 15–25 từ để tả đồ vật quanh bạn: là gì, của ai, thế nào. Dựa vào bài mẫu ở trên, viết xong đọc to một lượt.",
+     "pl": "Opisz w 15–25 słowach przedmioty wokół siebie: co to jest, czyje jest, jakie jest. Przerób wzór powyżej, a potem przeczytaj na głos."
+    }
+   }
+  ],
+  [
+   {
+    "k": "phead",
     "title": "Benda Khas Orang Indonesia",
     "sub": {
      "zh": "印尼人的物件",

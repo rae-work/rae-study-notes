@@ -6382,6 +6382,2721 @@
   [
    {
     "k": "phead",
+    "title": "Latihan Menyimak dan Membaca",
+    "sub": {
+     "zh": "练习 · 听力与阅读",
+     "ja": "練習 · 聞き取りと読解",
+     "en": "Practice · listening and reading",
+     "vi": "Luyện tập · nghe và đọc",
+     "pl": "Ćwiczenia · słuchanie i czytanie"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "听力那两题",
+     "ja": "聞き取りの二問",
+     "en": "The two listening tasks",
+     "vi": "Hai bài nghe",
+     "pl": "Dwa zadania na słuchanie"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "课本 A 部分（Menyimak）的两道题要配教材自己的录音，<b>那两段音频不在这个 App 里</b>，所以没法给参考答案 —— 得用课本上的链接听。下面的判断题是拿本课的课文（Shinta 的生日）出的同一种题型，练法一样。",
+       "ja": "教科書 A（Menyimak）の二問は教材付属の音声が必要ですが、<b>その音源はこのアプリに入っていません</b>。そのため模範解答は出せません（教科書のリンクから聞いてください）。下の正誤問題は、この課の読解文（シンタの誕生日）で同じ形式を作ったものです。",
+       "en": "The two tasks in section A (Menyimak) need the coursebook’s own recordings, and <b>those audio files are not in this app</b>, so there are no answers to give — use the link printed in the book. The true/false questions below use the same format, built on this chapter’s reading text (Shinta’s birthday).",
+       "vi": "Hai bài ở phần A (Menyimak) cần file ghi âm riêng của giáo trình, mà <b>hai đoạn đó không có trong ứng dụng này</b>, nên không thể đưa đáp án — bạn hãy nghe theo đường dẫn in trong sách. Phần đúng/sai dưới đây dùng đúng dạng bài đó, dựa trên bài đọc của chương này (sinh nhật Shinta).",
+       "pl": "Dwa zadania z części A (Menyimak) wymagają nagrań dołączonych do podręcznika, a <b>tych plików nie ma w tej aplikacji</b>, więc nie da się podać odpowiedzi — trzeba skorzystać z linku w książce. Poniższe zadanie prawda/fałsz ma tę samą formę, ale opiera się na tekście z tego rozdziału (urodziny Shinty)."
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "课文后的问答 · 补齐课本剩下的几题",
+     "ja": "読解文の質問 · 教科書の残りの問い",
+     "en": "Questions on the text · the rest of the book’s list",
+     "vi": "Câu hỏi sau bài đọc · những câu còn lại trong sách",
+     "pl": "Pytania do tekstu · pozostałe z podręcznika"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Di mana rumah Shinta?",
+       "reg": "formal",
+       "kw": [
+        "di mana"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Di Jalan Ahmad Yani nomor seratus tiga puluh dua, Kota Magelang.",
+       "reg": "formal",
+       "kw": [
+        "Magelang"
+       ],
+       "gloss": {
+        "zh": "在马格朗市艾哈迈德·亚尼路 132 号。",
+        "ja": "マグラン市アフマッド・ヤニ通り 132 番地です。",
+        "en": "At 132 Jalan Ahmad Yani, Magelang.",
+        "vi": "Ở số 132 đường Ahmad Yani, thành phố Magelang.",
+        "pl": "Przy Jalan Ahmad Yani 132 w Magelangu."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Apa hobi Shinta?",
+       "reg": "formal",
+       "kw": [
+        "hobi"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Hobinya berenang, membaca buku, dan menonton film.",
+       "reg": "formal",
+       "kw": [
+        "hobinya"
+       ],
+       "gloss": {
+        "zh": "她的爱好是游泳、看书和看电影。",
+        "ja": "趣味は水泳と読書と映画鑑賞です。",
+        "en": "Her hobbies are swimming, reading and watching films.",
+        "vi": "Sở thích của bạn ấy là bơi, đọc sách và xem phim.",
+        "pl": "Jej hobby to pływanie, czytanie i oglądanie filmów."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Siapa nama teman-teman Shinta?",
+       "reg": "formal",
+       "kw": [
+        "siapa"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Melisa, Amanda, Dian, Jihan, Brian, dan Rakha.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "Melisa、Amanda、Dian、Jihan、Brian 和 Rakha。",
+        "ja": "メリサ、アマンダ、ディアン、ジハン、ブライアン、ラカです。",
+        "en": "Melisa, Amanda, Dian, Jihan, Brian and Rakha.",
+        "vi": "Melisa, Amanda, Dian, Jihan, Brian và Rakha.",
+        "pl": "Melisa, Amanda, Dian, Jihan, Brian i Rakha."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Shinta dan teman-teman belajar di mana?",
+       "reg": "formal",
+       "kw": [
+        "belajar"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Mereka belajar di Universitas Gadjah Mada.",
+       "reg": "formal",
+       "kw": [
+        "universitas"
+       ],
+       "gloss": {
+        "zh": "他们在加查马达大学读书。",
+        "ja": "ガジャマダ大学で学んでいます。",
+        "en": "They study at Universitas Gadjah Mada.",
+        "vi": "Họ học ở Đại học Gadjah Mada.",
+        "pl": "Studiują na Universitas Gadjah Mada."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Apakah Ibu Wira dosen di Universitas Gadjah Mada?",
+       "reg": "formal",
+       "kw": [
+        "apakah"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ya, Ibu Wira dosen mereka.",
+       "reg": "formal",
+       "kw": [
+        "dosen"
+       ],
+       "gloss": {
+        "zh": "是的，Wira 女士是他们的老师。",
+        "ja": "はい、ウィラ先生は彼らの先生です。",
+        "en": "Yes, Ibu Wira is their lecturer.",
+        "vi": "Vâng, cô Wira là giảng viên của họ.",
+        "pl": "Tak, pani Wira jest ich wykładowczynią."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "对还是错 · benar atau salah",
+     "ja": "正しいか誤りか · benar atau salah",
+     "en": "True or false · benar atau salah",
+     "vi": "Đúng hay sai · benar atau salah",
+     "pl": "Prawda czy fałsz · benar atau salah"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Shinta anak ketiga di keluarga Pak Harilaksana.",
+       "reg": "formal",
+       "kw": [
+        "ketiga"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✓ 对 · benar",
+        "ja": "✓ 正しい · benar",
+        "en": "✓ True · benar",
+        "vi": "✓ Đúng · benar",
+        "pl": "✓ Prawda · benar"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Shinta tidak suka membaca dan berenang.",
+       "reg": "formal",
+       "kw": [
+        "tidak"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✗ 错 · salah —— 课文说这正是她的爱好。",
+        "ja": "✗ 誤り · salah —— 本文ではそれが趣味だと書かれています。",
+        "en": "✗ False · salah — The text says those are exactly her hobbies.",
+        "vi": "✗ Sai · salah — Bài đọc nói đó chính là sở thích của bạn ấy.",
+        "pl": "✗ Fałsz · salah — W tekście to właśnie jej hobby."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Di kelas, Jihan dan Brian duduk di baris ketiga.",
+       "reg": "formal",
+       "kw": [
+        "baris"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✗ 错 · salah —— 第三排是 Jihan 和 Rakha，Brian 在第四排。",
+        "ja": "✗ 誤り · salah —— 三列目はジハンとラカで、ブライアンは四列目です。",
+        "en": "✗ False · salah — The third row is Jihan and Rakha; Brian is in the fourth.",
+        "vi": "✗ Sai · salah — Hàng thứ ba là Jihan và Rakha, Brian ở hàng thứ tư.",
+        "pl": "✗ Fałsz · salah — W trzecim rzędzie siedzą Jihan i Rakha, a Brian w czwartym."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Hari ini Shinta merayakan ulang tahun kedua puluh.",
+       "reg": "formal",
+       "kw": [
+        "merayakan"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✓ 对 · benar",
+        "ja": "✓ 正しい · benar",
+        "en": "✓ True · benar",
+        "vi": "✓ Đúng · benar",
+        "pl": "✓ Prawda · benar"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Shinta tinggal di Jalan Diponegoro nomor seratus tiga puluh dua.",
+       "reg": "formal",
+       "kw": [
+        "tinggal"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✗ 错 · salah —— 门牌号对，路名不对 —— 是 Jalan Ahmad Yani。",
+        "ja": "✗ 誤り · salah —— 番地は合っていますが通り名が違います —— Jalan Ahmad Yani です。",
+        "en": "✗ False · salah — The house number is right but the street is not — it is Jalan Ahmad Yani.",
+        "vi": "✗ Sai · salah — Số nhà thì đúng nhưng tên đường thì không — là Jalan Ahmad Yani.",
+        "pl": "✗ Fałsz · salah — Numer się zgadza, ale ulica nie — to Jalan Ahmad Yani."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Shinta membeli sate ayam, bakso, es jeruk, dan es teh.",
+       "reg": "formal",
+       "kw": [
+        "membeli"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✓ 对 · benar",
+        "ja": "✓ 正しい · benar",
+        "en": "✓ True · benar",
+        "vi": "✓ Đúng · benar",
+        "pl": "✓ Prawda · benar"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Teman-teman Shinta memberi kue ulang tahun untuk Shinta.",
+       "reg": "formal",
+       "kw": [
+        "memberi"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✓ 对 · benar",
+        "ja": "✓ 正しい · benar",
+        "en": "✓ True · benar",
+        "vi": "✓ Đúng · benar",
+        "pl": "✓ Prawda · benar"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Dian dan Rakha memberi jam tangan untuk Shinta.",
+       "reg": "formal",
+       "kw": [
+        "jam tangan"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✗ 错 · salah —— 手表是 Brian 和 Rakha 送的；Dian 和 Jihan 送的是包和鞋。",
+        "ja": "✗ 誤り · salah —— 腕時計はブライアンとラカからで、ディアンとジハンはかばんと靴です。",
+        "en": "✗ False · salah — The watch is from Brian and Rakha; Dian and Jihan gave a bag and shoes.",
+        "vi": "✗ Sai · salah — Đồng hồ là của Brian và Rakha; Dian và Jihan tặng túi và giày.",
+        "pl": "✗ Fałsz · salah — Zegarek jest od Briana i Rakhy; Dian i Jihan dali torbę i buty."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Teman-teman memberi baju batik, tas, sepatu, dan jam tangan.",
+       "reg": "formal",
+       "kw": [
+        "batik"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✓ 对 · benar",
+        "ja": "✓ 正しい · benar",
+        "en": "✓ True · benar",
+        "vi": "✓ Đúng · benar",
+        "pl": "✓ Prawda · benar"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Teman-teman Shinta juga tinggal di Kota Magelang.",
+       "reg": "formal",
+       "kw": [
+        "Magelang"
+       ]
+      },
+      "answer": {
+       "lang": "learner",
+       "text": {
+        "zh": "✗ 错 · salah —— 他们是从日惹坐公交车过来的。",
+        "ja": "✗ 誤り · salah —— 彼らはジョグジャカルタからバスで来ました。",
+        "en": "✗ False · salah — They came by bus from Yogyakarta.",
+        "vi": "✗ Sai · salah — Họ đi xe buýt từ Yogyakarta đến.",
+        "pl": "✗ Fałsz · salah — Przyjechali autobusem z Yogyakarty."
+       }
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Angka",
+    "sub": {
+     "zh": "练习 · 数字怎么念",
+     "ja": "練習 · 数の読み方",
+     "en": "Practice · saying the numbers",
+     "vi": "Luyện tập · cách đọc số",
+     "pl": "Ćwiczenia · jak czytać liczby"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "这个数怎么念",
+     "ja": "この数の読み方",
+     "en": "How do you say this number",
+     "vi": "Số này đọc thế nào",
+     "pl": "Jak przeczytać tę liczbę"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "7",
+        "ja": "7",
+        "en": "7",
+        "vi": "7",
+        "pl": "7"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "tujuh",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "13",
+        "ja": "13",
+        "en": "13",
+        "vi": "13",
+        "pl": "13"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "tiga belas",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "34",
+        "ja": "34",
+        "en": "34",
+        "vi": "34",
+        "pl": "34"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "tiga puluh empat",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "56",
+        "ja": "56",
+        "en": "56",
+        "vi": "56",
+        "pl": "56"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "lima puluh enam",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "90",
+        "ja": "90",
+        "en": "90",
+        "vi": "90",
+        "pl": "90"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "sembilan puluh",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "108",
+        "ja": "108",
+        "en": "108",
+        "vi": "108",
+        "pl": "108"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "seratus delapan",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "215",
+        "ja": "215",
+        "en": "215",
+        "vi": "215",
+        "pl": "215"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "dua ratus lima belas",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "640",
+        "ja": "640",
+        "en": "640",
+        "vi": "640",
+        "pl": "640"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "enam ratus empat puluh",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "1.300",
+        "ja": "1.300",
+        "en": "1.300",
+        "vi": "1.300",
+        "pl": "1.300"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "seribu tiga ratus",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "17.500",
+        "ja": "17.500",
+        "en": "17.500",
+        "vi": "17.500",
+        "pl": "17.500"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "tujuh belas ribu lima ratus",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "Rp35.000,00",
+        "ja": "Rp35.000,00",
+        "en": "Rp35.000,00",
+        "vi": "Rp35.000,00",
+        "pl": "Rp35.000,00"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "tiga puluh lima ribu rupiah",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "Rp250.750,00",
+        "ja": "Rp250.750,00",
+        "en": "Rp250.750,00",
+        "vi": "Rp250.750,00",
+        "pl": "Rp250.750,00"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "dua ratus lima puluh ribu tujuh ratus lima puluh rupiah",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "Rp2.000.000,00",
+        "ja": "Rp2.000.000,00",
+        "en": "Rp2.000.000,00",
+        "vi": "Rp2.000.000,00",
+        "pl": "Rp2.000.000,00"
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "dua juta rupiah",
+       "reg": "formal",
+       "kw": []
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "第几 · bilangan tingkat",
+     "ja": "第何番目 · bilangan tingkat",
+     "en": "Which one in order · bilangan tingkat",
+     "vi": "Thứ mấy · bilangan tingkat",
+     "pl": "Który z kolei · bilangan tingkat"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "第 1",
+        "ja": "第 1",
+        "en": "1st",
+        "vi": "thứ 1",
+        "pl": "1."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "pertama",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "也可以说 kesatu，但 pertama 常用得多。",
+        "ja": "kesatu とも言えますが、pertama のほうがずっと一般的です。",
+        "en": "You can also say kesatu, but pertama is far more common.",
+        "vi": "Cũng có thể nói kesatu, nhưng pertama phổ biến hơn nhiều.",
+        "pl": "Można też powiedzieć kesatu, ale pertama jest o wiele częstsze."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "第 11",
+        "ja": "第 11",
+        "en": "11th",
+        "vi": "thứ 11",
+        "pl": "11."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "kesebelas",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "第 20",
+        "ja": "第 20",
+        "en": "20th",
+        "vi": "thứ 20",
+        "pl": "20."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "kedua puluh",
+       "reg": "formal",
+       "kw": []
+      }
+     },
+     {
+      "prompt": {
+       "lang": "learner",
+       "text": {
+        "zh": "第 100",
+        "ja": "第 100",
+        "en": "100th",
+        "vi": "thứ 100",
+        "pl": "100."
+       }
+      },
+      "answer": {
+       "lang": "id",
+       "text": "keseratus",
+       "reg": "formal",
+       "kw": []
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "两个坑",
+     "ja": "二つの落とし穴",
+     "en": "Two traps",
+     "vi": "Hai chỗ dễ sai",
+     "pl": "Dwie pułapki"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "① 1、100、1000 前面用 <b>se-</b>，不说 satu ratus —— <s>seratus</s>、<s>seribu</s>、<s>sejuta</s>。② 序数除了「第一」= <s>pertama</s>，其余一律 <b>ke-</b> ＋数字，中间不加连字符（写数字时才写 ke-20）。",
+       "ja": "① 1・100・1000 の前は <b>se-</b> を使い、satu ratus とは言いません —— <s>seratus</s>・<s>seribu</s>・<s>sejuta</s>。② 序数は「第一」の <s>pertama</s> を除き、すべて <b>ke-</b> ＋数字。文字で書くときハイフンは入れません（数字で書くときだけ ke-20）。",
+       "en": "(1) Before 1, 100 and 1000 use <b>se-</b>, never satu ratus — <s>seratus</s>, <s>seribu</s>, <s>sejuta</s>. (2) Apart from <s>pertama</s> for “first”, every ordinal is <b>ke-</b> plus the number, written as one word (the hyphen appears only with figures: ke-20).",
+       "vi": "① Trước 1, 100, 1000 dùng <b>se-</b>, không nói satu ratus — <s>seratus</s>, <s>seribu</s>, <s>sejuta</s>. ② Ngoài <s>pertama</s> nghĩa là “thứ nhất”, các số thứ tự đều là <b>ke-</b> + số, viết liền (chỉ khi viết bằng chữ số mới có gạch nối: ke-20).",
+       "pl": "① Przed 1, 100 i 1000 używa się <b>se-</b>, nigdy satu ratus — <s>seratus</s>, <s>seribu</s>, <s>sejuta</s>. ② Poza <s>pertama</s> („pierwszy”) każdy liczebnik porządkowy to <b>ke-</b> plus liczba, pisane razem (łącznik pojawia się tylko przy cyfrach: ke-20)."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Kata Tanya 1",
+    "sub": {
+     "zh": "练习 · bagaimana 和 kapan",
+     "ja": "練習 · bagaimana と kapan",
+     "en": "Practice · bagaimana and kapan",
+     "vi": "Luyện tập · bagaimana và kapan",
+     "pl": "Ćwiczenia · bagaimana i kapan"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "照答句提问 · bagaimana",
+     "ja": "答えから質問を作る · bagaimana",
+     "en": "Ask the question that fits · bagaimana",
+     "vi": "Đặt câu hỏi cho câu trả lời · bagaimana",
+     "pl": "Ułóż pytanie do odpowiedzi · bagaimana"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kampus UGM besar dan terkenal.",
+       "reg": "formal",
+       "kw": [
+        "terkenal"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Bagaimana kampus UGM?",
+       "reg": "formal",
+       "kw": [
+        "bagaimana"
+       ],
+       "gloss": {
+        "zh": "UGM 校园怎么样？",
+        "ja": "UGM のキャンパスはどうですか。",
+        "en": "What is the UGM campus like?",
+        "vi": "Khuôn viên UGM thế nào?",
+        "pl": "Jaki jest kampus UGM?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya pergi ke pasar naik sepeda.",
+       "reg": "formal",
+       "kw": [
+        "naik"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Bagaimana Anda pergi ke pasar?",
+       "reg": "formal",
+       "kw": [
+        "bagaimana"
+       ],
+       "gloss": {
+        "zh": "您怎么去市场？—— bagaimana 也问方式。",
+        "ja": "市場へはどうやって行きますか。—— bagaimana は手段も尋ねます。",
+        "en": "How do you get to the market? — bagaimana also asks about means.",
+        "vi": "Bạn đi chợ bằng gì? — bagaimana cũng hỏi phương tiện.",
+        "pl": "Jak dojeżdżasz na targ? — bagaimana pyta też o sposób."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Ibu Wira ramah sekali.",
+       "reg": "formal",
+       "kw": [
+        "ramah"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Bagaimana Ibu Wira?",
+       "reg": "formal",
+       "kw": [
+        "bagaimana"
+       ],
+       "gloss": {
+        "zh": "Wira 老师人怎么样？",
+        "ja": "ウィラ先生はどんな方ですか。",
+        "en": "What is Ibu Wira like?",
+        "vi": "Cô Wira là người thế nào?",
+        "pl": "Jaka jest pani Wira?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Harga batik tulis mahal.",
+       "reg": "formal",
+       "kw": [
+        "harga"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Bagaimana harga batik tulis?",
+       "reg": "formal",
+       "kw": [
+        "bagaimana"
+       ],
+       "gloss": {
+        "zh": "手绘蜡染的价格怎么样？",
+        "ja": "手描きバティックの値段はどうですか。",
+        "en": "What are hand-drawn batik prices like?",
+        "vi": "Giá batik vẽ tay thế nào?",
+        "pl": "Jakie są ceny batiku ręcznego?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Rumah nenek besar dan nyaman.",
+       "reg": "formal",
+       "kw": [
+        "nyaman"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Bagaimana rumah nenek?",
+       "reg": "formal",
+       "kw": [
+        "bagaimana"
+       ],
+       "gloss": {
+        "zh": "奶奶的房子怎么样？",
+        "ja": "おばあさんの家はどんな家ですか。",
+        "en": "What is grandma’s house like?",
+        "vi": "Nhà của bà thế nào?",
+        "pl": "Jaki jest dom babci?"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "照答句提问 · kapan",
+     "ja": "答えから質問を作る · kapan",
+     "en": "Ask the question that fits · kapan",
+     "vi": "Đặt câu hỏi cho câu trả lời · kapan",
+     "pl": "Ułóż pytanie do odpowiedzi · kapan"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Wayan datang kemarin.",
+       "reg": "formal",
+       "kw": [
+        "kemarin"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kapan Wayan datang?",
+       "reg": "formal",
+       "kw": [
+        "kapan"
+       ],
+       "gloss": {
+        "zh": "Wayan 什么时候来的？",
+        "ja": "ワヤンはいつ来ましたか。",
+        "en": "When did Wayan come?",
+        "vi": "Wayan đến khi nào?",
+        "pl": "Kiedy przyszedł Wayan?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Hari Sabtu kami pergi ke pantai.",
+       "reg": "formal",
+       "kw": [
+        "Sabtu"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kapan kalian pergi ke pantai?",
+       "reg": "formal",
+       "kw": [
+        "kapan"
+       ],
+       "gloss": {
+        "zh": "你们什么时候去海边？",
+        "ja": "いつ海へ行くのですか。",
+        "en": "When are you going to the beach?",
+        "vi": "Khi nào các bạn đi biển?",
+        "pl": "Kiedy jedziecie nad morze?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya tinggal di Bandung tiga tahun lalu.",
+       "reg": "formal",
+       "kw": [
+        "lalu"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kapan Anda tinggal di Bandung?",
+       "reg": "formal",
+       "kw": [
+        "kapan"
+       ],
+       "gloss": {
+        "zh": "您什么时候住在万隆？",
+        "ja": "いつバンドンに住んでいたのですか。",
+        "en": "When did you live in Bandung?",
+        "vi": "Bạn sống ở Bandung khi nào?",
+        "pl": "Kiedy mieszkałeś w Bandungu?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Rakha pulang sore.",
+       "reg": "formal",
+       "kw": [
+        "pulang"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kapan Rakha pulang?",
+       "reg": "formal",
+       "kw": [
+        "kapan"
+       ],
+       "gloss": {
+        "zh": "Rakha 什么时候回去？",
+        "ja": "ラカはいつ帰りますか。",
+        "en": "When does Rakha go home?",
+        "vi": "Rakha về lúc nào?",
+        "pl": "Kiedy Rakha wraca do domu?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Shinta menonton film pukul tujuh malam.",
+       "reg": "formal",
+       "kw": [
+        "pukul"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kapan Shinta menonton film?",
+       "reg": "formal",
+       "kw": [
+        "kapan"
+       ],
+       "gloss": {
+        "zh": "Shinta 什么时候看电影？",
+        "ja": "シンタはいつ映画を見ますか。",
+        "en": "When does Shinta watch the film?",
+        "vi": "Shinta xem phim khi nào?",
+        "pl": "Kiedy Shinta ogląda film?"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "位置",
+     "ja": "語順",
+     "en": "Where it goes",
+     "vi": "Vị trí",
+     "pl": "Miejsce w zdaniu"
+    },
+    "green": true,
+    "lines": [
+     {
+      "text": {
+       "zh": "疑问词放<b>句首或句尾都行</b>，意思一样：<s>Bagaimana kamar Fatma?</s> ＝ <s>Kamar Fatma bagaimana?</s>。口语里放句尾更多。",
+       "ja": "疑問詞は<b>文頭でも文末でもよく</b>、意味は同じです：<s>Bagaimana kamar Fatma?</s> ＝ <s>Kamar Fatma bagaimana?</s>。話し言葉では文末が多めです。",
+       "en": "The question word can sit at the <b>front or the end</b>, with no change in meaning: <s>Bagaimana kamar Fatma?</s> = <s>Kamar Fatma bagaimana?</s> In speech the end position is more common.",
+       "vi": "Từ để hỏi có thể đứng <b>đầu hoặc cuối câu</b>, nghĩa không đổi: <s>Bagaimana kamar Fatma?</s> = <s>Kamar Fatma bagaimana?</s> Trong khẩu ngữ hay đặt ở cuối hơn.",
+       "pl": "Słowo pytające może stać <b>na początku albo na końcu</b>, znaczenie się nie zmienia: <s>Bagaimana kamar Fatma?</s> = <s>Kamar Fatma bagaimana?</s> W mowie częściej na końcu."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Kata Tanya 2",
+    "sub": {
+     "zh": "练习 · berapa 和 ke berapa",
+     "ja": "練習 · berapa と ke berapa",
+     "en": "Practice · berapa and ke berapa",
+     "vi": "Luyện tập · berapa và ke berapa",
+     "pl": "Ćwiczenia · berapa i ke berapa"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "照答句提问 · berapa",
+     "ja": "答えから質問を作る · berapa",
+     "en": "Ask the question that fits · berapa",
+     "vi": "Đặt câu hỏi cho câu trả lời · berapa",
+     "pl": "Ułóż pytanie do odpowiedzi · berapa"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kelas bahasa Indonesia mulai pukul tujuh pagi.",
+       "reg": "formal",
+       "kw": [
+        "mulai"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Pukul berapa kelas bahasa Indonesia mulai?",
+       "reg": "formal",
+       "kw": [
+        "berapa"
+       ],
+       "gloss": {
+        "zh": "印尼语课几点开始？",
+        "ja": "インドネシア語の授業は何時に始まりますか。",
+        "en": "What time does the Indonesian class start?",
+        "vi": "Lớp tiếng Indonesia bắt đầu lúc mấy giờ?",
+        "pl": "O której zaczynają się zajęcia z indonezyjskiego?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Hari ini kita membaca halaman dua puluh lima.",
+       "reg": "formal",
+       "kw": [
+        "halaman"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Hari ini kita membaca halaman berapa?",
+       "reg": "formal",
+       "kw": [
+        "berapa"
+       ],
+       "gloss": {
+        "zh": "今天我们读第几页？",
+        "ja": "今日は何ページを読みますか。",
+        "en": "Which page are we reading today?",
+        "vi": "Hôm nay chúng ta đọc trang bao nhiêu?",
+        "pl": "Którą stronę dziś czytamy?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Jihan duduk di kursi nomor delapan.",
+       "reg": "formal",
+       "kw": [
+        "nomor"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Jihan duduk di kursi nomor berapa?",
+       "reg": "formal",
+       "kw": [
+        "berapa"
+       ],
+       "gloss": {
+        "zh": "Jihan 坐几号座位？",
+        "ja": "ジハンは何番の席に座っていますか。",
+        "en": "Which seat number is Jihan in?",
+        "vi": "Jihan ngồi ghế số mấy?",
+        "pl": "Na którym miejscu siedzi Jihan?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Harga sepatu ini tiga ratus ribu rupiah.",
+       "reg": "formal",
+       "kw": [
+        "harga"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Berapa harga sepatu ini?",
+       "reg": "formal",
+       "kw": [
+        "berapa"
+       ],
+       "gloss": {
+        "zh": "这双鞋多少钱？",
+        "ja": "この靴はいくらですか。",
+        "en": "How much are these shoes?",
+        "vi": "Đôi giày này giá bao nhiêu?",
+        "pl": "Ile kosztują te buty?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya datang ke Indonesia tahun dua ribu dua puluh enam.",
+       "reg": "formal",
+       "kw": [
+        "tahun"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Anda datang ke Indonesia tahun berapa?",
+       "reg": "formal",
+       "kw": [
+        "berapa"
+       ],
+       "gloss": {
+        "zh": "您哪一年来印尼的？",
+        "ja": "何年にインドネシアへ来ましたか。",
+        "en": "What year did you come to Indonesia?",
+        "vi": "Bạn đến Indonesia năm nào?",
+        "pl": "W którym roku przyjechałeś do Indonezji?"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "照答句提问 · ke berapa",
+     "ja": "答えから質問を作る · ke berapa",
+     "en": "Ask the question that fits · ke berapa",
+     "vi": "Đặt câu hỏi cho câu trả lời · ke berapa",
+     "pl": "Ułóż pytanie do odpowiedzi · ke berapa"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Amanda duduk di baris kelima.",
+       "reg": "formal",
+       "kw": [
+        "kelima"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Amanda duduk di baris ke berapa?",
+       "reg": "formal",
+       "kw": [
+        "ke berapa"
+       ],
+       "gloss": {
+        "zh": "Amanda 坐第几排？",
+        "ja": "アマンダは何列目に座っていますか。",
+        "en": "Which row is Amanda sitting in?",
+        "vi": "Amanda ngồi hàng thứ mấy?",
+        "pl": "W którym rzędzie siedzi Amanda?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Agustus bulan kedelapan dalam kalender.",
+       "reg": "formal",
+       "kw": [
+        "kedelapan"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Agustus bulan ke berapa dalam kalender?",
+       "reg": "formal",
+       "kw": [
+        "ke berapa"
+       ],
+       "gloss": {
+        "zh": "八月是日历上的第几个月？",
+        "ja": "八月はカレンダーで何番目の月ですか。",
+        "en": "Which month of the calendar is August?",
+        "vi": "Tháng Tám là tháng thứ mấy trong lịch?",
+        "pl": "Którym miesiącem w kalendarzu jest sierpień?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Rabu hari ketiga dalam seminggu.",
+       "reg": "formal",
+       "kw": [
+        "ketiga"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Rabu hari ke berapa dalam seminggu?",
+       "reg": "formal",
+       "kw": [
+        "ke berapa"
+       ],
+       "gloss": {
+        "zh": "星期三是一周的第几天？",
+        "ja": "水曜日は一週間の何日目ですか。",
+        "en": "Which day of the week is Wednesday?",
+        "vi": "Thứ Tư là ngày thứ mấy trong tuần?",
+        "pl": "Którym dniem tygodnia jest środa?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Ini buku kesebelas di rak itu.",
+       "reg": "formal",
+       "kw": [
+        "kesebelas"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ini buku ke berapa di rak itu?",
+       "reg": "formal",
+       "kw": [
+        "ke berapa"
+       ],
+       "gloss": {
+        "zh": "这是那个架子上的第几本书？",
+        "ja": "これはあの棚の何冊目の本ですか。",
+        "en": "Which book on that shelf is this?",
+        "vi": "Đây là cuốn sách thứ mấy trên giá kia?",
+        "pl": "Która to książka na tamtej półce?"
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya anak kedua di keluarga saya.",
+       "reg": "formal",
+       "kw": [
+        "kedua"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Anda anak ke berapa di keluarga Anda?",
+       "reg": "formal",
+       "kw": [
+        "ke berapa"
+       ],
+       "gloss": {
+        "zh": "您在家里排行第几？",
+        "ja": "ご兄弟の何番目ですか。",
+        "en": "Where do you come in your family?",
+        "vi": "Bạn là con thứ mấy trong nhà?",
+        "pl": "Którym dzieckiem jesteś w rodzinie?"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "berapa 还是 ke berapa",
+     "ja": "berapa か ke berapa か",
+     "en": "berapa or ke berapa",
+     "vi": "berapa hay ke berapa",
+     "pl": "berapa czy ke berapa"
+    },
+    "green": true,
+    "lines": [
+     {
+      "text": {
+       "zh": "问<b>多少</b>（数量、价钱、几点、几号）用 <s>berapa</s>；问<b>第几</b>（排行、第几排、第几页那种顺序）用 <s>ke berapa</s>，答句里就会出现 ke- 开头的序数。课本还让你用这四个疑问词各自再写三句 —— 照上面的句子换个人名和数字就行。",
+       "ja": "<b>いくつ</b>（数量・値段・時刻・日付）を尋ねるときは <s>berapa</s>、<b>何番目</b>（順番、何列目、何ページ目）を尋ねるときは <s>ke berapa</s> で、答えには ke- で始まる序数が出てきます。教科書ではこの四つの疑問詞で三文ずつ作る課題もあります —— 上の文の名前と数字を変えるだけで十分です。",
+       "en": "Use <s>berapa</s> for <b>how many / how much</b> — quantities, prices, clock times, dates. Use <s>ke berapa</s> for <b>which in a sequence</b> — birth order, which row, which page; the answer then carries a ke- ordinal. The book also asks for three more sentences with each of the four question words — just swap the names and numbers in the sentences above.",
+       "vi": "Dùng <s>berapa</s> để hỏi <b>bao nhiêu</b> — số lượng, giá cả, mấy giờ, ngày mấy. Dùng <s>ke berapa</s> để hỏi <b>thứ mấy</b> — thứ tự trong nhà, hàng thứ mấy, trang thứ mấy; câu trả lời sẽ có số thứ tự bắt đầu bằng ke-. Sách còn yêu cầu viết thêm ba câu cho mỗi từ để hỏi — chỉ cần đổi tên và số trong các câu ở trên.",
+       "pl": "Pytając <b>ile</b> — o liczbę, cenę, godzinę, datę — używa się <s>berapa</s>. Pytając <b>który z kolei</b> — o kolejność, rząd, stronę — używa się <s>ke berapa</s>, a w odpowiedzi pojawia się liczebnik z ke-. Podręcznik prosi jeszcze o trzy zdania z każdym z tych czterech słów — wystarczy zmienić imiona i liczby w powyższych zdaniach."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Kalimat 1",
+    "sub": {
+     "zh": "练习 · 名词句和形容词句",
+     "ja": "練習 · 名詞文と形容詞文",
+     "en": "Practice · noun sentences and adjective sentences",
+     "vi": "Luyện tập · câu danh từ và câu tính từ",
+     "pl": "Ćwiczenia · zdania z rzeczownikiem i z przymiotnikiem"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "用给的词造一句 · Nomina + Nomina",
+     "ja": "与えられた語で一文 · Nomina + Nomina",
+     "en": "One sentence with each cue · Nomina + Nomina",
+     "vi": "Đặt một câu với từ cho sẵn · Nomina + Nomina",
+     "pl": "Ułóż zdanie z podanym słowem · Nomina + Nomina"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Ini",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ini kamus saya.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "这是我的词典。",
+        "ja": "これはわたしの辞書です。",
+        "en": "This is my dictionary.",
+        "vi": "Đây là từ điển của tôi.",
+        "pl": "To jest mój słownik."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Itu",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Itu jam dinding.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "那是挂钟。",
+        "ja": "あれは掛け時計です。",
+        "en": "That is a wall clock.",
+        "vi": "Kia là đồng hồ treo tường.",
+        "pl": "Tam jest zegar ścienny."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Saya mahasiswa INCULS.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我是 INCULS 的学生。",
+        "ja": "わたしは INCULS の学生です。",
+        "en": "I am an INCULS student.",
+        "vi": "Tôi là sinh viên INCULS.",
+        "pl": "Jestem studentem INCULS."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Anda",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Anda dosen kami.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "您是我们的老师。",
+        "ja": "あなたはわたしたちの先生です。",
+        "en": "You are our lecturer.",
+        "vi": "Cô là giảng viên của chúng tôi.",
+        "pl": "Jest pan naszym wykładowcą."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Dia",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Dia teman saya.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "他是我朋友。",
+        "ja": "あの人はわたしの友だちです。",
+        "en": "They are my friend.",
+        "vi": "Bạn ấy là bạn của tôi.",
+        "pl": "To moja znajoma osoba."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Mereka",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Mereka mahasiswa baru.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "他们是新生。",
+        "ja": "かれらは新入生です。",
+        "en": "They are new students.",
+        "vi": "Họ là sinh viên mới.",
+        "pl": "Oni są nowymi studentami."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kakak saya",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kakak saya karyawan.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我哥哥是公司职员。",
+        "ja": "わたしの兄は会社員です。",
+        "en": "My older brother is an office worker.",
+        "vi": "Anh tôi là nhân viên công ty.",
+        "pl": "Mój starszy brat pracuje w biurze."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Sepeda",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Sepeda itu hadiah ulang tahun.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "那辆自行车是生日礼物。",
+        "ja": "あの自転車は誕生日のプレゼントです。",
+        "en": "That bicycle is a birthday present.",
+        "vi": "Chiếc xe đạp đó là quà sinh nhật.",
+        "pl": "Ten rower to prezent urodzinowy."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Meja",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Meja ini meja Ibu Wira.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "这张桌子是 Wira 老师的桌子。",
+        "ja": "この机はウィラ先生の机です。",
+        "en": "This desk is Ibu Wira’s desk.",
+        "vi": "Cái bàn này là bàn của cô Wira.",
+        "pl": "To biurko należy do pani Wiry."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kelas",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kelas kami kelas bahasa Indonesia.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我们班是印尼语班。",
+        "ja": "わたしたちのクラスはインドネシア語のクラスです。",
+        "en": "Our class is the Indonesian class.",
+        "vi": "Lớp chúng tôi là lớp tiếng Indonesia.",
+        "pl": "Nasza grupa to grupa indonezyjskiego."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "用给的词造一句 · Nomina + Adjektiva",
+     "ja": "与えられた語で一文 · Nomina + Adjektiva",
+     "en": "One sentence with each cue · Nomina + Adjektiva",
+     "vi": "Đặt một câu với từ cho sẵn · Nomina + Adjektiva",
+     "pl": "Ułóż zdanie z podanym słowem · Nomina + Adjektiva"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Alva",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Alva pandai.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "Alva 很聪明。",
+        "ja": "アルバは頭がいいです。",
+        "en": "Alva is clever.",
+        "vi": "Alva rất thông minh.",
+        "pl": "Alva jest zdolna."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kita",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kita gembira hari ini.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我们今天很高兴。",
+        "ja": "今日わたしたちはうれしいです。",
+        "en": "We are happy today.",
+        "vi": "Hôm nay chúng ta rất vui.",
+        "pl": "Dziś jesteśmy weseli."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kami",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kami senang.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我们（不包括你）很开心。",
+        "ja": "わたしたち（あなたを含まない）はうれしいです。",
+        "en": "We (not including you) are glad.",
+        "vi": "Chúng tôi (không gồm bạn) rất vui.",
+        "pl": "My (bez ciebie) jesteśmy zadowoleni."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saudara",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Saudara ramah sekali.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "您很亲切。",
+        "ja": "あなたはとても親切ですね。",
+        "en": "You are very friendly.",
+        "vi": "Bạn thật thân thiện.",
+        "pl": "Jesteś bardzo miły."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Besar",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Rumah nenek besar.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "奶奶的房子很大。",
+        "ja": "おばあさんの家は大きいです。",
+        "en": "Grandma’s house is big.",
+        "vi": "Nhà của bà rất lớn.",
+        "pl": "Dom babci jest duży."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Bagus",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Batik ini bagus.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "这块蜡染很好看。",
+        "ja": "このバティックはすてきです。",
+        "en": "This batik is lovely.",
+        "vi": "Tấm batik này rất đẹp.",
+        "pl": "Ten batik jest ładny."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Tinggi",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Gedung fakultas tinggi.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "院系的楼很高。",
+        "ja": "学部の建物は高いです。",
+        "en": "The faculty building is tall.",
+        "vi": "Tòa nhà của khoa rất cao.",
+        "pl": "Budynek wydziału jest wysoki."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Ibu Ndaru",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Ibu Ndaru cantik.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "Ndaru 女士很漂亮。",
+        "ja": "ンダル先生はきれいです。",
+        "en": "Ibu Ndaru is beautiful.",
+        "vi": "Cô Ndaru rất xinh.",
+        "pl": "Pani Ndaru jest piękna."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Cantik",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Foto ini cantik.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "这张照片很好看。",
+        "ja": "この写真はきれいです。",
+        "en": "This photo is lovely.",
+        "vi": "Bức ảnh này rất đẹp.",
+        "pl": "To zdjęcie jest ładne."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Pak Dokter",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Pak Dokter baik.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "医生先生人很好。",
+        "ja": "お医者さんはいい人です。",
+        "en": "The doctor is kind.",
+        "vi": "Bác sĩ rất tốt bụng.",
+        "pl": "Pan doktor jest dobry."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "提示词在哪一栏",
+     "ja": "与えられた語はどちらの欄か",
+     "en": "Which column the cue belongs to",
+     "vi": "Từ gợi ý thuộc cột nào",
+     "pl": "Do której kolumny należy podpowiedź"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "课本给的提示词有时是<b>主语</b>（Alva、Kita），有时是<b>形容词</b>（Besar、Bagus、Tinggi、Cantik）—— 后者要自己找一个名词放前面。这类句子印尼语<b>不用系动词</b>：<s>Alva pandai.</s> 就是完整的一句，不能加 adalah。",
+       "ja": "教科書の語は<b>主語</b>のとき（Alva、Kita）と<b>形容詞</b>のとき（Besar、Bagus、Tinggi、Cantik）があります。後者は自分で名詞を前に置きます。この型に<b>コピュラは不要</b>です：<s>Alva pandai.</s> だけで完全な文で、adalah は付けません。",
+       "en": "The book’s cue is sometimes the <b>subject</b> (Alva, Kita) and sometimes the <b>adjective</b> (Besar, Bagus, Tinggi, Cantik) — in that case you supply the noun yourself. This pattern takes <b>no linking verb</b>: <s>Alva pandai.</s> is already a full sentence and adalah must not be added.",
+       "vi": "Từ gợi ý trong sách khi thì là <b>chủ ngữ</b> (Alva, Kita), khi thì là <b>tính từ</b> (Besar, Bagus, Tinggi, Cantik) — trường hợp sau bạn phải tự thêm danh từ ở trước. Kiểu câu này <b>không cần hệ từ</b>: <s>Alva pandai.</s> đã là một câu trọn vẹn, không thêm adalah.",
+       "pl": "Podpowiedź w podręczniku bywa <b>podmiotem</b> (Alva, Kita) albo <b>przymiotnikiem</b> (Besar, Bagus, Tinggi, Cantik) — w tym drugim wypadku rzeczownik dokładasz sam. Ten wzór <b>nie ma łącznika</b>: <s>Alva pandai.</s> to już całe zdanie i nie wolno dodawać adalah."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Kalimat 2",
+    "sub": {
+     "zh": "练习 · 动词句和介词句",
+     "ja": "練習 · 動詞文と前置詞文",
+     "en": "Practice · verb sentences and preposition sentences",
+     "vi": "Luyện tập · câu động từ và câu giới từ",
+     "pl": "Ćwiczenia · zdania z czasownikiem i z przyimkiem"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本这一节的练习，题型照搬、句子另写 —— 先自己想一遍，再点开答案对一对。<b>答案只是其中一种说法</b>，你写的不一样不代表错。",
+     "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
+     "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
+     "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "用给的词造一句 · Nomina + Verba",
+     "ja": "与えられた語で一文 · Nomina + Verba",
+     "en": "One sentence with each cue · Nomina + Verba",
+     "vi": "Đặt một câu với từ cho sẵn · Nomina + Verba",
+     "pl": "Ułóż zdanie z podanym słowem · Nomina + Verba"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Saya belajar.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我在学习。",
+        "ja": "わたしは勉強します。",
+        "en": "I am studying.",
+        "vi": "Tôi đang học.",
+        "pl": "Uczę się."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Anda",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Anda pulang.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "您回家。",
+        "ja": "あなたは帰ります。",
+        "en": "You are going home.",
+        "vi": "Bạn về nhà.",
+        "pl": "Wracasz do domu."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Dia",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Dia membaca.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "他在看书。",
+        "ja": "あの人は読んでいます。",
+        "en": "They are reading.",
+        "vi": "Bạn ấy đang đọc.",
+        "pl": "Ta osoba czyta."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Minum",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Adik saya minum.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我弟弟在喝水。",
+        "ja": "わたしの弟は飲んでいます。",
+        "en": "My little brother is drinking.",
+        "vi": "Em tôi đang uống.",
+        "pl": "Mój młodszy brat pije."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Asef",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Asef berenang.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "Asef 在游泳。",
+        "ja": "アセフは泳いでいます。",
+        "en": "Asef is swimming.",
+        "vi": "Asef đang bơi.",
+        "pl": "Asef pływa."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Tidur",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kakek tidur.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "爷爷在睡觉。",
+        "ja": "おじいさんは寝ています。",
+        "en": "Grandpa is sleeping.",
+        "vi": "Ông đang ngủ.",
+        "pl": "Dziadek śpi."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kami",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kami pergi.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我们走了。",
+        "ja": "わたしたちは行きます。",
+        "en": "We are leaving.",
+        "vi": "Chúng tôi đi đây.",
+        "pl": "My idziemy."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Fotografer",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Fotografer itu datang.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "那位摄影师来了。",
+        "ja": "あのカメラマンが来ました。",
+        "en": "That photographer has arrived.",
+        "vi": "Người chụp ảnh đó đã đến.",
+        "pl": "Ten fotograf przyszedł."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Menari",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Shinta menari.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "Shinta 在跳舞。",
+        "ja": "シンタは踊っています。",
+        "en": "Shinta is dancing.",
+        "vi": "Shinta đang múa.",
+        "pl": "Shinta tańczy."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Jinyong",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Jinyong memasak.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "Jinyong 在做饭。",
+        "ja": "ジニョンは料理しています。",
+        "en": "Jinyong is cooking.",
+        "vi": "Jinyong đang nấu ăn.",
+        "pl": "Jinyong gotuje."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "用给的词造一句 · Nomina + Preposisi",
+     "ja": "与えられた語で一文 · Nomina + Preposisi",
+     "en": "One sentence with each cue · Nomina + Preposisi",
+     "vi": "Đặt một câu với từ cho sẵn · Nomina + Preposisi",
+     "pl": "Ułóż zdanie z podanym słowem · Nomina + Preposisi"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saya",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Saya di kelas.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我在教室。",
+        "ja": "わたしは教室にいます。",
+        "en": "I am in class.",
+        "vi": "Tôi ở trong lớp.",
+        "pl": "Jestem w sali."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Saudara",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Saudara dari Jakarta.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "您从雅加达来。",
+        "ja": "あなたはジャカルタの出身ですね。",
+        "en": "You are from Jakarta.",
+        "vi": "Bạn đến từ Jakarta.",
+        "pl": "Jesteś z Dżakarty."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kita",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kita ke pasar.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我们去市场。",
+        "ja": "わたしたちは市場へ行きます。",
+        "en": "We are going to the market.",
+        "vi": "Chúng ta đi chợ.",
+        "pl": "Idziemy na targ."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kami",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Kami dari INCULS.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "我们从 INCULS 来。",
+        "ja": "わたしたちは INCULS から来ました。",
+        "en": "We are from INCULS.",
+        "vi": "Chúng tôi từ INCULS đến.",
+        "pl": "Jesteśmy z INCULS."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Ke kampus",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Shinta ke kampus.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "Shinta 去学校。",
+        "ja": "シンタはキャンパスへ行きます。",
+        "en": "Shinta is going to campus.",
+        "vi": "Shinta đến trường.",
+        "pl": "Shinta idzie na uczelnię."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Guru",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Guru di depan kelas.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "老师在教室前面。",
+        "ja": "先生は教室の前にいます。",
+        "en": "The teacher is at the front of the class.",
+        "vi": "Cô giáo ở phía trước lớp.",
+        "pl": "Nauczyciel stoi przed klasą."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Di kantin",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Teman-teman di kantin.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "朋友们在食堂。",
+        "ja": "友だちは食堂にいます。",
+        "en": "My friends are in the canteen.",
+        "vi": "Các bạn ở căng tin.",
+        "pl": "Znajomi są w stołówce."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Mereka",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Mereka ke Bali.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "他们去巴厘。",
+        "ja": "かれらはバリへ行きます。",
+        "en": "They are going to Bali.",
+        "vi": "Họ đi Bali.",
+        "pl": "Oni jadą na Bali."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Wayan",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Wayan dari Bali.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "Wayan 来自巴厘。",
+        "ja": "ワヤンはバリの出身です。",
+        "en": "Wayan is from Bali.",
+        "vi": "Wayan đến từ Bali.",
+        "pl": "Wayan jest z Bali."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Dari Indonesia",
+       "reg": "formal",
+       "kw": []
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Batik itu dari Indonesia.",
+       "reg": "formal",
+       "kw": [],
+       "gloss": {
+        "zh": "那块蜡染来自印尼。",
+        "ja": "あのバティックはインドネシア産です。",
+        "en": "That batik comes from Indonesia.",
+        "vi": "Tấm batik đó đến từ Indonesia.",
+        "pl": "Ten batik jest z Indonezji."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "课本还剩一题",
+     "ja": "教科書の残り一問",
+     "en": "One task left in the book",
+     "vi": "Còn một bài trong sách",
+     "pl": "Zostało jedno zadanie"
+    },
+    "green": true,
+    "lines": [
+     {
+      "text": {
+       "zh": "课本 D 部分最后一题是「四种句型各写三句」。上面四组每种已经各有十句，<b>从里面各挑三句，把人名、地名、时间换成你自己的</b>，就是那一题的答案。动词句里的 <s>di</s>、<s>ke</s>、<s>dari</s> 是介词不是动词 —— 这两类别混。",
+       "ja": "教科書 D の最後の問題は「四つの型で三文ずつ」です。上の四組にそれぞれ十文ありますから、<b>各組から三文選んで、名前・地名・時間を自分のものに差しかえれば</b>そのまま答えになります。<s>di</s>・<s>ke</s>・<s>dari</s> は前置詞で動詞ではありません —— この二つを混同しないように。",
+       "en": "The last task in section D asks for three sentences in each of the four patterns. There are ten of each above — <b>pick three from each group and swap in your own names, places and times</b>. Note that <s>di</s>, <s>ke</s> and <s>dari</s> are prepositions, not verbs; do not mix the two patterns up.",
+       "vi": "Bài cuối phần D yêu cầu viết ba câu cho mỗi kiểu trong bốn kiểu. Ở trên mỗi nhóm đã có mười câu — <b>chọn ba câu mỗi nhóm rồi thay tên người, địa danh và thời gian bằng của bạn</b>. Lưu ý <s>di</s>, <s>ke</s>, <s>dari</s> là giới từ chứ không phải động từ, đừng lẫn hai kiểu này.",
+       "pl": "Ostatnie zadanie z części D prosi o trzy zdania w każdym z czterech wzorów. Powyżej jest po dziesięć — <b>wybierz po trzy z każdej grupy i wstaw własne imiona, miejsca i czasy</b>. Pamiętaj, że <s>di</s>, <s>ke</s> i <s>dari</s> to przyimki, nie czasowniki — nie myl tych dwóch wzorów."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
+    "title": "Latihan Menulis",
+    "sub": {
+     "zh": "练习 · 读懂一张邀请卡",
+     "ja": "練習 · 招待状を読み取る",
+     "en": "Practice · reading an invitation card",
+     "vi": "Luyện tập · đọc một tấm thiệp mời",
+     "pl": "Ćwiczenia · czytanie zaproszenia"
+    },
+    "cat": "latihan"
+   },
+   {
+    "k": "lead",
+    "text": {
+     "zh": "课本写作第二题给了一张别人的邀请卡，让你把上面的信息读出来，再说说你打算怎么办。下面是同样格式的一张卡。",
+     "ja": "教科書の作文の二問目は、他人の招待状を読んで情報を書き出し、自分ならどうするかを述べる課題です。下は同じ形式のカードです。",
+     "en": "The second writing task in the book gives you someone else’s invitation card, asks you to write out the information on it, and then say what you would do. Here is a card in the same format.",
+     "vi": "Bài viết thứ hai trong sách đưa ra một tấm thiệp mời của người khác, yêu cầu bạn ghi lại thông tin trên đó rồi nói bạn sẽ làm gì. Dưới đây là một tấm thiệp cùng dạng.",
+     "pl": "Drugie zadanie pisemne w podręczniku pokazuje cudze zaproszenie, każe wypisać z niego informacje i powiedzieć, co byś zrobił. Poniżej jest zaproszenie w tym samym układzie."
+    }
+   },
+   {
+    "k": "mini",
+    "text": {
+     "zh": "PESTA ULANG TAHUN AMANDA",
+     "ja": "PESTA ULANG TAHUN AMANDA",
+     "en": "PESTA ULANG TAHUN AMANDA",
+     "vi": "PESTA ULANG TAHUN AMANDA",
+     "pl": "PESTA ULANG TAHUN AMANDA"
+    }
+   },
+   {
+    "k": "table",
+    "cols": [
+     {
+      "zh": "栏目",
+      "ja": "項目",
+      "en": "Field",
+      "vi": "Mục",
+      "pl": "Rubryka"
+     },
+     {
+      "zh": "卡上写的",
+      "ja": "カードの記載",
+      "en": "What the card says",
+      "vi": "Trên thiệp ghi",
+      "pl": "Co jest na zaproszeniu"
+     }
+    ],
+    "rows": [
+     [
+      {
+       "id": "Kepada",
+       "reg": "neutral"
+      },
+      {
+       "id": "teman-teman kelas INCULS",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Hari",
+       "reg": "neutral"
+      },
+      {
+       "id": "Sabtu",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Tanggal",
+       "reg": "neutral"
+      },
+      {
+       "id": "dua belas September dua ribu dua puluh enam",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Waktu",
+       "reg": "neutral"
+      },
+      {
+       "id": "pukul empat sore sampai selesai",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Tempat",
+       "reg": "neutral"
+      },
+      {
+       "id": "rumah Amanda, Jalan Kaliurang nomor dua puluh lima",
+       "reg": "neutral"
+      }
+     ],
+     [
+      {
+       "id": "Busana",
+       "reg": "neutral"
+      },
+      {
+       "id": "putih",
+       "reg": "neutral"
+      }
+     ]
+    ],
+    "note": {
+     "zh": "真的卡上日期时间写数字：12 September 2026、16.00 – selesai。这里写成读法，是为了能点着听。",
+     "ja": "実物のカードでは数字で書きます：12 September 2026、16.00 – selesai。ここで読み方にしたのはタップして聞けるようにするためです。",
+     "en": "On a real card the date and time appear as figures: 12 September 2026, 16.00 – selesai. They are spelled out here so you can tap and listen.",
+     "vi": "Trên thiệp thật, ngày giờ viết bằng số: 12 September 2026, 16.00 – selesai. Ở đây viết thành chữ để bạn chạm vào nghe được.",
+     "pl": "Na prawdziwym zaproszeniu data i godzina są cyframi: 12 September 2026, 16.00 – selesai. Tutaj zapisano je słowami, żeby dało się posłuchać."
+    }
+   },
+   {
+    "k": "qa_list",
+    "title": {
+     "zh": "卡上写了什么",
+     "ja": "カードに何が書いてあるか",
+     "en": "What does the card say",
+     "vi": "Thiệp ghi những gì",
+     "pl": "Co jest napisane na zaproszeniu"
+    },
+    "items": [
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Siapa yang berulang tahun?",
+       "reg": "formal",
+       "kw": [
+        "siapa"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Amanda berulang tahun.",
+       "reg": "formal",
+       "kw": [
+        "berulang tahun"
+       ],
+       "gloss": {
+        "zh": "是 Amanda 过生日。",
+        "ja": "アマンダの誕生日です。",
+        "en": "It is Amanda’s birthday.",
+        "vi": "Amanda là người có sinh nhật.",
+        "pl": "Urodziny ma Amanda."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Kapan pestanya?",
+       "reg": "formal",
+       "kw": [
+        "kapan"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Hari Sabtu, tanggal dua belas September dua ribu dua puluh enam.",
+       "reg": "formal",
+       "kw": [
+        "Sabtu"
+       ],
+       "gloss": {
+        "zh": "2026 年 9 月 12 日星期六。",
+        "ja": "2026 年 9 月 12 日、土曜日です。",
+        "en": "Saturday, 12 September 2026.",
+        "vi": "Thứ Bảy, ngày 12 tháng 9 năm 2026.",
+        "pl": "W sobotę, 12 września 2026."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Pukul berapa acaranya mulai?",
+       "reg": "formal",
+       "kw": [
+        "pukul"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Pukul empat sore sampai selesai.",
+       "reg": "formal",
+       "kw": [
+        "selesai"
+       ],
+       "gloss": {
+        "zh": "下午四点开始，到结束为止。",
+        "ja": "午後四時から終わりまでです。",
+        "en": "Four in the afternoon, until it ends.",
+        "vi": "Bốn giờ chiều, đến khi kết thúc.",
+        "pl": "O czwartej po południu, aż do końca."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Di mana tempatnya?",
+       "reg": "formal",
+       "kw": [
+        "tempat"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Di rumah Amanda, Jalan Kaliurang nomor dua puluh lima.",
+       "reg": "formal",
+       "kw": [
+        "rumah"
+       ],
+       "gloss": {
+        "zh": "在 Amanda 家，Kaliurang 路 25 号。",
+        "ja": "アマンダの家、カリウラン通り 25 番地です。",
+        "en": "At Amanda’s house, 25 Jalan Kaliurang.",
+        "vi": "Ở nhà Amanda, số 25 đường Kaliurang.",
+        "pl": "W domu Amandy, Jalan Kaliurang 25."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Amanda mengundang siapa?",
+       "reg": "formal",
+       "kw": [
+        "mengundang"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Amanda mengundang teman-teman kelas INCULS.",
+       "reg": "formal",
+       "kw": [
+        "teman-teman"
+       ],
+       "gloss": {
+        "zh": "她请的是 INCULS 班的同学。",
+        "ja": "INCULS のクラスメートを招いています。",
+        "en": "She is inviting her INCULS classmates.",
+        "vi": "Bạn ấy mời các bạn cùng lớp INCULS.",
+        "pl": "Zaprasza kolegów z grupy INCULS."
+       }
+      }
+     },
+     {
+      "prompt": {
+       "lang": "id",
+       "text": "Bagaimana busananya?",
+       "reg": "formal",
+       "kw": [
+        "busana"
+       ]
+      },
+      "answer": {
+       "lang": "id",
+       "text": "Busananya putih.",
+       "reg": "formal",
+       "kw": [
+        "putih"
+       ],
+       "gloss": {
+        "zh": "要穿白色的衣服。",
+        "ja": "白い服を着ていきます。",
+        "en": "The dress code is white.",
+        "vi": "Trang phục màu trắng.",
+        "pl": "Obowiązuje strój biały."
+       }
+      }
+     }
+    ]
+   },
+   {
+    "k": "prompt",
+    "tag": {
+     "zh": "课本第二问",
+     "ja": "教科書の二つ目の問い",
+     "en": "The book’s second question",
+     "vi": "Câu hỏi thứ hai trong sách",
+     "pl": "Drugie pytanie z podręcznika"
+    },
+    "text": {
+     "zh": "收到这张卡，你会怎么做？用三到四句话写下来：先回复（<s>Terima kasih atas undangannya</s>），说你去不去（<s>saya bisa hadir</s>），说你几点到、穿什么、带什么礼物。",
+     "ja": "この招待状を受け取ったらどうしますか。三〜四文で書いてください：まず返事（<s>Terima kasih atas undangannya</s>）、行くかどうか（<s>saya bisa hadir</s>）、何時に着くか、何を着るか、何を持って行くか。",
+     "en": "What would you do with this card? Write three or four sentences: reply first (<s>Terima kasih atas undangannya</s>), say whether you can come (<s>saya bisa hadir</s>), then what time you will arrive, what you will wear and what present you will bring.",
+     "vi": "Nhận được tấm thiệp này bạn sẽ làm gì? Viết ba đến bốn câu: trước hết trả lời (<s>Terima kasih atas undangannya</s>), nói bạn có đi được không (<s>saya bisa hadir</s>), rồi mấy giờ đến, mặc gì, mang quà gì.",
+     "pl": "Co byś zrobił z tym zaproszeniem? Napisz trzy albo cztery zdania: najpierw odpowiedz (<s>Terima kasih atas undangannya</s>), powiedz, czy możesz przyjść (<s>saya bisa hadir</s>), a potem o której dotrzesz, w co się ubierzesz i jaki prezent przyniesiesz."
+    }
+   },
+   {
+    "k": "note",
+    "tag": {
+     "zh": "说的那两题",
+     "ja": "会話の二問",
+     "en": "The two speaking tasks",
+     "vi": "Hai bài nói",
+     "pl": "Dwa zadania ustne"
+    },
+    "lines": [
+     {
+      "text": {
+       "zh": "课本 E 部分（Berbicara）是两段自由对话：聊你自己的大学、聊出生和生日。题目和可以照抄的对话都在<b>「对话：聊 UGM 校园」</b>和<b>「对话：课表和生日」</b>那两页，这里不重复。",
+       "ja": "教科書 E（Berbicara）は自由会話が二つ、自分の大学について、出生と誕生日についてです。課題と下敷きになる会話は<b>「会話：UGM のキャンパス」</b>と<b>「会話：時間割と誕生日」</b>のページにありますので、ここでは繰り返しません。",
+       "en": "Section E (Berbicara) in the book is two open dialogues — about your own university, and about birth and birthdays. The tasks and the dialogues you can model them on are on the <b>“Talking about the UGM campus”</b> and <b>“Timetables and birthdays”</b> pages, so they are not repeated here.",
+       "vi": "Phần E (Berbicara) trong sách là hai đoạn hội thoại tự do: về trường đại học của bạn, và về ngày sinh, sinh nhật. Đề bài và đoạn hội thoại mẫu nằm ở trang <b>“Hội thoại: nói về khuôn viên UGM”</b> và <b>“Hội thoại: thời khóa biểu và sinh nhật”</b>, ở đây không nhắc lại.",
+       "pl": "Część E (Berbicara) to dwa swobodne dialogi: o twojej uczelni oraz o urodzinach i miejscu urodzenia. Polecenia i dialogi wzorcowe są na stronach <b>„Dialog: kampus UGM”</b> i <b>„Dialog: plan zajęć i urodziny”</b>, więc tutaj się ich nie powtarza."
+      }
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "k": "phead",
     "title": "Wawasan Keindonesiaan",
     "sub": {
      "zh": "印尼常识 · 感恩宴与人生仪式",

@@ -540,8 +540,11 @@ function noteLines(lines){
 }
 function qaSide(side, maskable){
   if(!side) return "";
+  /* 印尼语那一侧可以带 gloss（参考答案页要的：句子下面一行释义）。
+     跟句子一起进 .ans，答案没揭开时释义也不能露出来。 */
   if(side.lang === "id"){
-    var inner = sayLine(side.text, side.kw);
+    var g = L(side.gloss);
+    var inner = sayLine(side.text, side.kw) + (g ? '<span class="gloss">' + esc(g) + "</span>" : "");
     var body = maskable ? '<span class="ans">' + inner + "</span>" : inner;
     return '<div class="qa-line id"><button class="play" data-say="' + esc(sayText(side.text)) +
       '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="idtext">' + body + "</span></div>";
