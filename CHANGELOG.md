@@ -4,6 +4,28 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.7.0 — 2026-09-07
+
+**Polish, and a language menu that fits**
+
+- **Polish interface and content.** Everything a learner reads — the lesson
+  pages, the glossary, the drills, every button and message — is now available
+  in Polish alongside Chinese, Japanese, English and Vietnamese
+- **The notes that compare Indonesian with your own language were rewritten
+  for Polish, not translated.** *setengah dua* works exactly like *wpół do
+  drugiej*, so there is nothing to relearn; Indonesian *w* is the Polish *ł*
+  and *ny* is *ń*; neither language uses articles. But Indonesian puts the
+  possessive after the noun (*buku saya*), it has no cases, genders or verb
+  endings at all, and word-initial *ng* is as new for Polish speakers as for
+  everyone else
+- **The language picker is now a drop-down.** Five languages no longer fit in a
+  row of buttons inside the settings panel; choosing one uses an ordinary menu,
+  which on a phone means the system's own picker
+- **Example sentences follow your country.** With Polish selected, the
+  first-person examples say *Saya dari Polandia* — recorded, like the *Cina*,
+  *Jepang*, *Inggris* and *Vietnam* versions. The Polish around them inflects
+  the country name properly: *jestem z Polski*, *wracam do Polski*
+
 ## 1.6.0 — 2026-09-02
 
 **Bab 3 completed from the printed textbook**

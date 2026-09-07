@@ -194,8 +194,20 @@
     transition-delay:0s,0s,0s}
   .grp{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:36px}
   .grp .lab{font-family:var(--ui);font-size:11px;color:var(--ink-soft);letter-spacing:.1em;flex:0 0 auto}
-  select.voice{font-family:var(--ui);font-size:13px;color:var(--ink);background:var(--surface);
-    border:1px solid var(--line);border-radius:var(--r-sm);padding:7px 22px 7px 10px;max-width:190px}
+  /* 设置面板里的两个原生下拉（界面语言、发音语音）。用 <select> 而不是一排芯片：
+     语言到了五种就排不下 246px 的面板，而且手机上系统的滚轮选择器更好点。
+     min-height 跟隔壁的 .seg button 一样 36px，免得这一行比别的矮一截。 */
+  /* 全局把 select 的 appearance 关掉了（见上面的 button,input,select），
+     所以要自己画那个下拉小箭头 —— 不然看着就是一个方框，没人知道能点。
+     箭头是内联 data: URI，不发请求，assertOffline 照样过。 */
+  select.sel-ctl{font-family:var(--ui);font-size:13px;color:var(--ink);background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--r-sm);padding:7px 26px 7px 10px;max-width:190px;
+    min-height:36px;cursor:pointer;
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http:\2f \2f www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M3 4.75 6 7.75 9 4.75' fill='none' stroke='%23928a80' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:right 8px center;background-size:12px 12px}
+  /* 语言名各写各的字（中文 / 日本語 / Tiếng Việt / Polski），交给系统字体渲染，
+     别让 ja 界面的明朝体规则把越南语的声调符号挤歪。 */
+  select#langSel{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
   /* 学习记录：设置面板最底下的一行，跟前面的控件用一条细线隔开。
      只有状态和一个「清除」，不做开关 —— 记不住的时候本来就已经静默降级了。 */
   .prog-grp{flex-direction:column;align-items:stretch;gap:7px;
@@ -683,7 +695,7 @@
   header.open #setBtn{color:var(--accent-ink);background:var(--accent-wash);border-color:var(--accent-line)}
 
   @media (max-width:860px){
-    select.voice{font-size:16px;max-width:160px}
+    select.sel-ctl{font-size:16px;max-width:160px}
     .icon-btn{padding:0;min-width:40px}
     .icon-btn .gbl{display:none}
     .reader{padding:var(--hdr-h,57px) calc(16px + env(safe-area-inset-right))

@@ -3,7 +3,7 @@
  * 校验 —— 每次改完内容都必须跑，不过就别构建。
  *
  *   1  JSON 结构与必填字段
- *   2  多语齐全（zh / ja / en / vi 都不为空，名单见 lib/content.js 的 TRI_LANGS）
+ *   2  多语齐全（名单见 lib/content.js 的 TRI_LANGS）+ 界面文案键集合一致 + 占位符自洽
  *   3  语体值合法（casual / formal / neutral）+ alt 可解析
  *   4  语体配对表自洽
  *   5  词汇表查重
@@ -21,7 +21,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { ROOT, P } from './lib/paths.js';
-import { loadContent, loadAudioManifest, walkTri, TRI_LANGS } from './lib/content.js';
+import { loadContent, loadAudioManifest, walkTri, isTri, TRI_LANGS } from './lib/content.js';
 import { REG, detectRegister } from './lib/register.js';
 
 const ALLOW_TODO = process.argv.includes('--allow-todo');
@@ -157,6 +157,43 @@ for (const lang of TRI_LANGS) {
   else if (ALLOW_TODO) warn(G2, msg + '（--allow-todo：暂不算失败）');
   else err(G2, msg);
   if (REQUIRED.has(lang)) notes.push(`  缺 ${lang} 的前几处：${missing[lang].slice(0, 3).join('  ')}`);
+}
+
+/* 占位符自洽：{NEGARA} / {NAMA} / {PEOPLE} 这类由 engine.js 的 LZ() 按
+   meta.learner[当前语言] 替换，占位符名就是那里的键名转大写。名字写错、
+   或某一种语言少配了那个键，页面上不会报错 —— 只会原样显示一个 {XXX}。
+   所以在这里拦：
+     · 学习者语言的句子（多语对象里的某一条）只需要它自己那种语言配齐；
+     · 印尼语句子是所有界面语言共用的（切到哪种语言都要渲染），
+       必须每种语言都配齐 —— 加一门新语言时最容易漏的就是这一条。 */
+const learner = content.meta.learner || {};
+const phBad = [];
+const phCheck = (s, langs, where) => {
+  const re = /\{([A-Z][A-Z_]*)\}/g;
+  let m;
+  while ((m = re.exec(String(s)))) {
+    const key = m[1].toLowerCase();
+    for (const lang of langs) {
+      if (!(learner[lang] || {})[key]) phBad.push(`${where}：{${m[1]}} 在 learner.${lang} 里没有`);
+    }
+  }
+};
+for (const [name, root] of roots) {
+  (function rec(o, p) {
+    if (typeof o === 'string') { phCheck(o, content.meta.langs, `${name}.${p}`); return; }
+    if (o == null || typeof o !== 'object') return;
+    if (isTri(o)) {
+      for (const lang of Object.keys(o)) {
+        if (typeof o[lang] === 'string') phCheck(o[lang], [lang], `${name}.${p}.${lang}`);
+      }
+      return;
+    }
+    if (Array.isArray(o)) { o.forEach((v, i) => rec(v, `${p}[${i}]`)); return; }
+    for (const [k, v] of Object.entries(o)) rec(v, p ? `${p}.${k}` : k);
+  })(root, '');
+}
+if (phBad.length) {
+  err(G2, `占位符对不上 ${phBad.length} 处：${[...new Set(phBad)].slice(0, 4).join('  ')}`);
 }
 
 /* 界面文案：每种语言的 ui.*.json 键集合必须完全一致 */

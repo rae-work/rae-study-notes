@@ -45,8 +45,11 @@ export function buildHtml(opts = {}) {
     REPO_URL: esc(meta.app.repo || ''),
     ICON_B64: icon,
     TITLE: esc(meta.app.title[lang] || meta.app.title.zh || meta.app.name),
-    LANG_BUTTONS: meta.langs
-      .map((l) => `<button data-lang="${l}">${esc(meta.lang_names[l] || l)}</button>`)
+    // 语言选择是原生 <select>：五种语言排成一行芯片会顶破 246px 的设置面板，
+    // 而且手机上系统的滚轮选择器比一排小按钮好点。选中项由 engine.js 的
+    // applyStaticText() 按当前语言写 value，这里不预设 selected。
+    LANG_OPTIONS: meta.langs
+      .map((l) => `<option value="${l}">${esc(meta.lang_names[l] || l)}</option>`)
       .join(''),
     CSS: trim(css),
     CONTENT: jsonForScript(content),

@@ -12,6 +12,7 @@
     "mask_title": "練習の答えと語の意味を表示／非表示にする",
     "settings": "設定を開く／閉じる",
     "lang_label": "言語",
+    "lang_title": "表示言語を選ぶ",
     "voice_label": "音声",
     "voice_title": "読み上げの音声を選ぶ",
     "speed_label": "速さ",

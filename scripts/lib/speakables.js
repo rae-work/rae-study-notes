@@ -139,7 +139,7 @@ export function collectSpeakables(opts = {}) {
   /* 5. 语言渗漏检查：把界面切成拉丁字母的语言（英文、越南文），整个跑一遍。
      这些界面下渲染出的任何中日文字符都说明有写死的文案没走 T()。 */
   const leaks = [];
-  const LATIN = ['en', 'vi'].filter((l) => w.CONTENT.meta.langs.indexOf(l) >= 0);
+  const LATIN = ['en', 'vi', 'pl'].filter((l) => w.CONTENT.meta.langs.indexOf(l) >= 0);
   for (const latin of LATIN) {
     w.setLang(latin);
     const tag = (s) => `[${latin}] ${s}`;
@@ -148,7 +148,7 @@ export function collectSpeakables(opts = {}) {
       const d = doc.createElement('div');
       d.innerHTML = html;
       // 语言切换器里的「中文 / 日本語 / English」永远用各自的语言写，不算渗漏
-      d.querySelectorAll('#langSeg').forEach((x) => x.remove());
+      d.querySelectorAll('#langSel').forEach((x) => x.remove());
       const text = d.textContent || '';
       if (CJK.test(text)) {
         const m = text.match(/.{0,25}[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uff00-\uffef]+.{0,25}/);

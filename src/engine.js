@@ -242,9 +242,14 @@ function LZ(s){
   s = String(s);
   if(s.indexOf("{") < 0) return s;          /* 绝大多数字符串没有占位符，快速跳过 */
   var m = CONTENT.meta.learner || {}, k = m[LANG] || m[CONTENT.meta.default_lang] || {};
-  return s.replace(/\{NEGARA\}/g, k.negara || "")
-          .replace(/\{NAMA\}/g,   k.nama   || "")
-          .replace(/\{PEOPLE\}/g, k.people || "");
+  /* 占位符名 = learner 里的键名转大写。加一个键就多一个占位符 ——
+     波兰语的国名有格变化（jestem z Polski / wracam do Polski），
+     光有主格的 {NAMA} 不够用，所以那一份多了 nama_gen → {NAMA_GEN}。
+     认不出的占位符原样留着，宁可界面上看得见，也不要悄悄替换成空字符串。 */
+  return s.replace(/\{([A-Z][A-Z_]*)\}/g, function(all, key){
+    var v = k[key.toLowerCase()];
+    return v == null ? all : v;
+  });
 }
 
 function L(x){
@@ -314,9 +319,11 @@ function applyStaticText(){
   document.getElementById("bannerTxt").innerHTML = T("banner.no_voice");
   document.getElementById("maskTxt").textContent = masked ? T("nav.mask_hidden") : T("nav.mask_shown");
   document.getElementById("brandZh").textContent = L(CONTENT.meta.app.tagline);
-  toArr(document.querySelectorAll("#langSeg button")).forEach(function(b){
-    b.classList.toggle("on", b.getAttribute("data-lang") === LANG);
-  });
+  /* 语言从五种起就排不下一行芯片了（中文 / 日本語 / English / Tiếng Việt / Polski
+     在 246px 的面板里要么换行要么横向溢出），改成原生下拉 —— 手机上还能用系统的
+     滚轮选择器，比一排小按钮好点得多。 */
+  var lsel = document.getElementById("langSel");
+  if(lsel) lsel.value = LANG;
   toArr(document.querySelectorAll("#themeSeg button")).forEach(function(b){
     b.classList.toggle("on", b.getAttribute("data-th") === THEME);
   });
@@ -2976,9 +2983,8 @@ document.getElementById("menuBtn").addEventListener("click", openMenu);
 scrim.addEventListener("click", closeMenu);
 
 /* ===== 语言切换 ===== */
-document.getElementById("langSeg").addEventListener("click", function(e){
-  var b = e.target.closest ? e.target.closest("button") : null;
-  if(b && b.getAttribute("data-lang")) setLang(b.getAttribute("data-lang"));
+document.getElementById("langSel").addEventListener("change", function(e){
+  setLang(e.target.value);
 });
 
 /* ===== 深浅色切换 ===== */

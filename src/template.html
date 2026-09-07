@@ -32,7 +32,7 @@
   </button>
   <div class="ctrls" id="ctrls">
     <div class="grp" id="langGrp"><span class="lab" data-t="nav.lang_label"></span>
-      <div class="seg" id="langSeg">{{LANG_BUTTONS}}</div></div>
+      <select class="sel-ctl" id="langSel" data-t-title="nav.lang_title">{{LANG_OPTIONS}}</select></div>
     <div class="grp" id="themeGrp"><span class="lab" data-t="nav.theme_label"></span>
       <div class="seg" id="themeSeg" data-t-title="nav.theme_title">
         <button data-th="auto" data-t="nav.theme_auto"></button>
@@ -58,7 +58,7 @@
         <button data-z="-1">A−</button><button data-z="0">A</button><button data-z="1">A+</button>
       </div></div>
     <div class="grp" id="voiceGrp"><span class="lab" data-t="nav.voice_label"></span>
-      <select class="voice" id="voiceSel" data-t-title="nav.voice_title"></select></div>
+      <select class="sel-ctl voice" id="voiceSel" data-t-title="nav.voice_title"></select></div>
     <!-- 学习记录：状态 + 清除。文案由 engine.js 的 syncProgUI() 按当前语言填。 -->
     <div class="grp prog-grp" id="progGrp">
       <div class="prog-row">
