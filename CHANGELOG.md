@@ -4,6 +4,17 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.9.1 — 2026-09-13
+
+**Cleaner Chinese text on iPhone**
+
+- **The Chinese interface now uses the system font throughout.** iPhones have
+  no built-in Chinese serif typeface, so Chinese text was falling back to a
+  Japanese font that lacks many simplified characters; those characters then
+  appeared in a different, sans-serif font, mixing two styles in one sentence.
+  Chinese pages now use PingFang for every character. Other interface
+  languages are unchanged
+
 ## 1.9.0 — 2026-09-13
 
 **Bab 4 · Keluarga (family), with class-ready answers**

@@ -785,6 +785,16 @@
   @keyframes pageIn{ from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:none} }
   .sheet.fade{animation:pageIn var(--t-page) var(--ease)}
 
+  /* 中文界面：整站改用系统无衬线（苹方）。
+     iOS 不自带中文宋体（Songti SC 只有 macOS 有），衬线栈会掉到日文的
+     Hiragino Mincho —— 字形是日式的，而且缺大量简体字，缺的字又被 iOS
+     补成苹方，于是一段话里衬线、黑体混着出现（Rae 2026-09-13 在 iPhone 上发现）。
+     拉丁字母也一起走系统字体，不然 Georgia + 苹方又是衬线混无衬线。 */
+  html[lang="zh"]{
+    --serif: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+             "Noto Sans CJK SC", "Source Han Sans SC", "Helvetica Neue", Arial, sans-serif;
+  }
+
   /* 日语界面：把明朝体提到宋体之前 */
   html[lang="ja"] body{
     font-family: Georgia, "Times New Roman", "Hiragino Mincho ProN", "Yu Mincho",
