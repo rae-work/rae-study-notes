@@ -16,15 +16,15 @@ What changed in each version of *Rae's Study Note*. Newest first.
 - **Every exercise in the chapter, numbered exactly as in the book.** The
   practice pages now use the book's own questions in the book's order, so when
   the teacher calls on you for Latihan 3, item 7, that is the item you open
-- **Two answers for every item: Short and Full.** *Short* is the shortest safe
-  thing to say when you are called on; *Full* is the complete sentence, often
-  with one more sentence in case the teacher follows up
+- **The part to say when you are called on is in bold.** Each item has one
+  answer; read just the bold words and you already have a correct answer, and
+  the rest of the sentence is there in case the teacher follows up
 - **The printed book is missing two lines of the dialogue on page 54.** The
   page restores them from the digital edition and explains why items 1 and 2 of
   the speaking exercise could not be answered from the printed text. The other
   misprints in the chapter are corrected and pointed out where they occur
-- **Bab 3 handout, completed.** The simple-sentence practice now has Full
-  answers too, and a new page gives twelve model sentences for each of the
+- **Bab 3 handout, completed.** The simple-sentence answers are now fuller
+  sentences with the core in bold, and a new page gives twelve model sentences for each of the
   four "make your own" tables (Latihan 1a–4a)
 
 ## 1.8.0 — 2026-09-07

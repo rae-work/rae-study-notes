@@ -59,9 +59,7 @@
     "listen_pause": "Pause",
     "listen_source": "Official textbook audio",
     "table_formal": "formal",
-    "table_informal": "informal",
-    "qa_short": "Short",
-    "qa_full": "Full"
+    "table_informal": "informal"
   },
   "page": {
     "review_name": "Review",

@@ -98,9 +98,19 @@ for (const l of content.lessons) {
       for (const f of spec.req) if (b[f] == null) err(G1, `${where} [${b.k}]：缺字段 ${f}`);
       if (b.k === 'qa_list' && Array.isArray(b.items)) b.items.forEach((it, ii) => {
         if (!it.prompt || !it.answer) err(G1, `${where} [qa_list] 第 ${ii + 1} 题：缺 prompt 或 answer`);
-        /* full = 两档答案里的「完整版」，只收印尼语整句（要朗读、要有音频） */
-        if (it.full != null && (it.full.lang !== 'id' || !it.full.text))
-          err(G1, `${where} [qa_list] 第 ${ii + 1} 题：full 必须是 {lang:"id", text:…}`);
+        /* hl = 答案里要加粗的「保底」片段，必须能按顺序在句子里找到 */
+        const hl = it.answer && it.answer.hl;
+        if (hl != null) {
+          if (!Array.isArray(hl) || it.answer.lang !== 'id') err(G1, `${where} [qa_list] 第 ${ii + 1} 题：hl 必须是数组，且只用于印尼语答案`);
+          else {
+            const low = String(it.answer.text).toLowerCase(); let pos = 0;
+            for (const h of hl) {
+              const at = low.indexOf(String(h).toLowerCase(), pos);
+              if (at < 0) { err(G1, `${where} [qa_list] 第 ${ii + 1} 题：hl 片段「${h}」在答案里按顺序找不到`); break; }
+              pos = at + String(h).length;
+            }
+          }
+        }
       });
     });
   });

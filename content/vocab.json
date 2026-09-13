@@ -9060,14 +9060,14 @@
       "pl": "ojciec"
     },
     "pos": "n",
-    "ex": "Kakek dan ayah.",
+    "ex": "Ayah menonton televisi.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "外公和父亲。",
-      "ja": "祖父と父。",
-      "en": "Grandfather and father.",
-      "vi": "Ông ngoại và cha.",
-      "pl": "Dziadek i ojciec."
+      "zh": "爸爸在看电视。",
+      "ja": "お父さんはテレビを見ています。",
+      "en": "Dad is watching television.",
+      "vi": "Bố đang xem tivi.",
+      "pl": "Tata ogląda telewizję."
     },
     "note": null
   },
@@ -9084,14 +9084,14 @@
       "pl": "mąż"
     },
     "pos": "n",
-    "ex": "Suami dan istri.",
+    "ex": "Benar. Pak Wawan suami Bu Vita.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "丈夫和妻子。",
-      "ja": "夫と妻。",
-      "en": "Husband and wife.",
-      "vi": "Chồng và vợ.",
-      "pl": "Mąż i żona."
+      "zh": "对。Pak Wawan 是 Vita 的丈夫。",
+      "ja": "正しい。Pak Wawan は Vita の夫です。",
+      "en": "True. Pak Wawan is Bu Vita’s husband.",
+      "vi": "Đúng. Ông Wawan là chồng của bà Vita.",
+      "pl": "Prawda. Pak Wawan jest mężem Bu Vity."
     },
     "note": null
   },
@@ -9108,14 +9108,14 @@
       "pl": "żona"
     },
     "pos": "n",
-    "ex": "Suami dan istri.",
+    "ex": "Bu Vita adalah istri Pak Wawan.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "丈夫和妻子。",
-      "ja": "夫と妻。",
-      "en": "Husband and wife.",
-      "vi": "Chồng và vợ.",
-      "pl": "Mąż i żona."
+      "zh": "Vita 是 Pak Wawan 的妻子。",
+      "ja": "Vita は Pak Wawan の妻です。",
+      "en": "Bu Vita is Pak Wawan’s wife.",
+      "vi": "Bà Vita là vợ của ông Wawan.",
+      "pl": "Bu Vita jest żoną Pak Wawana."
     },
     "note": null
   },
@@ -9132,14 +9132,14 @@
       "pl": "starszy brat lub starsza siostra"
     },
     "pos": "n",
-    "ex": "Kakak dan adik.",
+    "ex": "Kakak mereka dosen UGM.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "姐姐和弟弟。",
-      "ja": "姉と弟。",
-      "en": "Older sister and younger brother.",
-      "vi": "Chị gái và em trai.",
-      "pl": "Starsza siostra i młodszy brat."
+      "zh": "他们的哥哥是 UGM 的讲师。",
+      "ja": "かれらのお兄さんは UGM の講師です。",
+      "en": "Their older brother is a lecturer at UGM.",
+      "vi": "Anh trai của họ là giảng viên UGM.",
+      "pl": "Ich starszy brat jest wykładowcą na UGM."
     },
     "note": null
   },
@@ -9156,14 +9156,14 @@
       "pl": "wujek (z każdej strony)"
     },
     "pos": "n",
-    "ex": "Paman dan bibi.",
+    "ex": "Paman saya tentara.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "舅舅和舅妈。",
-      "ja": "叔父と叔母。",
-      "en": "Uncle and aunt.",
-      "vi": "Cậu và mợ.",
-      "pl": "Wujek i ciocia."
+      "zh": "我叔叔是军人。",
+      "ja": "わたしのおじは軍人です。",
+      "en": "My uncle is a soldier.",
+      "vi": "Chú tôi là quân nhân.",
+      "pl": "Mój wujek jest żołnierzem."
     },
     "note": null
   },
@@ -9180,14 +9180,14 @@
       "pl": "ciocia (z każdej strony)"
     },
     "pos": "n",
-    "ex": "Paman dan bibi.",
+    "ex": "Bibi saya kurus.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "舅舅和舅妈。",
-      "ja": "叔父と叔母。",
-      "en": "Uncle and aunt.",
-      "vi": "Cậu và mợ.",
-      "pl": "Wujek i ciocia."
+      "zh": "我阿姨很瘦。",
+      "ja": "わたしのおばはやせています。",
+      "en": "My aunt is thin.",
+      "vi": "Dì tôi gầy.",
+      "pl": "Moja ciocia jest szczupła."
     },
     "note": null
   },
@@ -9252,14 +9252,14 @@
       "pl": "wnuk, wnuczka"
     },
     "pos": "n",
-    "ex": "Cucu.",
+    "ex": "Siapa nama cucu Pak Aji dan Bu Windu?",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "孙辈。",
-      "ja": "孫。",
-      "en": "Grandchildren.",
-      "vi": "Cháu.",
-      "pl": "Wnuki."
+      "zh": "Pak Aji 和 Bu Windu 的孙辈叫什么？",
+      "ja": "Pak Aji と Bu Windu の孫の名前は何ですか。",
+      "en": "What are the names of Pak Aji and Bu Windu’s grandchildren?",
+      "vi": "Các cháu của ông Aji và bà Windu tên là gì?",
+      "pl": "Jak mają na imię wnuki Pak Ajiego i Bu Windu?"
     },
     "note": null
   },
@@ -9276,14 +9276,14 @@
       "pl": "teść, teściowa"
     },
     "pos": "n",
-    "ex": "Mertua dan menantu.",
+    "ex": "Pak Joko mertua Bimo.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "公婆 / 岳父母，和女婿 / 儿媳。",
-      "ja": "義理の両親、そして婿と嫁。",
-      "en": "Parents-in-law, and son- and daughter-in-law.",
-      "vi": "Bố mẹ vợ / bố mẹ chồng, và con rể / con dâu.",
-      "pl": "Teściowie oraz zięć i synowa."
+      "zh": "Pak Joko 是 Bimo 的岳父。",
+      "ja": "Pak Joko は Bimo の義父です。",
+      "en": "Pak Joko is Bimo’s father-in-law.",
+      "vi": "Ông Joko là bố vợ của Bimo.",
+      "pl": "Pak Joko jest teściem Bimo."
     },
     "note": null
   },
@@ -9300,14 +9300,14 @@
       "pl": "zięć, synowa"
     },
     "pos": "n",
-    "ex": "Mertua dan menantu.",
+    "ex": "Bimo dan Sri menantu Pak Joko.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "公婆 / 岳父母，和女婿 / 儿媳。",
-      "ja": "義理の両親、そして婿と嫁。",
-      "en": "Parents-in-law, and son- and daughter-in-law.",
-      "vi": "Bố mẹ vợ / bố mẹ chồng, và con rể / con dâu.",
-      "pl": "Teściowie oraz zięć i synowa."
+      "zh": "Bimo 和 Sri 是 Pak Joko 的女婿和儿媳。",
+      "ja": "Bimo と Sri は Pak Joko の婿と嫁です。",
+      "en": "Bimo and Sri are Pak Joko’s son- and daughter-in-law.",
+      "vi": "Bimo và Sri là con rể và con dâu của ông Joko.",
+      "pl": "Bimo i Sri to zięć i synowa Pak Joko."
     },
     "note": null
   },
@@ -9324,14 +9324,14 @@
       "pl": "szwagier, szwagierka"
     },
     "pos": "n",
-    "ex": "Ipar dan ipar.",
+    "ex": "Sri ipar Hartini.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "两个空都是 ipar。",
-      "ja": "空欄はどちらも ipar。",
-      "en": "Both blanks are ipar.",
-      "vi": "Cả hai chỗ trống đều là ipar.",
-      "pl": "Obie luki to ipar."
+      "zh": "Sri 是 Hartini 的弟媳。",
+      "ja": "Sri は Hartini の義妹です。",
+      "en": "Sri is Hartini’s sister-in-law.",
+      "vi": "Sri là em dâu của Hartini.",
+      "pl": "Sri jest szwagierką Hartini."
     },
     "note": null
   },
@@ -9588,14 +9588,14 @@
       "pl": "restauracja"
     },
     "pos": "n",
-    "ex": "Di restoran Hotel Aston.",
+    "ex": "Ayah membayar makanan kami di restoran tadi malam.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "在 Aston 酒店的餐厅。",
-      "ja": "Aston ホテルのレストランです。",
-      "en": "At the Hotel Aston restaurant.",
-      "vi": "Ở nhà hàng của khách sạn Aston.",
-      "pl": "W restauracji hotelu Aston."
+      "zh": "爸爸昨晚在餐厅付了我们的饭钱。",
+      "ja": "父は昨夜、レストランで私たちの食事代を払いました。",
+      "en": "Dad paid for our food at the restaurant last night.",
+      "vi": "Tối qua bố trả tiền đồ ăn của chúng tôi ở nhà hàng.",
+      "pl": "Tata zapłacił wczoraj wieczorem za nasze jedzenie w restauracji."
     },
     "note": null
   },
@@ -9612,14 +9612,14 @@
       "pl": "liceum"
     },
     "pos": "n",
-    "ex": "Di SMA tiga Yogyakarta.",
+    "ex": "Arnold sekolah di SMA tiga Yogyakarta.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "在日惹第三高中。",
-      "ja": "ジョグジャカルタ第 3 高校です。",
-      "en": "At SMA 3 Yogyakarta.",
-      "vi": "Ở trường SMA 3 Yogyakarta.",
-      "pl": "Do SMA 3 w Yogyakarcie."
+      "zh": "Arnold 在日惹第三高中上学。",
+      "ja": "Arnold はジョグジャカルタ第 3 高校（SMA 3）に通っています。",
+      "en": "Arnold goes to SMA 3 (senior high school no. 3) in Yogyakarta.",
+      "vi": "Arnold học ở trường SMA 3 (trung học phổ thông số 3) Yogyakarta.",
+      "pl": "Arnold chodzi do SMA 3 (liceum nr 3) w Yogyakarcie."
     },
     "note": null
   },
@@ -9702,14 +9702,14 @@
       "pl": "z, czymś (narzędziem)"
     },
     "pos": "prep",
-    "ex": "Dengan Rizki.",
+    "ex": "Dengan apa ayah memotong kue?",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "跟 Rizki。",
-      "ja": "Rizki とです。",
-      "en": "With Rizki.",
-      "vi": "Cùng với Rizki.",
-      "pl": "Z Rizkim."
+      "zh": "爸爸用什么切蛋糕？",
+      "ja": "父は何でケーキを切りますか。",
+      "en": "What does Dad cut the cake with?",
+      "vi": "Bố cắt bánh bằng gì?",
+      "pl": "Czym tata kroi ciasto?"
     },
     "note": null
   },
@@ -9894,14 +9894,14 @@
       "pl": "wziąć, pójść po coś"
     },
     "pos": "v",
-    "ex": "Kakak mengambil tas di kamar.",
+    "ex": "Kakak saya mengambil tas di kamar tadi pagi.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "哥哥去房间拿包。",
-      "ja": "兄は部屋へかばんを取りに行きます。",
-      "en": "My older brother gets his bag from the room.",
-      "vi": "Anh trai vào phòng lấy cặp.",
-      "pl": "Starszy brat idzie do pokoju po torbę."
+      "zh": "我哥哥今天早上去房间拿了包。",
+      "ja": "兄は今朝、部屋でかばんを取りました。",
+      "en": "My older brother got his bag from the room this morning.",
+      "vi": "Sáng nay anh tôi vào phòng lấy túi.",
+      "pl": "Mój starszy brat rano wziął torbę z pokoju."
     },
     "note": null
   },
@@ -9918,14 +9918,14 @@
       "pl": "płacić"
     },
     "pos": "v",
-    "ex": "Ayah membayar makanan di restoran.",
+    "ex": "Ayah membayar makanan kami di restoran tadi malam.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "爸爸在餐厅付饭钱。",
-      "ja": "父はレストランで食事代を払います。",
-      "en": "Dad pays for the food at the restaurant.",
-      "vi": "Bố trả tiền ăn ở nhà hàng.",
-      "pl": "Tata płaci za jedzenie w restauracji."
+      "zh": "爸爸昨晚在餐厅付了我们的饭钱。",
+      "ja": "父は昨夜、レストランで私たちの食事代を払いました。",
+      "en": "Dad paid for our food at the restaurant last night.",
+      "vi": "Tối qua bố trả tiền đồ ăn của chúng tôi ở nhà hàng.",
+      "pl": "Tata zapłacił wczoraj wieczorem za nasze jedzenie w restauracji."
     },
     "note": null
   },
@@ -9942,15 +9942,9 @@
       "pl": "robić (pracę, zadanie domowe)"
     },
     "pos": "v",
-    "ex": "Mahasiswa itu mengerjakan PR di perpustakaan setiap sore.",
-    "ex_reg": "formal",
-    "ex_gloss": {
-      "zh": "那个学生每天下午在图书馆做作业。",
-      "ja": "その学生は毎日午後に図書館で宿題をします。",
-      "en": "That student does homework in the library every afternoon.",
-      "vi": "Chiều nào học sinh đó cũng làm bài tập ở thư viện.",
-      "pl": "Ten student codziennie po południu odrabia zadania w bibliotece."
-    },
+    "ex": null,
+    "ex_reg": null,
+    "ex_gloss": null,
     "note": null
   },
   {
@@ -9966,14 +9960,14 @@
       "pl": "biblioteka"
     },
     "pos": "n",
-    "ex": "Juna membaca buku di perpustakaan.",
+    "ex": "Mariana meminjam buku di Perpustakaan FIB.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "Juna 在图书馆看书。",
-      "ja": "Juna は図書館で本を読みます。",
-      "en": "Juna reads a book in the library.",
-      "vi": "Juna đọc sách ở thư viện.",
-      "pl": "Juna czyta książkę w bibliotece."
+      "zh": "Mariana 在文化学院图书馆借书。",
+      "ja": "Mariana は文化学部（FIB）の図書館で本を借ります。",
+      "en": "Mariana borrows books at the FIB library.",
+      "vi": "Mariana mượn sách ở Thư viện FIB.",
+      "pl": "Mariana wypożycza książki w bibliotece FIB."
     },
     "note": null
   },
@@ -9990,14 +9984,14 @@
       "pl": "organizować (wydarzenie)"
     },
     "pos": "v",
-    "ex": "Kami mengadakan pesta di rumah.",
+    "ex": "Kami mengadakan pesta ulang tahun di rumah nanti malam.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "我们在家办聚会。",
-      "ja": "わたしたちは家でパーティーを開きます。",
-      "en": "We hold a party at home.",
-      "vi": "Chúng tôi tổ chức tiệc ở nhà.",
-      "pl": "Organizujemy przyjęcie w domu."
+      "zh": "我们今晚在家办生日聚会。",
+      "ja": "私たちは今晩、家で誕生日パーティーを開きます。",
+      "en": "We are holding a birthday party at home tonight.",
+      "vi": "Tối nay chúng tôi tổ chức tiệc sinh nhật ở nhà.",
+      "pl": "Dziś wieczorem urządzamy w domu przyjęcie urodzinowe."
     },
     "note": null
   },
@@ -10038,14 +10032,14 @@
       "pl": "nie (przy czasownikach i przymiotnikach)"
     },
     "pos": "adv",
-    "ex": "Tidak.",
+    "ex": "Kakek tidak minum kopi.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "不（ikut 是动词）。",
-      "ja": "Tidak（ikut は動詞）。",
-      "en": "Tidak (ikut is a verb).",
-      "vi": "Tidak (ikut là động từ).",
-      "pl": "Tidak (ikut to czasownik)."
+      "zh": "爷爷不喝咖啡。",
+      "ja": "おじいさんはコーヒーを飲みません。",
+      "en": "Grandpa does not drink coffee.",
+      "vi": "Ông không uống cà phê.",
+      "pl": "Dziadek nie pije kawy."
     },
     "note": null
   },
@@ -10524,15 +10518,9 @@
       "pl": "groźny, surowy"
     },
     "pos": "adj",
-    "ex": "Tutor INCULS tidak galak. Mereka baik sekali.",
-    "ex_reg": "formal",
-    "ex_gloss": {
-      "zh": "INCULS 的老师不凶，他们人很好。",
-      "ja": "INCULS の先生は厳しくありません。とてもやさしい人たちです。",
-      "en": "The INCULS tutors are not strict. They are very kind.",
-      "vi": "Thầy cô ở INCULS không khó tính. Họ rất tốt bụng.",
-      "pl": "Lektorzy INCULS nie są surowi, są bardzo życzliwi."
-    },
+    "ex": null,
+    "ex_reg": null,
+    "ex_gloss": null,
     "note": null
   },
   {
@@ -10644,14 +10632,14 @@
       "pl": "właśnie, w trakcie (robienia czegoś)"
     },
     "pos": "adv",
-    "ex": "Di sekolah. Dia sedang kursus.",
+    "ex": "Di mana Rizki? Dia sedang melakukan apa?",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "在学校，他在上补习课。",
-      "ja": "学校です。講座を受けています。",
-      "en": "At school. He is at a course.",
-      "vi": "Ở trường. Cậu ấy đang học thêm.",
-      "pl": "W szkole. Jest na kursie."
+      "zh": "Rizki 在哪儿？他在做什么？",
+      "ja": "Rizki はどこにいますか。何をしていますか。",
+      "en": "Where is Rizki? What is he doing?",
+      "vi": "Rizki ở đâu? Cậu ấy đang làm gì?",
+      "pl": "Gdzie jest Rizki? Co robi?"
     },
     "note": null
   },
@@ -10668,14 +10656,14 @@
       "pl": "jeszcze nie"
     },
     "pos": "adv",
-    "ex": "Rizki belum pulang dari sekolah. Sore ini dia sedang ikut kursus.",
+    "ex": "Ibu dan Ayu sedang di rumah neneknya. Rizki belum pulang dari sekolah, sore ini dia ada kursus.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "Rizki 还没放学回家，今天下午他在上补习课。",
-      "ja": "Rizki はまだ学校から帰っていません。今日の午後は講座を受けています。",
-      "en": "Rizki isn’t back from school yet. This afternoon he is at a course.",
-      "vi": "Rizki chưa đi học về. Chiều nay cậu ấy có lớp học thêm.",
-      "pl": "Rizki jeszcze nie wrócił ze szkoły. Dziś po południu ma kurs."
+      "zh": "孩子妈和 Ayu 去奶奶家了。Rizki 还没放学，今天下午他有补习课。",
+      "ja": "妻と Ayu は Ayu のおばあちゃんの家に行っています。Rizki はまだ学校から帰っていません。今日の午後は講座があるんです。",
+      "en": "My wife and Ayu are at Ayu’s grandmother’s. Rizki isn’t back from school yet; he has a course this afternoon.",
+      "vi": "Bà nhà tôi với Ayu đang ở nhà bà nội của Ayu. Rizki chưa đi học về, chiều nay nó có lớp học thêm.",
+      "pl": "Żona i Ayu pojechały do babci. Rizki jeszcze nie wrócił ze szkoły, dziś po południu ma kurs."
     },
     "note": null
   },
@@ -10692,14 +10680,14 @@
       "pl": "kurs, zajęcia dodatkowe"
     },
     "pos": "n",
-    "ex": "Di sekolah. Dia sedang kursus.",
+    "ex": "Rizki masih di sekolah. Dia sedang kursus sore ini.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "在学校，他在上补习课。",
-      "ja": "学校です。講座を受けています。",
-      "en": "At school. He is at a course.",
-      "vi": "Ở trường. Cậu ấy đang học thêm.",
-      "pl": "W szkole. Jest na kursie."
+      "zh": "Rizki 还在学校，今天下午他在上补习课。",
+      "ja": "Rizki はまだ学校にいます。今日の午後は講座に出ています。",
+      "en": "Rizki is still at school. He has a course this afternoon.",
+      "vi": "Rizki vẫn còn ở trường. Chiều nay cậu ấy đi học thêm.",
+      "pl": "Rizki jest jeszcze w szkole. Tego popołudnia ma kurs."
     },
     "note": null
   },
@@ -10788,14 +10776,14 @@
       "pl": "dziś wieczorem, później wieczorem"
     },
     "pos": "adv",
-    "ex": "Keluarga Pak Budi mengadakan pesta ulang tahun nanti malam.",
+    "ex": "Kami mengadakan pesta ulang tahun di rumah nanti malam.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "Pak Budi 家今晚办生日宴。",
-      "ja": "Pak Budi の家では今夜誕生日パーティーを開きます。",
-      "en": "Pak Budi’s family is holding a birthday party tonight.",
-      "vi": "Tối nay nhà ông Budi tổ chức tiệc sinh nhật.",
-      "pl": "Rodzina Pak Budiego urządza dziś wieczorem przyjęcie urodzinowe."
+      "zh": "我们今晚在家办生日聚会。",
+      "ja": "私たちは今晩、家で誕生日パーティーを開きます。",
+      "en": "We are holding a birthday party at home tonight.",
+      "vi": "Tối nay chúng tôi tổ chức tiệc sinh nhật ở nhà.",
+      "pl": "Dziś wieczorem urządzamy w domu przyjęcie urodzinowe."
     },
     "note": null
   },
@@ -10812,14 +10800,14 @@
       "pl": "bo, ponieważ"
     },
     "pos": "conj",
-    "ex": "Karena ada pesta.",
+    "ex": "Karena ada pesta ulang tahun perkawinan orang tua mereka yang kelima puluh.",
     "ex_reg": "formal",
     "ex_gloss": {
-      "zh": "因为有聚会。",
-      "ja": "パーティーがあるからです。",
-      "en": "Because there is a party.",
-      "vi": "Vì có tiệc.",
-      "pl": "Bo jest przyjęcie."
+      "zh": "因为有他们父母结婚五十周年的纪念聚会。",
+      "ja": "両親の結婚 50 周年のパーティーがあるからです。",
+      "en": "Because there is a party for their parents’ fiftieth wedding anniversary.",
+      "vi": "Vì có tiệc kỷ niệm 50 năm ngày cưới của bố mẹ họ.",
+      "pl": "Bo jest przyjęcie z okazji pięćdziesiątej rocznicy ślubu ich rodziców."
     },
     "note": null
   },

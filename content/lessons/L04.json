@@ -131,11 +131,11 @@
      },
      {
       "text": {
-       "zh": "每题两档答案：<b>保底版</b>是被点到名时最短、最稳、张口就能说的那句；<b>完整版</b>是整句，常常多带一句补充，老师追问时用得上。",
-       "ja": "答えは各問 2 段階です。<b>最短で</b>は、当てられたときにすぐ言える、いちばん短く確実な一文。<b>しっかり</b>は完全な文で、ひとこと補足が付くことも多く、先生に聞き返されたときに役立ちます。",
-       "en": "Each item has two answers: <b>Short</b> is the shortest, safest thing you can say straight away when you are called on; <b>Full</b> is the complete sentence, often with one extra sentence in case the teacher asks more.",
-       "vi": "Mỗi câu có hai mức đáp án: <b>Ngắn gọn</b> là câu ngắn nhất, chắc ăn nhất, mở miệng là nói được ngay khi bị gọi tên; <b>Đầy đủ</b> là cả câu, thường kèm thêm một câu bổ sung, dùng được khi thầy cô hỏi thêm.",
-       "pl": "Każde zadanie ma dwie odpowiedzi: <b>Krótko</b> to najkrótsza, najbezpieczniejsza wersja, którą powiesz od razu, gdy wykładowca cię wywoła; <b>Pełniej</b> to całe zdanie, często z jednym zdaniem więcej na wypadek dopytania."
+       "zh": "每题只有一句答案，<b>加粗的部分</b>就是被点到名时最少要说的 —— 只念粗体也是正确的回答；整句是更完整的说法，老师追问时用得上。",
+       "ja": "各問の答えは一文だけです。<b>太字の部分</b>が、当てられたときに最低限言えばいいところ —— 太字だけ読んでも正しい答えになります。文全体はより丁寧な言い方で、先生に続けて聞かれたときに使えます。",
+       "en": "Each item has one answer. <b>The bold part</b> is the minimum to say when you are called on — reading only the bold words is already a correct answer; the whole sentence is the fuller version, useful if the teacher asks more.",
+       "vi": "Mỗi câu chỉ có một đáp án. <b>Phần in đậm</b> là phần tối thiểu cần nói khi bị gọi tên — chỉ đọc phần in đậm cũng đã là câu trả lời đúng; cả câu là cách nói đầy đủ hơn, dùng khi thầy cô hỏi thêm.",
+       "pl": "Każde zadanie ma jedną odpowiedź. <b>Pogrubiona część</b> to minimum, które wystarczy powiedzieć, gdy ktoś cię wywoła — same pogrubione słowa to już poprawna odpowiedź; całe zdanie to pełniejsza wersja, przydatna, gdy prowadzący dopyta."
       }
      },
      {
@@ -1867,31 +1867,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Benar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "对。",
-        "ja": "正しい。",
-        "en": "True.",
-        "vi": "Đúng.",
-        "pl": "Prawda."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Benar. Pak Wawan suami Bu Vita.",
        "reg": "formal",
-       "kw": [
-        "suami"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "对。Pak Wawan 是 Vita 的丈夫。",
         "ja": "正しい。Pak Wawan は Vita の夫です。",
         "en": "True. Pak Wawan is Bu Vita’s husband.",
         "vi": "Đúng. Ông Wawan là chồng của bà Vita.",
         "pl": "Prawda. Pak Wawan jest mężem Bu Vity."
-       }
+       },
+       "hl": [
+        "Benar"
+       ]
       }
      },
      {
@@ -1910,32 +1898,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Salah.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "错。",
-        "ja": "誤り。",
-        "en": "False.",
-        "vi": "Sai.",
-        "pl": "Fałsz."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Salah. Pak Wawan bekerja di Bank Mandiri.",
        "reg": "formal",
-       "kw": [
-        "bank",
-        "mandiri"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "错。Pak Wawan 在 Mandiri 银行工作（在 UPN 的是他妻子）。",
         "ja": "誤り。Pak Wawan は Bank Mandiri で働いています（UPN にいるのは妻のほう）。",
         "en": "False. Pak Wawan works at Bank Mandiri (his wife is the one at UPN).",
         "vi": "Sai. Ông Wawan làm việc ở ngân hàng Mandiri (người làm ở UPN là vợ ông ấy).",
         "pl": "Fałsz. Pak Wawan pracuje w Bank Mandiri (na UPN pracuje jego żona)."
-       }
+       },
+       "hl": [
+        "Salah"
+       ]
       }
      },
      {
@@ -1954,32 +1929,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Benar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "对。",
-        "ja": "正しい。",
-        "en": "True.",
-        "vi": "Đúng.",
-        "pl": "Prawda."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Benar. Renata anak bungsu Bu Vita.",
        "reg": "formal",
-       "kw": [
-        "anak",
-        "bungsu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "对。Renata 是 Vita 的小女儿。",
         "ja": "正しい。Renata は Vita の末っ子です。",
         "en": "True. Renata is Bu Vita’s youngest child.",
         "vi": "Đúng. Renata là con gái út của bà Vita.",
         "pl": "Prawda. Renata jest najmłodszym dzieckiem Bu Vity."
-       }
+       },
+       "hl": [
+        "Benar"
+       ]
       }
      },
      {
@@ -1998,32 +1960,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Benar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "对。",
-        "ja": "正しい。",
-        "en": "True.",
-        "vi": "Đúng.",
-        "pl": "Prawda."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Benar. Arnold anak tengah mereka.",
        "reg": "formal",
-       "kw": [
-        "anak",
-        "tengah"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "对。Arnold 排行中间。",
         "ja": "正しい。Arnold はまん中の子です。",
         "en": "True. Arnold is their middle child.",
         "vi": "Đúng. Arnold là con giữa.",
         "pl": "Prawda. Arnold jest ich środkowym dzieckiem."
-       }
+       },
+       "hl": [
+        "Benar"
+       ]
       }
      },
      {
@@ -2042,31 +1991,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Salah.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "错。",
-        "ja": "誤り。",
-        "en": "False.",
-        "vi": "Sai.",
-        "pl": "Fałsz."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Salah. Pak Wawan kakak Pak Indra.",
        "reg": "formal",
-       "kw": [
-        "kakak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "错。Pak Wawan 是 Pak Indra 的哥哥。",
         "ja": "誤り。Pak Wawan は Pak Indra の兄です。",
         "en": "False. Pak Wawan is Pak Indra’s older brother.",
         "vi": "Sai. Ông Wawan là anh trai của ông Indra.",
         "pl": "Fałsz. Pak Wawan jest starszym bratem Pak Indry."
-       }
+       },
+       "hl": [
+        "Salah"
+       ]
       }
      },
      {
@@ -2085,31 +2022,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Benar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "对。",
-        "ja": "正しい。",
-        "en": "True.",
-        "vi": "Đúng.",
-        "pl": "Prawda."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Benar. Marinka keponakan Bu Vita.",
        "reg": "formal",
-       "kw": [
-        "keponakan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "对。Marinka 是 Vita 的侄女。",
         "ja": "正しい。Marinka は Vita の姪です。",
         "en": "True. Marinka is Bu Vita’s niece.",
         "vi": "Đúng. Marinka là cháu gái của bà Vita.",
         "pl": "Prawda. Marinka jest bratanicą Bu Vity."
-       }
+       },
+       "hl": [
+        "Benar"
+       ]
       }
      },
      {
@@ -2128,31 +2053,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Benar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "对。",
-        "ja": "正しい。",
-        "en": "True.",
-        "vi": "Đúng.",
-        "pl": "Prawda."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Benar. Bu Sari bibi Juna.",
        "reg": "formal",
-       "kw": [
-        "bibi"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "对。Sari 是 Juna 的婶婶。",
         "ja": "正しい。Sari は Juna の叔母です。",
         "en": "True. Bu Sari is Juna’s aunt.",
         "vi": "Đúng. Bà Sari là thím của Juna.",
         "pl": "Prawda. Bu Sari jest ciocią Juny."
-       }
+       },
+       "hl": [
+        "Benar"
+       ]
       }
      },
      {
@@ -2171,31 +2084,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Benar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "对。",
-        "ja": "正しい。",
-        "en": "True.",
-        "vi": "Đúng.",
-        "pl": "Prawda."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Benar. Pak Aji kakek Juna dan Marinka.",
        "reg": "formal",
-       "kw": [
-        "kakek"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "对。Pak Aji 是 Juna 和 Marinka 的爷爷。",
         "ja": "正しい。Pak Aji は Juna と Marinka の祖父です。",
         "en": "True. Pak Aji is Juna’s and Marinka’s grandfather.",
         "vi": "Đúng. Ông Aji là ông nội của Juna và Marinka.",
         "pl": "Prawda. Pak Aji jest dziadkiem Juny i Marinki."
-       }
+       },
+       "hl": [
+        "Benar"
+       ]
       }
      },
      {
@@ -2214,31 +2115,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Benar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "对。",
-        "ja": "正しい。",
-        "en": "True.",
-        "vi": "Đúng.",
-        "pl": "Prawda."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Benar. Bu Vita dan Bu Sari menantu Bu Windu.",
        "reg": "formal",
-       "kw": [
-        "menantu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "对。Vita 和 Sari 是 Bu Windu 的儿媳。",
         "ja": "正しい。Vita と Sari は Bu Windu の嫁です。",
         "en": "True. Bu Vita and Bu Sari are Bu Windu’s daughters-in-law.",
         "vi": "Đúng. Bà Vita và bà Sari là con dâu của bà Windu.",
         "pl": "Prawda. Bu Vita i Bu Sari są synowymi Bu Windu."
-       }
+       },
+       "hl": [
+        "Benar"
+       ]
       }
      },
      {
@@ -2257,31 +2146,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Benar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "对。",
-        "ja": "正しい。",
-        "en": "True.",
-        "vi": "Đúng.",
-        "pl": "Prawda."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Benar. Pak Aji dan Bu Windu mertua mereka.",
        "reg": "formal",
-       "kw": [
-        "mertua"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "对。Pak Aji 和 Bu Windu 是她们的公婆。",
         "ja": "正しい。Pak Aji と Bu Windu は二人の義理の両親です。",
         "en": "True. Pak Aji and Bu Windu are their parents-in-law.",
         "vi": "Đúng. Ông Aji và bà Windu là bố mẹ chồng của hai bà ấy.",
         "pl": "Prawda. Pak Aji i Bu Windu są ich teściami."
-       }
+       },
+       "hl": [
+        "Benar"
+       ]
       }
      }
     ]
@@ -2355,9 +2232,7 @@
        "lang": "id",
        "text": "Siapa nama anak pertama Pak Wawan dan Bu Vita?",
        "reg": "formal",
-       "kw": [
-        "siapa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Wawan 和 Vita 的第一个孩子叫什么？",
         "ja": "Pak Wawan と Vita の最初の子どもの名前は何ですか。",
@@ -2368,31 +2243,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Juna.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Juna。",
-        "ja": "Juna です。",
-        "en": "Juna.",
-        "vi": "Juna.",
-        "pl": "Juna."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Nama anak pertama mereka Juna.",
        "reg": "formal",
-       "kw": [
-        "juna"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他们的第一个孩子叫 Juna。",
         "ja": "最初の子どもの名前は Juna です。",
         "en": "Their first child is called Juna.",
         "vi": "Người con đầu của họ tên là Juna.",
         "pl": "Ich pierwsze dziecko ma na imię Juna."
-       }
+       },
+       "hl": [
+        "Juna"
+       ]
       }
      },
      {
@@ -2400,9 +2263,7 @@
        "lang": "id",
        "text": "Apakah Juna mahasiswa?",
        "reg": "formal",
-       "kw": [
-        "apakah"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Juna 是大学生吗？",
         "ja": "Juna は大学生ですか。",
@@ -2413,31 +2274,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ya, mahasiswa.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "是，是大学生。",
-        "ja": "はい、大学生です。",
-        "en": "Yes, he is.",
-        "vi": "Phải, là sinh viên.",
-        "pl": "Tak, jest studentem."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ya, Juna mahasiswa Fakultas Ilmu Budaya UGM.",
        "reg": "formal",
-       "kw": [
-        "mahasiswa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "是，Juna 是 UGM 文化学院的学生。",
         "ja": "はい、Juna は UGM 文化学部の学生です。",
         "en": "Yes, Juna is a student at the Faculty of Cultural Sciences, UGM.",
         "vi": "Phải, Juna là sinh viên Khoa Văn hóa học của UGM.",
         "pl": "Tak, Juna studiuje na Wydziale Nauk o Kulturze UGM."
-       }
+       },
+       "hl": [
+        "Ya",
+        "mahasiswa"
+       ]
       }
      },
      {
@@ -2445,9 +2295,7 @@
        "lang": "id",
        "text": "Siapa nama kakak Renata?",
        "reg": "formal",
-       "kw": [
-        "kakak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Renata 的哥哥叫什么？",
         "ja": "Renata の兄の名前は何ですか。",
@@ -2458,31 +2306,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Juna dan Arnold.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Juna 和 Arnold。",
-        "ja": "Juna と Arnold です。",
-        "en": "Juna and Arnold.",
-        "vi": "Juna và Arnold.",
-        "pl": "Juna i Arnold."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kakak Renata bernama Juna dan Arnold.",
        "reg": "formal",
-       "kw": [
-        "bernama"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Renata 的哥哥叫 Juna 和 Arnold。",
         "ja": "Renata の兄は Juna と Arnold です。",
         "en": "Renata’s older brothers are Juna and Arnold.",
         "vi": "Các anh trai của Renata là Juna và Arnold.",
         "pl": "Starsi bracia Renaty to Juna i Arnold."
-       }
+       },
+       "hl": [
+        "Juna dan Arnold"
+       ]
       }
      },
      {
@@ -2490,9 +2326,7 @@
        "lang": "id",
        "text": "Berapa umur Arnold sekarang?",
        "reg": "formal",
-       "kw": [
-        "berapa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Arnold 现在几岁？",
         "ja": "Arnold はいま何歳ですか。",
@@ -2503,32 +2337,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Lima belas tahun.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "十五岁。",
-        "ja": "15 歳です。",
-        "en": "Fifteen.",
-        "vi": "Mười lăm tuổi.",
-        "pl": "Piętnaście."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Sekarang umur Arnold lima belas tahun. Bulan depan dia berumur enam belas tahun.",
        "reg": "formal",
-       "kw": [
-        "lima",
-        "belas"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Arnold 现在十五岁，下个月满十六。",
         "ja": "Arnold はいま 15 歳で、来月 16 歳になります。",
         "en": "Arnold is fifteen now. Next month he turns sixteen.",
         "vi": "Arnold bây giờ mười lăm tuổi, tháng sau tròn mười sáu.",
         "pl": "Arnold ma teraz piętnaście lat. W przyszłym miesiącu skończy szesnaście."
-       }
+       },
+       "hl": [
+        "lima belas tahun"
+       ]
       }
      },
      {
@@ -2536,9 +2357,7 @@
        "lang": "id",
        "text": "Apa pekerjaan Bu Vita?",
        "reg": "formal",
-       "kw": [
-        "pekerjaan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Vita 做什么工作？",
         "ja": "Vita の仕事は何ですか。",
@@ -2549,31 +2368,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Dosen.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "大学讲师。",
-        "ja": "大学の講師です。",
-        "en": "A lecturer.",
-        "vi": "Giảng viên đại học.",
-        "pl": "Jest wykładowczynią."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Bu Vita dosen di Universitas Pembangunan Nasional Yogyakarta.",
        "reg": "formal",
-       "kw": [
-        "dosen"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Vita 是日惹国立建设大学的讲师。",
         "ja": "Vita は UPN ジョグジャカルタの講師です。",
         "en": "Bu Vita is a lecturer at UPN Yogyakarta.",
         "vi": "Bà Vita là giảng viên Trường Đại học Pembangunan Nasional Yogyakarta.",
         "pl": "Bu Vita jest wykładowczynią na UPN Yogyakarta."
-       }
+       },
+       "hl": [
+        "dosen"
+       ]
       }
      },
      {
@@ -2581,9 +2388,7 @@
        "lang": "id",
        "text": "Di mana Pak Wawan bekerja?",
        "reg": "formal",
-       "kw": [
-        "mana"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Wawan 在哪里工作？",
         "ja": "Pak Wawan はどこで働いていますか。",
@@ -2594,32 +2399,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Di Bank Mandiri.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "在 Mandiri 银行。",
-        "ja": "Bank Mandiri です。",
-        "en": "At Bank Mandiri.",
-        "vi": "Ở ngân hàng Mandiri.",
-        "pl": "W Bank Mandiri."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Wawan bekerja sebagai direktur di Bank Mandiri.",
        "reg": "formal",
-       "kw": [
-        "bank",
-        "mandiri"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Wawan 在 Mandiri 银行当总经理。",
         "ja": "Pak Wawan は Bank Mandiri で取締役を務めています。",
         "en": "Pak Wawan works as a director at Bank Mandiri.",
         "vi": "Ông Wawan làm giám đốc ở ngân hàng Mandiri.",
         "pl": "Pak Wawan pracuje jako dyrektor w Bank Mandiri."
-       }
+       },
+       "hl": [
+        "di Bank Mandiri"
+       ]
       }
      },
      {
@@ -2627,9 +2419,7 @@
        "lang": "id",
        "text": "Di mana Arnold sekolah?",
        "reg": "formal",
-       "kw": [
-        "mana"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Arnold 在哪里上学？",
         "ja": "Arnold はどこの学校に通っていますか。",
@@ -2640,31 +2430,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Di SMA tiga Yogyakarta.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "在日惹第三高中。",
-        "ja": "ジョグジャカルタ第 3 高校です。",
-        "en": "At SMA 3 Yogyakarta.",
-        "vi": "Ở trường SMA 3 Yogyakarta.",
-        "pl": "Do SMA 3 w Yogyakarcie."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Arnold sekolah di SMA tiga Yogyakarta.",
        "reg": "formal",
-       "kw": [
-        "sma"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Arnold 在日惹第三高中上学。",
         "ja": "Arnold はジョグジャカルタ第 3 高校（SMA 3）に通っています。",
         "en": "Arnold goes to SMA 3 in Yogyakarta.",
         "vi": "Arnold học ở trường SMA 3 Yogyakarta.",
         "pl": "Arnold chodzi do SMA 3 w Yogyakarcie."
-       }
+       },
+       "hl": [
+        "di SMA tiga Yogyakarta"
+       ]
       }
      },
      {
@@ -2672,9 +2450,7 @@
        "lang": "id",
        "text": "Apa hobi Juna?",
        "reg": "formal",
-       "kw": [
-        "hobi"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Juna 的爱好是什么？",
         "ja": "Juna の趣味は何ですか。",
@@ -2685,31 +2461,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Bermain gitar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "弹吉他。",
-        "ja": "ギターを弾くことです。",
-        "en": "Playing the guitar.",
-        "vi": "Chơi guitar.",
-        "pl": "Gra na gitarze."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Hobi Juna bermain gitar.",
        "reg": "formal",
-       "kw": [
-        "gitar"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Juna 的爱好是弹吉他。",
         "ja": "Juna の趣味はギターを弾くことです。",
         "en": "Juna’s hobby is playing the guitar.",
         "vi": "Sở thích của Juna là chơi guitar.",
         "pl": "Hobby Juny to gra na gitarze."
-       }
+       },
+       "hl": [
+        "bermain gitar"
+       ]
       }
      },
      {
@@ -2717,9 +2481,7 @@
        "lang": "id",
        "text": "Apakah Renata suka membaca buku?",
        "reg": "formal",
-       "kw": [
-        "apakah"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Renata 喜欢看书吗？",
         "ja": "Renata は読書が好きですか。",
@@ -2730,31 +2492,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Tidak. Dia suka berenang.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不，她喜欢游泳。",
-        "ja": "いいえ、水泳が好きです。",
-        "en": "No. She likes swimming.",
-        "vi": "Không, em ấy thích bơi.",
-        "pl": "Nie. Lubi pływać."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Tidak. Renata suka berenang. Arnold yang suka membaca buku.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "不，Renata 喜欢游泳。喜欢看书的是 Arnold。",
         "ja": "いいえ、Renata は水泳が好きです。読書が好きなのは Arnold です。",
         "en": "No. Renata likes swimming. It’s Arnold who likes reading.",
         "vi": "Không, Renata thích bơi. Người thích đọc sách là Arnold.",
         "pl": "Nie. Renata lubi pływać. Czytać lubi Arnold."
-       }
+       },
+       "hl": [
+        "Tidak.",
+        "Renata suka berenang."
+       ]
       }
      },
      {
@@ -2762,10 +2513,7 @@
        "lang": "id",
        "text": "Siapa nama paman dan bibi Juna?",
        "reg": "formal",
-       "kw": [
-        "paman",
-        "bibi"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Juna 的叔叔和婶婶叫什么？",
         "ja": "Juna の叔父と叔母の名前は何ですか。",
@@ -2776,31 +2524,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Pak Indra dan Bu Sari.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Pak Indra 和 Bu Sari。",
-        "ja": "Pak Indra と Bu Sari です。",
-        "en": "Pak Indra and Bu Sari.",
-        "vi": "Ông Indra và bà Sari.",
-        "pl": "Pak Indra i Bu Sari."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Paman Juna bernama Pak Indra dan bibinya bernama Bu Sari.",
        "reg": "formal",
-       "kw": [
-        "paman"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Juna 的叔叔叫 Pak Indra，婶婶叫 Bu Sari。",
         "ja": "Juna の叔父は Pak Indra、叔母は Bu Sari です。",
         "en": "Juna’s uncle is Pak Indra and his aunt is Bu Sari.",
         "vi": "Chú của Juna là ông Indra, thím là bà Sari.",
         "pl": "Wujek Juny to Pak Indra, a ciocia to Bu Sari."
-       }
+       },
+       "hl": [
+        "Pak Indra",
+        "Bu Sari"
+       ]
       }
      },
      {
@@ -2808,9 +2545,7 @@
        "lang": "id",
        "text": "Apakah keluarga Pak Indra tinggal di Kota Yogyakarta?",
        "reg": "formal",
-       "kw": [
-        "apakah"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Indra 一家住在日惹市吗？",
         "ja": "Pak Indra の家族はジョグジャカルタ市に住んでいますか。",
@@ -2821,31 +2556,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Tidak, di Medan.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不，住在棉兰。",
-        "ja": "いいえ、メダンです。",
-        "en": "No, in Medan.",
-        "vi": "Không, ở Medan.",
-        "pl": "Nie, w Medanie."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Tidak. Keluarga Pak Indra tinggal di Kota Medan, Sumatra Utara.",
        "reg": "formal",
-       "kw": [
-        "medan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "不。Pak Indra 一家住在北苏门答腊的棉兰市。",
         "ja": "いいえ。Pak Indra の家族は北スマトラのメダン市に住んでいます。",
         "en": "No. Pak Indra’s family lives in Medan, North Sumatra.",
         "vi": "Không. Gia đình ông Indra sống ở thành phố Medan, Bắc Sumatra.",
         "pl": "Nie. Rodzina Pak Indry mieszka w Medanie na Sumatrze Północnej."
-       }
+       },
+       "hl": [
+        "Tidak.",
+        "di Kota Medan"
+       ]
       }
      },
      {
@@ -2853,9 +2577,7 @@
        "lang": "id",
        "text": "Siapa nama keponakan Pak Wawan dan Bu Vita?",
        "reg": "formal",
-       "kw": [
-        "keponakan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Wawan 和 Vita 的侄女叫什么？",
         "ja": "Pak Wawan と Vita の姪の名前は何ですか。",
@@ -2866,31 +2588,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Marinka.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Marinka。",
-        "ja": "Marinka です。",
-        "en": "Marinka.",
-        "vi": "Marinka.",
-        "pl": "Marinka."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Keponakan mereka bernama Marinka.",
        "reg": "formal",
-       "kw": [
-        "marinka"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他们的侄女叫 Marinka。",
         "ja": "二人の姪は Marinka です。",
         "en": "Their niece is called Marinka.",
         "vi": "Cháu gái của họ tên là Marinka.",
         "pl": "Ich bratanica ma na imię Marinka."
-       }
+       },
+       "hl": [
+        "Marinka"
+       ]
       }
      },
      {
@@ -2898,9 +2608,7 @@
        "lang": "id",
        "text": "Di mana Marinka bekerja?",
        "reg": "formal",
-       "kw": [
-        "mana"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Marinka 在哪里工作？",
         "ja": "Marinka はどこで働いていますか。",
@@ -2911,31 +2619,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Di restoran Hotel Aston.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "在 Aston 酒店的餐厅。",
-        "ja": "Aston ホテルのレストランです。",
-        "en": "At the Hotel Aston restaurant.",
-        "vi": "Ở nhà hàng của khách sạn Aston.",
-        "pl": "W restauracji hotelu Aston."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Marinka bekerja sebagai koki di restoran Hotel Aston, Medan.",
        "reg": "formal",
-       "kw": [
-        "koki"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Marinka 在棉兰 Aston 酒店的餐厅当厨师。",
         "ja": "Marinka はメダンの Aston ホテルのレストランで料理人をしています。",
         "en": "Marinka works as a chef at the Hotel Aston restaurant in Medan.",
         "vi": "Marinka làm đầu bếp ở nhà hàng của khách sạn Aston, Medan.",
         "pl": "Marinka pracuje jako kucharka w restauracji hotelu Aston w Medanie."
-       }
+       },
+       "hl": [
+        "di restoran Hotel Aston"
+       ]
       }
      },
      {
@@ -2943,9 +2639,7 @@
        "lang": "id",
        "text": "Berapa umur kakek dan nenek Renata?",
        "reg": "formal",
-       "kw": [
-        "berapa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Renata 的爷爷奶奶几岁？",
         "ja": "Renata の祖父母は何歳ですか。",
@@ -2956,32 +2650,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Delapan puluh dan tujuh puluh delapan tahun.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "八十岁和七十八岁。",
-        "ja": "80 歳と 78 歳です。",
-        "en": "Eighty and seventy-eight.",
-        "vi": "Tám mươi và bảy mươi tám tuổi.",
-        "pl": "Osiemdziesiąt i siedemdziesiąt osiem."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kakek Renata berumur delapan puluh tahun dan neneknya berumur tujuh puluh delapan tahun.",
        "reg": "formal",
-       "kw": [
-        "kakek",
-        "nenek"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Renata 的爷爷八十岁，奶奶七十八岁。",
         "ja": "Renata の祖父は 80 歳、祖母は 78 歳です。",
         "en": "Renata’s grandfather is eighty and her grandmother is seventy-eight.",
         "vi": "Ông nội của Renata tám mươi tuổi, bà nội bảy mươi tám tuổi.",
         "pl": "Dziadek Renaty ma osiemdziesiąt lat, a babcia siedemdziesiąt osiem."
-       }
+       },
+       "hl": [
+        "delapan puluh tahun",
+        "tujuh puluh delapan tahun"
+       ]
       }
      },
      {
@@ -2989,9 +2671,7 @@
        "lang": "id",
        "text": "Siapa nama cucu Pak Aji dan Bu Windu?",
        "reg": "formal",
-       "kw": [
-        "cucu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Aji 和 Bu Windu 的孙辈叫什么？",
         "ja": "Pak Aji と Bu Windu の孫の名前は何ですか。",
@@ -3002,31 +2682,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Juna, Arnold, Renata, dan Marinka.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Juna、Arnold、Renata 和 Marinka。",
-        "ja": "Juna、Arnold、Renata、Marinka です。",
-        "en": "Juna, Arnold, Renata and Marinka.",
-        "vi": "Juna, Arnold, Renata và Marinka.",
-        "pl": "Juna, Arnold, Renata i Marinka."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Cucu mereka bernama Juna, Arnold, Renata, dan Marinka.",
        "reg": "formal",
-       "kw": [
-        "cucu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他们的孙辈叫 Juna、Arnold、Renata 和 Marinka。",
         "ja": "二人の孫は Juna、Arnold、Renata、Marinka です。",
         "en": "Their grandchildren are Juna, Arnold, Renata and Marinka.",
         "vi": "Các cháu của họ là Juna, Arnold, Renata và Marinka.",
         "pl": "Ich wnuki to Juna, Arnold, Renata i Marinka."
-       }
+       },
+       "hl": [
+        "Juna, Arnold, Renata, dan Marinka"
+       ]
       }
      }
     ]
@@ -3129,31 +2797,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Anak, yaitu Hartini dan Hartono.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "孩子：Hartini 和 Hartono。",
-        "ja": "子ども：Hartini と Hartono。",
-        "en": "Children: Hartini and Hartono.",
-        "vi": "Con: Hartini và Hartono.",
-        "pl": "Dzieci: Hartini i Hartono."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Joko dan Bu Joko punya dua orang anak, yaitu Hartini dan Hartono.",
        "reg": "formal",
-       "kw": [
-        "anak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Joko 夫妇有两个孩子，就是 Hartini 和 Hartono。",
         "ja": "Joko 夫妻には子どもが二人いて、Hartini と Hartono です。",
         "en": "Pak and Bu Joko have two children, Hartini and Hartono.",
         "vi": "Ông bà Joko có hai người con là Hartini và Hartono.",
         "pl": "Pak i Bu Joko mają dwoje dzieci: Hartini i Hartono."
-       }
+       },
+       "hl": [
+        "anak, yaitu Hartini dan Hartono"
+       ]
       }
      },
      {
@@ -3169,32 +2825,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Sulung dan bungsu.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "老大和老幺。",
-        "ja": "いちばん上の子と末っ子。",
-        "en": "Eldest and youngest.",
-        "vi": "Con cả và con út.",
-        "pl": "Najstarsze i najmłodsze."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Hartini adalah anak sulung dan Hartono adalah anak bungsu.",
        "reg": "formal",
-       "kw": [
-        "sulung",
-        "bungsu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Hartini 是老大，Hartono 是老幺。",
         "ja": "Hartini がいちばん上の子で、Hartono が末っ子です。",
         "en": "Hartini is the eldest child and Hartono is the youngest.",
         "vi": "Hartini là con cả, Hartono là con út.",
         "pl": "Hartini jest najstarszym dzieckiem, a Hartono najmłodszym."
-       }
+       },
+       "hl": [
+        "sulung",
+        "bungsu"
+       ]
       }
      },
      {
@@ -3210,32 +2854,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kakak dan adik.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "姐姐和弟弟。",
-        "ja": "姉と弟。",
-        "en": "Older sister and younger brother.",
-        "vi": "Chị gái và em trai.",
-        "pl": "Starsza siostra i młodszy brat."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Hartini adalah kakak Hartono dan Hartono adalah adik Hartini.",
        "reg": "formal",
-       "kw": [
-        "kakak",
-        "adik"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Hartini 是 Hartono 的姐姐，Hartono 是 Hartini 的弟弟。",
         "ja": "Hartini は Hartono の姉で、Hartono は Hartini の弟です。",
         "en": "Hartini is Hartono’s older sister and Hartono is Hartini’s younger brother.",
         "vi": "Hartini là chị gái của Hartono, Hartono là em trai của Hartini.",
         "pl": "Hartini jest starszą siostrą Hartono, a Hartono młodszym bratem Hartini."
-       }
+       },
+       "hl": [
+        "kakak",
+        "adik"
+       ]
       }
      },
      {
@@ -3251,32 +2883,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Suami dan istri.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "丈夫和妻子。",
-        "ja": "夫と妻。",
-        "en": "Husband and wife.",
-        "vi": "Chồng và vợ.",
-        "pl": "Mąż i żona."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Hartini mempunyai suami bernama Bimo dan Hartono mempunyai istri bernama Sri.",
        "reg": "formal",
-       "kw": [
-        "suami",
-        "istri"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Hartini 的丈夫叫 Bimo，Hartono 的妻子叫 Sri。",
         "ja": "Hartini の夫は Bimo、Hartono の妻は Sri です。",
         "en": "Hartini has a husband called Bimo and Hartono has a wife called Sri.",
         "vi": "Chồng của Hartini tên là Bimo, vợ của Hartono tên là Sri.",
         "pl": "Hartini ma męża o imieniu Bimo, a Hartono żonę o imieniu Sri."
-       }
+       },
+       "hl": [
+        "suami",
+        "istri"
+       ]
       }
      },
      {
@@ -3292,31 +2912,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ipar dan ipar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "两个空都是 ipar。",
-        "ja": "空欄はどちらも ipar。",
-        "en": "Both blanks are ipar.",
-        "vi": "Cả hai chỗ trống đều là ipar.",
-        "pl": "Obie luki to ipar."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Bimo adalah ipar Hartono dan Sri adalah ipar Hartini.",
        "reg": "formal",
-       "kw": [
-        "ipar"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Bimo 是 Hartono 的姐夫，Sri 是 Hartini 的弟媳。",
         "ja": "Bimo は Hartono の義兄（姉の夫）、Sri は Hartini の義妹（弟の妻）です。",
         "en": "Bimo is Hartono’s brother-in-law and Sri is Hartini’s sister-in-law.",
         "vi": "Bimo là anh rể của Hartono, Sri là em dâu của Hartini.",
         "pl": "Bimo jest szwagrem Hartono, a Sri szwagierką Hartini."
-       }
+       },
+       "hl": [
+        "ipar",
+        "ipar"
+       ]
       }
      },
      {
@@ -3332,32 +2941,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mertua dan menantu.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "公婆 / 岳父母，和女婿 / 儿媳。",
-        "ja": "義理の両親、そして婿と嫁。",
-        "en": "Parents-in-law, and son- and daughter-in-law.",
-        "vi": "Bố mẹ vợ / bố mẹ chồng, và con rể / con dâu.",
-        "pl": "Teściowie oraz zięć i synowa."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Joko dan Bu Joko adalah mertua Bimo dan Sri. Bimo dan Sri adalah menantu Pak Joko dan Bu Joko.",
        "reg": "formal",
-       "kw": [
-        "mertua",
-        "menantu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Joko 夫妇是 Bimo 和 Sri 的岳父母 / 公婆；Bimo 和 Sri 是 Joko 夫妇的女婿和儿媳。",
         "ja": "Joko 夫妻は Bimo と Sri の義理の両親で、Bimo と Sri は Joko 夫妻の婿と嫁です。",
         "en": "Pak and Bu Joko are Bimo’s and Sri’s parents-in-law; Bimo and Sri are their son- and daughter-in-law.",
         "vi": "Ông bà Joko là bố mẹ vợ của Bimo và bố mẹ chồng của Sri; Bimo và Sri là con rể và con dâu của ông bà Joko.",
         "pl": "Pak i Bu Joko są teściami Bimo i Sri; Bimo i Sri są ich zięciem i synową."
-       }
+       },
+       "hl": [
+        "mertua",
+        "menantu"
+       ]
       }
      },
      {
@@ -3373,31 +2970,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Cucu.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "孙辈。",
-        "ja": "孫。",
-        "en": "Grandchildren.",
-        "vi": "Cháu.",
-        "pl": "Wnuki."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Joko dan Bu Joko mempunyai lima orang cucu, yaitu Ita, Wawan, Dewi, Ani, dan Bobi.",
        "reg": "formal",
-       "kw": [
-        "cucu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Joko 夫妇有五个孙辈：Ita、Wawan、Dewi、Ani 和 Bobi。",
         "ja": "Joko 夫妻には孫が 5 人います：Ita、Wawan、Dewi、Ani、Bobi。",
         "en": "Pak and Bu Joko have five grandchildren: Ita, Wawan, Dewi, Ani and Bobi.",
         "vi": "Ông bà Joko có năm người cháu: Ita, Wawan, Dewi, Ani và Bobi.",
         "pl": "Pak i Bu Joko mają pięcioro wnuków: Ita, Wawan, Dewi, Ani i Bobi."
-       }
+       },
+       "hl": [
+        "cucu"
+       ]
       }
      },
      {
@@ -3413,32 +2998,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kakek dan ayah.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "外公和父亲。",
-        "ja": "祖父と父。",
-        "en": "Grandfather and father.",
-        "vi": "Ông ngoại và cha.",
-        "pl": "Dziadek i ojciec."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Joko adalah kakek Wawan. Pak Joko adalah ayah Hartini.",
        "reg": "formal",
-       "kw": [
-        "kakek",
-        "ayah"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Joko 是 Wawan 的外公，是 Hartini 的父亲。",
         "ja": "Pak Joko は Wawan の祖父で、Hartini の父です。",
         "en": "Pak Joko is Wawan’s grandfather and Hartini’s father.",
         "vi": "Ông Joko là ông ngoại của Wawan, và là cha của Hartini.",
         "pl": "Pak Joko jest dziadkiem Wawana i ojcem Hartini."
-       }
+       },
+       "hl": [
+        "kakek",
+        "ayah"
+       ]
       }
      },
      {
@@ -3454,32 +3027,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saudara dan sepupu.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "兄弟姐妹，和堂表亲。",
-        "ja": "兄弟姉妹と、いとこ。",
-        "en": "Siblings, and cousins.",
-        "vi": "Anh chị em ruột, và anh chị em họ.",
-        "pl": "Rodzeństwo oraz kuzynostwo."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ita dan Dewi adalah saudara Wawan. Ani dan Bobi adalah sepupu Wawan.",
        "reg": "formal",
-       "kw": [
-        "saudara",
-        "sepupu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Ita 和 Dewi 是 Wawan 的姐妹；Ani 和 Bobi 是 Wawan 的表亲。",
         "ja": "Ita と Dewi は Wawan の姉妹で、Ani と Bobi は Wawan のいとこです。",
         "en": "Ita and Dewi are Wawan’s sisters; Ani and Bobi are his cousins.",
         "vi": "Ita và Dewi là chị gái và em gái của Wawan; Ani và Bobi là anh chị em họ của Wawan.",
         "pl": "Ita i Dewi są siostrami Wawana; Ani i Bobi są jego kuzynami."
-       }
+       },
+       "hl": [
+        "saudara",
+        "sepupu"
+       ]
       }
      },
      {
@@ -3495,32 +3056,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Paman dan bibi.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "舅舅和舅妈。",
-        "ja": "叔父と叔母。",
-        "en": "Uncle and aunt.",
-        "vi": "Cậu và mợ.",
-        "pl": "Wujek i ciocia."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Hartono adalah paman Wawan dan Sri adalah bibi Wawan.",
        "reg": "formal",
-       "kw": [
-        "paman",
-        "bibi"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Hartono 是 Wawan 的舅舅，Sri 是 Wawan 的舅妈。",
         "ja": "Hartono は Wawan の叔父、Sri は Wawan の叔母です。",
         "en": "Hartono is Wawan’s uncle and Sri is his aunt.",
         "vi": "Hartono là cậu của Wawan, Sri là mợ của Wawan.",
         "pl": "Hartono jest wujkiem Wawana, a Sri jego ciocią."
-       }
+       },
+       "hl": [
+        "paman",
+        "bibi"
+       ]
       }
      }
     ]
@@ -4347,35 +3896,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kami belajar bahasa di kelas INCULS.",
-       "reg": "formal",
-       "kw": [
-        "kelas",
-        "inculs"
-       ],
-       "gloss": {
-        "zh": "我们在 INCULS 的教室学语言。",
-        "ja": "わたしたちは INCULS の教室で語学を勉強します。",
-        "en": "We study language in the INCULS classroom.",
-        "vi": "Chúng tôi học ngôn ngữ ở lớp học của INCULS.",
-        "pl": "Uczymy się języka w sali INCULS."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Setiap hari kami belajar bahasa Indonesia di kelas INCULS.",
        "reg": "formal",
-       "kw": [
-        "kelas",
-        "inculs"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "我们每天在 INCULS 的教室学印尼语。",
         "ja": "わたしたちは毎日 INCULS の教室でインドネシア語を勉強します。",
         "en": "Every day we study Indonesian in the INCULS classroom.",
         "vi": "Hằng ngày chúng tôi học tiếng Indonesia ở lớp học của INCULS.",
         "pl": "Codziennie uczymy się indonezyjskiego w sali INCULS."
-       }
+       },
+       "hl": [
+        "kami belajar bahasa",
+        "di kelas INCULS"
+       ]
       }
      },
      {
@@ -4391,33 +3925,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mereka makan sate di kantin.",
-       "reg": "formal",
-       "kw": [
-        "mereka"
-       ],
-       "gloss": {
-        "zh": "他们在食堂吃沙爹。",
-        "ja": "彼らは食堂でサテを食べます。",
-        "en": "They eat satay in the canteen.",
-        "vi": "Họ ăn sate ở căng tin.",
-        "pl": "Jedzą satay w stołówce."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Mereka makan sate ayam di kantin tadi siang.",
        "reg": "formal",
-       "kw": [
-        "mereka"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他们中午在食堂吃了鸡肉沙爹。",
         "ja": "彼らは昼に食堂でチキンのサテを食べました。",
         "en": "They ate chicken satay in the canteen at lunchtime.",
         "vi": "Buổi trưa họ đã ăn sate gà ở căng tin.",
         "pl": "W południe zjedli w stołówce satay z kurczaka."
-       }
+       },
+       "hl": [
+        "Mereka makan sate",
+        "di kantin"
+       ]
       }
      },
      {
@@ -4433,33 +3954,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Adik menonton film di rumah.",
-       "reg": "formal",
-       "kw": [
-        "menonton"
-       ],
-       "gloss": {
-        "zh": "弟弟在家看电影。",
-        "ja": "弟は家で映画を見ます。",
-        "en": "My little brother watches a film at home.",
-        "vi": "Em trai xem phim ở nhà.",
-        "pl": "Mój młodszy brat ogląda film w domu."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Adik saya menonton film di rumah nenek kemarin.",
        "reg": "formal",
-       "kw": [
-        "menonton"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "我弟弟昨天在奶奶家看了电影。",
         "ja": "弟はきのう祖母の家で映画を見ました。",
         "en": "My little brother watched a film at Grandma’s house yesterday.",
         "vi": "Hôm qua em trai tôi đã xem phim ở nhà bà.",
         "pl": "Mój młodszy brat obejrzał wczoraj film u babci."
-       }
+       },
+       "hl": [
+        "Adik",
+        "menonton film di rumah"
+       ]
       }
      },
      {
@@ -4475,33 +3983,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Juna membaca buku di perpustakaan.",
-       "reg": "formal",
-       "kw": [
-        "perpustakaan"
-       ],
-       "gloss": {
-        "zh": "Juna 在图书馆看书。",
-        "ja": "Juna は図書館で本を読みます。",
-        "en": "Juna reads a book in the library.",
-        "vi": "Juna đọc sách ở thư viện.",
-        "pl": "Juna czyta książkę w bibliotece."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Setiap sore Juna membaca buku di perpustakaan UGM.",
        "reg": "formal",
-       "kw": [
-        "perpustakaan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Juna 每天下午在 UGM 图书馆看书。",
         "ja": "Juna は毎日午後に UGM の図書館で本を読みます。",
         "en": "Every afternoon Juna reads in the UGM library.",
         "vi": "Chiều nào Juna cũng đọc sách ở thư viện UGM.",
         "pl": "Juna codziennie po południu czyta w bibliotece UGM."
-       }
+       },
+       "hl": [
+        "Juna membaca buku di perpustakaan"
+       ]
       }
      },
      {
@@ -4517,33 +4011,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ibu membeli sayur di pasar.",
-       "reg": "formal",
-       "kw": [
-        "membeli"
-       ],
-       "gloss": {
-        "zh": "妈妈在市场买菜。",
-        "ja": "母は市場で野菜を買います。",
-        "en": "Mum buys vegetables at the market.",
-        "vi": "Mẹ mua rau ở chợ.",
-        "pl": "Mama kupuje warzywa na targu."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ibu membeli sayur dan ayam di pasar tadi pagi.",
        "reg": "formal",
-       "kw": [
-        "membeli"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "妈妈今天早上在市场买了菜和鸡肉。",
         "ja": "母はけさ市場で野菜と鶏肉を買いました。",
         "en": "Mum bought vegetables and chicken at the market this morning.",
         "vi": "Sáng nay mẹ đã mua rau và thịt gà ở chợ.",
         "pl": "Mama kupiła dziś rano na targu warzywa i kurczaka."
-       }
+       },
+       "hl": [
+        "Ibu membeli sayur",
+        "di pasar"
+       ]
       }
      },
      {
@@ -4559,33 +4040,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kami mengadakan pesta di rumah.",
+       "text": "Kami mengadakan pesta ulang tahun di rumah nanti malam.",
        "reg": "formal",
-       "kw": [
-        "pesta"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "我们在家办聚会。",
-        "ja": "わたしたちは家でパーティーを開きます。",
-        "en": "We hold a party at home.",
-        "vi": "Chúng tôi tổ chức tiệc ở nhà.",
-        "pl": "Organizujemy przyjęcie w domu."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Keluarga Pak Budi mengadakan pesta ulang tahun nanti malam.",
-       "reg": "formal",
-       "kw": [
-        "pesta"
-       ],
-       "gloss": {
-        "zh": "Pak Budi 家今晚办生日宴。",
-        "ja": "Pak Budi の家では今夜誕生日パーティーを開きます。",
-        "en": "Pak Budi’s family is holding a birthday party tonight.",
-        "vi": "Tối nay nhà ông Budi tổ chức tiệc sinh nhật.",
-        "pl": "Rodzina Pak Budiego urządza dziś wieczorem przyjęcie urodzinowe."
-       }
+        "zh": "我们今晚在家办生日聚会。",
+        "ja": "私たちは今晩、家で誕生日パーティーを開きます。",
+        "en": "We are holding a birthday party at home tonight.",
+        "vi": "Tối nay chúng tôi tổ chức tiệc sinh nhật ở nhà.",
+        "pl": "Dziś wieczorem urządzamy w domu przyjęcie urodzinowe."
+       },
+       "hl": [
+        "Kami mengadakan pesta",
+        "di rumah"
+       ]
       }
      },
      {
@@ -4601,33 +4069,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mahasiswa menulis PR di kelas.",
+       "text": "Mahasiswa itu menulis PR di kelas setiap pagi.",
        "reg": "formal",
-       "kw": [
-        "mahasiswa"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "学生们在教室写作业。",
-        "ja": "学生たちは教室で宿題を書きます。",
-        "en": "The students write their homework in class.",
-        "vi": "Các học sinh làm bài tập trong lớp.",
-        "pl": "Studenci piszą zadanie domowe w sali."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Mahasiswa itu mengerjakan PR di perpustakaan setiap sore.",
-       "reg": "formal",
-       "kw": [
-        "mahasiswa"
-       ],
-       "gloss": {
-        "zh": "那个学生每天下午在图书馆做作业。",
-        "ja": "その学生は毎日午後に図書館で宿題をします。",
-        "en": "That student does homework in the library every afternoon.",
-        "vi": "Chiều nào học sinh đó cũng làm bài tập ở thư viện.",
-        "pl": "Ten student codziennie po południu odrabia zadania w bibliotece."
-       }
+        "zh": "那个学生每天早上在教室写作业。",
+        "ja": "その学生は毎朝、教室で宿題を書きます。",
+        "en": "That student writes homework in class every morning.",
+        "vi": "Sinh viên đó viết bài tập ở lớp mỗi sáng.",
+        "pl": "Ten student co rano pisze w sali pracę domową."
+       },
+       "hl": [
+        "Mahasiswa",
+        "menulis PR di kelas"
+       ]
       }
      },
      {
@@ -4643,35 +4098,21 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saya menonton film tadi malam.",
-       "reg": "formal",
-       "kw": [
-        "tadi",
-        "malam"
-       ],
-       "gloss": {
-        "zh": "我昨晚看了电影。",
-        "ja": "わたしはゆうべ映画を見ました。",
-        "en": "I watched a film last night.",
-        "vi": "Tối qua tôi đã xem phim.",
-        "pl": "Wczoraj wieczorem obejrzałem/-am film."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Saya dan teman-teman menonton film di rumah Juna tadi malam.",
        "reg": "formal",
-       "kw": [
-        "tadi",
-        "malam"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "我和朋友们昨晚在 Juna 家看了电影。",
         "ja": "わたしは友だちとゆうべ Juna の家で映画を見ました。",
         "en": "My friends and I watched a film at Juna’s house last night.",
         "vi": "Tối qua tôi và các bạn đã xem phim ở nhà Juna.",
         "pl": "Wczoraj wieczorem obejrzeliśmy z przyjaciółmi film u Juny."
-       }
+       },
+       "hl": [
+        "Saya",
+        "menonton film",
+        "tadi malam"
+       ]
       }
      },
      {
@@ -4687,33 +4128,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kakak mengambil tas di kamar.",
+       "text": "Kakak saya mengambil tas di kamar tadi pagi.",
        "reg": "formal",
-       "kw": [
-        "mengambil"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "哥哥去房间拿包。",
-        "ja": "兄は部屋へかばんを取りに行きます。",
-        "en": "My older brother gets his bag from the room.",
-        "vi": "Anh trai vào phòng lấy cặp.",
-        "pl": "Starszy brat idzie do pokoju po torbę."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Renata mengambil payung di rumah tadi pagi.",
-       "reg": "formal",
-       "kw": [
-        "mengambil"
-       ],
-       "gloss": {
-        "zh": "Renata 今天早上回家拿了伞。",
-        "ja": "Renata はけさ家に傘を取りに帰りました。",
-        "en": "Renata fetched an umbrella from home this morning.",
-        "vi": "Sáng nay Renata về nhà lấy ô.",
-        "pl": "Renata wróciła dziś rano do domu po parasol."
-       }
+        "zh": "我哥哥今天早上去房间拿了包。",
+        "ja": "兄は今朝、部屋でかばんを取りました。",
+        "en": "My older brother got his bag from the room this morning.",
+        "vi": "Sáng nay anh tôi vào phòng lấy túi.",
+        "pl": "Mój starszy brat rano wziął torbę z pokoju."
+       },
+       "hl": [
+        "Kakak",
+        "mengambil tas di kamar"
+       ]
       }
      },
      {
@@ -4729,33 +4157,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Nenek membeli roti di toko.",
+       "text": "Nenek membeli roti dan susu di toko.",
        "reg": "formal",
-       "kw": [
-        "roti"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "奶奶在店里买面包。",
-        "ja": "祖母は店でパンを買います。",
-        "en": "Grandma buys bread at the shop.",
-        "vi": "Bà mua bánh mì ở cửa hàng.",
-        "pl": "Babcia kupuje chleb w sklepie."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Ibu memotong roti dengan pisau di dapur.",
-       "reg": "formal",
-       "kw": [
-        "roti"
-       ],
-       "gloss": {
-        "zh": "妈妈在厨房用刀切面包。",
-        "ja": "母は台所でパンをナイフで切ります。",
-        "en": "Mum cuts the bread with a knife in the kitchen.",
-        "vi": "Mẹ cắt bánh mì bằng dao trong bếp.",
-        "pl": "Mama kroi chleb nożem w kuchni."
-       }
+        "zh": "奶奶在店里买面包和牛奶。",
+        "ja": "祖母は店でパンと牛乳を買います。",
+        "en": "Grandma buys bread and milk at the shop.",
+        "vi": "Bà mua bánh mì và sữa ở cửa hàng.",
+        "pl": "Babcia kupuje w sklepie chleb i mleko."
+       },
+       "hl": [
+        "Nenek membeli roti",
+        "di toko"
+       ]
       }
      },
      {
@@ -4771,35 +4186,21 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Paman membeli sepeda minggu lalu.",
-       "reg": "formal",
-       "kw": [
-        "minggu",
-        "lalu"
-       ],
-       "gloss": {
-        "zh": "叔叔上周买了自行车。",
-        "ja": "おじは先週自転車を買いました。",
-        "en": "Uncle bought a bicycle last week.",
-        "vi": "Tuần trước chú đã mua xe đạp.",
-        "pl": "Wujek kupił w zeszłym tygodniu rower."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Paman saya membeli sepeda baru di toko minggu lalu.",
        "reg": "formal",
-       "kw": [
-        "minggu",
-        "lalu"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "我叔叔上周在店里买了一辆新自行车。",
         "ja": "おじは先週、店で新しい自転車を買いました。",
         "en": "My uncle bought a new bicycle at the shop last week.",
         "vi": "Tuần trước chú tôi đã mua một chiếc xe đạp mới ở cửa hàng.",
         "pl": "Mój wujek kupił w zeszłym tygodniu nowy rower w sklepie."
-       }
+       },
+       "hl": [
+        "Paman",
+        "membeli sepeda",
+        "minggu lalu"
+       ]
       }
      },
      {
@@ -4815,33 +4216,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saya membawa kamus ke kelas.",
-       "reg": "formal",
-       "kw": [
-        "membawa"
-       ],
-       "gloss": {
-        "zh": "我带词典来教室。",
-        "ja": "わたしは教室に辞書を持ってきます。",
-        "en": "I bring a dictionary to class.",
-        "vi": "Tôi mang từ điển đến lớp.",
-        "pl": "Przynoszę słownik na zajęcia."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Hari ini saya membawa kamus dan foto keluarga ke kelas.",
        "reg": "formal",
-       "kw": [
-        "membawa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "今天我带了词典和全家福来教室。",
         "ja": "きょうわたしは教室に辞書と家族写真を持ってきました。",
         "en": "Today I brought a dictionary and a family photo to class.",
         "vi": "Hôm nay tôi mang từ điển và ảnh gia đình đến lớp.",
         "pl": "Dziś przynoszę na zajęcia słownik i rodzinne zdjęcie."
-       }
+       },
+       "hl": [
+        "saya membawa kamus",
+        "ke kelas"
+       ]
       }
      },
      {
@@ -4857,35 +4245,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mas Indra minum kopi di kantin.",
-       "reg": "formal",
-       "kw": [
-        "mas",
-        "indra"
-       ],
-       "gloss": {
-        "zh": "Indra 哥在食堂喝咖啡。",
-        "ja": "Mas Indra は食堂でコーヒーを飲みます。",
-        "en": "Mas Indra drinks coffee in the canteen.",
-        "vi": "Anh Indra uống cà phê ở căng tin.",
-        "pl": "Mas Indra pije kawę w stołówce."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Mas Indra minum kopi bersama teman-temannya di kantin.",
        "reg": "formal",
-       "kw": [
-        "mas",
-        "indra"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Indra 哥和朋友们在食堂喝咖啡。",
         "ja": "Mas Indra は友だちと食堂でコーヒーを飲みます。",
         "en": "Mas Indra drinks coffee with his friends in the canteen.",
         "vi": "Anh Indra uống cà phê với các bạn ở căng tin.",
         "pl": "Mas Indra pije kawę z przyjaciółmi w stołówce."
-       }
+       },
+       "hl": [
+        "Mas Indra minum kopi",
+        "di kantin"
+       ]
       }
      },
      {
@@ -4901,33 +4274,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ayah membayar makanan di restoran.",
+       "text": "Ayah membayar makanan kami di restoran tadi malam.",
        "reg": "formal",
-       "kw": [
-        "membayar"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "爸爸在餐厅付饭钱。",
-        "ja": "父はレストランで食事代を払います。",
-        "en": "Dad pays for the food at the restaurant.",
-        "vi": "Bố trả tiền ăn ở nhà hàng.",
-        "pl": "Tata płaci za jedzenie w restauracji."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Ayah membayar makan malam kami di restoran tadi malam.",
-       "reg": "formal",
-       "kw": [
-        "membayar"
-       ],
-       "gloss": {
-        "zh": "爸爸昨晚在餐厅付了我们的晚饭钱。",
-        "ja": "父はゆうべレストランでわたしたちの夕食代を払いました。",
-        "en": "Dad paid for our dinner at the restaurant last night.",
-        "vi": "Tối qua bố đã trả tiền bữa tối của chúng tôi ở nhà hàng.",
-        "pl": "Tata zapłacił wczoraj wieczorem za naszą kolację w restauracji."
-       }
+        "zh": "爸爸昨晚在餐厅付了我们的饭钱。",
+        "ja": "父は昨夜、レストランで私たちの食事代を払いました。",
+        "en": "Dad paid for our food at the restaurant last night.",
+        "vi": "Tối qua bố trả tiền đồ ăn của chúng tôi ở nhà hàng.",
+        "pl": "Tata zapłacił wczoraj wieczorem za nasze jedzenie w restauracji."
+       },
+       "hl": [
+        "Ayah membayar makanan",
+        "di restoran"
+       ]
       }
      },
      {
@@ -4943,35 +4303,21 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kakak menulis tugas dengan laptop.",
+       "text": "Kakak saya menulis tugas kuliah dengan laptop di kamar.",
        "reg": "formal",
-       "kw": [
-        "dengan",
-        "laptop"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "姐姐用笔记本电脑写作业。",
-        "ja": "姉はノートパソコンで宿題を書きます。",
-        "en": "My older sister writes her assignment on a laptop.",
-        "vi": "Chị gái làm bài tập bằng máy tính xách tay.",
-        "pl": "Moja starsza siostra pisze pracę na laptopie."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Kakak saya mengerjakan tugas kuliah dengan laptop di kamar.",
-       "reg": "formal",
-       "kw": [
-        "dengan",
-        "laptop"
-       ],
-       "gloss": {
-        "zh": "我姐姐在房间里用笔记本电脑做大学作业。",
-        "ja": "姉は部屋でノートパソコンを使って大学の課題をしています。",
-        "en": "My older sister does her coursework on a laptop in her room.",
-        "vi": "Chị tôi làm bài tập đại học bằng máy tính xách tay trong phòng.",
-        "pl": "Moja starsza siostra robi w swoim pokoju zadania na studia na laptopie."
-       }
+        "zh": "我姐姐在房间里用笔记本电脑写大学作业。",
+        "ja": "姉は部屋でノートパソコンを使って大学の課題を書きます。",
+        "en": "My older sister writes her coursework on a laptop in her room.",
+        "vi": "Chị tôi viết bài tập đại học bằng máy tính xách tay trong phòng.",
+        "pl": "Moja starsza siostra pisze w pokoju pracę na studia na laptopie."
+       },
+       "hl": [
+        "Kakak",
+        "menulis tugas",
+        "dengan laptop"
+       ]
       }
      }
     ]
@@ -5550,11 +4896,11 @@
    {
     "k": "lead",
     "text": {
-     "zh": "课本第 51–53 页 Latihan 2、3。题目是课本原句，下面一行是意思。<b>保底版</b>就是把否定词放进去；<b>完整版</b>再补一句「那是什么」—— 老师常会顺口追问。",
-     "ja": "教科書 51〜53 ページの Latihan 2・3。問題文は教科書のままで、下の行が意味です。<b>「最短で」</b>は否定語を入れるだけ。<b>「しっかり」</b>は「では何なのか」をもう一文足します —— 先生はよくそのまま聞き返してきます。",
-     "en": "Latihan 2 and 3 on pages 51–53 of the book. The sentences are the book’s own, with their meaning underneath. <b>Short</b> just adds the negative word; <b>Full</b> adds one sentence saying what is true instead, because teachers often ask.",
-     "vi": "Latihan 2, 3 ở trang 51–53 của sách. Đề là câu nguyên văn trong sách, dòng bên dưới là nghĩa. <b>Bản Ngắn gọn</b> chỉ cần thêm từ phủ định; <b>bản Đầy đủ</b> nói thêm một câu “vậy thì là gì” — thầy cô hay tiện hỏi thêm câu này.",
-     "pl": "Latihan 2 i 3 ze stron 51–53 podręcznika. Zdania pochodzą z podręcznika, a pod nimi jest ich znaczenie. <b>Krótko</b> to samo wstawienie przeczenia; <b>Pełniej</b> dodaje jeszcze jedno zdanie o tym, jak jest naprawdę — wykładowcy często o to dopytują."
+     "zh": "课本第 51–53 页 Latihan 2、3。题目是课本原句，下面一行是意思。答案里<b>加粗的部分</b>就是改好的否定句；后面没加粗的一句说「那是什么」，老师顺口追问时用得上。",
+     "ja": "教科書 51〜53 ページの Latihan 2・3。問題は教科書の原文で、下の行が意味です。答えの<b>太字の部分</b>が否定文そのもの。そのあとの太字でない一文は「では何か」の説明で、先生に続けて聞かれたときに使えます。",
+     "en": "Latihan 2 and 3 on pages 51–53 of the book. The sentences are the book’s own, with their meaning underneath. In each answer <b>the bold part</b> is the negated sentence; the plain sentence after it says what is true instead, in case the teacher asks.",
+     "vi": "Latihan 2 và 3 ở trang 51–53 trong sách. Câu đề là câu gốc trong sách, dòng dưới là nghĩa. Trong đáp án, <b>phần in đậm</b> là câu phủ định; câu không in đậm phía sau nói sự thật là gì, dùng khi thầy cô hỏi thêm.",
+     "pl": "Latihan 2 i 3 ze stron 51–53 podręcznika. Zdania pochodzą z książki, pod spodem jest ich znaczenie. W odpowiedzi <b>pogrubiona część</b> to zdanie przeczące; zwykłe zdanie po nim mówi, jak jest naprawdę — na wypadek, gdyby prowadzący dopytał."
     }
    },
    {
@@ -5583,33 +4929,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Dia bukan teman Bowo.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "他不是 Bowo 的朋友。",
-        "ja": "彼は Bowo の友だちではありません。",
-        "en": "He is not Bowo’s friend.",
-        "vi": "Anh ấy không phải là bạn của Bowo.",
-        "pl": "On nie jest kolegą Bowa."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Dia bukan teman Bowo. Dia sepupu Bowo.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他不是 Bowo 的朋友，是 Bowo 的表哥。",
         "ja": "彼は Bowo の友だちではなく、Bowo のいとこです。",
         "en": "He is not Bowo’s friend. He is Bowo’s cousin.",
         "vi": "Anh ấy không phải là bạn của Bowo. Anh ấy là anh họ của Bowo.",
         "pl": "On nie jest kolegą Bowa, tylko jego kuzynem."
-       }
+       },
+       "hl": [
+        "Dia bukan teman Bowo"
+       ]
       }
      },
      {
@@ -5628,33 +4960,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ini bukan guru bahasa Indonesia.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "这位不是印尼语老师。",
-        "ja": "こちらはインドネシア語の先生ではありません。",
-        "en": "This is not the Indonesian teacher.",
-        "vi": "Đây không phải là giáo viên tiếng Indonesia.",
-        "pl": "To nie jest nauczyciel indonezyjskiego."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ini bukan guru bahasa Indonesia. Ini guru bahasa Inggris.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "这位不是印尼语老师，是英语老师。",
         "ja": "こちらはインドネシア語の先生ではなく、英語の先生です。",
         "en": "This is not the Indonesian teacher. This is the English teacher.",
         "vi": "Đây không phải là giáo viên tiếng Indonesia. Đây là giáo viên tiếng Anh.",
         "pl": "To nie jest nauczyciel indonezyjskiego, tylko angielskiego."
-       }
+       },
+       "hl": [
+        "Ini bukan guru bahasa Indonesia"
+       ]
       }
      },
      {
@@ -5673,33 +4991,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ali bukan sepupu Rahma.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "Ali 不是 Rahma 的表哥。",
-        "ja": "Ali は Rahma のいとこではありません。",
-        "en": "Ali is not Rahma’s cousin.",
-        "vi": "Ali không phải là anh họ của Rahma.",
-        "pl": "Ali nie jest kuzynem Rahmy."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ali bukan sepupu Rahma. Ali kakak Rahma.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Ali 不是 Rahma 的表哥，是她哥哥。",
         "ja": "Ali は Rahma のいとこではなく、お兄さんです。",
         "en": "Ali is not Rahma’s cousin. He is her older brother.",
         "vi": "Ali không phải là anh họ của Rahma. Ali là anh trai của Rahma.",
         "pl": "Ali nie jest kuzynem Rahmy, tylko jej starszym bratem."
-       }
+       },
+       "hl": [
+        "Ali bukan sepupu Rahma"
+       ]
       }
      },
      {
@@ -5718,33 +5022,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ayahnya bukan dokter di rumah sakit.",
+       "text": "Ayahnya bukan dokter di rumah sakit. Dia perawat.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "他爸爸不是医院的医生。",
-        "ja": "彼のお父さんは病院の医者ではありません。",
-        "en": "His father is not a doctor at the hospital.",
-        "vi": "Bố anh ấy không phải là bác sĩ ở bệnh viện.",
-        "pl": "Jego tata nie jest lekarzem w szpitalu."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Ayahnya bukan dokter. Dia perawat di rumah sakit.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "他爸爸不是医生，是医院的护士。",
-        "ja": "彼のお父さんは医者ではなく、病院の看護師です。",
-        "en": "His father is not a doctor. He is a nurse at the hospital.",
-        "vi": "Bố anh ấy không phải là bác sĩ. Ông ấy là y tá ở bệnh viện.",
-        "pl": "Jego tata nie jest lekarzem, tylko pielęgniarzem w szpitalu."
-       }
+        "zh": "他爸爸不是医院的医生，是护士。",
+        "ja": "彼のお父さんは病院の医者ではありません。看護師です。",
+        "en": "His father is not a doctor at the hospital. He is a nurse.",
+        "vi": "Bố anh ấy không phải là bác sĩ ở bệnh viện. Ông ấy là y tá.",
+        "pl": "Jego tata nie jest lekarzem w szpitalu. Jest pielęgniarzem."
+       },
+       "hl": [
+        "Ayahnya bukan dokter di rumah sakit"
+       ]
       }
      },
      {
@@ -5763,33 +5053,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mereka bukan mahasiswa UGM.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "他们不是 UGM 的学生。",
-        "ja": "かれらは UGM の学生ではありません。",
-        "en": "They are not UGM students.",
-        "vi": "Họ không phải là sinh viên UGM.",
-        "pl": "Oni nie są studentami UGM."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Mereka bukan mahasiswa UGM. Mereka pelajar SMA.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他们不是 UGM 的学生，是高中生。",
         "ja": "かれらは UGM の学生ではなく、高校生です。",
         "en": "They are not UGM students. They are high-school pupils.",
         "vi": "Họ không phải là sinh viên UGM. Họ là học sinh cấp ba.",
         "pl": "Oni nie są studentami UGM, tylko uczniami liceum."
-       }
+       },
+       "hl": [
+        "Mereka bukan mahasiswa UGM"
+       ]
       }
      },
      {
@@ -5808,33 +5084,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Itu bukan adik Azka.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "那不是 Azka 的弟弟。",
-        "ja": "あれは Azka の弟ではありません。",
-        "en": "That is not Azka’s younger brother.",
-        "vi": "Đó không phải là em trai của Azka.",
-        "pl": "To nie jest młodszy brat Azki."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Itu bukan adik Azka. Itu keponakannya.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "那不是 Azka 的弟弟，是他侄子。",
         "ja": "あれは Azka の弟ではなく、おいです。",
         "en": "That is not Azka’s brother. That is his nephew.",
         "vi": "Đó không phải là em trai của Azka. Đó là cháu của anh ấy.",
         "pl": "To nie jest młodszy brat Azki, tylko jego bratanek."
-       }
+       },
+       "hl": [
+        "Itu bukan adik Azka"
+       ]
       }
      },
      {
@@ -5853,33 +5115,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kakak mereka bukan dosen UGM.",
+       "text": "Kakak mereka bukan dosen UGM. Dia karyawan di sana.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "他们的哥哥不是 UGM 的讲师。",
-        "ja": "かれらのお兄さんは UGM の講師ではありません。",
-        "en": "Their older brother is not a lecturer at UGM.",
-        "vi": "Anh trai của họ không phải là giảng viên UGM.",
-        "pl": "Ich starszy brat nie jest wykładowcą na UGM."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Kakak mereka bukan dosen. Dia karyawan di UGM.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "他们的哥哥不是讲师，是 UGM 的职员。",
-        "ja": "かれらのお兄さんは講師ではなく、UGM の職員です。",
-        "en": "Their brother is not a lecturer. He is a staff member at UGM.",
-        "vi": "Anh trai của họ không phải là giảng viên. Anh ấy là nhân viên ở UGM.",
-        "pl": "Ich brat nie jest wykładowcą, tylko pracownikiem administracji UGM."
-       }
+        "zh": "他们的哥哥不是 UGM 的讲师，是那里的职员。",
+        "ja": "彼らのお兄さんは UGM の講師ではありません。そこの職員です。",
+        "en": "Their older brother is not a lecturer at UGM. He is a staff member there.",
+        "vi": "Anh của họ không phải là giảng viên UGM. Anh ấy là nhân viên ở đó.",
+        "pl": "Ich starszy brat nie jest wykładowcą na UGM. Pracuje tam w administracji."
+       },
+       "hl": [
+        "Kakak mereka bukan dosen UGM"
+       ]
       }
      },
      {
@@ -5900,31 +5148,17 @@
        "lang": "id",
        "text": "Anda bukan pemain bola.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "您不是足球运动员。",
         "ja": "あなたはサッカー選手ではありません。",
         "en": "You are not a football player.",
         "vi": "Bạn không phải là cầu thủ bóng đá.",
         "pl": "Pan nie jest piłkarzem."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Saya bukan pemain bola. Saya mahasiswa.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "（老师对着你说时）我不是足球运动员，我是学生。",
-        "ja": "（先生があなたに向かって言ったとき）わたしはサッカー選手ではありません。学生です。",
-        "en": "(If the teacher says it to you) I am not a football player. I am a student.",
-        "vi": "(Khi thầy cô nói câu này với bạn) Tôi không phải là cầu thủ bóng đá. Tôi là sinh viên.",
-        "pl": "(Gdy wykładowca mówi to do ciebie) Nie gram w piłkę, tylko studiuję."
-       }
+       },
+       "hl": [
+        "Anda bukan pemain bola"
+       ]
       }
      },
      {
@@ -5945,31 +5179,17 @@
        "lang": "id",
        "text": "Kalian bukan artis.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "你们不是明星。",
         "ja": "あなたたちは芸能人ではありません。",
         "en": "You are not celebrities.",
         "vi": "Các bạn không phải là người nổi tiếng.",
         "pl": "Nie jesteście gwiazdami."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Kami bukan artis. Kami mahasiswa INCULS.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "（老师对着你们说时）我们不是明星，我们是 INCULS 的学生。",
-        "ja": "（先生があなたたちに向かって言ったとき）わたしたちは芸能人ではありません。INCULS の学生です。",
-        "en": "(If the teacher says it to your group) We are not celebrities. We are INCULS students.",
-        "vi": "(Khi thầy cô nói câu này với cả nhóm) Chúng tôi không phải là người nổi tiếng. Chúng tôi là sinh viên INCULS.",
-        "pl": "(Gdy wykładowca mówi to do waszej grupy) Nie jesteśmy gwiazdami, studiujemy w INCULS."
-       }
+       },
+       "hl": [
+        "Kalian bukan artis"
+       ]
       }
      },
      {
@@ -5988,33 +5208,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Paman saya bukan tentara.",
-       "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
-       "gloss": {
-        "zh": "我叔叔不是军人。",
-        "ja": "わたしのおじは軍人ではありません。",
-        "en": "My uncle is not a soldier.",
-        "vi": "Chú tôi không phải là quân nhân.",
-        "pl": "Mój wujek nie jest żołnierzem."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Paman saya bukan tentara. Dia polisi.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "我叔叔不是军人，是警察。",
         "ja": "わたしのおじは軍人ではなく、警察官です。",
         "en": "My uncle is not a soldier. He is a police officer.",
         "vi": "Chú tôi không phải là quân nhân. Chú ấy là cảnh sát.",
         "pl": "Mój wujek nie jest żołnierzem, tylko policjantem."
-       }
+       },
+       "hl": [
+        "Paman saya bukan tentara"
+       ]
       }
      }
     ]
@@ -6045,33 +5251,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Dia tidak bekerja di kantor pos.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "他不在邮局工作。",
-        "ja": "彼は郵便局で働いていません。",
-        "en": "He does not work at the post office.",
-        "vi": "Anh ấy không làm việc ở bưu điện.",
-        "pl": "Nie pracuje na poczcie."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Dia tidak bekerja di kantor pos. Dia bekerja di bank.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他不在邮局工作，在银行工作。",
         "ja": "彼は郵便局ではなく、銀行で働いています。",
         "en": "He does not work at the post office. He works at a bank.",
         "vi": "Anh ấy không làm việc ở bưu điện. Anh ấy làm việc ở ngân hàng.",
         "pl": "Nie pracuje na poczcie, tylko w banku."
-       }
+       },
+       "hl": [
+        "Dia tidak bekerja di kantor pos"
+       ]
       }
      },
      {
@@ -6090,33 +5282,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mariana tidak meminjam buku di Perpustakaan FIB.",
+       "text": "Mariana tidak meminjam buku di Perpustakaan FIB. Dia membaca buku di rumah.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "Mariana 不在文化学院图书馆借书。",
-        "ja": "Mariana は文化学部（FIB）の図書館で本を借りません。",
-        "en": "Mariana does not borrow books at the FIB library.",
-        "vi": "Mariana không mượn sách ở Thư viện FIB.",
-        "pl": "Mariana nie wypożycza książek w bibliotece FIB."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Mariana tidak meminjam buku di sana. Dia membaca buku di rumah.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "Mariana 不在那儿借书，她在家看书。",
-        "ja": "Mariana はそこで本を借りません。家で本を読みます。",
-        "en": "Mariana does not borrow books there. She reads at home.",
-        "vi": "Mariana không mượn sách ở đó. Cô ấy đọc sách ở nhà.",
-        "pl": "Mariana nie wypożycza tam książek, czyta w domu."
-       }
+        "zh": "Mariana 不在文化学院图书馆借书，她在家看书。",
+        "ja": "Mariana は FIB の図書館で本を借りません。家で本を読みます。",
+        "en": "Mariana does not borrow books at the FIB library. She reads at home.",
+        "vi": "Mariana không mượn sách ở thư viện FIB. Bạn ấy đọc sách ở nhà.",
+        "pl": "Mariana nie wypożycza książek w bibliotece FIB. Czyta w domu."
+       },
+       "hl": [
+        "Mariana tidak meminjam buku di Perpustakaan FIB"
+       ]
       }
      },
      {
@@ -6135,33 +5313,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Rahmi tidak tinggal di Surabaya bersama kakeknya.",
+       "text": "Rahmi tidak tinggal di Surabaya bersama kakeknya. Dia tinggal bersama orang tuanya.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "Rahmi 不跟爷爷一起住在泗水。",
-        "ja": "Rahmi はおじいさんと一緒にスラバヤに住んではいません。",
-        "en": "Rahmi does not live in Surabaya with her grandfather.",
-        "vi": "Rahmi không sống ở Surabaya cùng với ông của mình.",
-        "pl": "Rahmi nie mieszka z dziadkiem w Surabai."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Rahmi tidak tinggal bersama kakeknya. Dia tinggal bersama orang tuanya.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "Rahmi 不跟爷爷住，她跟父母住。",
-        "ja": "Rahmi はおじいさんとではなく、両親と住んでいます。",
-        "en": "Rahmi does not live with her grandfather. She lives with her parents.",
-        "vi": "Rahmi không sống cùng với ông. Cô ấy sống cùng với bố mẹ.",
-        "pl": "Rahmi nie mieszka z dziadkiem, tylko z rodzicami."
-       }
+        "zh": "Rahmi 不跟爷爷一起住在泗水，她跟父母住。",
+        "ja": "Rahmi はスラバヤで祖父と暮らしていません。両親と暮らしています。",
+        "en": "Rahmi does not live in Surabaya with her grandfather. She lives with her parents.",
+        "vi": "Rahmi không sống ở Surabaya với ông. Bạn ấy sống với bố mẹ.",
+        "pl": "Rahmi nie mieszka w Surabai z dziadkiem. Mieszka z rodzicami."
+       },
+       "hl": [
+        "Rahmi tidak tinggal di Surabaya bersama kakeknya"
+       ]
       }
      },
      {
@@ -6180,33 +5344,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Pak Wawan tidak sakit kepala.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "Pak Wawan 不头疼。",
-        "ja": "Pak Wawan は頭が痛くありません。",
-        "en": "Pak Wawan does not have a headache.",
-        "vi": "Pak Wawan không bị đau đầu.",
-        "pl": "Pak Wawan nie ma bólu głowy."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Wawan tidak sakit kepala. Dia sehat.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Wawan 不头疼，他身体很好。",
         "ja": "Pak Wawan は頭は痛くありません。とても元気です。",
         "en": "Pak Wawan does not have a headache. He is well.",
         "vi": "Pak Wawan không bị đau đầu. Ông ấy khỏe.",
         "pl": "Pak Wawan nie ma bólu głowy, czuje się dobrze."
-       }
+       },
+       "hl": [
+        "Pak Wawan tidak sakit kepala"
+       ]
       }
      },
      {
@@ -6225,33 +5375,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ahmad tidak belajar bahasa Indonesia di INCULS.",
+       "text": "Ahmad tidak belajar bahasa Indonesia di INCULS. Dia belajar bahasa Jawa.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "Ahmad 不在 INCULS 学印尼语。",
-        "ja": "Ahmad は INCULS でインドネシア語を勉強していません。",
-        "en": "Ahmad does not study Indonesian at INCULS.",
-        "vi": "Ahmad không học tiếng Indonesia ở INCULS.",
-        "pl": "Ahmad nie uczy się indonezyjskiego w INCULS."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Ahmad tidak belajar bahasa Indonesia. Dia belajar bahasa Jawa.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "Ahmad 不学印尼语，他学爪哇语。",
-        "ja": "Ahmad はインドネシア語ではなく、ジャワ語を勉強しています。",
-        "en": "Ahmad does not study Indonesian. He studies Javanese.",
-        "vi": "Ahmad không học tiếng Indonesia. Anh ấy học tiếng Java.",
-        "pl": "Ahmad nie uczy się indonezyjskiego, tylko jawajskiego."
-       }
+        "zh": "Ahmad 不在 INCULS 学印尼语，他学爪哇语。",
+        "ja": "Ahmad は INCULS でインドネシア語を勉強していません。ジャワ語を勉強しています。",
+        "en": "Ahmad does not study Indonesian at INCULS. He studies Javanese.",
+        "vi": "Ahmad không học tiếng Indonesia ở INCULS. Anh ấy học tiếng Java.",
+        "pl": "Ahmad nie uczy się indonezyjskiego w INCULS. Uczy się jawajskiego."
+       },
+       "hl": [
+        "Ahmad tidak belajar bahasa Indonesia di INCULS"
+       ]
       }
      },
      {
@@ -6270,33 +5406,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ziah dan teman-temannya tidak pergi ke pantai.",
+       "text": "Ziah dan teman-temannya tidak pergi ke pantai. Mereka pergi ke pasar.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "Ziah 和朋友们不去海边。",
-        "ja": "Ziah と友だちは海へ行きません。",
-        "en": "Ziah and her friends do not go to the beach.",
-        "vi": "Ziah và các bạn không đi biển.",
-        "pl": "Ziah z koleżankami nie idzie na plażę."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Mereka tidak pergi ke pantai. Mereka pergi ke pasar.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "她们不去海边，去市场。",
-        "ja": "彼女たちは海ではなく、市場へ行きます。",
-        "en": "They do not go to the beach. They go to the market.",
-        "vi": "Họ không đi biển. Họ đi chợ.",
-        "pl": "Nie idą na plażę, tylko na targ."
-       }
+        "zh": "Ziah 和朋友们不去海边，她们去市场。",
+        "ja": "Ziah と友だちは海に行きません。市場に行きます。",
+        "en": "Ziah and her friends do not go to the beach. They go to the market.",
+        "vi": "Ziah và các bạn không đi biển. Họ đi chợ.",
+        "pl": "Ziah i jej znajomi nie jadą na plażę. Idą na targ."
+       },
+       "hl": [
+        "Ziah dan teman-temannya tidak pergi ke pantai"
+       ]
       }
      },
      {
@@ -6315,33 +5437,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ujang tidak membaca buku.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "Ujang 没在看书。",
-        "ja": "Ujang は本を読んでいません。",
-        "en": "Ujang is not reading a book.",
-        "vi": "Ujang không đọc sách.",
-        "pl": "Ujang nie czyta książki."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ujang tidak membaca buku. Dia menonton televisi.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Ujang 没在看书，他在看电视。",
         "ja": "Ujang は本を読んでいるのではなく、テレビを見ています。",
         "en": "Ujang is not reading. He is watching television.",
         "vi": "Ujang không đọc sách. Anh ấy đang xem tivi.",
         "pl": "Ujang nie czyta, tylko ogląda telewizję."
-       }
+       },
+       "hl": [
+        "Ujang tidak membaca buku"
+       ]
       }
      },
      {
@@ -6360,33 +5468,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mereka tidak minum jus di kantin.",
+       "text": "Mereka tidak minum jus di kantin. Mereka minum teh.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "他们不在食堂喝果汁。",
-        "ja": "かれらは食堂でジュースを飲みません。",
-        "en": "They do not drink juice in the canteen.",
-        "vi": "Họ không uống nước ép ở căng tin.",
-        "pl": "Nie piją soku w stołówce."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Mereka tidak minum jus. Mereka minum teh.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "他们不喝果汁，喝茶。",
-        "ja": "かれらはジュースではなく、お茶を飲みます。",
-        "en": "They do not drink juice. They drink tea.",
-        "vi": "Họ không uống nước ép. Họ uống trà.",
-        "pl": "Nie piją soku, tylko herbatę."
-       }
+        "zh": "他们不在食堂喝果汁，他们喝茶。",
+        "ja": "彼らは食堂でジュースを飲みません。お茶を飲みます。",
+        "en": "They do not drink juice in the canteen. They drink tea.",
+        "vi": "Họ không uống nước ép ở căng tin. Họ uống trà.",
+        "pl": "Nie piją soku w stołówce. Piją herbatę."
+       },
+       "hl": [
+        "Mereka tidak minum jus di kantin"
+       ]
       }
      },
      {
@@ -6405,33 +5499,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Anak-anak tidak duduk di kursi.",
+       "text": "Anak-anak tidak duduk di kursi. Mereka berdiri di depan kelas.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
-        "zh": "孩子们没坐在椅子上。",
-        "ja": "子どもたちはいすに座っていません。",
-        "en": "The children are not sitting on chairs.",
-        "vi": "Bọn trẻ không ngồi trên ghế.",
-        "pl": "Dzieci nie siedzą na krzesłach."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Anak-anak tidak duduk. Mereka berdiri di depan kelas.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "孩子们没坐着，他们站在教室前面。",
-        "ja": "子どもたちは座っていません。教室の前に立っています。",
-        "en": "The children are not sitting. They are standing at the front of the class.",
-        "vi": "Bọn trẻ không ngồi. Chúng đang đứng trước lớp.",
-        "pl": "Dzieci nie siedzą, tylko stoją z przodu klasy."
-       }
+        "zh": "孩子们没坐在椅子上，他们站在教室前面。",
+        "ja": "子どもたちはいすに座っていません。教室の前に立っています。",
+        "en": "The children are not sitting on chairs. They are standing at the front of the class.",
+        "vi": "Bọn trẻ không ngồi trên ghế. Chúng đứng trước lớp.",
+        "pl": "Dzieci nie siedzą na krzesłach. Stoją przed klasą."
+       },
+       "hl": [
+        "Anak-anak tidak duduk di kursi"
+       ]
       }
      },
      {
@@ -6450,33 +5530,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ayah tidak menonton televisi.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "爸爸没在看电视。",
-        "ja": "お父さんはテレビを見ていません。",
-        "en": "Dad is not watching television.",
-        "vi": "Bố không xem tivi.",
-        "pl": "Tata nie ogląda telewizji."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ayah tidak menonton televisi. Ayah tidur.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "爸爸没在看电视，他在睡觉。",
         "ja": "お父さんはテレビを見ているのではなく、寝ています。",
         "en": "Dad is not watching television. He is asleep.",
         "vi": "Bố không xem tivi. Bố đang ngủ.",
         "pl": "Tata nie ogląda telewizji, tylko śpi."
-       }
+       },
+       "hl": [
+        "Ayah tidak menonton televisi"
+       ]
       }
      }
     ]
@@ -6502,11 +5568,11 @@
      },
      {
       "text": {
-       "zh": "<b>Latihan 2 第 8、9 题</b>：做改写题就照写 <s>Anda</s>、<s>Kalian</s>。但如果老师<b>看着你</b>说 <i>Anda pemain bola</i>，是在问你本人，回答要换成 <b>Saya bukan …</b> / <b>Kami bukan …</b>。完整版就是这种答法。",
-       "ja": "<b>Latihan 2 の第 8・9 問</b>：書き換え問題としては <s>Anda</s>、<s>Kalian</s> のまま書きます。でも先生が<b>あなたを見て</b> <i>Anda pemain bola</i> と言ったら、あなた自身のことを聞いているので、<b>Saya bukan …</b> / <b>Kami bukan …</b> と答えます。「しっかり」の答えがその形です。",
-       "en": "<b>Latihan 2, items 8 and 9</b>: as a rewriting task, keep <s>Anda</s> and <s>Kalian</s>. But if the teacher <b>looks at you</b> and says <i>Anda pemain bola</i>, they mean you, so answer <b>Saya bukan …</b> / <b>Kami bukan …</b>. The Full answer shows this.",
-       "vi": "<b>Latihan 2, câu 8 và 9</b>: làm bài viết lại thì cứ giữ nguyên <s>Anda</s>, <s>Kalian</s>. Nhưng nếu thầy cô <b>nhìn bạn</b> mà nói <i>Anda pemain bola</i>, tức là đang nói về chính bạn, thì câu trả lời phải đổi thành <b>Saya bukan …</b> / <b>Kami bukan …</b>. Bản Đầy đủ chính là cách trả lời này.",
-       "pl": "<b>Latihan 2, zadania 8 i 9</b>: w ćwiczeniu na przekształcanie zostaw <s>Anda</s> i <s>Kalian</s>. Ale jeśli wykładowca <b>patrzy na ciebie</b> i mówi <i>Anda pemain bola</i>, chodzi o ciebie, więc odpowiadasz <b>Saya bukan …</b> / <b>Kami bukan …</b>. Tak wygląda odpowiedź „Pełniej”."
+       "zh": "<b>Latihan 2 第 8、9 题</b>：做改写题就照写 <s>Anda</s>、<s>Kalian</s>。但如果老师<b>看着你</b>说 <i>Anda pemain bola</i>，是在说你本人，回答要换成 <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i>。",
+       "ja": "<b>Latihan 2 の 8・9</b>：書き換え問題としては <s>Anda</s>・<s>Kalian</s> のまま書きます。ただし先生が<b>あなたを見て</b> <i>Anda pemain bola</i> と言ったら、あなた本人のことなので <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i> と答えます。",
+       "en": "<b>Latihan 2, items 8 and 9</b>: as a rewriting task, keep <s>Anda</s> and <s>Kalian</s>. But if the teacher <b>looks at you</b> and says <i>Anda pemain bola</i>, they mean you, so answer <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i>.",
+       "vi": "<b>Latihan 2, câu 8 và 9</b>: làm bài chuyển câu thì cứ giữ <s>Anda</s>, <s>Kalian</s>. Nhưng nếu thầy cô <b>nhìn bạn</b> và nói <i>Anda pemain bola</i>, tức là đang nói về chính bạn, hãy trả lời <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i>.",
+       "pl": "<b>Latihan 2, zadania 8 i 9</b>: jako przekształcenie zdania zostaw <s>Anda</s> i <s>Kalian</s>. Ale jeśli prowadzący <b>patrzy na ciebie</b> i mówi <i>Anda pemain bola</i>, chodzi o ciebie — odpowiedz <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i>."
       }
      },
      {
@@ -6651,11 +5717,11 @@
    {
     "k": "lead",
     "text": {
-     "zh": "课本第 53–54 页 Latihan 4、5。Latihan 5 的保底版只要说出那一个词。",
-     "ja": "教科書 53〜54 ページの Latihan 4・5。Latihan 5 の「最短で」は、その一語を言うだけです。",
-     "en": "Latihan 4 and 5 on pages 53–54 of the book. For Latihan 5, the Short answer is just the one word.",
-     "vi": "Latihan 4, 5 ở trang 53–54 của sách. Với Latihan 5, bản Ngắn gọn chỉ cần nói đúng một từ đó.",
-     "pl": "Latihan 4 i 5 ze stron 53–54 podręcznika. W Latihan 5 odpowiedź „Krótko” to tylko to jedno słowo."
+     "zh": "课本第 53–54 页 Latihan 4、5。Latihan 5 的答案里只有填进空格的那个词是粗体 —— 被点到时说出这一个词就行。",
+     "ja": "教科書 53〜54 ページの Latihan 4・5。Latihan 5 は空欄に入る一語だけが太字です —— 当てられたらその一語を言えば十分です。",
+     "en": "Latihan 4 and 5 on pages 53–54 of the book. In Latihan 5 only the word that fills the blank is bold — when called on, that one word is enough.",
+     "vi": "Latihan 4 và 5 ở trang 53–54 trong sách. Ở Latihan 5 chỉ từ điền vào chỗ trống được in đậm — bị gọi thì nói đúng một từ đó là đủ.",
+     "pl": "Latihan 4 i 5 ze stron 53–54 podręcznika. W Latihan 5 pogrubione jest tylko słowo wpisywane w lukę — gdy ktoś cię wywoła, wystarczy to jedno słowo."
     }
    },
    {
@@ -6684,33 +5750,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Pagi ini tidak dingin.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "今天早上不冷。",
-        "ja": "今朝は寒くありません。",
-        "en": "It is not cold this morning.",
-        "vi": "Sáng nay trời không lạnh.",
-        "pl": "Dziś rano nie jest zimno."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pagi ini tidak dingin. Pagi ini panas.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "今天早上不冷，挺热的。",
         "ja": "今朝は寒くありません。暑いくらいです。",
         "en": "It is not cold this morning. It is hot.",
         "vi": "Sáng nay trời không lạnh. Sáng nay trời nóng.",
         "pl": "Dziś rano nie jest zimno, jest raczej gorąco."
-       }
+       },
+       "hl": [
+        "Pagi ini tidak dingin"
+       ]
       }
      },
      {
@@ -6729,33 +5781,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Momoka tidak pandai.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "Momoka 不聪明。",
-        "ja": "Momoka は頭がよくありません。",
-        "en": "Momoka is not clever.",
-        "vi": "Momoka không giỏi.",
-        "pl": "Momoka nie jest mądra."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Momoka tidak pandai memasak, tetapi pandai menari.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Momoka 不太会做饭，但很会跳舞。",
         "ja": "Momoka は料理は得意ではありませんが、ダンスは上手です。",
         "en": "Momoka is not good at cooking, but she is good at dancing.",
         "vi": "Momoka không giỏi nấu ăn, nhưng giỏi múa.",
         "pl": "Momoka nie za bardzo umie gotować, ale świetnie tańczy."
-       }
+       },
+       "hl": [
+        "Momoka tidak pandai"
+       ]
       }
      },
      {
@@ -6774,33 +5812,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Rumah Arif tidak indah.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "Arif 的房子不漂亮。",
-        "ja": "Arif の家はきれいではありません。",
-        "en": "Arif’s house is not beautiful.",
-        "vi": "Nhà của Arif không đẹp.",
-        "pl": "Dom Arifa nie jest ładny."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Rumah Arif tidak indah, tetapi nyaman.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Arif 的房子不漂亮，但很舒服。",
         "ja": "Arif の家はきれいではありませんが、居心地がいいです。",
         "en": "Arif’s house is not beautiful, but it is comfortable.",
         "vi": "Nhà của Arif không đẹp, nhưng thoải mái.",
         "pl": "Dom Arifa nie jest ładny, ale jest wygodny."
-       }
+       },
+       "hl": [
+        "Rumah Arif tidak indah"
+       ]
       }
      },
      {
@@ -6819,33 +5843,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Artis itu tidak cantik.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "那个明星不美。",
-        "ja": "あの芸能人は美人ではありません。",
-        "en": "That celebrity is not beautiful.",
-        "vi": "Người nổi tiếng đó không xinh đẹp.",
-        "pl": "Ta gwiazda nie jest piękna."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Artis itu tidak cantik, tetapi ramah.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "那个明星不算美，但很亲切。",
         "ja": "あの芸能人は美人とは言えませんが、とても感じがいいです。",
         "en": "That celebrity is not beautiful, but she is friendly.",
         "vi": "Người nổi tiếng đó không xinh đẹp lắm, nhưng rất thân thiện.",
         "pl": "Ta gwiazda nie jest jakoś szczególnie piękna, ale jest bardzo sympatyczna."
-       }
+       },
+       "hl": [
+        "Artis itu tidak cantik"
+       ]
       }
      },
      {
@@ -6864,33 +5874,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kampusnya tidak jauh.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "他的学校不远。",
-        "ja": "彼の学校は遠くありません。",
-        "en": "His campus is not far.",
-        "vi": "Trường của anh ấy không xa.",
-        "pl": "Jego uczelnia nie jest daleko."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kampusnya tidak jauh dari rumah.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他的学校离家不远。",
         "ja": "彼の学校は家から遠くありません。",
         "en": "His campus is not far from home.",
         "vi": "Trường của anh ấy không xa nhà.",
         "pl": "Jego uczelnia nie jest daleko od domu."
-       }
+       },
+       "hl": [
+        "Kampusnya tidak jauh"
+       ]
       }
      },
      {
@@ -6909,33 +5905,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Bibi saya tidak kurus.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "我阿姨不瘦。",
-        "ja": "わたしのおばはやせていません。",
-        "en": "My aunt is not thin.",
-        "vi": "Dì tôi không gầy.",
-        "pl": "Moja ciocia nie jest szczupła."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Bibi saya tidak kurus dan tidak tinggi.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "我阿姨不瘦，也不高。",
         "ja": "わたしのおばはやせてもいないし、背も高くありません。",
         "en": "My aunt is neither thin nor tall.",
         "vi": "Dì tôi không gầy, cũng không cao.",
         "pl": "Moja ciocia nie jest ani szczupła, ani wysoka."
-       }
+       },
+       "hl": [
+        "Bibi saya tidak kurus"
+       ]
       }
      },
      {
@@ -6956,31 +5938,17 @@
        "lang": "id",
        "text": "Pegawai dan tutor INCULS tidak baik.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "INCULS 的职员和老师不好。",
         "ja": "INCULS の職員と先生はいい人たちではありません。",
         "en": "The INCULS staff and tutors are not nice.",
         "vi": "Nhân viên và thầy cô ở INCULS không tốt.",
         "pl": "Pracownicy i lektorzy INCULS nie są mili."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Tutor INCULS tidak galak. Mereka baik sekali.",
-       "reg": "formal",
-       "kw": [
-        "galak"
-       ],
-       "gloss": {
-        "zh": "INCULS 的老师不凶，他们人很好。",
-        "ja": "INCULS の先生は厳しくありません。とてもやさしい人たちです。",
-        "en": "The INCULS tutors are not strict. They are very kind.",
-        "vi": "Thầy cô ở INCULS không khó tính. Họ rất tốt bụng.",
-        "pl": "Lektorzy INCULS nie są surowi, są bardzo życzliwi."
-       }
+       },
+       "hl": [
+        "Pegawai dan tutor INCULS tidak baik"
+       ]
       }
      },
      {
@@ -7001,31 +5969,17 @@
        "lang": "id",
        "text": "Kampus UGM tidak besar.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "UGM 校园不大。",
         "ja": "UGM のキャンパスは広くありません。",
         "en": "The UGM campus is not big.",
         "vi": "Khuôn viên UGM không rộng.",
         "pl": "Kampus UGM nie jest duży."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Kampus UGM tidak kecil. Kampus UGM besar sekali.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "UGM 校园不小，大得很。",
-        "ja": "UGM のキャンパスは狭くありません。とても広いです。",
-        "en": "The UGM campus is not small. It is very big.",
-        "vi": "Khuôn viên UGM không nhỏ. Khuôn viên UGM rộng lắm.",
-        "pl": "Kampus UGM nie jest mały, jest ogromny."
-       }
+       },
+       "hl": [
+        "Kampus UGM tidak besar"
+       ]
       }
      },
      {
@@ -7044,33 +5998,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Baju Malik tidak baru.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "Malik 的衣服不是新的。",
-        "ja": "Malik の服は新しくありません。",
-        "en": "Malik’s clothes are not new.",
-        "vi": "Áo của Malik không mới.",
-        "pl": "Ubrania Malika nie są nowe."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Baju Malik tidak baru, tetapi masih bagus.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Malik 的衣服不新，但还挺好。",
         "ja": "Malik の服は新しくはありませんが、まだきれいです。",
         "en": "Malik’s clothes are not new, but they are still nice.",
         "vi": "Áo của Malik không mới, nhưng vẫn còn đẹp.",
         "pl": "Ubrania Malika nie są nowe, ale wciąż są ładne."
-       }
+       },
+       "hl": [
+        "Baju Malik tidak baru"
+       ]
       }
      },
      {
@@ -7089,33 +6029,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Nasi goreng di kantin tidak murah.",
-       "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
-       "gloss": {
-        "zh": "食堂的炒饭不便宜。",
-        "ja": "食堂のナシゴレンは安くありません。",
-        "en": "The fried rice in the canteen is not cheap.",
-        "vi": "Cơm chiên ở căng tin không rẻ.",
-        "pl": "Smażony ryż w stołówce nie jest tani."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Nasi goreng di kantin tidak murah, tetapi enak.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "食堂的炒饭不便宜，但好吃。",
         "ja": "食堂のナシゴレンは安くはありませんが、おいしいです。",
         "en": "The fried rice in the canteen is not cheap, but it is tasty.",
         "vi": "Cơm chiên ở căng tin không rẻ, nhưng ngon.",
         "pl": "Smażony ryż w stołówce nie jest tani, ale jest smaczny."
-       }
+       },
+       "hl": [
+        "Nasi goreng di kantin tidak murah"
+       ]
       }
      }
     ]
@@ -7143,31 +6069,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Bukan.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不是（polisi 是名词）。",
-        "ja": "Bukan（polisi は名詞）。",
-        "en": "Bukan (polisi is a noun).",
-        "vi": "Bukan (polisi là danh từ).",
-        "pl": "Bukan (polisi to rzeczownik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Mereka bukan polisi. Mereka karyawan dan bekerja di bank.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "他们不是警察，他们是职员，在银行上班。",
         "ja": "かれらは警察官ではありません。会社員で、銀行で働いています。",
         "en": "They are not police officers. They are employees and work at a bank.",
         "vi": "Họ không phải là cảnh sát. Họ là nhân viên và làm việc ở ngân hàng.",
         "pl": "Nie są policjantami, są pracownikami i pracują w banku."
-       }
+       },
+       "hl": [
+        "bukan"
+       ]
       }
      },
      {
@@ -7183,31 +6097,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Tidak.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不（ikut 是动词）。",
-        "ja": "Tidak（ikut は動詞）。",
-        "en": "Tidak (ikut is a verb).",
-        "vi": "Tidak (ikut là động từ).",
-        "pl": "Tidak (ikut to czasownik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Yusuf, mengapa adikmu tidak ikut berenang?",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Yusuf，你弟弟为什么不一起去游泳？",
         "ja": "Yusuf、弟さんはどうして一緒に泳ぎに行かないんですか。",
         "en": "Yusuf, why isn’t your little brother coming swimming?",
         "vi": "Yusuf, sao em trai cậu không đi bơi cùng?",
         "pl": "Yusuf, czemu twój młodszy brat nie idzie z nami popływać?"
-       }
+       },
+       "hl": [
+        "tidak"
+       ]
       }
      },
      {
@@ -7223,31 +6125,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Bukan.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不是（dosen 是名词）。",
-        "ja": "Bukan（dosen は名詞）。",
-        "en": "Bukan (dosen is a noun).",
-        "vi": "Bukan (dosen là danh từ).",
-        "pl": "Bukan (dosen to rzeczownik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Gaza bukan dosen di universitas. Dia guru di Sekolah Dasar.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Gaza 不是大学讲师，他是小学老师。",
         "ja": "Pak Gaza は大学の講師ではありません。小学校の先生です。",
         "en": "Pak Gaza is not a university lecturer. He is a primary-school teacher.",
         "vi": "Pak Gaza không phải là giảng viên đại học. Ông ấy là giáo viên tiểu học.",
         "pl": "Pak Gaza nie jest wykładowcą na uniwersytecie, tylko nauczycielem w szkole podstawowej."
-       }
+       },
+       "hl": [
+        "bukan"
+       ]
       }
      },
      {
@@ -7263,31 +6153,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Tidak.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不（suka 是动词）。",
-        "ja": "Tidak（suka は動詞）。",
-        "en": "Tidak (suka is a verb).",
-        "vi": "Tidak (suka là động từ).",
-        "pl": "Tidak (suka to czasownik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Niken suka makan sate. Dia tidak suka makan ikan bakar.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Niken 喜欢吃沙爹，不喜欢吃烤鱼。",
         "ja": "Niken はサテが好きで、焼き魚は好きではありません。",
         "en": "Niken likes satay. She does not like grilled fish.",
         "vi": "Niken thích ăn sate. Cô ấy không thích ăn cá nướng.",
         "pl": "Niken lubi satay, a nie lubi grillowanej ryby."
-       }
+       },
+       "hl": [
+        "tidak"
+       ]
       }
      },
      {
@@ -7303,31 +6181,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Tidak.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不（lebar 是形容词）。",
-        "ja": "Tidak（lebar は形容詞）。",
-        "en": "Tidak (lebar is an adjective).",
-        "vi": "Tidak (lebar là tính từ).",
-        "pl": "Tidak (lebar to przymiotnik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Jalan itu tidak lebar. Mobil tidak bisa lewat.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "那条路不宽，车过不去。",
         "ja": "あの道は広くないので、車は通れません。",
         "en": "That road is not wide. Cars cannot get through.",
         "vi": "Con đường đó không rộng. Ô tô không đi qua được.",
         "pl": "Ta droga nie jest szeroka, samochody nie przejadą."
-       }
+       },
+       "hl": [
+        "tidak"
+       ]
       }
      },
      {
@@ -7343,31 +6209,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Bukan.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不是（rumah 是名词）。",
-        "ja": "Bukan（rumah は名詞）。",
-        "en": "Bukan (rumah is a noun).",
-        "vi": "Bukan (rumah là danh từ).",
-        "pl": "Bukan (rumah to rzeczownik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Rumah itu bukan rumah saya. Rumah saya di Jalan Kaliurang, Yogyakarta.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "那不是我家。我家在日惹的 Kaliurang 路。",
         "ja": "あれはわたしの家ではありません。わたしの家はジョグジャカルタの Kaliurang 通りにあります。",
         "en": "That house is not mine. My house is on Jalan Kaliurang, Yogyakarta.",
         "vi": "Căn nhà đó không phải là nhà tôi. Nhà tôi ở đường Kaliurang, Yogyakarta.",
         "pl": "To nie jest mój dom. Mój dom jest przy Jalan Kaliurang w Jogji."
-       }
+       },
+       "hl": [
+        "bukan"
+       ]
       }
      },
      {
@@ -7383,31 +6237,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Tidak.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不（pandai 是形容词）。",
-        "ja": "Tidak（pandai は形容詞）。",
-        "en": "Tidak (pandai is an adjective).",
-        "vi": "Tidak (pandai là tính từ).",
-        "pl": "Tidak (pandai to przymiotnik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Anak kecil itu tidak pandai. Dia malas belajar.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "那个小孩不聪明，他懒得学习。",
         "ja": "あの子は頭がよくありません。勉強を怠けています。",
         "en": "That child is not clever. He is too lazy to study.",
         "vi": "Đứa bé đó không giỏi. Nó lười học.",
         "pl": "To dziecko nie jest mądre, nie chce mu się uczyć."
-       }
+       },
+       "hl": [
+        "tidak"
+       ]
       }
      },
      {
@@ -7423,31 +6265,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Tidak.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不（pergi 是动词）。",
-        "ja": "Tidak（pergi は動詞）。",
-        "en": "Tidak (pergi is a verb).",
-        "vi": "Tidak (pergi là động từ).",
-        "pl": "Tidak (pergi to czasownik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Arif tidak pergi ke kantor hari ini. Dia sakit.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Arif 今天不去上班，他病了。",
         "ja": "Arif は今日、会社へ行きません。病気なんです。",
         "en": "Arif is not going to the office today. He is ill.",
         "vi": "Hôm nay Arif không đi làm. Anh ấy bị ốm.",
         "pl": "Arif nie idzie dziś do pracy, jest chory."
-       }
+       },
+       "hl": [
+        "tidak"
+       ]
       }
      },
      {
@@ -7463,31 +6293,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Tidak.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不（suka 是动词）。",
-        "ja": "Tidak（suka は動詞）。",
-        "en": "Tidak (suka is a verb).",
-        "vi": "Tidak (suka là động từ).",
-        "pl": "Tidak (suka to czasownik)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ana tidak suka minum kopi. Dia suka minum teh.",
        "reg": "formal",
-       "kw": [
-        "tidak"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Ana 不喜欢喝咖啡，她喜欢喝茶。",
         "ja": "Ana はコーヒーが好きではありません。お茶が好きです。",
         "en": "Ana does not like coffee. She likes tea.",
         "vi": "Ana không thích uống cà phê. Cô ấy thích uống trà.",
         "pl": "Ana nie lubi kawy, lubi herbatę."
-       }
+       },
+       "hl": [
+        "tidak"
+       ]
       }
      },
      {
@@ -7503,31 +6321,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Bukan.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "不是（纠正：是 A，不是 B）。",
-        "ja": "Bukan（訂正：A であって、B ではない）。",
-        "en": "Bukan (a correction: A, not B).",
-        "vi": "Bukan (sửa lại: là A, không phải B).",
-        "pl": "Bukan (poprawka: A, a nie B)."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Budi mertua Sari, bukan mertua Lusi.",
        "reg": "formal",
-       "kw": [
-        "bukan"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Budi 是 Sari 的公公，不是 Lusi 的公公。",
         "ja": "Pak Budi は Sari の義理の父で、Lusi の義理の父ではありません。",
         "en": "Pak Budi is Sari’s father-in-law, not Lusi’s.",
         "vi": "Pak Budi là bố chồng của Sari, không phải bố chồng của Lusi.",
         "pl": "Pak Budi jest teściem Sari, a nie Lusi."
-       }
+       },
+       "hl": [
+        "bukan"
+       ]
       }
      }
     ]
@@ -7553,11 +6359,11 @@
      },
      {
       "text": {
-       "zh": "Latihan 4 第 7 题照改出来是「INCULS 的老师不好」，被点到时可能有点尴尬 —— 可以先念保底版，再笑着补一句完整版（老师不凶、人很好）。",
-       "ja": "Latihan 4 の第 7 問をそのまま書き換えると「INCULS の先生はいい人ではない」になり、授業で当てられると少し気まずいかもしれません。まず「最短で」を言ってから、笑顔で「しっかり」の答え（先生は厳しくない、とてもやさしい）を足しましょう。",
-       "en": "Latihan 4, item 7 comes out as “the INCULS tutors are not nice”, which can feel awkward to say in class. Say the Short answer, then add the Full one with a smile (the tutors are not strict, they are very kind).",
-       "vi": "Câu 7 của Latihan 4 nếu đổi đúng theo đề sẽ thành “thầy cô ở INCULS không tốt”, bị gọi đọc trên lớp có thể hơi ngượng — bạn cứ đọc bản Ngắn gọn trước, rồi cười và nói thêm bản Đầy đủ (thầy cô không khó tính, rất tốt bụng).",
-       "pl": "Latihan 4, zadanie 7 po przekształceniu brzmi „lektorzy INCULS nie są mili” — trochę niezręcznie powiedzieć to na zajęciach. Powiedz wersję „Krótko”, a potem z uśmiechem dodaj „Pełniej” (lektorzy nie są surowi, są bardzo życzliwi)."
+       "zh": "Latihan 4 第 7 题照改出来是「INCULS 的老师不好」，被点到时可能有点尴尬 —— 念完可以笑着补一句 <s>Tutor INCULS tidak galak. Mereka baik sekali.</s>（老师不凶，人很好）。",
+       "ja": "Latihan 4 の 7 は書き換えると「INCULS の先生はよくない」になり、当てられると少し気まずいかもしれません —— 読んだあと笑顔で <s>Tutor INCULS tidak galak. Mereka baik sekali.</s>（先生は怖くない、とても親切です）と付け足せば大丈夫です。",
+       "en": "Latihan 4, item 7 comes out as “the INCULS tutors are not nice”, which can feel awkward to say in class. After reading it, you can add with a smile: <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (the tutors are not strict, they are very kind).",
+       "vi": "Latihan 4, câu 7 chuyển xong thành “thầy cô INCULS không tốt”, bị gọi đọc câu này có thể hơi ngại — đọc xong bạn cười và nói thêm <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (thầy cô không khó tính, rất tốt bụng).",
+       "pl": "Latihan 4, zadanie 7 po przekształceniu brzmi „pracownicy i lektorzy INCULS nie są mili”, co w klasie może być trochę niezręczne — po odczytaniu możesz z uśmiechem dodać <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (lektorzy nie są surowi, są bardzo mili)."
       }
      }
     ]
@@ -8171,9 +6977,7 @@
        "lang": "id",
        "text": "Ke mana istri Pak Budi dan Ayu pergi?",
        "reg": "formal",
-       "kw": [
-        "mana"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Budi 的妻子和 Ayu 去哪儿了？",
         "ja": "Pak Budi の奥さんと Ayu はどこへ行きましたか。",
@@ -8184,31 +6988,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ke rumah nenek Ayu.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "去 Ayu 的奶奶家。",
-        "ja": "Ayu のおばあちゃんの家へ。",
-        "en": "To Ayu’s grandmother’s house.",
-        "vi": "Đến nhà bà nội của Ayu.",
-        "pl": "Do domu babci Ayu."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Istri Pak Budi dan Ayu pergi ke rumah nenek Ayu, yaitu ibu Pak Budi.",
        "reg": "formal",
-       "kw": [
-        "nenek"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Budi 的妻子和 Ayu 去了 Ayu 的奶奶家，也就是 Pak Budi 的母亲家。",
         "ja": "Pak Budi の奥さんと Ayu は、Ayu のおばあちゃん、つまり Pak Budi のお母さんの家へ行きました。",
         "en": "Pak Budi’s wife and Ayu went to Ayu’s grandmother’s, that is, Pak Budi’s mother’s house.",
         "vi": "Vợ của Pak Budi và Ayu đã đến nhà bà nội của Ayu, tức là nhà mẹ của Pak Budi.",
         "pl": "Żona Pak Budi i Ayu poszły do babci Ayu, czyli do domu mamy Pak Budi."
-       }
+       },
+       "hl": [
+        "ke rumah nenek Ayu"
+       ]
       }
      },
      {
@@ -8216,9 +7008,7 @@
        "lang": "id",
        "text": "Di mana Rizki? Dia sedang melakukan apa?",
        "reg": "formal",
-       "kw": [
-        "mana"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Rizki 在哪儿？他在做什么？",
         "ja": "Rizki はどこにいますか。何をしていますか。",
@@ -8229,31 +7019,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Di sekolah. Dia sedang kursus.",
+       "text": "Rizki masih di sekolah. Dia sedang kursus sore ini.",
        "reg": "formal",
        "kw": [],
        "gloss": {
-        "zh": "在学校，他在上补习课。",
-        "ja": "学校です。講座を受けています。",
-        "en": "At school. He is at a course.",
-        "vi": "Ở trường. Cậu ấy đang học thêm.",
-        "pl": "W szkole. Jest na kursie."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Rizki belum pulang dari sekolah. Sore ini dia sedang ikut kursus.",
-       "reg": "formal",
-       "kw": [
-        "kursus"
-       ],
-       "gloss": {
-        "zh": "Rizki 还没放学回家，今天下午他在上补习课。",
-        "ja": "Rizki はまだ学校から帰っていません。今日の午後は講座を受けています。",
-        "en": "Rizki isn’t back from school yet. This afternoon he is at a course.",
-        "vi": "Rizki chưa đi học về. Chiều nay cậu ấy có lớp học thêm.",
-        "pl": "Rizki jeszcze nie wrócił ze szkoły. Dziś po południu ma kurs."
-       }
+        "zh": "Rizki 还在学校，今天下午他在上补习课。",
+        "ja": "Rizki はまだ学校にいます。今日の午後は講座に出ています。",
+        "en": "Rizki is still at school. He has a course this afternoon.",
+        "vi": "Rizki vẫn còn ở trường. Chiều nay cậu ấy đi học thêm.",
+        "pl": "Rizki jest jeszcze w szkole. Tego popołudnia ma kurs."
+       },
+       "hl": [
+        "di sekolah. Dia sedang kursus"
+       ]
       }
      },
      {
@@ -8261,10 +7039,7 @@
        "lang": "id",
        "text": "Ada apa di rumah orang tua Pak Budi?",
        "reg": "formal",
-       "kw": [
-        "ada",
-        "apa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Budi 的父母家有什么事？",
         "ja": "Pak Budi の両親の家では何がありますか。",
@@ -8275,31 +7050,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ada pesta.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "有个聚会。",
-        "ja": "パーティーがあります。",
-        "en": "There’s a party.",
-        "vi": "Có tiệc.",
-        "pl": "Jest przyjęcie."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Nanti malam ada pesta ulang tahun perkawinan orang tua Pak Budi.",
        "reg": "formal",
-       "kw": [
-        "pesta"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "今晚有 Pak Budi 父母的结婚纪念聚会。",
         "ja": "今夜、Pak Budi の両親の結婚記念パーティーがあります。",
         "en": "Tonight there is a wedding-anniversary party for Pak Budi’s parents.",
         "vi": "Tối nay có tiệc kỷ niệm ngày cưới của bố mẹ Pak Budi.",
         "pl": "Dziś wieczorem jest przyjęcie z okazji rocznicy ślubu rodziców Pak Budi."
-       }
+       },
+       "hl": [
+        "ada pesta"
+       ]
       }
      },
      {
@@ -8307,9 +7070,7 @@
        "lang": "id",
        "text": "Siapa yang sudah berkumpul di rumah orang tua Pak Budi?",
        "reg": "formal",
-       "kw": [
-        "siapa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "谁已经聚在 Pak Budi 的父母家了？",
         "ja": "Pak Budi の両親の家にもう集まっているのはだれですか。",
@@ -8320,31 +7081,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saudara-saudara Pak Budi.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Pak Budi 的兄弟姐妹。",
-        "ja": "Pak Budi のきょうだいです。",
-        "en": "Pak Budi’s brothers and sisters.",
-        "vi": "Anh chị em của Pak Budi.",
-        "pl": "Rodzeństwo Pak Budi."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Saudara-saudara Pak Budi sudah berkumpul di sana. Istrinya dan Ayu juga sudah di sana.",
        "reg": "formal",
-       "kw": [
-        "saudara-saudara"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Budi 的兄弟姐妹已经聚在那儿了，他妻子和 Ayu 也已经到了。",
         "ja": "Pak Budi のきょうだいはもうそこに集まっています。奥さんと Ayu も着いています。",
         "en": "Pak Budi’s brothers and sisters have gathered there. His wife and Ayu are there too.",
         "vi": "Anh chị em của Pak Budi đã tụ họp ở đó. Vợ ông ấy và Ayu cũng đã ở đó.",
         "pl": "Rodzeństwo Pak Budi już się tam zebrało. Jego żona i Ayu też już są na miejscu."
-       }
+       },
+       "hl": [
+        "Saudara-saudara Pak Budi"
+       ]
       }
      },
      {
@@ -8352,10 +7101,7 @@
        "lang": "id",
        "text": "Dengan siapa Pak Budi akan pergi ke rumah orang tuanya?",
        "reg": "formal",
-       "kw": [
-        "dengan",
-        "siapa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Budi 要跟谁一起去父母家？",
         "ja": "Pak Budi はだれと一緒に両親の家へ行きますか。",
@@ -8366,31 +7112,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Dengan Rizki.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "跟 Rizki。",
-        "ja": "Rizki とです。",
-        "en": "With Rizki.",
-        "vi": "Cùng với Rizki.",
-        "pl": "Z Rizkim."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Budi akan pergi ke rumah orang tuanya dengan Rizki nanti malam.",
        "reg": "formal",
-       "kw": [
-        "rizki"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Budi 今晚要跟 Rizki 一起去父母家。",
         "ja": "Pak Budi は今夜、Rizki と一緒に両親の家へ行きます。",
         "en": "Pak Budi will go to his parents’ house with Rizki tonight.",
         "vi": "Tối nay Pak Budi sẽ đến nhà bố mẹ cùng với Rizki.",
         "pl": "Pak Budi pojedzie dziś wieczorem do rodziców z Rizkim."
-       }
+       },
+       "hl": [
+        "dengan Rizki"
+       ]
       }
      },
      {
@@ -8398,9 +7132,7 @@
        "lang": "id",
        "text": "Mengapa Pak Budi dan saudara-saudaranya berkumpul di rumah orang tua mereka?",
        "reg": "formal",
-       "kw": [
-        "mengapa"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "Pak Budi 和兄弟姐妹为什么聚在父母家？",
         "ja": "Pak Budi ときょうだいは、どうして両親の家に集まるのですか。",
@@ -8411,31 +7143,19 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Karena ada pesta.",
+       "text": "Karena ada pesta ulang tahun perkawinan orang tua mereka yang kelima puluh.",
        "reg": "formal",
        "kw": [],
        "gloss": {
-        "zh": "因为有聚会。",
-        "ja": "パーティーがあるからです。",
-        "en": "Because there is a party.",
-        "vi": "Vì có tiệc.",
-        "pl": "Bo jest przyjęcie."
-       }
-      },
-      "full": {
-       "lang": "id",
-       "text": "Karena mereka merayakan ulang tahun perkawinan orang tua mereka yang kelima puluh.",
-       "reg": "formal",
-       "kw": [
-        "karena"
-       ],
-       "gloss": {
-        "zh": "因为他们要庆祝父母结婚五十周年。",
-        "ja": "両親の結婚 50 周年を祝うからです。",
-        "en": "Because they are celebrating their parents’ fiftieth wedding anniversary.",
-        "vi": "Vì họ kỷ niệm năm mươi năm ngày cưới của bố mẹ.",
-        "pl": "Bo świętują pięćdziesiątą rocznicę ślubu rodziców."
-       }
+        "zh": "因为有他们父母结婚五十周年的纪念聚会。",
+        "ja": "両親の結婚 50 周年のパーティーがあるからです。",
+        "en": "Because there is a party for their parents’ fiftieth wedding anniversary.",
+        "vi": "Vì có tiệc kỷ niệm 50 năm ngày cưới của bố mẹ họ.",
+        "pl": "Bo jest przyjęcie z okazji pięćdziesiątej rocznicy ślubu ich rodziców."
+       },
+       "hl": [
+        "Karena ada pesta"
+       ]
       }
      }
     ]
@@ -8461,11 +7181,11 @@
      },
      {
       "text": {
-       "zh": "被点到时先说保底版这半句就已经是完整的回答了，印尼语口头回答不需要把问题重复一遍。",
-       "ja": "当てられたら、「最短で」の短い答えだけで十分に完全な答えです。インドネシア語で口頭で答えるときは、質問を全部くり返す必要はありません。",
-       "en": "When called on, the Short half-sentence is already a complete answer; spoken Indonesian does not need you to repeat the whole question.",
-       "vi": "Khi bị gọi, chỉ nửa câu của bản Ngắn gọn cũng đã là câu trả lời hoàn chỉnh; trả lời miệng bằng tiếng Indonesia không cần lặp lại cả câu hỏi, tiếng Việt cũng vậy.",
-       "pl": "Gdy wykładowca cię wywoła, sama połówka zdania z wersji „Krótko” jest już pełną odpowiedzią; w mówionym indonezyjskim nie trzeba powtarzać całego pytania."
+       "zh": "被点到时只说粗体那部分就已经是完整的回答了，印尼语口头回答不需要把问题重复一遍。",
+       "ja": "当てられたら太字の部分だけで十分な答えになります。インドネシア語の口頭の答えでは、質問を全部くり返す必要はありません。",
+       "en": "When called on, the bold part alone is already a complete answer; spoken Indonesian does not need you to repeat the whole question.",
+       "vi": "Khi bị gọi, chỉ nói phần in đậm là đã đủ thành câu trả lời; trả lời miệng trong tiếng Indonesia không cần lặp lại cả câu hỏi.",
+       "pl": "Gdy ktoś cię wywoła, sama pogrubiona część jest już pełną odpowiedzią; w mówionym indonezyjskim nie trzeba powtarzać całego pytania."
       }
      }
     ]
@@ -8690,11 +7410,11 @@
    {
     "k": "qa_list",
     "title": {
-     "zh": "两档示范",
-     "ja": "二段階のお手本",
-     "en": "Two model answers",
-     "vi": "Hai câu trả lời mẫu",
-     "pl": "Dwie wersje wzorcowe"
+     "zh": "示范回答",
+     "ja": "模範解答",
+     "en": "Model answer",
+     "vi": "Câu trả lời mẫu",
+     "pl": "Przykładowa odpowiedź"
     },
     "items": [
      {
@@ -8710,36 +7430,20 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Teman saya punya satu kakak dan satu adik.",
-       "reg": "formal",
-       "kw": [
-        "kakak",
-        "adik"
-       ],
-       "gloss": {
-        "zh": "我同学有一个哥哥姐姐和一个弟弟妹妹。",
-        "ja": "わたしのクラスメートには、上のきょうだいが一人と下のきょうだいが一人います。",
-        "en": "My classmate has one older and one younger sibling.",
-        "vi": "Bạn cùng lớp của tôi có một người anh hoặc chị và một người em.",
-        "pl": "Moja koleżanka z grupy ma jedno starsze i jedno młodsze rodzeństwo."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Teman saya bernama Lina. Keluarganya tinggal di Bandung. Dia punya satu kakak dan satu adik. Ayahnya guru dan ibunya perawat.",
        "reg": "formal",
-       "kw": [
-        "keluarganya",
-        "ayahnya",
-        "ibunya"
-       ],
+       "kw": [],
        "gloss": {
         "zh": "我同学叫 Lina，她家在万隆。她有一个哥哥姐姐、一个弟弟妹妹。她爸爸是老师，妈妈是护士。",
         "ja": "わたしのクラスメートは Lina という名前です。家族はバンドンに住んでいます。上のきょうだいが一人、下のきょうだいが一人います。お父さんは先生で、お母さんは看護師です。",
         "en": "My classmate is called Lina. Her family lives in Bandung. She has one older and one younger sibling. Her father is a teacher and her mother is a nurse.",
         "vi": "Bạn cùng lớp của tôi tên là Lina. Gia đình bạn ấy sống ở Bandung. Bạn ấy có một người anh hoặc chị và một người em. Bố bạn ấy là giáo viên, mẹ bạn ấy là y tá.",
         "pl": "Moja koleżanka z grupy nazywa się Lina, jej rodzina mieszka w Bandungu. Ma jedno starsze i jedno młodsze rodzeństwo. Jej tata jest nauczycielem, a mama pielęgniarką."
-       }
+       },
+       "hl": [
+        "Teman saya",
+        "punya satu kakak dan satu adik"
+       ]
       }
      }
     ]

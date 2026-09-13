@@ -64,7 +64,7 @@
 | `currency` | 货币示例 | `rp` · `id`（印尼语读法）· `gloss`（多语） |
 | `note` | 注意 / 知识框 | `tag`（多语）· `green: true/false` · `lines` |
 | `prompt` | 开放任务框 | `tag`（多语）· `text`（多语） |
-| `qa_list` | 问答 / 翻译练习 | 可选 `title` · `items: [{prompt, answer, full?}]`，answer 自动可遮挡；写了 `full`（印尼语侧）就显示成「保底版 / 完整版」两档 |
+| `qa_list` | 问答 / 翻译练习 | 可选 `title` · `items: [{prompt, answer}]`，answer 自动可遮挡；印尼语答案可带 `hl: ["片段", …]`，把「被点名时最少要说的部分」加粗（按顺序查找，不分大小写） |
 | `fillblank` | 填空练习 | 可选 `title` · `items: [{pre, ans, post, say, reg, gloss}]`，ans 自动可遮挡 |
 | `syll` | 发音卡（带练习工具条） | `items: [{w, s:"音节-用-连字符", gloss}]` |
 | `listen` | 教材整段听力音轨 | `file`（不含扩展名）· `dur`（秒）· `title`（多语）· `note`（多语，可选） |

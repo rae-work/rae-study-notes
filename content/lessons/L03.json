@@ -7835,19 +7835,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ini kamus saya.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "这是我的词典。",
-        "ja": "これはわたしの辞書です。",
-        "en": "This is my dictionary.",
-        "vi": "Đây là từ điển của tôi.",
-        "pl": "To jest mój słownik."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ini kamus bahasa Indonesia saya.",
        "reg": "formal",
        "kw": [],
@@ -7857,7 +7844,11 @@
         "en": "This is my Indonesian dictionary.",
         "vi": "Đây là từ điển tiếng Indonesia của tôi.",
         "pl": "To jest mój słownik języka indonezyjskiego."
-       }
+       },
+       "hl": [
+        "Ini kamus",
+        "saya"
+       ]
       }
      },
      {
@@ -7869,19 +7860,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Itu jam dinding.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "那是挂钟。",
-        "ja": "あれは掛け時計です。",
-        "en": "That is a wall clock.",
-        "vi": "Kia là đồng hồ treo tường.",
-        "pl": "Tam jest zegar ścienny."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Itu jam dinding kelas kami.",
        "reg": "formal",
        "kw": [],
@@ -7891,7 +7869,10 @@
         "en": "That is our classroom’s wall clock.",
         "vi": "Kia là đồng hồ treo tường của lớp chúng tôi.",
         "pl": "To jest zegar ścienny z naszej sali."
-       }
+       },
+       "hl": [
+        "Itu jam dinding"
+       ]
       }
      },
      {
@@ -7903,19 +7884,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saya mahasiswa INCULS.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我是 INCULS 的学生。",
-        "ja": "わたしは INCULS の学生です。",
-        "en": "I am an INCULS student.",
-        "vi": "Tôi là sinh viên INCULS.",
-        "pl": "Jestem studentem INCULS."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Saya mahasiswa INCULS dari {NEGARA}.",
        "reg": "formal",
        "kw": [],
@@ -7925,7 +7893,10 @@
         "en": "I am an INCULS student from {NAMA}.",
         "vi": "Tôi là sinh viên INCULS đến từ {NAMA}.",
         "pl": "Studiuję w INCULS i jestem z {NAMA_GEN}."
-       }
+       },
+       "hl": [
+        "Saya mahasiswa INCULS"
+       ]
       }
      },
      {
@@ -7937,19 +7908,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Anda dosen kami.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "您是我们的老师。",
-        "ja": "あなたはわたしたちの先生です。",
-        "en": "You are our lecturer.",
-        "vi": "Cô là giảng viên của chúng tôi.",
-        "pl": "Jest pan naszym wykładowcą."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Anda dosen bahasa Indonesia kami.",
        "reg": "formal",
        "kw": [],
@@ -7959,7 +7917,11 @@
         "en": "You are our Indonesian lecturer.",
         "vi": "Thầy (cô) là giảng viên tiếng Indonesia của chúng em.",
         "pl": "Pan jest naszym wykładowcą indonezyjskiego."
-       }
+       },
+       "hl": [
+        "Anda dosen",
+        "kami"
+       ]
       }
      },
      {
@@ -7971,19 +7933,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Dia teman saya.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "他是我朋友。",
-        "ja": "あの人はわたしの友だちです。",
-        "en": "They are my friend.",
-        "vi": "Bạn ấy là bạn của tôi.",
-        "pl": "To moja znajoma osoba."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Dia teman saya di kelas.",
        "reg": "formal",
        "kw": [],
@@ -7993,7 +7942,10 @@
         "en": "They are my friend from class.",
         "vi": "Bạn ấy là bạn cùng lớp của tôi.",
         "pl": "On jest moim kolegą z grupy."
-       }
+       },
+       "hl": [
+        "Dia teman saya"
+       ]
       }
      },
      {
@@ -8005,19 +7957,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mereka mahasiswa baru.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "他们是新生。",
-        "ja": "かれらは新入生です。",
-        "en": "They are new students.",
-        "vi": "Họ là sinh viên mới.",
-        "pl": "Oni są nowymi studentami."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Mereka mahasiswa baru di UGM.",
        "reg": "formal",
        "kw": [],
@@ -8027,7 +7966,10 @@
         "en": "They are new students at UGM.",
         "vi": "Họ là sinh viên mới ở UGM.",
         "pl": "Oni są nowymi studentami UGM."
-       }
+       },
+       "hl": [
+        "Mereka mahasiswa baru"
+       ]
       }
      },
      {
@@ -8039,19 +7981,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kakak saya karyawan.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我哥哥是公司职员。",
-        "ja": "わたしの兄は会社員です。",
-        "en": "My older brother is an office worker.",
-        "vi": "Anh tôi là nhân viên công ty.",
-        "pl": "Mój starszy brat pracuje w biurze."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kakak saya karyawan bank di Jakarta.",
        "reg": "formal",
        "kw": [],
@@ -8061,7 +7990,10 @@
         "en": "My older brother is a bank employee in Jakarta.",
         "vi": "Anh tôi là nhân viên ngân hàng ở Jakarta.",
         "pl": "Mój starszy brat jest pracownikiem banku w Dżakarcie."
-       }
+       },
+       "hl": [
+        "Kakak saya karyawan"
+       ]
       }
      },
      {
@@ -8073,19 +8005,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Sepeda itu hadiah ulang tahun.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "那辆自行车是生日礼物。",
-        "ja": "あの自転車は誕生日のプレゼントです。",
-        "en": "That bicycle is a birthday present.",
-        "vi": "Chiếc xe đạp đó là quà sinh nhật.",
-        "pl": "Ten rower to prezent urodzinowy."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Sepeda itu hadiah ulang tahun dari ayah.",
        "reg": "formal",
        "kw": [],
@@ -8095,7 +8014,10 @@
         "en": "That bicycle is a birthday present from Dad.",
         "vi": "Chiếc xe đạp đó là quà sinh nhật bố tặng.",
         "pl": "Ten rower to prezent urodzinowy od taty."
-       }
+       },
+       "hl": [
+        "Sepeda itu hadiah ulang tahun"
+       ]
       }
      },
      {
@@ -8107,19 +8029,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Meja ini meja Ibu Wira.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "这张桌子是 Wira 老师的桌子。",
-        "ja": "この机はウィラ先生の机です。",
-        "en": "This desk is Ibu Wira’s desk.",
-        "vi": "Cái bàn này là bàn của cô Wira.",
-        "pl": "To biurko należy do pani Wiry."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Meja ini meja Ibu Wira, dosen kami.",
        "reg": "formal",
        "kw": [],
@@ -8129,7 +8038,10 @@
         "en": "This desk is Ibu Wira’s, our lecturer’s.",
         "vi": "Cái bàn này là bàn của cô Wira, giảng viên của chúng tôi.",
         "pl": "To biurko należy do Ibu Wira, naszej wykładowczyni."
-       }
+       },
+       "hl": [
+        "Meja ini meja Ibu Wira"
+       ]
       }
      },
      {
@@ -8141,19 +8053,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kelas kami kelas bahasa Indonesia.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我们班是印尼语班。",
-        "ja": "わたしたちのクラスはインドネシア語のクラスです。",
-        "en": "Our class is the Indonesian class.",
-        "vi": "Lớp chúng tôi là lớp tiếng Indonesia.",
-        "pl": "Nasza grupa to grupa indonezyjskiego."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kelas kami kelas bahasa Indonesia untuk pemula.",
        "reg": "formal",
        "kw": [],
@@ -8163,7 +8062,10 @@
         "en": "Our class is an Indonesian class for beginners.",
         "vi": "Lớp chúng tôi là lớp tiếng Indonesia cho người mới bắt đầu.",
         "pl": "Nasza grupa to kurs indonezyjskiego dla początkujących."
-       }
+       },
+       "hl": [
+        "Kelas kami kelas bahasa Indonesia"
+       ]
       }
      }
     ]
@@ -8187,19 +8089,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Alva pandai.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Alva 很聪明。",
-        "ja": "アルバは頭がいいです。",
-        "en": "Alva is clever.",
-        "vi": "Alva rất thông minh.",
-        "pl": "Alva jest zdolna."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Alva pandai sekali.",
        "reg": "formal",
        "kw": [],
@@ -8209,7 +8098,10 @@
         "en": "Alva is very clever.",
         "vi": "Alva rất thông minh.",
         "pl": "Alva jest bardzo mądra."
-       }
+       },
+       "hl": [
+        "Alva pandai"
+       ]
       }
      },
      {
@@ -8221,19 +8113,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kita gembira hari ini.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我们今天很高兴。",
-        "ja": "今日わたしたちはうれしいです。",
-        "en": "We are happy today.",
-        "vi": "Hôm nay chúng ta rất vui.",
-        "pl": "Dziś jesteśmy weseli."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Hari ini kita semua gembira.",
        "reg": "formal",
        "kw": [],
@@ -8243,7 +8122,11 @@
         "en": "Today we are all happy.",
         "vi": "Hôm nay tất cả chúng ta đều vui.",
         "pl": "Dziś wszyscy się cieszymy."
-       }
+       },
+       "hl": [
+        "kita",
+        "gembira"
+       ]
       }
      },
      {
@@ -8255,19 +8138,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kami senang.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我们（不包括你）很开心。",
-        "ja": "わたしたち（あなたを含まない）はうれしいです。",
-        "en": "We (not including you) are glad.",
-        "vi": "Chúng tôi (không gồm bạn) rất vui.",
-        "pl": "My (bez ciebie) jesteśmy zadowoleni."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kami senang sekali di Yogyakarta.",
        "reg": "formal",
        "kw": [],
@@ -8277,7 +8147,10 @@
         "en": "We are very happy in Yogyakarta.",
         "vi": "Chúng tôi rất vui ở Yogyakarta.",
         "pl": "W Jogji jest nam bardzo dobrze."
-       }
+       },
+       "hl": [
+        "Kami senang"
+       ]
       }
      },
      {
@@ -8289,19 +8162,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saudara ramah sekali.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "您很亲切。",
-        "ja": "あなたはとても親切ですね。",
-        "en": "You are very friendly.",
-        "vi": "Bạn thật thân thiện.",
-        "pl": "Jesteś bardzo miły."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Saudara sangat ramah dan baik.",
        "reg": "formal",
        "kw": [],
@@ -8311,7 +8171,11 @@
         "en": "You are very friendly and kind.",
         "vi": "Bạn rất thân thiện và tốt bụng.",
         "pl": "Jest Pan bardzo miły i życzliwy."
-       }
+       },
+       "hl": [
+        "Saudara",
+        "ramah"
+       ]
       }
      },
      {
@@ -8323,19 +8187,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Rumah nenek besar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "奶奶的房子很大。",
-        "ja": "おばあさんの家は大きいです。",
-        "en": "Grandma’s house is big.",
-        "vi": "Nhà của bà rất lớn.",
-        "pl": "Dom babci jest duży."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Rumah nenek saya besar dan nyaman.",
        "reg": "formal",
        "kw": [],
@@ -8345,7 +8196,11 @@
         "en": "My grandmother’s house is big and comfortable.",
         "vi": "Nhà bà tôi vừa rộng vừa thoải mái.",
         "pl": "Dom mojej babci jest duży i wygodny."
-       }
+       },
+       "hl": [
+        "Rumah nenek",
+        "besar"
+       ]
       }
      },
      {
@@ -8357,19 +8212,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Batik ini bagus.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "这块蜡染很好看。",
-        "ja": "このバティックはすてきです。",
-        "en": "This batik is lovely.",
-        "vi": "Tấm batik này rất đẹp.",
-        "pl": "Ten batik jest ładny."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Batik ini bagus sekali.",
        "reg": "formal",
        "kw": [],
@@ -8379,7 +8221,10 @@
         "en": "This batik is really lovely.",
         "vi": "Tấm vải batik này rất đẹp.",
         "pl": "Ten batik jest naprawdę piękny."
-       }
+       },
+       "hl": [
+        "Batik ini bagus"
+       ]
       }
      },
      {
@@ -8391,19 +8236,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Gedung fakultas tinggi.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "院系的楼很高。",
-        "ja": "学部の建物は高いです。",
-        "en": "The faculty building is tall.",
-        "vi": "Tòa nhà của khoa rất cao.",
-        "pl": "Budynek wydziału jest wysoki."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Gedung fakultas itu tinggi sekali.",
        "reg": "formal",
        "kw": [],
@@ -8413,7 +8245,11 @@
         "en": "That faculty building is very tall.",
         "vi": "Tòa nhà khoa đó rất cao.",
         "pl": "Ten budynek wydziału jest bardzo wysoki."
-       }
+       },
+       "hl": [
+        "Gedung fakultas",
+        "tinggi"
+       ]
       }
      },
      {
@@ -8425,19 +8261,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Ibu Ndaru cantik.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Ndaru 女士很漂亮。",
-        "ja": "ンダル先生はきれいです。",
-        "en": "Ibu Ndaru is beautiful.",
-        "vi": "Cô Ndaru rất xinh.",
-        "pl": "Pani Ndaru jest piękna."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Ibu Ndaru cantik dan ramah.",
        "reg": "formal",
        "kw": [],
@@ -8447,7 +8270,10 @@
         "en": "Ibu Ndaru is pretty and friendly.",
         "vi": "Cô Ndaru vừa xinh vừa thân thiện.",
         "pl": "Ibu Ndaru jest ładna i miła."
-       }
+       },
+       "hl": [
+        "Ibu Ndaru cantik"
+       ]
       }
      },
      {
@@ -8459,19 +8285,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Foto ini cantik.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "这张照片很好看。",
-        "ja": "この写真はきれいです。",
-        "en": "This photo is lovely.",
-        "vi": "Bức ảnh này rất đẹp.",
-        "pl": "To zdjęcie jest ładne."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pantai di foto ini cantik sekali.",
        "reg": "formal",
        "kw": [],
@@ -8481,7 +8294,10 @@
         "en": "The beach in this photo is beautiful.",
         "vi": "Bãi biển trong bức ảnh này đẹp quá.",
         "pl": "Plaża na tym zdjęciu jest piękna."
-       }
+       },
+       "hl": [
+        "foto ini cantik"
+       ]
       }
      },
      {
@@ -8493,19 +8309,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Pak Dokter baik.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "医生先生人很好。",
-        "ja": "お医者さんはいい人です。",
-        "en": "The doctor is kind.",
-        "vi": "Bác sĩ rất tốt bụng.",
-        "pl": "Pan doktor jest dobry."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Pak Dokter baik sekali.",
        "reg": "formal",
        "kw": [],
@@ -8515,7 +8318,10 @@
         "en": "The doctor is very kind.",
         "vi": "Bác sĩ rất tốt bụng.",
         "pl": "Lekarz jest bardzo miły."
-       }
+       },
+       "hl": [
+        "Pak Dokter baik"
+       ]
       }
      }
     ]
@@ -8584,19 +8390,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saya belajar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我在学习。",
-        "ja": "わたしは勉強します。",
-        "en": "I am studying.",
-        "vi": "Tôi đang học.",
-        "pl": "Uczę się."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Saya belajar bahasa Indonesia.",
        "reg": "formal",
        "kw": [],
@@ -8606,7 +8399,10 @@
         "en": "I study Indonesian.",
         "vi": "Tôi học tiếng Indonesia.",
         "pl": "Uczę się indonezyjskiego."
-       }
+       },
+       "hl": [
+        "Saya belajar"
+       ]
       }
      },
      {
@@ -8618,19 +8414,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Anda pulang.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "您回家。",
-        "ja": "あなたは帰ります。",
-        "en": "You are going home.",
-        "vi": "Bạn về nhà.",
-        "pl": "Wracasz do domu."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Anda pulang jam lima.",
        "reg": "formal",
        "kw": [],
@@ -8640,7 +8423,10 @@
         "en": "You go home at five.",
         "vi": "Bạn về nhà lúc năm giờ.",
         "pl": "Pan wraca do domu o piątej."
-       }
+       },
+       "hl": [
+        "Anda pulang"
+       ]
       }
      },
      {
@@ -8652,19 +8438,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Dia membaca.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "他在看书。",
-        "ja": "あの人は読んでいます。",
-        "en": "They are reading.",
-        "vi": "Bạn ấy đang đọc.",
-        "pl": "Ta osoba czyta."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Dia membaca buku di perpustakaan.",
        "reg": "formal",
        "kw": [],
@@ -8674,7 +8447,10 @@
         "en": "They read in the library.",
         "vi": "Bạn ấy đọc sách ở thư viện.",
         "pl": "Czyta książkę w bibliotece."
-       }
+       },
+       "hl": [
+        "Dia membaca"
+       ]
       }
      },
      {
@@ -8686,19 +8462,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Adik saya minum.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我弟弟在喝水。",
-        "ja": "わたしの弟は飲んでいます。",
-        "en": "My little brother is drinking.",
-        "vi": "Em tôi đang uống.",
-        "pl": "Mój młodszy brat pije."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Adik saya minum susu setiap pagi.",
        "reg": "formal",
        "kw": [],
@@ -8708,7 +8471,10 @@
         "en": "My little brother drinks milk every morning.",
         "vi": "Em trai tôi sáng nào cũng uống sữa.",
         "pl": "Mój młodszy brat co rano pije mleko."
-       }
+       },
+       "hl": [
+        "Adik saya minum"
+       ]
       }
      },
      {
@@ -8720,19 +8486,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Asef berenang.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Asef 在游泳。",
-        "ja": "アセフは泳いでいます。",
-        "en": "Asef is swimming.",
-        "vi": "Asef đang bơi.",
-        "pl": "Asef pływa."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Asef berenang di pantai.",
        "reg": "formal",
        "kw": [],
@@ -8742,7 +8495,10 @@
         "en": "Asef swims at the beach.",
         "vi": "Asef bơi ở bãi biển.",
         "pl": "Asef pływa w morzu przy plaży."
-       }
+       },
+       "hl": [
+        "Asef berenang"
+       ]
       }
      },
      {
@@ -8754,19 +8510,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kakek tidur.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "爷爷在睡觉。",
-        "ja": "おじいさんは寝ています。",
-        "en": "Grandpa is sleeping.",
-        "vi": "Ông đang ngủ.",
-        "pl": "Dziadek śpi."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kakek tidur di kamar.",
        "reg": "formal",
        "kw": [],
@@ -8776,7 +8519,10 @@
         "en": "Grandpa is sleeping in his room.",
         "vi": "Ông đang ngủ trong phòng.",
         "pl": "Dziadek śpi w swoim pokoju."
-       }
+       },
+       "hl": [
+        "Kakek tidur"
+       ]
       }
      },
      {
@@ -8788,19 +8534,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kami pergi.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我们走了。",
-        "ja": "わたしたちは行きます。",
-        "en": "We are leaving.",
-        "vi": "Chúng tôi đi đây.",
-        "pl": "My idziemy."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kami pergi ke kampus.",
        "reg": "formal",
        "kw": [],
@@ -8810,7 +8543,10 @@
         "en": "We go to campus.",
         "vi": "Chúng tôi đến trường.",
         "pl": "Idziemy na uczelnię."
-       }
+       },
+       "hl": [
+        "Kami pergi"
+       ]
       }
      },
      {
@@ -8822,19 +8558,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Fotografer itu datang.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "那位摄影师来了。",
-        "ja": "あのカメラマンが来ました。",
-        "en": "That photographer has arrived.",
-        "vi": "Người chụp ảnh đó đã đến.",
-        "pl": "Ten fotograf przyszedł."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Fotografer itu datang ke pesta.",
        "reg": "formal",
        "kw": [],
@@ -8844,7 +8567,10 @@
         "en": "That photographer comes to the party.",
         "vi": "Nhiếp ảnh gia đó đến dự tiệc.",
         "pl": "Ten fotograf przychodzi na przyjęcie."
-       }
+       },
+       "hl": [
+        "Fotografer itu datang"
+       ]
       }
      },
      {
@@ -8856,19 +8582,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Shinta menari.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Shinta 在跳舞。",
-        "ja": "シンタは踊っています。",
-        "en": "Shinta is dancing.",
-        "vi": "Shinta đang múa.",
-        "pl": "Shinta tańczy."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Shinta menari di acara kampus.",
        "reg": "formal",
        "kw": [],
@@ -8878,7 +8591,10 @@
         "en": "Shinta dances at a campus event.",
         "vi": "Shinta múa ở một sự kiện của trường.",
         "pl": "Shinta tańczy podczas imprezy na uczelni."
-       }
+       },
+       "hl": [
+        "Shinta menari"
+       ]
       }
      },
      {
@@ -8890,19 +8606,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Jinyong memasak.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Jinyong 在做饭。",
-        "ja": "ジニョンは料理しています。",
-        "en": "Jinyong is cooking.",
-        "vi": "Jinyong đang nấu ăn.",
-        "pl": "Jinyong gotuje."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Jinyong memasak nasi goreng.",
        "reg": "formal",
        "kw": [],
@@ -8912,7 +8615,10 @@
         "en": "Jinyong cooks fried rice.",
         "vi": "Jinyong nấu cơm chiên.",
         "pl": "Jinyong gotuje smażony ryż."
-       }
+       },
+       "hl": [
+        "Jinyong memasak"
+       ]
       }
      }
     ]
@@ -8936,19 +8642,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saya di kelas.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我在教室。",
-        "ja": "わたしは教室にいます。",
-        "en": "I am in class.",
-        "vi": "Tôi ở trong lớp.",
-        "pl": "Jestem w sali."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Saya di kelas INCULS sekarang.",
        "reg": "formal",
        "kw": [],
@@ -8958,7 +8651,10 @@
         "en": "I am in the INCULS classroom now.",
         "vi": "Bây giờ tôi đang ở phòng học của INCULS.",
         "pl": "Jestem teraz w sali INCULS."
-       }
+       },
+       "hl": [
+        "Saya di kelas"
+       ]
       }
      },
      {
@@ -8970,19 +8666,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Saudara dari Jakarta.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "您从雅加达来。",
-        "ja": "あなたはジャカルタの出身ですね。",
-        "en": "You are from Jakarta.",
-        "vi": "Bạn đến từ Jakarta.",
-        "pl": "Jesteś z Dżakarty."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Saudara dari Universitas Indonesia.",
        "reg": "formal",
        "kw": [],
@@ -8992,7 +8675,10 @@
         "en": "You are from Universitas Indonesia.",
         "vi": "Bạn đến từ Universitas Indonesia.",
         "pl": "Pan jest z Universitas Indonesia."
-       }
+       },
+       "hl": [
+        "Saudara dari Universitas Indonesia"
+       ]
       }
      },
      {
@@ -9004,19 +8690,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kita ke pasar.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我们去市场。",
-        "ja": "わたしたちは市場へ行きます。",
-        "en": "We are going to the market.",
-        "vi": "Chúng ta đi chợ.",
-        "pl": "Idziemy na targ."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kita ke pasar besok.",
        "reg": "formal",
        "kw": [],
@@ -9026,7 +8699,10 @@
         "en": "We go to the market tomorrow.",
         "vi": "Ngày mai chúng ta đi chợ.",
         "pl": "Jutro idziemy na targ."
-       }
+       },
+       "hl": [
+        "Kita ke pasar"
+       ]
       }
      },
      {
@@ -9038,19 +8714,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Kami dari INCULS.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "我们从 INCULS 来。",
-        "ja": "わたしたちは INCULS から来ました。",
-        "en": "We are from INCULS.",
-        "vi": "Chúng tôi từ INCULS đến.",
-        "pl": "Jesteśmy z INCULS."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Kami dari INCULS, UGM.",
        "reg": "formal",
        "kw": [],
@@ -9060,7 +8723,10 @@
         "en": "We are from INCULS, UGM.",
         "vi": "Chúng tôi đến từ INCULS, UGM.",
         "pl": "Jesteśmy z INCULS na UGM."
-       }
+       },
+       "hl": [
+        "Kami dari INCULS"
+       ]
       }
      },
      {
@@ -9072,19 +8738,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Shinta ke kampus.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Shinta 去学校。",
-        "ja": "シンタはキャンパスへ行きます。",
-        "en": "Shinta is going to campus.",
-        "vi": "Shinta đến trường.",
-        "pl": "Shinta idzie na uczelnię."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Shinta ke kampus setiap hari.",
        "reg": "formal",
        "kw": [],
@@ -9094,7 +8747,10 @@
         "en": "Shinta goes to campus every day.",
         "vi": "Ngày nào Shinta cũng đến trường.",
         "pl": "Shinta codziennie chodzi na uczelnię."
-       }
+       },
+       "hl": [
+        "Shinta ke kampus"
+       ]
       }
      },
      {
@@ -9106,19 +8762,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Guru di depan kelas.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "老师在教室前面。",
-        "ja": "先生は教室の前にいます。",
-        "en": "The teacher is at the front of the class.",
-        "vi": "Cô giáo ở phía trước lớp.",
-        "pl": "Nauczyciel stoi przed klasą."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Guru kami di depan kelas.",
        "reg": "formal",
        "kw": [],
@@ -9128,7 +8771,11 @@
         "en": "Our teacher is at the front of the class.",
         "vi": "Giáo viên của chúng tôi ở trước lớp.",
         "pl": "Nasz wykładowca jest z przodu sali."
-       }
+       },
+       "hl": [
+        "Guru",
+        "di depan kelas"
+       ]
       }
      },
      {
@@ -9140,19 +8787,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Teman-teman di kantin.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "朋友们在食堂。",
-        "ja": "友だちは食堂にいます。",
-        "en": "My friends are in the canteen.",
-        "vi": "Các bạn ở căng tin.",
-        "pl": "Znajomi są w stołówce."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Teman-teman saya di kantin fakultas.",
        "reg": "formal",
        "kw": [],
@@ -9162,7 +8796,11 @@
         "en": "My friends are in the faculty canteen.",
         "vi": "Các bạn của tôi ở căng tin khoa.",
         "pl": "Moi znajomi są w stołówce wydziałowej."
-       }
+       },
+       "hl": [
+        "Teman-teman",
+        "di kantin"
+       ]
       }
      },
      {
@@ -9174,19 +8812,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Mereka ke Bali.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "他们去巴厘。",
-        "ja": "かれらはバリへ行きます。",
-        "en": "They are going to Bali.",
-        "vi": "Họ đi Bali.",
-        "pl": "Oni jadą na Bali."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Mereka ke Bali minggu depan.",
        "reg": "formal",
        "kw": [],
@@ -9196,7 +8821,10 @@
         "en": "They go to Bali next week.",
         "vi": "Tuần sau họ đi Bali.",
         "pl": "W przyszłym tygodniu jadą na Bali."
-       }
+       },
+       "hl": [
+        "Mereka ke Bali"
+       ]
       }
      },
      {
@@ -9208,19 +8836,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Wayan dari Bali.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "Wayan 来自巴厘。",
-        "ja": "ワヤンはバリの出身です。",
-        "en": "Wayan is from Bali.",
-        "vi": "Wayan đến từ Bali.",
-        "pl": "Wayan jest z Bali."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Wayan dari Denpasar, Bali.",
        "reg": "formal",
        "kw": [],
@@ -9230,7 +8845,11 @@
         "en": "Wayan is from Denpasar, Bali.",
         "vi": "Wayan đến từ Denpasar, Bali.",
         "pl": "Wayan jest z Denpasaru na Bali."
-       }
+       },
+       "hl": [
+        "Wayan dari",
+        "Bali"
+       ]
       }
      },
      {
@@ -9242,19 +8861,6 @@
       },
       "answer": {
        "lang": "id",
-       "text": "Batik itu dari Indonesia.",
-       "reg": "formal",
-       "kw": [],
-       "gloss": {
-        "zh": "那块蜡染来自印尼。",
-        "ja": "あのバティックはインドネシア産です。",
-        "en": "That batik comes from Indonesia.",
-        "vi": "Tấm batik đó đến từ Indonesia.",
-        "pl": "Ten batik jest z Indonezji."
-       }
-      },
-      "full": {
-       "lang": "id",
        "text": "Batik itu dari Yogyakarta, Indonesia.",
        "reg": "formal",
        "kw": [],
@@ -9264,7 +8870,11 @@
         "en": "That batik is from Yogyakarta, Indonesia.",
         "vi": "Tấm batik đó đến từ Yogyakarta, Indonesia.",
         "pl": "Ten batik pochodzi z Yogyakarty w Indonezji."
-       }
+       },
+       "hl": [
+        "Batik itu dari",
+        "Indonesia"
+       ]
       }
      }
     ]

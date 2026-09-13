@@ -59,9 +59,7 @@
     "listen_pause": "Pauza",
     "listen_source": "Oficjalne nagranie z podręcznika",
     "table_formal": "formalnie",
-    "table_informal": "potocznie",
-    "qa_short": "Krótko",
-    "qa_full": "Pełniej"
+    "table_informal": "potocznie"
   },
   "page": {
     "review_name": "Powtórka",

@@ -538,29 +538,43 @@ function noteLines(lines){
     return "";
   }).join("");
 }
-function qaSide(side, maskable, tier){
+function qaSide(side, maskable){
   if(!side) return "";
-  /* 两档答案（保底版 / 完整版）时，行首一个小标签说明是哪一档。
-     标签在 .ans 外面 —— 遮挡答案时仍看得出「这题有两种答法」。 */
-  var tag = tier ? '<span class="tier">' + esc(tier) + "</span>" : "";
   /* 印尼语那一侧可以带 gloss（参考答案页要的：句子下面一行释义）。
-     跟句子一起进 .ans，答案没揭开时释义也不能露出来。 */
+     跟句子一起进 .ans，答案没揭开时释义也不能露出来。
+     hl：答案里「被点名时最少要说的部分」，按片段加粗（只念粗体也是正确答案）。
+     有 hl 时不再用 kw 标红，免得一行里两种强调混在一起。 */
   if(side.lang === "id"){
     var g = L(side.gloss);
-    var inner = sayLine(side.text, side.kw) + (g ? '<span class="gloss">' + esc(g) + "</span>" : "");
+    var inner = (side.hl ? sayLineHl(side.text, side.hl) : sayLine(side.text, side.kw)) +
+      (g ? '<span class="gloss">' + esc(g) + "</span>" : "");
     var body = maskable ? '<span class="ans">' + inner + "</span>" : inner;
-    return '<div class="qa-line id' + (tier ? " tiered" : "") + '"><button class="play" data-say="' + esc(sayText(side.text)) +
-      '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="idtext">' + tag + body + "</span></div>";
+    return '<div class="qa-line id"><button class="play" data-say="' + esc(sayText(side.text)) +
+      '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="idtext">' + body + "</span></div>";
   }
   var ptxt = L(side.text);
   var b2 = maskable ? '<span class="ans plain">' + esc(ptxt) + "</span>" : '<span class="plain">' + esc(ptxt) + "</span>";
-  return '<div class="qa-line' + (tier ? " tiered" : "") + '"><span class="play-spacer"></span><span>' + tag + b2 + "</span></div>";
+  return '<div class="qa-line"><span class="play-spacer"></span>' + b2 + "</div>";
 }
-/* qa_list 的答案：有 full 就分两档 —— answer 是被点名时张口就能说的最短版，
-   full 是完整句（常常多一句补充）。没有 full 的旧内容照原样只显示一行。 */
-function qaAnswer(it){
-  if(!it.full) return qaSide(it.answer, true);
-  return qaSide(it.answer, true, T("block.qa_short")) + qaSide(it.full, true, T("block.qa_full"));
+/* 跟 sayLine 一样逐词可点，只是「落在 hl 片段里的词」用 kw 的样式加粗。
+   片段按顺序在句子里找（不分大小写），后一个从前一个结束处往后找。 */
+function sayLineHl(text, hl){
+  var t = LZ(text), low = t.toLowerCase(), ranges = [], pos = 0, i;
+  for(i=0;i<hl.length;i++){
+    var h = String(hl[i]).toLowerCase(), at = low.indexOf(h, pos);
+    if(at < 0) continue;
+    ranges.push([at, at + h.length]);
+    pos = at + h.length;
+  }
+  var toks = t.split(/(\s+)/), html = "", off = 0;
+  for(i=0;i<toks.length;i++){
+    var tk = toks[i], a = off, b = off + tk.length;
+    off = b;
+    if(/^\s+$/.test(tk)){ html += tk; continue; }
+    var on = ranges.some(function(r){ return a < r[1] && b > r[0]; });
+    html += '<span class="say' + (on ? " kw" : "") + '" data-say="' + esc(clean(tk)) + '">' + esc(tk) + "</span>";
+  }
+  return html;
 }
 
 /* sec 的释义：主语言在前，中文界面下补一条英文。含 <b> 标记，故不转义。 */
@@ -681,7 +695,7 @@ function renderBlock(b){
       return '<div class="prompt"><div class="tag">' + esc(L(b.tag)) + '</div><p style="margin:.4em 0 0">' + richText(b.text) + "</p></div>";
     case "qa_list":
       return '<div class="exer">' + (L(b.title) ? '<div class="ehead">' + esc(L(b.title)) + "</div>" : "") + "<ol>" +
-        b.items.map(function(it){ return "<li>" + qaSide(it.prompt,false) + qaAnswer(it) + "</li>"; }).join("") + "</ol></div>";
+        b.items.map(function(it){ return "<li>" + qaSide(it.prompt,false) + qaSide(it.answer,true) + "</li>"; }).join("") + "</ol></div>";
     case "fillblank":
       return '<div class="exer">' + (L(b.title) ? '<div class="ehead">' + esc(L(b.title)) + "</div>" : "") +
         b.items.map(function(it){
@@ -2829,8 +2843,7 @@ sheet.addEventListener("click", function(e){
   pauseListen();
   var isPlay = a.classList.contains("play");
   if(isPlay){
-    /* 两档答案各自一行：点哪一档的 ▶ 只揭开那一档，另一档留着自己先想 */
-    var host = a.closest(".qa-line.tiered") || a.closest("li,.row,.gentry");
+    var host = a.closest("li,.row,.gentry");
     if(host) toArr(host.querySelectorAll(".ans.masked")).forEach(function(x){ x.classList.remove("masked"); });
   }
   var target = a;
