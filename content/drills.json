@@ -737,6 +737,114 @@
         "Tiga hari lalu.",
         "Bulan tiga lalu."
       ]
+    },
+    {
+      "q": "Berapa orang saudara Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "一个哥哥、一个妹妹",
+        "ja": "兄が一人、妹が一人",
+        "en": "one older brother, one younger sister",
+        "vi": "một anh trai, một em gái",
+        "pl": "jeden starszy brat, jedna młodsza siostra"
+      },
+      "a": "Saya punya satu kakak laki-laki dan satu adik perempuan.",
+      "a_reg": "formal",
+      "alts": [
+        "Saya punya satu adik laki-laki dan satu kakak perempuan.",
+        "Saya punya dua kakak laki-laki.",
+        "Saya punya satu sepupu laki-laki dan satu sepupu perempuan."
+      ]
+    },
+    {
+      "q": "Apa pekerjaan ayah Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "他是医生",
+        "ja": "医者です",
+        "en": "he is a doctor",
+        "vi": "ông ấy là bác sĩ",
+        "pl": "jest lekarzem"
+      },
+      "a": "Ayah saya dokter.",
+      "a_reg": "formal",
+      "alts": [
+        "Ayah saya bukan dokter.",
+        "Ayah saya tidak dokter.",
+        "Ibu saya dokter."
+      ]
+    },
+    {
+      "q": "Apakah dia kakak Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "不是，他是我表哥",
+        "ja": "いいえ、いとこです",
+        "en": "no, he is my cousin",
+        "vi": "không phải, anh ấy là anh họ tôi",
+        "pl": "nie, to mój kuzyn"
+      },
+      "a": "Bukan, dia sepupu saya.",
+      "a_reg": "formal",
+      "alts": [
+        "Tidak, dia sepupu saya.",
+        "Bukan, dia keponakan saya.",
+        "Ya, dia sepupu saya."
+      ]
+    },
+    {
+      "q": "Apakah nenek Anda sakit?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "没有，她很健康",
+        "ja": "いいえ、元気です",
+        "en": "no, she is well",
+        "vi": "không, bà khỏe",
+        "pl": "nie, jest zdrowa"
+      },
+      "a": "Tidak, nenek saya sehat.",
+      "a_reg": "formal",
+      "alts": [
+        "Bukan, nenek saya sehat.",
+        "Tidak, nenek saya sakit.",
+        "Ya, nenek saya sehat."
+      ]
+    },
+    {
+      "q": "Dengan apa adik Anda menulis?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "用铅笔",
+        "ja": "鉛筆で",
+        "en": "with a pencil",
+        "vi": "bằng bút chì",
+        "pl": "ołówkiem"
+      },
+      "a": "Dengan pensil.",
+      "a_reg": "formal",
+      "alts": [
+        "Dengan adik.",
+        "Di pensil.",
+        "Pensil dengan."
+      ]
+    },
+    {
+      "q": "Kapan sepupu Anda datang?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "下个月",
+        "ja": "来月",
+        "en": "next month",
+        "vi": "tháng sau",
+        "pl": "w przyszłym miesiącu"
+      },
+      "a": "Bulan depan.",
+      "a_reg": "formal",
+      "alts": [
+        "Bulan lalu.",
+        "Depan bulan.",
+        "Minggu depan."
+      ]
     }
   ],
   "tempat": [

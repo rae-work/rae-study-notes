@@ -59,7 +59,9 @@
     "listen_pause": "一時停止",
     "listen_source": "教科書の公式音声",
     "table_formal": "フォーマル",
-    "table_informal": "カジュアル"
+    "table_informal": "カジュアル",
+    "qa_short": "最短で",
+    "qa_full": "しっかり"
   },
   "page": {
     "review_name": "復習 · Review",

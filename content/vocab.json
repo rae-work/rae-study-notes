@@ -9046,5 +9046,1985 @@
       "pl": "To selamatan z okazji urodzin."
     },
     "note": null
+  },
+  {
+    "w": "ayah",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "父亲",
+      "ja": "父",
+      "en": "father",
+      "vi": "bố · cha",
+      "pl": "ojciec"
+    },
+    "pos": "n",
+    "ex": "Kakek dan ayah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "外公和父亲。",
+      "ja": "祖父と父。",
+      "en": "Grandfather and father.",
+      "vi": "Ông ngoại và cha.",
+      "pl": "Dziadek i ojciec."
+    },
+    "note": null
+  },
+  {
+    "w": "suami",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "丈夫",
+      "ja": "夫",
+      "en": "husband",
+      "vi": "chồng",
+      "pl": "mąż"
+    },
+    "pos": "n",
+    "ex": "Suami dan istri.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "丈夫和妻子。",
+      "ja": "夫と妻。",
+      "en": "Husband and wife.",
+      "vi": "Chồng và vợ.",
+      "pl": "Mąż i żona."
+    },
+    "note": null
+  },
+  {
+    "w": "istri",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "妻子",
+      "ja": "妻",
+      "en": "wife",
+      "vi": "vợ",
+      "pl": "żona"
+    },
+    "pos": "n",
+    "ex": "Suami dan istri.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "丈夫和妻子。",
+      "ja": "夫と妻。",
+      "en": "Husband and wife.",
+      "vi": "Chồng và vợ.",
+      "pl": "Mąż i żona."
+    },
+    "note": null
+  },
+  {
+    "w": "kakak",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "哥哥 · 姐姐",
+      "ja": "兄・姉",
+      "en": "older brother or sister",
+      "vi": "anh · chị",
+      "pl": "starszy brat lub starsza siostra"
+    },
+    "pos": "n",
+    "ex": "Kakak dan adik.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "姐姐和弟弟。",
+      "ja": "姉と弟。",
+      "en": "Older sister and younger brother.",
+      "vi": "Chị gái và em trai.",
+      "pl": "Starsza siostra i młodszy brat."
+    },
+    "note": null
+  },
+  {
+    "w": "paman",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "叔伯 · 舅舅 · 姑丈等",
+      "ja": "おじ（伯父・叔父、義理のおじも）",
+      "en": "uncle",
+      "vi": "chú · bác · cậu · dượng…",
+      "pl": "wujek (z każdej strony)"
+    },
+    "pos": "n",
+    "ex": "Paman dan bibi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "舅舅和舅妈。",
+      "ja": "叔父と叔母。",
+      "en": "Uncle and aunt.",
+      "vi": "Cậu và mợ.",
+      "pl": "Wujek i ciocia."
+    },
+    "note": null
+  },
+  {
+    "w": "bibi",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "姑姑 · 阿姨 · 婶婶等",
+      "ja": "おば（伯母・叔母、義理のおばも）",
+      "en": "aunt",
+      "vi": "cô · dì · thím · mợ…",
+      "pl": "ciocia (z każdej strony)"
+    },
+    "pos": "n",
+    "ex": "Paman dan bibi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "舅舅和舅妈。",
+      "ja": "叔父と叔母。",
+      "en": "Uncle and aunt.",
+      "vi": "Cậu và mợ.",
+      "pl": "Wujek i ciocia."
+    },
+    "note": null
+  },
+  {
+    "w": "keponakan",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "侄子 · 侄女 · 外甥等",
+      "ja": "甥・姪",
+      "en": "nephew or niece",
+      "vi": "cháu (con của anh chị em)",
+      "pl": "bratanek, bratanica, siostrzeniec, siostrzenica"
+    },
+    "pos": "n",
+    "ex": "Ani keponakan Bimo.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Ani 是 Bimo 的侄女。",
+      "ja": "Ani は Bimo の姪です。",
+      "en": "Ani is Bimo’s niece.",
+      "vi": "Ani là cháu gái của Bimo.",
+      "pl": "Ani jest bratanicą Bimo."
+    },
+    "note": null
+  },
+  {
+    "w": "sepupu",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "堂 / 表兄弟姐妹",
+      "ja": "いとこ",
+      "en": "cousin",
+      "vi": "anh chị em họ",
+      "pl": "kuzyn, kuzynka"
+    },
+    "pos": "n",
+    "ex": "Ali sepupu Rahma.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Ali 是 Rahma 的表哥。",
+      "ja": "Ali は Rahma のいとこです。",
+      "en": "Ali is Rahma’s cousin.",
+      "vi": "Ali là anh họ của Rahma.",
+      "pl": "Ali jest kuzynem Rahmy."
+    },
+    "note": null
+  },
+  {
+    "w": "cucu",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "孙子 · 孙女 · 外孙等",
+      "ja": "孫",
+      "en": "grandchild",
+      "vi": "cháu (con của con)",
+      "pl": "wnuk, wnuczka"
+    },
+    "pos": "n",
+    "ex": "Cucu.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "孙辈。",
+      "ja": "孫。",
+      "en": "Grandchildren.",
+      "vi": "Cháu.",
+      "pl": "Wnuki."
+    },
+    "note": null
+  },
+  {
+    "w": "mertua",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "公婆 · 岳父母",
+      "ja": "義父・義母（配偶者の親）",
+      "en": "parent-in-law",
+      "vi": "bố mẹ chồng · bố mẹ vợ",
+      "pl": "teść, teściowa"
+    },
+    "pos": "n",
+    "ex": "Mertua dan menantu.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "公婆 / 岳父母，和女婿 / 儿媳。",
+      "ja": "義理の両親、そして婿と嫁。",
+      "en": "Parents-in-law, and son- and daughter-in-law.",
+      "vi": "Bố mẹ vợ / bố mẹ chồng, và con rể / con dâu.",
+      "pl": "Teściowie oraz zięć i synowa."
+    },
+    "note": null
+  },
+  {
+    "w": "menantu",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "女婿 · 儿媳",
+      "ja": "婿・嫁（子の配偶者）",
+      "en": "son- or daughter-in-law",
+      "vi": "con rể · con dâu",
+      "pl": "zięć, synowa"
+    },
+    "pos": "n",
+    "ex": "Mertua dan menantu.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "公婆 / 岳父母，和女婿 / 儿媳。",
+      "ja": "義理の両親、そして婿と嫁。",
+      "en": "Parents-in-law, and son- and daughter-in-law.",
+      "vi": "Bố mẹ vợ / bố mẹ chồng, và con rể / con dâu.",
+      "pl": "Teściowie oraz zięć i synowa."
+    },
+    "note": null
+  },
+  {
+    "w": "ipar",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "配偶的兄弟姐妹 · 兄弟姐妹的配偶",
+      "ja": "義理の兄弟姉妹",
+      "en": "brother- or sister-in-law",
+      "vi": "anh chị em của vợ/chồng · anh rể, chị dâu…",
+      "pl": "szwagier, szwagierka"
+    },
+    "pos": "n",
+    "ex": "Ipar dan ipar.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "两个空都是 ipar。",
+      "ja": "空欄はどちらも ipar。",
+      "en": "Both blanks are ipar.",
+      "vi": "Cả hai chỗ trống đều là ipar.",
+      "pl": "Obie luki to ipar."
+    },
+    "note": null
+  },
+  {
+    "w": "anak sulung",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "老大",
+      "ja": "いちばん上の子",
+      "en": "eldest child",
+      "vi": "con cả",
+      "pl": "najstarsze dziecko"
+    },
+    "pos": "n",
+    "ex": "Anak sulung mereka, Juna, berumur dua puluh tiga tahun.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "老大 Juna 二十三岁。",
+      "ja": "長男の Juna は 23 歳です。",
+      "en": "Their eldest, Juna, is twenty-three.",
+      "vi": "Con cả là Juna, hai mươi ba tuổi.",
+      "pl": "Najstarszy, Juna, ma dwadzieścia trzy lata."
+    },
+    "note": null
+  },
+  {
+    "w": "anak tengah",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "排中间的孩子",
+      "ja": "まん中の子",
+      "en": "middle child",
+      "vi": "con giữa",
+      "pl": "środkowe dziecko"
+    },
+    "pos": "n",
+    "ex": "Benar. Arnold anak tengah mereka.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "对。Arnold 排行中间。",
+      "ja": "正しい。Arnold はまん中の子です。",
+      "en": "True. Arnold is their middle child.",
+      "vi": "Đúng. Arnold là con giữa.",
+      "pl": "Prawda. Arnold jest ich środkowym dzieckiem."
+    },
+    "note": null
+  },
+  {
+    "w": "anak bungsu",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "老幺",
+      "ja": "末っ子",
+      "en": "youngest child",
+      "vi": "con út",
+      "pl": "najmłodsze dziecko"
+    },
+    "pos": "n",
+    "ex": "Saya anak bungsu.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我是老幺。",
+      "ja": "わたしは末っ子です。",
+      "en": "I am the youngest.",
+      "vi": "Tôi là con út.",
+      "pl": "Jestem najmłodszym dzieckiem."
+    },
+    "note": null
+  },
+  {
+    "w": "orang tua",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "父母",
+      "ja": "両親",
+      "en": "parents",
+      "vi": "bố mẹ",
+      "pl": "rodzice"
+    },
+    "pos": "n",
+    "ex": "Apakah orang tua Anda bekerja?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您父母在工作吗？",
+      "ja": "ご両親は働いていますか。",
+      "en": "Do your parents work?",
+      "vi": "Bố mẹ bạn có đi làm không?",
+      "pl": "Czy Pana/Pani rodzice pracują?"
+    },
+    "note": null
+  },
+  {
+    "w": "bernama",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "名叫",
+      "ja": "〜という名前の",
+      "en": "named, called",
+      "vi": "tên là",
+      "pl": "o imieniu"
+    },
+    "pos": "v",
+    "ex": "Keponakan mereka bernama Marinka.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他们的侄女叫 Marinka。",
+      "ja": "二人の姪は Marinka です。",
+      "en": "Their niece is called Marinka.",
+      "vi": "Cháu gái của họ tên là Marinka.",
+      "pl": "Ich bratanica ma na imię Marinka."
+    },
+    "note": null
+  },
+  {
+    "w": "bekerja sebagai",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "当…（做…工作）",
+      "ja": "〜として働く",
+      "en": "to work as",
+      "vi": "làm (nghề)…",
+      "pl": "pracować jako"
+    },
+    "pos": "v",
+    "ex": "Di Bank Mandiri, dia bekerja sebagai direktur.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他在 Mandiri 银行当总经理。",
+      "ja": "彼は Bank Mandiri で取締役を務めています。",
+      "en": "He works as a director at Bank Mandiri.",
+      "vi": "Ông ấy làm giám đốc ở ngân hàng Mandiri.",
+      "pl": "Pracuje jako dyrektor w Bank Mandiri."
+    },
+    "note": null
+  },
+  {
+    "w": "direktur",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "总经理 · 主管",
+      "ja": "取締役 · 責任者",
+      "en": "director",
+      "vi": "giám đốc",
+      "pl": "dyrektor, kierownik"
+    },
+    "pos": "n",
+    "ex": "Di Bank Mandiri, dia bekerja sebagai direktur.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他在 Mandiri 银行当总经理。",
+      "ja": "彼は Bank Mandiri で取締役を務めています。",
+      "en": "He works as a director at Bank Mandiri.",
+      "vi": "Ông ấy làm giám đốc ở ngân hàng Mandiri.",
+      "pl": "Pracuje jako dyrektor w Bank Mandiri."
+    },
+    "note": null
+  },
+  {
+    "w": "koki",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "厨师",
+      "ja": "料理人・シェフ",
+      "en": "cook, chef",
+      "vi": "đầu bếp",
+      "pl": "kucharz, kucharka"
+    },
+    "pos": "n",
+    "ex": "Dia bekerja sebagai koki di restoran Hotel Aston, Medan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "她在棉兰 Aston 酒店的餐厅当厨师。",
+      "ja": "彼女はメダンの Aston ホテルのレストランで料理人をしています。",
+      "en": "She works as a chef at the Hotel Aston restaurant in Medan.",
+      "vi": "Chị ấy làm đầu bếp ở nhà hàng của khách sạn Aston, Medan.",
+      "pl": "Pracuje jako kucharka w restauracji hotelu Aston w Medanie."
+    },
+    "note": null
+  },
+  {
+    "w": "bandara",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "机场",
+      "ja": "空港",
+      "en": "airport",
+      "vi": "sân bay",
+      "pl": "lotnisko"
+    },
+    "pos": "n",
+    "ex": "Pak Indra karyawan di Bandara Polonia, Medan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Pak Indra 在棉兰 Polonia 机场上班。",
+      "ja": "Pak Indra はメダンの Polonia 空港で働いています。",
+      "en": "Pak Indra works at Polonia Airport in Medan.",
+      "vi": "Ông Indra làm việc ở sân bay Polonia, Medan.",
+      "pl": "Pak Indra pracuje na lotnisku Polonia w Medanie."
+    },
+    "note": null
+  },
+  {
+    "w": "rumah sakit",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "医院",
+      "ja": "病院",
+      "en": "hospital",
+      "vi": "bệnh viện",
+      "pl": "szpital"
+    },
+    "pos": "n",
+    "ex": "Ayahnya dokter di rumah sakit.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他爸爸是医院的医生。",
+      "ja": "彼のお父さんは病院の医者です。",
+      "en": "His father is a doctor at the hospital.",
+      "vi": "Bố anh ấy là bác sĩ ở bệnh viện.",
+      "pl": "Jego tata jest lekarzem w szpitalu."
+    },
+    "note": null
+  },
+  {
+    "w": "restoran",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "餐厅",
+      "ja": "レストラン",
+      "en": "restaurant",
+      "vi": "nhà hàng",
+      "pl": "restauracja"
+    },
+    "pos": "n",
+    "ex": "Di restoran Hotel Aston.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "在 Aston 酒店的餐厅。",
+      "ja": "Aston ホテルのレストランです。",
+      "en": "At the Hotel Aston restaurant.",
+      "vi": "Ở nhà hàng của khách sạn Aston.",
+      "pl": "W restauracji hotelu Aston."
+    },
+    "note": null
+  },
+  {
+    "w": "SMA",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "高中",
+      "ja": "高校",
+      "en": "senior high school",
+      "vi": "trường trung học phổ thông",
+      "pl": "liceum"
+    },
+    "pos": "n",
+    "ex": "Di SMA tiga Yogyakarta.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "在日惹第三高中。",
+      "ja": "ジョグジャカルタ第 3 高校です。",
+      "en": "At SMA 3 Yogyakarta.",
+      "vi": "Ở trường SMA 3 Yogyakarta.",
+      "pl": "Do SMA 3 w Yogyakarcie."
+    },
+    "note": null
+  },
+  {
+    "w": "SMP",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "初中",
+      "ja": "中学校",
+      "en": "junior high school",
+      "vi": "trường trung học cơ sở",
+      "pl": "gimnazjum (klasy 7–9)"
+    },
+    "pos": "n",
+    "ex": "Renata suka berenang. Dia sekolah di SMP lima Yogyakarta.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Renata 喜欢游泳，在日惹第五初中上学。",
+      "ja": "Renata は水泳が好きで、ジョグジャカルタ第 5 中学校（SMP 5）に通っています。",
+      "en": "Renata likes swimming. She goes to SMP 5 (junior high school no. 5) in Yogyakarta.",
+      "vi": "Renata thích bơi, học ở trường SMP 5 (trung học cơ sở số 5) Yogyakarta.",
+      "pl": "Renata lubi pływać. Chodzi do SMP 5 (gimnazjum nr 5) w Yogyakarcie."
+    },
+    "note": null
+  },
+  {
+    "w": "pensiun",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "退休",
+      "ja": "退職した・引退した",
+      "en": "retired",
+      "vi": "nghỉ hưu",
+      "pl": "na emeryturze"
+    },
+    "pos": "v",
+    "ex": "Kakek dan nenek sudah pensiun dan tinggal di Kota Semarang, Jawa Tengah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "爷爷奶奶已经退休，住在中爪哇的三宝垄市。",
+      "ja": "祖父母はもう退職していて、中部ジャワのスマラン市に住んでいます。",
+      "en": "Grandpa and Grandma are retired and live in the city of Semarang, Central Java.",
+      "vi": "Ông bà đã nghỉ hưu, sống ở thành phố Semarang, Trung Java.",
+      "pl": "Dziadek i babcia są na emeryturze i mieszkają w Semarangu na Jawie Środkowej."
+    },
+    "note": null
+  },
+  {
+    "w": "keterangan",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "状语 · 说明",
+      "ja": "状況語 · 説明",
+      "en": "adverbial; description",
+      "vi": "trạng ngữ · lời giải thích",
+      "pl": "okolicznik · opis"
+    },
+    "pos": "n",
+    "ex": null,
+    "ex_reg": null,
+    "ex_gloss": null,
+    "note": null
+  },
+  {
+    "w": "dengan",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "用 · 带着 · 跟",
+      "ja": "〜で・〜をもって・〜と",
+      "en": "with",
+      "vi": "bằng · một cách · với",
+      "pl": "z, czymś (narzędziem)"
+    },
+    "pos": "prep",
+    "ex": "Dengan Rizki.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "跟 Rizki。",
+      "ja": "Rizki とです。",
+      "en": "With Rizki.",
+      "vi": "Cùng với Rizki.",
+      "pl": "Z Rizkim."
+    },
+    "note": null
+  },
+  {
+    "w": "memotong",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "切",
+      "ja": "切る",
+      "en": "to cut",
+      "vi": "cắt",
+      "pl": "kroić"
+    },
+    "pos": "v",
+    "ex": "Dengan apa ayah memotong kue?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "爸爸用什么切蛋糕？",
+      "ja": "父は何でケーキを切りますか。",
+      "en": "What does Dad cut the cake with?",
+      "vi": "Bố cắt bánh bằng gì?",
+      "pl": "Czym tata kroi ciasto?"
+    },
+    "note": null
+  },
+  {
+    "w": "pisau",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "刀",
+      "ja": "ナイフ・包丁",
+      "en": "knife",
+      "vi": "dao",
+      "pl": "nóż"
+    },
+    "pos": "n",
+    "ex": "Ayah memotong kue dengan pisau.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "爸爸用刀切蛋糕。",
+      "ja": "父はナイフでケーキを切ります。",
+      "en": "Dad cuts the cake with a knife.",
+      "vi": "Bố cắt bánh bằng dao.",
+      "pl": "Tata kroi ciasto nożem."
+    },
+    "note": null
+  },
+  {
+    "w": "menggambar",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "画（画）",
+      "ja": "（絵を）かく",
+      "en": "to draw",
+      "vi": "vẽ",
+      "pl": "rysować"
+    },
+    "pos": "v",
+    "ex": "Dengan apa adik menggambar rumah?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "弟弟用什么画房子？",
+      "ja": "弟は何で家の絵をかきますか。",
+      "en": "What does your brother draw the house with?",
+      "vi": "Em trai vẽ ngôi nhà bằng gì?",
+      "pl": "Czym twój brat rysuje dom?"
+    },
+    "note": null
+  },
+  {
+    "w": "menerima",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "收到 · 接受",
+      "ja": "受け取る・受け入れる",
+      "en": "to receive",
+      "vi": "nhận",
+      "pl": "otrzymać, przyjąć"
+    },
+    "pos": "v",
+    "ex": "Bagaimana nenek menerima hadiah?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "奶奶是怎样收下礼物的？",
+      "ja": "祖母はどんなふうにプレゼントを受け取りますか。",
+      "en": "How does Grandma receive the present?",
+      "vi": "Bà nhận quà như thế nào?",
+      "pl": "Jak babcia przyjmuje prezent?"
+    },
+    "note": null
+  },
+  {
+    "w": "semangat",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "劲头 · 热情",
+      "ja": "熱意・意気込み",
+      "en": "enthusiasm, spirit",
+      "vi": "sự hăng hái · nhiệt tình",
+      "pl": "zapał, energia"
+    },
+    "pos": "n",
+    "ex": "Arnold belajar karate dengan semangat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Arnold 练空手道很有劲头。",
+      "ja": "Arnold は熱心に空手を練習します。",
+      "en": "Arnold practises karate with enthusiasm.",
+      "vi": "Arnold tập karate rất hăng say.",
+      "pl": "Arnold ćwiczy karate z zapałem."
+    },
+    "note": null
+  },
+  {
+    "w": "mengunjungi",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "拜访 · 去看望",
+      "ja": "訪ねる・会いに行く",
+      "en": "to visit",
+      "vi": "thăm · đến thăm",
+      "pl": "odwiedzać"
+    },
+    "pos": "v",
+    "ex": "Kapan kalian mengunjungi nenek?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "你们什么时候去看的奶奶？",
+      "ja": "あなたたちはいつおばあさんを訪ねたのですか。",
+      "en": "When did you visit Grandma?",
+      "vi": "Các bạn đi thăm bà khi nào?",
+      "pl": "Kiedy odwiedziliście babcię?"
+    },
+    "note": null
+  },
+  {
+    "w": "dapur",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "厨房",
+      "ja": "台所",
+      "en": "kitchen",
+      "vi": "nhà bếp",
+      "pl": "kuchnia"
+    },
+    "pos": "n",
+    "ex": "Mbak Hanny memasak rendang di dapur.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Hanny 姐在厨房做仁当牛肉。（S Mbak Hanny · P memasak · O rendang · K di dapur）",
+      "ja": "Mbak Hanny は台所でルンダンを作ります。（S Mbak Hanny · P memasak · O rendang · K di dapur）",
+      "en": "Mbak Hanny cooks rendang in the kitchen. (S Mbak Hanny · P memasak · O rendang · K di dapur)",
+      "vi": "Chị Hanny nấu món rendang trong bếp. (S Mbak Hanny · P memasak · O rendang · K di dapur)",
+      "pl": "Mbak Hanny gotuje rendang w kuchni. (S Mbak Hanny · P memasak · O rendang · K di dapur)"
+    },
+    "note": null
+  },
+  {
+    "w": "mengambil",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "拿 · 取",
+      "ja": "取る・取ってくる",
+      "en": "to take, to fetch",
+      "vi": "lấy",
+      "pl": "wziąć, pójść po coś"
+    },
+    "pos": "v",
+    "ex": "Kakak mengambil tas di kamar.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "哥哥去房间拿包。",
+      "ja": "兄は部屋へかばんを取りに行きます。",
+      "en": "My older brother gets his bag from the room.",
+      "vi": "Anh trai vào phòng lấy cặp.",
+      "pl": "Starszy brat idzie do pokoju po torbę."
+    },
+    "note": null
+  },
+  {
+    "w": "membayar",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "付钱",
+      "ja": "払う",
+      "en": "to pay",
+      "vi": "trả tiền",
+      "pl": "płacić"
+    },
+    "pos": "v",
+    "ex": "Ayah membayar makanan di restoran.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "爸爸在餐厅付饭钱。",
+      "ja": "父はレストランで食事代を払います。",
+      "en": "Dad pays for the food at the restaurant.",
+      "vi": "Bố trả tiền ăn ở nhà hàng.",
+      "pl": "Tata płaci za jedzenie w restauracji."
+    },
+    "note": null
+  },
+  {
+    "w": "mengerjakan",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "做（作业、工作）",
+      "ja": "する（宿題・仕事を）",
+      "en": "to do (work, homework)",
+      "vi": "làm (bài tập, công việc)",
+      "pl": "robić (pracę, zadanie domowe)"
+    },
+    "pos": "v",
+    "ex": "Mahasiswa itu mengerjakan PR di perpustakaan setiap sore.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那个学生每天下午在图书馆做作业。",
+      "ja": "その学生は毎日午後に図書館で宿題をします。",
+      "en": "That student does homework in the library every afternoon.",
+      "vi": "Chiều nào học sinh đó cũng làm bài tập ở thư viện.",
+      "pl": "Ten student codziennie po południu odrabia zadania w bibliotece."
+    },
+    "note": null
+  },
+  {
+    "w": "perpustakaan",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "图书馆",
+      "ja": "図書館",
+      "en": "library",
+      "vi": "thư viện",
+      "pl": "biblioteka"
+    },
+    "pos": "n",
+    "ex": "Juna membaca buku di perpustakaan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Juna 在图书馆看书。",
+      "ja": "Juna は図書館で本を読みます。",
+      "en": "Juna reads a book in the library.",
+      "vi": "Juna đọc sách ở thư viện.",
+      "pl": "Juna czyta książkę w bibliotece."
+    },
+    "note": null
+  },
+  {
+    "w": "mengadakan",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "举办",
+      "ja": "開く・催す",
+      "en": "to hold (an event)",
+      "vi": "tổ chức",
+      "pl": "organizować (wydarzenie)"
+    },
+    "pos": "v",
+    "ex": "Kami mengadakan pesta di rumah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们在家办聚会。",
+      "ja": "わたしたちは家でパーティーを開きます。",
+      "en": "We hold a party at home.",
+      "vi": "Chúng tôi tổ chức tiệc ở nhà.",
+      "pl": "Organizujemy przyjęcie w domu."
+    },
+    "note": null
+  },
+  {
+    "w": "bersama",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "一起 · 和…一起",
+      "ja": "一緒に・〜と一緒に",
+      "en": "together, with",
+      "vi": "cùng · cùng với",
+      "pl": "razem, z kimś"
+    },
+    "pos": "adv",
+    "ex": "Rahmi tinggal di Surabaya bersama kakeknya.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Rahmi 和爷爷一起住在泗水。",
+      "ja": "Rahmi はおじいさんと一緒にスラバヤに住んでいます。",
+      "en": "Rahmi lives in Surabaya with her grandfather.",
+      "vi": "Rahmi sống ở Surabaya cùng với ông của mình.",
+      "pl": "Rahmi mieszka z dziadkiem w Surabai."
+    },
+    "note": null
+  },
+  {
+    "w": "tidak",
+    "les": 4,
+    "reg": "formal",
+    "pair": "gak",
+    "gloss": {
+      "zh": "不（否定动词、形容词）",
+      "ja": "〜ない（動詞・形容詞の否定）",
+      "en": "not (verbs, adjectives)",
+      "vi": "không (phủ định động từ, tính từ)",
+      "pl": "nie (przy czasownikach i przymiotnikach)"
+    },
+    "pos": "adv",
+    "ex": "Tidak.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "不（ikut 是动词）。",
+      "ja": "Tidak（ikut は動詞）。",
+      "en": "Tidak (ikut is a verb).",
+      "vi": "Tidak (ikut là động từ).",
+      "pl": "Tidak (ikut to czasownik)."
+    },
+    "note": null
+  },
+  {
+    "w": "kata benda",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "名词",
+      "ja": "名詞",
+      "en": "noun",
+      "vi": "danh từ",
+      "pl": "rzeczownik"
+    },
+    "pos": "n",
+    "ex": null,
+    "ex_reg": null,
+    "ex_gloss": null,
+    "note": null
+  },
+  {
+    "w": "kata kerja",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "动词",
+      "ja": "動詞",
+      "en": "verb",
+      "vi": "động từ",
+      "pl": "czasownik"
+    },
+    "pos": "n",
+    "ex": null,
+    "ex_reg": null,
+    "ex_gloss": null,
+    "note": null
+  },
+  {
+    "w": "kata sifat",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "形容词",
+      "ja": "形容詞",
+      "en": "adjective",
+      "vi": "tính từ",
+      "pl": "przymiotnik"
+    },
+    "pos": "n",
+    "ex": null,
+    "ex_reg": null,
+    "ex_gloss": null,
+    "note": null
+  },
+  {
+    "w": "pemain bola",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "足球运动员",
+      "ja": "サッカー選手",
+      "en": "football player",
+      "vi": "cầu thủ bóng đá",
+      "pl": "piłkarz"
+    },
+    "pos": "n",
+    "ex": "Anda pemain bola.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您是足球运动员。",
+      "ja": "あなたはサッカー選手です。",
+      "en": "You are a football player.",
+      "vi": "Bạn là cầu thủ bóng đá.",
+      "pl": "Pan jest piłkarzem."
+    },
+    "note": null
+  },
+  {
+    "w": "tentara",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "军人",
+      "ja": "軍人",
+      "en": "soldier",
+      "vi": "quân nhân",
+      "pl": "żołnierz"
+    },
+    "pos": "n",
+    "ex": "Paman saya tentara.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我叔叔是军人。",
+      "ja": "わたしのおじは軍人です。",
+      "en": "My uncle is a soldier.",
+      "vi": "Chú tôi là quân nhân.",
+      "pl": "Mój wujek jest żołnierzem."
+    },
+    "note": null
+  },
+  {
+    "w": "polisi",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "警察",
+      "ja": "警察官",
+      "en": "police officer",
+      "vi": "cảnh sát",
+      "pl": "policjant"
+    },
+    "pos": "n",
+    "ex": "Paman saya bukan tentara. Dia polisi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我叔叔不是军人，是警察。",
+      "ja": "わたしのおじは軍人ではなく、警察官です。",
+      "en": "My uncle is not a soldier. He is a police officer.",
+      "vi": "Chú tôi không phải là quân nhân. Chú ấy là cảnh sát.",
+      "pl": "Mój wujek nie jest żołnierzem, tylko policjantem."
+    },
+    "note": null
+  },
+  {
+    "w": "kantor pos",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "邮局",
+      "ja": "郵便局",
+      "en": "post office",
+      "vi": "bưu điện",
+      "pl": "poczta"
+    },
+    "pos": "n",
+    "ex": "Dia bekerja di kantor pos.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他在邮局工作。",
+      "ja": "彼は郵便局で働いています。",
+      "en": "He works at the post office.",
+      "vi": "Anh ấy làm việc ở bưu điện.",
+      "pl": "Pracuje na poczcie."
+    },
+    "note": null
+  },
+  {
+    "w": "meminjam",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "借（进来）",
+      "ja": "借りる",
+      "en": "to borrow",
+      "vi": "mượn",
+      "pl": "wypożyczać, pożyczać (od kogoś)"
+    },
+    "pos": "v",
+    "ex": "Mariana meminjam buku di Perpustakaan FIB.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Mariana 在文化学院图书馆借书。",
+      "ja": "Mariana は文化学部（FIB）の図書館で本を借ります。",
+      "en": "Mariana borrows books at the FIB library.",
+      "vi": "Mariana mượn sách ở Thư viện FIB.",
+      "pl": "Mariana wypożycza książki w bibliotece FIB."
+    },
+    "note": null
+  },
+  {
+    "w": "sakit kepala",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "头疼",
+      "ja": "頭が痛い · 頭痛",
+      "en": "headache",
+      "vi": "đau đầu",
+      "pl": "ból głowy"
+    },
+    "pos": "n",
+    "ex": "Pak Wawan sakit kepala.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Pak Wawan 头疼。",
+      "ja": "Pak Wawan は頭が痛いです。",
+      "en": "Pak Wawan has a headache.",
+      "vi": "Pak Wawan bị đau đầu.",
+      "pl": "Pak Wawan ma ból głowy."
+    },
+    "note": null
+  },
+  {
+    "w": "televisi",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "电视",
+      "ja": "テレビ",
+      "en": "television",
+      "vi": "tivi",
+      "pl": "telewizja, telewizor"
+    },
+    "pos": "n",
+    "ex": "Ayah menonton televisi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "爸爸在看电视。",
+      "ja": "お父さんはテレビを見ています。",
+      "en": "Dad is watching television.",
+      "vi": "Bố đang xem tivi.",
+      "pl": "Tata ogląda telewizję."
+    },
+    "note": null
+  },
+  {
+    "w": "jus",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "果汁",
+      "ja": "ジュース",
+      "en": "juice",
+      "vi": "nước ép",
+      "pl": "sok"
+    },
+    "pos": "n",
+    "ex": "Mereka minum jus di kantin.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他们在食堂喝果汁。",
+      "ja": "かれらは食堂でジュースを飲みます。",
+      "en": "They drink juice in the canteen.",
+      "vi": "Họ uống nước ép ở căng tin.",
+      "pl": "Piją sok w stołówce."
+    },
+    "note": null
+  },
+  {
+    "w": "dingin",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "冷",
+      "ja": "寒い",
+      "en": "cold",
+      "vi": "lạnh",
+      "pl": "zimny, zimno"
+    },
+    "pos": "adj",
+    "ex": "Pagi ini dingin.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "今天早上很冷。",
+      "ja": "今朝は寒いです。",
+      "en": "It is cold this morning.",
+      "vi": "Sáng nay trời lạnh.",
+      "pl": "Dziś rano jest zimno."
+    },
+    "note": null
+  },
+  {
+    "w": "panas",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "热",
+      "ja": "暑い",
+      "en": "hot",
+      "vi": "nóng",
+      "pl": "gorący, gorąco"
+    },
+    "pos": "adj",
+    "ex": "Pagi ini tidak dingin. Pagi ini panas.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "今天早上不冷，挺热的。",
+      "ja": "今朝は寒くありません。暑いくらいです。",
+      "en": "It is not cold this morning. It is hot.",
+      "vi": "Sáng nay trời không lạnh. Sáng nay trời nóng.",
+      "pl": "Dziś rano nie jest zimno, jest raczej gorąco."
+    },
+    "note": null
+  },
+  {
+    "w": "indah",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "美丽 · 漂亮",
+      "ja": "美しい · きれいな",
+      "en": "beautiful",
+      "vi": "đẹp",
+      "pl": "piękny, ładny"
+    },
+    "pos": "adj",
+    "ex": "Rumah Arif indah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Arif 的房子很漂亮。",
+      "ja": "Arif の家はきれいです。",
+      "en": "Arif’s house is beautiful.",
+      "vi": "Nhà của Arif đẹp.",
+      "pl": "Dom Arifa jest ładny."
+    },
+    "note": null
+  },
+  {
+    "w": "jauh",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "远",
+      "ja": "遠い",
+      "en": "far",
+      "vi": "xa",
+      "pl": "daleki, daleko"
+    },
+    "pos": "adj",
+    "ex": "Kampusnya jauh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他的学校很远。",
+      "ja": "彼の学校は遠いです。",
+      "en": "His campus is far away.",
+      "vi": "Trường của anh ấy ở xa.",
+      "pl": "Jego uczelnia jest daleko."
+    },
+    "note": null
+  },
+  {
+    "w": "kurus",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "瘦",
+      "ja": "やせている",
+      "en": "thin",
+      "vi": "gầy",
+      "pl": "szczupły, chudy"
+    },
+    "pos": "adj",
+    "ex": "Bibi saya kurus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我阿姨很瘦。",
+      "ja": "わたしのおばはやせています。",
+      "en": "My aunt is thin.",
+      "vi": "Dì tôi gầy.",
+      "pl": "Moja ciocia jest szczupła."
+    },
+    "note": null
+  },
+  {
+    "w": "kecil",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "小",
+      "ja": "小さい",
+      "en": "small",
+      "vi": "nhỏ",
+      "pl": "mały"
+    },
+    "pos": "adj",
+    "ex": "Anak kecil itu tidak pandai. Dia malas belajar.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那个小孩不聪明，他懒得学习。",
+      "ja": "あの子は頭がよくありません。勉強を怠けています。",
+      "en": "That child is not clever. He is too lazy to study.",
+      "vi": "Đứa bé đó không giỏi. Nó lười học.",
+      "pl": "To dziecko nie jest mądre, nie chce mu się uczyć."
+    },
+    "note": null
+  },
+  {
+    "w": "murah",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "便宜",
+      "ja": "安い",
+      "en": "cheap",
+      "vi": "rẻ",
+      "pl": "tani"
+    },
+    "pos": "adj",
+    "ex": "Nasi goreng di kantin murah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "食堂的炒饭很便宜。",
+      "ja": "食堂のナシゴレンは安いです。",
+      "en": "The fried rice in the canteen is cheap.",
+      "vi": "Cơm chiên ở căng tin rẻ.",
+      "pl": "Smażony ryż w stołówce jest tani."
+    },
+    "note": null
+  },
+  {
+    "w": "enak",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "好吃",
+      "ja": "おいしい",
+      "en": "tasty",
+      "vi": "ngon",
+      "pl": "smaczny"
+    },
+    "pos": "adj",
+    "ex": "Nasi goreng di kantin tidak murah, tetapi enak.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "食堂的炒饭不便宜，但好吃。",
+      "ja": "食堂のナシゴレンは安くはありませんが、おいしいです。",
+      "en": "The fried rice in the canteen is not cheap, but it is tasty.",
+      "vi": "Cơm chiên ở căng tin không rẻ, nhưng ngon.",
+      "pl": "Smażony ryż w stołówce nie jest tani, ale jest smaczny."
+    },
+    "note": null
+  },
+  {
+    "w": "tetapi",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "但是",
+      "ja": "でも · しかし",
+      "en": "but",
+      "vi": "nhưng",
+      "pl": "ale"
+    },
+    "pos": "conj",
+    "ex": "Artis itu tidak cantik, tetapi ramah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那个明星不算美，但很亲切。",
+      "ja": "あの芸能人は美人とは言えませんが、とても感じがいいです。",
+      "en": "That celebrity is not beautiful, but she is friendly.",
+      "vi": "Người nổi tiếng đó không xinh đẹp lắm, nhưng rất thân thiện.",
+      "pl": "Ta gwiazda nie jest jakoś szczególnie piękna, ale jest bardzo sympatyczna."
+    },
+    "note": null
+  },
+  {
+    "w": "galak",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "凶",
+      "ja": "厳しい · こわい",
+      "en": "fierce, strict",
+      "vi": "dữ, khó tính",
+      "pl": "groźny, surowy"
+    },
+    "pos": "adj",
+    "ex": "Tutor INCULS tidak galak. Mereka baik sekali.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "INCULS 的老师不凶，他们人很好。",
+      "ja": "INCULS の先生は厳しくありません。とてもやさしい人たちです。",
+      "en": "The INCULS tutors are not strict. They are very kind.",
+      "vi": "Thầy cô ở INCULS không khó tính. Họ rất tốt bụng.",
+      "pl": "Lektorzy INCULS nie są surowi, są bardzo życzliwi."
+    },
+    "note": null
+  },
+  {
+    "w": "lebar",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "宽",
+      "ja": "広い（幅が）",
+      "en": "wide",
+      "vi": "rộng",
+      "pl": "szeroki"
+    },
+    "pos": "adj",
+    "ex": "Jalan itu tidak lebar. Mobil tidak bisa lewat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那条路不宽，车过不去。",
+      "ja": "あの道は広くないので、車は通れません。",
+      "en": "That road is not wide. Cars cannot get through.",
+      "vi": "Con đường đó không rộng. Ô tô không đi qua được.",
+      "pl": "Ta droga nie jest szeroka, samochody nie przejadą."
+    },
+    "note": null
+  },
+  {
+    "w": "malas",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "懒",
+      "ja": "怠けている",
+      "en": "lazy",
+      "vi": "lười",
+      "pl": "leniwy"
+    },
+    "pos": "adj",
+    "ex": "Anak kecil itu tidak pandai. Dia malas belajar.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那个小孩不聪明，他懒得学习。",
+      "ja": "あの子は頭がよくありません。勉強を怠けています。",
+      "en": "That child is not clever. He is too lazy to study.",
+      "vi": "Đứa bé đó không giỏi. Nó lười học.",
+      "pl": "To dziecko nie jest mądre, nie chce mu się uczyć."
+    },
+    "note": null
+  },
+  {
+    "w": "sepi",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "冷清 · 安静",
+      "ja": "ひっそりした · 静かな",
+      "en": "quiet, deserted",
+      "vi": "vắng vẻ · yên tĩnh",
+      "pl": "cichy, opustoszały"
+    },
+    "pos": "adj",
+    "ex": "Terima kasih, Pak. Kok sepi? Ibu dan anak-anak tidak di rumah?",
+    "ex_reg": "casual",
+    "ex_gloss": {
+      "zh": "谢谢。怎么这么安静？师母和孩子们不在家吗？",
+      "ja": "ありがとうございます。ずいぶん静かですね。奥さんとお子さんたちは留守ですか。",
+      "en": "Thank you. Why is it so quiet? Aren’t your wife and the children at home?",
+      "vi": "Cảm ơn ông. Sao nhà vắng thế ạ? Bà và các cháu không có nhà sao?",
+      "pl": "Dziękuję. Czemu tu tak cicho? Nie ma w domu pana żony i dzieci?"
+    },
+    "note": null
+  },
+  {
+    "w": "kok",
+    "les": 4,
+    "reg": "casual",
+    "pair": null,
+    "gloss": {
+      "zh": "怎么（这么）…（口语）",
+      "ja": "どうして（こんなに）…（話しことば）",
+      "en": "how come… (casual)",
+      "vi": "sao (lại)… (văn nói)",
+      "pl": "jak to…, czemu (tak)… (potocznie)"
+    },
+    "pos": "part",
+    "ex": "Terima kasih, Pak. Kok sepi? Ibu dan anak-anak tidak di rumah?",
+    "ex_reg": "casual",
+    "ex_gloss": {
+      "zh": "谢谢。怎么这么安静？师母和孩子们不在家吗？",
+      "ja": "ありがとうございます。ずいぶん静かですね。奥さんとお子さんたちは留守ですか。",
+      "en": "Thank you. Why is it so quiet? Aren’t your wife and the children at home?",
+      "vi": "Cảm ơn ông. Sao nhà vắng thế ạ? Bà và các cháu không có nhà sao?",
+      "pl": "Dziękuję. Czemu tu tak cicho? Nie ma w domu pana żony i dzieci?"
+    },
+    "note": null
+  },
+  {
+    "w": "sedang",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "正在",
+      "ja": "〜しているところ",
+      "en": "in the middle of (doing)",
+      "vi": "đang",
+      "pl": "właśnie, w trakcie (robienia czegoś)"
+    },
+    "pos": "adv",
+    "ex": "Di sekolah. Dia sedang kursus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "在学校，他在上补习课。",
+      "ja": "学校です。講座を受けています。",
+      "en": "At school. He is at a course.",
+      "vi": "Ở trường. Cậu ấy đang học thêm.",
+      "pl": "W szkole. Jest na kursie."
+    },
+    "note": null
+  },
+  {
+    "w": "belum",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "还没",
+      "ja": "まだ〜ない",
+      "en": "not yet",
+      "vi": "chưa",
+      "pl": "jeszcze nie"
+    },
+    "pos": "adv",
+    "ex": "Rizki belum pulang dari sekolah. Sore ini dia sedang ikut kursus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Rizki 还没放学回家，今天下午他在上补习课。",
+      "ja": "Rizki はまだ学校から帰っていません。今日の午後は講座を受けています。",
+      "en": "Rizki isn’t back from school yet. This afternoon he is at a course.",
+      "vi": "Rizki chưa đi học về. Chiều nay cậu ấy có lớp học thêm.",
+      "pl": "Rizki jeszcze nie wrócił ze szkoły. Dziś po południu ma kurs."
+    },
+    "note": null
+  },
+  {
+    "w": "kursus",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "补习班 · 课程",
+      "ja": "講座 · 習いごと",
+      "en": "course, lessons",
+      "vi": "lớp học thêm · khóa học",
+      "pl": "kurs, zajęcia dodatkowe"
+    },
+    "pos": "n",
+    "ex": "Di sekolah. Dia sedang kursus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "在学校，他在上补习课。",
+      "ja": "学校です。講座を受けています。",
+      "en": "At school. He is at a course.",
+      "vi": "Ở trường. Cậu ấy đang học thêm.",
+      "pl": "W szkole. Jest na kursie."
+    },
+    "note": null
+  },
+  {
+    "w": "berkumpul",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "聚在一起",
+      "ja": "集まる",
+      "en": "to gather",
+      "vi": "tụ họp",
+      "pl": "zbierać się, spotykać się"
+    },
+    "pos": "v",
+    "ex": "Siapa yang sudah berkumpul di rumah orang tua Pak Budi?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "谁已经聚在 Pak Budi 的父母家了？",
+      "ja": "Pak Budi の両親の家にもう集まっているのはだれですか。",
+      "en": "Who has already gathered at Pak Budi’s parents’ house?",
+      "vi": "Ai đã tụ họp ở nhà bố mẹ Pak Budi?",
+      "pl": "Kto już zebrał się w domu rodziców Pak Budi?"
+    },
+    "note": null
+  },
+  {
+    "w": "perkawinan",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "婚姻",
+      "ja": "結婚",
+      "en": "marriage",
+      "vi": "hôn nhân",
+      "pl": "małżeństwo, ślub"
+    },
+    "pos": "n",
+    "ex": "Pesta ulang tahun perkawinan orang tua saya, yang kelima puluh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我父母结婚五十周年的纪念聚会。",
+      "ja": "両親の結婚 50 周年のお祝いです。",
+      "en": "My parents’ fiftieth wedding anniversary.",
+      "vi": "Tiệc kỷ niệm năm mươi năm ngày cưới của bố mẹ tôi.",
+      "pl": "Z okazji pięćdziesiątej rocznicy ślubu moich rodziców."
+    },
+    "note": null
+  },
+  {
+    "w": "anggota",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "成员",
+      "ja": "一員 · メンバー",
+      "en": "member",
+      "vi": "thành viên",
+      "pl": "członek"
+    },
+    "pos": "n",
+    "ex": "Ya, nanti malam saya pergi ke sana dengan Rizki. Semua anggota keluarga datang untuk merayakannya.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "对，今晚我和 Rizki 一起过去。全家人都会来庆祝。",
+      "ja": "ええ、今夜 Rizki と一緒に行きます。家族みんなでお祝いするんです。",
+      "en": "Yes, tonight I’m going there with Rizki. The whole family is coming to celebrate.",
+      "vi": "Ừ, tối nay tôi sang đó với Rizki. Cả gia đình đều đến để chúc mừng.",
+      "pl": "Tak, wieczorem jadę tam z Rizkim. Cała rodzina przyjdzie świętować."
+    },
+    "note": null
+  },
+  {
+    "w": "nanti malam",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "今晚（待会儿）",
+      "ja": "今夜 · 後で",
+      "en": "tonight, later this evening",
+      "vi": "tối nay (lát nữa)",
+      "pl": "dziś wieczorem, później wieczorem"
+    },
+    "pos": "adv",
+    "ex": "Keluarga Pak Budi mengadakan pesta ulang tahun nanti malam.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Pak Budi 家今晚办生日宴。",
+      "ja": "Pak Budi の家では今夜誕生日パーティーを開きます。",
+      "en": "Pak Budi’s family is holding a birthday party tonight.",
+      "vi": "Tối nay nhà ông Budi tổ chức tiệc sinh nhật.",
+      "pl": "Rodzina Pak Budiego urządza dziś wieczorem przyjęcie urodzinowe."
+    },
+    "note": null
+  },
+  {
+    "w": "karena",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "因为",
+      "ja": "〜だから · なぜなら",
+      "en": "because",
+      "vi": "vì",
+      "pl": "bo, ponieważ"
+    },
+    "pos": "conj",
+    "ex": "Karena ada pesta.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "因为有聚会。",
+      "ja": "パーティーがあるからです。",
+      "en": "Because there is a party.",
+      "vi": "Vì có tiệc.",
+      "pl": "Bo jest przyjęcie."
+    },
+    "note": null
+  },
+  {
+    "w": "mengapa",
+    "les": 4,
+    "reg": "formal",
+    "pair": "kenapa",
+    "gloss": {
+      "zh": "为什么",
+      "ja": "なぜ · どうして",
+      "en": "why",
+      "vi": "tại sao",
+      "pl": "dlaczego"
+    },
+    "pos": "adv",
+    "ex": "Yusuf, mengapa adikmu tidak ikut berenang?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Yusuf，你弟弟为什么不一起去游泳？",
+      "ja": "Yusuf、弟さんはどうして一緒に泳ぎに行かないんですか。",
+      "en": "Yusuf, why isn’t your little brother coming swimming?",
+      "vi": "Yusuf, sao em trai cậu không đi bơi cùng?",
+      "pl": "Yusuf, czemu twój młodszy brat nie idzie z nami popływać?"
+    },
+    "note": null
+  },
+  {
+    "w": "masih",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "还（仍然）",
+      "ja": "まだ（今も）",
+      "en": "still",
+      "vi": "vẫn (còn)",
+      "pl": "jeszcze, wciąż"
+    },
+    "pos": "adv",
+    "ex": "Baju Malik tidak baru, tetapi masih bagus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Malik 的衣服不新，但还挺好。",
+      "ja": "Malik の服は新しくはありませんが、まだきれいです。",
+      "en": "Malik’s clothes are not new, but they are still nice.",
+      "vi": "Áo của Malik không mới, nhưng vẫn còn đẹp.",
+      "pl": "Ubrania Malika nie są nowe, ale wciąż są ładne."
+    },
+    "note": null
+  },
+  {
+    "w": "silsilah",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "家谱",
+      "ja": "家系図",
+      "en": "family tree",
+      "vi": "cây gia phả",
+      "pl": "drzewo genealogiczne"
+    },
+    "pos": "n",
+    "ex": null,
+    "ex_reg": null,
+    "ex_gloss": null,
+    "note": null
+  },
+  {
+    "w": "anak tunggal",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "独生子女",
+      "ja": "一人っ子",
+      "en": "only child",
+      "vi": "con một",
+      "pl": "jedynak, jedynaczka"
+    },
+    "pos": "n",
+    "ex": null,
+    "ex_reg": null,
+    "ex_gloss": null,
+    "note": null
+  },
+  {
+    "w": "mudik",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "回老家",
+      "ja": "帰省する",
+      "en": "to go back to your home town",
+      "vi": "về quê",
+      "pl": "wracać w rodzinne strony"
+    },
+    "pos": "v",
+    "ex": "Setiap Lebaran, keluarga kami mudik ke Semarang.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "每年开斋节我们全家都回三宝垄老家。",
+      "ja": "毎年レバランには、家族みんなでスマランの実家に帰ります。",
+      "en": "Every Lebaran our family goes home to Semarang.",
+      "vi": "Lebaran năm nào gia đình chúng tôi cũng về quê ở Semarang.",
+      "pl": "Co roku na Lebaran cała nasza rodzina wraca w rodzinne strony, do Semarangu."
+    },
+    "note": null
+  },
+  {
+    "w": "arisan",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "轮流互助会",
+      "ja": "持ち回りの積立会",
+      "en": "rotating savings group",
+      "vi": "hụi, họ (góp tiền xoay vòng)",
+      "pl": "rotacyjna grupa oszczędnościowa"
+    },
+    "pos": "n",
+    "ex": "Ibu saya ikut arisan setiap bulan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我妈妈每个月都参加互助会。",
+      "ja": "母は毎月アリサンに参加しています。",
+      "en": "My mother goes to arisan every month.",
+      "vi": "Tháng nào mẹ tôi cũng tham gia arisan.",
+      "pl": "Moja mama co miesiąc chodzi na arisan."
+    },
+    "note": null
+  },
+  {
+    "w": "sungkeman",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "跪拜请求祝福的仪式",
+      "ja": "ひざまずいて祝福を願う儀式",
+      "en": "kneeling ceremony asking for blessing",
+      "vi": "nghi lễ quỳ lạy xin chúc phúc",
+      "pl": "obrzęd klęknięcia z prośbą o błogosławieństwo"
+    },
+    "pos": "n",
+    "ex": "Pengantin melakukan sungkeman kepada orang tua.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "新人向父母行跪拜礼。",
+      "ja": "新郎新婦が両親にスンケマンをします。",
+      "en": "The bride and groom perform sungkeman to their parents.",
+      "vi": "Cô dâu chú rể làm lễ sungkeman với bố mẹ.",
+      "pl": "Para młoda robi sungkeman przed rodzicami."
+    },
+    "note": null
+  },
+  {
+    "w": "Lebaran",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "开斋节",
+      "ja": "レバラン（断食明け大祭）",
+      "en": "Eid al-Fitr",
+      "vi": "lễ kết thúc tháng chay Ramadan (Eid al-Fitr)",
+      "pl": "Id al-Fitr (koniec ramadanu)"
+    },
+    "pos": "n",
+    "ex": "Setiap Lebaran, keluarga kami mudik ke Semarang.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "每年开斋节我们全家都回三宝垄老家。",
+      "ja": "毎年レバランには、家族みんなでスマランの実家に帰ります。",
+      "en": "Every Lebaran our family goes home to Semarang.",
+      "vi": "Lebaran năm nào gia đình chúng tôi cũng về quê ở Semarang.",
+      "pl": "Co roku na Lebaran cała nasza rodzina wraca w rodzinne strony, do Semarangu."
+    },
+    "note": null
+  },
+  {
+    "w": "cukup",
+    "les": 4,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "足够",
+      "ja": "十分な",
+      "en": "enough",
+      "vi": "đủ",
+      "pl": "wystarczający, dość"
+    },
+    "pos": "adj",
+    "ex": "Dua anak cukup.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "两个孩子就够了。",
+      "ja": "子どもは二人で十分。",
+      "en": "Two children are enough.",
+      "vi": "Hai con là đủ.",
+      "pl": "Dwoje dzieci wystarczy."
+    },
+    "note": null
   }
 ]

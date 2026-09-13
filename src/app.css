@@ -468,6 +468,12 @@
   .exer li + li{border-top:1px solid var(--line)}
   .qa-line{display:flex;align-items:baseline;gap:9px}
   .qa-line + .qa-line{margin-top:4px}
+  .qa-line .tier{display:block;font-family:var(--ui);font-size:.68em;letter-spacing:.08em;font-weight:700;
+    color:var(--accent-ink);margin-bottom:1px}
+  .qa-line.tiered + .qa-line.tiered{margin-top:8px}
+  /* 标签在句子上面一行：▶ 跟句子对齐，不跟标签对齐 */
+  .qa-line.tiered{align-items:flex-start}
+  .qa-line.tiered .play{margin-top:17px}
   .qa-line .plain{color:var(--ink-soft);font-size:.95em}
   .qa-line .gloss{color:var(--ink-soft);font-size:.84em;display:block;margin-top:3px;line-height:1.6;
     overflow-wrap:anywhere}

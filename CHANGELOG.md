@@ -4,6 +4,29 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.9.0 — 2026-09-13
+
+**Bab 4 · Keluarga (family), with class-ready answers**
+
+- **A new chapter: Bab 4, Keluarga.** Twenty kinship words and a family
+  tree, the reading about Pak Wawan's family, the dialogue at Pak Budi's house,
+  and the grammar of S-P-O-K sentences and the two negative words *bukan* and
+  *tidak* — 17 pages in all, plus 84 new words in the glossary and six new
+  family questions in Situasi practice
+- **Every exercise in the chapter, numbered exactly as in the book.** The
+  practice pages now use the book's own questions in the book's order, so when
+  the teacher calls on you for Latihan 3, item 7, that is the item you open
+- **Two answers for every item: Short and Full.** *Short* is the shortest safe
+  thing to say when you are called on; *Full* is the complete sentence, often
+  with one more sentence in case the teacher follows up
+- **The printed book is missing two lines of the dialogue on page 54.** The
+  page restores them from the digital edition and explains why items 1 and 2 of
+  the speaking exercise could not be answered from the printed text. The other
+  misprints in the chapter are corrected and pointed out where they occur
+- **Bab 3 handout, completed.** The simple-sentence practice now has Full
+  answers too, and a new page gives twelve model sentences for each of the
+  four "make your own" tables (Latihan 1a–4a)
+
 ## 1.8.0 — 2026-09-07
 
 **Answer keys for every exercise in the coursebook**

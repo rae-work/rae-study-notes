@@ -59,7 +59,9 @@
     "listen_pause": "暂停",
     "listen_source": "教材官方音频",
     "table_formal": "正式",
-    "table_informal": "口语"
+    "table_informal": "口语",
+    "qa_short": "保底版",
+    "qa_full": "完整版"
   },
   "page": {
     "review_name": "复习 · Review",
