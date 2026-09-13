@@ -2895,27 +2895,6 @@
       }
      }
     ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typo corrections",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "课本第 32 页 <i>Alwi mahasiswa Mesir <b>keyujuh</b></i> 应为 <s>ketujuh</s>。第 33 页两道题都印成「Latihan 5」，第二道其实是 Latihan 6（自由造句：四个疑问词各三句）。",
-       "ja": "教科書 32 ページの <i>Alwi mahasiswa Mesir <b>keyujuh</b></i> は <s>ketujuh</s> が正しい。33 ページは 2 問とも「Latihan 5」と印刷されていますが、2 つ目は Latihan 6（自由作文：4 つの疑問詞で 3 文ずつ）です。",
-       "en": "On page 32 of the book, <i>Alwi mahasiswa Mesir <b>keyujuh</b></i> should read <s>ketujuh</s>. On page 33 both exercises are printed as “Latihan 5”; the second is really Latihan 6 (free sentences: three for each question word).",
-       "vi": "Trang 32 của sách, <i>Alwi mahasiswa Mesir <b>keyujuh</b></i> phải là <s>ketujuh</s>. Trang 33 cả hai bài đều in là “Latihan 5”; bài thứ hai thực ra là Latihan 6 (tự đặt câu: mỗi từ để hỏi ba câu).",
-       "pl": "Na stronie 32 podręcznika <i>Alwi mahasiswa Mesir <b>keyujuh</b></i> powinno brzmieć <s>ketujuh</s>. Na stronie 33 oba ćwiczenia wydrukowano jako „Latihan 5”; to drugie jest w rzeczywistości Latihan 6 (własne zdania: po trzy do każdego słowa pytajnego)."
-      }
-     }
-    ]
    }
   ],
   [
@@ -5558,11 +5537,11 @@
        "reg": "neutral"
       },
       {
-       "id": "dari Cina",
+       "id": "dari Tiongkok",
        "reg": "neutral"
       },
       {
-       "id": "Zhang dari Cina.",
+       "id": "Zhang dari Tiongkok.",
        "reg": "neutral"
       }
      ],
@@ -6344,36 +6323,6 @@
        "kw": [
         "dari"
        ]
-      }
-     }
-    ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typo in the handout",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "讲义里 Latihan 2b、3b、4b 的题目都印成「Buat satu kalimat sederhana nomina+nomina!」，其实那三节分别是名词 + 形容词、名词 + 动词、名词 + 介词 —— 题目是从 1b 复制过去忘了改。做题时按各节自己的句型来。",
-       "ja": "プリントの Latihan 2b・3b・4b の指示はどれも「Buat satu kalimat sederhana nomina+nomina!」と印刷されていますが、その三節は名詞＋形容詞、名詞＋動詞、名詞＋前置詞の節です。1b からコピーして直し忘れたものなので、それぞれの節の型で解いてください。",
-       "en": "In the handout, the instructions for Latihan 2b, 3b and 4b all read “Buat satu kalimat sederhana nomina+nomina!”, although those sections are noun + adjective, noun + verb and noun + preposition — the line was copied from 1b and never changed. Do each one in its own pattern.",
-       "vi": "Trong tài liệu, đề của Latihan 2b, 3b, 4b đều in là “Buat satu kalimat sederhana nomina+nomina!”, trong khi ba phần đó lần lượt là danh từ + tính từ, danh từ + động từ, danh từ + giới từ — đề được chép từ 1b mà quên sửa. Bạn làm theo đúng mẫu câu của từng phần.",
-       "pl": "W materiałach z zajęć polecenia do Latihan 2b, 3b i 4b brzmią wszystkie „Buat satu kalimat sederhana nomina+nomina!”, choć te trzy części to rzeczownik + przymiotnik, rzeczownik + czasownik i rzeczownik + przyimek — wiersz skopiowano z 1b i nikt go nie poprawił. Rób każdą część według jej własnego wzoru."
-      }
-     },
-     {
-      "text": {
-       "zh": "课本也有几处：第 34–36 页 Latihan 1–4 的题目都印成「Buat kalimat <b>tanya</b>」，其实要造的是陈述句，不是问句；第 35 页第二张表的标题印成「Nomina + Adjektiva」，表里是 makan、pulang、pergi、berenang —— 那是 Nomina + <b>Verba</b>。",
-       "ja": "教科書にもいくつか：34〜36 ページの Latihan 1〜4 の指示はすべて「Buat kalimat <b>tanya</b>」と印刷されていますが、作るのは平叙文で疑問文ではありません。35 ページの 2 つ目の表の見出しは「Nomina + Adjektiva」ですが、中身は makan、pulang、pergi、berenang——つまり Nomina + <b>Verba</b> です。",
-       "en": "The book has a few too: on pages 34 to 36 the instructions for Latihan 1 to 4 all say “Buat kalimat <b>tanya</b>”, yet the sentences to make are statements, not questions; the second table on page 35 is headed “Nomina + Adjektiva” but contains makan, pulang, pergi, berenang, which is Nomina + <b>Verba</b>.",
-       "vi": "Sách cũng có vài chỗ: trang 34–36, đề bài Latihan 1–4 đều in là “Buat kalimat <b>tanya</b>”, nhưng câu cần đặt là câu kể chứ không phải câu hỏi; bảng thứ hai ở trang 35 ghi tiêu đề “Nomina + Adjektiva” nhưng bên trong là makan, pulang, pergi, berenang, tức là Nomina + <b>Verba</b>.",
-       "pl": "Podręcznik też ma kilka takich miejsc: na stronach 34–36 polecenia do Latihan 1–4 brzmią „Buat kalimat <b>tanya</b>”, a zdania, które trzeba ułożyć, są oznajmujące, nie pytające; druga tabela na stronie 35 ma tytuł „Nomina + Adjektiva”, ale w środku są makan, pulang, pergi, berenang — czyli Nomina + <b>Verba</b>."
       }
      }
     ]
@@ -9458,36 +9407,6 @@
        "reg": "neutral"
       }
      ]
-    ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "讲义这一版的小笔误",
-     "ja": "このプリントの小さな誤植",
-     "en": "Small typos in this version of the handout",
-     "vi": "Lỗi nhỏ trong bản tài liệu này",
-     "pl": "Drobne błędy w tej wersji materiałów"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "讲义 PDF 版 <b>Latihan 4b</b> 的题目写的是「Buat satu kalimat sederhana <b>nomina+nomina</b>」，其实这一组练的是<b>名词 + 介词</b>（上一页的答案就是按介词句写的）。",
-       "ja": "プリントの PDF 版では <b>Latihan 4b</b> の指示が「Buat satu kalimat sederhana <b>nomina+nomina</b>」になっていますが、この組で練習するのは実際には<b>名詞＋前置詞</b>です（前のページの答えも前置詞文で書いてあります）。",
-       "en": "In the PDF version of the handout, the instruction for <b>Latihan 4b</b> says “Buat satu kalimat sederhana <b>nomina+nomina</b>”, but this set practises <b>noun + preposition</b> (the answers on the previous page are preposition sentences).",
-       "vi": "Trong bản PDF của tài liệu, đề <b>Latihan 4b</b> ghi là “Buat satu kalimat sederhana <b>nomina+nomina</b>”, nhưng thực ra phần này luyện <b>danh từ + giới từ</b> (đáp án ở trang trước đều là câu giới từ).",
-       "pl": "W wersji PDF materiałów polecenie do <b>Latihan 4b</b> brzmi „Buat satu kalimat sederhana <b>nomina+nomina</b>”, ale ta część ćwiczy <b>rzeczownik + przyimek</b> (odpowiedzi na poprzedniej stronie to zdania z przyimkiem)."
-      }
-     },
-     {
-      "text": {
-       "zh": "<b>3a 第 9 行</b>的 <s>mengajar</s>（教课）是新词；其余都是 Bab 1–3 学过的词。",
-       "ja": "<b>3a の 9 行目</b>の <s>mengajar</s>（教える）は新しい語です。ほかはすべて Bab 1〜3 で習った語です。",
-       "en": "The verb <s>mengajar</s> (to teach) in <b>row 9 of 3a</b> is new; every other word is from Bab 1–3.",
-       "vi": "<s>mengajar</s> (dạy học) ở <b>dòng 9 của bảng 3a</b> là từ mới; các từ còn lại đều đã học ở Bab 1–3.",
-       "pl": "Czasownik <s>mengajar</s> (uczyć, prowadzić zajęcia) w <b>wierszu 9 tabeli 3a</b> jest nowy; wszystkie pozostałe słowa są z Bab 1–3."
-      }
-     }
     ]
    }
   ],

@@ -27,8 +27,7 @@ description: 把课堂材料（课本照片、PDF 讲义、手写笔记、老师
 - **硬性要求哪几种语言看 `content/meta.json` 的 `required_langs`**（**现在是 `["zh","ja","en","vi"]`，四语全必填**）。越南语按 `CLAUDE.md` 里的说明写：不是中文直译，语言对比要站在越南语使用者的角度。
   不在名单里的填 `null` 即可，校验只报完成度。
 - 每页第一块必须是 `phead`
-- 讲义几乎每次都有笔误：**内容里静默改正**，再加一个 `note` 块（`tag: {zh:"笔误修正"}`）
-  告诉学习者原文错在哪
+- 讲义几乎每次都有笔误：**内容里静默改正，页面上不加笔误说明**（Rae 2026-09-13 定的），改了哪些记进 PROGRESS、在摘要里告诉 Rae
 - **主动补课件没讲但一定会踩的坑**，也用 `note`。例如：
   `bisa`（有能力）vs `boleh`（被允许）· `harus` 的否定是 `gak usah` / `tidak perlu`，
   不是 `gak harus` · `Minggu` 既是「周日」也是「星期」
@@ -94,7 +93,7 @@ APK / 离线版 2026-09-02 起永久停用，网站就是最终产物。不要�
 
 | 占位符 | 替换成 | 注意 |
 |---|---|---|
-| `{NEGARA}` | 印尼语国名（Cina / Jepang / Inggris / Vietnam） | **进朗读文本，每种界面语言各产生一句、每句都要有音频** |
+| `{NEGARA}` | 印尼语国名（Tiongkok / Jepang / Inggris / Vietnam / Polandia） | **进朗读文本，每种界面语言各产生一句、每句都要有音频** |
 | `{NAMA}` | 该语言里的国名（中国 / 日本 / England / Việt Nam） | |
 | `{PEOPLE}` | 该语言里的「某国人」（中国人 / 日本人 / English / người Việt Nam） | |
 

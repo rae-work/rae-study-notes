@@ -100,28 +100,6 @@
       }
      }
     ]
-   },
-   {
-    "k": "note",
-    "tone": "amber",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typo fixed",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "课本第 11 页把三个所有格后缀印成了「-ku, -mu, nya」—— 第三个漏了连字符。同一本书第 17 页写的是 <b>-nya</b>，那个才对。三个后缀一律带连字符。",
-       "ja": "教科書 11 ページでは所有の接尾辞が「-ku, -mu, nya」と印刷されていて、三つめのハイフンが抜けています。同じ本の 17 ページでは <b>-nya</b> となっており、そちらが正しい形です。三つとも必ずハイフンをつけます。",
-       "en": "On page 11 the book prints the three possessive suffixes as “-ku, -mu, nya” — the third one has lost its hyphen. Page 17 of the same book has <b>-nya</b>, which is correct. All three always take a hyphen.",
-       "vi": "Trang 11 của sách in ba hậu tố sở hữu thành “-ku, -mu, nya” — cái thứ ba mất dấu gạch nối. Cũng trong sách đó, trang 17 viết <b>-nya</b>, đấy mới đúng. Cả ba hậu tố đều luôn có dấu gạch nối.",
-       "pl": "Na stronie 11 podręcznik podaje trzy przyrostki dzierżawcze jako „-ku, -mu, nya” — trzeciemu zgubił się łącznik. Na stronie 17 tego samego podręcznika stoi <b>-nya</b> i to jest forma poprawna. Wszystkie trzy przyrostki zawsze mają łącznik."
-      }
-     }
-    ]
    }
   ],
   [

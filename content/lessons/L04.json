@@ -2728,27 +2728,6 @@
       }
      }
     ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typo corrected",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "课本这一页每题下面的答题线末尾印的是「?」。回答是陈述句，句末应该是句号「.」。",
-       "ja": "教科書のこのページでは、各問の下の解答線の最後に「?」が印刷されています。答えは平叙文なので、文末はピリオド「.」のはずです。",
-       "en": "In the book, the answer line under each question ends with “?”. The answers are statements, so they should end with a full stop.",
-       "vi": "Trong sách, dòng trả lời dưới mỗi câu hỏi ở trang này đều kết thúc bằng dấu “?”. Câu trả lời là câu kể, cuối câu phải là dấu chấm “.”.",
-       "pl": "W podręczniku linia na odpowiedź pod każdym pytaniem kończy się znakiem „?”. Odpowiedzi to zdania oznajmujące, więc powinny kończyć się kropką."
-      }
-     }
-    ]
    }
   ],
   [
@@ -2767,11 +2746,11 @@
    {
     "k": "lead",
     "text": {
-     "zh": "课本第 48–49 页 Latihan 1，按「Wawan 家」那张家谱填空。题干是课本原句，空格写成 ___。",
-     "ja": "教科書 48〜49 ページの Latihan 1。「Wawan の家族」の家系図を見て空欄を埋めます。問題文は教科書の原文で、空欄は ___ で示しています。",
-     "en": "Latihan 1 on pages 48–49 of the book, based on the tree of Wawan’s family. The sentences are the book’s own; blanks are shown as ___.",
-     "vi": "Latihan 1 ở trang 48–49 của sách, điền theo cây gia phả “gia đình Wawan”. Đề bài là nguyên văn của sách, chỗ trống viết là ___.",
-     "pl": "Latihan 1 ze stron 48–49 podręcznika, na podstawie drzewa rodziny Wawana. Zdania pochodzą z podręcznika; luki oznaczono ___."
+     "zh": "课本第 48–49 页 Latihan 1，按「Wawan 家」那张家谱填空。句子是课本原句，<b>加粗的词</b>就是空格里要填的；打开「答案：遮挡」时只遮这几个词。",
+     "ja": "教科書 48〜49 ページの Latihan 1。「Wawan の家族」の家系図を見て空欄を埋めます。文は教科書の原文で、<b>太字の語</b>が空欄に入る答えです。「答え：非表示」にすると、その語だけが隠れます。",
+     "en": "Latihan 1 on pages 48–49 of the book, based on the tree of Wawan’s family. The sentences are the book’s own; <b>the bold words</b> are what goes in the blanks. With answers hidden, only those words are covered.",
+     "vi": "Latihan 1 ở trang 48–49 trong sách, dựa vào sơ đồ gia đình Wawan. Câu là câu gốc trong sách; <b>từ in đậm</b> là từ cần điền vào chỗ trống. Khi bật ẩn đáp án, chỉ những từ đó bị che.",
+     "pl": "Latihan 1 ze stron 48–49 podręcznika, na podstawie drzewa rodziny Wawana. Zdania pochodzą z książki; <b>pogrubione słowa</b> to to, co wpisuje się w luki. Gdy odpowiedzi są ukryte, zasłonięte są tylko te słowa."
     }
    },
    {
@@ -2785,16 +2764,6 @@
     },
     "items": [
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Pak Joko dan Bu Joko punya dua orang ___, yaitu ___ dan ___.",
-        "ja": "Pak Joko dan Bu Joko punya dua orang ___, yaitu ___ dan ___.",
-        "en": "Pak Joko dan Bu Joko punya dua orang ___, yaitu ___ dan ___.",
-        "vi": "Pak Joko dan Bu Joko punya dua orang ___, yaitu ___ dan ___.",
-        "pl": "Pak Joko dan Bu Joko punya dua orang ___, yaitu ___ dan ___."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Pak Joko dan Bu Joko punya dua orang anak, yaitu Hartini dan Hartono.",
@@ -2808,21 +2777,13 @@
         "pl": "Pak i Bu Joko mają dwoje dzieci: Hartini i Hartono."
        },
        "hl": [
-        "anak, yaitu Hartini dan Hartono"
+        "anak",
+        "Hartini",
+        "Hartono"
        ]
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Hartini adalah anak ___ dan Hartono adalah anak ___.",
-        "ja": "Hartini adalah anak ___ dan Hartono adalah anak ___.",
-        "en": "Hartini adalah anak ___ dan Hartono adalah anak ___.",
-        "vi": "Hartini adalah anak ___ dan Hartono adalah anak ___.",
-        "pl": "Hartini adalah anak ___ dan Hartono adalah anak ___."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Hartini adalah anak sulung dan Hartono adalah anak bungsu.",
@@ -2842,16 +2803,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Hartini (45 tahun) adalah ___ Hartono dan Hartono (40 tahun) adalah ___ Hartini.",
-        "ja": "Hartini (45 tahun) adalah ___ Hartono dan Hartono (40 tahun) adalah ___ Hartini.",
-        "en": "Hartini (45 tahun) adalah ___ Hartono dan Hartono (40 tahun) adalah ___ Hartini.",
-        "vi": "Hartini (45 tahun) adalah ___ Hartono dan Hartono (40 tahun) adalah ___ Hartini.",
-        "pl": "Hartini (45 tahun) adalah ___ Hartono dan Hartono (40 tahun) adalah ___ Hartini."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Hartini adalah kakak Hartono dan Hartono adalah adik Hartini.",
@@ -2871,16 +2822,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Hartini mempunyai ___ bernama Bimo dan Hartono mempunyai ___ bernama Sri.",
-        "ja": "Hartini mempunyai ___ bernama Bimo dan Hartono mempunyai ___ bernama Sri.",
-        "en": "Hartini mempunyai ___ bernama Bimo dan Hartono mempunyai ___ bernama Sri.",
-        "vi": "Hartini mempunyai ___ bernama Bimo dan Hartono mempunyai ___ bernama Sri.",
-        "pl": "Hartini mempunyai ___ bernama Bimo dan Hartono mempunyai ___ bernama Sri."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Hartini mempunyai suami bernama Bimo dan Hartono mempunyai istri bernama Sri.",
@@ -2900,16 +2841,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Bimo adalah ___ Hartono dan Sri adalah ___ Hartini.",
-        "ja": "Bimo adalah ___ Hartono dan Sri adalah ___ Hartini.",
-        "en": "Bimo adalah ___ Hartono dan Sri adalah ___ Hartini.",
-        "vi": "Bimo adalah ___ Hartono dan Sri adalah ___ Hartini.",
-        "pl": "Bimo adalah ___ Hartono dan Sri adalah ___ Hartini."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Bimo adalah ipar Hartono dan Sri adalah ipar Hartini.",
@@ -2929,16 +2860,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Pak Joko dan Bu Joko adalah ___ Bimo dan Sri; Bimo dan Sri adalah ___ Pak Joko dan Bu Joko.",
-        "ja": "Pak Joko dan Bu Joko adalah ___ Bimo dan Sri; Bimo dan Sri adalah ___ Pak Joko dan Bu Joko.",
-        "en": "Pak Joko dan Bu Joko adalah ___ Bimo dan Sri; Bimo dan Sri adalah ___ Pak Joko dan Bu Joko.",
-        "vi": "Pak Joko dan Bu Joko adalah ___ Bimo dan Sri; Bimo dan Sri adalah ___ Pak Joko dan Bu Joko.",
-        "pl": "Pak Joko dan Bu Joko adalah ___ Bimo dan Sri; Bimo dan Sri adalah ___ Pak Joko dan Bu Joko."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Pak Joko dan Bu Joko adalah mertua Bimo dan Sri. Bimo dan Sri adalah menantu Pak Joko dan Bu Joko.",
@@ -2958,16 +2879,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Pak Joko dan Bu Joko mempunyai lima orang ___, yaitu Ita, Wawan, Dewi, Ani, dan Bobi.",
-        "ja": "Pak Joko dan Bu Joko mempunyai lima orang ___, yaitu Ita, Wawan, Dewi, Ani, dan Bobi.",
-        "en": "Pak Joko dan Bu Joko mempunyai lima orang ___, yaitu Ita, Wawan, Dewi, Ani, dan Bobi.",
-        "vi": "Pak Joko dan Bu Joko mempunyai lima orang ___, yaitu Ita, Wawan, Dewi, Ani, dan Bobi.",
-        "pl": "Pak Joko dan Bu Joko mempunyai lima orang ___, yaitu Ita, Wawan, Dewi, Ani, dan Bobi."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Pak Joko dan Bu Joko mempunyai lima orang cucu, yaitu Ita, Wawan, Dewi, Ani, dan Bobi.",
@@ -2986,16 +2897,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Pak Joko adalah ___ Wawan. Pak Joko adalah ___ Hartini.",
-        "ja": "Pak Joko adalah ___ Wawan. Pak Joko adalah ___ Hartini.",
-        "en": "Pak Joko adalah ___ Wawan. Pak Joko adalah ___ Hartini.",
-        "vi": "Pak Joko adalah ___ Wawan. Pak Joko adalah ___ Hartini.",
-        "pl": "Pak Joko adalah ___ Wawan. Pak Joko adalah ___ Hartini."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Pak Joko adalah kakek Wawan. Pak Joko adalah ayah Hartini.",
@@ -3015,16 +2916,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Ita dan Dewi adalah ___ Wawan; Ani dan Bobi adalah ___ Wawan.",
-        "ja": "Ita dan Dewi adalah ___ Wawan; Ani dan Bobi adalah ___ Wawan.",
-        "en": "Ita dan Dewi adalah ___ Wawan; Ani dan Bobi adalah ___ Wawan.",
-        "vi": "Ita dan Dewi adalah ___ Wawan; Ani dan Bobi adalah ___ Wawan.",
-        "pl": "Ita dan Dewi adalah ___ Wawan; Ani dan Bobi adalah ___ Wawan."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Ita dan Dewi adalah saudara Wawan. Ani dan Bobi adalah sepupu Wawan.",
@@ -3044,16 +2935,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Hartono adalah ___ Wawan dan Sri adalah ___ Wawan.",
-        "ja": "Hartono adalah ___ Wawan dan Sri adalah ___ Wawan.",
-        "en": "Hartono adalah ___ Wawan dan Sri adalah ___ Wawan.",
-        "vi": "Hartono adalah ___ Wawan dan Sri adalah ___ Wawan.",
-        "pl": "Hartono adalah ___ Wawan dan Sri adalah ___ Wawan."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Hartono adalah paman Wawan dan Sri adalah bibi Wawan.",
@@ -3109,27 +2990,6 @@
        "en": "<s>mempunyai</s> and <s>punya</s> mean the same (to have); the first is more formal.",
        "vi": "<s>mempunyai</s> và <s>punya</s> cùng nghĩa (có); từ thứ nhất trang trọng hơn.",
        "pl": "<s>mempunyai</s> i <s>punya</s> znaczą to samo (mieć); pierwsze jest bardziej formalne."
-      }
-     }
-    ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typo corrected",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "印刷版第 49 页<b>第 8 题</b>第一个空格后面漏了人名，印成「Pak Joko adalah ___ Pak Joko adalah ___ Hartini」。按上下文应该是 <i>Pak Joko adalah ___ Wawan.</i>，上面已补上。",
-       "ja": "印刷版 49 ページの<b>第 8 問</b>は、最初の空欄のあとの人名が抜けて「Pak Joko adalah ___ Pak Joko adalah ___ Hartini」と印刷されています。文脈からは <i>Pak Joko adalah ___ Wawan.</i> が正しいので、上ではそのように直してあります。",
-       "en": "In the printed book, <b>item 8</b> on page 49 is missing a name after the first blank: “Pak Joko adalah ___ Pak Joko adalah ___ Hartini”. From the context it should be <i>Pak Joko adalah ___ Wawan.</i>, which is used above.",
-       "vi": "Trong sách in, <b>câu 8</b> ở trang 49 thiếu tên người sau chỗ trống đầu tiên, in thành “Pak Joko adalah ___ Pak Joko adalah ___ Hartini”. Theo ngữ cảnh phải là <i>Pak Joko adalah ___ Wawan.</i>, ở trên đã sửa lại.",
-       "pl": "W drukowanym podręczniku w <b>zadaniu 8</b> na stronie 49 po pierwszej luce brakuje imienia: „Pak Joko adalah ___ Pak Joko adalah ___ Hartini”. Z kontekstu wynika, że powinno być <i>Pak Joko adalah ___ Wawan.</i> i tak jest wyżej."
       }
      }
     ]
@@ -3681,27 +3541,6 @@
        "en": "<s>dengan</s> has three uses: “with (a tool)” <s>dengan pisau</s>, “with (a feeling)” <s>dengan gembira</s>, and “with (someone)” <s>dengan Rizki</s>. To ask “with whom”, say <s>Dengan siapa</s>; the dialogue practice uses it.",
        "vi": "<s>dengan</s> có ba cách dùng: “bằng (công cụ)” <s>dengan pisau</s>, “một cách (tâm trạng)” <s>dengan gembira</s>, “với (ai)” <s>dengan Rizki</s>. Hỏi “với ai” là <s>Dengan siapa</s>; phần luyện tập ở trang hội thoại sẽ dùng đến.",
        "pl": "<s>dengan</s> ma trzy użycia: narzędzie <s>dengan pisau</s> (tam, gdzie polski ma narzędnik: „nożem”), uczucie <s>dengan gembira</s> („z radością”) i towarzystwo <s>dengan Rizki</s> („z Rizkim”). Pytanie „z kim” to <s>Dengan siapa</s>; przyda się w ćwiczeniu do dialogu."
-      }
-     }
-    ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typos corrected",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "课本第 49 页小标题印成「Objek, dan<b>b</b> Keterangan」，多了一个 b。第 50 页「Adik <b>S</b>aya menerima hadiah」里 saya 不该大写。",
-       "ja": "教科書 49 ページの小見出しは「Objek, dan<b>b</b> Keterangan」と、b が一つ多く印刷されています。50 ページの「Adik <b>S</b>aya menerima hadiah」の saya は大文字にしません。",
-       "en": "The heading on page 49 reads “Objek, dan<b>b</b> Keterangan”, with an extra b. On page 50, “Adik <b>S</b>aya menerima hadiah” should not capitalise saya.",
-       "vi": "Tiêu đề nhỏ ở trang 49 của sách in thành “Objek, dan<b>b</b> Keterangan”, thừa một chữ b. Ở trang 50, trong “Adik <b>S</b>aya menerima hadiah” chữ saya không được viết hoa.",
-       "pl": "Nagłówek na stronie 49 brzmi „Objek, dan<b>b</b> Keterangan”, z jednym b za dużo. Na stronie 50 w „Adik <b>S</b>aya menerima hadiah” saya nie powinno być pisane wielką literą."
       }
      }
     ]
@@ -4799,27 +4638,6 @@
     ]
    },
    {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typos corrected",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "课本第 52 页有两处：① <i>Hiroko membeli baju batik di Malioboro</i> 是陈述句，句末却印成「?」；② 「TIDAK + KATA SIFAT」下面又把这句 Hiroko 印了一遍 —— 它是<b>动词</b>句，放错了地方。形容词的例子只有 <s>Buku itu bagus.</s> 和 <s>Orang itu ramah.</s> 两句。",
-       "ja": "教科書 52 ページに 2 か所あります。① <i>Hiroko membeli baju batik di Malioboro</i> は平叙文なのに、文末が「?」になっています。② 「TIDAK + KATA SIFAT」の下にこの Hiroko の文がもう一度印刷されていますが、これは<b>動詞</b>文で、場所を間違えています。形容詞の例は <s>Buku itu bagus.</s> と <s>Orang itu ramah.</s> の 2 文だけです。",
-       "en": "Page 52 of the book has two: ① <i>Hiroko membeli baju batik di Malioboro</i> is a statement but ends with “?”; ② the same Hiroko sentence is printed again under “TIDAK + KATA SIFAT”, but it is a <b>verb</b> sentence and does not belong there. The adjective examples are only <s>Buku itu bagus.</s> and <s>Orang itu ramah.</s>",
-       "vi": "Trang 52 của sách có hai lỗi: (1) <i>Hiroko membeli baju batik di Malioboro</i> là câu trần thuật mà cuối câu lại in dấu “?”; (2) dưới mục “TIDAK + KATA SIFAT” câu Hiroko này lại được in thêm một lần — đó là câu <b>động từ</b>, đặt nhầm chỗ. Ví dụ về tính từ chỉ có hai câu <s>Buku itu bagus.</s> và <s>Orang itu ramah.</s>",
-       "pl": "Na stronie 52 podręcznika są dwa błędy: ① <i>Hiroko membeli baju batik di Malioboro</i> to zdanie oznajmujące, a kończy się znakiem „?”; ② to samo zdanie o Hiroko wydrukowano jeszcze raz pod „TIDAK + KATA SIFAT”, choć jest to zdanie z <b>czasownikiem</b> i do tej grupy nie pasuje. Przykłady z przymiotnikiem to tylko <s>Buku itu bagus.</s> i <s>Orang itu ramah.</s>"
-      }
-     }
-    ]
-   },
-   {
     "k": "vocab",
     "items": [
      {
@@ -5587,27 +5405,6 @@
     ]
    },
    {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typo corrected",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "课本第 51 页 Latihan 2 第 5 题印成 <i>mahasiwa</i>，少了一个 s，应为 <s>mahasiswa</s>。",
-       "ja": "教科書 51 ページ Latihan 2 の第 5 問は <i>mahasiwa</i> と s が一つ抜けています。正しくは <s>mahasiswa</s> です。",
-       "en": "Latihan 2, item 5 on page 51 reads <i>mahasiwa</i>, missing an s; it should be <s>mahasiswa</s>.",
-       "vi": "Trang 51 của sách, Latihan 2 câu 5 in thành <i>mahasiwa</i>, thiếu một chữ s; đúng là <s>mahasiswa</s>.",
-       "pl": "W Latihan 2, zadanie 5 na stronie 51 podręcznika wydrukowano <i>mahasiwa</i> — brakuje jednego s; powinno być <s>mahasiswa</s>."
-      }
-     }
-    ]
-   },
-   {
     "k": "vocab",
     "items": [
      {
@@ -5717,11 +5514,11 @@
    {
     "k": "lead",
     "text": {
-     "zh": "课本第 53–54 页 Latihan 4、5。Latihan 5 的答案里只有填进空格的那个词是粗体 —— 被点到时说出这一个词就行。",
-     "ja": "教科書 53〜54 ページの Latihan 4・5。Latihan 5 は空欄に入る一語だけが太字です —— 当てられたらその一語を言えば十分です。",
-     "en": "Latihan 4 and 5 on pages 53–54 of the book. In Latihan 5 only the word that fills the blank is bold — when called on, that one word is enough.",
-     "vi": "Latihan 4 và 5 ở trang 53–54 trong sách. Ở Latihan 5 chỉ từ điền vào chỗ trống được in đậm — bị gọi thì nói đúng một từ đó là đủ.",
-     "pl": "Latihan 4 i 5 ze stron 53–54 podręcznika. W Latihan 5 pogrubione jest tylko słowo wpisywane w lukę — gdy ktoś cię wywoła, wystarczy to jedno słowo."
+     "zh": "课本第 53–54 页 Latihan 4、5。Latihan 5 直接给整句，<b>加粗的词</b>就是空格里要填的 bukan 或 tidak —— 被点到时说出这一个词就行。",
+     "ja": "教科書 53〜54 ページの Latihan 4・5。Latihan 5 は文をそのまま載せ、<b>太字の語</b>が空欄に入る bukan か tidak です —— 当てられたらその一語を言えば十分です。",
+     "en": "Latihan 4 and 5 on pages 53–54 of the book. Latihan 5 shows the whole sentence; <b>the bold word</b> is the bukan or tidak that fills the blank — when called on, that one word is enough.",
+     "vi": "Latihan 4 và 5 ở trang 53–54 trong sách. Latihan 5 cho sẵn cả câu; <b>từ in đậm</b> là bukan hoặc tidak cần điền — bị gọi thì nói đúng một từ đó là đủ.",
+     "pl": "Latihan 4 i 5 ze stron 53–54 podręcznika. W Latihan 5 widać całe zdanie; <b>pogrubione słowo</b> to bukan albo tidak wpisywane w lukę — gdy ktoś cię wywoła, wystarczy to jedno słowo."
     }
    },
    {
@@ -6057,16 +5854,6 @@
     },
     "items": [
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Mereka ___ polisi. Mereka karyawan dan bekerja di bank.",
-        "ja": "Mereka ___ polisi. Mereka karyawan dan bekerja di bank.",
-        "en": "Mereka ___ polisi. Mereka karyawan dan bekerja di bank.",
-        "vi": "Mereka ___ polisi. Mereka karyawan dan bekerja di bank.",
-        "pl": "Mereka ___ polisi. Mereka karyawan dan bekerja di bank."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Mereka bukan polisi. Mereka karyawan dan bekerja di bank.",
@@ -6085,16 +5872,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Yusuf, mengapa adikmu ___ ikut berenang?",
-        "ja": "Yusuf, mengapa adikmu ___ ikut berenang?",
-        "en": "Yusuf, mengapa adikmu ___ ikut berenang?",
-        "vi": "Yusuf, mengapa adikmu ___ ikut berenang?",
-        "pl": "Yusuf, mengapa adikmu ___ ikut berenang?"
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Yusuf, mengapa adikmu tidak ikut berenang?",
@@ -6113,16 +5890,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Pak Gaza ___ dosen di universitas. Dia guru di Sekolah Dasar.",
-        "ja": "Pak Gaza ___ dosen di universitas. Dia guru di Sekolah Dasar.",
-        "en": "Pak Gaza ___ dosen di universitas. Dia guru di Sekolah Dasar.",
-        "vi": "Pak Gaza ___ dosen di universitas. Dia guru di Sekolah Dasar.",
-        "pl": "Pak Gaza ___ dosen di universitas. Dia guru di Sekolah Dasar."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Pak Gaza bukan dosen di universitas. Dia guru di Sekolah Dasar.",
@@ -6141,16 +5908,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Niken suka makan sate. Dia ___ suka makan ikan bakar.",
-        "ja": "Niken suka makan sate. Dia ___ suka makan ikan bakar.",
-        "en": "Niken suka makan sate. Dia ___ suka makan ikan bakar.",
-        "vi": "Niken suka makan sate. Dia ___ suka makan ikan bakar.",
-        "pl": "Niken suka makan sate. Dia ___ suka makan ikan bakar."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Niken suka makan sate. Dia tidak suka makan ikan bakar.",
@@ -6169,16 +5926,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Jalan itu ___ lebar. Mobil tidak bisa lewat.",
-        "ja": "Jalan itu ___ lebar. Mobil tidak bisa lewat.",
-        "en": "Jalan itu ___ lebar. Mobil tidak bisa lewat.",
-        "vi": "Jalan itu ___ lebar. Mobil tidak bisa lewat.",
-        "pl": "Jalan itu ___ lebar. Mobil tidak bisa lewat."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Jalan itu tidak lebar. Mobil tidak bisa lewat.",
@@ -6197,16 +5944,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Rumah itu ___ rumah saya. Rumah saya di Jalan Kaliurang, Yogyakarta.",
-        "ja": "Rumah itu ___ rumah saya. Rumah saya di Jalan Kaliurang, Yogyakarta.",
-        "en": "Rumah itu ___ rumah saya. Rumah saya di Jalan Kaliurang, Yogyakarta.",
-        "vi": "Rumah itu ___ rumah saya. Rumah saya di Jalan Kaliurang, Yogyakarta.",
-        "pl": "Rumah itu ___ rumah saya. Rumah saya di Jalan Kaliurang, Yogyakarta."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Rumah itu bukan rumah saya. Rumah saya di Jalan Kaliurang, Yogyakarta.",
@@ -6225,16 +5962,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Anak kecil itu ___ pandai. Dia malas belajar.",
-        "ja": "Anak kecil itu ___ pandai. Dia malas belajar.",
-        "en": "Anak kecil itu ___ pandai. Dia malas belajar.",
-        "vi": "Anak kecil itu ___ pandai. Dia malas belajar.",
-        "pl": "Anak kecil itu ___ pandai. Dia malas belajar."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Anak kecil itu tidak pandai. Dia malas belajar.",
@@ -6253,16 +5980,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Arif ___ pergi ke kantor hari ini. Dia sakit.",
-        "ja": "Arif ___ pergi ke kantor hari ini. Dia sakit.",
-        "en": "Arif ___ pergi ke kantor hari ini. Dia sakit.",
-        "vi": "Arif ___ pergi ke kantor hari ini. Dia sakit.",
-        "pl": "Arif ___ pergi ke kantor hari ini. Dia sakit."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Arif tidak pergi ke kantor hari ini. Dia sakit.",
@@ -6281,16 +5998,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Ana ___ suka minum kopi. Dia suka minum teh.",
-        "ja": "Ana ___ suka minum kopi. Dia suka minum teh.",
-        "en": "Ana ___ suka minum kopi. Dia suka minum teh.",
-        "vi": "Ana ___ suka minum kopi. Dia suka minum teh.",
-        "pl": "Ana ___ suka minum kopi. Dia suka minum teh."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Ana tidak suka minum kopi. Dia suka minum teh.",
@@ -6309,16 +6016,6 @@
       }
      },
      {
-      "prompt": {
-       "lang": "learner",
-       "text": {
-        "zh": "Pak Budi mertua Sari, ___ mertua Lusi.",
-        "ja": "Pak Budi mertua Sari, ___ mertua Lusi.",
-        "en": "Pak Budi mertua Sari, ___ mertua Lusi.",
-        "vi": "Pak Budi mertua Sari, ___ mertua Lusi.",
-        "pl": "Pak Budi mertua Sari, ___ mertua Lusi."
-       }
-      },
       "answer": {
        "lang": "id",
        "text": "Pak Budi mertua Sari, bukan mertua Lusi.",
@@ -6364,27 +6061,6 @@
        "en": "Latihan 4, item 7 comes out as “the INCULS tutors are not nice”, which can feel awkward to say in class. After reading it, you can add with a smile: <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (the tutors are not strict, they are very kind).",
        "vi": "Latihan 4, câu 7 chuyển xong thành “thầy cô INCULS không tốt”, bị gọi đọc câu này có thể hơi ngại — đọc xong bạn cười và nói thêm <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (thầy cô không khó tính, rất tốt bụng).",
        "pl": "Latihan 4, zadanie 7 po przekształceniu brzmi „pracownicy i lektorzy INCULS nie są mili”, co w klasie może być trochę niezręczne — po odczytaniu możesz z uśmiechem dodać <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (lektorzy nie są surowi, są bardzo mili)."
-      }
-     }
-    ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正",
-     "ja": "誤植の訂正",
-     "en": "Typos corrected",
-     "vi": "Sửa lỗi in",
-     "pl": "Errata"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "印刷版第 54 页 Latihan 5 有两处：<b>第 1 题</b>第二句只印到 <i>Mereka karyawan dan bekerja.</i>，句子没写完，书的电子版是 <s>bekerja di bank</s>；<b>第 8 题</b>印成 <i>Arif pergi ___ ke kantor</i>，空格位置错了，否定词应在 pergi 前面：<i>Arif ___ pergi ke kantor</i>。上面都已改正。",
-       "ja": "印刷版 54 ページの Latihan 5 に 2 か所あります。<b>第 1 問</b>の二文目が <i>Mereka karyawan dan bekerja.</i> で途切れていて、文が終わっていません（電子版は <s>bekerja di bank</s>）。<b>第 8 問</b>は <i>Arif pergi ___ ke kantor</i> と空欄の位置が違い、否定語は pergi の前に来ます：<i>Arif ___ pergi ke kantor</i>。上ではどちらも直してあります。",
-       "en": "The printed page 54 has two errors in Latihan 5: in <b>item 1</b> the second sentence stops at <i>Mereka karyawan dan bekerja.</i> (the digital edition has <s>bekerja di bank</s>); in <b>item 8</b> the blank is in the wrong place, <i>Arif pergi ___ ke kantor</i> — the negative word goes before pergi: <i>Arif ___ pergi ke kantor</i>. Both are corrected above.",
-       "vi": "Trang 54 bản in, Latihan 5 có hai lỗi: ở <b>câu 1</b>, câu thứ hai chỉ in đến <i>Mereka karyawan dan bekerja.</i>, chưa hết câu; bản điện tử của sách là <s>bekerja di bank</s>. Ở <b>câu 8</b>, đề in thành <i>Arif pergi ___ ke kantor</i>, chỗ trống đặt sai — từ phủ định phải đứng trước pergi: <i>Arif ___ pergi ke kantor</i>. Ở trên đều đã sửa.",
-       "pl": "Na wydrukowanej stronie 54 w Latihan 5 są dwa błędy: w <b>zadaniu 1</b> drugie zdanie urywa się na <i>Mereka karyawan dan bekerja.</i> (w wersji elektronicznej jest <s>bekerja di bank</s>); w <b>zadaniu 8</b> luka stoi w złym miejscu, <i>Arif pergi ___ ke kantor</i> — przeczenie powinno stać przed pergi: <i>Arif ___ pergi ke kantor</i>. Oba miejsca są już poprawione powyżej."
       }
      }
     ]
@@ -6741,36 +6417,6 @@
        "en": "Yes, tonight I’m going there with Rizki. The whole family is coming to celebrate.",
        "vi": "Ừ, tối nay tôi sang đó với Rizki. Cả gia đình đều đến để chúc mừng.",
        "pl": "Tak, wieczorem jadę tam z Rizkim. Cała rodzina przyjdzie świętować."
-      }
-     }
-    ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "笔误修正 · 印刷版漏了两行",
-     "ja": "誤植の訂正 · 印刷版で 2 行抜け",
-     "en": "Typo corrected · two lines missing from the printed book",
-     "vi": "Sửa lỗi in · bản in thiếu hai dòng",
-     "pl": "Errata · w wydaniu drukowanym brakuje dwóch kwestii"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "<b>印刷版第 54 页的对话少了两句</b>：John 问「家里怎么这么安静」之后，直接跳到 Pak Budi 的「Oh, tidak. Ibu saya tidak sakit」—— 中间 Pak Budi 说「妻子和 Ayu 去了奶奶家、Rizki 还没放学」、John 问「奶奶生病了吗」这两句没印出来，所以「没有，我母亲没生病」显得没头没尾，第 55 页 Latihan 1 的第 1、2 题在印刷版里也找不到答案。",
-       "ja": "<b>印刷版 54 ページの会話は 2 行抜けています</b>。John が「ずいぶん静かですね」と聞いたあと、いきなり Pak Budi の「Oh, tidak. Ibu saya tidak sakit」に飛んでいます。その間の、Pak Budi が「妻と Ayu はおばあちゃんの家に行った、Rizki はまだ学校から帰っていない」と言う行と、John が「おばあちゃんは病気ですか」と聞く行が印刷されていません。そのため「いいえ、母は病気ではありません」が唐突になり、55 ページ Latihan 1 の第 1・2 問も印刷版では答えが見つかりません。",
-       "en": "<b>The dialogue on the printed page 54 is missing two lines.</b> After John asks why it is so quiet, it jumps straight to Pak Budi’s “Oh, tidak. Ibu saya tidak sakit”. The lines in between — Pak Budi saying his wife and Ayu went to the grandmother’s and Rizki isn’t back from school, and John asking whether the grandmother is ill — were not printed. So the “no, my mother isn’t ill” comes out of nowhere, and items 1 and 2 of Latihan 1 on page 55 cannot be answered from the printed text.",
-       "vi": "<b>Hội thoại ở trang 54 bản in thiếu hai câu.</b> Sau khi John hỏi “sao nhà vắng thế”, bài nhảy thẳng sang câu của Pak Budi “Oh, tidak. Ibu saya tidak sakit” — hai câu ở giữa (Pak Budi nói vợ và Ayu sang nhà bà nội, Rizki chưa đi học về; John hỏi bà có bị ốm không) không được in ra. Vì vậy câu “không, mẹ tôi không ốm” xuất hiện không đầu không đuôi, và câu 1, 2 của Latihan 1 ở trang 55 cũng không tìm được đáp án trong bản in.",
-       "pl": "<b>W dialogu na wydrukowanej stronie 54 brakuje dwóch kwestii.</b> Po pytaniu Johna, czemu jest tak cicho, tekst od razu przeskakuje do słów Pak Budi „Oh, tidak. Ibu saya tidak sakit”. Nie wydrukowano tego, co jest pomiędzy: Pak Budi mówi, że żona i Ayu pojechały do babci, a Rizki jeszcze nie wrócił ze szkoły, i John pyta, czy babcia jest chora. Dlatego „nie, moja mama nie jest chora” pojawia się znikąd, a na zadania 1 i 2 z Latihan 1 na stronie 55 nie da się odpowiedzieć na podstawie drukowanego tekstu."
-      }
-     },
-     {
-      "text": {
-       "zh": "书的电子版里有这两句，上面的对话已经按电子版补上了。",
-       "ja": "教科書の電子版にはこの 2 行があり、上の会話は電子版に合わせて補ってあります。",
-       "en": "The digital edition of the book has both lines; the dialogue above includes them.",
-       "vi": "Bản điện tử của sách có hai câu này; hội thoại ở trên đã được bổ sung theo bản điện tử.",
-       "pl": "W elektronicznym wydaniu książki obie kwestie są; dialog powyżej już je zawiera."
       }
      }
     ]

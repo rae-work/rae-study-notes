@@ -117,7 +117,7 @@
   "learner": {
     "note": "例句里「学习者自己」的国籍，跟着界面语言走。内容里写占位符，渲染时替换：{NEGARA}=印尼语国名（进朗读文本，必须有音频）；{NAMA}=该语言里的国名；{PEOPLE}=该语言里的「某国人」。占位符名就是这里的键名转成大写 —— 加一个键就等于加一个可用的占位符（波兰语因为有格变化，多了 {NAMA_GEN}「z Polski / do Polski」；认不出的占位符会原样显示，validate 第 2 关会拦下来）。vi 的 {NEGARA} 是印尼语的 Vietnam（不是 Viet Nam）。改这里就能换，改完要跑 npm run tts 补新句子的音频。",
     "zh": {
-      "negara": "Cina",
+      "negara": "Tiongkok",
       "nama": "中国",
       "people": "中国人"
     },

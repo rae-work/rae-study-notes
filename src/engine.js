@@ -538,8 +538,16 @@ function noteLines(lines){
     return "";
   }).join("");
 }
-function qaSide(side, maskable){
+function qaSide(side, maskable, blanks){
   if(!side) return "";
+  /* 填空题（没有 prompt 的题）：整句直接露出来，只把 hl 那几个词当成「空格」遮住，
+     释义也一起遮（释义里就有答案）。 */
+  if(blanks && side.lang === "id" && side.hl){
+    var bg = L(side.gloss);
+    return '<div class="qa-line id"><button class="play" data-say="' + esc(sayText(side.text)) +
+      '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="idtext">' +
+      sayLineHl(side.text, side.hl, true) + (bg ? '<span class="gloss"><span class="ans">' + esc(bg) + "</span></span>" : "") + "</span></div>";
+  }
   /* 印尼语那一侧可以带 gloss（参考答案页要的：句子下面一行释义）。
      跟句子一起进 .ans，答案没揭开时释义也不能露出来。
      hl：答案里「被点名时最少要说的部分」，按片段加粗（只念粗体也是正确答案）。
@@ -558,7 +566,7 @@ function qaSide(side, maskable){
 }
 /* 跟 sayLine 一样逐词可点，只是「落在 hl 片段里的词」用 kw 的样式加粗。
    片段按顺序在句子里找（不分大小写），后一个从前一个结束处往后找。 */
-function sayLineHl(text, hl){
+function sayLineHl(text, hl, maskHl){
   var t = LZ(text), low = t.toLowerCase(), ranges = [], pos = 0, i;
   for(i=0;i<hl.length;i++){
     var h = String(hl[i]).toLowerCase(), at = low.indexOf(h, pos);
@@ -572,7 +580,8 @@ function sayLineHl(text, hl){
     off = b;
     if(/^\s+$/.test(tk)){ html += tk; continue; }
     var on = ranges.some(function(r){ return a < r[1] && b > r[0]; });
-    html += '<span class="say' + (on ? " kw" : "") + '" data-say="' + esc(clean(tk)) + '">' + esc(tk) + "</span>";
+    var w = '<span class="say' + (on ? " kw" : "") + '" data-say="' + esc(clean(tk)) + '">' + esc(tk) + "</span>";
+    html += (on && maskHl) ? '<span class="ans">' + w + "</span>" : w;
   }
   return html;
 }
@@ -695,7 +704,7 @@ function renderBlock(b){
       return '<div class="prompt"><div class="tag">' + esc(L(b.tag)) + '</div><p style="margin:.4em 0 0">' + richText(b.text) + "</p></div>";
     case "qa_list":
       return '<div class="exer">' + (L(b.title) ? '<div class="ehead">' + esc(L(b.title)) + "</div>" : "") + "<ol>" +
-        b.items.map(function(it){ return "<li>" + qaSide(it.prompt,false) + qaSide(it.answer,true) + "</li>"; }).join("") + "</ol></div>";
+        b.items.map(function(it){ return "<li>" + (it.prompt ? qaSide(it.prompt,false) + qaSide(it.answer,true) : qaSide(it.answer,true,true)) + "</li>"; }).join("") + "</ol></div>";
     case "fillblank":
       return '<div class="exer">' + (L(b.title) ? '<div class="ehead">' + esc(L(b.title)) + "</div>" : "") +
         b.items.map(function(it){

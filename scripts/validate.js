@@ -97,7 +97,9 @@ for (const l of content.lessons) {
       if (!spec) { err(G1, `${where}：未知 block 类型 ${b.k}`); return; }
       for (const f of spec.req) if (b[f] == null) err(G1, `${where} [${b.k}]：缺字段 ${f}`);
       if (b.k === 'qa_list' && Array.isArray(b.items)) b.items.forEach((it, ii) => {
-        if (!it.prompt || !it.answer) err(G1, `${where} [qa_list] 第 ${ii + 1} 题：缺 prompt 或 answer`);
+        /* 没有 prompt 的是填空题：整句露出，只遮 hl 那几个词 —— 所以必须有 hl */
+        if (!it.answer) err(G1, `${where} [qa_list] 第 ${ii + 1} 题：缺 answer`);
+        else if (!it.prompt && !(it.answer.hl && it.answer.hl.length)) err(G1, `${where} [qa_list] 第 ${ii + 1} 题：没有 prompt 的填空题必须有 hl（要遮住的词）`);
         /* hl = 答案里要加粗的「保底」片段，必须能按顺序在句子里找到 */
         const hl = it.answer && it.answer.hl;
         if (hl != null) {

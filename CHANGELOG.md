@@ -19,10 +19,16 @@ What changed in each version of *Rae's Study Note*. Newest first.
 - **The part to say when you are called on is in bold.** Each item has one
   answer; read just the bold words and you already have a correct answer, and
   the rest of the sentence is there in case the teacher follows up
-- **The printed book is missing two lines of the dialogue on page 54.** The
-  page restores them from the digital edition and explains why items 1 and 2 of
-  the speaking exercise could not be answered from the printed text. The other
-  misprints in the chapter are corrected and pointed out where they occur
+- **The dialogue on page 54 is complete.** The printed book leaves out two
+  lines, so items 1 and 2 of the speaking exercise have no answer in print; the
+  dialogue here includes them
+- **Fill-in-the-blank exercises show each sentence once.** The words that go in
+  the blanks are in bold, and hiding the answers covers only those words
+- **Fewer interruptions on every page.** The "typo corrected" boxes are gone
+  from all four chapters; the corrections themselves are still in the text
+- **China is now *Tiongkok*.** Indonesian sentences use the official standard
+  name instead of *Cina*, including *Saya dari Tiongkok* for learners using the
+  Chinese interface
 - **Bab 3 handout, completed.** The simple-sentence answers are now fuller
   sentences with the core in bold, and a new page gives twelve model sentences for each of the
   four "make your own" tables (Latihan 1a–4a)
