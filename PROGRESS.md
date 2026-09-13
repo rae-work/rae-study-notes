@@ -40,6 +40,7 @@
 
 - **填空题不列题干**：`qa_list` 的题目不写 `prompt` → 整句露出，`hl` 的词加粗，遮挡时只遮这几个词（`qaSide(…, blanks)`）。用在 Bab 4 的 Latihan Kosakata 和 Latihan 5。
 - **所有「笔误修正」note 删掉**（四课共 16 条；L01 两条后半截是有用的讲解，保留那几句、换了标题）。L01 首页「笔误会在对应地方说明」那句也删了。以后笔误只静默改正 + 记在这里。
+- **题目专属提醒放进 `tip`**：`qa_list` 题目可带多语 `tip`，渲染成答案下方的 `.qtip`（左边细竖线 + 小字，跟答案一起遮）。Bab 4 挂了 10 条（INCULS 老师那句玩笑、Arnold 年龄陷阱、Anda → Saya 等），底部 note 里对应的句子删掉。
 - **印尼语的 Cina → Tiongkok**：`meta.learner.zh.negara` 和 L03 Zhang 那两句。中文界面的 `{NEGARA}` 句子要重新合成音频。
 
 **这一轮值得记的**

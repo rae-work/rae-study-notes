@@ -538,15 +538,19 @@ function noteLines(lines){
     return "";
   }).join("");
 }
-function qaSide(side, maskable, blanks){
+function qaSide(side, maskable, blanks, tip){
   if(!side) return "";
+  /* tip：只跟这一题有关的小备注（陷阱、被老师看着说时怎么答、化解尴尬的一句）。
+     紧贴在答案下面 —— 放到页面底部的话，读到这一题时根本看不到。跟答案一起遮。 */
+  var tipHtml = tip && L(tip) ? '<span class="qtip">' + richText(tip) + "</span>" : "";
   /* 填空题（没有 prompt 的题）：整句直接露出来，只把 hl 那几个词当成「空格」遮住，
      释义也一起遮（释义里就有答案）。 */
   if(blanks && side.lang === "id" && side.hl){
     var bg = L(side.gloss);
     return '<div class="qa-line id"><button class="play" data-say="' + esc(sayText(side.text)) +
       '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="idtext">' +
-      sayLineHl(side.text, side.hl, true) + (bg ? '<span class="gloss"><span class="ans">' + esc(bg) + "</span></span>" : "") + "</span></div>";
+      sayLineHl(side.text, side.hl, true) + (bg ? '<span class="gloss"><span class="ans">' + esc(bg) + "</span></span>" : "") +
+      (tipHtml ? '<span class="ans">' + tipHtml + "</span>" : "") + "</span></div>";
   }
   /* 印尼语那一侧可以带 gloss（参考答案页要的：句子下面一行释义）。
      跟句子一起进 .ans，答案没揭开时释义也不能露出来。
@@ -555,7 +559,7 @@ function qaSide(side, maskable, blanks){
   if(side.lang === "id"){
     var g = L(side.gloss);
     var inner = (side.hl ? sayLineHl(side.text, side.hl) : sayLine(side.text, side.kw)) +
-      (g ? '<span class="gloss">' + esc(g) + "</span>" : "");
+      (g ? '<span class="gloss">' + esc(g) + "</span>" : "") + tipHtml;
     var body = maskable ? '<span class="ans">' + inner + "</span>" : inner;
     return '<div class="qa-line id"><button class="play" data-say="' + esc(sayText(side.text)) +
       '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="idtext">' + body + "</span></div>";
@@ -704,7 +708,7 @@ function renderBlock(b){
       return '<div class="prompt"><div class="tag">' + esc(L(b.tag)) + '</div><p style="margin:.4em 0 0">' + richText(b.text) + "</p></div>";
     case "qa_list":
       return '<div class="exer">' + (L(b.title) ? '<div class="ehead">' + esc(L(b.title)) + "</div>" : "") + "<ol>" +
-        b.items.map(function(it){ return "<li>" + (it.prompt ? qaSide(it.prompt,false) + qaSide(it.answer,true) : qaSide(it.answer,true,true)) + "</li>"; }).join("") + "</ol></div>";
+        b.items.map(function(it){ return "<li>" + (it.prompt ? qaSide(it.prompt,false) + qaSide(it.answer,true,false,it.tip) : qaSide(it.answer,true,true,it.tip)) + "</li>"; }).join("") + "</ol></div>";
     case "fillblank":
       return '<div class="exer">' + (L(b.title) ? '<div class="ehead">' + esc(L(b.title)) + "</div>" : "") +
         b.items.map(function(it){

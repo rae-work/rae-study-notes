@@ -471,6 +471,9 @@
   .qa-line .plain{color:var(--ink-soft);font-size:.95em}
   .qa-line .gloss{color:var(--ink-soft);font-size:.84em;display:block;margin-top:3px;line-height:1.6;
     overflow-wrap:anywhere}
+  /* 题目自己的小备注：细竖线 + 小字，紧贴答案 */
+  .qa-line .qtip{display:block;margin-top:6px;padding:1px 0 1px 9px;border-left:2px solid var(--accent-line);
+    color:var(--ink-soft);font-size:.84em;line-height:1.6;overflow-wrap:anywhere}
   .ans{border-radius:6px;transition:filter var(--t-mid) var(--ease)}
   .ans.masked{filter:blur(6px);cursor:pointer}
   .ans.masked::selection{background:transparent}

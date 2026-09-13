@@ -22,6 +22,9 @@ What changed in each version of *Rae's Study Note*. Newest first.
 - **The dialogue on page 54 is complete.** The printed book leaves out two
   lines, so items 1 and 2 of the speaking exercise have no answer in print; the
   dialogue here includes them
+- **Tips sit right under the answer they belong to.** A trap to watch for, or a
+  friendly line to add after an awkward answer, now appears directly below that
+  item instead of at the bottom of the page
 - **Fill-in-the-blank exercises show each sentence once.** The words that go in
   the blanks are in bold, and hiding the answers covers only those words
 - **Fewer interruptions on every page.** The "typo corrected" boxes are gone

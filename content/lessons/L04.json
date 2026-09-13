@@ -2004,6 +2004,13 @@
        "hl": [
         "Salah"
        ]
+      },
+      "tip": {
+       "zh": "课文只说 Pak Indra 是 Pak Wawan 的<b>弟弟</b>，反过来 Pak Wawan 就是<b>哥哥</b>（<s>kakak</s>）。",
+       "ja": "本文には Pak Indra が Pak Wawan の<b>弟</b>とあるので、逆に Pak Wawan は<b>兄</b>（<s>kakak</s>）です。",
+       "en": "The text says Pak Indra is Pak Wawan’s <b>younger</b> brother, so Pak Wawan is the <b>older</b> one (<s>kakak</s>).",
+       "vi": "Bài đọc nói Pak Indra là <b>em</b> của Pak Wawan, nên Pak Wawan là <b>anh</b> (<s>kakak</s>).",
+       "pl": "Tekst mówi, że Pak Indra jest <b>młodszym</b> bratem Pak Wawana, więc Pak Wawan jest <b>starszy</b> (<s>kakak</s>)."
       }
      },
      {
@@ -2097,6 +2104,13 @@
        "hl": [
         "Benar"
        ]
+      },
+      "tip": {
+       "zh": "课文没直接写，要推一步：Pak Aji 是孩子们的爷爷，孩子们的爸爸 Wawan 和 Indra 是兄弟 → 两人都是 Pak Aji 的儿子。第 9、10 题也这样推。",
+       "ja": "本文には直接書いてないので一段推理します：子どもたちの祖父が Pak Aji で、父親の Wawan と Indra は兄弟 → 二人とも Pak Aji の息子。9・10 も同じ考え方です。",
+       "en": "The text doesn’t say it directly, so take one step: Pak Aji is the children’s grandfather, and their fathers Wawan and Indra are brothers → both are Pak Aji’s sons. Items 9 and 10 work the same way.",
+       "vi": "Bài đọc không nói thẳng, cần suy một bước: Pak Aji là ông của bọn trẻ, bố của chúng là Wawan và Indra là anh em → cả hai là con trai Pak Aji. Câu 9 và 10 cũng suy như vậy.",
+       "pl": "Tekst nie mówi tego wprost, więc trzeba zrobić jeden krok: Pak Aji jest dziadkiem dzieci, a ich ojcowie Wawan i Indra są braćmi → obaj są synami Pak Aji. Zadania 9 i 10 rozwiązuje się tak samo."
       }
      },
      {
@@ -2159,36 +2173,6 @@
        "hl": [
         "Benar"
        ]
-      }
-     }
-    ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "要自己推一步的两题",
-     "ja": "一歩推理が必要な 2 問",
-     "en": "Two items that need one step of reasoning",
-     "vi": "Hai câu phải tự suy thêm một bước",
-     "pl": "Dwa zadania, w których trzeba coś wywnioskować"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "<b>第 5 题</b>：课文只写了 Pak Indra 是 Pak Wawan 的<b>弟弟</b>（<s>adik</s>），所以反过来 Pak Wawan 是<b>哥哥</b>（<s>kakak</s>），不是 adik。",
-       "ja": "<b>第 5 問</b>：本文には Pak Indra が Pak Wawan の<b>弟</b>（<s>adik</s>）だとしか書かれていません。逆に言えば Pak Wawan は<b>兄</b>（<s>kakak</s>）で、adik ではありません。",
-       "en": "<b>Item 5</b>: the text says Pak Indra is Pak Wawan’s <b>younger</b> brother (<s>adik</s>), so Pak Wawan is the <b>older</b> one (<s>kakak</s>), not adik.",
-       "vi": "<b>Câu 5</b>: bài đọc chỉ nói ông Indra là <b>em trai</b> (<s>adik</s>) của ông Wawan, nên ngược lại ông Wawan là <b>anh trai</b> (<s>kakak</s>), không phải adik.",
-       "pl": "<b>Zadanie 5</b>: tekst mówi tylko, że Pak Indra jest <b>młodszym</b> bratem Pak Wawana (<s>adik</s>), więc Pak Wawan jest tym <b>starszym</b> (<s>kakak</s>), a nie adik."
-      }
-     },
-     {
-      "text": {
-       "zh": "<b>第 8–10 题</b>：课文没直接说 Pak Aji 是谁的父亲，只说他是四个孩子的<b>爷爷</b>。孩子们的爸爸 Wawan 和 Indra 是兄弟 → 他们俩就是 Pak Aji 的儿子 → 两个妻子就是儿媳（<s>menantu</s>）。",
-       "ja": "<b>第 8〜10 問</b>：本文は Pak Aji がだれの父親かを直接は言わず、4 人の子どもの<b>祖父</b>だと言うだけです。子どもたちの父親 Wawan と Indra は兄弟 → 二人とも Pak Aji の息子 → 二人の妻は嫁（<s>menantu</s>）。",
-       "en": "<b>Items 8–10</b>: the text never says whose father Pak Aji is, only that he is the four children’s <b>grandfather</b>. Their fathers, Wawan and Indra, are brothers → so both are Pak Aji’s sons → and their wives are his daughters-in-law (<s>menantu</s>).",
-       "vi": "<b>Câu 8–10</b>: bài đọc không nói thẳng ông Aji là cha của ai, chỉ nói ông là <b>ông nội</b> của bốn đứa cháu. Bố của bọn trẻ là Wawan và Indra, hai người là anh em → vậy cả hai là con trai của ông Aji → hai người vợ là con dâu của ông (<s>menantu</s>).",
-       "pl": "<b>Zadania 8–10</b>: tekst nigdzie nie mówi, czyim ojcem jest Pak Aji, tylko że jest <b>dziadkiem</b> czworga wnuków. Ich ojcowie, Wawan i Indra, są braćmi → więc obaj są synami Pak Ajiego → a ich żony są jego synowymi (<s>menantu</s>)."
       }
      }
     ]
@@ -2350,6 +2334,13 @@
        "hl": [
         "lima belas tahun"
        ]
+      },
+      "tip": {
+       "zh": "小陷阱：课文说 Arnold <b>下个月</b>满十六，所以<b>现在</b>是十五。",
+       "ja": "ひっかけ：本文では<b>来月</b> 16 歳になるので、<b>今</b>は 15 歳です。",
+       "en": "Trap: the text says he turns sixteen <b>next month</b>, so <b>now</b> he is fifteen.",
+       "vi": "Bẫy nhỏ: bài đọc nói <b>tháng sau</b> Arnold tròn 16 tuổi, nên <b>bây giờ</b> là 15.",
+       "pl": "Pułapka: tekst mówi, że Arnold skończy szesnaście lat <b>w przyszłym miesiącu</b>, więc <b>teraz</b> ma piętnaście."
       }
      },
      {
@@ -2717,15 +2708,6 @@
        "vi": "Với câu hỏi bắt đầu bằng <s>Apakah</s>, trả lời “không” phải xem điều được hỏi là gì: hỏi về <b>danh từ</b> (có phải là sinh viên không) thì đáp <s>Bukan</s>; hỏi về <b>động từ, tính từ</b> (có thích không, có sống ở đó không) thì đáp <s>Tidak</s> — giống hệt “không phải” và “không” trong tiếng Việt. Câu 9 và câu 11 đều hỏi về động từ, nên đáp Tidak. Trang ngữ pháp sẽ giải thích kỹ.",
        "pl": "Po polsku na każde pytanie odpowiesz po prostu „nie”, ale w pytaniach z <s>Apakah</s> wybór zależy od tego, o co pytamy: o <b>rzeczownik</b> (czy on jest studentem?) → <s>Bukan</s>; o <b>czasownik albo przymiotnik</b> (czy lubi, czy mieszkają) → <s>Tidak</s>. Zadania 9 i 11 pytają o czasownik, więc odpowiedź to Tidak. Szczegóły są na stronie z gramatyką."
       }
-     },
-     {
-      "text": {
-       "zh": "第 4 题有陷阱：课文说 Arnold <b>下个月</b>满十六，所以<b>现在</b>是十五岁。",
-       "ja": "第 4 問にはひっかけがあります：本文では Arnold は<b>来月</b> 16 歳になるので、<b>いま</b>は 15 歳です。",
-       "en": "Item 4 is a trap: the text says Arnold turns sixteen <b>next month</b>, so <b>now</b> he is fifteen.",
-       "vi": "Câu 4 có bẫy: bài đọc nói Arnold <b>tháng sau</b> mới tròn mười sáu, nên <b>bây giờ</b> là mười lăm tuổi.",
-       "pl": "Zadanie 4 to pułapka: tekst mówi, że Arnold skończy szesnaście lat <b>w przyszłym miesiącu</b>, więc <b>teraz</b> ma piętnaście."
-      }
      }
     ]
    }
@@ -2857,6 +2839,13 @@
         "ipar",
         "ipar"
        ]
+      },
+      "tip": {
+       "zh": "两个空都是 <s>ipar</s>：姐夫、弟媳这些，印尼语不分。",
+       "ja": "空欄はどちらも <s>ipar</s>。義兄・義妹などをインドネシア語は区別しません。",
+       "en": "Both blanks are <s>ipar</s>: Indonesian uses one word for every brother- or sister-in-law.",
+       "vi": "Cả hai chỗ trống đều là <s>ipar</s>: anh rể, em dâu… tiếng Indonesia chỉ dùng một từ.",
+       "pl": "Obie luki to <s>ipar</s>: indonezyjski ma jedno słowo i na szwagra, i na szwagierkę."
       }
      },
      {
@@ -2932,6 +2921,13 @@
         "saudara",
         "sepupu"
        ]
+      },
+      "tip": {
+       "zh": "空格只能填一个词就用 <s>saudara</s>；口头说 <s>kakak dan adik</s> 也对（Ita 是姐姐，Dewi 是妹妹）。",
+       "ja": "一語なら <s>saudara</s>。口頭で <s>kakak dan adik</s> と言っても正解です（Ita が姉、Dewi が妹）。",
+       "en": "If the blank takes one word, use <s>saudara</s>; saying <s>kakak dan adik</s> aloud is also right (Ita is older, Dewi younger).",
+       "vi": "Nếu chỉ điền một từ thì dùng <s>saudara</s>; nói <s>kakak dan adik</s> cũng đúng (Ita là chị, Dewi là em).",
+       "pl": "Jeśli w lukę wchodzi jedno słowo, użyj <s>saudara</s>; na głos można też powiedzieć <s>kakak dan adik</s> (Ita jest starsza, Dewi młodsza)."
       }
      },
      {
@@ -2958,31 +2954,13 @@
    {
     "k": "note",
     "tag": {
-     "zh": "几题的说明",
-     "ja": "いくつかの問題について",
-     "en": "Notes on a few items",
-     "vi": "Giải thích vài câu",
-     "pl": "Uwagi do kilku zadań"
+     "zh": "mempunyai · punya",
+     "ja": "mempunyai · punya",
+     "en": "mempunyai · punya",
+     "vi": "mempunyai · punya",
+     "pl": "mempunyai · punya"
     },
     "lines": [
-     {
-      "text": {
-       "zh": "<b>第 5 题</b>两个空都是 <s>ipar</s>：Bimo 是 Hartono 姐姐的丈夫，Sri 是 Hartini 弟弟的妻子，印尼语不分这些，一律 ipar。",
-       "ja": "<b>第 5 問</b>は空欄が二つとも <s>ipar</s> です。Bimo は Hartono の姉の夫、Sri は Hartini の弟の妻。日本語なら「義兄」「義妹」と言い分けるところですが、インドネシア語は区別せず、どちらも ipar です。",
-       "en": "<b>Item 5</b>: both blanks are <s>ipar</s>. Bimo is the husband of Hartono’s sister and Sri is the wife of Hartini’s brother; Indonesian does not distinguish these, it is ipar either way.",
-       "vi": "<b>Câu 5</b>: cả hai chỗ trống đều là <s>ipar</s>. Bimo là chồng của chị gái Hartono, Sri là vợ của em trai Hartini; tiếng Việt tách thành “anh rể” và “em dâu”, còn tiếng Indonesia không phân biệt, đều là ipar.",
-       "pl": "<b>Zadanie 5</b>: obie luki to <s>ipar</s>. Bimo jest mężem siostry Hartono, a Sri żoną brata Hartini. Po polsku to szwagier i szwagierka, a indonezyjski nie rozróżnia tu ani płci, ani strony: w obu wypadkach ipar."
-      }
-     },
-     {
-      "text": {
-       "zh": "<b>第 9 题</b>空格只能放一个词时用 <s>saudara</s>（兄弟姐妹）；口头说 <s>kakak dan adik Wawan</s> 也对，因为 Ita 是姐姐、Dewi 是妹妹。",
-       "ja": "<b>第 9 問</b>は、空欄に一語しか入らないなら <s>saudara</s>（兄弟姉妹）。口頭で <s>kakak dan adik Wawan</s> と言っても正解です。Ita が姉、Dewi が妹だからです。",
-       "en": "<b>Item 9</b>: if the blank takes one word, use <s>saudara</s> (siblings). Saying <s>kakak dan adik Wawan</s> aloud is also right, since Ita is older and Dewi is younger.",
-       "vi": "<b>Câu 9</b>: nếu chỗ trống chỉ điền được một từ thì dùng <s>saudara</s> (anh chị em); nói miệng <s>kakak dan adik Wawan</s> cũng đúng, vì Ita là chị, Dewi là em.",
-       "pl": "<b>Zadanie 9</b>: jeśli w luce mieści się jedno słowo, wpisz <s>saudara</s> (rodzeństwo). Na głos można też powiedzieć <s>kakak dan adik Wawan</s>, bo Ita jest starsza, a Dewi młodsza."
-      }
-     },
      {
       "text": {
        "zh": "<s>mempunyai</s> 和 <s>punya</s> 意思一样（有），前者更书面。",
@@ -4853,6 +4831,13 @@
        "hl": [
         "Ayahnya bukan dokter di rumah sakit"
        ]
+      },
+      "tip": {
+       "zh": "<s>bukan</s> 紧挨着 <s>dokter</s>，不放句首。",
+       "ja": "<s>bukan</s> は <s>dokter</s> の直前に置き、文頭には置きません。",
+       "en": "<s>bukan</s> goes right before <s>dokter</s>, not at the start.",
+       "vi": "<s>bukan</s> đứng ngay trước <s>dokter</s>, không đặt ở đầu câu.",
+       "pl": "<s>bukan</s> stoi tuż przed <s>dokter</s>, nie na początku zdania."
       }
      },
      {
@@ -4977,6 +4962,13 @@
        "hl": [
         "Anda bukan pemain bola"
        ]
+      },
+      "tip": {
+       "zh": "老师要是<b>看着你</b>说这句，就是在说你本人 —— 回答 <i>Saya bukan pemain bola.</i>",
+       "ja": "先生が<b>あなたを見て</b>言ったら、あなた本人のことです —— <i>Saya bukan pemain bola.</i> と答えます。",
+       "en": "If the teacher says this <b>looking at you</b>, it’s about you — answer <i>Saya bukan pemain bola.</i>",
+       "vi": "Nếu thầy cô <b>nhìn bạn</b> mà nói câu này, tức là nói về chính bạn — hãy trả lời <i>Saya bukan pemain bola.</i>",
+       "pl": "Jeśli prowadzący mówi to, <b>patrząc na ciebie</b>, chodzi o ciebie — odpowiedz <i>Saya bukan pemain bola.</i>"
       }
      },
      {
@@ -5008,6 +5000,13 @@
        "hl": [
         "Kalian bukan artis"
        ]
+      },
+      "tip": {
+       "zh": "老师要是<b>看着你们</b>说，就回答 <i>Kami bukan artis.</i>",
+       "ja": "先生が<b>あなたたちを見て</b>言ったら <i>Kami bukan artis.</i> と答えます。",
+       "en": "If the teacher says it <b>looking at your group</b>, answer <i>Kami bukan artis.</i>",
+       "vi": "Nếu thầy cô <b>nhìn cả nhóm bạn</b> mà nói, hãy trả lời <i>Kami bukan artis.</i>",
+       "pl": "Jeśli prowadzący mówi to, <b>patrząc na waszą grupę</b>, odpowiedz <i>Kami bukan artis.</i>"
       }
      },
      {
@@ -5175,6 +5174,13 @@
        "hl": [
         "Pak Wawan tidak sakit kepala"
        ]
+      },
+      "tip": {
+       "zh": "<s>sakit</s> 是形容词（病的），所以用 tidak。",
+       "ja": "<s>sakit</s> は形容詞（具合が悪い）なので tidak です。",
+       "en": "<s>sakit</s> is an adjective (ill), so it takes tidak.",
+       "vi": "<s>sakit</s> là tính từ (ốm, đau), nên dùng tidak.",
+       "pl": "<s>sakit</s> to przymiotnik (chory), więc używa się tidak."
       }
      },
      {
@@ -5361,45 +5367,6 @@
        "hl": [
         "Ayah tidak menonton televisi"
        ]
-      }
-     }
-    ]
-   },
-   {
-    "k": "note",
-    "tag": {
-     "zh": "几题的说明",
-     "ja": "いくつかの問題について",
-     "en": "Notes on a few items",
-     "vi": "Giải thích vài câu",
-     "pl": "Uwagi do kilku zadań"
-    },
-    "lines": [
-     {
-      "text": {
-       "zh": "<b>Latihan 2 第 4 题</b>：<s>bukan</s> 放在 <s>dokter</s> 前面，不是放在句首 —— 被否定的是「医生」这个名词。",
-       "ja": "<b>Latihan 2 の第 4 問</b>：<s>bukan</s> は文頭ではなく <s>dokter</s> の前に置きます —— 否定されているのは「医者」という名詞です。",
-       "en": "<b>Latihan 2, item 4</b>: <s>bukan</s> goes before <s>dokter</s>, not at the start — the noun being negated is “doctor”.",
-       "vi": "<b>Latihan 2, câu 4</b>: <s>bukan</s> đặt trước <s>dokter</s>, không đặt ở đầu câu — thứ bị phủ định là danh từ “bác sĩ” (tiếng Việt cũng nói “bố anh ấy không phải là bác sĩ”).",
-       "pl": "<b>Latihan 2, zadanie 4</b>: <s>bukan</s> stoi przed <s>dokter</s>, a nie na początku zdania — zaprzeczasz rzeczownikowi „lekarz”."
-      }
-     },
-     {
-      "text": {
-       "zh": "<b>Latihan 2 第 8、9 题</b>：做改写题就照写 <s>Anda</s>、<s>Kalian</s>。但如果老师<b>看着你</b>说 <i>Anda pemain bola</i>，是在说你本人，回答要换成 <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i>。",
-       "ja": "<b>Latihan 2 の 8・9</b>：書き換え問題としては <s>Anda</s>・<s>Kalian</s> のまま書きます。ただし先生が<b>あなたを見て</b> <i>Anda pemain bola</i> と言ったら、あなた本人のことなので <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i> と答えます。",
-       "en": "<b>Latihan 2, items 8 and 9</b>: as a rewriting task, keep <s>Anda</s> and <s>Kalian</s>. But if the teacher <b>looks at you</b> and says <i>Anda pemain bola</i>, they mean you, so answer <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i>.",
-       "vi": "<b>Latihan 2, câu 8 và 9</b>: làm bài chuyển câu thì cứ giữ <s>Anda</s>, <s>Kalian</s>. Nhưng nếu thầy cô <b>nhìn bạn</b> và nói <i>Anda pemain bola</i>, tức là đang nói về chính bạn, hãy trả lời <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i>.",
-       "pl": "<b>Latihan 2, zadania 8 i 9</b>: jako przekształcenie zdania zostaw <s>Anda</s> i <s>Kalian</s>. Ale jeśli prowadzący <b>patrzy na ciebie</b> i mówi <i>Anda pemain bola</i>, chodzi o ciebie — odpowiedz <i>Saya bukan pemain bola</i> / <i>Kami bukan artis</i>."
-      }
-     },
-     {
-      "text": {
-       "zh": "<b>Latihan 3 第 4 题</b>：<s>sakit kepala</s> 是「头疼」，<s>sakit</s> 是形容词，所以用 tidak。",
-       "ja": "<b>Latihan 3 の第 4 問</b>：<s>sakit kepala</s> は「頭が痛い」。<s>sakit</s> は形容詞なので tidak を使います。",
-       "en": "<b>Latihan 3, item 4</b>: <s>sakit kepala</s> is “headache”; <s>sakit</s> is an adjective, so it takes tidak.",
-       "vi": "<b>Latihan 3, câu 4</b>: <s>sakit kepala</s> là “đau đầu”; <s>sakit</s> là tính từ, nên dùng tidak.",
-       "pl": "<b>Latihan 3, zadanie 4</b>: <s>sakit kepala</s> to „ból głowy”; <s>sakit</s> jest przymiotnikiem, więc łączy się z tidak."
       }
      }
     ]
@@ -5746,6 +5713,13 @@
        "hl": [
         "Pegawai dan tutor INCULS tidak baik"
        ]
+      },
+      "tip": {
+       "zh": "照改出来是「INCULS 的老师不好」，有点尴尬 —— 念完笑着补一句 <s>Tutor INCULS tidak galak. Mereka baik sekali.</s>（老师不凶，人很好）",
+       "ja": "書き換えると「INCULS の先生はよくない」になって少し気まずいので、読んだあと笑顔で <s>Tutor INCULS tidak galak. Mereka baik sekali.</s>（怖くない、とても親切です）と付け足しましょう。",
+       "en": "Rewritten, it says “the INCULS tutors are not nice” — a bit awkward. After reading it, add with a smile: <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (they’re not strict, they’re very kind)",
+       "vi": "Chuyển xong thành “thầy cô INCULS không tốt”, hơi ngại — đọc xong cười và nói thêm <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (thầy cô không khó tính, rất tốt bụng)",
+       "pl": "Po przekształceniu wychodzi „lektorzy INCULS nie są mili” — trochę niezręcznie. Po odczytaniu dodaj z uśmiechem <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (nie są surowi, są bardzo mili)"
       }
      },
      {
@@ -6052,15 +6026,6 @@
        "en": "Look only at <b>the word right after the blank</b>: a noun (<s>polisi</s>, <s>dosen</s>, <s>rumah</s>, <s>mertua</s>) → bukan; a verb or adjective (<s>ikut</s>, <s>suka</s>, <s>lebar</s>, <s>pandai</s>, <s>pergi</s>) → tidak. Items 1, 3, 6 and 10 are bukan; the rest are tidak.",
        "vi": "Chỉ nhìn <b>từ đứng ngay sau chỗ trống</b>: danh từ (<s>polisi</s>, <s>dosen</s>, <s>rumah</s>, <s>mertua</s>) → bukan; động từ, tính từ (<s>ikut</s>, <s>suka</s>, <s>lebar</s>, <s>pandai</s>, <s>pergi</s>) → tidak. Trong mười câu, câu 1, 3, 6, 10 là bukan, còn lại là tidak.",
        "pl": "Patrz tylko na <b>słowo tuż za luką</b>: rzeczownik (<s>polisi</s>, <s>dosen</s>, <s>rumah</s>, <s>mertua</s>) → bukan; czasownik albo przymiotnik (<s>ikut</s>, <s>suka</s>, <s>lebar</s>, <s>pandai</s>, <s>pergi</s>) → tidak. W zadaniach 1, 3, 6 i 10 jest bukan, w pozostałych tidak."
-      }
-     },
-     {
-      "text": {
-       "zh": "Latihan 4 第 7 题照改出来是「INCULS 的老师不好」，被点到时可能有点尴尬 —— 念完可以笑着补一句 <s>Tutor INCULS tidak galak. Mereka baik sekali.</s>（老师不凶，人很好）。",
-       "ja": "Latihan 4 の 7 は書き換えると「INCULS の先生はよくない」になり、当てられると少し気まずいかもしれません —— 読んだあと笑顔で <s>Tutor INCULS tidak galak. Mereka baik sekali.</s>（先生は怖くない、とても親切です）と付け足せば大丈夫です。",
-       "en": "Latihan 4, item 7 comes out as “the INCULS tutors are not nice”, which can feel awkward to say in class. After reading it, you can add with a smile: <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (the tutors are not strict, they are very kind).",
-       "vi": "Latihan 4, câu 7 chuyển xong thành “thầy cô INCULS không tốt”, bị gọi đọc câu này có thể hơi ngại — đọc xong bạn cười và nói thêm <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (thầy cô không khó tính, rất tốt bụng).",
-       "pl": "Latihan 4, zadanie 7 po przekształceniu brzmi „pracownicy i lektorzy INCULS nie są mili”, co w klasie może być trochę niezręczne — po odczytaniu możesz z uśmiechem dodać <s>Tutor INCULS tidak galak. Mereka baik sekali.</s> (lektorzy nie są surowi, są bardzo mili)."
       }
      }
     ]
