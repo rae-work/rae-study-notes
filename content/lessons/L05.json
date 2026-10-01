@@ -1360,11 +1360,11 @@
             },
             {
               "id": "panjang",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "pendek",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1379,11 +1379,11 @@
             },
             {
               "id": "baru",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "lama",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1398,11 +1398,11 @@
             },
             {
               "id": "cepat",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "lambat",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1417,11 +1417,11 @@
             },
             {
               "id": "jauh",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "dekat",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1436,11 +1436,11 @@
             },
             {
               "id": "mahal",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "murah",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1455,11 +1455,11 @@
             },
             {
               "id": "pandai",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "bodoh",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1474,11 +1474,11 @@
             },
             {
               "id": "tua",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "muda",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1493,11 +1493,11 @@
             },
             {
               "id": "besar",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "kecil",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1512,11 +1512,11 @@
             },
             {
               "id": "kuat",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "lemah",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -1531,11 +1531,11 @@
             },
             {
               "id": "bersih",
-              "reg": "formal"
+              "reg": "neutral"
             },
             {
               "id": "kotor",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ]
         ],
@@ -4313,7 +4313,7 @@
             },
             {
               "id": "belajar",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -4337,7 +4337,7 @@
             },
             {
               "id": "berambut",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -4345,7 +4345,7 @@
             "",
             {
               "id": "berencana",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -4361,7 +4361,7 @@
             },
             {
               "id": "bekerja",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -4369,7 +4369,7 @@
             "",
             {
               "id": "beternak",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -4393,7 +4393,7 @@
             },
             {
               "id": "bermain",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -4401,7 +4401,7 @@
             "",
             {
               "id": "bercerita",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ],
           [
@@ -4409,7 +4409,7 @@
             "",
             {
               "id": "berasal",
-              "reg": "formal"
+              "reg": "neutral"
             }
           ]
         ],
