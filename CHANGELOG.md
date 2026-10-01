@@ -4,6 +4,24 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.10.0 — 2026-10-01
+
+**Bab 5 · Ciri-Ciri Fisik (physical features)**
+
+- **A new chapter: Bab 5, Ciri-Ciri Fisik.** Body parts, colours, ten pairs of
+  opposite adjectives, the reading about Luna and her friends Devaryo and Danum,
+  and the grammar of the prefix *ber-*: its three spellings (*belajar*,
+  *bekerja*, *bermain*) and its three meanings (to have, to wear, to do) —
+  19 pages in all, plus 141 new words in the glossary and six new questions in
+  Situasi practice
+- **Every exercise in the chapter, numbered exactly as in the book**, with the
+  part to say when you are called on in bold, just like Bab 4
+- **The traps the book doesn't mention:** *tangan* and *kaki* cover the whole
+  arm and leg; colours and adjectives come after the noun; *lama* (old things)
+  versus *tua* (old people); and *ber-* with a number, as in *kami bertiga*
+  ("the three of us"), which the reading uses but the grammar page never
+  explains
+
 ## 1.9.1 — 2026-09-13
 
 **Cleaner Chinese text on iPhone**

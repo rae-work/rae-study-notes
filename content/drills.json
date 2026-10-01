@@ -845,6 +845,114 @@
         "Depan bulan.",
         "Minggu depan."
       ]
+    },
+    {
+      "q": "Bagaimana rambut kakak Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "长头发",
+        "ja": "長い髪",
+        "en": "long hair",
+        "vi": "tóc dài",
+        "pl": "długie włosy"
+      },
+      "a": "Rambutnya panjang.",
+      "a_reg": "formal",
+      "alts": [
+        "Rambutnya pendek.",
+        "Rambutnya keriting.",
+        "Dia panjang rambut."
+      ]
+    },
+    {
+      "q": "Apa warna sepatu Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "蓝色的",
+        "ja": "青",
+        "en": "blue",
+        "vi": "màu xanh dương",
+        "pl": "niebieskie"
+      },
+      "a": "Sepatu saya biru.",
+      "a_reg": "formal",
+      "alts": [
+        "Sepatu saya hijau.",
+        "Biru sepatu saya.",
+        "Saya sepatu biru."
+      ]
+    },
+    {
+      "q": "Apakah Danum memakai kacamata?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "是的",
+        "ja": "はい",
+        "en": "yes",
+        "vi": "có",
+        "pl": "tak"
+      },
+      "a": "Ya, dia berkacamata.",
+      "a_reg": "formal",
+      "alts": [
+        "Tidak, dia berkacamata.",
+        "Ya, dia bekacamata.",
+        "Ya, kacamata dia."
+      ]
+    },
+    {
+      "q": "Ayah Anda bekerja di mana?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "在银行",
+        "ja": "銀行で",
+        "en": "at a bank",
+        "vi": "ở ngân hàng",
+        "pl": "w banku"
+      },
+      "a": "Dia bekerja di bank.",
+      "a_reg": "formal",
+      "alts": [
+        "Dia berkerja di bank.",
+        "Dia bekerja ke bank.",
+        "Dia bank bekerja."
+      ]
+    },
+    {
+      "q": "Bagaimana sifat teman Anda?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "很友善",
+        "ja": "人当たりがいい",
+        "en": "friendly",
+        "vi": "rất thân thiện",
+        "pl": "przyjazny charakter"
+      },
+      "a": "Dia ramah.",
+      "a_reg": "formal",
+      "alts": [
+        "Dia tinggi.",
+        "Dia berambut panjang.",
+        "Dia ramah sifat."
+      ]
+    },
+    {
+      "q": "Kalian datang berapa orang?",
+      "q_reg": "formal",
+      "hint": {
+        "zh": "我们俩",
+        "ja": "わたしたち二人",
+        "en": "the two of us",
+        "vi": "cả hai chúng tôi",
+        "pl": "we dwoje"
+      },
+      "a": "Kami berdua.",
+      "a_reg": "formal",
+      "alts": [
+        "Kami kedua.",
+        "Kami bertiga.",
+        "Kami dua berdua."
+      ]
     }
   ],
   "tempat": [

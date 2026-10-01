@@ -11014,5 +11014,3389 @@
       "pl": "Dwoje dzieci wystarczy."
     },
     "note": null
+  },
+  {
+    "w": "kepala",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "头",
+      "ja": "頭",
+      "en": "head",
+      "vi": "đầu",
+      "pl": "głowa"
+    },
+    "pos": "n",
+    "ex": "Kepala saya sakit.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我头疼。",
+      "ja": "頭が痛いです。",
+      "en": "I have a headache.",
+      "vi": "Tôi đau đầu.",
+      "pl": "Boli mnie głowa."
+    },
+    "note": null
+  },
+  {
+    "w": "rambut",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "头发",
+      "ja": "髪",
+      "en": "hair",
+      "vi": "tóc",
+      "pl": "włosy"
+    },
+    "pos": "n",
+    "ex": "Rambut Danum cokelat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Danum 的头发是棕色的。",
+      "ja": "Danum の髪は茶色です。",
+      "en": "Danum’s hair is brown.",
+      "vi": "Tóc Danum màu nâu.",
+      "pl": "Danum ma brązowe włosy."
+    },
+    "note": null
+  },
+  {
+    "w": "telinga",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "耳朵",
+      "ja": "耳",
+      "en": "ear",
+      "vi": "tai",
+      "pl": "ucho"
+    },
+    "pos": "n",
+    "ex": "Telinganya besar.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他的耳朵很大。",
+      "ja": "彼は耳が大きいです。",
+      "en": "His ears are big.",
+      "vi": "Tai anh ấy to.",
+      "pl": "Ma duże uszy."
+    },
+    "note": null
+  },
+  {
+    "w": "hidung",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "鼻子",
+      "ja": "鼻",
+      "en": "nose",
+      "vi": "mũi",
+      "pl": "nos"
+    },
+    "pos": "n",
+    "ex": "Hidungnya mancung.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他的鼻子很挺。",
+      "ja": "彼は鼻が高いです。",
+      "en": "His nose is high-bridged.",
+      "vi": "Mũi anh ấy cao.",
+      "pl": "Ma wydatny nos."
+    },
+    "note": null
+  },
+  {
+    "w": "pipi",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "脸颊",
+      "ja": "頬",
+      "en": "cheek",
+      "vi": "má",
+      "pl": "policzek"
+    },
+    "pos": "n",
+    "ex": "Pipi adik merah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "妹妹的脸蛋红红的。",
+      "ja": "妹のほっぺが赤いです。",
+      "en": "My little sister’s cheeks are rosy.",
+      "vi": "Má em gái đỏ hồng.",
+      "pl": "Młodsza siostra ma zaróżowione policzki."
+    },
+    "note": null
+  },
+  {
+    "w": "mulut",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "嘴",
+      "ja": "口",
+      "en": "mouth",
+      "vi": "miệng",
+      "pl": "usta"
+    },
+    "pos": "n",
+    "ex": "Mulutnya kecil.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的嘴很小。",
+      "ja": "彼女は口が小さいです。",
+      "en": "Her mouth is small.",
+      "vi": "Miệng cô ấy nhỏ.",
+      "pl": "Ma małe usta."
+    },
+    "note": null
+  },
+  {
+    "w": "bibir",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "嘴唇",
+      "ja": "唇",
+      "en": "lip",
+      "vi": "môi",
+      "pl": "wargi"
+    },
+    "pos": "n",
+    "ex": "Bibir Devaryo tebal.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Devaryo 的嘴唇厚。",
+      "ja": "Devaryo の唇は厚いです。",
+      "en": "Devaryo’s lips are thick.",
+      "vi": "Môi Devaryo dày.",
+      "pl": "Devaryo ma pełne wargi."
+    },
+    "note": null
+  },
+  {
+    "w": "badan",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "身体 · 个子",
+      "ja": "体 · 背格好",
+      "en": "body · build, height",
+      "vi": "cơ thể · vóc người",
+      "pl": "ciało · wzrost"
+    },
+    "pos": "n",
+    "ex": "Badan saya tinggi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我个子高。",
+      "ja": "わたしは背が高いです。",
+      "en": "I’m tall.",
+      "vi": "Tôi cao.",
+      "pl": "Jestem wysokiego wzrostu."
+    },
+    "note": null
+  },
+  {
+    "w": "bahu",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "肩膀",
+      "ja": "肩",
+      "en": "shoulder",
+      "vi": "vai",
+      "pl": "bark"
+    },
+    "pos": "n",
+    "ex": "Bahu ayah kuat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "爸爸的肩膀很结实。",
+      "ja": "父の肩はがっしりしています。",
+      "en": "Dad’s shoulders are strong.",
+      "vi": "Vai bố rất vững chắc.",
+      "pl": "Tata ma mocne barki."
+    },
+    "note": null
+  },
+  {
+    "w": "siku",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "手肘",
+      "ja": "ひじ",
+      "en": "elbow",
+      "vi": "khuỷu tay",
+      "pl": "łokieć"
+    },
+    "pos": "n",
+    "ex": "Siku saya kotor.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的手肘脏了。",
+      "ja": "ひじが汚れています。",
+      "en": "My elbow is dirty.",
+      "vi": "Khuỷu tay tôi bẩn.",
+      "pl": "Mam brudny łokieć."
+    },
+    "note": null
+  },
+  {
+    "w": "jari",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "手指 · 脚趾",
+      "ja": "手の指 · 足の指",
+      "en": "finger · toe",
+      "vi": "ngón tay · ngón chân",
+      "pl": "palec (u ręki i u nogi)"
+    },
+    "pos": "n",
+    "ex": "Jarinya panjang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的手指很长。",
+      "ja": "彼女は指が長いです。",
+      "en": "Her fingers are long.",
+      "vi": "Ngón tay cô ấy dài.",
+      "pl": "Ma długie palce."
+    },
+    "note": null
+  },
+  {
+    "w": "kulit",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "皮肤",
+      "ja": "肌",
+      "en": "skin",
+      "vi": "da",
+      "pl": "skóra"
+    },
+    "pos": "n",
+    "ex": "Kulitnya putih.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她皮肤白。",
+      "ja": "彼女は肌が白いです。",
+      "en": "Her skin is fair.",
+      "vi": "Da cô ấy trắng.",
+      "pl": "Ma jasną cerę."
+    },
+    "note": null
+  },
+  {
+    "w": "paha",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "大腿",
+      "ja": "太もも",
+      "en": "thigh",
+      "vi": "đùi",
+      "pl": "udo"
+    },
+    "pos": "n",
+    "ex": "Paha saya sakit.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我大腿疼。",
+      "ja": "太ももが痛いです。",
+      "en": "My thigh hurts.",
+      "vi": "Tôi đau đùi.",
+      "pl": "Boli mnie udo."
+    },
+    "note": null
+  },
+  {
+    "w": "lutut",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "膝盖",
+      "ja": "ひざ",
+      "en": "knee",
+      "vi": "đầu gối",
+      "pl": "kolano"
+    },
+    "pos": "n",
+    "ex": "Lutut kakek lemah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "爷爷的膝盖没力气。",
+      "ja": "祖父はひざが弱っています。",
+      "en": "Grandpa’s knees are weak.",
+      "vi": "Đầu gối ông yếu.",
+      "pl": "Dziadek ma słabe kolana."
+    },
+    "note": null
+  },
+  {
+    "w": "betis",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "小腿（肚）",
+      "ja": "ふくらはぎ",
+      "en": "calf",
+      "vi": "bắp chân",
+      "pl": "łydka"
+    },
+    "pos": "n",
+    "ex": "Betisnya kuat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他的小腿很有力。",
+      "ja": "彼はふくらはぎががっしりしています。",
+      "en": "His calves are strong.",
+      "vi": "Bắp chân anh ấy khỏe.",
+      "pl": "Ma mocne łydki."
+    },
+    "note": null
+  },
+  {
+    "w": "kaki",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "脚 · 整条腿",
+      "ja": "足 · 脚全体",
+      "en": "foot · the whole leg",
+      "vi": "chân (cả bàn chân lẫn cẳng chân)",
+      "pl": "noga (razem ze stopą)"
+    },
+    "pos": "n",
+    "ex": "Kakinya panjang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的腿很长。",
+      "ja": "彼女は脚が長いです。",
+      "en": "Her legs are long.",
+      "vi": "Chân cô ấy dài.",
+      "pl": "Ma długie nogi."
+    },
+    "note": null
+  },
+  {
+    "w": "anggota tubuh",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "身体部位",
+      "ja": "体の部位",
+      "en": "body part",
+      "vi": "bộ phận cơ thể",
+      "pl": "część ciała"
+    },
+    "pos": "n",
+    "ex": "Mata anggota tubuh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "眼睛是身体部位。",
+      "ja": "目は体の部位です。",
+      "en": "The eye is a body part.",
+      "vi": "Mắt là một bộ phận cơ thể.",
+      "pl": "Oko to część ciała."
+    },
+    "note": null
+  },
+  {
+    "w": "ciri-ciri fisik",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "外貌特征",
+      "ja": "外見の特徴",
+      "en": "physical features",
+      "vi": "đặc điểm ngoại hình",
+      "pl": "cechy fizyczne, wygląd"
+    },
+    "pos": "n",
+    "ex": "Bagaimana ciri-ciri fisik Luna?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Luna 长什么样？",
+      "ja": "Luna はどんな外見ですか？",
+      "en": "What does Luna look like?",
+      "vi": "Luna trông như thế nào?",
+      "pl": "Jak wygląda Luna?"
+    },
+    "note": null
+  },
+  {
+    "w": "mempunyai",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "有（正式）",
+      "ja": "持っている（改まった言い方）",
+      "en": "to have (formal)",
+      "vi": "có (trang trọng)",
+      "pl": "mieć (formalnie)"
+    },
+    "pos": "v",
+    "ex": "Dia mempunyai rambut panjang.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "她有一头长发。",
+      "ja": "彼女は長い髪をしています。",
+      "en": "She has long hair.",
+      "vi": "Cô ấy có mái tóc dài.",
+      "pl": "Ma długie włosy."
+    },
+    "note": null
+  },
+  {
+    "w": "sawo matang",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "棕色（肤色）",
+      "ja": "褐色（肌の色）",
+      "en": "brown (skin tone)",
+      "vi": "nâu (màu da)",
+      "pl": "śniady (o cerze)"
+    },
+    "pos": "adj",
+    "ex": "Kulit saya sawo matang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我是棕色皮肤。",
+      "ja": "わたしは褐色の肌です。",
+      "en": "My skin is brown.",
+      "vi": "Da tôi màu nâu.",
+      "pl": "Mam śniadą cerę."
+    },
+    "note": null
+  },
+  {
+    "w": "kuning langsat",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "浅黄（肤色）",
+      "ja": "明るい黄色み（肌の色）",
+      "en": "light, yellowish (skin tone)",
+      "vi": "vàng nhạt (màu da)",
+      "pl": "jasnożółtawy (o cerze)"
+    },
+    "pos": "adj",
+    "ex": "Kulit Luna kuning langsat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Luna 的皮肤是浅黄色的。",
+      "ja": "Luna の肌は明るい黄色みです。",
+      "en": "Luna’s skin is light and yellowish.",
+      "vi": "Da Luna màu vàng nhạt.",
+      "pl": "Luna ma jasnożółtawą cerę."
+    },
+    "note": null
+  },
+  {
+    "w": "gemuk",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "胖",
+      "ja": "太っている",
+      "en": "fat",
+      "vi": "béo · mập",
+      "pl": "gruby, puszysty"
+    },
+    "pos": "adj",
+    "ex": "Adik saya gemuk.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我弟弟胖乎乎的。",
+      "ja": "弟はぽっちゃりしています。",
+      "en": "My younger brother is chubby.",
+      "vi": "Em trai tôi mũm mĩm.",
+      "pl": "Mój młodszy brat jest pulchny."
+    },
+    "note": null
+  },
+  {
+    "w": "lurus",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "直",
+      "ja": "まっすぐ",
+      "en": "straight",
+      "vi": "thẳng",
+      "pl": "prosty"
+    },
+    "pos": "adj",
+    "ex": "Rambutnya lurus.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她是直发。",
+      "ja": "彼女はストレートヘアです。",
+      "en": "Her hair is straight.",
+      "vi": "Tóc cô ấy thẳng.",
+      "pl": "Ma proste włosy."
+    },
+    "note": null
+  },
+  {
+    "w": "keriting",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "卷（发）",
+      "ja": "巻き毛の",
+      "en": "curly (hair)",
+      "vi": "xoăn (tóc)",
+      "pl": "kręcony (o włosach)"
+    },
+    "pos": "adj",
+    "ex": "Rambut Devaryo keriting.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Devaryo 是卷发。",
+      "ja": "Devaryo は巻き毛です。",
+      "en": "Devaryo has curly hair.",
+      "vi": "Tóc Devaryo xoăn.",
+      "pl": "Devaryo ma kręcone włosy."
+    },
+    "note": null
+  },
+  {
+    "w": "bergelombang",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "波浪卷的",
+      "ja": "ウェーブがかかった",
+      "en": "wavy",
+      "vi": "gợn sóng (tóc)",
+      "pl": "falowany (o włosach)"
+    },
+    "pos": "adj",
+    "ex": "Rambutnya bergelombang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的头发是波浪卷。",
+      "ja": "彼女の髪はウェーブがかかっています。",
+      "en": "Her hair is wavy.",
+      "vi": "Tóc cô ấy gợn sóng.",
+      "pl": "Ma falowane włosy."
+    },
+    "note": null
+  },
+  {
+    "w": "mancung",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "（鼻子）高挺",
+      "ja": "（鼻が）高い",
+      "en": "high-bridged (nose)",
+      "vi": "(mũi) cao, thẳng",
+      "pl": "wydatny (o nosie)"
+    },
+    "pos": "adj",
+    "ex": "Hidung Danum mancung.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Danum 的鼻子很挺。",
+      "ja": "Danum は鼻が高いです。",
+      "en": "Danum’s nose is high-bridged.",
+      "vi": "Mũi Danum cao.",
+      "pl": "Danum ma wydatny nos."
+    },
+    "note": null
+  },
+  {
+    "w": "sipit",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "（眼睛）细长",
+      "ja": "（目が）切れ長",
+      "en": "narrow (eyes)",
+      "vi": "(mắt) híp · một mí",
+      "pl": "wąski (o oczach)"
+    },
+    "pos": "adj",
+    "ex": "Matanya sipit.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的眼睛细长。",
+      "ja": "彼女は切れ長の目です。",
+      "en": "Her eyes are narrow.",
+      "vi": "Mắt cô ấy híp.",
+      "pl": "Ma wąskie oczy."
+    },
+    "note": null
+  },
+  {
+    "w": "tebal",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "厚",
+      "ja": "厚い",
+      "en": "thick",
+      "vi": "dày",
+      "pl": "gruby"
+    },
+    "pos": "adj",
+    "ex": "Kamus itu tebal.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那本词典很厚。",
+      "ja": "その辞書は厚いです。",
+      "en": "That dictionary is thick.",
+      "vi": "Cuốn từ điển đó dày.",
+      "pl": "Ten słownik jest gruby."
+    },
+    "note": null
+  },
+  {
+    "w": "tipis",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "薄",
+      "ja": "薄い",
+      "en": "thin",
+      "vi": "mỏng",
+      "pl": "cienki"
+    },
+    "pos": "adj",
+    "ex": "Bibirnya tipis.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的嘴唇薄。",
+      "ja": "彼女は唇が薄いです。",
+      "en": "Her lips are thin.",
+      "vi": "Môi cô ấy mỏng.",
+      "pl": "Ma wąskie wargi."
+    },
+    "note": null
+  },
+  {
+    "w": "warna",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "颜色",
+      "ja": "色",
+      "en": "colour",
+      "vi": "màu sắc",
+      "pl": "kolor"
+    },
+    "pos": "n",
+    "ex": "Apa warna sepatu Anda?",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "您的鞋是什么颜色的？",
+      "ja": "あなたの靴は何色ですか？",
+      "en": "What colour are your shoes?",
+      "vi": "Giày của bạn màu gì?",
+      "pl": "Jakiego koloru są Pana/Pani buty?"
+    },
+    "note": null
+  },
+  {
+    "w": "berwarna",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "是……颜色的",
+      "ja": "〜色をしている",
+      "en": "to be (a certain) colour",
+      "vi": "có màu…",
+      "pl": "w kolorze…"
+    },
+    "pos": "v",
+    "ex": "Sepatunya berwarna abu-abu.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他的鞋是灰色的。",
+      "ja": "彼の靴は灰色です。",
+      "en": "His shoes are grey.",
+      "vi": "Giày của anh ấy màu xám.",
+      "pl": "Jego buty są szare."
+    },
+    "note": null
+  },
+  {
+    "w": "jingga",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "橙色",
+      "ja": "オレンジ色",
+      "en": "orange",
+      "vi": "màu cam",
+      "pl": "pomarańczowy"
+    },
+    "pos": "adj",
+    "ex": "Bajunya jingga.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他的衣服是橙色的。",
+      "ja": "彼の服はオレンジ色です。",
+      "en": "His shirt is orange.",
+      "vi": "Áo anh ấy màu cam.",
+      "pl": "Jego ubranie jest pomarańczowe."
+    },
+    "note": null
+  },
+  {
+    "w": "oranye",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "橙色（口语常用）",
+      "ja": "オレンジ色（話しことばでよく使う）",
+      "en": "orange (everyday word)",
+      "vi": "màu cam (hay dùng khi nói)",
+      "pl": "pomarańczowy (potocznie)"
+    },
+    "pos": "adj",
+    "ex": "Saya suka warna oranye.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我喜欢橙色。",
+      "ja": "わたしはオレンジ色が好きです。",
+      "en": "I like the colour orange.",
+      "vi": "Tôi thích màu cam.",
+      "pl": "Lubię kolor pomarańczowy."
+    },
+    "note": null
+  },
+  {
+    "w": "kuning",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "黄色",
+      "ja": "黄色",
+      "en": "yellow",
+      "vi": "màu vàng",
+      "pl": "żółty"
+    },
+    "pos": "adj",
+    "ex": "Bajunya kuning.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的衣服是黄色的。",
+      "ja": "彼女の服は黄色です。",
+      "en": "Her top is yellow.",
+      "vi": "Áo cô ấy màu vàng.",
+      "pl": "Jej ubranie jest żółte."
+    },
+    "note": null
+  },
+  {
+    "w": "cokelat",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "棕色 · 巧克力",
+      "ja": "茶色 · チョコレート",
+      "en": "brown · chocolate",
+      "vi": "màu nâu · sô-cô-la",
+      "pl": "brązowy · czekolada"
+    },
+    "pos": "adj",
+    "ex": "Rambutnya cokelat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的头发是棕色的。",
+      "ja": "彼女の髪は茶色です。",
+      "en": "Her hair is brown.",
+      "vi": "Tóc cô ấy màu nâu.",
+      "pl": "Ma brązowe włosy."
+    },
+    "note": null
+  },
+  {
+    "w": "hijau",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "绿色",
+      "ja": "緑",
+      "en": "green",
+      "vi": "màu xanh lá",
+      "pl": "zielony"
+    },
+    "pos": "adj",
+    "ex": "Tas saya hijau.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的包是绿色的。",
+      "ja": "わたしのかばんは緑です。",
+      "en": "My bag is green.",
+      "vi": "Túi của tôi màu xanh lá.",
+      "pl": "Moja torba jest zielona."
+    },
+    "note": null
+  },
+  {
+    "w": "abu-abu",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "灰色",
+      "ja": "灰色",
+      "en": "grey",
+      "vi": "màu xám",
+      "pl": "szary"
+    },
+    "pos": "adj",
+    "ex": "Celananya abu-abu.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "他的裤子是灰色的。",
+      "ja": "彼のズボンは灰色です。",
+      "en": "His trousers are grey.",
+      "vi": "Quần anh ấy màu xám.",
+      "pl": "Jego spodnie są szare."
+    },
+    "note": null
+  },
+  {
+    "w": "biru",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "蓝色",
+      "ja": "青",
+      "en": "blue",
+      "vi": "màu xanh dương",
+      "pl": "niebieski"
+    },
+    "pos": "adj",
+    "ex": "Sepatu Luna biru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Luna 的鞋是蓝色的。",
+      "ja": "Luna の靴は青です。",
+      "en": "Luna’s shoes are blue.",
+      "vi": "Giày của Luna màu xanh dương.",
+      "pl": "Luna ma niebieskie buty."
+    },
+    "note": null
+  },
+  {
+    "w": "ungu",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "紫色",
+      "ja": "紫",
+      "en": "purple",
+      "vi": "màu tím",
+      "pl": "fioletowy"
+    },
+    "pos": "adj",
+    "ex": "Ibu berbaju ungu.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "妈妈穿紫色衣服。",
+      "ja": "母は紫の服を着ています。",
+      "en": "Mum is wearing purple.",
+      "vi": "Mẹ mặc áo tím.",
+      "pl": "Mama ma na sobie fioletowe ubranie."
+    },
+    "note": null
+  },
+  {
+    "w": "toska",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "蓝绿色 · 青绿色",
+      "ja": "ターコイズ · 青緑",
+      "en": "turquoise · teal",
+      "vi": "màu xanh ngọc",
+      "pl": "turkusowy, morski"
+    },
+    "pos": "adj",
+    "ex": "Kamar saya berwarna toska.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的房间是蓝绿色的。",
+      "ja": "わたしの部屋はターコイズ色です。",
+      "en": "My room is turquoise.",
+      "vi": "Phòng tôi màu xanh ngọc.",
+      "pl": "Mój pokój jest turkusowy."
+    },
+    "note": null
+  },
+  {
+    "w": "merah muda",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "粉红色",
+      "ja": "ピンク",
+      "en": "pink",
+      "vi": "màu hồng",
+      "pl": "różowy"
+    },
+    "pos": "adj",
+    "ex": "Adik suka warna merah muda.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "妹妹喜欢粉红色。",
+      "ja": "妹はピンクが好きです。",
+      "en": "My little sister likes pink.",
+      "vi": "Em gái thích màu hồng.",
+      "pl": "Młodsza siostra lubi kolor różowy."
+    },
+    "note": null
+  },
+  {
+    "w": "lama",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "旧 · （时间）久",
+      "ja": "古い · （時間が）長い",
+      "en": "old (things) · (a) long (time)",
+      "vi": "cũ · lâu",
+      "pl": "stary · długo (o czasie)"
+    },
+    "pos": "adj",
+    "ex": "Sepeda saya sudah lama.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的自行车已经旧了。",
+      "ja": "わたしの自転車はもう古いです。",
+      "en": "My bike is old now.",
+      "vi": "Xe đạp của tôi cũ rồi.",
+      "pl": "Mój rower jest już stary."
+    },
+    "note": null
+  },
+  {
+    "w": "muda",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "年轻 · （颜色）浅",
+      "ja": "若い · （色が）薄い",
+      "en": "young · light (colour)",
+      "vi": "trẻ · (màu) nhạt",
+      "pl": "młody · jasny (o kolorze)"
+    },
+    "pos": "adj",
+    "ex": "Bibi saya masih muda.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我阿姨还很年轻。",
+      "ja": "おばはまだ若いです。",
+      "en": "My aunt is still young.",
+      "vi": "Cô tôi vẫn còn trẻ.",
+      "pl": "Moja ciocia jest jeszcze młoda."
+    },
+    "note": null
+  },
+  {
+    "w": "cepat",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "快",
+      "ja": "速い",
+      "en": "fast",
+      "vi": "nhanh",
+      "pl": "szybki"
+    },
+    "pos": "adj",
+    "ex": "Sepeda itu cepat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那辆自行车很快。",
+      "ja": "その自転車は速いです。",
+      "en": "That bike is fast.",
+      "vi": "Chiếc xe đạp đó chạy nhanh.",
+      "pl": "Ten rower jest szybki."
+    },
+    "note": null
+  },
+  {
+    "w": "dekat",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "近",
+      "ja": "近い",
+      "en": "near",
+      "vi": "gần",
+      "pl": "bliski, blisko"
+    },
+    "pos": "adj",
+    "ex": "Rumah saya dekat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我家很近。",
+      "ja": "わたしの家は近いです。",
+      "en": "My house is close by.",
+      "vi": "Nhà tôi ở gần.",
+      "pl": "Mój dom jest blisko."
+    },
+    "note": null
+  },
+  {
+    "w": "bodoh",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "笨",
+      "ja": "ばか",
+      "en": "stupid",
+      "vi": "ngốc · đần",
+      "pl": "głupi"
+    },
+    "pos": "adj",
+    "ex": "Saya bodoh sekali!",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我真笨！",
+      "ja": "わたしって本当にばかだ！",
+      "en": "I’m so stupid!",
+      "vi": "Tôi ngốc quá!",
+      "pl": "Ale głupio z mojej strony!"
+    },
+    "note": null
+  },
+  {
+    "w": "kuat",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "强壮 · 结实",
+      "ja": "強い · 丈夫",
+      "en": "strong · sturdy",
+      "vi": "khỏe · chắc chắn",
+      "pl": "silny · mocny"
+    },
+    "pos": "adj",
+    "ex": "Kakek masih kuat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "爷爷身体还很硬朗。",
+      "ja": "祖父はまだ元気です。",
+      "en": "Grandpa is still strong.",
+      "vi": "Ông vẫn còn khỏe.",
+      "pl": "Dziadek jest jeszcze krzepki."
+    },
+    "note": null
+  },
+  {
+    "w": "lemah",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "虚弱 · 没力气",
+      "ja": "弱い · 力がない",
+      "en": "weak · without strength",
+      "vi": "yếu · không có sức",
+      "pl": "słaby · bez sił"
+    },
+    "pos": "adj",
+    "ex": "Nenek sakit dan lemah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "奶奶病了，没什么力气。",
+      "ja": "祖母は病気で、体が弱っています。",
+      "en": "Grandma is ill and weak.",
+      "vi": "Bà bị ốm và yếu.",
+      "pl": "Babcia jest chora i nie ma sił."
+    },
+    "note": null
+  },
+  {
+    "w": "bersih",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "干净",
+      "ja": "きれい・清潔",
+      "en": "clean",
+      "vi": "sạch",
+      "pl": "czysty"
+    },
+    "pos": "adj",
+    "ex": "Kamar saya bersih.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的房间很干净。",
+      "ja": "わたしの部屋はきれいです。",
+      "en": "My room is clean.",
+      "vi": "Phòng tôi sạch.",
+      "pl": "Mój pokój jest czysty."
+    },
+    "note": null
+  },
+  {
+    "w": "kotor",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "脏",
+      "ja": "汚い",
+      "en": "dirty",
+      "vi": "bẩn",
+      "pl": "brudny"
+    },
+    "pos": "adj",
+    "ex": "Sepatu saya kotor.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的鞋脏了。",
+      "ja": "靴が汚れています。",
+      "en": "My shoes are dirty.",
+      "vi": "Giày của tôi bẩn.",
+      "pl": "Moje buty są brudne."
+    },
+    "note": null
+  },
+  {
+    "w": "lawan kata",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "反义词",
+      "ja": "反対語",
+      "en": "antonym, opposite",
+      "vi": "từ trái nghĩa",
+      "pl": "antonim, przeciwieństwo"
+    },
+    "pos": "n",
+    "ex": "Lawan kata panjang adalah pendek.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "长的反义词是短。",
+      "ja": "「長い」の反対語は「短い」です。",
+      "en": "The opposite of long is short.",
+      "vi": "Từ trái nghĩa của “dài” là “ngắn”.",
+      "pl": "Przeciwieństwem słowa „długi” jest „krótki”."
+    },
+    "note": null
+  },
+  {
+    "w": "pulau",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "岛",
+      "ja": "島",
+      "en": "island",
+      "vi": "đảo",
+      "pl": "wyspa"
+    },
+    "pos": "n",
+    "ex": "Bali pulau kecil.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "巴厘是个小岛。",
+      "ja": "バリは小さな島です。",
+      "en": "Bali is a small island.",
+      "vi": "Bali là một hòn đảo nhỏ.",
+      "pl": "Bali to mała wyspa."
+    },
+    "note": null
+  },
+  {
+    "w": "suku",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "民族 · 族群",
+      "ja": "民族 · 種族",
+      "en": "ethnic group",
+      "vi": "dân tộc · tộc người",
+      "pl": "grupa etniczna, lud"
+    },
+    "pos": "n",
+    "ex": "Dia suku Sunda.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她是巽他族。",
+      "ja": "彼女はスンダ族です。",
+      "en": "She is Sundanese.",
+      "vi": "Cô ấy là người Sunda.",
+      "pl": "Jest Sundajką."
+    },
+    "note": null
+  },
+  {
+    "w": "suku bangsa",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "民族",
+      "ja": "民族",
+      "en": "ethnic group, people",
+      "vi": "dân tộc",
+      "pl": "grupa etniczna, lud"
+    },
+    "pos": "n",
+    "ex": "Indonesia mempunyai banyak suku bangsa.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "印尼有很多民族。",
+      "ja": "インドネシアにはたくさんの民族があります。",
+      "en": "Indonesia has many ethnic groups.",
+      "vi": "Indonesia có rất nhiều dân tộc.",
+      "pl": "Indonezja ma wiele grup etnicznych."
+    },
+    "note": null
+  },
+  {
+    "w": "budaya",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "文化",
+      "ja": "文化",
+      "en": "culture",
+      "vi": "văn hóa",
+      "pl": "kultura"
+    },
+    "pos": "n",
+    "ex": "Saya suka budaya Jawa.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我喜欢爪哇文化。",
+      "ja": "わたしはジャワの文化が好きです。",
+      "en": "I like Javanese culture.",
+      "vi": "Tôi thích văn hóa Java.",
+      "pl": "Lubię kulturę jawajską."
+    },
+    "note": null
+  },
+  {
+    "w": "berbagai",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "各种各样的",
+      "ja": "さまざまな",
+      "en": "various, all sorts of",
+      "vi": "nhiều loại · đủ kiểu",
+      "pl": "różny, rozmaity"
+    },
+    "pos": "adj",
+    "ex": "Teman saya berasal dari berbagai pulau.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的朋友来自各个岛。",
+      "ja": "わたしの友だちはいろいろな島から来ています。",
+      "en": "My friends come from all sorts of islands.",
+      "vi": "Bạn bè tôi đến từ nhiều hòn đảo khác nhau.",
+      "pl": "Moi przyjaciele pochodzą z różnych wysp."
+    },
+    "note": null
+  },
+  {
+    "w": "yaitu",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "即 · 也就是",
+      "ja": "すなわち · つまり",
+      "en": "namely, that is",
+      "vi": "tức là · đó là",
+      "pl": "czyli, mianowicie"
+    },
+    "pos": "conj",
+    "ex": "Saya punya dua kakak, yaitu Juna dan Arnold.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我有两个哥哥，就是 Juna 和 Arnold。",
+      "ja": "わたしには兄が二人います。Juna と Arnold です。",
+      "en": "I have two older brothers, namely Juna and Arnold.",
+      "vi": "Tôi có hai anh trai, đó là Juna và Arnold.",
+      "pl": "Mam dwóch starszych braci, mianowicie Junę i Arnolda."
+    },
+    "note": null
+  },
+  {
+    "w": "lain-lain",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "等等（dll.）",
+      "ja": "など（dll.）",
+      "en": "and so on (dll.)",
+      "vi": "vân vân (dll.)",
+      "pl": "i inne, itd. (skrót dll.)"
+    },
+    "pos": "n",
+    "ex": "Saya suka merah, biru, dan lain-lain.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我喜欢红色、蓝色等等。",
+      "ja": "わたしは赤や青などが好きです。",
+      "en": "I like red, blue and so on.",
+      "vi": "Tôi thích màu đỏ, xanh dương, v.v.",
+      "pl": "Lubię czerwony, niebieski i inne kolory."
+    },
+    "note": null
+  },
+  {
+    "w": "kemeja",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "衬衫",
+      "ja": "シャツ",
+      "en": "shirt (with a collar)",
+      "vi": "áo sơ mi",
+      "pl": "koszula"
+    },
+    "pos": "n",
+    "ex": "Kemeja Luna putih.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Luna 的衬衫是白色的。",
+      "ja": "Luna のシャツは白です。",
+      "en": "Luna’s shirt is white.",
+      "vi": "Áo sơ mi của Luna màu trắng.",
+      "pl": "Koszula Luny jest biała."
+    },
+    "note": null
+  },
+  {
+    "w": "celana panjang",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "长裤",
+      "ja": "長ズボン",
+      "en": "trousers, long trousers",
+      "vi": "quần dài",
+      "pl": "długie spodnie"
+    },
+    "pos": "n",
+    "ex": "Celana panjang saya hitam.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的长裤是黑色的。",
+      "ja": "わたしの長ズボンは黒です。",
+      "en": "My trousers are black.",
+      "vi": "Quần dài của tôi màu đen.",
+      "pl": "Moje długie spodnie są czarne."
+    },
+    "note": null
+  },
+  {
+    "w": "menolong",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "帮助",
+      "ja": "助ける",
+      "en": "to help",
+      "vi": "giúp đỡ",
+      "pl": "pomagać"
+    },
+    "pos": "v",
+    "ex": "Devaryo suka menolong teman.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Devaryo 喜欢帮朋友。",
+      "ja": "Devaryo は友だちを助けるのが好きです。",
+      "en": "Devaryo likes helping his friends.",
+      "vi": "Devaryo thích giúp đỡ bạn bè.",
+      "pl": "Devaryo chętnie pomaga przyjaciołom."
+    },
+    "note": null
+  },
+  {
+    "w": "baik hati",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "心地善良",
+      "ja": "心がやさしい",
+      "en": "kind-hearted",
+      "vi": "tốt bụng",
+      "pl": "dobry, o dobrym sercu"
+    },
+    "pos": "adj",
+    "ex": "Danum baik hati.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Danum 心地善良。",
+      "ja": "Danum は心がやさしいです。",
+      "en": "Danum is kind-hearted.",
+      "vi": "Danum tốt bụng.",
+      "pl": "Danum ma dobre serce."
+    },
+    "note": null
+  },
+  {
+    "w": "jujur",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "诚实",
+      "ja": "正直な",
+      "en": "honest",
+      "vi": "thật thà · trung thực",
+      "pl": "uczciwy"
+    },
+    "pos": "adj",
+    "ex": "Danum orang yang jujur.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Danum 是个诚实的人。",
+      "ja": "Danum は正直な人です。",
+      "en": "Danum is an honest person.",
+      "vi": "Danum là người thật thà.",
+      "pl": "Danum jest uczciwą osobą."
+    },
+    "note": null
+  },
+  {
+    "w": "sifat",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "性格 · 特性",
+      "ja": "性格 · 性質",
+      "en": "character · nature",
+      "vi": "tính cách · đặc tính",
+      "pl": "charakter · cecha"
+    },
+    "pos": "n",
+    "ex": "Bagaimana sifat Danum?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Danum 的性格怎么样？",
+      "ja": "Danum はどんな性格ですか？",
+      "en": "What is Danum like (as a person)?",
+      "vi": "Tính cách của Danum thế nào?",
+      "pl": "Jaki charakter ma Danum?"
+    },
+    "note": null
+  },
+  {
+    "w": "tradisi",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "传统",
+      "ja": "伝統・習わし",
+      "en": "tradition",
+      "vi": "truyền thống",
+      "pl": "tradycja"
+    },
+    "pos": "n",
+    "ex": "Ini tradisi Yogyakarta.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "这是日惹的传统。",
+      "ja": "これはジョグジャカルタの伝統です。",
+      "en": "This is a Yogyakarta tradition.",
+      "vi": "Đây là truyền thống của Yogyakarta.",
+      "pl": "To tradycja Yogyakarty."
+    },
+    "note": null
+  },
+  {
+    "w": "tradisional",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "传统的",
+      "ja": "伝統的な",
+      "en": "traditional",
+      "vi": "(thuộc về) truyền thống",
+      "pl": "tradycyjny"
+    },
+    "pos": "adj",
+    "ex": "Blangkon topi tradisional.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "blangkon 是传统帽子。",
+      "ja": "blangkon は伝統的な帽子です。",
+      "en": "A blangkon is a traditional hat.",
+      "vi": "Blangkon là mũ truyền thống.",
+      "pl": "Blangkon to tradycyjne nakrycie głowy."
+    },
+    "note": null
+  },
+  {
+    "w": "baju adat",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "传统服装",
+      "ja": "伝統衣装",
+      "en": "traditional dress",
+      "vi": "trang phục truyền thống",
+      "pl": "strój tradycyjny"
+    },
+    "pos": "n",
+    "ex": "Hari ini dosen kami berbaju adat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "今天我们老师穿传统服装。",
+      "ja": "今日、先生は伝統衣装を着ています。",
+      "en": "Today our lecturer is wearing traditional dress.",
+      "vi": "Hôm nay giảng viên của chúng tôi mặc trang phục truyền thống.",
+      "pl": "Nasz wykładowca ma dziś na sobie strój tradycyjny."
+    },
+    "note": null
+  },
+  {
+    "w": "pakaian adat",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "传统服装（正式说法）",
+      "ja": "伝統衣装（改まった言い方）",
+      "en": "traditional dress (formal word)",
+      "vi": "trang phục truyền thống (cách nói trang trọng)",
+      "pl": "strój tradycyjny (formalnie)"
+    },
+    "pos": "n",
+    "ex": "Ulos pakaian adat Batak.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "ulos 是巴塔克族的传统服饰。",
+      "ja": "ulos はバタック族の伝統衣装です。",
+      "en": "Ulos is traditional Batak dress.",
+      "vi": "Ulos là trang phục truyền thống của người Batak.",
+      "pl": "Ulos to tradycyjny strój Bataków."
+    },
+    "note": null
+  },
+  {
+    "w": "surjan",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "爪哇男式传统上衣",
+      "ja": "ジャワの男性用伝統上着",
+      "en": "Javanese men’s traditional jacket",
+      "vi": "áo truyền thống của đàn ông Java",
+      "pl": "jawajska tradycyjna kurtka męska"
+    },
+    "pos": "n",
+    "ex": "Ayah memakai surjan.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "爸爸穿着 surjan。",
+      "ja": "父は surjan を着ています。",
+      "en": "Dad is wearing a surjan.",
+      "vi": "Bố mặc surjan.",
+      "pl": "Tata ma na sobie surjan."
+    },
+    "note": null
+  },
+  {
+    "w": "blangkon",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "爪哇传统头巾帽",
+      "ja": "ジャワの伝統的な頭巾帽",
+      "en": "Javanese traditional head-wrap cap",
+      "vi": "khăn đội đầu truyền thống Java",
+      "pl": "jawajskie tradycyjne nakrycie głowy"
+    },
+    "pos": "n",
+    "ex": "Kakek memakai blangkon.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "爷爷戴着 blangkon。",
+      "ja": "祖父は blangkon をかぶっています。",
+      "en": "Grandpa is wearing a blangkon.",
+      "vi": "Ông đội blangkon.",
+      "pl": "Dziadek ma na głowie blangkon."
+    },
+    "note": null
+  },
+  {
+    "w": "kebaya",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "传统女式上衣",
+      "ja": "伝統的な女性用ブラウス",
+      "en": "traditional women’s blouse",
+      "vi": "áo truyền thống của phụ nữ",
+      "pl": "tradycyjna bluzka damska"
+    },
+    "pos": "n",
+    "ex": "Ibu memakai kebaya.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "妈妈穿着 kebaya。",
+      "ja": "母は kebaya を着ています。",
+      "en": "Mum is wearing a kebaya.",
+      "vi": "Mẹ mặc kebaya.",
+      "pl": "Mama ma na sobie kebayę."
+    },
+    "note": null
+  },
+  {
+    "w": "topi",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "帽子",
+      "ja": "帽子",
+      "en": "hat, cap",
+      "vi": "mũ",
+      "pl": "czapka, kapelusz"
+    },
+    "pos": "n",
+    "ex": "Topi saya biru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的帽子是蓝色的。",
+      "ja": "わたしの帽子は青です。",
+      "en": "My hat is blue.",
+      "vi": "Mũ của tôi màu xanh dương.",
+      "pl": "Moja czapka jest niebieska."
+    },
+    "note": null
+  },
+  {
+    "w": "upacara",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "仪式",
+      "ja": "儀式",
+      "en": "ceremony",
+      "vi": "nghi lễ",
+      "pl": "ceremonia, uroczystość"
+    },
+    "pos": "n",
+    "ex": "Ada upacara di kampus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "校园里有个仪式。",
+      "ja": "キャンパスで式典があります。",
+      "en": "There is a ceremony on campus.",
+      "vi": "Ở trường có một buổi lễ.",
+      "pl": "Na kampusie jest uroczystość."
+    },
+    "note": null
+  },
+  {
+    "w": "gadis",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "姑娘",
+      "ja": "娘・少女",
+      "en": "girl, young woman",
+      "vi": "cô gái",
+      "pl": "dziewczyna, panna"
+    },
+    "pos": "n",
+    "ex": "Gadis itu tinggi.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那个姑娘个子高。",
+      "ja": "あの娘さんは背が高いです。",
+      "en": "That girl is tall.",
+      "vi": "Cô gái đó cao.",
+      "pl": "Ta dziewczyna jest wysoka."
+    },
+    "note": null
+  },
+  {
+    "w": "pertama kali",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "第一次",
+      "ja": "初めて",
+      "en": "the first time",
+      "vi": "lần đầu tiên",
+      "pl": "pierwszy raz"
+    },
+    "pos": "adv",
+    "ex": "Saya pertama kali ke Bali.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我第一次去巴厘岛。",
+      "ja": "わたしはバリに行くのは初めてです。",
+      "en": "It’s my first time going to Bali.",
+      "vi": "Đây là lần đầu tiên tôi đi Bali.",
+      "pl": "Jadę na Bali pierwszy raz."
+    },
+    "note": null
+  },
+  {
+    "w": "sebutkan",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "请说出",
+      "ja": "挙げてください",
+      "en": "name (them)!, list",
+      "vi": "hãy kể tên",
+      "pl": "wymień (proszę wymienić)"
+    },
+    "pos": "v",
+    "ex": "Sebutkan nama-nama warna!",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "说出几种颜色的名字！",
+      "ja": "色の名前を挙げなさい！",
+      "en": "Name some colours!",
+      "vi": "Hãy kể tên các màu!",
+      "pl": "Wymień nazwy kilku kolorów!"
+    },
+    "note": null
+  },
+  {
+    "w": "artinya",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "意思是",
+      "ja": "意味は",
+      "en": "it means, meaning",
+      "vi": "nghĩa là",
+      "pl": "znaczy, to znaczy"
+    },
+    "pos": "v",
+    "ex": "Berbaju artinya memakai baju.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "berbaju 的意思是穿衣服。",
+      "ja": "berbaju の意味は「服を着る」です。",
+      "en": "Berbaju means to wear clothes.",
+      "vi": "berbaju nghĩa là mặc áo.",
+      "pl": "berbaju znaczy „nosić ubranie”."
+    },
+    "note": null
+  },
+  {
+    "w": "awalan",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "前缀",
+      "ja": "接頭辞",
+      "en": "prefix",
+      "vi": "tiền tố",
+      "pl": "przedrostek"
+    },
+    "pos": "n",
+    "ex": "Ber- adalah awalan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "ber- 是个前缀。",
+      "ja": "ber- は接頭辞です。",
+      "en": "Ber- is a prefix.",
+      "vi": "ber- là một tiền tố.",
+      "pl": "ber- to przedrostek."
+    },
+    "note": null
+  },
+  {
+    "w": "kegiatan",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "活动",
+      "ja": "活動",
+      "en": "activity",
+      "vi": "hoạt động",
+      "pl": "zajęcie, aktywność"
+    },
+    "pos": "n",
+    "ex": "Apa kegiatan Anda hari ini?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "您今天有什么活动？",
+      "ja": "今日はどんな予定がありますか？",
+      "en": "What are your plans for today?",
+      "vi": "Hôm nay bạn có hoạt động gì?",
+      "pl": "Co Pan/Pani dziś robi?"
+    },
+    "note": null
+  },
+  {
+    "w": "bekerja",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "工作",
+      "ja": "働く",
+      "en": "to work",
+      "vi": "làm việc",
+      "pl": "pracować"
+    },
+    "pos": "v",
+    "ex": "Ayah saya bekerja di bank.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我爸爸在银行工作。",
+      "ja": "父は銀行で働いています。",
+      "en": "My father works at a bank.",
+      "vi": "Bố tôi làm việc ở ngân hàng.",
+      "pl": "Mój tata pracuje w banku."
+    },
+    "note": null
+  },
+  {
+    "w": "beternak",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "养（牲畜）",
+      "ja": "（家畜を）飼う",
+      "en": "to raise (livestock)",
+      "vi": "nuôi (gia súc)",
+      "pl": "hodować (zwierzęta)"
+    },
+    "pos": "v",
+    "ex": "Paman saya beternak sapi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我叔叔养牛。",
+      "ja": "おじは牛を飼っています。",
+      "en": "My uncle raises cattle.",
+      "vi": "Chú tôi nuôi bò.",
+      "pl": "Mój wujek hoduje krowy."
+    },
+    "note": null
+  },
+  {
+    "w": "sapi",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "牛",
+      "ja": "牛",
+      "en": "cow, cattle",
+      "vi": "bò",
+      "pl": "krowa"
+    },
+    "pos": "n",
+    "ex": "Sapi itu besar.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那头牛很大。",
+      "ja": "その牛は大きいです。",
+      "en": "That cow is big.",
+      "vi": "Con bò đó to.",
+      "pl": "Ta krowa jest duża."
+    },
+    "note": null
+  },
+  {
+    "w": "berencana",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "打算",
+      "ja": "〜するつもり",
+      "en": "to plan",
+      "vi": "dự định",
+      "pl": "planować"
+    },
+    "pos": "v",
+    "ex": "Kami berencana pergi ke Bali.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们打算去巴厘岛。",
+      "ja": "わたしたちはバリに行く予定です。",
+      "en": "We are planning to go to Bali.",
+      "vi": "Chúng tôi định đi Bali.",
+      "pl": "Planujemy pojechać na Bali."
+    },
+    "note": null
+  },
+  {
+    "w": "bermain",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "玩 · 演奏",
+      "ja": "遊ぶ · 演奏する",
+      "en": "to play · to play (an instrument)",
+      "vi": "chơi · chơi (nhạc cụ)",
+      "pl": "bawić się · grać (na instrumencie)"
+    },
+    "pos": "v",
+    "ex": "Anak-anak bermain di halaman.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "孩子们在院子里玩。",
+      "ja": "子どもたちが庭で遊んでいます。",
+      "en": "The children are playing in the yard.",
+      "vi": "Bọn trẻ chơi ngoài sân.",
+      "pl": "Dzieci bawią się na podwórku."
+    },
+    "note": null
+  },
+  {
+    "w": "bercerita",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "讲故事 · 讲述",
+      "ja": "お話をする · 語る",
+      "en": "to tell (a story) · to talk about",
+      "vi": "kể chuyện · kể lại",
+      "pl": "opowiadać · opowiadać historie"
+    },
+    "pos": "v",
+    "ex": "Nenek suka bercerita.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "奶奶喜欢讲故事。",
+      "ja": "祖母はお話をするのが好きです。",
+      "en": "Grandma likes telling stories.",
+      "vi": "Bà thích kể chuyện.",
+      "pl": "Babcia lubi opowiadać historie."
+    },
+    "note": null
+  },
+  {
+    "w": "berbicara",
+    "les": 5,
+    "reg": "formal",
+    "pair": "ngomong",
+    "gloss": {
+      "zh": "说话",
+      "ja": "話す",
+      "en": "to speak, to talk",
+      "vi": "nói chuyện",
+      "pl": "mówić, rozmawiać"
+    },
+    "pos": "v",
+    "ex": "Dosen berbicara di kelas.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "老师在课上讲话。",
+      "ja": "先生が授業で話しています。",
+      "en": "The lecturer speaks in class.",
+      "vi": "Giảng viên nói trong lớp.",
+      "pl": "Wykładowca mówi na zajęciach."
+    },
+    "note": null
+  },
+  {
+    "w": "bertanya",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "提问",
+      "ja": "質問する",
+      "en": "to ask (a question)",
+      "vi": "đặt câu hỏi",
+      "pl": "zadawać pytanie"
+    },
+    "pos": "v",
+    "ex": "Boleh saya bertanya?",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我可以问个问题吗？",
+      "ja": "質問してもいいですか？",
+      "en": "May I ask a question?",
+      "vi": "Tôi hỏi một câu được không?",
+      "pl": "Czy mogę zadać pytanie?"
+    },
+    "note": null
+  },
+  {
+    "w": "berteman",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "交朋友 · 是朋友",
+      "ja": "友だちになる · 友だちである",
+      "en": "to make friends · to be friends",
+      "vi": "kết bạn · là bạn",
+      "pl": "przyjaźnić się · być przyjaciółmi"
+    },
+    "pos": "v",
+    "ex": "Saya berteman dengan Danum.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我跟 Danum 是朋友。",
+      "ja": "わたしは Danum と友だちです。",
+      "en": "I’m friends with Danum.",
+      "vi": "Tôi là bạn của Danum.",
+      "pl": "Przyjaźnię się z Danum."
+    },
+    "note": null
+  },
+  {
+    "w": "berpakaian",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "穿着",
+      "ja": "服を着ている",
+      "en": "to be dressed",
+      "vi": "ăn mặc",
+      "pl": "być ubranym"
+    },
+    "pos": "v",
+    "ex": "Dia berpakaian rapi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他穿得很整齐。",
+      "ja": "彼はきちんとした服装をしています。",
+      "en": "He is neatly dressed.",
+      "vi": "Anh ấy ăn mặc gọn gàng.",
+      "pl": "Jest schludnie ubrany."
+    },
+    "note": null
+  },
+  {
+    "w": "berkulit",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "有……的皮肤",
+      "ja": "〜な肌をしている",
+      "en": "to have … skin",
+      "vi": "có làn da…",
+      "pl": "o … skórze, cerze"
+    },
+    "pos": "v",
+    "ex": "Dia berkulit putih.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "她皮肤白。",
+      "ja": "彼女は肌が白いです。",
+      "en": "She has fair skin.",
+      "vi": "Cô ấy có làn da trắng.",
+      "pl": "Ma jasną cerę."
+    },
+    "note": null
+  },
+  {
+    "w": "berbadan",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "个子……",
+      "ja": "背格好が〜",
+      "en": "to be of … build",
+      "vi": "có vóc người…",
+      "pl": "o … wzroście, budowie"
+    },
+    "pos": "v",
+    "ex": "Kakak saya berbadan tinggi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我哥哥个子高。",
+      "ja": "兄は背が高いです。",
+      "en": "My older brother is tall.",
+      "vi": "Anh trai tôi cao.",
+      "pl": "Mój starszy brat jest wysokiego wzrostu."
+    },
+    "note": null
+  },
+  {
+    "w": "bertopi",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "戴帽子",
+      "ja": "帽子をかぶっている",
+      "en": "to wear a hat",
+      "vi": "đội mũ",
+      "pl": "nosić czapkę"
+    },
+    "pos": "v",
+    "ex": "Kakek bertopi cokelat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "爷爷戴着棕色帽子。",
+      "ja": "祖父は茶色の帽子をかぶっています。",
+      "en": "Grandpa is wearing a brown hat.",
+      "vi": "Ông đội mũ nâu.",
+      "pl": "Dziadek ma na głowie brązową czapkę."
+    },
+    "note": null
+  },
+  {
+    "w": "berdasi",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "打领带",
+      "ja": "ネクタイを締める",
+      "en": "to wear a tie",
+      "vi": "thắt cà vạt",
+      "pl": "nosić krawat"
+    },
+    "pos": "v",
+    "ex": "Ayah berdasi merah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "爸爸打着红领带。",
+      "ja": "父は赤いネクタイを締めています。",
+      "en": "Dad is wearing a red tie.",
+      "vi": "Bố thắt cà vạt đỏ.",
+      "pl": "Tata ma czerwony krawat."
+    },
+    "note": null
+  },
+  {
+    "w": "berpita",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "扎缎带",
+      "ja": "リボンを付ける",
+      "en": "to wear a ribbon",
+      "vi": "buộc ruy băng",
+      "pl": "nosić wstążkę"
+    },
+    "pos": "v",
+    "ex": "Adik berpita merah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "妹妹扎着红缎带。",
+      "ja": "妹は赤いリボンを付けています。",
+      "en": "My little sister is wearing a red ribbon.",
+      "vi": "Em gái buộc ruy băng đỏ.",
+      "pl": "Młodsza siostra ma czerwoną wstążkę."
+    },
+    "note": null
+  },
+  {
+    "w": "berlantai",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "有……层 · 铺着……地板",
+      "ja": "〜階建て · 〜の床",
+      "en": "to have … floors · to have a … floor",
+      "vi": "có … tầng · lát sàn …",
+      "pl": "mieć … pięter · z podłogą z …"
+    },
+    "pos": "v",
+    "ex": "Hotel itu berlantai sepuluh.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那家酒店有十层。",
+      "ja": "そのホテルは 10 階建てです。",
+      "en": "That hotel has ten floors.",
+      "vi": "Khách sạn đó có mười tầng.",
+      "pl": "Ten hotel ma dziesięć pięter."
+    },
+    "note": null
+  },
+  {
+    "w": "berjendela",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "有窗户",
+      "ja": "窓がある",
+      "en": "to have windows",
+      "vi": "có cửa sổ",
+      "pl": "mieć okna"
+    },
+    "pos": "v",
+    "ex": "Kamar saya berjendela besar.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我的房间有一扇大窗。",
+      "ja": "わたしの部屋には大きな窓があります。",
+      "en": "My room has a big window.",
+      "vi": "Phòng tôi có một cửa sổ lớn.",
+      "pl": "Mój pokój ma duże okno."
+    },
+    "note": null
+  },
+  {
+    "w": "bercat",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "刷着……漆",
+      "ja": "〜色に塗られた",
+      "en": "painted (a colour)",
+      "vi": "sơn màu…",
+      "pl": "pomalowany na …"
+    },
+    "pos": "v",
+    "ex": "Rumah itu bercat putih.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那座房子刷着白漆。",
+      "ja": "その家は白く塗られています。",
+      "en": "That house is painted white.",
+      "vi": "Ngôi nhà đó sơn màu trắng.",
+      "pl": "Ten dom jest pomalowany na biało."
+    },
+    "note": null
+  },
+  {
+    "w": "beratap",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "盖着……屋顶",
+      "ja": "〜の屋根の",
+      "en": "with a … roof",
+      "vi": "lợp mái…",
+      "pl": "z … dachem"
+    },
+    "pos": "v",
+    "ex": "Rumah itu beratap cokelat.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那座房子是棕色屋顶。",
+      "ja": "その家は茶色の屋根です。",
+      "en": "That house has a brown roof.",
+      "vi": "Ngôi nhà đó có mái màu nâu.",
+      "pl": "Ten dom ma brązowy dach."
+    },
+    "note": null
+  },
+  {
+    "w": "bersepeda",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "骑自行车",
+      "ja": "自転車に乗る",
+      "en": "to ride a bicycle, to cycle",
+      "vi": "đạp xe",
+      "pl": "jeździć na rowerze"
+    },
+    "pos": "v",
+    "ex": "Saya bersepeda ke kampus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我骑自行车去学校。",
+      "ja": "わたしは自転車でキャンパスに行きます。",
+      "en": "I cycle to campus.",
+      "vi": "Tôi đạp xe đến trường.",
+      "pl": "Jeżdżę na uczelnię rowerem."
+    },
+    "note": null
+  },
+  {
+    "w": "berkereta",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "坐火车",
+      "ja": "列車に乗る",
+      "en": "to go by train",
+      "vi": "đi tàu hỏa",
+      "pl": "jechać pociągiem"
+    },
+    "pos": "v",
+    "ex": "Kami berkereta ke Jakarta.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们坐火车去雅加达。",
+      "ja": "わたしたちは列車でジャカルタへ行きます。",
+      "en": "We take the train to Jakarta.",
+      "vi": "Chúng tôi đi tàu hỏa đến Jakarta.",
+      "pl": "Jedziemy pociągiem do Dżakarty."
+    },
+    "note": null
+  },
+  {
+    "w": "berwisata",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "旅游",
+      "ja": "旅行する",
+      "en": "to travel, to go on a trip",
+      "vi": "đi du lịch",
+      "pl": "podróżować, zwiedzać"
+    },
+    "pos": "v",
+    "ex": "Kami berwisata ke Bali.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们去巴厘岛旅游。",
+      "ja": "わたしたちはバリへ旅行します。",
+      "en": "We are going on a trip to Bali.",
+      "vi": "Chúng tôi đi du lịch Bali.",
+      "pl": "Jedziemy na wycieczkę na Bali."
+    },
+    "note": null
+  },
+  {
+    "w": "berkunjung",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "拜访 · 去做客",
+      "ja": "訪ねる · お邪魔する",
+      "en": "to visit · to pay a visit",
+      "vi": "đến thăm · đến chơi nhà",
+      "pl": "odwiedzać · iść w gości"
+    },
+    "pos": "v",
+    "ex": "Kami berkunjung ke rumah paman.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们去叔叔家做客。",
+      "ja": "わたしたちはおじの家を訪ねます。",
+      "en": "We visit our uncle’s house.",
+      "vi": "Chúng tôi đến chơi nhà chú.",
+      "pl": "Idziemy w odwiedziny do wujka."
+    },
+    "note": null
+  },
+  {
+    "w": "berlari",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "跑步",
+      "ja": "走る",
+      "en": "to run",
+      "vi": "chạy bộ",
+      "pl": "biegać"
+    },
+    "pos": "v",
+    "ex": "Adik saya suka berlari.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我弟弟喜欢跑步。",
+      "ja": "弟は走るのが好きです。",
+      "en": "My younger brother likes running.",
+      "vi": "Em trai tôi thích chạy bộ.",
+      "pl": "Mój młodszy brat lubi biegać."
+    },
+    "note": null
+  },
+  {
+    "w": "berjalan",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "走路",
+      "ja": "歩く",
+      "en": "to walk",
+      "vi": "đi bộ",
+      "pl": "chodzić, iść pieszo"
+    },
+    "pos": "v",
+    "ex": "Saya berjalan ke kampus.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我走路去学校。",
+      "ja": "わたしは歩いてキャンパスに行きます。",
+      "en": "I walk to campus.",
+      "vi": "Tôi đi bộ đến trường.",
+      "pl": "Chodzę na uczelnię pieszo."
+    },
+    "note": null
+  },
+  {
+    "w": "berdagang",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "做买卖",
+      "ja": "商売をする",
+      "en": "to trade, to sell",
+      "vi": "buôn bán",
+      "pl": "handlować"
+    },
+    "pos": "v",
+    "ex": "Ibu saya berdagang batik.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我妈妈做蜡染布生意。",
+      "ja": "母はバティックの商売をしています。",
+      "en": "My mother sells batik.",
+      "vi": "Mẹ tôi buôn bán vải batik.",
+      "pl": "Moja mama handluje batikiem."
+    },
+    "note": null
+  },
+  {
+    "w": "berburu",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "打猎",
+      "ja": "狩りをする",
+      "en": "to hunt",
+      "vi": "săn bắn",
+      "pl": "polować"
+    },
+    "pos": "v",
+    "ex": "Paman berburu di hutan.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "叔叔在森林里打猎。",
+      "ja": "おじは森で狩りをしています。",
+      "en": "My uncle hunts in the forest.",
+      "vi": "Chú đi săn trong rừng.",
+      "pl": "Wujek poluje w lesie."
+    },
+    "note": null
+  },
+  {
+    "w": "berdiskusi",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "讨论",
+      "ja": "話し合う",
+      "en": "to discuss",
+      "vi": "thảo luận",
+      "pl": "dyskutować"
+    },
+    "pos": "v",
+    "ex": "Kami berdiskusi di kelas.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们在课上讨论。",
+      "ja": "わたしたちは授業で話し合います。",
+      "en": "We have discussions in class.",
+      "vi": "Chúng tôi thảo luận trong lớp.",
+      "pl": "Dyskutujemy na zajęciach."
+    },
+    "note": null
+  },
+  {
+    "w": "bergurau",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "开玩笑 · 说笑",
+      "ja": "冗談を言う · ふざけ合う",
+      "en": "to joke · to banter",
+      "vi": "nói đùa · đùa giỡn",
+      "pl": "żartować · przekomarzać się"
+    },
+    "pos": "v",
+    "ex": "Mereka suka bergurau.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他们喜欢说说笑笑。",
+      "ja": "彼らは冗談を言い合うのが好きです。",
+      "en": "They like joking around.",
+      "vi": "Họ thích nói đùa.",
+      "pl": "Lubią sobie pożartować."
+    },
+    "note": null
+  },
+  {
+    "w": "berdua",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "两个人一起",
+      "ja": "二人で",
+      "en": "the two together",
+      "vi": "hai người cùng nhau",
+      "pl": "we dwoje"
+    },
+    "pos": "adv",
+    "ex": "Kami berdua kuliah di UGM.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们俩都在 UGM 读书。",
+      "ja": "わたしたちは二人とも UGM で学んでいます。",
+      "en": "The two of us both study at UGM.",
+      "vi": "Cả hai chúng tôi đều học ở UGM.",
+      "pl": "My dwoje studiujemy na UGM."
+    },
+    "note": null
+  },
+  {
+    "w": "bertiga",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "三个人一起",
+      "ja": "三人で",
+      "en": "the three together",
+      "vi": "ba người cùng nhau",
+      "pl": "we troje"
+    },
+    "pos": "adv",
+    "ex": "Kami bertiga berbatik.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们三个都穿着蜡染。",
+      "ja": "わたしたち三人はそろってバティックを着ています。",
+      "en": "The three of us are all wearing batik.",
+      "vi": "Ba chúng tôi đều mặc batik.",
+      "pl": "We troje mamy na sobie batik."
+    },
+    "note": null
+  },
+  {
+    "w": "berenam",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "六个人一起",
+      "ja": "六人で",
+      "en": "the six together",
+      "vi": "sáu người cùng nhau",
+      "pl": "we sześcioro"
+    },
+    "pos": "adv",
+    "ex": "Kami berenam makan di restoran.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们六个人一起在餐厅吃饭。",
+      "ja": "わたしたちは六人でレストランで食事をします。",
+      "en": "The six of us eat at a restaurant together.",
+      "vi": "Sáu người chúng tôi cùng ăn ở nhà hàng.",
+      "pl": "Jemy we sześcioro w restauracji."
+    },
+    "note": null
+  },
+  {
+    "w": "bersepuluh",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "十个人一起",
+      "ja": "十人で",
+      "en": "the ten together",
+      "vi": "mười người cùng nhau",
+      "pl": "w dziesięcioro"
+    },
+    "pos": "adv",
+    "ex": "Mereka bersepuluh datang ke pesta.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他们十个人一起来参加聚会。",
+      "ja": "彼らは十人そろってパーティーに来ました。",
+      "en": "The ten of them come to the party together.",
+      "vi": "Mười người họ cùng đến dự tiệc.",
+      "pl": "Przychodzą na imprezę w dziesięcioro."
+    },
+    "note": null
+  },
+  {
+    "w": "pintu",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "门",
+      "ja": "ドア",
+      "en": "door",
+      "vi": "cửa",
+      "pl": "drzwi"
+    },
+    "pos": "n",
+    "ex": "Pintu kamar saya biru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我房间的门是蓝色的。",
+      "ja": "わたしの部屋のドアは青です。",
+      "en": "My bedroom door is blue.",
+      "vi": "Cửa phòng tôi màu xanh dương.",
+      "pl": "Drzwi mojego pokoju są niebieskie."
+    },
+    "note": null
+  },
+  {
+    "w": "jendela",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "窗户",
+      "ja": "窓",
+      "en": "window",
+      "vi": "cửa sổ",
+      "pl": "okno"
+    },
+    "pos": "n",
+    "ex": "Jendela itu besar.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那扇窗户很大。",
+      "ja": "その窓は大きいです。",
+      "en": "That window is big.",
+      "vi": "Cửa sổ đó to.",
+      "pl": "To okno jest duże."
+    },
+    "note": null
+  },
+  {
+    "w": "kaca",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "玻璃",
+      "ja": "ガラス",
+      "en": "glass",
+      "vi": "kính (thủy tinh)",
+      "pl": "szkło"
+    },
+    "pos": "n",
+    "ex": "Jendelanya kaca.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "窗户是玻璃的。",
+      "ja": "窓はガラスです。",
+      "en": "The windows are glass.",
+      "vi": "Cửa sổ bằng kính.",
+      "pl": "Okno jest szklane."
+    },
+    "note": null
+  },
+  {
+    "w": "dasi",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "领带",
+      "ja": "ネクタイ",
+      "en": "tie",
+      "vi": "cà vạt",
+      "pl": "krawat"
+    },
+    "pos": "n",
+    "ex": "Dasi ayah merah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "爸爸的领带是红色的。",
+      "ja": "父のネクタイは赤です。",
+      "en": "Dad’s tie is red.",
+      "vi": "Cà vạt của bố màu đỏ.",
+      "pl": "Krawat taty jest czerwony."
+    },
+    "note": null
+  },
+  {
+    "w": "iklim",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "气候",
+      "ja": "気候",
+      "en": "climate",
+      "vi": "khí hậu",
+      "pl": "klimat"
+    },
+    "pos": "n",
+    "ex": "Iklim Indonesia tropis.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "印尼是热带气候。",
+      "ja": "インドネシアの気候は熱帯です。",
+      "en": "Indonesia’s climate is tropical.",
+      "vi": "Khí hậu Indonesia là khí hậu nhiệt đới.",
+      "pl": "Indonezja ma klimat tropikalny."
+    },
+    "note": null
+  },
+  {
+    "w": "tropis",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "热带的",
+      "ja": "熱帯の",
+      "en": "tropical",
+      "vi": "nhiệt đới",
+      "pl": "tropikalny"
+    },
+    "pos": "adj",
+    "ex": "Indonesia negara tropis.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "印尼是热带国家。",
+      "ja": "インドネシアは熱帯の国です。",
+      "en": "Indonesia is a tropical country.",
+      "vi": "Indonesia là một nước nhiệt đới.",
+      "pl": "Indonezja to kraj tropikalny."
+    },
+    "note": null
+  },
+  {
+    "w": "penduduk",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "人口 · 居民",
+      "ja": "人口 · 住民",
+      "en": "population · inhabitants",
+      "vi": "dân số · cư dân",
+      "pl": "ludność · mieszkańcy"
+    },
+    "pos": "n",
+    "ex": "Penduduk kota itu banyak.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "那座城市人很多。",
+      "ja": "その町は人口が多いです。",
+      "en": "That city has a lot of people.",
+      "vi": "Thành phố đó đông dân.",
+      "pl": "To miasto ma wielu mieszkańców."
+    },
+    "note": null
+  },
+  {
+    "w": "sampul",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "封面",
+      "ja": "表紙",
+      "en": "cover (of a book)",
+      "vi": "bìa (sách)",
+      "pl": "okładka"
+    },
+    "pos": "n",
+    "ex": "Sampul buku itu merah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那本书的封面是红色的。",
+      "ja": "その本の表紙は赤です。",
+      "en": "The cover of that book is red.",
+      "vi": "Bìa cuốn sách đó màu đỏ.",
+      "pl": "Okładka tej książki jest czerwona."
+    },
+    "note": null
+  },
+  {
+    "w": "marmer",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "大理石",
+      "ja": "大理石",
+      "en": "marble",
+      "vi": "đá cẩm thạch",
+      "pl": "marmur"
+    },
+    "pos": "n",
+    "ex": "Lantai kelas kami marmer.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我们教室的地板是大理石的。",
+      "ja": "わたしたちの教室の床は大理石です。",
+      "en": "The floor of our classroom is marble.",
+      "vi": "Sàn lớp học của chúng tôi bằng đá cẩm thạch.",
+      "pl": "Podłoga w naszej sali jest marmurowa."
+    },
+    "note": null
+  },
+  {
+    "w": "sandal",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "凉鞋 · 拖鞋",
+      "ja": "サンダル · スリッパ",
+      "en": "sandals · flip-flops",
+      "vi": "dép xăng-đan · dép lê",
+      "pl": "sandały · klapki"
+    },
+    "pos": "n",
+    "ex": "Sandal saya biru.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "我的凉鞋是蓝色的。",
+      "ja": "わたしのサンダルは青です。",
+      "en": "My sandals are blue.",
+      "vi": "Dép của tôi màu xanh dương.",
+      "pl": "Moje sandały są niebieskie."
+    },
+    "note": null
+  },
+  {
+    "w": "kerudung",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "（穆斯林女性的）头巾",
+      "ja": "（ムスリム女性の）ベール",
+      "en": "(Muslim women’s) headscarf",
+      "vi": "khăn trùm đầu (của phụ nữ Hồi giáo)",
+      "pl": "chusta na głowę (muzułmanek)"
+    },
+    "pos": "n",
+    "ex": "Kerudungnya hijau.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的头巾是绿色的。",
+      "ja": "彼女のベールは緑です。",
+      "en": "Her headscarf is green.",
+      "vi": "Khăn trùm đầu của cô ấy màu xanh lá.",
+      "pl": "Jej chusta jest zielona."
+    },
+    "note": null
+  },
+  {
+    "w": "hutan",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "森林",
+      "ja": "森",
+      "en": "forest",
+      "vi": "rừng",
+      "pl": "las"
+    },
+    "pos": "n",
+    "ex": "Hutan itu besar.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那片森林很大。",
+      "ja": "その森は大きいです。",
+      "en": "That forest is big.",
+      "vi": "Khu rừng đó rất rộng.",
+      "pl": "Ten las jest duży."
+    },
+    "note": null
+  },
+  {
+    "w": "penampilan",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "外表 · 打扮",
+      "ja": "見た目 · 身なり",
+      "en": "appearance · the way someone dresses",
+      "vi": "vẻ ngoài · cách ăn mặc",
+      "pl": "wygląd · sposób ubierania się"
+    },
+    "pos": "n",
+    "ex": "Penampilannya rapi.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "他的打扮很整齐。",
+      "ja": "彼は身なりがきちんとしています。",
+      "en": "He always looks neat.",
+      "vi": "Anh ấy ăn mặc gọn gàng.",
+      "pl": "Wygląda schludnie."
+    },
+    "note": null
+  },
+  {
+    "w": "tempat ibadah",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "宗教场所",
+      "ja": "礼拝所",
+      "en": "place of worship",
+      "vi": "nơi thờ tự",
+      "pl": "miejsce kultu"
+    },
+    "pos": "n",
+    "ex": "Masjid tempat ibadah.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "清真寺是礼拜的地方。",
+      "ja": "モスクは礼拝の場所です。",
+      "en": "A mosque is a place of worship.",
+      "vi": "Nhà thờ Hồi giáo là nơi thờ tự.",
+      "pl": "Meczet to miejsce kultu."
+    },
+    "note": null
+  },
+  {
+    "w": "masjid",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "清真寺",
+      "ja": "モスク",
+      "en": "mosque",
+      "vi": "nhà thờ Hồi giáo",
+      "pl": "meczet"
+    },
+    "pos": "n",
+    "ex": "Masjid itu besar.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那座清真寺很大。",
+      "ja": "そのモスクは大きいです。",
+      "en": "That mosque is big.",
+      "vi": "Nhà thờ Hồi giáo đó rất lớn.",
+      "pl": "Ten meczet jest duży."
+    },
+    "note": null
+  },
+  {
+    "w": "gereja",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "教堂",
+      "ja": "教会",
+      "en": "church",
+      "vi": "nhà thờ",
+      "pl": "kościół"
+    },
+    "pos": "n",
+    "ex": "Gereja itu tua.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那座教堂很老。",
+      "ja": "その教会は古いです。",
+      "en": "That church is old.",
+      "vi": "Nhà thờ đó rất cổ.",
+      "pl": "Ten kościół jest stary."
+    },
+    "note": null
+  },
+  {
+    "w": "pura",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "印度教寺庙",
+      "ja": "ヒンドゥー寺院",
+      "en": "Hindu temple",
+      "vi": "đền Hindu",
+      "pl": "świątynia hinduistyczna"
+    },
+    "pos": "n",
+    "ex": "Di Bali ada banyak pura.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "巴厘岛有很多印度教寺庙。",
+      "ja": "バリにはヒンドゥー寺院がたくさんあります。",
+      "en": "There are many Hindu temples in Bali.",
+      "vi": "Ở Bali có rất nhiều đền Hindu.",
+      "pl": "Na Bali jest wiele świątyń hinduistycznych."
+    },
+    "note": null
+  },
+  {
+    "w": "wihara",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "佛寺",
+      "ja": "仏教寺院",
+      "en": "Buddhist temple",
+      "vi": "chùa Phật giáo",
+      "pl": "świątynia buddyjska"
+    },
+    "pos": "n",
+    "ex": "Wihara itu dekat.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那座佛寺很近。",
+      "ja": "その仏教寺院は近くにあります。",
+      "en": "That Buddhist temple is close by.",
+      "vi": "Ngôi chùa đó ở gần.",
+      "pl": "Ta świątynia buddyjska jest blisko."
+    },
+    "note": null
+  },
+  {
+    "w": "kelenteng",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "华人庙宇",
+      "ja": "中国系の廟",
+      "en": "Chinese temple",
+      "vi": "miếu người Hoa",
+      "pl": "chińska świątynia"
+    },
+    "pos": "n",
+    "ex": "Kelenteng itu berwarna merah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那座华人庙宇是红色的。",
+      "ja": "その中国系の廟は赤い色をしています。",
+      "en": "That Chinese temple is red.",
+      "vi": "Ngôi miếu người Hoa đó màu đỏ.",
+      "pl": "Ta chińska świątynia jest czerwona."
+    },
+    "note": null
+  },
+  {
+    "w": "rumah adat",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "传统房屋",
+      "ja": "伝統家屋",
+      "en": "traditional house",
+      "vi": "nhà truyền thống",
+      "pl": "dom tradycyjny"
+    },
+    "pos": "n",
+    "ex": "Joglo rumah adat Jawa.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "joglo 是爪哇的传统房屋。",
+      "ja": "joglo はジャワの伝統家屋です。",
+      "en": "The joglo is a traditional Javanese house.",
+      "vi": "Joglo là nhà truyền thống của Java.",
+      "pl": "Joglo to tradycyjny dom jawajski."
+    },
+    "note": null
+  },
+  {
+    "w": "joglo",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "爪哇传统房屋",
+      "ja": "ジャワの伝統家屋",
+      "en": "Javanese traditional house",
+      "vi": "nhà truyền thống Java",
+      "pl": "tradycyjny dom jawajski"
+    },
+    "pos": "n",
+    "ex": "Rumah kakek joglo.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "爷爷家是 joglo 房子。",
+      "ja": "祖父の家は joglo 様式です。",
+      "en": "Grandpa’s house is a joglo.",
+      "vi": "Nhà của ông là nhà joglo.",
+      "pl": "Dom dziadka to joglo."
+    },
+    "note": null
+  },
+  {
+    "w": "ulos",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "巴塔克族织布",
+      "ja": "バタック族の織物",
+      "en": "Batak woven cloth",
+      "vi": "vải dệt của người Batak",
+      "pl": "tkanina Bataków"
+    },
+    "pos": "n",
+    "ex": "Ulos itu merah.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "那条 ulos 是红色的。",
+      "ja": "その ulos は赤です。",
+      "en": "That ulos is red.",
+      "vi": "Tấm ulos đó màu đỏ.",
+      "pl": "Ten ulos jest czerwony."
+    },
+    "note": null
+  },
+  {
+    "w": "berbeda-beda",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "各不相同",
+      "ja": "それぞれ異なる",
+      "en": "different from one another, various",
+      "vi": "khác nhau · mỗi cái một khác",
+      "pl": "różne, różnorodne"
+    },
+    "pos": "adj",
+    "ex": "Warna sepatu kami berbeda-beda.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "我们的鞋颜色各不相同。",
+      "ja": "わたしたちの靴の色はそれぞれ違います。",
+      "en": "Our shoes are all different colours.",
+      "vi": "Giày của chúng tôi mỗi người một màu.",
+      "pl": "Każde z nas ma buty w innym kolorze."
+    },
+    "note": null
+  },
+  {
+    "w": "Bhinneka Tunggal Ika",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "殊途同归（国家格言）",
+      "ja": "多様性の中の統一（国の標語）",
+      "en": "Unity in Diversity (the national motto)",
+      "vi": "Thống nhất trong đa dạng (khẩu hiệu quốc gia)",
+      "pl": "jedność w różnorodności (motto państwowe)"
+    },
+    "pos": "n",
+    "ex": "Bhinneka Tunggal Ika artinya berbeda-beda tetapi tetap satu.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Bhinneka Tunggal Ika 的意思是「各不相同，但仍是一体」。",
+      "ja": "Bhinneka Tunggal Ika の意味は「それぞれ異なっていても、一つである」です。",
+      "en": "Bhinneka Tunggal Ika means “different, yet still one”.",
+      "vi": "Bhinneka Tunggal Ika nghĩa là “khác nhau nhưng vẫn là một”.",
+      "pl": "Bhinneka Tunggal Ika znaczy „różni, a jednak jedno”."
+    },
+    "note": null
+  },
+  {
+    "w": "SARA",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "民族、宗教、种族、群体议题",
+      "ja": "民族・宗教・人種・集団間の問題",
+      "en": "ethnicity, religion, race and inter-group issues",
+      "vi": "chủ đề dân tộc, tôn giáo, chủng tộc, nhóm xã hội",
+      "pl": "pochodzenie, religia, rasa, grupy (drażliwe tematy)"
+    },
+    "pos": "n",
+    "ex": "Jangan bergurau tentang SARA.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "别拿 SARA 话题开玩笑。",
+      "ja": "SARA の話題で冗談を言ってはいけません。",
+      "en": "Don’t joke about SARA topics.",
+      "vi": "Đừng đùa về chuyện SARA.",
+      "pl": "Nie żartuj z tematów SARA."
+    },
+    "note": null
+  },
+  {
+    "w": "panjang",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "长",
+      "ja": "長い",
+      "en": "long",
+      "vi": "dài",
+      "pl": "długi"
+    },
+    "pos": "adj",
+    "ex": "Rambutnya panjang.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "她的头发很长。",
+      "ja": "彼女の髪は長いです。",
+      "en": "Her hair is long.",
+      "vi": "Tóc cô ấy dài.",
+      "pl": "Jej włosy są długie."
+    },
+    "note": null
+  },
+  {
+    "w": "pendek",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "短 · （个子）矮",
+      "ja": "短い · （背が）低い",
+      "en": "short (length) · short (height)",
+      "vi": "ngắn · (người) thấp",
+      "pl": "krótki · niski (o wzroście)"
+    },
+    "pos": "adj",
+    "ex": "Badan Danum pendek.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "Danum 个子矮。",
+      "ja": "Danum は背が低いです。",
+      "en": "Danum is short.",
+      "vi": "Danum thấp.",
+      "pl": "Danum jest niska."
+    },
+    "note": null
+  },
+  {
+    "w": "memakai",
+    "les": 5,
+    "reg": "formal",
+    "pair": null,
+    "gloss": {
+      "zh": "穿 · 戴 · 使用",
+      "ja": "着る · 身につける · 使う",
+      "en": "to wear · to put on · to use",
+      "vi": "mặc · đeo · dùng",
+      "pl": "nosić · zakładać · używać"
+    },
+    "pos": "v",
+    "ex": "Luna memakai kemeja putih.",
+    "ex_reg": "formal",
+    "ex_gloss": {
+      "zh": "Luna 穿着白衬衫。",
+      "ja": "Luna は白いシャツを着ています。",
+      "en": "Luna is wearing a white shirt.",
+      "vi": "Luna mặc áo sơ mi trắng.",
+      "pl": "Luna ma na sobie białą koszulę."
+    },
+    "note": null
+  },
+  {
+    "w": "lantai",
+    "les": 5,
+    "reg": "neutral",
+    "pair": null,
+    "gloss": {
+      "zh": "地板 · （楼）层",
+      "ja": "床 · （建物の）階",
+      "en": "floor · storey",
+      "vi": "sàn nhà · tầng (lầu)",
+      "pl": "podłoga · piętro"
+    },
+    "pos": "n",
+    "ex": "Lantainya bersih.",
+    "ex_reg": "neutral",
+    "ex_gloss": {
+      "zh": "地板很干净。",
+      "ja": "床がきれいです。",
+      "en": "The floor is clean.",
+      "vi": "Sàn nhà sạch.",
+      "pl": "Podłoga jest czysta."
+    },
+    "note": null
   }
 ]
