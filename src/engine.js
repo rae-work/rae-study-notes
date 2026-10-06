@@ -160,14 +160,18 @@ function detectLang(){
   /* ① 用户上次的选择 */
   var saved = STORE.getRaw("lang");
   if(saved && LANGS.indexOf(saved) >= 0) return saved;
-  /* ② 浏览器语言。zh-CN / zh-Hans / ja-JP / en-GB / vi-VN 都要认得出 */
+  /* ② 浏览器语言。zh-CN / zh-Hans / ja-JP / en-GB / vi-VN 都要认得出。
+     没有自己界面的语言可以借一种相近的：meta.lang_aliases（目前 tk 土库曼语 → tr），
+     按浏览器给的顺序逐个看，借来的跟原生的同等对待。 */
   if(CONTENT.meta.detect_browser_lang){
+    var alias = CONTENT.meta.lang_aliases || {};
     var cands = [];
     if(navigator.languages && navigator.languages.length) cands = cands.concat(navigator.languages);
     if(navigator.language) cands.push(navigator.language);
     for(var i = 0; i < cands.length; i++){
       var tag = String(cands[i]).toLowerCase();
       var base = tag.split("-")[0];
+      if(alias[base]) base = alias[base];
       if(LANGS.indexOf(base) >= 0) return base;
     }
   }

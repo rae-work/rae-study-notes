@@ -39,8 +39,9 @@
   对话人名成了 ZİAH。纯印尼语的大写元素（`.who`、`Daftar Isi` / `Kosakata` 眉标）现在带 `lang="id"`；
   混着土耳其语的标签（「BAB 1 · DİL BİLGİSİ」）不加 —— 那里 İ 才是对的。以后新增大写标签记得想一下。
 - 375px 下土耳其语界面 94 张表格逐页量过，没有一张要横拖。
-- 已知没改的：L03「三种问法」那条其实列了四个（hari apa / tanggal berapa / tahun berapa / kapan），
-  六种语言都写的「三」，是旧内容的问题。
+- L03「三种问法」那条其实列了四个（hari apa / tanggal berapa / tahun berapa / kapan），六语都改成「四」。
+- **浏览器语言别名**：`meta.lang_aliases`（`{"tk":"tr"}`），`detectLang()` 先查别名再比 `langs`。
+  土库曼语系统的手机首次打开自动显示土耳其语（Rae 定的）。以后要加「借用」就往这里加一行。
 
 ## v1.10.0 做了什么（2026-10-01）
 

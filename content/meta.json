@@ -45,6 +45,10 @@
   },
   "default_lang": "zh",
   "detect_browser_lang": true,
+  "lang_aliases": {
+    "tk": "tr"
+  },
+  "lang_aliases_note": "浏览器 / 系统语言是左边这些、本站又没有它的界面时，自动显示右边那种。tk（土库曼语）→ tr（Rae 2026-10-06 定的）。只影响首次打开的自动选择，用户手动选过就以手动为准。",
   "required_langs": [
     "zh",
     "ja",
