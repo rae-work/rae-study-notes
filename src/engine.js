@@ -175,7 +175,11 @@ function detectLang(){
       if(LANGS.indexOf(base) >= 0) return base;
     }
   }
-  /* ③ 兜底 */
+  /* ③ 兜底：浏览器语言一个都不认识时用 fallback_lang（英语 —— 德语、俄语、韩语
+     用户读英语的机会比读中文大）。default_lang 仍是构建时的语言和文案缺键时的兜底，
+     两件事分开，别改那个。 */
+  var fb = CONTENT.meta.fallback_lang;
+  if(fb && LANGS.indexOf(fb) >= 0) return fb;
   return CONTENT.meta.default_lang || LANGS[0];
 }
 
