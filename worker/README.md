@@ -38,8 +38,14 @@ cd worker && npx wrangler secret put VIEW_KEY
 ## 看统计
 
 ```
-https://<你的地址>/lihat?k=口令
+https://catatan.rae.work/lihat?k=口令
 ```
+
+> **别用 `catatan.zirui-mail.workers.dev`。** 2026-10-07 发现印尼运营商（XL Axiata，
+> 可能不止这一家）把整个 `*.workers.dev` 屏蔽了：DNS 被劫持到 `blockpage.xlaxiata.id`，
+> 连换成 1.1.1.1 也一样。所以 `wrangler.toml` 里给 Worker 加了自定义域名
+> `catatan.rae.work`（`rae.work` 的 DNS 本来就在同一个 Cloudflare 账号里），
+> 网站也改成往这个地址发。旧地址还开着，只是在印尼的网络里打不开。
 
 第一次带上 `?k=口令`，之后浏览器会记住半年，直接开 `/lihat` 就行。
 页面顶上可以切「近 7 天 / 近 30 天 / 全部」和「正式 / 试用 / 全部」。
