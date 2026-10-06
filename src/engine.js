@@ -262,6 +262,16 @@ function L(x){
   if(x.ja != null && x.ja !== "") return LZ(x.ja);
   return "";
 }
+/* 另：CSS 的 text-transform:uppercase 按元素的 lang 走大小写规则。界面是 tr 时，
+   印尼语的 i 会被大写成 İ（DAFTAR ISİ）—— 所以纯印尼语的大写标签（对话人名 .who、
+   「Daftar Isi」「Kosakata」眉标）都带 lang="id"。混着土耳其语的标签不加，那边 İ 才是对的。
+
+   搜索用的小写折叠。土耳其语的 İ 经 toLowerCase() 会变成 i + 一个组合点（U+0307），
+   用户敲的 i 就对不上了；ı（无点 i）也顺手折成 i —— 没有土耳其语键盘的人照样搜得到。
+   目录搜索和词汇表搜索两边（索引和输入）都要过它，少一边就对不上。 */
+function foldCase(s){
+  return String(s == null ? "" : s).toLowerCase().replace(/\u0307/g, "").replace(/\u0131/g, "i");
+}
 /* 词条 / 释义的「副释义」：非英文界面下补一条英文，英文界面下不重复。 */
 function L2(x){
   if(x == null || typeof x === "string") return "";
@@ -529,7 +539,7 @@ function richText(x){
 function noteLines(lines){
   return lines.map(function(l){
     if(l.qa){
-      return '<div class="qa"><span class="who">' + esc(l.who||"") + '</span><span class="line"><span class="idtext">' +
+      return '<div class="qa"><span class="who" lang="id">' + esc(l.who||"") + '</span><span class="line"><span class="idtext">' +
         sayLine(l.id, l.kw) + '</span><span class="gloss">' + esc(L(l.gloss)) + "</span></span></div>";
     }
     if(l.text != null){
@@ -668,7 +678,7 @@ function renderBlock(b){
     case "dialog":
       return b.rows.map(function(r){
         return '<div class="row"><button class="play" data-say="' + esc(sayText(r.id)) +
-          '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="who">' + esc(r.who) + '</span><span class="line"><span class="idtext">' +
+          '" title="' + esc(T("block.play_sentence")) + '">' + PLAY_SVG + '</button><span class="who" lang="id">' + esc(r.who) + '</span><span class="line"><span class="idtext">' +
           sayLine(r.id, r.kw) + '</span><span class="gloss">' + esc(L(r.gloss)) + "</span></span></div>";
       }).join("");
     case "examples":
@@ -838,7 +848,7 @@ var gFilter = "all", gQuery = "", gTimer = null, gFillTimer = null, gFillDone = 
 function glossCard(v){
   var zh = L(v.gloss), en = L2(v.gloss);
   /* 搜索索引：印尼语 + 每种语言的释义全部进去，切语言也搜得到 */
-  var q = esc((v.w + " " + zh + " " + LANGS.map(function(k){ return v.gloss[k] || ""; }).join(" ")).toLowerCase());
+  var q = esc(foldCase(v.w + " " + zh + " " + LANGS.map(function(k){ return v.gloss[k] || ""; }).join(" ")));
   var lv = progLevel(v.w);
   var dot = lv ? '<i class="gdot l' + lv + '" title="' + esc(T("prog.dot_" + lv)) + '"></i>' : "";
   return '<div class="gentry card-tap" data-say="' + esc(sayText(v.w)) + '" data-les="' + v.les + '" data-q="' + q + '">' +
@@ -859,7 +869,7 @@ function renderGlossary(){
   lessons.sort(function(a,b){ return a-b; });
   var chips = '<button class="chip on" data-gf="all">' + esc(T("gloss.all", VOCAB.length)) + "</button>" +
     lessons.map(function(l){ return '<button class="chip" data-gf="' + l + '">' + esc(T("gloss.chip", UNIT, l, counts[l])) + "</button>"; }).join("");
-  return '<div class="phead"><div class="eyebrow">Kosakata</div>' +
+  return '<div class="phead"><div class="eyebrow" lang="id">Kosakata</div>' +
     '<div class="ptitle-row"><h1 class="ptitle">' + esc(T("gloss.h1")) + "</h1></div>" +
     '<div class="ptitle-sub">' + esc(T("gloss.sub", VOCAB.length)) + "</div></div>" +
     '<p class="lead">' + esc(T("gloss.lead")) + "</p>" +
@@ -1096,7 +1106,7 @@ function wireGlossary(){
   if(input) input.addEventListener("input", function(e){
     var val = e.target.value;
     if(gTimer) clearTimeout(gTimer);
-    gTimer = setTimeout(function(){ gQuery = val.trim().toLowerCase(); applyGlossFilter(); }, 170);
+    gTimer = setTimeout(function(){ gQuery = foldCase(val.trim()); applyGlossFilter(); }, 170);
   });
 }
 
@@ -2100,7 +2110,7 @@ function lessonOutline(){
 function renderHome(){
   var les = lessonOutline(), pages = 0;
   les.forEach(function(o){ pages += o.total; });
-  var h = '<div class="phead"><div class="eyebrow">Daftar Isi</div>' +
+  var h = '<div class="phead"><div class="eyebrow" lang="id">Daftar Isi</div>' +
     '<div class="ptitle-row"><h1 class="ptitle">' + esc(T("home.h1")) + "</h1></div>" +
     '<div class="ptitle-sub">' + esc(T("home.sub", les.length, pages, VOCAB.length)) + "</div></div>" +
     '<p class="lead">' + esc(T("home.lead")) + "</p>";
@@ -2171,7 +2181,7 @@ function tocIndex(ph, cat){
   var parts = [ph.title];
   LANGS.forEach(function(k){ if(ph.sub && ph.sub[k]) parts.push(ph.sub[k]); });
   if(cat){ LANGS.forEach(function(k){ var u = CONTENT.ui[k]; if(u && u.cat && u.cat[cat]) parts.push(u.cat[cat]); }); }
-  return parts.join(" ").toLowerCase();
+  return foldCase(parts.join(" "));
 }
 function buildTOC(){
   var toc = document.getElementById("toc"), html = "";
@@ -2244,7 +2254,7 @@ function buildTOC(){
 }
 function filterTOC(q){
   var toc = document.getElementById("toc");
-  q = (q || "").trim().toLowerCase();
+  q = foldCase((q || "").trim());
   toc.classList.toggle("searching", !!q);
   var shown = 0;
   toArr(toc.querySelectorAll(".toc-les")).forEach(function(sec){

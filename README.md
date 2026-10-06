@@ -3,7 +3,7 @@
 An Indonesian study web app built around UGM INCULS's *Titian Bahasa Pemula 1*.
 One self-contained HTML page: tap any Indonesian word or sentence to hear it,
 plus a searchable glossary, a spaced-review mode and situational drills.
-Interface in Chinese, Japanese, English, Vietnamese and Polish.
+Interface in Chinese, Japanese, English, Vietnamese, Polish and Turkish.
 
 **Just open it: https://belajar.rae.work** — it runs straight in a mobile
 browser; add it to your home screen and it behaves like an app, no install
@@ -23,7 +23,7 @@ speech).
 
 ```bash
 npm install
-npm run validate     # checks content: structure, completeness in all five languages, register values, duplicate vocab, render smoke test, drill pool, audio coverage
+npm run validate     # checks content: structure, completeness in all six languages, register values, duplicate vocab, render smoke test, drill pool, audio coverage
 npm run build        # → dist/rae-study-notes.html (single page; the website is built from it)
 npm run preview      # starts a local server; open it from your phone on the same Wi-Fi
 ```
@@ -81,7 +81,7 @@ The content format is documented in
 [`.claude/skills/lesson/references/lesson-spec.md`](.claude/skills/lesson/references/lesson-spec.md).
 If you also use Claude Code, `.claude/skills/lesson/` in this repo is a
 ready-made skill: drop a photo of a textbook page or a handout into
-`inbox/`, and it turns it into a complete lesson (glosses in all five languages,
+`inbox/`, and it turns it into a complete lesson (glosses in all six languages,
 register tagging, vocabulary intake, drills, speech synthesis).
 
 ---

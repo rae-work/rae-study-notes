@@ -40,7 +40,7 @@ export function loadAudioManifest() {
  *  / ui.<lang>.json / learner.<lang> 一起补上。
  *  顺序：**先把内容翻好回填，最后才改这一行**。walkTri 认的是「恰好这几个键」——
  *  先改，它一个多语对象都认不出来，校验会报「0 个对象」而不是报错。 */
-export const TRI_LANGS = ['zh', 'ja', 'en', 'vi', 'pl'];
+export const TRI_LANGS = ['zh', 'ja', 'en', 'vi', 'pl', 'tr'];
 
 /**
  * 遍历内容里的每一个「多语对象」（恰好 TRI_LANGS 那几个键）。

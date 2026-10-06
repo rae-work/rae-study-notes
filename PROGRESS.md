@@ -5,10 +5,8 @@
 > `KICKOFF.md` 描述的是 2026-08 之前的旧 App（Cindy 私教 13 课那版），
 > **§3–§8 已作废**，只在追溯历史时看。
 
-**当前状态：v1.10.0 已上线（2026-10-01，Rae 批准）。** 新增 Bab 5 Ciri-Ciri Fisik。
-**五课 104 页 + 总目录页，591 词，五语（中 / 日 / 英 / 越 / 波），音频 100%。**
-
-**上一版：v1.9.1（2026-09-13）。** 四课 85 页，450 词。
+**当前状态：v1.11.0 在分支 `feat/turkish` 上，等 Rae 看预览。** 新增土耳其语界面（第六种学习者语言）。
+**线上仍是 v1.10.0（2026-10-01）**：五课 104 页 + 总目录页，591 词，五语，音频 100%。
 
 > **2026-09-02 起 APK / 离线版永久停用（Rae 定的）。** 网站 `docs/` 是唯一产物，
 > `dist/` 只是它的中间产物。`/apk` 技能、`scripts/apk.sh`、`prepare-assets.js`、
@@ -20,6 +18,29 @@
 > 改动一律在分支上做，本地预览给她看，她说「可以上线」才合。
 
 ---
+
+## v1.11.0 做了什么（2026-10-06，分支 feat/turkish，未上线）
+
+面向学习者的说明在 `CHANGELOG.md`，下面只记工程上要知道的。
+
+| | |
+| --- | --- |
+| 内容 | 3,959 个多语对象（去重后 3,294 条）补上 `tr`，界面文案 `ui.tr.json` 199 键。八个子代理各翻一段 + 一个翻界面，brief 里写了土耳其语的对比角度（规则已进 `CLAUDE.md`） |
+| meta.json | `langs` / `required_langs` 加 `tr`，`lang_names.tr = Türkçe`，`learner.tr` 见下 |
+| 语音 | **不合成新音频（Rae 要求）**。`learner.tr.negara = Inggris`，跟英语界面同一句，音频现成，覆盖率仍 100% |
+| 引擎 | `foldCase()`：目录和词汇表搜索把 İ（小写后多一个 U+0307）和 ı 折成 i；纯印尼语的大写标签加 `lang="id"`（见下） |
+| 顺手修 | L01「Saya dari / berasal dari {NEGARA}」两句的中日英越释义原来写死了「中国 / 日本 / England / Việt Nam」，改成 `{NAMA}` |
+
+**这一轮值得记的**
+
+- **土耳其语的国家占位符要带格**：`{NAMA_ABL}` İngiltere'den、`{NAMA_DAT}` İngiltere'ye、
+  `{NAMA_LOC}` İngiltere'de、`{PEOPLE_COP}` İngilizim。占位符后面不能手接词尾（换国家就对不上）。
+- **`lang="tr"` 下 CSS `text-transform:uppercase` 把 i 变成 İ。** 「Daftar Isi」眉标成了 DAFTAR ISİ、
+  对话人名成了 ZİAH。纯印尼语的大写元素（`.who`、`Daftar Isi` / `Kosakata` 眉标）现在带 `lang="id"`；
+  混着土耳其语的标签（「BAB 1 · DİL BİLGİSİ」）不加 —— 那里 İ 才是对的。以后新增大写标签记得想一下。
+- 375px 下土耳其语界面 94 张表格逐页量过，没有一张要横拖。
+- 已知没改的：L03「三种问法」那条其实列了四个（hari apa / tanggal berapa / tahun berapa / kapan），
+  六种语言都写的「三」，是旧内容的问题。
 
 ## v1.10.0 做了什么（2026-10-01）
 

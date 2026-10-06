@@ -7,7 +7,8 @@
   "ja": "教室と身のまわりのもの",
   "en": "The classroom and things around you",
   "vi": "Lớp học và những thứ quanh bạn",
-  "pl": "Klasa i rzeczy wokół ciebie"
+  "pl": "Klasa i rzeczy wokół ciebie",
+  "tr": "Sınıf ve etrafındaki eşyalar"
  },
  "pages": [
   [
@@ -19,7 +20,8 @@
      "ja": "教室と身のまわりのもの",
      "en": "The classroom and things around you",
      "vi": "Lớp học và những thứ quanh bạn",
-     "pl": "Klasa i rzeczy wokół ciebie"
+     "pl": "Klasa i rzeczy wokół ciebie",
+     "tr": "Sınıf ve etrafındaki eşyalar"
     },
     "cat": "intro"
    },
@@ -30,7 +32,8 @@
      "ja": "この章のテーマは教室です。机やいす、本、ペン、地図の言い方、授業で使う決まった表現、そして文法が二つ ——「これ／あれ」と「だれの」。",
      "en": "This chapter is about the classroom: what to call the desks, books, pens and maps; the set phrases you need in class; and two pieces of grammar — “this / that” and “whose”.",
      "vi": "Bài này xoay quanh lớp học: gọi tên bàn ghế, sách vở, bút và bản đồ; những câu cố định dùng trong giờ học; và hai điểm ngữ pháp — “cái này / cái kia” và “của ai”.",
-     "pl": "Ten rozdział kręci się wokół klasy: jak nazwać ławki, książki, długopisy i mapę, jakie stałe zwroty przydają się na zajęciach, oraz dwie sprawy z gramatyki — „to / tamto” i „czyj”."
+     "pl": "Ten rozdział kręci się wokół klasy: jak nazwać ławki, książki, długopisy i mapę, jakie stałe zwroty przydają się na zajęciach, oraz dwie sprawy z gramatyki — „to / tamto” i „czyj”.",
+     "tr": "Bu bölüm sınıfla ilgili: sıralara, kitaplara, kalemlere ve haritalara ne denir; derste gereken kalıp ifadeler; bir de iki dil bilgisi konusu — “bu / şu” ve “kimin”."
     }
    },
    {
@@ -40,7 +43,8 @@
      "ja": "この章を終えると",
      "en": "By the end of this chapter",
      "vi": "Học xong bài này",
-     "pl": "Po tym rozdziale"
+     "pl": "Po tym rozdziale",
+     "tr": "Bu bölümün sonunda"
     }
    },
    {
@@ -51,7 +55,8 @@
      "ja": "教科書が挙げる目標",
      "en": "The book's objectives",
      "vi": "Mục tiêu sách giáo khoa nêu ra",
-     "pl": "Cele z podręcznika"
+     "pl": "Cele z podręcznika",
+     "tr": "Ders kitabının hedefleri"
     },
     "lines": [
      {
@@ -60,7 +65,8 @@
        "ja": "<b>聞く</b>　身のまわりの物に関する簡単な語や句を聞き取る。",
        "en": "<b>Listening</b>　Recognise simple words and phrases about everyday objects.",
        "vi": "<b>Nghe</b>　Nhận ra được những từ và cụm từ đơn giản về đồ vật xung quanh.",
-       "pl": "<b>Słuchanie</b> Rozpoznajesz proste słowa i zwroty dotyczące codziennych przedmiotów."
+       "pl": "<b>Słuchanie</b> Rozpoznajesz proste słowa i zwroty dotyczące codziennych przedmiotów.",
+       "tr": "<b>Dinleme</b> Günlük eşyalarla ilgili basit kelime ve ifadeleri tanırsın."
       }
      },
      {
@@ -69,7 +75,8 @@
        "ja": "<b>読む</b>　身のまわりの物に関する短く簡単な文章を理解する。",
        "en": "<b>Reading</b>　Understand short, simple texts about everyday objects.",
        "vi": "<b>Đọc</b>　Hiểu được những đoạn văn ngắn, đơn giản về đồ vật xung quanh.",
-       "pl": "<b>Czytanie</b> Rozumiesz krótkie, proste teksty o rzeczach wokół ciebie."
+       "pl": "<b>Czytanie</b> Rozumiesz krótkie, proste teksty o rzeczach wokół ciebie.",
+       "tr": "<b>Okuma</b> Günlük eşyalarla ilgili kısa ve basit metinleri anlarsın."
       }
      },
      {
@@ -78,7 +85,8 @@
        "ja": "<b>語彙</b>　身のまわりの物の語彙と教室で使う表現を使う。指示詞 <s>ini</s>・<s>itu</s> を使う。",
        "en": "<b>Vocabulary</b>　Use everyday-object words and classroom expressions; use <s>ini</s> and <s>itu</s>.",
        "vi": "<b>Từ vựng</b>　Dùng được từ chỉ đồ vật xung quanh và các cách nói trong lớp; dùng được đại từ chỉ định <s>ini</s> và <s>itu</s>.",
-       "pl": "<b>Słownictwo</b> Używasz słów o przedmiotach wokół ciebie i zwrotów z zajęć; używasz <s>ini</s> i <s>itu</s>."
+       "pl": "<b>Słownictwo</b> Używasz słów o przedmiotach wokół ciebie i zwrotów z zajęć; używasz <s>ini</s> i <s>itu</s>.",
+       "tr": "<b>Kelimeler</b> Günlük eşya kelimelerini ve sınıf ifadelerini kullanırsın; <s>ini</s> ve <s>itu</s>'yu kullanırsın."
       }
      },
      {
@@ -87,7 +95,8 @@
        "ja": "<b>文法</b>　二つの要素からなる所有句を使う。所有の接尾辞 <b>-ku</b>・<b>-mu</b>・<b>-nya</b> を使う。",
        "en": "<b>Grammar</b>　Use two-part possessive phrases and the suffixes <b>-ku</b>, <b>-mu</b>, <b>-nya</b>.",
        "vi": "<b>Ngữ pháp</b>　Dùng được cụm sở hữu gồm hai thành phần; dùng được hậu tố sở hữu <b>-ku</b>, <b>-mu</b>, <b>-nya</b>.",
-       "pl": "<b>Gramatyka</b> Tworzysz dwuczłonowe wyrażenia dzierżawcze; używasz przyrostków <b>-ku</b>, <b>-mu</b>, <b>-nya</b>."
+       "pl": "<b>Gramatyka</b> Tworzysz dwuczłonowe wyrażenia dzierżawcze; używasz przyrostków <b>-ku</b>, <b>-mu</b>, <b>-nya</b>.",
+       "tr": "<b>Dil bilgisi</b> İki parçalı iyelik öbeklerini ve <b>-ku</b>, <b>-mu</b>, <b>-nya</b> son eklerini kullanırsın."
       }
      },
      {
@@ -96,7 +105,8 @@
        "ja": "<b>話す・書く</b>　身のまわりの物について簡単な文で述べ、15〜25 語で書く。",
        "en": "<b>Speaking · Writing</b>　Describe objects around you in simple sentences (15–25 words in writing).",
        "vi": "<b>Nói · Viết</b>　Nói và viết về đồ vật xung quanh bằng những câu đơn giản (bài viết 15–25 từ).",
-       "pl": "<b>Mówienie · Pisanie</b> Opisujesz prostymi zdaniami przedmioty wokół siebie (na piśmie 15–25 słów)."
+       "pl": "<b>Mówienie · Pisanie</b> Opisujesz prostymi zdaniami przedmioty wokół siebie (na piśmie 15–25 słów).",
+       "tr": "<b>Konuşma · Yazma</b> Etrafındaki eşyaları basit cümlelerle anlatırsın (yazıda 15–25 kelime)."
       }
      }
     ]
@@ -111,7 +121,8 @@
      "ja": "身のまわりのもの",
      "en": "Things around you",
      "vi": "Đồ vật xung quanh",
-     "pl": "Rzeczy wokół ciebie"
+     "pl": "Rzeczy wokół ciebie",
+     "tr": "Etrafındaki eşyalar"
     },
     "cat": "kosakata"
    },
@@ -122,7 +133,8 @@
      "ja": "この節は写真と語を並べたもので、全部で二十語です。語をタップすると読み上げます。",
      "en": "The book pairs each of these twenty words with a photo. Tap a word to hear it.",
      "vi": "Mục này trong sách ghép mỗi từ với một tấm ảnh, tất cả hai mươi từ. Chạm vào từ để nghe cách đọc.",
-     "pl": "W podręczniku każde z tych dwudziestu słów ma swoje zdjęcie. Dotknij słowa, żeby usłyszeć wymowę."
+     "pl": "W podręczniku każde z tych dwudziestu słów ma swoje zdjęcie. Dotknij słowa, żeby usłyszeć wymowę.",
+     "tr": "Ders kitabı bu yirmi kelimenin her birini bir fotoğrafla veriyor. Dinlemek için kelimeye dokun."
     }
    },
    {
@@ -135,7 +147,8 @@
      "ja": "机の上のもの",
      "en": "on the desk",
      "vi": "trên bàn",
-     "pl": "na biurku"
+     "pl": "na biurku",
+     "tr": "masanın üstünde"
     }
    },
    {
@@ -149,7 +162,8 @@
        "ja": "本",
        "en": "book",
        "vi": "sách",
-       "pl": "książka"
+       "pl": "książka",
+       "tr": "kitap"
       }
      },
      {
@@ -160,7 +174,8 @@
        "ja": "辞書",
        "en": "dictionary",
        "vi": "từ điển",
-       "pl": "słownik"
+       "pl": "słownik",
+       "tr": "sözlük"
       }
      },
      {
@@ -171,7 +186,8 @@
        "ja": "鉛筆",
        "en": "pencil",
        "vi": "bút chì",
-       "pl": "ołówek"
+       "pl": "ołówek",
+       "tr": "kurşun kalem"
       }
      },
      {
@@ -182,7 +198,8 @@
        "ja": "ボールペン",
        "en": "ballpoint pen",
        "vi": "bút bi",
-       "pl": "długopis"
+       "pl": "długopis",
+       "tr": "tükenmez kalem"
       }
      },
      {
@@ -193,7 +210,8 @@
        "ja": "定規",
        "en": "ruler",
        "vi": "thước kẻ",
-       "pl": "linijka"
+       "pl": "linijka",
+       "tr": "cetvel"
       }
      },
      {
@@ -204,7 +222,8 @@
        "ja": "かばん",
        "en": "bag",
        "vi": "túi, cặp",
-       "pl": "torba"
+       "pl": "torba",
+       "tr": "çanta"
       }
      }
     ]
@@ -219,7 +238,8 @@
      "ja": "教室にあるもの",
      "en": "in the classroom",
      "vi": "trong lớp học",
-     "pl": "w klasie"
+     "pl": "w klasie",
+     "tr": "sınıfta"
     }
    },
    {
@@ -233,7 +253,8 @@
        "ja": "机",
        "en": "table, desk",
        "vi": "bàn",
-       "pl": "stół, biurko"
+       "pl": "stół, biurko",
+       "tr": "masa"
       }
      },
      {
@@ -244,7 +265,8 @@
        "ja": "いす",
        "en": "chair",
        "vi": "ghế",
-       "pl": "krzesło"
+       "pl": "krzesło",
+       "tr": "sandalye"
       }
      },
      {
@@ -255,7 +277,8 @@
        "ja": "黒板",
        "en": "whiteboard, blackboard",
        "vi": "bảng viết",
-       "pl": "tablica"
+       "pl": "tablica",
+       "tr": "beyaz tahta, kara tahta"
       }
      },
      {
@@ -266,7 +289,8 @@
        "ja": "地図",
        "en": "map",
        "vi": "bản đồ",
-       "pl": "mapa"
+       "pl": "mapa",
+       "tr": "harita"
       }
      },
      {
@@ -277,7 +301,8 @@
        "ja": "壁掛け時計",
        "en": "wall clock",
        "vi": "đồng hồ treo tường",
-       "pl": "zegar ścienny"
+       "pl": "zegar ścienny",
+       "tr": "duvar saati"
       }
      },
      {
@@ -288,7 +313,8 @@
        "ja": "本棚",
        "en": "bookshelf",
        "vi": "giá sách",
-       "pl": "półka na książki"
+       "pl": "półka na książki",
+       "tr": "kitaplık"
       }
      },
      {
@@ -299,7 +325,8 @@
        "ja": "電灯",
        "en": "lamp, light",
        "vi": "đèn",
-       "pl": "lampa, światło"
+       "pl": "lampa, światło",
+       "tr": "lamba, ışık"
       }
      },
      {
@@ -310,7 +337,8 @@
        "ja": "カーテン",
        "en": "curtain",
        "vi": "rèm cửa",
-       "pl": "zasłona"
+       "pl": "zasłona",
+       "tr": "perde"
       }
      },
      {
@@ -321,7 +349,8 @@
        "ja": "カレンダー",
        "en": "calendar",
        "vi": "lịch",
-       "pl": "kalendarz"
+       "pl": "kalendarz",
+       "tr": "takvim"
       }
      },
      {
@@ -332,7 +361,8 @@
        "ja": "写真",
        "en": "photo",
        "vi": "ảnh",
-       "pl": "zdjęcie"
+       "pl": "zdjęcie",
+       "tr": "fotoğraf"
       }
      },
      {
@@ -343,7 +373,8 @@
        "ja": "絵",
        "en": "picture, drawing",
        "vi": "tranh, hình vẽ",
-       "pl": "obrazek, rysunek"
+       "pl": "obrazek, rysunek",
+       "tr": "resim, çizim"
       }
      },
      {
@@ -354,7 +385,8 @@
        "ja": "屋根",
        "en": "roof",
        "vi": "mái nhà",
-       "pl": "dach"
+       "pl": "dach",
+       "tr": "çatı"
       }
      }
     ]
@@ -369,7 +401,8 @@
      "ja": "身につけるもの",
      "en": "what you carry or wear",
      "vi": "mang theo bên mình",
-     "pl": "co masz przy sobie"
+     "pl": "co masz przy sobie",
+     "tr": "üstünde taşıdığın ya da giydiğin"
     }
    },
    {
@@ -383,7 +416,8 @@
        "ja": "服",
        "en": "clothes, shirt",
        "vi": "áo, quần áo",
-       "pl": "ubranie, koszula"
+       "pl": "ubranie, koszula",
+       "tr": "giysi, gömlek"
       }
      },
      {
@@ -394,7 +428,8 @@
        "ja": "くつ",
        "en": "shoes",
        "vi": "giày",
-       "pl": "buty"
+       "pl": "buty",
+       "tr": "ayakkabı"
       }
      },
      {
@@ -405,7 +440,8 @@
        "ja": "めがね",
        "en": "glasses",
        "vi": "kính mắt",
-       "pl": "okulary"
+       "pl": "okulary",
+       "tr": "gözlük"
       }
      },
      {
@@ -416,7 +452,8 @@
        "ja": "自転車",
        "en": "bicycle",
        "vi": "xe đạp",
-       "pl": "rower"
+       "pl": "rower",
+       "tr": "bisiklet"
       }
      },
      {
@@ -427,7 +464,8 @@
        "ja": "傘",
        "en": "umbrella",
        "vi": "ô, dù",
-       "pl": "parasol"
+       "pl": "parasol",
+       "tr": "şemsiye"
       }
      }
     ]
@@ -440,7 +478,8 @@
      "ja": "二語で一つの意味",
      "en": "Two words, one thing",
      "vi": "Hai từ, một sự vật",
-     "pl": "Dwa słowa, jedna rzecz"
+     "pl": "Dwa słowa, jedna rzecz",
+     "tr": "İki kelime, tek şey"
     },
     "lines": [
      {
@@ -449,7 +488,8 @@
        "ja": "<s>papan tulis</s>（板＋書く）、<s>jam dinding</s>（時計＋壁）、<s>rak buku</s>（棚＋本）—— インドネシア語では二つの語を並べて一つのものを表すことがよくあります。前が本体、後ろがその用途や場所を表します。この章の文法「だれの」と同じ語順の考え方です。",
        "en": "<s>papan tulis</s> (board + write), <s>jam dinding</s> (clock + wall), <s>rak buku</s> (rack + book) — Indonesian often puts two words together to name one thing. The first is the thing itself; the second says what it is for or where it belongs. Same word order as this chapter’s possessives.",
        "vi": "<s>papan tulis</s> (bảng + viết), <s>jam dinding</s> (đồng hồ + tường), <s>rak buku</s> (giá + sách) — tiếng Indonesia hay đặt hai từ cạnh nhau để gọi một sự vật: từ đứng trước là bản thân sự vật, từ đứng sau cho biết nó dùng để làm gì hoặc ở đâu. Trật tự này giống hệt tiếng Việt, và cũng chính là trật tự của phần ngữ pháp “của ai” trong bài này.",
-       "pl": "<s>papan tulis</s> (deska + pisać), <s>jam dinding</s> (zegar + ściana), <s>rak buku</s> (regał + książka) — indonezyjski często zestawia dwa słowa, żeby nazwać jedną rzecz: pierwsze to sama rzecz, drugie mówi, do czego służy albo gdzie stoi. Po polsku człon określający idzie przed rzeczownikiem albo dochodzi przyimek, więc kolejność jest odwrotna. To ten sam szyk, co w „czyim” z tego rozdziału."
+       "pl": "<s>papan tulis</s> (deska + pisać), <s>jam dinding</s> (zegar + ściana), <s>rak buku</s> (regał + książka) — indonezyjski często zestawia dwa słowa, żeby nazwać jedną rzecz: pierwsze to sama rzecz, drugie mówi, do czego służy albo gdzie stoi. Po polsku człon określający idzie przed rzeczownikiem albo dochodzi przyimek, więc kolejność jest odwrotna. To ten sam szyk, co w „czyim” z tego rozdziału.",
+       "tr": "<s>papan tulis</s> (tahta + yazmak), <s>jam dinding</s> (saat + duvar), <s>rak buku</s> (raf + kitap) — Endonezce bir şeye ad verirken sık sık iki kelimeyi yan yana koyar: ilki şeyin kendisi, ikincisi ne işe yaradığı ya da nereye ait olduğu. Türkçe bunu ters sırayla kurar (yazı tahtası, duvar saati). Bu bölümdeki iyelik yapılarıyla aynı sıra."
       }
      }
     ]
@@ -464,7 +504,8 @@
      "ja": "教室に入る",
      "en": "Going into class",
      "vi": "Vào lớp",
-     "pl": "Wejście do klasy"
+     "pl": "Wejście do klasy",
+     "tr": "Sınıfa giriş"
     },
     "cat": "percakapan"
    },
@@ -475,7 +516,8 @@
      "ja": "朝、校舎の下で会って、いっしょに教室に入ります。「わたしのペン」「あなたの地図」の言い方に注目してください。",
      "en": "They meet downstairs in the morning and go into class together. Notice how they say “my pen” and “your map”.",
      "vi": "Buổi sáng hai người gặp nhau dưới nhà rồi cùng vào lớp. Hãy để ý cách họ nói “bút của tôi”, “bản đồ của bạn”.",
-     "pl": "Rano spotykają się na dole i razem idą na zajęcia. Zwróć uwagę, jak mówią „mój długopis” i „twoja mapa”."
+     "pl": "Rano spotykają się na dole i razem idą na zajęcia. Zwróć uwagę, jak mówią „mój długopis” i „twoja mapa”.",
+     "tr": "Sabah aşağıda buluşup birlikte sınıfa giriyorlar. “Benim kalemim” ve “senin haritan” derken nasıl söylediklerine dikkat et."
     }
    },
    {
@@ -495,7 +537,8 @@
        "ja": "おはようございます、Zhang さん。お元気ですか。",
        "en": "Good morning, Zhang! How are you?",
        "vi": "Chào buổi sáng, Zhang! Bạn khỏe không?",
-       "pl": "Dzień dobry, Zhang! Co słychać?"
+       "pl": "Dzień dobry, Zhang! Co słychać?",
+       "tr": "Günaydın Zhang! Nasılsın?"
       }
      },
      {
@@ -512,7 +555,8 @@
        "ja": "元気です。さあ、教室に入りましょう。",
        "en": "I'm fine. Come on, let's go into class!",
        "vi": "Tôi khỏe. Nào, chúng ta vào lớp thôi!",
-       "pl": "U mnie dobrze. Chodź, wchodzimy do klasy!"
+       "pl": "U mnie dobrze. Chodź, wchodzimy do klasy!",
+       "tr": "İyiyim. Hadi, sınıfa girelim!"
       }
      },
      {
@@ -529,7 +573,8 @@
        "ja": "わたしたちの教室は Soegondo 棟ですよね。",
        "en": "Our classroom is in the Soegondo Building, right?",
        "vi": "Lớp của chúng ta ở tòa nhà Soegondo, đúng không?",
-       "pl": "Nasza sala jest w budynku Soegondo, prawda?"
+       "pl": "Nasza sala jest w budynku Soegondo, prawda?",
+       "tr": "Sınıfımız Soegondo Binası'nda, değil mi?"
       }
      },
      {
@@ -547,7 +592,8 @@
        "ja": "はい。あ、ボールペンを持ってきていません。",
        "en": "Yes. Oh no, I didn't bring a pen.",
        "vi": "Đúng rồi. Ôi, tôi không mang bút bi.",
-       "pl": "Tak. Ojej, nie mam przy sobie długopisu."
+       "pl": "Tak. Ojej, nie mam przy sobie długopisu.",
+       "tr": "Evet. Eyvah, yanıma kalem almadım."
       }
      },
      {
@@ -565,7 +611,8 @@
        "ja": "わたしは二本持っています。わたしのボールペンを使ってください。",
        "en": "I have two. You can borrow my pen.",
        "vi": "Tôi có hai cái. Bạn mượn bút của tôi cũng được.",
-       "pl": "Mam dwa. Możesz pożyczyć mój długopis."
+       "pl": "Mam dwa. Możesz pożyczyć mój długopis.",
+       "tr": "Bende iki tane var. Benim kalemimi ödünç alabilirsin."
       }
      },
      {
@@ -582,7 +629,8 @@
        "ja": "ありがとう！あなたのボールペン、すてきですね。",
        "en": "Thank you! Your pen is nice.",
        "vi": "Cảm ơn! Bút của bạn đẹp thật.",
-       "pl": "Dziękuję! Ładny masz długopis."
+       "pl": "Dziękuję! Ładny masz długopis.",
+       "tr": "Teşekkürler! Kalemin çok güzel."
       }
      },
      {
@@ -600,7 +648,8 @@
        "ja": "どういたしまして。あれ、壁のあれは何ですか。",
        "en": "You're welcome. Hey, what's that on the wall?",
        "vi": "Không có gì. Ơ, cái trên tường kia là gì thế?",
-       "pl": "Nie ma za co. O, a co to tam na ścianie?"
+       "pl": "Nie ma za co. O, a co to tam na ścianie?",
+       "tr": "Rica ederim. Aa, duvardaki şu ne?"
       }
      },
      {
@@ -618,7 +667,8 @@
        "ja": "あれは世界地図です。その地図はとても大きいです。",
        "en": "That's a world map. It's really big.",
        "vi": "Kia là bản đồ thế giới. Tấm bản đồ ấy to lắm.",
-       "pl": "To mapa świata. Ta mapa jest naprawdę duża."
+       "pl": "To mapa świata. Ta mapa jest naprawdę duża.",
+       "tr": "O bir dünya haritası. Harita çok büyük."
       }
      },
      {
@@ -635,7 +685,8 @@
        "ja": "きょうは地図を勉強するのですか。",
        "en": "Are we going to study maps today?",
        "vi": "Hôm nay chúng ta sẽ học về bản đồ à?",
-       "pl": "Czy będziemy dziś uczyć się map?"
+       "pl": "Czy będziemy dziś uczyć się map?",
+       "tr": "Bugün harita mı öğreneceğiz?"
       }
      },
      {
@@ -652,7 +703,8 @@
        "ja": "はい、わたしたちの先生といっしょに。さあ、入りましょう。",
        "en": "Yes, with our lecturer. Come on, in we go!",
        "vi": "Vâng, cùng với giảng viên của chúng ta. Nào, vào thôi!",
-       "pl": "Tak, z naszym wykładowcą. Chodź, wchodzimy!"
+       "pl": "Tak, z naszym wykładowcą. Chodź, wchodzimy!",
+       "tr": "Evet, öğretmenimizle. Hadi, girelim!"
       }
      }
     ]
@@ -665,7 +717,8 @@
      "ja": "この会話の二つのポイント",
      "en": "Two things in this dialogue",
      "vi": "Hai điểm trong đoạn hội thoại này",
-     "pl": "Dwie rzeczy z tego dialogu"
+     "pl": "Dwie rzeczy z tego dialogu",
+     "tr": "Bu diyalogdan iki şey"
     },
     "lines": [
      {
@@ -674,7 +727,8 @@
        "ja": "<b>物を借りる</b>　<s>Boleh pinjam ...?</s> がいちばんよく使う言い方で、<s>Saya mau pinjam</s> より丁寧です。",
        "en": "<b>Borrowing</b>　<s>Boleh pinjam ...?</s> is the usual way to ask, and softer than <s>Saya mau pinjam</s>.",
        "vi": "<b>Mượn đồ</b>　<s>Boleh pinjam ...?</s> là cách hỏi thông dụng nhất, lịch sự hơn <s>Saya mau pinjam</s>.",
-       "pl": "<b>Pożyczanie</b> <s>Boleh pinjam ...?</s> to najczęstszy sposób, żeby o coś poprosić, i grzeczniejszy niż <s>Saya mau pinjam</s>."
+       "pl": "<b>Pożyczanie</b> <s>Boleh pinjam ...?</s> to najczęstszy sposób, żeby o coś poprosić, i grzeczniejszy niż <s>Saya mau pinjam</s>.",
+       "tr": "<b>Ödünç istemek</b> <s>Boleh pinjam ...?</s> en yaygın soruş biçimi ve <s>Saya mau pinjam</s> demekten daha yumuşak."
       }
      },
      {
@@ -683,7 +737,8 @@
        "ja": "<b>教科書の登場人物</b>　この課に出てくるのは Zach・Zhang・Momoka の三人、先生は Ibu Mahmudah です。上の会話は教科書と同じ場面で書き直したもので、文は違いますが使う表現は同じです。",
        "en": "<b>Characters</b>　The book’s three students here are Zach, Zhang and Momoka, with Ibu Mahmudah as the lecturer. The dialogue above is written for the same situation, with different sentences but the same expressions.",
        "vi": "<b>Nhân vật trong sách</b>　Ba người học ở bài này là Zach, Zhang, Momoka; giảng viên là Ibu Mahmudah. Đoạn hội thoại trên được viết lại theo đúng tình huống của sách: câu chữ khác, nhưng các cách nói thì giống.",
-       "pl": "<b>Postacie z podręcznika</b> Troje uczących się w tym rozdziale to Zach, Zhang i Momoka, a zajęcia prowadzi Ibu Mahmudah. Dialog powyżej napisano do tej samej sytuacji: zdania są inne, zwroty te same."
+       "pl": "<b>Postacie z podręcznika</b> Troje uczących się w tym rozdziale to Zach, Zhang i Momoka, a zajęcia prowadzi Ibu Mahmudah. Dialog powyżej napisano do tej samej sytuacji: zdania są inne, zwroty te same.",
+       "tr": "<b>Karakterler</b> Kitabın bu bölümdeki üç öğrencisi Zach, Zhang ve Momoka; öğretmenleri Ibu Mahmudah. Yukarıdaki diyalog aynı durum için yazıldı: cümleler farklı, ifadeler aynı."
       }
      },
      {
@@ -692,7 +747,8 @@
        "ja": "<b>Gedung Soegondo</b>　UGM 文学部の建物名で、旧つづり（oe＝u）です。人名なので Sugondo に「直さ」ないでください。",
        "en": "<b>Gedung Soegondo</b>　The name of the UGM humanities building, in the old spelling (oe = u). It is a person’s name — do not “correct” it to Sugondo.",
        "vi": "<b>Gedung Soegondo</b>　Tên tòa nhà của khoa Nhân văn UGM, viết theo chính tả cũ (oe = u). Đây là tên người, đừng “sửa” thành Sugondo.",
-       "pl": "<b>Gedung Soegondo</b> Nazwa budynku wydziału humanistycznego UGM, w starej pisowni (oe = u). To nazwisko — nie „poprawiaj” go na Sugondo."
+       "pl": "<b>Gedung Soegondo</b> Nazwa budynku wydziału humanistycznego UGM, w starej pisowni (oe = u). To nazwisko — nie „poprawiaj” go na Sugondo.",
+       "tr": "<b>Gedung Soegondo</b> UGM'nin beşeri bilimler binasının adı, eski yazımla (oe = u). Bu bir kişi adı — Sugondo diye “düzeltme”."
       }
      }
     ]
@@ -707,7 +763,8 @@
      "ja": "教室で使う表現",
      "en": "Classroom expressions",
      "vi": "Cách nói dùng trong lớp",
-     "pl": "Zwroty na zajęciach"
+     "pl": "Zwroty na zajęciach",
+     "tr": "Sınıf ifadeleri"
     },
     "cat": "kosakata"
    },
@@ -718,7 +775,8 @@
      "ja": "どれも授業で毎日使う決まった言い方です。文ごと覚えてしまいましょう。",
      "en": "These are fixed expressions you will use in class every day. Learn them whole; there is no need to take them apart.",
      "vi": "Đây là những câu cố định bạn sẽ dùng hằng ngày trong lớp. Cứ học thuộc cả câu, không cần tách ra phân tích.",
-     "pl": "To stałe zwroty, których będziesz używać na zajęciach codziennie. Ucz się ich w całości, nie ma po co ich rozbierać."
+     "pl": "To stałe zwroty, których będziesz używać na zajęciach codziennie. Ucz się ich w całości, nie ma po co ich rozbierać.",
+     "tr": "Bunlar derste her gün kullanacağın kalıp ifadeler. Bütün olarak öğren; parçalarına ayırmana gerek yok."
     }
    },
    {
@@ -731,7 +789,8 @@
      "ja": "受け答え",
      "en": "responding",
      "vi": "đáp lời",
-     "pl": "odpowiadanie"
+     "pl": "odpowiadanie",
+     "tr": "cevap verme"
     }
    },
    {
@@ -750,7 +809,8 @@
        "ja": "どうぞ。",
        "en": "Please, go ahead.",
        "vi": "Xin mời. (mời dùng, mời làm)",
-       "pl": "Proszę, śmiało. (proszę wejść, proszę się częstować)"
+       "pl": "Proszę, śmiało. (proszę wejść, proszę się częstować)",
+       "tr": "Buyurun, lütfen."
       }
      },
      {
@@ -764,7 +824,8 @@
        "ja": "ありがとうございます。",
        "en": "Thank you.",
        "vi": "Cảm ơn.",
-       "pl": "Dziękuję."
+       "pl": "Dziękuję.",
+       "tr": "Teşekkürler."
       }
      },
      {
@@ -780,7 +841,8 @@
        "ja": "すみません。",
        "en": "Sorry.",
        "vi": "Xin lỗi.",
-       "pl": "Przepraszam."
+       "pl": "Przepraszam.",
+       "tr": "Özür dilerim."
       }
      },
      {
@@ -796,7 +858,8 @@
        "ja": "もちろんです。",
        "en": "Of course.",
        "vi": "Tất nhiên rồi.",
-       "pl": "Oczywiście."
+       "pl": "Oczywiście.",
+       "tr": "Tabii ki."
       }
      },
      {
@@ -810,7 +873,8 @@
        "ja": "わかりました。",
        "en": "All right then.",
        "vi": "Được, vậy nhé.",
-       "pl": "No dobrze, niech tak będzie."
+       "pl": "No dobrze, niech tak będzie.",
+       "tr": "Peki o zaman."
       }
      },
      {
@@ -826,7 +890,8 @@
        "ja": "いいですね！",
        "en": "Good!",
        "vi": "Tốt lắm!",
-       "pl": "Bardzo dobrze!"
+       "pl": "Bardzo dobrze!",
+       "tr": "Güzel!"
       }
      }
     ]
@@ -841,7 +906,8 @@
      "ja": "先生にたずねる",
      "en": "asking the teacher",
      "vi": "hỏi giáo viên",
-     "pl": "pytania do wykładowcy"
+     "pl": "pytania do wykładowcy",
+     "tr": "öğretmene soru sorma"
     }
    },
    {
@@ -860,7 +926,8 @@
        "ja": "質問はありますか。（先生から）",
        "en": "Are there any questions? (teacher to class)",
        "vi": "Có câu hỏi nào không? (giáo viên hỏi lớp)",
-       "pl": "Czy są jakieś pytania? (wykładowca do grupy)"
+       "pl": "Czy są jakieś pytania? (wykładowca do grupy)",
+       "tr": "Sorusu olan var mı? (öğretmen sınıfa)"
       }
      },
      {
@@ -876,7 +943,8 @@
        "ja": "わかりましたか。",
        "en": "Do you understand?",
        "vi": "Bạn hiểu chưa?",
-       "pl": "Czy rozumiesz?"
+       "pl": "Czy rozumiesz?",
+       "tr": "Anladınız mı?"
       }
      },
      {
@@ -893,7 +961,8 @@
        "ja": "何ページですか。",
        "en": "What page?",
        "vi": "Trang bao nhiêu?",
-       "pl": "Która strona?"
+       "pl": "Która strona?",
+       "tr": "Kaçıncı sayfa?"
       }
      },
      {
@@ -909,7 +978,8 @@
        "ja": "宿題はありますか。",
        "en": "Is there homework?",
        "vi": "Có bài tập về nhà không?",
-       "pl": "Czy jest praca domowa?"
+       "pl": "Czy jest praca domowa?",
+       "tr": "Ödev var mı?"
       }
      },
      {
@@ -926,7 +996,8 @@
        "ja": "すみません、質問してもいいですか。",
        "en": "Excuse me, may I ask a question?",
        "vi": "Xin lỗi, tôi hỏi một câu được không ạ?",
-       "pl": "Przepraszam, czy mogę o coś zapytać?"
+       "pl": "Przepraszam, czy mogę o coś zapytać?",
+       "tr": "Affedersiniz, bir şey sorabilir miyim?"
       }
      }
     ]
@@ -941,7 +1012,8 @@
      "ja": "お願いする",
      "en": "asking a favour",
      "vi": "nhờ giúp đỡ",
-     "pl": "prośba o pomoc"
+     "pl": "prośba o pomoc",
+     "tr": "rica etme"
     }
    },
    {
@@ -961,7 +1033,8 @@
        "ja": "もう一度お願いします。",
        "en": "Please say that again.",
        "vi": "Xin nhắc lại một lần nữa.",
-       "pl": "Proszę powtórzyć."
+       "pl": "Proszę powtórzyć.",
+       "tr": "Lütfen tekrar eder misiniz?"
       }
      },
      {
@@ -978,7 +1051,8 @@
        "ja": "ゆっくり話してください。",
        "en": "Please speak slowly.",
        "vi": "Xin nói chậm một chút.",
-       "pl": "Proszę mówić wolniej."
+       "pl": "Proszę mówić wolniej.",
+       "tr": "Lütfen yavaş konuşun."
       }
      },
      {
@@ -994,7 +1068,8 @@
        "ja": "もっと大きな声でお願いします。",
        "en": "Please speak up.",
        "vi": "Xin nói to hơn một chút.",
-       "pl": "Proszę mówić głośniej."
+       "pl": "Proszę mówić głośniej.",
+       "tr": "Lütfen daha yüksek sesle konuşun."
       }
      },
      {
@@ -1010,7 +1085,8 @@
        "ja": "辞書を借りてもいいですか。",
        "en": "May I borrow a dictionary?",
        "vi": "Tôi mượn từ điển được không ạ?",
-       "pl": "Czy mogę pożyczyć słownik?"
+       "pl": "Czy mogę pożyczyć słownik?",
+       "tr": "Bir sözlük ödünç alabilir miyim?"
       }
      }
     ]
@@ -1023,7 +1099,8 @@
      "ja": "二つの「どうぞ」",
      "en": "Two different “please”",
      "vi": "“Mời” và “nhờ” khác nhau",
-     "pl": "Dwa różne „proszę”"
+     "pl": "Dwa różne „proszę”",
+     "tr": "İki farklı “lütfen”"
     },
     "lines": [
      {
@@ -1032,7 +1109,8 @@
        "ja": "<s>Silakan</s> は「どうぞ」—— 入ってください、座ってください、と相手にゆずる言い方です。<s>Tolong</s> は「お願いします」—— くり返してください、ゆっくり話してください、と相手に頼む言い方です。取りちがえると変になります。入室をうながすのに <s>Tolong masuk</s> と言うと「入ってくれと頼む」になってしまいます。",
        "en": "<s>Silakan</s> offers something to the other person — come in, sit down, go ahead. <s>Tolong</s> asks them for something — repeat that, speak slowly. Swapping them sounds odd: <s>Tolong masuk</s> at a door means “please, I beg you, come in”.",
        "vi": "<s>Silakan</s> là “mời bạn” — mời vào, mời ngồi, mời nói: nhường lượt cho người kia. <s>Tolong</s> là “giúp tôi một chút” — nhờ nhắc lại, nhờ nói chậm: mình đang cần nhờ người ta. Dùng lẫn sẽ rất buồn cười: mời người ta vào cửa mà nói <s>Tolong masuk</s> thì thành “xin bạn làm ơn vào giúp tôi”.",
-       "pl": "<s>Silakan</s> to „proszę bardzo” — oddajesz pole drugiej osobie: proszę wejść, proszę usiąść, proszę mówić. <s>Tolong</s> to „pomóż mi” — prosisz o coś dla siebie: proszę powtórzyć, proszę mówić wolniej. Po polsku jedno i drugie wychodzi na „proszę”, więc łatwo je pomylić, a zamiana brzmi dziwnie: <s>Tolong masuk</s> w drzwiach znaczy „błagam cię, wejdź”."
+       "pl": "<s>Silakan</s> to „proszę bardzo” — oddajesz pole drugiej osobie: proszę wejść, proszę usiąść, proszę mówić. <s>Tolong</s> to „pomóż mi” — prosisz o coś dla siebie: proszę powtórzyć, proszę mówić wolniej. Po polsku jedno i drugie wychodzi na „proszę”, więc łatwo je pomylić, a zamiana brzmi dziwnie: <s>Tolong masuk</s> w drzwiach znaczy „błagam cię, wejdź”.",
+       "tr": "<s>Silakan</s> karşındakine bir şey sunar — buyurun girin, oturun, başlayın. <s>Tolong</s> ondan bir şey ister — tekrar eder misiniz, yavaş konuşur musunuz. Yerlerini değiştirirsen tuhaf durur: kapıda <s>Tolong masuk</s> demek “ne olur, yalvarırım, gir” anlamına gelir."
       }
      }
     ]
@@ -1047,7 +1125,8 @@
      "ja": "これとあれ",
      "en": "This and that",
      "vi": "Cái này và cái kia",
-     "pl": "To i tamto"
+     "pl": "To i tamto",
+     "tr": "Bu ve şu"
     },
     "cat": "tatabahasa"
    },
@@ -1058,7 +1137,8 @@
      "ja": "<s>ini</s> は「これ」、<s>itu</s> は「あれ・それ」。距離は<b>話している人</b>を基準に決まります。",
      "en": "<s>ini</s> is “this”, <s>itu</s> is “that”. The distance is measured from <b>whoever is speaking</b>.",
      "vi": "<s>ini</s> là “cái này”, <s>itu</s> là “cái kia”. Khoảng cách tính từ <b>người đang nói</b> — ai nói thì lấy vị trí của người đó làm mốc.",
-     "pl": "<s>ini</s> to „to (tutaj)”, <s>itu</s> to „tamto”. Odległość mierzy się od <b>osoby, która mówi</b> — kto mówi, od tego liczymy."
+     "pl": "<s>ini</s> to „to (tutaj)”, <s>itu</s> to „tamto”. Odległość mierzy się od <b>osoby, która mówi</b> — kto mówi, od tego liczymy.",
+     "tr": "<s>ini</s> “bu”, <s>itu</s> “şu / o” demek. Uzaklık <b>konuşan kişiye</b> göre ölçülür."
     }
    },
    {
@@ -1069,7 +1149,8 @@
      "ja": "これは……です／あれは……です（benda ＝ もの）",
      "en": "This is … / That is … (benda = thing)",
      "vi": "Đây là… / Kia là… (benda = đồ vật)",
-     "pl": "To jest… / Tamto jest… (benda = rzecz)"
+     "pl": "To jest… / Tamto jest… (benda = rzecz)",
+     "tr": "Bu bir … / Şu bir … (benda = şey)"
     }
    },
    {
@@ -1079,7 +1160,8 @@
      "ja": "ものについて",
      "en": "asking about a thing",
      "vi": "hỏi về đồ vật",
-     "pl": "pytanie o rzecz"
+     "pl": "pytanie o rzecz",
+     "tr": "bir şeyi sorma"
     },
     "items": [
      {
@@ -1095,7 +1177,8 @@
        "ja": "これは何ですか。",
        "en": "What is this?",
        "vi": "Đây là cái gì?",
-       "pl": "Co to jest?"
+       "pl": "Co to jest?",
+       "tr": "Bu ne?"
       }
      },
      {
@@ -1111,7 +1194,8 @@
        "ja": "これは辞書です。",
        "en": "This is a dictionary.",
        "vi": "Đây là từ điển.",
-       "pl": "To jest słownik."
+       "pl": "To jest słownik.",
+       "tr": "Bu bir sözlük."
       }
      },
      {
@@ -1127,7 +1211,8 @@
        "ja": "あれは何ですか。",
        "en": "What is that?",
        "vi": "Kia là cái gì?",
-       "pl": "A tamto, co to jest?"
+       "pl": "A tamto, co to jest?",
+       "tr": "Şu ne?"
       }
      },
      {
@@ -1143,7 +1228,8 @@
        "ja": "あれは黒板です。",
        "en": "That is the whiteboard.",
        "vi": "Kia là cái bảng.",
-       "pl": "Tamto to tablica."
+       "pl": "Tamto to tablica.",
+       "tr": "O, tahta."
       }
      }
     ]
@@ -1155,7 +1241,8 @@
      "ja": "だれのものか",
      "en": "asking whose",
      "vi": "hỏi của ai",
-     "pl": "pytanie, czyje to jest"
+     "pl": "pytanie, czyje to jest",
+     "tr": "kimin olduğunu sorma"
     },
     "items": [
      {
@@ -1171,7 +1258,8 @@
        "ja": "これはだれのボールペンですか。",
        "en": "Whose pen is this?",
        "vi": "Đây là bút bi của ai?",
-       "pl": "Czyj to długopis?"
+       "pl": "Czyj to długopis?",
+       "tr": "Bu kimin kalemi?"
       }
      },
      {
@@ -1187,7 +1275,8 @@
        "ja": "それはわたしのボールペンです。",
        "en": "That is my pen.",
        "vi": "Kia là bút bi của tôi.",
-       "pl": "Tamto to mój długopis."
+       "pl": "Tamto to mój długopis.",
+       "tr": "O benim kalemim."
       }
      },
      {
@@ -1203,7 +1292,8 @@
        "ja": "これはあなたの本ですか。",
        "en": "Is this your book?",
        "vi": "Đây có phải sách của bạn không?",
-       "pl": "Czy to Pana/Pani książka?"
+       "pl": "Czy to Pana/Pani książka?",
+       "tr": "Bu sizin kitabınız mı?"
       }
      },
      {
@@ -1219,7 +1309,8 @@
        "ja": "はい、それはわたしの本です。",
        "en": "Yes, that is my book.",
        "vi": "Vâng, kia là sách của tôi.",
-       "pl": "Tak, tamto to moja książka."
+       "pl": "Tak, tamto to moja książka.",
+       "tr": "Evet, o benim kitabım."
       }
      }
     ]
@@ -1232,7 +1323,8 @@
      "ja": "教科書にはないが必ず引っかかるところ",
      "en": "Not in the book, but it will trip you up",
      "vi": "Sách không nói, nhưng chắc chắn sẽ vướng",
-     "pl": "Nie ma tego w podręczniku, a na pewno zaskoczy"
+     "pl": "Nie ma tego w podręczniku, a na pewno zaskoczy",
+     "tr": "Kitapta yok ama seni şaşırtacak"
     },
     "lines": [
      {
@@ -1241,7 +1333,8 @@
        "ja": "上のやりとりに注目してください。たずねる人は <s>ini</s>（手もとにあるから）、答える人は <s>itu</s> と言っています。答える人から見れば、その物は相手の側にあるからです。<b>誤植でも気まぐれでもありません</b>。日本語なら「これはあなたの本ですか」「はい、<b>これ</b>はわたしの本です」と両方「これ」で通りますが、インドネシア語はそれぞれの位置で言い分けます。",
        "en": "Look at the pairs above: the asker says <s>ini</s> (it is beside them) but the answerer says <s>itu</s>, because from where they stand the thing is over there. <b>This is not a misprint and not arbitrary.</b> English keeps “this” on both sides — “Is this your book?” “Yes, this is my book” — while Indonesian switches to match each speaker’s position.",
        "vi": "Hãy nhìn lại mấy cặp câu ở trên: người hỏi nói <s>ini</s> (vật ở ngay bên cạnh họ), còn người trả lời lại nói <s>itu</s> — vì đứng từ chỗ người trả lời, vật đó nằm ở phía bên kia. <b>Đây không phải lỗi in, cũng không phải đổi tùy tiện.</b> Tiếng Việt nói “Đây có phải sách của bạn không?” – “Vâng, <b>đây</b> là sách của tôi”, cả hai bên đều dùng “đây”; tiếng Indonesia thì đổi ini / itu theo vị trí của từng người.",
-       "pl": "Spójrz na powyższe pary: osoba pytająca mówi <s>ini</s> (rzecz jest tuż obok niej), a osoba odpowiadająca — <s>itu</s>, bo z jej miejsca ta rzecz leży po drugiej stronie. <b>To nie błąd druku ani dowolność.</b> Po polsku po obu stronach zostaje „to”: „Czy to twoja książka?” — „Tak, <b>to</b> moja książka”; indonezyjski przełącza ini / itu zgodnie z pozycją każdej z osób."
+       "pl": "Spójrz na powyższe pary: osoba pytająca mówi <s>ini</s> (rzecz jest tuż obok niej), a osoba odpowiadająca — <s>itu</s>, bo z jej miejsca ta rzecz leży po drugiej stronie. <b>To nie błąd druku ani dowolność.</b> Po polsku po obu stronach zostaje „to”: „Czy to twoja książka?” — „Tak, <b>to</b> moja książka”; indonezyjski przełącza ini / itu zgodnie z pozycją każdej z osób.",
+       "tr": "Yukarıdaki çiftlere bak: soran <s>ini</s> diyor (şey hemen yanında), cevap veren ise <s>itu</s> diyor, çünkü onun durduğu yerden o şey karşı tarafta. <b>Bu bir baskı hatası değil, rastgele de değil.</b> Türkçede de bu / şu / o var, ama soru-cevapta iki taraf da kolayca “bu” der — “Bu senin kitabın mı?” “Evet, <b>bu</b> benim kitabım”; Endonezce ise her konuşanın konumuna göre ini / itu arasında geçiş yapar."
       }
      }
     ]
@@ -1254,7 +1347,8 @@
      "ja": "教科書に出てくる二つの呼びかけ",
      "en": "Two forms of address in the book",
      "vi": "Hai cách xưng hô trong sách",
-     "pl": "Dwa zwroty grzecznościowe z podręcznika"
+     "pl": "Dwa zwroty grzecznościowe z podręcznika",
+     "tr": "Kitaptaki iki hitap şekli"
     },
     "lines": [
      {
@@ -1263,7 +1357,8 @@
        "ja": "教科書の例文には <s>Mas</s>（同年代か少し年上の男性へ）と <s>Mbak</s>（女性へ）が出てきます。どちらもジャワ語から来た呼びかけで、ジョグジャでは買い物でも道をたずねるときにも耳にします。先生には <s>Pak</s>／<s>Bu</s> を使います。",
        "en": "The book’s examples use <s>Mas</s> (to a man of similar age or a little older) and <s>Mbak</s> (to a woman). Both come from Javanese and you will hear them all over Jogja — in shops, asking directions, calling a waiter. For teachers, still use <s>Pak</s> / <s>Bu</s>.",
        "vi": "Các câu ví dụ trong sách dùng <s>Mas</s> (với nam giới cùng tuổi hoặc lớn hơn một chút) và <s>Mbak</s> (với nữ giới). Hai từ này gốc tiếng Java, ở Jogja bạn nghe thấy khắp nơi — đi mua đồ, hỏi đường, gọi nhân viên phục vụ đều dùng. Với giáo viên thì vẫn dùng <s>Pak</s> / <s>Bu</s>.",
-       "pl": "W przykładach z podręcznika pojawiają się <s>Mas</s> (do mężczyzny w podobnym wieku albo trochę starszego) i <s>Mbak</s> (do kobiety). Oba przyszły z jawajskiego i w Jogji usłyszysz je wszędzie — w sklepie, pytając o drogę, wołając kelnera. Do wykładowców nadal używa się <s>Pak</s> / <s>Bu</s>."
+       "pl": "W przykładach z podręcznika pojawiają się <s>Mas</s> (do mężczyzny w podobnym wieku albo trochę starszego) i <s>Mbak</s> (do kobiety). Oba przyszły z jawajskiego i w Jogji usłyszysz je wszędzie — w sklepie, pytając o drogę, wołając kelnera. Do wykładowców nadal używa się <s>Pak</s> / <s>Bu</s>.",
+       "tr": "Kitabın örneklerinde <s>Mas</s> (yaşıt ya da biraz büyük bir erkeğe) ve <s>Mbak</s> (bir kadına) geçiyor. İkisi de Cavacadan geliyor ve Jogja'da her yerde duyarsın — dükkânda, yol sorarken, garsonu çağırırken. Öğretmenlere yine <s>Pak</s> / <s>Bu</s> de."
       }
      }
     ]
@@ -1279,7 +1374,8 @@
      "ja": "授業ノート · ini は前か後か",
      "en": "Class notes · ini before or after the noun",
      "vi": "Ghi chép trên lớp · ini đứng trước hay sau",
-     "pl": "Notatki z zajęć · ini przed rzeczownikiem czy po"
+     "pl": "Notatki z zajęć · ini przed rzeczownikiem czy po",
+     "tr": "Ders notları · ini isimden önce mi sonra mı"
     }
    },
    {
@@ -1289,7 +1385,8 @@
      "ja": "前のページでは <s>Ini</s> + もの = 「これは……です」を学びました。授業ではもう一つ：<s>ini</s> を名詞の<b>後ろ</b>に置くと、意味も文の形も変わります。",
      "en": "The previous page taught <s>Ini</s> + thing = “this is a …”. The teacher added one more point: move <s>ini</s> <b>after</b> the noun and both the meaning and the shape of the sentence change.",
      "vi": "Trang trước dạy <s>Ini</s> + vật = “đây là…”. Trên lớp giáo viên bổ sung thêm: đặt <s>ini</s> ra <b>sau</b> danh từ thì nghĩa lẫn cấu trúc câu đều đổi.",
-     "pl": "Poprzednia strona uczyła: <s>Ini</s> + rzecz = „to jest…”. Na zajęciach doszło jeszcze jedno: przesuń <s>ini</s> <b>za</b> rzeczownik, a zmienia się i znaczenie, i budowa zdania."
+     "pl": "Poprzednia strona uczyła: <s>Ini</s> + rzecz = „to jest…”. Na zajęciach doszło jeszcze jedno: przesuń <s>ini</s> <b>za</b> rzeczownik, a zmienia się i znaczenie, i budowa zdania.",
+     "tr": "Önceki sayfa <s>Ini</s> + şey = “bu bir …” kalıbını öğretti. Öğretmen bir nokta daha ekledi: <s>ini</s> kelimesini ismin <b>arkasına</b> alırsan cümlenin hem anlamı hem yapısı değişir."
     }
    },
    {
@@ -1300,7 +1397,8 @@
      "ja": "「これは建物です。」—— これだけで完全な文。",
      "en": "“This is a building.” — already a complete sentence.",
      "vi": "“Đây là tòa nhà.” — đã là một câu hoàn chỉnh.",
-     "pl": "„To jest budynek.” — to już całe zdanie."
+     "pl": "„To jest budynek.” — to już całe zdanie.",
+     "tr": "“Bu bir bina.” — zaten tam bir cümle."
     }
    },
    {
@@ -1311,7 +1409,8 @@
      "ja": "「この建物は……」—— まだ文になっていません。述語を続けてはじめて完成：Gedung ini baru.",
      "en": "“This building …” — not a sentence yet; it needs a predicate: Gedung ini baru.",
      "vi": "“Tòa nhà này…” — chưa thành câu, phải thêm vị ngữ mới đủ: Gedung ini baru.",
-     "pl": "„Ten budynek…” — to jeszcze nie zdanie; potrzebuje orzeczenia: Gedung ini baru."
+     "pl": "„Ten budynek…” — to jeszcze nie zdanie; potrzebuje orzeczenia: Gedung ini baru.",
+     "tr": "“Bu bina …” — henüz cümle değil; bir yükleme ihtiyacı var: Gedung ini baru."
     }
    },
    {
@@ -1321,7 +1420,8 @@
      "ja": "どの答えがどの質問に合うか",
      "en": "Which answer fits which question",
      "vi": "Câu trả lời nào hợp với câu hỏi nào",
-     "pl": "Która odpowiedź do którego pytania"
+     "pl": "Która odpowiedź do którego pytania",
+     "tr": "Hangi cevap hangi soruya uyar"
     },
     "items": [
      {
@@ -1337,7 +1437,8 @@
        "ja": "これは何ですか。",
        "en": "What is this?",
        "vi": "Đây là cái gì?",
-       "pl": "Co to jest?"
+       "pl": "Co to jest?",
+       "tr": "Bu ne?"
       }
      },
      {
@@ -1353,7 +1454,8 @@
        "ja": "これは新しい建物です。——「何か」への答え：ini のあとに物。",
        "en": "This is a new building. — Answers “what is it”: ini first, then the thing.",
        "vi": "Đây là tòa nhà mới. — Trả lời “cái gì”: ini trước, rồi đến vật.",
-       "pl": "To jest nowy budynek. — Odpowiedź na „co to jest”: najpierw ini, potem rzecz."
+       "pl": "To jest nowy budynek. — Odpowiedź na „co to jest”: najpierw ini, potem rzecz.",
+       "tr": "Bu yeni bir bina. — “Bu ne?” sorusunun cevabı: önce ini, sonra şey."
       }
      },
      {
@@ -1369,7 +1471,8 @@
        "ja": "この建物はどうですか。",
        "en": "What is this building like?",
        "vi": "Tòa nhà này thế nào?",
-       "pl": "Jaki jest ten budynek?"
+       "pl": "Jaki jest ten budynek?",
+       "tr": "Bu bina nasıl?"
       }
      },
      {
@@ -1385,7 +1488,8 @@
        "ja": "この建物は新しいです。——「どうか」への答え：gedung ini が主語、baru が説明。",
        "en": "This building is new. — Answers “what is it like”: gedung ini is the subject, baru describes it.",
        "vi": "Tòa nhà này mới. — Trả lời “thế nào”: gedung ini là chủ ngữ, baru là phần nhận xét.",
-       "pl": "Ten budynek jest nowy. — Odpowiedź na „jaki”: gedung ini to podmiot, baru mówi, jaki on jest."
+       "pl": "Ten budynek jest nowy. — Odpowiedź na „jaki”: gedung ini to podmiot, baru mówi, jaki on jest.",
+       "tr": "Bu bina yeni. — “Nasıl?” sorusunun cevabı: gedung ini özne, baru onu niteliyor."
       }
      },
      {
@@ -1401,7 +1505,8 @@
        "ja": "あれは何ですか。",
        "en": "What is that?",
        "vi": "Kia là cái gì?",
-       "pl": "A tamto, co to jest?"
+       "pl": "A tamto, co to jest?",
+       "tr": "Şu ne?"
       }
      },
      {
@@ -1417,7 +1522,8 @@
        "ja": "あれは新しい教室です。",
        "en": "That is a new classroom.",
        "vi": "Kia là lớp học mới.",
-       "pl": "Tamto to nowa sala."
+       "pl": "Tamto to nowa sala.",
+       "tr": "Şu yeni bir sınıf."
       }
      },
      {
@@ -1433,7 +1539,8 @@
        "ja": "あの教室はどうですか。",
        "en": "What is that classroom like?",
        "vi": "Lớp học đó thế nào?",
-       "pl": "Jaka jest tamta sala?"
+       "pl": "Jaka jest tamta sala?",
+       "tr": "Şu sınıf nasıl?"
       }
      },
      {
@@ -1449,7 +1556,8 @@
        "ja": "あの教室は広いです。",
        "en": "That classroom is spacious.",
        "vi": "Lớp học đó rộng.",
-       "pl": "Tamta sala jest przestronna."
+       "pl": "Tamta sala jest przestronna.",
+       "tr": "Şu sınıf geniş."
       }
      }
     ]
@@ -1462,7 +1570,8 @@
      "ja": "質問とかみ合わない",
      "en": "Answering the wrong question",
      "vi": "Trả lời lạc câu hỏi",
-     "pl": "Odpowiedź nie na to pytanie"
+     "pl": "Odpowiedź nie na to pytanie",
+     "tr": "Yanlış soruya cevap"
     },
     "lines": [
      {
@@ -1471,7 +1580,8 @@
        "ja": "<s>Ini apa?</s> と聞かれて <s>Gedung ini baru.</s> と答えるのは誤り —— 相手は「これは何か」を聞いているのに、建物の評価を返しています。逆に <s>Bagaimana gedung ini?</s> に <s>Ini gedung baru.</s> と答えるのも合いません。疑問詞を見てください：<b>apa</b> なら Ini + もの、<b>bagaimana</b> なら もの + ini + 形容詞。",
        "en": "Ask <s>Ini apa?</s> and get <s>Gedung ini baru.</s> — wrong: the question was “what is this”, and the answer describes it instead. The reverse, <s>Bagaimana gedung ini?</s> answered with <s>Ini gedung baru.</s>, is just as off. Look at the question word: <b>apa</b> takes Ini + thing; <b>bagaimana</b> takes thing + ini + adjective.",
        "vi": "Hỏi <s>Ini apa?</s> mà đáp <s>Gedung ini baru.</s> là sai — người ta hỏi “đây là cái gì”, bạn lại đi nhận xét về nó. Ngược lại, hỏi <s>Bagaimana gedung ini?</s> mà đáp <s>Ini gedung baru.</s> cũng không khớp. Nhìn từ để hỏi: <b>apa</b> thì dùng Ini + vật, <b>bagaimana</b> thì dùng vật + ini + tính từ.",
-       "pl": "Na <s>Ini apa?</s> odpowiedzieć <s>Gedung ini baru.</s> to błąd — pytanie brzmiało „co to jest”, a ty go oceniasz. Odwrotnie też nie gra: na <s>Bagaimana gedung ini?</s> nie odpowiadaj <s>Ini gedung baru.</s>. Patrz na słowo pytajne: <b>apa</b> → Ini + rzecz, <b>bagaimana</b> → rzecz + ini + przymiotnik."
+       "pl": "Na <s>Ini apa?</s> odpowiedzieć <s>Gedung ini baru.</s> to błąd — pytanie brzmiało „co to jest”, a ty go oceniasz. Odwrotnie też nie gra: na <s>Bagaimana gedung ini?</s> nie odpowiadaj <s>Ini gedung baru.</s>. Patrz na słowo pytajne: <b>apa</b> → Ini + rzecz, <b>bagaimana</b> → rzecz + ini + przymiotnik.",
+       "tr": "<s>Ini apa?</s> diye sorulunca <s>Gedung ini baru.</s> demek yanlış: soru “bu ne” idi, cevap ise onu tarif ediyor. Tersi de aynı derecede yanlış: <s>Bagaimana gedung ini?</s> sorusuna <s>Ini gedung baru.</s> demek. Soru kelimesine bak: <b>apa</b> → Ini + şey; <b>bagaimana</b> → şey + ini + sıfat."
       }
      }
     ]
@@ -1483,7 +1593,8 @@
      "ja": "DM と MD",
      "en": "DM and MD",
      "vi": "DM và MD",
-     "pl": "DM i MD"
+     "pl": "DM i MD",
+     "tr": "DM ve MD"
     }
    },
    {
@@ -1494,21 +1605,24 @@
       "ja": "語句",
       "en": "Phrase",
       "vi": "Cụm từ",
-      "pl": "Wyrażenie"
+      "pl": "Wyrażenie",
+      "tr": "İfade"
      },
      {
       "zh": "顺序",
       "ja": "順序",
       "en": "Order",
       "vi": "Trật tự",
-      "pl": "Kolejność"
+      "pl": "Kolejność",
+      "tr": "Sıra"
      },
      {
       "zh": "意思",
       "ja": "意味",
       "en": "Meaning",
       "vi": "Nghĩa",
-      "pl": "Znaczenie"
+      "pl": "Znaczenie",
+      "tr": "Anlam"
      }
     ],
     "rows": [
@@ -1523,7 +1637,8 @@
         "ja": "DM",
         "en": "DM",
         "vi": "DM",
-        "pl": "DM"
+        "pl": "DM",
+        "tr": "DM"
        }
       },
       {
@@ -1532,7 +1647,8 @@
         "ja": "新しい自転車",
         "en": "a new bicycle",
         "vi": "xe đạp mới",
-        "pl": "nowy rower"
+        "pl": "nowy rower",
+        "tr": "yeni bir bisiklet"
        }
       }
      ],
@@ -1548,7 +1664,8 @@
         "ja": "いい本",
         "en": "a good book",
         "vi": "sách hay",
-        "pl": "dobra książka"
+        "pl": "dobra książka",
+        "tr": "iyi bir kitap"
        }
       }
      ],
@@ -1564,7 +1681,8 @@
         "ja": "新しい建物",
         "en": "a new building",
         "vi": "tòa nhà mới",
-        "pl": "nowy budynek"
+        "pl": "nowy budynek",
+        "tr": "yeni bir bina"
        }
       }
      ],
@@ -1579,7 +1697,8 @@
         "ja": "MD",
         "en": "MD",
         "vi": "MD",
-        "pl": "MD"
+        "pl": "MD",
+        "tr": "MD"
        }
       },
       {
@@ -1588,7 +1707,8 @@
         "ja": "三人の学生",
         "en": "three students",
         "vi": "ba sinh viên",
-        "pl": "trzech studentów"
+        "pl": "trzech studentów",
+        "tr": "üç öğrenci"
        }
       }
      ],
@@ -1604,7 +1724,8 @@
         "ja": "二冊の本",
         "en": "two books",
         "vi": "hai quyển sách",
-        "pl": "dwie książki"
+        "pl": "dwie książki",
+        "tr": "iki kitap"
        }
       }
      ],
@@ -1620,7 +1741,8 @@
         "ja": "十年",
         "en": "ten years",
         "vi": "mười năm",
-        "pl": "dziesięć lat"
+        "pl": "dziesięć lat",
+        "tr": "on yıl"
        }
       }
      ]
@@ -1630,7 +1752,8 @@
      "ja": "D = <b>diterangkan</b>（説明される側、つまり物）、M = <b>menerangkan</b>（説明する側）。形容詞は名詞の後ろにつくので DM、数詞は名詞の前に来るので MD。インドネシア語の修飾語はほとんど DM で、数詞が主な例外です。",
      "en": "D = <b>diterangkan</b>, the thing being described; M = <b>menerangkan</b>, the word describing it. An adjective follows its noun: DM. A number precedes its noun: MD. Most Indonesian modifiers are DM; numbers are the main exception.",
      "vi": "D = <b>diterangkan</b>, vật được nói đến; M = <b>menerangkan</b>, từ mô tả nó. Tính từ đứng sau danh từ: DM. Số từ đứng trước danh từ: MD. Phần lớn từ bổ nghĩa trong tiếng Indonesia là DM, số từ là ngoại lệ chính.",
-     "pl": "D = <b>diterangkan</b>, rzecz określana; M = <b>menerangkan</b>, słowo, które ją określa. Przymiotnik stoi po rzeczowniku: DM. Liczebnik stoi przed rzeczownikiem: MD. Większość indonezyjskich określeń to DM, liczebniki to główny wyjątek."
+     "pl": "D = <b>diterangkan</b>, rzecz określana; M = <b>menerangkan</b>, słowo, które ją określa. Przymiotnik stoi po rzeczowniku: DM. Liczebnik stoi przed rzeczownikiem: MD. Większość indonezyjskich określeń to DM, liczebniki to główny wyjątek.",
+     "tr": "D = <b>diterangkan</b>, nitelenen şey; M = <b>menerangkan</b>, onu niteleyen kelime. Sıfat isimden sonra gelir: DM. Sayı isimden önce gelir: MD. Endonezcedeki niteleyicilerin çoğu DM'dir; asıl istisna sayılardır."
     }
    },
    {
@@ -1641,7 +1764,8 @@
      "ja": "母語とくらべると",
      "en": "Compared with your own language",
      "vi": "So với tiếng Việt",
-     "pl": "Porównaj z polskim"
+     "pl": "Porównaj z polskim",
+     "tr": "Türkçeyle karşılaştır"
     },
     "lines": [
      {
@@ -1650,7 +1774,8 @@
        "ja": "日本語は「<b>新しい</b>自転車」と形容詞が前に来ますが、<s>sepeda baru</s> はその逆です。数は同じで、「<b>三人の</b>学生」も <s>tiga mahasiswa</s> も数が前。覚えることは一つ：形容詞だけ後ろに回し、数はそのまま。",
        "en": "English says “a <b>new</b> bicycle”, adjective first; <s>sepeda baru</s> is the other way round. Numbers behave as in English: “<b>three</b> students” and <s>tiga mahasiswa</s> both put the number first. So one rule to remember: adjectives move behind the noun, numbers stay put.",
        "vi": "Ở đây bạn có lợi thế: <s>sepeda baru</s> đúng như “xe đạp <b>mới</b>”, <s>tiga mahasiswa</s> đúng như “<b>ba</b> sinh viên”. Trật tự DM / MD của tiếng Indonesia trùng hoàn toàn với tiếng Việt, bạn không cần đảo gì cả — chỉ các bạn học nói tiếng Trung, tiếng Nhật, tiếng Anh mới phải đảo tính từ ra sau.",
-       "pl": "Po polsku mówisz „<b>nowy</b> rower” — przymiotnik przed rzeczownikiem; <s>sepeda baru</s> jest dokładnie odwrotnie. Z liczebnikami jest jak po polsku: „<b>trzech</b> studentów” i <s>tiga mahasiswa</s> stawiają liczbę z przodu. Do zapamiętania jedno: przymiotnik przenosisz za rzeczownik, liczebnik zostaje na miejscu."
+       "pl": "Po polsku mówisz „<b>nowy</b> rower” — przymiotnik przed rzeczownikiem; <s>sepeda baru</s> jest dokładnie odwrotnie. Z liczebnikami jest jak po polsku: „<b>trzech</b> studentów” i <s>tiga mahasiswa</s> stawiają liczbę z przodu. Do zapamiętania jedno: przymiotnik przenosisz za rzeczownik, liczebnik zostaje na miejscu.",
+       "tr": "Türkçede “<b>yeni</b> bisiklet” dersin, sıfat önde; <s>sepeda baru</s> ise tam tersi. Sayılar Türkçedeki gibi: “<b>üç</b> öğrenci” ve <s>tiga mahasiswa</s>, ikisinde de sayı önde. Yani akılda tutman gereken tek kural: sıfat ismin arkasına geçer, sayı yerinde kalır."
       }
      }
     ]
@@ -1662,7 +1787,8 @@
      "ja": "「Ini X」か「X ini」か",
      "en": "“Ini X” or “X ini”?",
      "vi": "Chọn “Ini X” hay “X ini”",
-     "pl": "„Ini X” czy „X ini”?"
+     "pl": "„Ini X” czy „X ini”?",
+     "tr": "“Ini X” mi, “X ini” mi?"
     },
     "items": [
      {
@@ -1675,7 +1801,8 @@
        "ja": "これは何ですか。—— これは新しい自転車です。",
        "en": "What is this? — This is a new bicycle.",
        "vi": "Đây là cái gì? — Đây là xe đạp mới.",
-       "pl": "Co to jest? — To nowy rower."
+       "pl": "Co to jest? — To nowy rower.",
+       "tr": "Bu ne? — Bu yeni bir bisiklet."
       }
      },
      {
@@ -1688,7 +1815,8 @@
        "ja": "この自転車はどうですか。—— この自転車は新しいです。",
        "en": "What is this bicycle like? — This bicycle is new.",
        "vi": "Xe đạp này thế nào? — Xe đạp này mới.",
-       "pl": "Jaki jest ten rower? — Ten rower jest nowy."
+       "pl": "Jaki jest ten rower? — Ten rower jest nowy.",
+       "tr": "Bu bisiklet nasıl? — Bu bisiklet yeni."
       }
      },
      {
@@ -1701,7 +1829,8 @@
        "ja": "あれは何ですか。—— あれは学部の食堂です。",
        "en": "What is that? — That is the faculty canteen.",
        "vi": "Kia là cái gì? — Kia là căng tin của khoa.",
-       "pl": "Co to jest? — To stołówka wydziałowa."
+       "pl": "Co to jest? — To stołówka wydziałowa.",
+       "tr": "Şu ne? — Şu, fakülte kantini."
       }
      },
      {
@@ -1714,7 +1843,8 @@
        "ja": "あの食堂はどうですか。—— あの食堂は広いです。",
        "en": "What is that canteen like? — That canteen is spacious.",
        "vi": "Căng tin đó thế nào? — Căng tin đó rộng.",
-       "pl": "Jaka jest tamta stołówka? — Tamta stołówka jest przestronna."
+       "pl": "Jaka jest tamta stołówka? — Tamta stołówka jest przestronna.",
+       "tr": "Şu kantin nasıl? — Şu kantin geniş."
       }
      },
      {
@@ -1727,7 +1857,8 @@
        "ja": "これは何ですか。—— これはいい本です。",
        "en": "What is this? — This is a good book.",
        "vi": "Đây là cái gì? — Đây là quyển sách hay.",
-       "pl": "Co to jest? — To dobra książka."
+       "pl": "Co to jest? — To dobra książka.",
+       "tr": "Bu ne? — Bu iyi bir kitap."
       }
      },
      {
@@ -1740,7 +1871,8 @@
        "ja": "この本はどうですか。—— この本は高いです。",
        "en": "What is this book like? — This book is expensive.",
        "vi": "Quyển sách này thế nào? — Quyển sách này đắt.",
-       "pl": "Jaka jest ta książka? — Ta książka jest droga."
+       "pl": "Jaka jest ta książka? — Ta książka jest droga.",
+       "tr": "Bu kitap nasıl? — Bu kitap pahalı."
       }
      }
     ]
@@ -1755,7 +1887,8 @@
      "ja": "「だれの」の言い方",
      "en": "Saying whose it is",
      "vi": "Nói “của ai”",
-     "pl": "Jak powiedzieć, czyje to jest"
+     "pl": "Jak powiedzieć, czyje to jest",
+     "tr": "Kimin olduğunu söylemek"
     },
     "cat": "tatabahasa"
    },
@@ -1766,7 +1899,8 @@
      "ja": "この章でいちばん大事なところであり、日本語・中国語・英語の話し手が共通してつまずくところでもあります。<b>インドネシア語は「だれの」を後ろに置きます。</b>",
      "en": "This is the most important point in the chapter, and the one that trips up Chinese, Japanese and English speakers alike: <b>Indonesian puts the owner second</b>.",
      "vi": "Đây là điểm quan trọng nhất của bài này, và cũng là điểm người Việt có sẵn lợi thế: <b>tiếng Indonesia đặt người sở hữu ở sau</b>, giống hệt tiếng Việt.",
-     "pl": "To najważniejsza rzecz w tym rozdziale i typowa pułapka dla osób mówiących po polsku: <b>indonezyjski stawia właściciela na drugim miejscu</b>."
+     "pl": "To najważniejsza rzecz w tym rozdziale i typowa pułapka dla osób mówiących po polsku: <b>indonezyjski stawia właściciela na drugim miejscu</b>.",
+     "tr": "Bu, bölümün en önemli noktası ve Türkçe konuşanlar için tipik bir tuzak: <b>Endonezce sahibi ikinci sıraya koyar</b>."
     }
    },
    {
@@ -1777,7 +1911,8 @@
      "ja": "もの→持ち主の順で、日本語とは逆です。",
      "en": "Thing first, owner second — the opposite of English.",
      "vi": "Vật đứng trước, người sở hữu đứng sau — giống hệt tiếng Việt.",
-     "pl": "Rzecz z przodu, właściciel z tyłu — odwrotnie niż po polsku."
+     "pl": "Rzecz z przodu, właściciel z tyłu — odwrotnie niż po polsku.",
+     "tr": "Önce şey, sonra sahibi — Türkçenin tam tersi."
     }
    },
    {
@@ -1788,21 +1923,24 @@
       "ja": "もの",
       "en": "thing",
       "vi": "vật",
-      "pl": "rzecz"
+      "pl": "rzecz",
+      "tr": "şey"
      },
      {
       "zh": "主人",
       "ja": "持ち主",
       "en": "owner",
       "vi": "người sở hữu",
-      "pl": "właściciel"
+      "pl": "właściciel",
+      "tr": "sahibi"
      },
      {
       "zh": "合起来",
       "ja": "合わせると",
       "en": "together",
       "vi": "ghép lại",
-      "pl": "razem"
+      "pl": "razem",
+      "tr": "birlikte"
      }
     ],
     "rows": [
@@ -1882,7 +2020,8 @@
      "ja": "持ち主が名詞のときは、そのまま後ろに置くだけで、何も加えません。最後の二つに注目してください。<s>kantin fakultas</s>（学部の食堂）、<s>peta dunia</s>（世界地図）—— 「持ち主」は人とはかぎらず、場所や範囲のこともあります。",
      "en": "When the owner is a noun it simply follows, with nothing added. Note the last two: <s>kantin fakultas</s> (the faculty canteen), <s>peta dunia</s> (a world map) — the “owner” need not be a person; it can be a place or a domain.",
      "vi": "Khi người sở hữu là danh từ thì cứ đặt thẳng phía sau, không thêm gì cả. Chú ý hai dòng cuối: <s>kantin fakultas</s> (căng tin của khoa), <s>peta dunia</s> (bản đồ thế giới) — “người sở hữu” không nhất thiết là người, có thể là một nơi chốn hay một phạm vi.",
-     "pl": "Kiedy właścicielem jest rzeczownik, po prostu staje z tyłu i nic nie dodajesz — żadnej końcówki, żadnego przyimka. Zwróć uwagę na dwa ostatnie wiersze: <s>kantin fakultas</s> (stołówka wydziałowa), <s>peta dunia</s> (mapa świata) — „właściciel” nie musi być osobą, może być miejscem albo dziedziną."
+     "pl": "Kiedy właścicielem jest rzeczownik, po prostu staje z tyłu i nic nie dodajesz — żadnej końcówki, żadnego przyimka. Zwróć uwagę na dwa ostatnie wiersze: <s>kantin fakultas</s> (stołówka wydziałowa), <s>peta dunia</s> (mapa świata) — „właściciel” nie musi być osobą, może być miejscem albo dziedziną.",
+     "tr": "Sahip bir isimse hiçbir şey eklenmeden arkaya gelir. Son ikisine dikkat: <s>kantin fakultas</s> (fakülte kantini), <s>peta dunia</s> (dünya haritası) — “sahip” illa bir kişi olmak zorunda değil; bir yer ya da alan da olabilir."
     }
    },
    {
@@ -1893,7 +2032,8 @@
      "ja": "逆にすると意味が変わる",
      "en": "Reverse it and the meaning changes",
      "vi": "Đảo lại là đổi nghĩa",
-     "pl": "Odwróć kolejność, a zmienisz sens"
+     "pl": "Odwróć kolejność, a zmienisz sens",
+     "tr": "Sırayı çevirirsen anlam değişir"
     },
     "lines": [
      {
@@ -1902,7 +2042,8 @@
        "ja": "<s>tas teman</s> は「友だちのかばん」ですが、<s>teman tas</s> にすると「かばんの友だち」になってしまいます。インドネシア語には「の」にあたる語がなく、位置だけで決まるので、順序をまちがえると意味が変わります。",
        "en": "<s>tas teman</s> is “a friend’s bag”; <s>teman tas</s> would be “the bag’s friend”. Indonesian has no word for “of” or “’s” — position alone carries the meaning, so the wrong order gives the wrong sense.",
        "vi": "<s>tas teman</s> là “cái túi của người bạn”, còn <s>teman tas</s> lại thành “người bạn của cái túi” — tiếng Indonesia không có từ nào tương ứng với “của”, nghĩa nằm hết ở vị trí, nên sai thứ tự là sai nghĩa.",
-       "pl": "<s>tas teman</s> to „torba kolegi”, a <s>teman tas</s> byłoby „kolega torby”. Indonezyjski nie ma odpowiednika polskiego dopełniacza ani żadnej końcówki przynależności — sens niesie sama pozycja, więc zła kolejność to złe znaczenie."
+       "pl": "<s>tas teman</s> to „torba kolegi”, a <s>teman tas</s> byłoby „kolega torby”. Indonezyjski nie ma odpowiednika polskiego dopełniacza ani żadnej końcówki przynależności — sens niesie sama pozycja, więc zła kolejność to złe znaczenie.",
+       "tr": "<s>tas teman</s> = “arkadaşın çantası”; <s>teman tas</s> ise “çantanın arkadaşı” olur. Endonezcede burada Türkçedeki -ın / -ı gibi ekler yok — anlamı yalnızca sıra taşır, bu yüzden yanlış sıra yanlış anlam demek."
       }
      }
     ]
@@ -1917,7 +2058,8 @@
      "ja": "わたしの・あなたの・かれの",
      "en": "My, your, his",
      "vi": "Của tôi, của bạn, của anh ấy",
-     "pl": "Mój, twój, jego"
+     "pl": "Mój, twój, jego",
+     "tr": "Benim, senin, onun"
     },
     "cat": "tatabahasa"
    },
@@ -1928,7 +2070,8 @@
      "ja": "持ち主が「わたし・あなた・かれ」のときは、語をそのまま書かずに、接尾辞をものの後ろにつけることができます。",
      "en": "When the owner is “me / you / him”, you can drop the full pronoun and attach a suffix to the thing instead.",
      "vi": "Khi người sở hữu là “tôi / bạn / anh ấy”, bạn có thể bỏ đại từ đầy đủ và gắn thẳng một hậu tố vào sau tên vật.",
-     "pl": "Kiedy właścicielem jest „ja / ty / on”, możesz pominąć cały zaimek i doczepić do rzeczy przyrostek."
+     "pl": "Kiedy właścicielem jest „ja / ty / on”, możesz pominąć cały zaimek i doczepić do rzeczy przyrostek.",
+     "tr": "Sahip “ben / sen / o” olduğunda zamirin tamamını yazmayabilir, onun yerine şeyin sonuna bir son ek ekleyebilirsin."
     }
    },
    {
@@ -1939,21 +2082,24 @@
       "ja": "持ち主",
       "en": "owner",
       "vi": "người sở hữu",
-      "pl": "właściciel"
+      "pl": "właściciel",
+      "tr": "sahibi"
      },
      {
       "zh": "写全",
       "ja": "語で書くと",
       "en": "full form",
       "vi": "viết đầy đủ",
-      "pl": "pełna forma"
+      "pl": "pełna forma",
+      "tr": "tam biçim"
      },
      {
       "zh": "用后缀",
       "ja": "接尾辞なら",
       "en": "with a suffix",
       "vi": "dùng hậu tố",
-      "pl": "z przyrostkiem"
+      "pl": "z przyrostkiem",
+      "tr": "son ekli"
      }
     ],
     "rows": [
@@ -1964,7 +2110,8 @@
         "ja": "わたし",
         "en": "me",
         "vi": "tôi",
-        "pl": "ja"
+        "pl": "ja",
+        "tr": "ben"
        }
       },
       {
@@ -1983,7 +2130,8 @@
         "ja": "あなた",
         "en": "you",
         "vi": "bạn",
-        "pl": "ty"
+        "pl": "ty",
+        "tr": "sen"
        }
       },
       {
@@ -2002,7 +2150,8 @@
         "ja": "かれ・かのじょ",
         "en": "him / her",
         "vi": "anh ấy / cô ấy",
-        "pl": "on / ona"
+        "pl": "on / ona",
+        "tr": "o"
        }
       },
       {
@@ -2020,7 +2169,8 @@
      "ja": "接尾辞はそのままつなげて書き、<b>ハイフンは入れません</b>：bukuku であって buku-ku ではありません。なお <s>saya</s>（あらたまった「わたし」）に<b>接尾辞の形はありません</b> —— <s>buku saya</s> としか言えません。",
      "en": "The suffix attaches directly, with <b>no hyphen</b>: bukuku, not buku-ku. Note also that <s>saya</s> (the formal “I”) has <b>no</b> suffix form — only <s>buku saya</s>.",
      "vi": "Hậu tố viết liền, <b>không có gạch nối</b>: bukuku, không phải buku-ku. Ngoài ra <s>saya</s> (“tôi” trang trọng) <b>không có</b> dạng hậu tố — chỉ nói được <s>buku saya</s>.",
-     "pl": "Przyrostek dopisujesz wprost, <b>bez łącznika</b>: bukuku, nie buku-ku. Pamiętaj też, że <s>saya</s> (formalne „ja”) <b>nie ma</b> formy z przyrostkiem — mówi się tylko <s>buku saya</s>."
+     "pl": "Przyrostek dopisujesz wprost, <b>bez łącznika</b>: bukuku, nie buku-ku. Pamiętaj też, że <s>saya</s> (formalne „ja”) <b>nie ma</b> formy z przyrostkiem — mówi się tylko <s>buku saya</s>.",
+     "tr": "Son ek doğrudan eklenir, <b>tire yok</b>: bukuku, buku-ku değil. Ayrıca dikkat: <s>saya</s> (resmî “ben”) için son ekli biçim <b>yoktur</b> — sadece <s>buku saya</s> denir."
     }
    },
    {
@@ -2030,7 +2180,8 @@
      "ja": "「持っている」から「その」へ",
      "en": "From “has” to “his”",
      "vi": "Từ “có” đến “của cô ấy”",
-     "pl": "Od „mieć” do „jej”"
+     "pl": "Od „mieć” do „jej”",
+     "tr": "“Var”dan “onun”a"
     }
    },
    {
@@ -2040,7 +2191,8 @@
      "ja": "教科書はこの変化を三段階で示しています。この三段階がわかれば、この章の文法は理解できたことになります。",
      "en": "The book shows this change in three steps. Understand these three and you have the grammar of this chapter:",
      "vi": "Sách giáo khoa trình bày thay đổi này bằng ba bước. Hiểu được ba bước này là bạn nắm được ngữ pháp của bài:",
-     "pl": "Podręcznik pokazuje tę zmianę w trzech krokach. Zrozumiesz te trzy kroki i masz gramatykę całego rozdziału:"
+     "pl": "Podręcznik pokazuje tę zmianę w trzech krokach. Zrozumiesz te trzy kroki i masz gramatykę całego rozdziału:",
+     "tr": "Kitap bu değişimi üç adımda gösteriyor. Bu üç adımı anlarsan bu bölümün dil bilgisi cebinde:"
     }
    },
    {
@@ -2059,7 +2211,8 @@
        "ja": "① Momoka さんは傘を持っています。",
        "en": "① Momoka has an umbrella.",
        "vi": "① Momoka có một cái ô.",
-       "pl": "① Momoka ma parasol."
+       "pl": "① Momoka ma parasol.",
+       "tr": "① Momoka'nın bir şemsiyesi var."
       }
      },
      {
@@ -2075,7 +2228,8 @@
        "ja": "②「Momoka さんの傘」（もの→持ち主の順）",
        "en": "② Momoka’s umbrella (thing first, owner second)",
        "vi": "② cái ô của Momoka (vật trước, người sở hữu sau)",
-       "pl": "② parasol Momoki (rzecz z przodu, właściciel z tyłu)"
+       "pl": "② parasol Momoki (rzecz z przodu, właściciel z tyłu)",
+       "tr": "② Momoka'nın şemsiyesi (önce şey, sonra sahibi)"
       }
      },
      {
@@ -2091,7 +2245,8 @@
        "ja": "③ その傘は大きいです。（持ち主を接尾辞に）",
        "en": "③ Her umbrella is big. (owner becomes a suffix)",
        "vi": "③ Ô của cô ấy to. (người sở hữu thành hậu tố)",
-       "pl": "③ Jej parasol jest duży. (właściciel zamienia się w przyrostek)"
+       "pl": "③ Jej parasol jest duży. (właściciel zamienia się w przyrostek)",
+       "tr": "③ Onun şemsiyesi büyük. (sahip son eke dönüşür)"
       }
      }
     ]
@@ -2103,7 +2258,8 @@
      "ja": "もう一組",
      "en": "One more",
      "vi": "Thêm một nhóm nữa",
-     "pl": "Jeszcze jeden zestaw"
+     "pl": "Jeszcze jeden zestaw",
+     "tr": "Bir tane daha"
     },
     "items": [
      {
@@ -2119,7 +2275,8 @@
        "ja": "① わたしには弟・妹がいます。",
        "en": "① I have younger siblings.",
        "vi": "① Tôi có em.",
-       "pl": "① Mam młodsze rodzeństwo."
+       "pl": "① Mam młodsze rodzeństwo.",
+       "tr": "① Küçük kardeşlerim var."
       }
      },
      {
@@ -2135,7 +2292,8 @@
        "ja": "②「わたしの弟・妹」",
        "en": "② my younger siblings",
        "vi": "② em của tôi",
-       "pl": "② moje młodsze rodzeństwo"
+       "pl": "② moje młodsze rodzeństwo",
+       "tr": "② benim küçük kardeşlerim"
       }
      },
      {
@@ -2151,7 +2309,8 @@
        "ja": "③ 弟・妹は二人です。",
        "en": "③ I have two of them.",
        "vi": "③ Tôi có hai em.",
-       "pl": "③ Mam dwoje młodszego rodzeństwa."
+       "pl": "③ Mam dwoje młodszego rodzeństwa.",
+       "tr": "③ İki tane küçük kardeşim var."
       }
      }
     ]
@@ -2164,7 +2323,8 @@
      "ja": "相手によって使い分け",
      "en": "Mind who you are talking to",
      "vi": "Nói với ai thì dùng cái nào",
-     "pl": "Zważaj, do kogo mówisz"
+     "pl": "Zważaj, do kogo mówisz",
+     "tr": "Kiminle konuştuğuna dikkat et"
     },
     "lines": [
      {
@@ -2173,7 +2333,8 @@
        "ja": "<b>-ku</b> と <b>-mu</b> はくだけた言い方で、友だちや同級生に使います。先生や目上の人、親しくない相手には <s>buku saya</s>・<s>buku Anda</s> と言い、<s>bukumu</s> は使いません。教科書の練習はすべてフォーマルな言い方です。",
        "en": "<b>-ku</b> and <b>-mu</b> are casual, for friends and classmates. With teachers, elders or people you do not know, say <s>buku saya</s> and <s>buku Anda</s>, not <s>bukumu</s>. The book’s exercises all use the formal forms.",
        "vi": "<b>-ku</b> và <b>-mu</b> là văn nói, dùng với bạn bè, bạn cùng lớp. Với giáo viên, người lớn tuổi hay người chưa quen thì nói <s>buku saya</s>, <s>buku Anda</s>, đừng nói <s>bukumu</s>. Bài tập trong sách đều dùng cách trang trọng.",
-       "pl": "<b>-ku</b> i <b>-mu</b> są potoczne, do kolegów i osób z grupy. Do wykładowcy, osoby starszej albo nieznajomej powiesz <s>buku saya</s> i <s>buku Anda</s>, a nie <s>bukumu</s>. Ćwiczenia w podręczniku używają wyłącznie form formalnych."
+       "pl": "<b>-ku</b> i <b>-mu</b> są potoczne, do kolegów i osób z grupy. Do wykładowcy, osoby starszej albo nieznajomej powiesz <s>buku saya</s> i <s>buku Anda</s>, a nie <s>bukumu</s>. Ćwiczenia w podręczniku używają wyłącznie form formalnych.",
+       "tr": "<b>-ku</b> ve <b>-mu</b> günlük dildir, arkadaşlar ve sınıf arkadaşları için. Öğretmenlerle, büyüklerle ya da tanımadığın kişilerle <s>bukumu</s> değil, <s>buku saya</s> ve <s>buku Anda</s> de. Kitaptaki alıştırmaların hepsi resmî biçimleri kullanıyor."
       }
      }
     ]
@@ -2186,7 +2347,8 @@
      "ja": "-nya のもう一つの使い方",
      "en": "Another use of -nya",
      "vi": "Một cách dùng khác của -nya",
-     "pl": "Drugie zastosowanie -nya"
+     "pl": "Drugie zastosowanie -nya",
+     "tr": "-nya'nın bir başka kullanımı"
     },
     "lines": [
      {
@@ -2195,7 +2357,8 @@
        "ja": "<b>-nya</b> は「かれの」のほかに、「いま話に出たそれ」を指すこともできます：<s>Itu peta dunia. Petanya besar.</s> —— 二つめの petanya は「かれの地図」ではなく「その地図」です。前のページの会話でもこの使い方が出てきました。",
        "en": "Besides “his/her”, <b>-nya</b> can point back to something just mentioned: <s>Itu peta dunia. Petanya besar.</s> — here petanya is not “his map” but “that map”. The dialogue two pages back uses it this way.",
        "vi": "Ngoài nghĩa “của anh ấy / cô ấy”, <b>-nya</b> còn dùng để chỉ lại thứ vừa nhắc đến: <s>Itu peta dunia. Petanya besar.</s> — petanya ở câu thứ hai không phải “bản đồ của anh ấy” mà là “tấm bản đồ đó”. Đoạn hội thoại ở trang trước dùng đúng kiểu này.",
-       "pl": "Poza znaczeniem „jego / jej” <b>-nya</b> odsyła też do czegoś, co przed chwilą padło: <s>Itu peta dunia. Petanya besar.</s> — petanya to tu nie „jego mapa”, tylko „ta mapa”. Dialog dwie strony wcześniej używa go właśnie tak."
+       "pl": "Poza znaczeniem „jego / jej” <b>-nya</b> odsyła też do czegoś, co przed chwilą padło: <s>Itu peta dunia. Petanya besar.</s> — petanya to tu nie „jego mapa”, tylko „ta mapa”. Dialog dwie strony wcześniej używa go właśnie tak.",
+       "tr": "<b>-nya</b> “onun” anlamı dışında az önce bahsedilen bir şeyi de gösterebilir: <s>Itu peta dunia. Petanya besar.</s> — burada petanya “onun haritası” değil, “o harita” demek. İki sayfa önceki diyalog onu böyle kullanıyor."
       }
      }
     ]
@@ -2211,7 +2374,8 @@
      "ja": "授業ノート · -nya は誰の代わりになるか",
      "en": "Class notes · what -nya can stand for",
      "vi": "Ghi chép trên lớp · -nya thay được cho ai",
-     "pl": "Notatki z zajęć · kogo zastępuje -nya"
+     "pl": "Notatki z zajęć · kogo zastępuje -nya",
+     "tr": "Ders notları · -nya neyin yerini tutabilir"
     }
    },
    {
@@ -2221,7 +2385,8 @@
      "ja": "前のページの表では <b>-nya</b> は <s>dia</s> の所有形としてだけ出てきました。授業ではいちばん役に立つ一言が加わりました：持ち主が「第三者」なら —— 人でも場所でも組織でも —— 二度目に言うときは -nya に縮められます。",
      "en": "The table on the previous page only presents <b>-nya</b> as the suffix for <s>dia</s>. In class the teacher added the most useful point: any third-party owner — a person, a place, an institution — can be shortened to -nya the second time it is mentioned.",
      "vi": "Bảng ở trang trước chỉ nói <b>-nya</b> là dạng của <s>dia</s>. Trên lớp giáo viên bổ sung điều hữu ích nhất: người sở hữu cứ là “bên thứ ba” — người, nơi chốn hay cơ quan đều được — thì lần nhắc thứ hai đều rút thành -nya.",
-     "pl": "Tabela na poprzedniej stronie pokazuje <b>-nya</b> tylko jako formę <s>dia</s>. Na zajęciach wykładowca dodał rzecz najbardziej przydatną: każdy właściciel „trzeci” — osoba, miejsce, instytucja — przy drugiej wzmiance skraca się do -nya."
+     "pl": "Tabela na poprzedniej stronie pokazuje <b>-nya</b> tylko jako formę <s>dia</s>. Na zajęciach wykładowca dodał rzecz najbardziej przydatną: każdy właściciel „trzeci” — osoba, miejsce, instytucja — przy drugiej wzmiance skraca się do -nya.",
+     "tr": "Önceki sayfadaki tablo <b>-nya</b> ekini yalnızca <s>dia</s> zamirinin son eki olarak gösteriyor. Derste öğretmen en işe yarar noktayı ekledi: üçüncü taraf olan her sahip — bir kişi, bir yer, bir kurum — ikinci kez anıldığında -nya'ya kısaltılabilir."
     }
    },
    {
@@ -2232,7 +2397,8 @@
      "ja": "持ち主が「わたし」でも「あなた」でもなく、だれのものかがわかったあとは -nya で受けます。",
      "en": "The owner is neither me nor you; once it is clear who, -nya takes over.",
      "vi": "Người sở hữu không phải tôi, không phải bạn; khi đã rõ là của ai thì thay bằng -nya.",
-     "pl": "Właścicielem nie jestem ja ani nie jesteś ty; kiedy już wiadomo, o kogo chodzi, wchodzi -nya."
+     "pl": "Właścicielem nie jestem ja ani nie jesteś ty; kiedy już wiadomo, o kogo chodzi, wchodzi -nya.",
+     "tr": "Sahip ne ben ne sen; kimin olduğu belli olunca yerini -nya alır."
     }
    },
    {
@@ -2243,14 +2409,16 @@
       "ja": "語で書くと",
       "en": "Full form",
       "vi": "Viết đầy đủ",
-      "pl": "Pełna forma"
+      "pl": "Pełna forma",
+      "tr": "Tam biçim"
      },
      {
       "zh": "用 -nya",
       "ja": "-nya なら",
       "en": "With -nya",
       "vi": "Dùng -nya",
-      "pl": "Z -nya"
+      "pl": "Z -nya",
+      "tr": "-nya ile"
      }
     ],
     "rows": [
@@ -2320,7 +2488,8 @@
      "ja": "初出のときは語で書き、だれのものかを示します。そのあとは -nya で受けます。<s>kantinnya</s> だけ取り出すと「かれの食堂」とも「学部の食堂」とも取れます —— 文脈しだいなので、最初は必ず語で書くこと。",
      "en": "Write the owner out the first time so people know whose it is; after that, -nya. On its own <s>kantinnya</s> could be “his canteen” or “the faculty’s canteen” — context decides, which is why the first mention must be in full.",
      "vi": "Lần đầu nhắc đến phải viết đầy đủ để người nghe biết là của ai; sau đó mới dùng -nya. Tách riêng <s>kantinnya</s> ra thì có thể là “căng tin của anh ấy” hay “căng tin của khoa” — phải dựa vào ngữ cảnh, nên lần đầu nhất định viết đầy đủ.",
-     "pl": "Za pierwszym razem wypisz właściciela w całości, żeby było wiadomo, czyje to; potem już -nya. Samo <s>kantinnya</s> może znaczyć „jego stołówka” albo „stołówka wydziału” — rozstrzyga kontekst, dlatego pierwsza wzmianka musi być pełna."
+     "pl": "Za pierwszym razem wypisz właściciela w całości, żeby było wiadomo, czyje to; potem już -nya. Samo <s>kantinnya</s> może znaczyć „jego stołówka” albo „stołówka wydziału” — rozstrzyga kontekst, dlatego pierwsza wzmianka musi być pełna.",
+     "tr": "Kimin olduğu bilinsin diye sahibi ilk seferde açıkça yaz; sonrasında -nya. Tek başına <s>kantinnya</s> “onun kantini” de olabilir, “fakültenin kantini” de — bağlam belirler; bu yüzden ilk anış tam olmalı."
     }
    },
    {
@@ -2330,7 +2499,8 @@
      "ja": "三段階：punya → 語で → -nya",
      "en": "Three steps: punya → full form → -nya",
      "vi": "Ba bước: punya → viết đầy đủ → -nya",
-     "pl": "Trzy kroki: punya → pełna forma → -nya"
+     "pl": "Trzy kroki: punya → pełna forma → -nya",
+     "tr": "Üç adım: punya → tam biçim → -nya"
     },
     "items": [
      {
@@ -2346,7 +2516,8 @@
        "ja": "① おばあさんは家を持っています。",
        "en": "① Grandma has a house.",
        "vi": "① Bà có một ngôi nhà.",
-       "pl": "① Babcia ma dom."
+       "pl": "① Babcia ma dom.",
+       "tr": "① Büyükannenin bir evi var."
       }
      },
      {
@@ -2362,7 +2533,8 @@
        "ja": "② rumah nenek → rumahnya　③ その家は大きいです。",
        "en": "② rumah nenek → rumahnya　③ Her house is big.",
        "vi": "② rumah nenek → rumahnya　③ Nhà của bà to.",
-       "pl": "② rumah nenek → rumahnya ③ Jej dom jest duży."
+       "pl": "② rumah nenek → rumahnya ③ Jej dom jest duży.",
+       "tr": "② rumah nenek → rumahnya ③ Onun evi büyük."
       }
      },
      {
@@ -2378,7 +2550,8 @@
        "ja": "① キャンパスには食堂があります。",
        "en": "① The campus has a canteen.",
        "vi": "① Khuôn viên trường có căng tin.",
-       "pl": "① Kampus ma stołówkę."
+       "pl": "① Kampus ma stołówkę.",
+       "tr": "① Kampüsün bir kantini var."
       }
      },
      {
@@ -2394,7 +2567,8 @@
        "ja": "② kantin kampus → kantinnya　③ その食堂は広いです。—— 持ち主が場所でも -nya。",
        "en": "② kantin kampus → kantinnya　③ Its canteen is spacious. — The owner is a place, and -nya still applies.",
        "vi": "② kantin kampus → kantinnya　③ Căng tin của trường rộng. — Chủ sở hữu là nơi chốn, vẫn dùng -nya.",
-       "pl": "② kantin kampus → kantinnya ③ Jego stołówka jest przestronna. — Właścicielem jest miejsce, a -nya działa tak samo."
+       "pl": "② kantin kampus → kantinnya ③ Jego stołówka jest przestronna. — Właścicielem jest miejsce, a -nya działa tak samo.",
+       "tr": "② kantin kampus → kantinnya ③ Kantini geniş. — Sahip bir yer, ama -nya yine geçerli."
       }
      },
      {
@@ -2410,7 +2584,8 @@
        "ja": "① Bethany は辞書を持っています。",
        "en": "① Bethany has a dictionary.",
        "vi": "① Bethany có một quyển từ điển.",
-       "pl": "① Bethany ma słownik."
+       "pl": "① Bethany ma słownik.",
+       "tr": "① Bethany'nin bir sözlüğü var."
       }
      },
      {
@@ -2426,7 +2601,8 @@
        "ja": "② kamus Bethany → kamusnya　③ その辞書は新しいです。",
        "en": "② kamus Bethany → kamusnya　③ Her dictionary is new.",
        "vi": "② kamus Bethany → kamusnya　③ Từ điển của cô ấy mới.",
-       "pl": "② kamus Bethany → kamusnya ③ Jej słownik jest nowy."
+       "pl": "② kamus Bethany → kamusnya ③ Jej słownik jest nowy.",
+       "tr": "② kamus Bethany → kamusnya ③ Onun sözlüğü yeni."
       }
      }
     ]
@@ -2439,7 +2615,8 @@
      "ja": "saya はつねに語で",
      "en": "saya never takes a suffix",
      "vi": "saya luôn viết đầy đủ",
-     "pl": "saya nigdy nie bierze przyrostka"
+     "pl": "saya nigdy nie bierze przyrostka",
+     "tr": "saya hiç son ek almaz"
     },
     "lines": [
      {
@@ -2448,7 +2625,8 @@
        "ja": "<s>saya</s> に接尾辞はありません。「わたしの本」は <s>buku saya</s> で、*bukunya とは言えません —— <s>bukunya</s> は「かれの本」で、意味がまるで変わります。<s>Anda</s> と <s>beliau</s> も同じで、語で書くしかありません：<s>buku Anda</s>・<s>buku beliau</s>。",
        "en": "<s>saya</s> has no suffix: “my book” is <s>buku saya</s>, never *bukunya — <s>bukunya</s> means “his/her book”, a different thing altogether. <s>Anda</s> and <s>beliau</s> are the same: always in full, <s>buku Anda</s>, <s>buku beliau</s>.",
        "vi": "<s>saya</s> không có hậu tố: “sách của tôi” là <s>buku saya</s>, không được viết *bukunya — <s>bukunya</s> là “sách của anh ấy”, nghĩa khác hẳn. <s>Anda</s> và <s>beliau</s> cũng vậy, chỉ viết đầy đủ: <s>buku Anda</s>, <s>buku beliau</s>.",
-       "pl": "<s>saya</s> nie ma przyrostka: „moja książka” to <s>buku saya</s>, nigdy *bukunya — <s>bukunya</s> znaczy „jego książka”, czyli zupełnie co innego. Tak samo <s>Anda</s> i <s>beliau</s>: zawsze w całości, <s>buku Anda</s>, <s>buku beliau</s>."
+       "pl": "<s>saya</s> nie ma przyrostka: „moja książka” to <s>buku saya</s>, nigdy *bukunya — <s>bukunya</s> znaczy „jego książka”, czyli zupełnie co innego. Tak samo <s>Anda</s> i <s>beliau</s>: zawsze w całości, <s>buku Anda</s>, <s>buku beliau</s>.",
+       "tr": "<s>saya</s> son ek almaz: “benim kitabım” = <s>buku saya</s>, asla *bukunya değil — <s>bukunya</s> “onun kitabı” demek, bambaşka bir şey. <s>Anda</s> ve <s>beliau</s> da öyle: her zaman tam hâliyle, <s>buku Anda</s>, <s>buku beliau</s>."
       }
      },
      {
@@ -2457,7 +2635,8 @@
        "ja": "語体：<b>-ku</b>／<b>-mu</b> はくだけた言い方で友だち向け、<s>saya</s>／<s>Anda</s> はあらたまった言い方で先生や目上の人向け。<b>-nya</b> はどちらでも使えます。",
        "en": "Register: <b>-ku</b> / <b>-mu</b> are casual, for friends and classmates; <s>saya</s> / <s>Anda</s> are formal, for teachers and elders. <b>-nya</b> works in both.",
        "vi": "Ngữ thể: <b>-ku</b> / <b>-mu</b> là thân mật, dùng với bạn bè; <s>saya</s> / <s>Anda</s> là trang trọng, dùng với giáo viên, người lớn tuổi. <b>-nya</b> dùng được ở cả hai.",
-       "pl": "Rejestr: <b>-ku</b> / <b>-mu</b> to mowa potoczna, do kolegów i osób z grupy; <s>saya</s> / <s>Anda</s> to styl formalny, do wykładowców i osób starszych. <b>-nya</b> pasuje do obu."
+       "pl": "Rejestr: <b>-ku</b> / <b>-mu</b> to mowa potoczna, do kolegów i osób z grupy; <s>saya</s> / <s>Anda</s> to styl formalny, do wykładowców i osób starszych. <b>-nya</b> pasuje do obu.",
+       "tr": "Dil düzeyi: <b>-ku</b> / <b>-mu</b> günlük dildir, arkadaşlar ve sınıf arkadaşları için; <s>saya</s> / <s>Anda</s> resmî dildir, öğretmenler ve büyükler için. <b>-nya</b> ikisinde de kullanılır."
       }
      }
     ]
@@ -2469,7 +2648,8 @@
      "ja": "次の各問には punya の文があります。上の三段階で -nya の文に直し、形容詞を一つ足してください。解答例の形容詞は一例です。",
      "en": "Each item below gives a punya sentence. Rewrite it as a -nya sentence following the three steps above, adding an adjective. The adjective in the model answer is only one possibility.",
      "vi": "Mỗi câu dưới đây cho một câu punya. Hãy đổi thành câu -nya theo ba bước ở trên rồi thêm một tính từ. Tính từ trong đáp án mẫu chỉ là một cách viết.",
-     "pl": "Każde zadanie niżej daje zdanie z punya. Przerób je na zdanie z -nya według trzech kroków powyżej i dodaj przymiotnik. Przymiotnik w odpowiedzi wzorcowej to tylko jedna z możliwości."
+     "pl": "Każde zadanie niżej daje zdanie z punya. Przerób je na zdanie z -nya według trzech kroków powyżej i dodaj przymiotnik. Przymiotnik w odpowiedzi wzorcowej to tylko jedna z możliwości.",
+     "tr": "Aşağıdaki her maddede bir punya cümlesi var. Yukarıdaki üç adımı izleyerek onu bir -nya cümlesine çevir ve bir sıfat ekle. Örnek cevaptaki sıfat yalnızca bir olasılık."
     }
    },
    {
@@ -2479,7 +2659,8 @@
      "ja": "持ち主を -nya に",
      "en": "Turn the owner into -nya",
      "vi": "Đổi người sở hữu thành -nya",
-     "pl": "Zamień właściciela na -nya"
+     "pl": "Zamień właściciela na -nya",
+     "tr": "Sahibi -nya'ya çevir"
     },
     "items": [
      {
@@ -2591,14 +2772,16 @@
      "ja": "宿題",
      "en": "Homework",
      "vi": "Bài tập về nhà",
-     "pl": "Praca domowa"
+     "pl": "Praca domowa",
+     "tr": "Ödev"
     },
     "text": {
      "zh": "自己写 10 个句子：<b>-ku</b>、<b>-mu</b>、<b>-nya</b>、<s>saya</s>、<s>Anda</s> 各两句。每句先写 punya 句，再改成领属句，例如：Aku punya sepeda. → Sepedaku baru. 主人是老师或长辈的那几句，记得用正式说法。",
      "ja": "自分で 10 文書いてみましょう：<b>-ku</b>・<b>-mu</b>・<b>-nya</b>・<s>saya</s>・<s>Anda</s> を二文ずつ。まず punya の文を書き、それを所有の文に書き換えます。例：Aku punya sepeda. → Sepedaku baru. 持ち主が先生や目上の人なら、あらたまった形を使うこと。",
      "en": "Write ten sentences of your own: two each with <b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s> and <s>Anda</s>. Start each from a punya sentence, then rewrite it, e.g. Aku punya sepeda. → Sepedaku baru. Where the owner is a teacher or an elder, use the formal form.",
      "vi": "Tự viết 10 câu: <b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s> mỗi loại hai câu. Mỗi câu viết câu punya trước rồi đổi thành câu sở hữu, ví dụ: Aku punya sepeda. → Sepedaku baru. Câu nào người sở hữu là giáo viên hay người lớn tuổi thì nhớ dùng dạng trang trọng.",
-     "pl": "Napisz dziesięć własnych zdań: po dwa z <b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s> i <s>Anda</s>. Zacznij każde od zdania z punya, a potem je przerób, np. Aku punya sepeda. → Sepedaku baru. Tam, gdzie właścicielem jest wykładowca albo osoba starsza, użyj formy formalnej."
+     "pl": "Napisz dziesięć własnych zdań: po dwa z <b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s> i <s>Anda</s>. Zacznij każde od zdania z punya, a potem je przerób, np. Aku punya sepeda. → Sepedaku baru. Tam, gdzie właścicielem jest wykładowca albo osoba starsza, użyj formy formalnej.",
+     "tr": "Kendi on cümleni yaz: <b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s> ve <s>Anda</s> ile ikişer tane. Her birine bir punya cümlesiyle başla, sonra dönüştür, örneğin Aku punya sepeda. → Sepedaku baru. Sahip bir öğretmen ya da büyük biriyse resmî biçimi kullan."
     }
    }
   ],
@@ -2611,7 +2794,8 @@
      "ja": "練習 · ものの名前を言う",
      "en": "Practice · name the things around you",
      "vi": "Luyện tập · gọi tên đồ vật",
-     "pl": "Ćwiczenia · nazwij przedmioty"
+     "pl": "Ćwiczenia · nazwij przedmioty",
+     "tr": "Pratik · etrafındaki şeylerin adını söyle"
     },
     "cat": "latihan"
    },
@@ -2622,7 +2806,8 @@
      "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
      "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
      "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
-     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne.",
+     "tr": "Ders kitabının bu bölümündeki alıştırma türleri, ama cümleler bizim. Her birini önce kendin dene, sonra cevabı görmek için dokun. <b>Cevap yalnızca olası bir örnek</b> — farklı bir cümle de doğru olabilir."
     }
    },
    {
@@ -2632,7 +2817,8 @@
      "ja": "ものを見て答える · pakai ini / itu",
      "en": "Answer while looking at the object · pakai ini / itu",
      "vi": "Nhìn đồ vật rồi trả lời · pakai ini / itu",
-     "pl": "Odpowiedz, patrząc na przedmiot · pakai ini / itu"
+     "pl": "Odpowiedz, patrząc na przedmiot · pakai ini / itu",
+     "tr": "Nesneye bakarak cevap ver · pakai ini / itu"
     },
     "items": [
      {
@@ -2643,7 +2829,8 @@
         "ja": "これは何ですか。（辞書）",
         "en": "What is this? (dictionary)",
         "vi": "Đây là cái gì? (từ điển)",
-        "pl": "Co to jest? (słownik)"
+        "pl": "Co to jest? (słownik)",
+        "tr": "Bu ne? (sözlük)"
        }
       },
       "answer": {
@@ -2658,7 +2845,8 @@
         "ja": "これは辞書です。",
         "en": "This is a dictionary.",
         "vi": "Đây là từ điển.",
-        "pl": "To jest słownik."
+        "pl": "To jest słownik.",
+        "tr": "Bu bir sözlük."
        }
       }
      },
@@ -2670,7 +2858,8 @@
         "ja": "あれは何ですか。（ホワイトボード）",
         "en": "What is that? (whiteboard)",
         "vi": "Kia là cái gì? (cái bảng)",
-        "pl": "Co to jest tam? (tablica)"
+        "pl": "Co to jest tam? (tablica)",
+        "tr": "Şu ne? (beyaz tahta)"
        }
       },
       "answer": {
@@ -2685,7 +2874,8 @@
         "ja": "あれはホワイトボードです。",
         "en": "That is a whiteboard.",
         "vi": "Kia là cái bảng.",
-        "pl": "Tam jest tablica."
+        "pl": "Tam jest tablica.",
+        "tr": "Şu bir beyaz tahta."
        }
       }
      },
@@ -2697,7 +2887,8 @@
         "ja": "これは何ですか。（定規）",
         "en": "What is this? (ruler)",
         "vi": "Đây là cái gì? (thước kẻ)",
-        "pl": "Co to jest? (linijka)"
+        "pl": "Co to jest? (linijka)",
+        "tr": "Bu ne? (cetvel)"
        }
       },
       "answer": {
@@ -2712,7 +2903,8 @@
         "ja": "これは定規です。",
         "en": "This is a ruler.",
         "vi": "Đây là thước kẻ.",
-        "pl": "To jest linijka."
+        "pl": "To jest linijka.",
+        "tr": "Bu bir cetvel."
        }
       }
      },
@@ -2724,7 +2916,8 @@
         "ja": "あれは何ですか。（掛け時計）",
         "en": "What is that? (wall clock)",
         "vi": "Kia là cái gì? (đồng hồ treo tường)",
-        "pl": "Co to jest tam? (zegar ścienny)"
+        "pl": "Co to jest tam? (zegar ścienny)",
+        "tr": "Şu ne? (duvar saati)"
        }
       },
       "answer": {
@@ -2739,7 +2932,8 @@
         "ja": "あれは掛け時計です。",
         "en": "That is a wall clock.",
         "vi": "Kia là đồng hồ treo tường.",
-        "pl": "Tam jest zegar ścienny."
+        "pl": "Tam jest zegar ścienny.",
+        "tr": "Şu bir duvar saati."
        }
       }
      },
@@ -2751,7 +2945,8 @@
         "ja": "これは何ですか。（かばん）",
         "en": "What is this? (bag)",
         "vi": "Đây là cái gì? (cái túi)",
-        "pl": "Co to jest? (torba)"
+        "pl": "Co to jest? (torba)",
+        "tr": "Bu ne? (çanta)"
        }
       },
       "answer": {
@@ -2766,7 +2961,8 @@
         "ja": "これはかばんです。",
         "en": "This is a bag.",
         "vi": "Đây là cái túi.",
-        "pl": "To jest torba."
+        "pl": "To jest torba.",
+        "tr": "Bu bir çanta."
        }
       }
      },
@@ -2778,7 +2974,8 @@
         "ja": "あれは何ですか。（カーテン）",
         "en": "What is that? (curtain)",
         "vi": "Kia là cái gì? (rèm cửa)",
-        "pl": "Co to jest tam? (zasłona)"
+        "pl": "Co to jest tam? (zasłona)",
+        "tr": "Şu ne? (perde)"
        }
       },
       "answer": {
@@ -2793,7 +2990,8 @@
         "ja": "あれはカーテンです。",
         "en": "That is a curtain.",
         "vi": "Kia là rèm cửa.",
-        "pl": "Tam jest zasłona."
+        "pl": "Tam jest zasłona.",
+        "tr": "Şu bir perde."
        }
       }
      },
@@ -2805,7 +3003,8 @@
         "ja": "これは何ですか。（めがね）",
         "en": "What is this? (glasses)",
         "vi": "Đây là cái gì? (kính)",
-        "pl": "Co to jest? (okulary)"
+        "pl": "Co to jest? (okulary)",
+        "tr": "Bu ne? (gözlük)"
        }
       },
       "answer": {
@@ -2820,7 +3019,8 @@
         "ja": "これはめがねです。",
         "en": "These are glasses.",
         "vi": "Đây là cái kính.",
-        "pl": "To są okulary."
+        "pl": "To są okulary.",
+        "tr": "Bu bir gözlük."
        }
       }
      },
@@ -2832,7 +3032,8 @@
         "ja": "あれは何ですか。（地図）",
         "en": "What is that? (map)",
         "vi": "Kia là cái gì? (bản đồ)",
-        "pl": "Co to jest tam? (mapa)"
+        "pl": "Co to jest tam? (mapa)",
+        "tr": "Şu ne? (harita)"
        }
       },
       "answer": {
@@ -2848,7 +3049,8 @@
         "ja": "あれは世界地図です。",
         "en": "That is a world map.",
         "vi": "Kia là bản đồ thế giới.",
-        "pl": "Tam jest mapa świata."
+        "pl": "Tam jest mapa świata.",
+        "tr": "O bir dünya haritası."
        }
       }
      },
@@ -2860,7 +3062,8 @@
         "ja": "これは何ですか。（ボールペン）",
         "en": "What is this? (ballpoint pen)",
         "vi": "Đây là cái gì? (bút bi)",
-        "pl": "Co to jest? (długopis)"
+        "pl": "Co to jest? (długopis)",
+        "tr": "Bu ne? (tükenmez kalem)"
        }
       },
       "answer": {
@@ -2875,7 +3078,8 @@
         "ja": "これはボールペンです。",
         "en": "This is a ballpoint pen.",
         "vi": "Đây là bút bi.",
-        "pl": "To jest długopis."
+        "pl": "To jest długopis.",
+        "tr": "Bu bir tükenmez kalem."
        }
       }
      },
@@ -2887,7 +3091,8 @@
         "ja": "あれは何ですか。（本棚）",
         "en": "What is that? (bookshelf)",
         "vi": "Kia là cái gì? (giá sách)",
-        "pl": "Co to jest tam? (regał na książki)"
+        "pl": "Co to jest tam? (regał na książki)",
+        "tr": "Şu ne? (kitaplık)"
        }
       },
       "answer": {
@@ -2902,7 +3107,8 @@
         "ja": "あれは本棚です。",
         "en": "That is a bookshelf.",
         "vi": "Kia là giá sách.",
-        "pl": "Tam jest regał na książki."
+        "pl": "Tam jest regał na książki.",
+        "tr": "Şu bir kitaplık."
        }
       }
      }
@@ -2915,14 +3121,16 @@
      "ja": "教室での課題",
      "en": "Classroom task",
      "vi": "Nhiệm vụ trên lớp",
-     "pl": "Zadanie na zajęciach"
+     "pl": "Zadanie na zajęciach",
+     "tr": "Sınıf görevi"
     },
     "text": {
      "zh": "和同学两个人一组：一个人指着教室里的东西问 <s>Ini apa?</s> 或 <s>Itu apa?</s>，另一个人答。指近的用 <s>ini</s>，指远的用 <s>itu</s>，一人问十样再换。",
      "ja": "二人一組で：一人が教室のものを指して <s>Ini apa?</s> か <s>Itu apa?</s> と聞き、もう一人が答えます。近いものは <s>ini</s>、遠いものは <s>itu</s>。十個聞いたら交代。",
      "en": "In pairs: one person points at something in the room and asks <s>Ini apa?</s> or <s>Itu apa?</s>, the other answers. Use <s>ini</s> for what is near you and <s>itu</s> for what is further away. Ten questions each, then swap.",
      "vi": "Làm theo cặp: một người chỉ vào đồ vật trong lớp và hỏi <s>Ini apa?</s> hoặc <s>Itu apa?</s>, người kia trả lời. Gần thì dùng <s>ini</s>, xa thì dùng <s>itu</s>. Mỗi người hỏi mười lần rồi đổi vai.",
-     "pl": "W parach: jedna osoba wskazuje przedmiot w sali i pyta <s>Ini apa?</s> albo <s>Itu apa?</s>, druga odpowiada. Blisko — <s>ini</s>, dalej — <s>itu</s>. Po dziesięciu pytaniach zamiana."
+     "pl": "W parach: jedna osoba wskazuje przedmiot w sali i pyta <s>Ini apa?</s> albo <s>Itu apa?</s>, druga odpowiada. Blisko — <s>ini</s>, dalej — <s>itu</s>. Po dziesięciu pytaniach zamiana.",
+     "tr": "İkili çalışma: biri sınıftaki bir şeyi gösterip <s>Ini apa?</s> ya da <s>Itu apa?</s> diye sorar, diğeri cevaplar. Yakınındaki için <s>ini</s>, uzaktaki için <s>itu</s> kullan. Herkes on soru sorsun, sonra rolleri değiştirin."
     }
    }
   ],
@@ -2935,7 +3143,8 @@
      "ja": "練習 · punya の文を所有の文に",
      "en": "Practice · turn a punya sentence into a possessive one",
      "vi": "Luyện tập · đổi câu punya thành câu sở hữu",
-     "pl": "Ćwiczenia · zamień zdanie z punya na dzierżawcze"
+     "pl": "Ćwiczenia · zamień zdanie z punya na dzierżawcze",
+     "tr": "Pratik · punya cümlesini iyelik cümlesine çevir"
     },
     "cat": "latihan"
    },
@@ -2946,7 +3155,8 @@
      "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
      "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
      "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
-     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne.",
+     "tr": "Ders kitabının bu bölümündeki alıştırma türleri, ama cümleler bizim. Her birini önce kendin dene, sonra cevabı görmek için dokun. <b>Cevap yalnızca olası bir örnek</b> — farklı bir cümle de doğru olabilir."
     }
    },
    {
@@ -2956,7 +3166,8 @@
      "ja": "例にならって書きかえる · Hasan punya mobil. → Mobilnya baru.",
      "en": "Rewrite as in the example · Hasan punya mobil. → Mobilnya baru.",
      "vi": "Viết lại theo mẫu · Hasan punya mobil. → Mobilnya baru.",
-     "pl": "Przekształć według wzoru · Hasan punya mobil. → Mobilnya baru."
+     "pl": "Przekształć według wzoru · Hasan punya mobil. → Mobilnya baru.",
+     "tr": "Örnekteki gibi dönüştür · Hasan punya mobil. → Mobilnya baru."
     },
     "items": [
      {
@@ -2980,7 +3191,8 @@
         "ja": "halaman rumah itu → halamannya。あの家の庭は広いです。",
         "en": "halaman rumah itu → halamannya. Its yard is spacious.",
         "vi": "halaman rumah itu → halamannya. Sân của ngôi nhà đó rất rộng.",
-        "pl": "halaman rumah itu → halamannya. Jego podwórko jest przestronne."
+        "pl": "halaman rumah itu → halamannya. Jego podwórko jest przestronne.",
+        "tr": "halaman rumah itu → halamannya. Bahçesi geniş."
        }
       }
      },
@@ -3005,7 +3217,8 @@
         "ja": "adik aku → adikku。弟妹は二人です。",
         "en": "adik aku → adikku. I have two younger siblings.",
         "vi": "adik aku → adikku. Mình có hai đứa em.",
-        "pl": "adik aku → adikku. Mam dwoje młodszego rodzeństwa."
+        "pl": "adik aku → adikku. Mam dwoje młodszego rodzeństwa.",
+        "tr": "adik aku → adikku. İki küçük kardeşim var."
        }
       }
      },
@@ -3030,7 +3243,8 @@
         "ja": "sepeda kakek → sepedanya。祖父の自転車は古いです。",
         "en": "sepeda kakek → sepedanya. His bicycle is old.",
         "vi": "sepeda kakek → sepedanya. Xe đạp của ông đã cũ.",
-        "pl": "sepeda kakek → sepedanya. Jego rower jest stary."
+        "pl": "sepeda kakek → sepedanya. Jego rower jest stary.",
+        "tr": "sepeda kakek → sepedanya. Onun bisikleti eski."
        }
       }
      },
@@ -3055,7 +3269,8 @@
         "ja": "kamus Anda → 縮めません。あなたの辞書は新しいです。",
         "en": "kamus Anda → no short form. Your dictionary is new.",
         "vi": "kamus Anda → không rút gọn. Từ điển của bạn còn mới.",
-        "pl": "kamus Anda → bez formy skróconej. Twój słownik jest nowy."
+        "pl": "kamus Anda → bez formy skróconej. Twój słownik jest nowy.",
+        "tr": "kamus Anda → kısa biçimi yok. Sözlüğünüz yeni."
        }
       }
      },
@@ -3080,7 +3295,8 @@
         "ja": "bendera Indonesia → benderanya。インドネシアの国旗は紅白です。",
         "en": "bendera Indonesia → benderanya. Its flag is red and white.",
         "vi": "bendera Indonesia → benderanya. Quốc kỳ của nước này màu đỏ trắng.",
-        "pl": "bendera Indonesia → benderanya. Jej flaga jest biało-czerwona."
+        "pl": "bendera Indonesia → benderanya. Jej flaga jest biało-czerwona.",
+        "tr": "bendera Indonesia → benderanya. Bayrağı kırmızı beyaz."
        }
       }
      },
@@ -3105,7 +3321,8 @@
         "ja": "sepatu kamu → sepatumu。あなたの靴は黒いです。",
         "en": "sepatu kamu → sepatumu. Your shoes are black.",
         "vi": "sepatu kamu → sepatumu. Giày của bạn màu đen.",
-        "pl": "sepatu kamu → sepatumu. Twoje buty są czarne."
+        "pl": "sepatu kamu → sepatumu. Twoje buty są czarne.",
+        "tr": "sepatu kamu → sepatumu. Ayakkabıların siyah."
        }
       }
      },
@@ -3130,7 +3347,8 @@
         "ja": "kacamata dia → kacamatanya。あの人のめがねは高いです。",
         "en": "kacamata dia → kacamatanya. Their glasses are expensive.",
         "vi": "kacamata dia → kacamatanya. Kính của bạn ấy rất đắt.",
-        "pl": "kacamata dia → kacamatanya. Ich okulary są drogie."
+        "pl": "kacamata dia → kacamatanya. Ich okulary są drogie.",
+        "tr": "kacamata dia → kacamatanya. Onun gözlüğü pahalı."
        }
       }
      },
@@ -3155,7 +3373,8 @@
         "ja": "kantin fakultas → kantinnya。学部の食堂は広いです。",
         "en": "kantin fakultas → kantinnya. Its canteen is spacious.",
         "vi": "kantin fakultas → kantinnya. Căng tin của khoa rất rộng.",
-        "pl": "kantin fakultas → kantinnya. Jego stołówka jest przestronna."
+        "pl": "kantin fakultas → kantinnya. Jego stołówka jest przestronna.",
+        "tr": "kantin fakultas → kantinnya. Kantini geniş."
        }
       }
      }
@@ -3168,7 +3387,8 @@
      "ja": "三つの手順",
      "en": "Three steps",
      "vi": "Ba bước",
-     "pl": "Trzy kroki"
+     "pl": "Trzy kroki",
+     "tr": "Üç adım"
     },
     "green": true,
     "lines": [
@@ -3178,7 +3398,8 @@
        "ja": "各問三段階です。① <s>Kakek punya sepeda.</s> ② もの＋持ち主の順 → <s>sepeda kakek</s> ③ 持ち主が第三者なら <b>-nya</b> → <s>Sepedanya tua.</s><br>持ち主が <s>aku</s> なら <b>-ku</b>、<s>kamu</s> なら <b>-mu</b>。<s>saya</s>・<s>Anda</s>・<s>beliau</s> に<b>縮約形はありません</b>。そのまま名詞の後ろに置きます。",
        "en": "Three steps each: (1) <s>Kakek punya sepeda.</s> (2) thing first, owner second → <s>sepeda kakek</s> (3) a third-person owner becomes <b>-nya</b> → <s>Sepedanya tua.</s><br>An <s>aku</s> owner becomes <b>-ku</b>, a <s>kamu</s> owner becomes <b>-mu</b>. <s>saya</s>, <s>Anda</s> and <s>beliau</s> have <b>no short form</b> — they stay as they are after the noun.",
        "vi": "Mỗi câu có ba bước: ① <s>Kakek punya sepeda.</s> ② đồ vật trước, chủ sở hữu sau → <s>sepeda kakek</s> ③ chủ sở hữu là ngôi thứ ba thì đổi thành <b>-nya</b> → <s>Sepedanya tua.</s><br>Chủ là <s>aku</s> thì thành <b>-ku</b>, là <s>kamu</s> thì thành <b>-mu</b>. <s>saya</s>, <s>Anda</s>, <s>beliau</s> <b>không có dạng rút gọn</b>, giữ nguyên sau danh từ.",
-       "pl": "Każde zadanie ma trzy kroki: ① <s>Kakek punya sepeda.</s> ② najpierw rzecz, potem właściciel → <s>sepeda kakek</s> ③ właściciel w trzeciej osobie zamienia się w <b>-nya</b> → <s>Sepedanya tua.</s><br>Właściciel <s>aku</s> daje <b>-ku</b>, <s>kamu</s> daje <b>-mu</b>. <s>saya</s>, <s>Anda</s> i <s>beliau</s> <b>nie mają formy skróconej</b> — zostają po rzeczowniku bez zmian."
+       "pl": "Każde zadanie ma trzy kroki: ① <s>Kakek punya sepeda.</s> ② najpierw rzecz, potem właściciel → <s>sepeda kakek</s> ③ właściciel w trzeciej osobie zamienia się w <b>-nya</b> → <s>Sepedanya tua.</s><br>Właściciel <s>aku</s> daje <b>-ku</b>, <s>kamu</s> daje <b>-mu</b>. <s>saya</s>, <s>Anda</s> i <s>beliau</s> <b>nie mają formy skróconej</b> — zostają po rzeczowniku bez zmian.",
+       "tr": "Her biri üç adım: (1) <s>Kakek punya sepeda.</s> (2) önce şey, sonra sahibi → <s>sepeda kakek</s> (3) üçüncü kişi olan sahip <b>-nya</b> olur → <s>Sepedanya tua.</s><br>Sahip <s>aku</s> ise <b>-ku</b>, <s>kamu</s> ise <b>-mu</b> olur. <s>saya</s>, <s>Anda</s> ve <s>beliau</s> için <b>kısa biçim yoktur</b> — ismin arkasında olduğu gibi kalırlar."
       }
      }
     ]
@@ -3193,7 +3414,8 @@
      "ja": "練習 · もの＋持ち主＋どんな",
      "en": "Practice · thing + owner + what it is like",
      "vi": "Luyện tập · đồ vật + chủ sở hữu + tính chất",
-     "pl": "Ćwiczenia · rzecz + właściciel + jaka jest"
+     "pl": "Ćwiczenia · rzecz + właściciel + jaka jest",
+     "tr": "Pratik · şey + sahibi + nasıl olduğu"
     },
     "cat": "latihan"
    },
@@ -3204,7 +3426,8 @@
      "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
      "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
      "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
-     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne.",
+     "tr": "Ders kitabının bu bölümündeki alıştırma türleri, ama cümleler bizim. Her birini önce kendin dene, sonra cevabı görmek için dokun. <b>Cevap yalnızca olası bir örnek</b> — farklı bir cümle de doğru olabilir."
     }
    },
    {
@@ -3214,7 +3437,8 @@
      "ja": "三つの欄をつないで一文に",
      "en": "Join the three columns into one sentence",
      "vi": "Ghép ba cột thành một câu",
-     "pl": "Połącz trzy kolumny w jedno zdanie"
+     "pl": "Połącz trzy kolumny w jedno zdanie",
+     "tr": "Üç sütunu tek cümlede birleştir"
     },
     "items": [
      {
@@ -3225,7 +3449,8 @@
         "ja": "buku ／ saya ／ baru",
         "en": "buku / saya / baru",
         "vi": "buku / saya / baru",
-        "pl": "buku / saya / baru"
+        "pl": "buku / saya / baru",
+        "tr": "buku / saya / baru"
        }
       },
       "answer": {
@@ -3240,7 +3465,8 @@
         "ja": "わたしの本は新しいです。",
         "en": "My book is new.",
         "vi": "Sách của tôi còn mới.",
-        "pl": "Moja książka jest nowa."
+        "pl": "Moja książka jest nowa.",
+        "tr": "Kitabım yeni."
        }
       }
      },
@@ -3252,7 +3478,8 @@
         "ja": "baju ／ Rakha ／ bagus",
         "en": "baju / Rakha / bagus",
         "vi": "baju / Rakha / bagus",
-        "pl": "baju / Rakha / bagus"
+        "pl": "baju / Rakha / bagus",
+        "tr": "baju / Rakha / bagus"
        }
       },
       "answer": {
@@ -3267,7 +3494,8 @@
         "ja": "ラカの服はすてきです。",
         "en": "Rakha's shirt looks good.",
         "vi": "Áo của Rakha đẹp.",
-        "pl": "Koszula Rakhy jest ładna."
+        "pl": "Koszula Rakhy jest ładna.",
+        "tr": "Rakha'nın gömleği güzel."
        }
       }
      },
@@ -3279,7 +3507,8 @@
         "ja": "sepeda ／ kakek ／ tua",
         "en": "sepeda / kakek / tua",
         "vi": "sepeda / kakek / tua",
-        "pl": "sepeda / kakek / tua"
+        "pl": "sepeda / kakek / tua",
+        "tr": "sepeda / kakek / tua"
        }
       },
       "answer": {
@@ -3294,7 +3523,8 @@
         "ja": "祖父の自転車は古いです。",
         "en": "Grandpa's bicycle is old.",
         "vi": "Xe đạp của ông đã cũ.",
-        "pl": "Rower dziadka jest stary."
+        "pl": "Rower dziadka jest stary.",
+        "tr": "Dedenin bisikleti eski."
        }
       }
      },
@@ -3306,7 +3536,8 @@
         "ja": "tas ／ Syifa ／ mahal",
         "en": "tas / Syifa / mahal",
         "vi": "tas / Syifa / mahal",
-        "pl": "tas / Syifa / mahal"
+        "pl": "tas / Syifa / mahal",
+        "tr": "tas / Syifa / mahal"
        }
       },
       "answer": {
@@ -3321,7 +3552,8 @@
         "ja": "シファのかばんは高いです。",
         "en": "Syifa's bag is expensive.",
         "vi": "Túi của Syifa rất đắt.",
-        "pl": "Torba Syify jest droga."
+        "pl": "Torba Syify jest droga.",
+        "tr": "Syifa'nın çantası pahalı."
        }
       }
      },
@@ -3333,7 +3565,8 @@
         "ja": "rumah ／ teman saya ／ besar",
         "en": "rumah / teman saya / besar",
         "vi": "rumah / teman saya / besar",
-        "pl": "rumah / teman saya / besar"
+        "pl": "rumah / teman saya / besar",
+        "tr": "rumah / teman saya / besar"
        }
       },
       "answer": {
@@ -3348,7 +3581,8 @@
         "ja": "友だちの家は大きいです。",
         "en": "My friend's house is big.",
         "vi": "Nhà của bạn tôi rất lớn.",
-        "pl": "Dom mojego kolegi jest duży."
+        "pl": "Dom mojego kolegi jest duży.",
+        "tr": "Arkadaşımın evi büyük."
        }
       }
      },
@@ -3360,7 +3594,8 @@
         "ja": "kelas ／ kami ／ luas",
         "en": "kelas / kami / luas",
         "vi": "kelas / kami / luas",
-        "pl": "kelas / kami / luas"
+        "pl": "kelas / kami / luas",
+        "tr": "kelas / kami / luas"
        }
       },
       "answer": {
@@ -3375,7 +3610,8 @@
         "ja": "わたしたちの教室は広いです。",
         "en": "Our classroom is spacious.",
         "vi": "Lớp của chúng tôi rất rộng.",
-        "pl": "Nasza sala jest przestronna."
+        "pl": "Nasza sala jest przestronna.",
+        "tr": "Sınıfımız geniş."
        }
       }
      },
@@ -3387,7 +3623,8 @@
         "ja": "sepatu ／ adik ／ hitam",
         "en": "sepatu / adik / hitam",
         "vi": "sepatu / adik / hitam",
-        "pl": "sepatu / adik / hitam"
+        "pl": "sepatu / adik / hitam",
+        "tr": "sepatu / adik / hitam"
        }
       },
       "answer": {
@@ -3402,7 +3639,8 @@
         "ja": "弟の靴は黒いです。",
         "en": "My little brother's shoes are black.",
         "vi": "Giày của em tôi màu đen.",
-        "pl": "Buty mojego młodszego brata są czarne."
+        "pl": "Buty mojego młodszego brata są czarne.",
+        "tr": "Küçük kardeşimin ayakkabıları siyah."
        }
       }
      },
@@ -3414,7 +3652,8 @@
         "ja": "kacamata ／ Ani ／ cantik",
         "en": "kacamata / Ani / cantik",
         "vi": "kacamata / Ani / cantik",
-        "pl": "kacamata / Ani / cantik"
+        "pl": "kacamata / Ani / cantik",
+        "tr": "kacamata / Ani / cantik"
        }
       },
       "answer": {
@@ -3429,7 +3668,8 @@
         "ja": "アニのめがねはかわいいです。",
         "en": "Ani's glasses are pretty.",
         "vi": "Kính của Ani rất đẹp.",
-        "pl": "Okulary Ani są ładne."
+        "pl": "Okulary Ani są ładne.",
+        "tr": "Ani'nin gözlüğü güzel."
        }
       }
      },
@@ -3441,7 +3681,8 @@
         "ja": "sarung ／ Pak Joko ／ merah",
         "en": "sarung / Pak Joko / merah",
         "vi": "sarung / Pak Joko / merah",
-        "pl": "sarung / Pak Joko / merah"
+        "pl": "sarung / Pak Joko / merah",
+        "tr": "sarung / Pak Joko / merah"
        }
       },
       "answer": {
@@ -3456,7 +3697,8 @@
         "ja": "ジョコさんのサルンは赤いです。",
         "en": "Pak Joko's sarong is red.",
         "vi": "Sarung của chú Joko màu đỏ.",
-        "pl": "Sarong pana Joko jest czerwony."
+        "pl": "Sarong pana Joko jest czerwony.",
+        "tr": "Pak Joko'nun sarongu kırmızı."
        }
       }
      },
@@ -3468,7 +3710,8 @@
         "ja": "payung ／ Ibu ／ putih",
         "en": "payung / Ibu / putih",
         "vi": "payung / Ibu / putih",
-        "pl": "payung / Ibu / putih"
+        "pl": "payung / Ibu / putih",
+        "tr": "payung / Ibu / putih"
        }
       },
       "answer": {
@@ -3483,7 +3726,8 @@
         "ja": "母の傘は白いです。",
         "en": "Mum's umbrella is white.",
         "vi": "Ô của mẹ màu trắng.",
-        "pl": "Parasol mamy jest biały."
+        "pl": "Parasol mamy jest biały.",
+        "tr": "Annemin şemsiyesi beyaz."
        }
       }
      }
@@ -3496,7 +3740,8 @@
      "ja": "語順",
      "en": "Word order",
      "vi": "Trật tự từ",
-     "pl": "Szyk wyrazów"
+     "pl": "Szyk wyrazów",
+     "tr": "Kelime sırası"
     },
     "lines": [
      {
@@ -3505,7 +3750,8 @@
        "ja": "インドネシア語の語順は<b>「もの → 持ち主 → どんな」</b>で、日本語とは逆です。日本語は「わたしの<b>本</b>」、インドネシア語は「<b>buku</b> saya」。三つ目（形容詞）はそのまま後ろに続けます。コピュラは要りません。",
        "en": "The order is <b>thing → owner → quality</b>. English puts the owner first (<b>my</b> book); Indonesian puts the thing first (<b>buku</b> saya). The adjective simply follows, with no verb \"to be\".",
        "vi": "Trật tự tiếng Indonesia là <b>đồ vật → chủ sở hữu → tính chất</b>, giống tiếng Việt: «<b>sách</b> của tôi» → «<b>buku</b> saya». Tính từ đặt ngay sau, không cần hệ từ.",
-       "pl": "Kolejność to <b>rzecz → właściciel → jaka jest</b> — odwrotnie niż po polsku: „<b>moja</b> książka” to po indonezyjsku „<b>buku</b> saya”. Przymiotnik idzie zaraz potem, bez żadnego „jest”."
+       "pl": "Kolejność to <b>rzecz → właściciel → jaka jest</b> — odwrotnie niż po polsku: „<b>moja</b> książka” to po indonezyjsku „<b>buku</b> saya”. Przymiotnik idzie zaraz potem, bez żadnego „jest”.",
+       "tr": "Sıra <b>şey → sahibi → nasıl olduğu</b>. Türkçe sahibi öne koyar (<b>benim</b> kitabım); Endonezce şeyi öne koyar (<b>buku</b> saya). Sıfat da hemen arkasından gelir, “olmak” fiili ya da -dir eki gerekmez."
       }
      }
     ]
@@ -3520,7 +3766,8 @@
      "ja": "練習 · 六つの所有形でそれぞれ作文",
      "en": "Practice · sentences for all six possessive forms",
      "vi": "Luyện tập · đặt câu với sáu dạng sở hữu",
-     "pl": "Ćwiczenia · zdania z sześcioma formami dzierżawczymi"
+     "pl": "Ćwiczenia · zdania z sześcioma formami dzierżawczymi",
+     "tr": "Pratik · altı iyelik biçiminin hepsiyle cümleler"
     },
     "cat": "latihan"
    },
@@ -3531,7 +3778,8 @@
      "ja": "教科書のこの練習と同じ形式で、文だけ書き下ろしたものです。まず自分で考えてから答えをタップして確かめてください。<b>答えは一例</b>なので、違っていても間違いとは限りません。",
      "en": "Same exercise types as this section of the book, with our own sentences. Try each one yourself first, then tap to reveal the answer. <b>The answer is only one possible version</b> — a different sentence can still be right.",
      "vi": "Cùng dạng bài với phần này trong giáo trình, nhưng câu thì tự viết. Bạn hãy tự nghĩ trước rồi chạm để xem đáp án. <b>Đáp án chỉ là một cách nói</b>, viết khác chưa chắc đã sai.",
-     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne."
+     "pl": "Te same typy zadań co w tej części podręcznika, ale zdania są napisane od nowa. Najpierw spróbuj sam, potem dotknij, żeby zobaczyć odpowiedź. <b>Odpowiedź to tylko jedna z możliwości</b> — inne zdanie też może być poprawne.",
+     "tr": "Ders kitabının bu bölümündeki alıştırma türleri, ama cümleler bizim. Her birini önce kendin dene, sonra cevabı görmek için dokun. <b>Cevap yalnızca olası bir örnek</b> — farklı bir cümle de doğru olabilir."
     }
    },
    {
@@ -3541,7 +3789,8 @@
      "ja": "まず punya、次に所有の文に",
      "en": "Say it with punya first, then as a possessive sentence",
      "vi": "Nói bằng punya trước, rồi đổi sang câu sở hữu",
-     "pl": "Najpierw z punya, potem jako zdanie dzierżawcze"
+     "pl": "Najpierw z punya, potem jako zdanie dzierżawcze",
+     "tr": "Önce punya ile söyle, sonra iyelik cümlesi olarak"
     },
     "items": [
      {
@@ -3563,7 +3812,8 @@
         "ja": "ぼくの辞書は新しいです。",
         "en": "My dictionary is new.",
         "vi": "Từ điển của mình còn mới.",
-        "pl": "Mój słownik jest nowy."
+        "pl": "Mój słownik jest nowy.",
+        "tr": "Sözlüğüm yeni."
        }
       }
      },
@@ -3586,7 +3836,8 @@
         "ja": "ぼくの靴は黒いです。",
         "en": "My shoes are black.",
         "vi": "Giày của mình màu đen.",
-        "pl": "Moje buty są czarne."
+        "pl": "Moje buty są czarne.",
+        "tr": "Ayakkabılarım siyah."
        }
       }
      },
@@ -3609,7 +3860,8 @@
         "ja": "きみのかばんはすてきだね。",
         "en": "Your bag looks good.",
         "vi": "Túi của bạn đẹp đấy.",
-        "pl": "Twoja torba jest ładna."
+        "pl": "Twoja torba jest ładna.",
+        "tr": "Çantan güzel."
        }
       }
      },
@@ -3632,7 +3884,8 @@
         "ja": "きみの傘は赤いね。",
         "en": "Your umbrella is red.",
         "vi": "Ô của bạn màu đỏ.",
-        "pl": "Twój parasol jest czerwony."
+        "pl": "Twój parasol jest czerwony.",
+        "tr": "Şemsiyen kırmızı."
        }
       }
      },
@@ -3655,7 +3908,8 @@
         "ja": "あの人の家は大きいです。",
         "en": "Their house is big.",
         "vi": "Nhà của bạn ấy rất lớn.",
-        "pl": "Ich dom jest duży."
+        "pl": "Ich dom jest duży.",
+        "tr": "Onun evi büyük."
        }
       }
      },
@@ -3678,7 +3932,8 @@
         "ja": "ワヤンの自転車は新しいです。",
         "en": "Wayan's bicycle is new.",
         "vi": "Xe đạp của Wayan còn mới.",
-        "pl": "Rower Wayana jest nowy."
+        "pl": "Rower Wayana jest nowy.",
+        "tr": "Wayan'ın bisikleti yeni."
        }
       }
      },
@@ -3701,7 +3956,8 @@
         "ja": "キャンパスの建物は古いです。（gedung kampus → gedungnya）",
         "en": "Its building is old. (gedung kampus → gedungnya)",
         "vi": "Tòa nhà của trường đã cũ. (gedung kampus → gedungnya)",
-        "pl": "Jego budynek jest stary. (gedung kampus → gedungnya)"
+        "pl": "Jego budynek jest stary. (gedung kampus → gedungnya)",
+        "tr": "Binası eski. (gedung kampus → gedungnya)"
        }
       }
      },
@@ -3724,7 +3980,8 @@
         "ja": "わたしのボールペンは黒です。",
         "en": "My ballpoint pen is black.",
         "vi": "Bút bi của tôi màu đen.",
-        "pl": "Mój długopis jest czarny."
+        "pl": "Mój długopis jest czarny.",
+        "tr": "Tükenmez kalemim siyah."
        }
       }
      },
@@ -3747,7 +4004,8 @@
         "ja": "わたしの地図は大きいです。",
         "en": "My map is big.",
         "vi": "Bản đồ của tôi rất to.",
-        "pl": "Moja mapa jest duża."
+        "pl": "Moja mapa jest duża.",
+        "tr": "Haritam büyük."
        }
       }
      },
@@ -3770,7 +4028,8 @@
         "ja": "あなたのカレンダーはすてきです。",
         "en": "Your calendar looks good.",
         "vi": "Cuốn lịch của bạn đẹp.",
-        "pl": "Twój kalendarz jest ładny."
+        "pl": "Twój kalendarz jest ładny.",
+        "tr": "Takviminiz güzel."
        }
       }
      },
@@ -3793,7 +4052,8 @@
         "ja": "あなたの写真はきれいです。",
         "en": "Your photo is lovely.",
         "vi": "Ảnh của bạn rất đẹp.",
-        "pl": "Twoje zdjęcie jest ładne."
+        "pl": "Twoje zdjęcie jest ładne.",
+        "tr": "Fotoğrafınız çok güzel."
        }
       }
      },
@@ -3816,7 +4076,8 @@
         "ja": "あの先生のお宅は白いです。",
         "en": "The professor's house is white.",
         "vi": "Nhà của giáo sư màu trắng.",
-        "pl": "Dom pani profesor jest biały."
+        "pl": "Dom pani profesor jest biały.",
+        "tr": "Profesörün evi beyaz."
        }
       }
      }
@@ -3832,7 +4093,8 @@
      "ja": "練習 · 話す・書く（作例つき）",
      "en": "Practice · speaking and writing (with a model text)",
      "vi": "Luyện tập · nói và viết (có bài mẫu)",
-     "pl": "Ćwiczenia · mówienie i pisanie (z tekstem wzorcowym)"
+     "pl": "Ćwiczenia · mówienie i pisanie (z tekstem wzorcowym)",
+     "tr": "Pratik · konuşma ve yazma (örnek metinle)"
     },
     "cat": "latihan"
    },
@@ -3843,7 +4105,8 @@
      "ja": "この二節は自由作文なので決まった答えはありません。下は書きかえて使える作例です。ものと形容詞を自分のものに差しかえれば、そのまま課題になります。",
      "en": "These two sections in the book are open tasks with no single right answer. Below is a model you can copy and adapt — swap in your own objects and adjectives and it becomes your homework.",
      "vi": "Hai phần này trong sách là bài mở, không có đáp án cố định. Dưới đây là một bài mẫu để bạn dựa vào — thay đồ vật và tính từ bằng của mình là thành bài của bạn.",
-     "pl": "Te dwie części w podręczniku to zadania otwarte, bez jednej poprawnej odpowiedzi. Poniżej jest wzór do przerobienia — wystarczy wstawić własne przedmioty i przymiotniki."
+     "pl": "Te dwie części w podręczniku to zadania otwarte, bez jednej poprawnej odpowiedzi. Poniżej jest wzór do przerobienia — wystarczy wstawić własne przedmioty i przymiotniki.",
+     "tr": "Kitaptaki bu iki bölüm, tek doğru cevabı olmayan açık uçlu görevler. Aşağıda kopyalayıp uyarlayabileceğin bir örnek var — kendi eşyalarını ve sıfatlarını koyarsan ödevin hazır."
     }
    },
    {
@@ -3853,7 +4116,8 @@
      "ja": "作例 · 机の上にあるもの（22 語）",
      "en": "Model text · what is on my desk (22 words)",
      "vi": "Bài mẫu · trên bàn tôi có gì (22 từ)",
-     "pl": "Tekst wzorcowy · co jest na moim biurku (22 słowa)"
+     "pl": "Tekst wzorcowy · co jest na moim biurku (22 słowa)",
+     "tr": "Örnek metin · masamın üstünde neler var (22 kelime)"
     },
     "items": [
      {
@@ -3868,7 +4132,8 @@
        "ja": "これはわたしの机です。",
        "en": "This is my desk.",
        "vi": "Đây là bàn của tôi.",
-       "pl": "To jest moje biurko."
+       "pl": "To jest moje biurko.",
+       "tr": "Bu benim masam."
       },
       "alt_gloss": null
      },
@@ -3884,7 +4149,8 @@
        "ja": "机の上に本と辞書とボールペンがあります。",
        "en": "On the desk there are books, a dictionary and a ballpoint pen.",
        "vi": "Trên bàn có sách, từ điển và bút bi.",
-       "pl": "Na biurku są książki, słownik i długopis."
+       "pl": "Na biurku są książki, słownik i długopis.",
+       "tr": "Masanın üstünde kitaplar, bir sözlük ve bir tükenmez kalem var."
       },
       "alt_gloss": null
      },
@@ -3901,7 +4167,8 @@
        "ja": "辞書は新しく、本は古いです。",
        "en": "My dictionary is new. My books are old.",
        "vi": "Từ điển của tôi mới. Sách của tôi cũ.",
-       "pl": "Mój słownik jest nowy. Książki są stare."
+       "pl": "Mój słownik jest nowy. Książki są stare.",
+       "tr": "Sözlüğüm yeni. Kitaplarım eski."
       },
       "alt_gloss": null
      },
@@ -3918,7 +4185,8 @@
        "ja": "かばんは黒、めがねは赤です。",
        "en": "My bag is black and my glasses are red.",
        "vi": "Túi của mình màu đen, kính màu đỏ.",
-       "pl": "Moja torba jest czarna, a okulary czerwone."
+       "pl": "Moja torba jest czarna, a okulary czerwone.",
+       "tr": "Çantam siyah, gözlüğüm kırmızı."
       },
       "alt_gloss": null
      }
@@ -3931,14 +4199,16 @@
      "ja": "教科書の会話課題",
      "en": "Speaking task from the book",
      "vi": "Bài nói trong sách",
-     "pl": "Zadanie ustne z podręcznika"
+     "pl": "Zadanie ustne z podręcznika",
+     "tr": "Kitaptaki konuşma görevi"
     },
     "text": {
      "zh": "和同学编一段对话，聊身边的东西，句子里一定要用上领属形式（<b>-ku</b>、<b>-mu</b>、<b>-nya</b>、<s>saya</s>、<s>Anda</s>）。编好上台念一遍。",
      "ja": "身のまわりのものについて、友だちと会話を作ってください。所有の形（<b>-ku</b>・<b>-mu</b>・<b>-nya</b>・<s>saya</s>・<s>Anda</s>）を必ず入れること。できたら前で発表します。",
      "en": "Write a dialogue with a classmate about the things around you, making sure to use possessive forms (<b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s>). Then perform it in front of the class.",
      "vi": "Cùng bạn viết một đoạn hội thoại về những đồ vật quanh mình, nhớ dùng các dạng sở hữu (<b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s>). Viết xong thì lên trình bày trước lớp.",
-     "pl": "Napisz z kolegą dialog o przedmiotach wokół was, koniecznie z formami dzierżawczymi (<b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s>). Potem odegrajcie go przed klasą."
+     "pl": "Napisz z kolegą dialog o przedmiotach wokół was, koniecznie z formami dzierżawczymi (<b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s>). Potem odegrajcie go przed klasą.",
+     "tr": "Bir sınıf arkadaşınla etrafınızdaki eşyalar hakkında bir diyalog yaz; iyelik biçimlerini mutlaka kullan (<b>-ku</b>, <b>-mu</b>, <b>-nya</b>, <s>saya</s>, <s>Anda</s>). Sonra sınıfın önünde canlandırın."
     }
    },
    {
@@ -3948,14 +4218,16 @@
      "ja": "教科書の作文課題",
      "en": "Writing task from the book",
      "vi": "Bài viết trong sách",
-     "pl": "Zadanie pisemne z podręcznika"
+     "pl": "Zadanie pisemne z podręcznika",
+     "tr": "Kitaptaki yazma görevi"
     },
     "text": {
      "zh": "用 15–25 个词描述身边的东西：是什么、谁的、什么样。照上面的范文改，写完念一遍。",
      "ja": "15〜25 語で身のまわりのものを説明してください。何か、だれのか、どんなか。上の作例を書きかえて、できたら声に出して読みましょう。",
      "en": "Describe the things around you in 15–25 words: what they are, whose they are, what they are like. Adapt the model above, then read it aloud.",
      "vi": "Dùng 15–25 từ để tả đồ vật quanh bạn: là gì, của ai, thế nào. Dựa vào bài mẫu ở trên, viết xong đọc to một lượt.",
-     "pl": "Opisz w 15–25 słowach przedmioty wokół siebie: co to jest, czyje jest, jakie jest. Przerób wzór powyżej, a potem przeczytaj na głos."
+     "pl": "Opisz w 15–25 słowach przedmioty wokół siebie: co to jest, czyje jest, jakie jest. Przerób wzór powyżej, a potem przeczytaj na głos.",
+     "tr": "Etrafındaki eşyaları 15–25 kelimeyle anlat: ne oldukları, kimin oldukları, nasıl oldukları. Yukarıdaki örneği uyarla, sonra sesli oku."
     }
    }
   ],
@@ -3968,7 +4240,8 @@
      "ja": "インドネシアの人びとの品物",
      "en": "Things Indonesians live with",
      "vi": "Đồ vật của người Indonesia",
-     "pl": "Rzeczy, wśród których żyją Indonezyjczycy"
+     "pl": "Rzeczy, wśród których żyją Indonezyjczycy",
+     "tr": "Endonezyalıların gündelik eşyaları"
     },
     "cat": "wawasan"
    },
@@ -3979,7 +4252,8 @@
      "ja": "教科書は各章の終わりに文化の紹介を置いています。この章では、インドネシアの人びとが日常で使い、外国人にもすぐそれとわかる品物を取り上げています。",
      "en": "Each chapter of the book ends with a page on culture. This one is about a few things Indonesians use daily and visitors notice straight away.",
      "vi": "Cuối mỗi bài trong sách đều có một mục giới thiệu văn hóa. Bài này nói về vài thứ người Indonesia dùng hằng ngày mà người nước ngoài nhìn là nhận ra ngay.",
-     "pl": "Każdy rozdział podręcznika kończy się stroną o kulturze. Ta jest o kilku rzeczach, których Indonezyjczycy używają na co dzień, a przyjezdni od razu je zauważają."
+     "pl": "Każdy rozdział podręcznika kończy się stroną o kulturze. Ta jest o kilku rzeczach, których Indonezyjczycy używają na co dzień, a przyjezdni od razu je zauważają.",
+     "tr": "Kitabın her bölümü bir kültür sayfasıyla biter. Bu sayfa, Endonezyalıların her gün kullandığı ve ziyaretçilerin hemen fark ettiği birkaç şey hakkında."
     }
    },
    {
@@ -3993,7 +4267,8 @@
        "ja": "バティック（ろうけつ染めの布）",
        "en": "batik",
        "vi": "vải batik (nhuộm sáp)",
-       "pl": "batik (tkanina barwiona woskiem)"
+       "pl": "batik (tkanina barwiona woskiem)",
+       "tr": "batik (boyalı kumaş)"
       }
      },
      {
@@ -4004,7 +4279,8 @@
        "ja": "サルン（筒状の腰布）",
        "en": "sarung (tubular wrap cloth)",
        "vi": "xà rông (vải quấn hình ống)",
-       "pl": "sarung (owijana tkanina w formie rury)"
+       "pl": "sarung (owijana tkanina w formie rury)",
+       "tr": "sarung (tüp şeklinde sarılan kumaş)"
       }
      },
      {
@@ -4015,7 +4291,8 @@
        "ja": "ペチ（黒い縁なし帽）",
        "en": "peci (brimless cap)",
        "vi": "mũ peci (mũ đen không vành)",
-       "pl": "peci (czapka bez daszka)"
+       "pl": "peci (czapka bez daszka)",
+       "tr": "peci (siperliksiz başlık)"
       }
      },
      {
@@ -4026,7 +4303,8 @@
        "ja": "ジルバブ（ムスリム女性のスカーフ）",
        "en": "jilbab (headscarf)",
        "vi": "jilbab (khăn trùm đầu)",
-       "pl": "jilbab (chusta na głowę)"
+       "pl": "jilbab (chusta na głowę)",
+       "tr": "jilbab (başörtüsü)"
       }
      },
      {
@@ -4037,7 +4315,8 @@
        "ja": "クリス（波形の刃の短剣）",
        "en": "keris (wavy-bladed dagger)",
        "vi": "keris (dao lưỡi lượn sóng)",
-       "pl": "keris (sztylet o falistej klindze)"
+       "pl": "keris (sztylet o falistej klindze)",
+       "tr": "keris (dalgalı ağızlı hançer)"
       }
      }
     ]
@@ -4050,7 +4329,8 @@
      "ja": "ジョグジャで目にするもの",
      "en": "What you will see in Jogja",
      "vi": "Ở Jogja bạn sẽ thấy gì",
-     "pl": "Co zobaczysz w Jogji"
+     "pl": "Co zobaczysz w Jogji",
+     "tr": "Jogja'da neler göreceksin"
     },
     "lines": [
      {
@@ -4059,7 +4339,8 @@
        "ja": "<s>batik</s> はろうけつ染めの布です。金曜日にはバティックの着用を求める職場や学校が多く、正装として扱われます。マリオボロ通りやブリンハルジョ市場で買えます。",
        "en": "<s>batik</s> is wax-dyed cloth. Many offices and schools ask for batik on Fridays, where it counts as formal dress. You can buy it along Malioboro and in Beringharjo market.",
        "vi": "<s>batik</s> là vải nhuộm sáp. Thứ Sáu nhiều cơ quan, trường học yêu cầu mặc áo batik, coi như lễ phục. Bạn mua được ở phố Malioboro và chợ Beringharjo.",
-       "pl": "<s>batik</s> to tkanina barwiona woskiem. W piątki wiele instytucji i szkół prosi o koszulę batikową — liczy się jako strój oficjalny. Kupisz ją przy ulicy Malioboro i na targu Beringharjo."
+       "pl": "<s>batik</s> to tkanina barwiona woskiem. W piątki wiele instytucji i szkół prosi o koszulę batikową — liczy się jako strój oficjalny. Kupisz ją przy ulicy Malioboro i na targu Beringharjo.",
+       "tr": "<s>batik</s> balmumuyla boyanan bir kumaştır. Birçok kurum ve okul cuma günleri batik giyilmesini ister; resmî kıyafet sayılır. Malioboro boyunca ve Beringharjo pazarında bulabilirsin."
       }
      },
      {
@@ -4068,7 +4349,8 @@
        "ja": "<s>peci</s> は男性がかぶる黒い縁なし帽で、礼拝や正式な場でかぶります。<s>jilbab</s> はムスリム女性のスカーフで、日常的に身につけます。",
        "en": "<s>peci</s> is the black brimless cap men wear for prayer and formal occasions; <s>jilbab</s> is the headscarf worn daily by Muslim women.",
        "vi": "<s>peci</s> là mũ đen không vành nam giới đội khi cầu nguyện và trong dịp trang trọng; <s>jilbab</s> là khăn trùm đầu phụ nữ Hồi giáo đội hằng ngày.",
-       "pl": "<s>peci</s> to czarna czapka bez daszka, którą mężczyźni noszą do modlitwy i na oficjalne okazje; <s>jilbab</s> to chusta, którą muzułmanki noszą na co dzień."
+       "pl": "<s>peci</s> to czarna czapka bez daszka, którą mężczyźni noszą do modlitwy i na oficjalne okazje; <s>jilbab</s> to chusta, którą muzułmanki noszą na co dzień.",
+       "tr": "<s>peci</s>, erkeklerin namazda ve resmî günlerde taktığı siyah, siperliksiz başlıktır; <s>jilbab</s> Müslüman kadınların her gün taktığı başörtüsüdür."
       }
      },
      {
@@ -4077,7 +4359,8 @@
        "ja": "<s>keris</s> は刃が波形の伝統的な短剣で、家宝や儀礼の品であり、日用品ではありません。ジョグジャの王宮（クラトン）で見ることができます。",
        "en": "<s>keris</s> is the traditional wavy-bladed dagger — an heirloom and ceremonial object rather than something in daily use. You can see them at the Kraton in Jogja.",
        "vi": "<s>keris</s> là dao ngắn truyền thống, lưỡi uốn lượn sóng, thuộc loại đồ gia bảo hay đồ nghi lễ chứ không phải vật dụng hằng ngày. Bạn xem được ở hoàng cung Kraton tại Jogja.",
-       "pl": "<s>keris</s> to tradycyjny sztylet o falistej klindze — przedmiot rodowy i obrzędowy, a nie rzecz codziennego użytku. Zobaczysz takie w pałacu Kraton w Jogji."
+       "pl": "<s>keris</s> to tradycyjny sztylet o falistej klindze — przedmiot rodowy i obrzędowy, a nie rzecz codziennego użytku. Zobaczysz takie w pałacu Kraton w Jogji.",
+       "tr": "<s>keris</s> dalgalı ağızlı geleneksel hançerdir — günlük kullanılan bir eşya değil, aile yadigârı ve tören eşyası. Jogja'daki Kraton'da görebilirsin."
       }
      }
     ]

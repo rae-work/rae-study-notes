@@ -4,6 +4,25 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.11.0 — 2026-10-06
+
+**Turkish interface (Türkçe)**
+
+- **The whole site is now available in Turkish.** Pick *Türkçe* under
+  Language in the settings panel, or it is chosen automatically when your
+  phone or browser is set to Turkish. Every page, note, word in the glossary
+  and practice question has a Turkish version
+- **Written for Turkish speakers, not translated from Chinese.** The notes say
+  where Indonesian works like Turkish (no grammatical gender, *dia* = *o*,
+  *dua buku* = *iki kitap*, *-ku / -mu / -nya* ≈ *-ım / -ın / -ı*, *ada* ≈
+  *var*) and where it is the opposite (adjectives and possessors come after
+  the noun, *setengah dua* is 1:30, not “bir buçuk”). Pronunciation is mapped
+  to Turkish letters: Indonesian *c* = *ç*, *j* = *c*, *sy* = *ş*
+- **Searching works without a Turkish keyboard.** In the contents and the
+  glossary, *i* also finds *İ* and *ı*
+- The example sentences about “your own country” use England in the Turkish
+  interface, the same as in English
+
 ## 1.10.0 — 2026-10-01
 
 **Bab 5 · Ciri-Ciri Fisik (physical features)**
