@@ -4,6 +4,12 @@ What changed in each version of *Rae's Study Note*. Newest first.
 
 ---
 
+## 1.11.1 — 2026-10-06
+
+- **If your phone's language isn't one of the six, the site now opens in
+  English** (it used to open in Chinese). You can still pick any language in
+  the settings panel, and your choice is remembered
+
 ## 1.11.0 — 2026-10-06
 
 **Turkish interface (Türkçe)**
