@@ -136,10 +136,10 @@ export function collectSpeakables(opts = {}) {
   }
   w.setLang(DEFAULT_LANG);
 
-  /* 5. 语言渗漏检查：把界面切成拉丁字母的语言（英文、越南文），整个跑一遍。
+  /* 5. 语言渗漏检查：把界面切成拉丁字母的语言（英文、越南文、波兰文、土耳其文），整个跑一遍。
      这些界面下渲染出的任何中日文字符都说明有写死的文案没走 T()。 */
   const leaks = [];
-  const LATIN = ['en', 'vi', 'pl'].filter((l) => w.CONTENT.meta.langs.indexOf(l) >= 0);
+  const LATIN = ['en', 'vi', 'pl', 'tr'].filter((l) => w.CONTENT.meta.langs.indexOf(l) >= 0);
   for (const latin of LATIN) {
     w.setLang(latin);
     const tag = (s) => `[${latin}] ${s}`;

@@ -8,7 +8,8 @@
         "ja": "Rama だと答える",
         "en": "say your name is Rama",
         "vi": "nói tên bạn là Rama",
-        "pl": "powiedz, że masz na imię Rama"
+        "pl": "powiedz, że masz na imię Rama",
+        "tr": "adının Rama olduğunu söyle"
       },
       "a": "Nama saya Rama.",
       "a_reg": "formal",
@@ -26,7 +27,8 @@
         "ja": "{NAMA}から来たと答える",
         "en": "say you're from {NAMA}",
         "vi": "nói bạn đến từ {NAMA}",
-        "pl": "powiedz, że jesteś z {NAMA_GEN}"
+        "pl": "powiedz, że jesteś z {NAMA_GEN}",
+        "tr": "{NAMA_ABL} olduğunu söyle"
       },
       "a": "Saya dari {NEGARA}.",
       "a_reg": "formal",
@@ -44,7 +46,8 @@
         "ja": "ジョグジャカルタに住んでいます",
         "en": "I live in Yogyakarta",
         "vi": "tôi sống ở Yogyakarta",
-        "pl": "mieszkam w Yogyakarcie"
+        "pl": "mieszkam w Yogyakarcie",
+        "tr": "Yogyakarta'da oturuyorum"
       },
       "a": "Saya tinggal di Yogyakarta.",
       "a_reg": "formal",
@@ -62,7 +65,8 @@
         "ja": "インドネシア語を勉強しています",
         "en": "I study Indonesian",
         "vi": "tôi học tiếng Indonesia",
-        "pl": "uczę się indonezyjskiego"
+        "pl": "uczę się indonezyjskiego",
+        "tr": "Endonezce öğreniyorum"
       },
       "a": "Saya belajar bahasa Indonesia.",
       "a_reg": "formal",
@@ -80,7 +84,8 @@
         "ja": "はい、UGM の学生です",
         "en": "yes, I'm a UGM student",
         "vi": "vâng, tôi là sinh viên UGM",
-        "pl": "tak, studiuję na UGM"
+        "pl": "tak, studiuję na UGM",
+        "tr": "evet, UGM öğrencisiyim"
       },
       "a": "Ya, saya mahasiswa UGM.",
       "a_reg": "formal",
@@ -98,7 +103,8 @@
         "ja": "いいえ、{PEOPLE}です",
         "en": "no, I'm {PEOPLE}",
         "vi": "không, tôi là {PEOPLE}",
-        "pl": "nie, jestem z {NAMA_GEN}"
+        "pl": "nie, jestem z {NAMA_GEN}",
+        "tr": "hayır, {PEOPLE_COP}"
       },
       "a": "Bukan, saya orang {NEGARA}.",
       "a_reg": "formal",
@@ -116,7 +122,8 @@
         "ja": "あの人は Zach です",
         "en": "that's Zach",
         "vi": "đó là Zach",
-        "pl": "to jest Zach"
+        "pl": "to jest Zach",
+        "tr": "o Zach"
       },
       "a": "Itu Zach.",
       "a_reg": "neutral",
@@ -134,7 +141,8 @@
         "ja": "これは本です",
         "en": "this is a book",
         "vi": "đây là một quyển sách",
-        "pl": "to jest książka"
+        "pl": "to jest książka",
+        "tr": "bu bir kitap"
       },
       "a": "Ini buku.",
       "a_reg": "neutral",
@@ -152,7 +160,8 @@
         "ja": "元気です、ありがとうございます",
         "en": "fine, thank you",
         "vi": "khỏe, cảm ơn",
-        "pl": "dobrze, dziękuję"
+        "pl": "dobrze, dziękuję",
+        "tr": "iyiyim, teşekkürler"
       },
       "a": "Baik, terima kasih.",
       "a_reg": "formal",
@@ -170,7 +179,8 @@
         "ja": "おはようございますと返す",
         "en": "return the greeting",
         "vi": "đáp lại lời chào buổi sáng",
-        "pl": "odpowiedz na powitanie"
+        "pl": "odpowiedz na powitanie",
+        "tr": "selama karşılık ver"
       },
       "a": "Selamat pagi.",
       "a_reg": "formal",
@@ -188,7 +198,8 @@
         "ja": "どういたしましてと返す",
         "en": "say you're welcome",
         "vi": "nói không có gì",
-        "pl": "powiedz „nie ma za co”"
+        "pl": "powiedz „nie ma za co”",
+        "tr": "“rica ederim” de"
       },
       "a": "Sama-sama.",
       "a_reg": "neutral",
@@ -206,7 +217,8 @@
         "ja": "こちらこそ、お会いできてうれしいです",
         "en": "pleased to meet you too",
         "vi": "tôi cũng rất vui được gặp bạn",
-        "pl": "mnie też miło cię poznać"
+        "pl": "mnie też miło cię poznać",
+        "tr": "ben de memnun oldum"
       },
       "a": "Senang bertemu Anda.",
       "a_reg": "formal",
@@ -224,7 +236,8 @@
         "ja": "「またね」と返す",
         "en": "say see you",
         "vi": "đáp lại “hẹn gặp lại”",
-        "pl": "odpowiedz „do zobaczenia”"
+        "pl": "odpowiedz „do zobaczenia”",
+        "tr": "“görüşürüz” de"
       },
       "a": "Sampai jumpa!",
       "a_reg": "neutral",
@@ -242,7 +255,8 @@
         "ja": "友だちは Rama です",
         "en": "my friend is called Rama",
         "vi": "bạn tôi tên là Rama",
-        "pl": "mój kolega ma na imię Rama"
+        "pl": "mój kolega ma na imię Rama",
+        "tr": "arkadaşımın adı Rama"
       },
       "a": "Nama teman saya Rama.",
       "a_reg": "formal",
@@ -260,7 +274,8 @@
         "ja": "かれはイギリスから来ました",
         "en": "he's from England",
         "vi": "anh ấy đến từ Anh",
-        "pl": "on jest z Anglii"
+        "pl": "on jest z Anglii",
+        "tr": "o İngiltere'den"
       },
       "a": "Dia dari Inggris.",
       "a_reg": "formal",
@@ -278,7 +293,8 @@
         "ja": "はい、大学生です",
         "en": "yes, he's a student",
         "vi": "vâng, anh ấy là sinh viên",
-        "pl": "tak, on studiuje"
+        "pl": "tak, on studiuje",
+        "tr": "evet, o öğrenci"
       },
       "a": "Ya, dia mahasiswa.",
       "a_reg": "formal",
@@ -296,7 +312,8 @@
         "ja": "学生です",
         "en": "I'm a student",
         "vi": "tôi là sinh viên",
-        "pl": "studiuję"
+        "pl": "studiuję",
+        "tr": "öğrenciyim"
       },
       "a": "Saya mahasiswa.",
       "a_reg": "formal",
@@ -314,7 +331,8 @@
         "ja": "ありがとうと返す",
         "en": "say thank you",
         "vi": "nói cảm ơn",
-        "pl": "podziękuj"
+        "pl": "podziękuj",
+        "tr": "teşekkür et"
       },
       "a": "Terima kasih.",
       "a_reg": "formal",
@@ -332,7 +350,8 @@
         "ja": "20 歳だと答える",
         "en": "say you are twenty",
         "vi": "nói bạn hai mươi tuổi",
-        "pl": "powiedz, że masz dwadzieścia lat"
+        "pl": "powiedz, że masz dwadzieścia lat",
+        "tr": "yirmi yaşında olduğunu söyle"
       },
       "a": "Umur saya dua puluh tahun.",
       "a_reg": "formal",
@@ -350,7 +369,8 @@
         "ja": "大学生だと答える",
         "en": "say you are a university student",
         "vi": "nói bạn là sinh viên đại học",
-        "pl": "powiedz, że studiujesz"
+        "pl": "powiedz, że studiujesz",
+        "tr": "üniversite öğrencisi olduğunu söyle"
       },
       "a": "Saya seorang mahasiswa.",
       "a_reg": "formal",
@@ -368,7 +388,8 @@
         "ja": "趣味は読書だと答える",
         "en": "say your hobby is reading",
         "vi": "nói sở thích của bạn là đọc sách",
-        "pl": "powiedz, że twoje hobby to czytanie"
+        "pl": "powiedz, że twoje hobby to czytanie",
+        "tr": "hobinin okumak olduğunu söyle"
       },
       "a": "Hobi saya membaca.",
       "a_reg": "formal",
@@ -386,7 +407,8 @@
         "ja": "自分の国の出身だと答える",
         "en": "say you come from your own country",
         "vi": "nói bạn đến từ nước của mình",
-        "pl": "powiedz, że pochodzisz ze swojego kraju"
+        "pl": "powiedz, że pochodzisz ze swojego kraju",
+        "tr": "kendi ülkenden geldiğini söyle"
       },
       "a": "Saya berasal dari {NEGARA}.",
       "a_reg": "formal",
@@ -404,7 +426,8 @@
         "ja": "その人は 28 歳だと答える",
         "en": "say she is twenty-eight",
         "vi": "nói cô ấy hai mươi tám tuổi",
-        "pl": "ona ma dwadzieścia osiem lat"
+        "pl": "ona ma dwadzieścia osiem lat",
+        "tr": "yirmi sekiz yaşında olduğunu söyle"
       },
       "a": "Umurnya dua puluh delapan tahun.",
       "a_reg": "formal",
@@ -422,7 +445,8 @@
         "ja": "その人の趣味は買い物だと答える",
         "en": "say her hobby is shopping",
         "vi": "nói sở thích của cô ấy là mua sắm",
-        "pl": "jej hobby to zakupy"
+        "pl": "jej hobby to zakupy",
+        "tr": "hobisinin alışveriş olduğunu söyle"
       },
       "a": "Hobinya berbelanja.",
       "a_reg": "formal",
@@ -440,7 +464,8 @@
         "ja": "その人も教師だと答える",
         "en": "say she is a teacher too",
         "vi": "nói cô ấy cũng là giáo viên",
-        "pl": "ona też jest nauczycielką"
+        "pl": "ona też jest nauczycielką",
+        "tr": "onun da öğretmen olduğunu söyle"
       },
       "a": "Dia juga seorang guru.",
       "a_reg": "formal",
@@ -458,7 +483,8 @@
         "ja": "Novi と呼んでほしいと言う",
         "en": "ask to be called Novi",
         "vi": "bảo người ta gọi bạn là Novi",
-        "pl": "poproś, żeby mówili do ciebie Novi"
+        "pl": "poproś, żeby mówili do ciebie Novi",
+        "tr": "sana Novi demelerini iste"
       },
       "a": "Panggil saya Novi.",
       "a_reg": "formal",
@@ -476,7 +502,8 @@
         "ja": "きょうは火曜日",
         "en": "it's Tuesday today",
         "vi": "hôm nay là thứ Ba",
-        "pl": "dziś jest wtorek"
+        "pl": "dziś jest wtorek",
+        "tr": "bugün salı"
       },
       "a": "Hari ini hari Selasa.",
       "a_reg": "neutral",
@@ -494,7 +521,8 @@
         "ja": "あしたは金曜日",
         "en": "tomorrow is Friday",
         "vi": "ngày mai là thứ Sáu",
-        "pl": "jutro jest piątek"
+        "pl": "jutro jest piątek",
+        "tr": "yarın cuma"
       },
       "a": "Besok hari Jumat.",
       "a_reg": "neutral",
@@ -512,7 +540,8 @@
         "ja": "いまは三月",
         "en": "it's March now",
         "vi": "bây giờ là tháng Ba",
-        "pl": "teraz jest marzec"
+        "pl": "teraz jest marzec",
+        "tr": "şimdi mart ayı"
       },
       "a": "Sekarang bulan Maret.",
       "a_reg": "neutral",
@@ -530,7 +559,8 @@
         "ja": "きょうは 10 日",
         "en": "it's the 10th today",
         "vi": "hôm nay là ngày 10",
-        "pl": "dziś jest dziesiąty"
+        "pl": "dziś jest dziesiąty",
+        "tr": "bugün ayın 10'u"
       },
       "a": "Hari ini tanggal sepuluh.",
       "a_reg": "neutral",
@@ -548,7 +578,8 @@
         "ja": "わたしの誕生日は 8 月 5 日",
         "en": "my birthday is 5 August",
         "vi": "sinh nhật của tôi là ngày 5 tháng Tám",
-        "pl": "moje urodziny są 5 sierpnia"
+        "pl": "moje urodziny są 5 sierpnia",
+        "tr": "doğum günüm 5 ağustos"
       },
       "a": "Ulang tahun saya tanggal lima Agustus.",
       "a_reg": "formal",
@@ -566,7 +597,8 @@
         "ja": "わたしは 2005 年生まれ",
         "en": "I was born in 2005",
         "vi": "tôi sinh năm 2005",
-        "pl": "mój rok urodzenia to 2005"
+        "pl": "mój rok urodzenia to 2005",
+        "tr": "2005'te doğdum"
       },
       "a": "Saya lahir tahun dua ribu lima.",
       "a_reg": "formal",
@@ -584,7 +616,8 @@
         "ja": "わたしは三番目の子",
         "en": "I'm the third child",
         "vi": "tôi là con thứ ba",
-        "pl": "jestem trzecim dzieckiem"
+        "pl": "jestem trzecim dzieckiem",
+        "tr": "üçüncü çocuğum"
       },
       "a": "Saya anak ketiga.",
       "a_reg": "formal",
@@ -602,7 +635,8 @@
         "ja": "木曜日",
         "en": "on Thursday",
         "vi": "thứ Năm",
-        "pl": "w czwartek"
+        "pl": "w czwartek",
+        "tr": "perşembe günü"
       },
       "a": "Hari Kamis.",
       "a_reg": "neutral",
@@ -620,7 +654,8 @@
         "ja": "いま 9 時",
         "en": "it's 9 o'clock",
         "vi": "bây giờ 9 giờ",
-        "pl": "jest dziewiąta"
+        "pl": "jest dziewiąta",
+        "tr": "saat 9"
       },
       "a": "Sekarang pukul sembilan.",
       "a_reg": "neutral",
@@ -638,7 +673,8 @@
         "ja": "1949 年",
         "en": "in 1949",
         "vi": "năm 1949",
-        "pl": "w 1949 roku"
+        "pl": "w 1949 roku",
+        "tr": "1949'da"
       },
       "a": "Tahun seribu sembilan ratus empat puluh sembilan.",
       "a_reg": "neutral",
@@ -656,7 +692,8 @@
         "ja": "キャンパスは大きい",
         "en": "the campus is big",
         "vi": "trường rộng lớn",
-        "pl": "kampus jest duży"
+        "pl": "kampus jest duży",
+        "tr": "kampüs büyük"
       },
       "a": "Kampus UGM besar.",
       "a_reg": "neutral",
@@ -674,7 +711,8 @@
         "ja": "10 万ルピア",
         "en": "a hundred thousand rupiah",
         "vi": "một trăm nghìn rupiah",
-        "pl": "sto tysięcy rupii"
+        "pl": "sto tysięcy rupii",
+        "tr": "yüz bin rupiah"
       },
       "a": "Seratus ribu rupiah.",
       "a_reg": "neutral",
@@ -692,7 +730,8 @@
         "ja": "8 月 1 日",
         "en": "1 August",
         "vi": "ngày 1 tháng Tám",
-        "pl": "1 sierpnia"
+        "pl": "1 sierpnia",
+        "tr": "1 ağustos"
       },
       "a": "Tanggal satu Agustus.",
       "a_reg": "neutral",
@@ -710,7 +749,8 @@
         "ja": "3 列目",
         "en": "the third row",
         "vi": "hàng thứ ba",
-        "pl": "trzeci rząd"
+        "pl": "trzeci rząd",
+        "tr": "üçüncü sıra"
       },
       "a": "Di baris ketiga.",
       "a_reg": "neutral",
@@ -728,7 +768,8 @@
         "ja": "3 か月前",
         "en": "three months ago",
         "vi": "ba tháng trước",
-        "pl": "trzy miesiące temu"
+        "pl": "trzy miesiące temu",
+        "tr": "üç ay önce"
       },
       "a": "Tiga bulan lalu.",
       "a_reg": "formal",
@@ -746,7 +787,8 @@
         "ja": "兄が一人、妹が一人",
         "en": "one older brother, one younger sister",
         "vi": "một anh trai, một em gái",
-        "pl": "jeden starszy brat, jedna młodsza siostra"
+        "pl": "jeden starszy brat, jedna młodsza siostra",
+        "tr": "bir ağabey, bir kız kardeş"
       },
       "a": "Saya punya satu kakak laki-laki dan satu adik perempuan.",
       "a_reg": "formal",
@@ -764,7 +806,8 @@
         "ja": "医者です",
         "en": "he is a doctor",
         "vi": "ông ấy là bác sĩ",
-        "pl": "jest lekarzem"
+        "pl": "jest lekarzem",
+        "tr": "o doktor"
       },
       "a": "Ayah saya dokter.",
       "a_reg": "formal",
@@ -782,7 +825,8 @@
         "ja": "いいえ、いとこです",
         "en": "no, he is my cousin",
         "vi": "không phải, anh ấy là anh họ tôi",
-        "pl": "nie, to mój kuzyn"
+        "pl": "nie, to mój kuzyn",
+        "tr": "hayır, o kuzenim"
       },
       "a": "Bukan, dia sepupu saya.",
       "a_reg": "formal",
@@ -800,7 +844,8 @@
         "ja": "いいえ、元気です",
         "en": "no, she is well",
         "vi": "không, bà khỏe",
-        "pl": "nie, jest zdrowa"
+        "pl": "nie, jest zdrowa",
+        "tr": "hayır, sağlığı yerinde"
       },
       "a": "Tidak, nenek saya sehat.",
       "a_reg": "formal",
@@ -818,7 +863,8 @@
         "ja": "鉛筆で",
         "en": "with a pencil",
         "vi": "bằng bút chì",
-        "pl": "ołówkiem"
+        "pl": "ołówkiem",
+        "tr": "kurşun kalemle"
       },
       "a": "Dengan pensil.",
       "a_reg": "formal",
@@ -836,7 +882,8 @@
         "ja": "来月",
         "en": "next month",
         "vi": "tháng sau",
-        "pl": "w przyszłym miesiącu"
+        "pl": "w przyszłym miesiącu",
+        "tr": "gelecek ay"
       },
       "a": "Bulan depan.",
       "a_reg": "formal",
@@ -854,7 +901,8 @@
         "ja": "長い髪",
         "en": "long hair",
         "vi": "tóc dài",
-        "pl": "długie włosy"
+        "pl": "długie włosy",
+        "tr": "uzun saç"
       },
       "a": "Rambutnya panjang.",
       "a_reg": "formal",
@@ -872,7 +920,8 @@
         "ja": "青",
         "en": "blue",
         "vi": "màu xanh dương",
-        "pl": "niebieskie"
+        "pl": "niebieskie",
+        "tr": "mavi"
       },
       "a": "Sepatu saya biru.",
       "a_reg": "formal",
@@ -890,7 +939,8 @@
         "ja": "はい",
         "en": "yes",
         "vi": "có",
-        "pl": "tak"
+        "pl": "tak",
+        "tr": "evet"
       },
       "a": "Ya, dia berkacamata.",
       "a_reg": "formal",
@@ -908,7 +958,8 @@
         "ja": "銀行で",
         "en": "at a bank",
         "vi": "ở ngân hàng",
-        "pl": "w banku"
+        "pl": "w banku",
+        "tr": "bankada"
       },
       "a": "Dia bekerja di bank.",
       "a_reg": "formal",
@@ -926,7 +977,8 @@
         "ja": "人当たりがいい",
         "en": "friendly",
         "vi": "rất thân thiện",
-        "pl": "przyjazny charakter"
+        "pl": "przyjazny charakter",
+        "tr": "cana yakın"
       },
       "a": "Dia ramah.",
       "a_reg": "formal",
@@ -944,7 +996,8 @@
         "ja": "わたしたち二人",
         "en": "the two of us",
         "vi": "cả hai chúng tôi",
-        "pl": "we dwoje"
+        "pl": "we dwoje",
+        "tr": "ikimiz"
       },
       "a": "Kami berdua.",
       "a_reg": "formal",
@@ -962,7 +1015,8 @@
         "ja": "ジョグジャカルタに住んでいます",
         "en": "I live in Yogyakarta",
         "vi": "tôi sống ở Yogyakarta",
-        "pl": "mieszkam w Yogyakarcie"
+        "pl": "mieszkam w Yogyakarcie",
+        "tr": "Yogyakarta'da oturuyorum"
       },
       "a": "Saya tinggal di Yogyakarta.",
       "a_reg": "formal"
@@ -973,7 +1027,8 @@
         "ja": "韓国から来ました",
         "en": "I'm from Korea",
         "vi": "tôi đến từ Hàn Quốc",
-        "pl": "jestem z Korei"
+        "pl": "jestem z Korei",
+        "tr": "Kore'denim"
       },
       "a": "Saya dari Korea.",
       "a_reg": "formal"
@@ -984,7 +1039,8 @@
         "ja": "かれは UGM で勉強しています",
         "en": "he studies at UGM",
         "vi": "anh ấy học ở UGM",
-        "pl": "on studiuje na UGM"
+        "pl": "on studiuje na UGM",
+        "tr": "o UGM'de okuyor"
       },
       "a": "Dia belajar di UGM.",
       "a_reg": "formal"
@@ -995,7 +1051,8 @@
         "ja": "Kaliurang 通りに住んでいます",
         "en": "I live on Jalan Kaliurang",
         "vi": "tôi sống ở Jalan Kaliurang",
-        "pl": "mieszkam przy Jalan Kaliurang"
+        "pl": "mieszkam przy Jalan Kaliurang",
+        "tr": "Jalan Kaliurang'da oturuyorum"
       },
       "a": "Saya tinggal di Jalan Kaliurang.",
       "a_reg": "formal"
@@ -1006,7 +1063,8 @@
         "ja": "かのじょはメダンから来ました",
         "en": "she's from Medan",
         "vi": "cô ấy đến từ Medan",
-        "pl": "ona jest z Medanu"
+        "pl": "ona jest z Medanu",
+        "tr": "o Medan'dan"
       },
       "a": "Dia dari Medan.",
       "a_reg": "formal"
@@ -1017,7 +1075,8 @@
         "ja": "わたしたちは INCULS でインドネシア語を勉強しています",
         "en": "we study Indonesian at INCULS",
         "vi": "chúng tôi học tiếng Indonesia ở INCULS",
-        "pl": "uczymy się indonezyjskiego w INCULS"
+        "pl": "uczymy się indonezyjskiego w INCULS",
+        "tr": "INCULS'ta Endonezce öğreniyoruz"
       },
       "a": "Kami belajar bahasa Indonesia di INCULS.",
       "a_reg": "formal"
@@ -1028,7 +1087,8 @@
         "ja": "かれらはスマトラから来ました",
         "en": "they're from Sumatra",
         "vi": "họ đến từ Sumatra",
-        "pl": "oni są z Sumatry"
+        "pl": "oni są z Sumatry",
+        "tr": "onlar Sumatra'dan"
       },
       "a": "Mereka dari Sumatra.",
       "a_reg": "formal"
@@ -1039,7 +1099,8 @@
         "ja": "クドゥスで生まれました",
         "en": "I was born in Kudus",
         "vi": "tôi sinh ra ở Kudus",
-        "pl": "moje miejsce urodzenia to Kudus"
+        "pl": "moje miejsce urodzenia to Kudus",
+        "tr": "Kudus'ta doğdum"
       },
       "a": "Saya lahir di Kudus.",
       "a_reg": "formal"
@@ -1050,7 +1111,8 @@
         "ja": "その人はロンボク島の出身",
         "en": "she comes from Lombok",
         "vi": "cô ấy đến từ Lombok",
-        "pl": "ona pochodzi z Lomboku"
+        "pl": "ona pochodzi z Lomboku",
+        "tr": "o Lombok'tan geliyor"
       },
       "a": "Dia berasal dari Lombok.",
       "a_reg": "formal"
@@ -1061,7 +1123,8 @@
         "ja": "いまはジョグジャに住んでいる",
         "en": "I live in Jogja now",
         "vi": "bây giờ tôi sống ở Jogja",
-        "pl": "teraz mieszkam w Jogji"
+        "pl": "teraz mieszkam w Jogji",
+        "tr": "şimdi Jogja'da oturuyorum"
       },
       "a": "Sekarang saya tinggal di Jogja.",
       "a_reg": "formal"
@@ -1072,7 +1135,8 @@
         "ja": "わたしは教室にいます",
         "en": "I'm in class",
         "vi": "tôi ở trong lớp",
-        "pl": "jestem w klasie"
+        "pl": "jestem w klasie",
+        "tr": "sınıftayım"
       },
       "a": "Saya di kelas.",
       "a_reg": "formal"
@@ -1083,7 +1147,8 @@
         "ja": "わたしたちは食堂へ行きます",
         "en": "we're going to the canteen",
         "vi": "chúng tôi đến căng tin",
-        "pl": "idziemy do stołówki"
+        "pl": "idziemy do stołówki",
+        "tr": "kantine gidiyoruz"
       },
       "a": "Kami ke kantin.",
       "a_reg": "formal"
@@ -1094,7 +1159,8 @@
         "ja": "先生は市場から来ました",
         "en": "the teacher has come from the market",
         "vi": "giáo viên từ chợ về",
-        "pl": "nauczyciel wraca z targu"
+        "pl": "nauczyciel wraca z targu",
+        "tr": "öğretmen pazardan geldi"
       },
       "a": "Guru dari pasar.",
       "a_reg": "neutral"
@@ -1105,7 +1171,8 @@
         "ja": "かれらはキャンパスにいます",
         "en": "they're on campus",
         "vi": "họ ở trong trường",
-        "pl": "oni są na kampusie"
+        "pl": "oni są na kampusie",
+        "tr": "onlar kampüste"
       },
       "a": "Mereka di kampus.",
       "a_reg": "neutral"
@@ -1116,7 +1183,8 @@
         "ja": "彼らはシンタの家へ行く",
         "en": "they go to Shinta's house",
         "vi": "họ đến nhà Shinta",
-        "pl": "idą do domu Shinty"
+        "pl": "idą do domu Shinty",
+        "tr": "Shinta'nın evine gidiyorlar"
       },
       "a": "Mereka ke rumah Shinta.",
       "a_reg": "neutral"
@@ -1127,7 +1195,8 @@
         "ja": "私たちは警備員詰所で会う",
         "en": "we meet at the security post",
         "vi": "chúng tôi gặp nhau ở chốt bảo vệ",
-        "pl": "spotykamy się przy budce ochrony"
+        "pl": "spotykamy się przy budce ochrony",
+        "tr": "güvenlik kulübesinde buluşuyoruz"
       },
       "a": "Kami bertemu di pos satpam.",
       "a_reg": "formal"
@@ -1186,7 +1255,8 @@
         "ja": "「Buku<b>nya</b> baru.」—— だれの本ですか。",
         "en": "“Buku<b>nya</b> baru.” — whose book is it?",
         "vi": "“Buku<b>nya</b> baru.” — sách của ai?",
-        "pl": "„Buku<b>nya</b> baru.” — czyja to książka?"
+        "pl": "„Buku<b>nya</b> baru.” — czyja to książka?",
+        "tr": "“Buku<b>nya</b> baru.” — kitap kimin?"
       },
       "opts": [
         {
@@ -1199,7 +1269,8 @@
             "ja": "「わたしの本」は buku saya／bukuku です。",
             "en": "“My book” is buku saya or bukuku.",
             "vi": "“Sách của tôi” là buku saya hoặc bukuku.",
-            "pl": "„Moja książka” to buku saya lub bukuku."
+            "pl": "„Moja książka” to buku saya lub bukuku.",
+            "tr": "“Benim kitabım”: buku saya ya da bukuku."
           }
         },
         {
@@ -1209,7 +1280,8 @@
             "ja": "「あなたの本」は buku kamu／bukumu です。",
             "en": "“Your book” is buku kamu or bukumu.",
             "vi": "“Sách của bạn” là buku kamu hoặc bukumu.",
-            "pl": "„Twoja książka” to buku kamu lub bukumu."
+            "pl": "„Twoja książka” to buku kamu lub bukumu.",
+            "tr": "“Senin kitabın”: buku kamu ya da bukumu."
           }
         },
         {
@@ -1219,7 +1291,8 @@
             "ja": "「わたしたちの本」は buku kita で、接尾辞の形はありません。",
             "en": "“Our book” is buku kita; there is no suffix form.",
             "vi": "“Sách của chúng ta” là buku kita; không có dạng hậu tố.",
-            "pl": "„Nasza książka” to buku kita; nie ma formy z przyrostkiem."
+            "pl": "„Nasza książka” to buku kita; nie ma formy z przyrostkiem.",
+            "tr": "“Bizim kitabımız”: buku kita; son ekli biçimi yok."
           }
         }
       ],
@@ -1228,7 +1301,8 @@
         "ja": "<b>-nya</b> は三人称です。bukunya＝buku dia（かれ／かのじょの本）。",
         "en": "<b>-nya</b> is third person: bukunya = buku dia (his / her book).",
         "vi": "<b>-nya</b> là ngôi thứ ba: bukunya = buku dia (sách của anh ấy / cô ấy).",
-        "pl": "<b>-nya</b> to trzecia osoba: bukunya = buku dia (jego / jej książka)."
+        "pl": "<b>-nya</b> to trzecia osoba: bukunya = buku dia (jego / jej książka).",
+        "tr": "<b>-nya</b> üçüncü şahıstır: bukunya = buku dia (onun kitabı)."
       }
     },
     {
@@ -1241,7 +1315,8 @@
         "ja": "「Tas<b>ku</b> di kelas.」—— だれのかばんですか。",
         "en": "“Tas<b>ku</b> di kelas.” — whose bag is it?",
         "vi": "“Tas<b>ku</b> di kelas.” — cặp của ai?",
-        "pl": "„Tas<b>ku</b> di kelas.” — czyja to torba?"
+        "pl": "„Tas<b>ku</b> di kelas.” — czyja to torba?",
+        "tr": "“Tas<b>ku</b> di kelas.” — çanta kimin?"
       },
       "opts": [
         {
@@ -1254,7 +1329,8 @@
             "ja": "「あなたのかばん」は tasmu です。-ku と -mu は一字違いで、指す人が変わります。",
             "en": "“Your bag” is tasmu. One letter apart, a different person.",
             "vi": "“Cặp của bạn” là tasmu. Lệch một chữ cái là lệch một người.",
-            "pl": "„Twoja torba” to tasmu. Jedna litera różnicy, a inna osoba."
+            "pl": "„Twoja torba” to tasmu. Jedna litera różnicy, a inna osoba.",
+            "tr": "“Senin çantan”: tasmu. Tek harf fark, başka bir kişi."
           }
         },
         {
@@ -1264,7 +1340,8 @@
             "ja": "「かれのかばん」は tasnya です。",
             "en": "“His bag” is tasnya.",
             "vi": "“Cặp của anh ấy” là tasnya.",
-            "pl": "„Jego torba” to tasnya."
+            "pl": "„Jego torba” to tasnya.",
+            "tr": "“Onun çantası”: tasnya."
           }
         },
         {
@@ -1274,7 +1351,8 @@
             "ja": "「友だちのかばん」は tas teman で、接尾辞はつきません。",
             "en": "“A friend’s bag” is tas teman, with no suffix.",
             "vi": "“Cặp của người bạn” là tas teman, không mang hậu tố.",
-            "pl": "„Torba kolegi” to tas teman, bez przyrostka."
+            "pl": "„Torba kolegi” to tas teman, bez przyrostka.",
+            "tr": "“Bir arkadaşın çantası”: tas teman, son ek yok."
           }
         }
       ],
@@ -1283,7 +1361,8 @@
         "ja": "<b>-ku</b> は「わたしの」です。tasku＝tas saya。",
         "en": "<b>-ku</b> means “my”: tasku = tas saya.",
         "vi": "<b>-ku</b> nghĩa là “của tôi”: tasku = tas saya.",
-        "pl": "<b>-ku</b> znaczy „mój”: tasku = tas saya."
+        "pl": "<b>-ku</b> znaczy „mój”: tasku = tas saya.",
+        "tr": "<b>-ku</b> “benim” demektir: tasku = tas saya."
       }
     },
     {
@@ -1296,7 +1375,8 @@
         "ja": "「Rumah<b>mu</b> di mana?」—— だれの家について聞いていますか。",
         "en": "“Rumah<b>mu</b> di mana?” — whose house is being asked about?",
         "vi": "“Rumah<b>mu</b> di mana?” — đang hỏi nhà của ai?",
-        "pl": "„Rumah<b>mu</b> di mana?” — o czyj dom tu chodzi?"
+        "pl": "„Rumah<b>mu</b> di mana?” — o czyj dom tu chodzi?",
+        "tr": "“Rumah<b>mu</b> di mana?” — kimin evi soruluyor?"
       },
       "opts": [
         {
@@ -1309,7 +1389,8 @@
             "ja": "「わたしの家」は rumahku です。ここでは相手のことを聞いています。",
             "en": "“My house” is rumahku. This question is about the listener.",
             "vi": "“Nhà của tôi” là rumahku. Câu hỏi này hỏi về người nghe.",
-            "pl": "„Mój dom” to rumahku. To pytanie dotyczy rozmówcy."
+            "pl": "„Mój dom” to rumahku. To pytanie dotyczy rozmówcy.",
+            "tr": "“Benim evim”: rumahku. Bu soru karşıdakini soruyor."
           }
         },
         {
@@ -1319,7 +1400,8 @@
             "ja": "「かれの家」は rumahnya です。",
             "en": "“His house” is rumahnya.",
             "vi": "“Nhà của anh ấy” là rumahnya.",
-            "pl": "„Jego dom” to rumahnya."
+            "pl": "„Jego dom” to rumahnya.",
+            "tr": "“Onun evi”: rumahnya."
           }
         },
         {
@@ -1329,7 +1411,8 @@
             "ja": "「わたしたちの家」は rumah kami で、接尾辞の形はありません。",
             "en": "“Our house” is rumah kami; there is no suffix form.",
             "vi": "“Nhà của chúng tôi” là rumah kami; không có dạng hậu tố.",
-            "pl": "„Nasz dom” to rumah kami; nie ma formy z przyrostkiem."
+            "pl": "„Nasz dom” to rumah kami; nie ma formy z przyrostkiem.",
+            "tr": "“Bizim evimiz”: rumah kami; son ekli biçimi yok."
           }
         }
       ],
@@ -1338,7 +1421,8 @@
         "ja": "<b>-mu</b> は「あなたの」です。rumahmu＝rumah kamu。",
         "en": "<b>-mu</b> means “your”: rumahmu = rumah kamu.",
         "vi": "<b>-mu</b> nghĩa là “của bạn”: rumahmu = rumah kamu.",
-        "pl": "<b>-mu</b> znaczy „twój”: rumahmu = rumah kamu."
+        "pl": "<b>-mu</b> znaczy „twój”: rumahmu = rumah kamu.",
+        "tr": "<b>-mu</b> “senin” demektir: rumahmu = rumah kamu."
       }
     },
     {
@@ -1351,7 +1435,8 @@
         "ja": "「わたしの本」はインドネシア語で？",
         "en": "How do you say “my book”?",
         "vi": "“Sách của tôi” trong tiếng Indonesia nói thế nào?",
-        "pl": "Jak powiedzieć „moja książka”?"
+        "pl": "Jak powiedzieć „moja książka”?",
+        "tr": "“Benim kitabım” nasıl denir?"
       },
       "opts": [
         {
@@ -1364,7 +1449,8 @@
             "ja": "語順が逆です。インドネシア語は「だれの」を<b>後ろ</b>に置きます（もの→持ち主）。",
             "en": "Wrong order. Indonesian puts the owner <b>after</b> the thing.",
             "vi": "Sai trật tự. Tiếng Indonesia đặt người sở hữu ở <b>phía sau</b>: đồ vật trước, chủ sở hữu sau.",
-            "pl": "Zła kolejność. Indonezyjski stawia właściciela <b>po</b> rzeczy."
+            "pl": "Zła kolejność. Indonezyjski stawia właściciela <b>po</b> rzeczy.",
+            "tr": "Sıra yanlış. Endonezce sahibi eşyanın <b>arkasına</b> koyar."
           }
         },
         {
@@ -1374,7 +1460,8 @@
             "ja": "saya punya は「わたしが持っている」という文の一部で、句ではありません。",
             "en": "saya punya means “I have” — a clause, not a phrase.",
             "vi": "saya punya nghĩa là “tôi có” — đó là một câu, không phải một cụm từ.",
-            "pl": "saya punya znaczy „mam” — to zdanie, nie wyrażenie."
+            "pl": "saya punya znaczy „mam” — to zdanie, nie wyrażenie.",
+            "tr": "saya punya “benim var” demektir — bir cümle, tamlama değil."
           }
         },
         {
@@ -1384,7 +1471,8 @@
             "ja": "持ち主が二重になっています。buku saya か bukuku のどちらかです。",
             "en": "Two owners at once. Use either buku saya or bukuku.",
             "vi": "Hai chủ sở hữu chồng lên nhau. Dùng buku saya hoặc bukuku.",
-            "pl": "Dwóch właścicieli naraz. Albo buku saya, albo bukuku."
+            "pl": "Dwóch właścicieli naraz. Albo buku saya, albo bukuku.",
+            "tr": "Aynı anda iki sahip. Ya buku saya ya da bukuku."
           }
         }
       ],
@@ -1393,7 +1481,8 @@
         "ja": "日本語は「わたしの本」、インドネシア語は逆で「本 わたしの」＝<b>buku saya</b>。",
         "en": "English says “my book”; Indonesian reverses it: <b>buku saya</b>.",
         "vi": "Giống hệt tiếng Việt “sách của tôi”: đồ vật trước, chủ sở hữu sau — <b>buku saya</b>.",
-        "pl": "Po polsku „moja książka”; indonezyjski odwraca kolejność: <b>buku saya</b>."
+        "pl": "Po polsku „moja książka”; indonezyjski odwraca kolejność: <b>buku saya</b>.",
+        "tr": "Türkçede “benim kitabım”; Endonezce sırayı tersine çevirir: <b>buku saya</b>."
       }
     },
     {
@@ -1406,7 +1495,8 @@
         "ja": "「友だちのかばん」はインドネシア語で？",
         "en": "How do you say “a friend’s bag”?",
         "vi": "“Cặp của người bạn” trong tiếng Indonesia nói thế nào?",
-        "pl": "Jak powiedzieć „torba kolegi”?"
+        "pl": "Jak powiedzieć „torba kolegi”?",
+        "tr": "“Bir arkadaşın çantası” nasıl denir?"
       },
       "opts": [
         {
@@ -1419,7 +1509,8 @@
             "ja": "これでは「かばんの友だち」になります。もの→持ち主の順です。",
             "en": "That says “the bag’s friend”. Thing first, owner second.",
             "vi": "Như vậy thành “người bạn của cái cặp”. Đồ vật trước, chủ sở hữu sau.",
-            "pl": "To znaczy „kolega torby”. Najpierw rzecz, potem właściciel."
+            "pl": "To znaczy „kolega torby”. Najpierw rzecz, potem właściciel.",
+            "tr": "Bu “çantanın arkadaşı” olur. Önce eşya, sonra sahibi."
           }
         },
         {
@@ -1429,7 +1520,8 @@
             "ja": "これは「かれの友だちのかばん」です。-nya でもう一人加わってしまいます。",
             "en": "That is “his friend’s bag” — -nya adds another owner.",
             "vi": "Đây là “cặp của bạn anh ấy” — -nya thêm một chủ sở hữu nữa.",
-            "pl": "To „torba jego kolegi” — -nya dodaje kolejnego właściciela."
+            "pl": "To „torba jego kolegi” — -nya dodaje kolejnego właściciela.",
+            "tr": "Bu “onun arkadaşının çantası” — -nya bir sahip daha ekler."
           }
         },
         {
@@ -1439,7 +1531,8 @@
             "ja": "これは「あなたの友だちのかばん」で、「あなたの」が一つ余分です。",
             "en": "That is “your friend’s bag” — one owner too many.",
             "vi": "Đây là “cặp của người bạn của bạn” — thừa một lớp “của bạn”.",
-            "pl": "To „torba twojego kolegi” — o jednego właściciela za dużo."
+            "pl": "To „torba twojego kolegi” — o jednego właściciela za dużo.",
+            "tr": "Bu “senin arkadaşının çantası” — bir sahip fazla."
           }
         }
       ],
@@ -1448,7 +1541,8 @@
         "ja": "持ち主が名詞のときは、そのまま後ろに置きます（接尾辞なし）：<b>tas teman</b>。",
         "en": "When the owner is a noun, it simply follows — no suffix: <b>tas teman</b>.",
         "vi": "Khi chủ sở hữu là danh từ thì nó đứng ngay sau, không cần hậu tố: <b>tas teman</b>.",
-        "pl": "Gdy właścicielem jest rzeczownik, stoi zaraz po — bez przyrostka: <b>tas teman</b>."
+        "pl": "Gdy właścicielem jest rzeczownik, stoi zaraz po — bez przyrostka: <b>tas teman</b>.",
+        "tr": "Sahip bir isimse arkasından gelir, son ek yok: <b>tas teman</b>."
       }
     },
     {
@@ -1461,7 +1555,8 @@
         "ja": "「sepeda dia」を接尾辞の形にすると？",
         "en": "Rewrite “sepeda dia” with a suffix:",
         "vi": "Viết lại “sepeda dia” bằng dạng hậu tố:",
-        "pl": "Zapisz „sepeda dia” z przyrostkiem:"
+        "pl": "Zapisz „sepeda dia” z przyrostkiem:",
+        "tr": "“sepeda dia”yı son ekle yaz:"
       },
       "opts": [
         {
@@ -1474,7 +1569,8 @@
             "ja": "-ku は「わたしの」です。dia なら -nya を使います。",
             "en": "-ku is “my”; for dia you need -nya.",
             "vi": "-ku là “của tôi”; với dia phải dùng -nya.",
-            "pl": "-ku to „mój”; przy dia potrzebne jest -nya."
+            "pl": "-ku to „mój”; przy dia potrzebne jest -nya.",
+            "tr": "-ku “benim” demek; dia için -nya gerekir."
           }
         },
         {
@@ -1484,7 +1580,8 @@
             "ja": "-mu は「あなたの」で、「かれの」ではありません。",
             "en": "-mu is “your”, not “his”.",
             "vi": "-mu là “của bạn”, không phải “của anh ấy”.",
-            "pl": "-mu to „twój”, nie „jego”."
+            "pl": "-mu to „twój”, nie „jego”.",
+            "tr": "-mu “senin” demek, “onun” değil."
           }
         },
         {
@@ -1494,7 +1591,8 @@
             "ja": "接尾辞はハイフンなしでつなげます：sepedanya。",
             "en": "The suffix attaches directly, no hyphen: sepedanya.",
             "vi": "Hậu tố viết liền, không có dấu gạch nối: sepedanya.",
-            "pl": "Przyrostek pisze się łącznie, bez łącznika: sepedanya."
+            "pl": "Przyrostek pisze się łącznie, bez łącznika: sepedanya.",
+            "tr": "Son ek doğrudan eklenir, kısa çizgi yok: sepedanya."
           }
         }
       ],
@@ -1503,7 +1601,8 @@
         "ja": "dia→<b>-nya</b>、aku→<b>-ku</b>、kamu→<b>-mu</b>。いずれも名詞に直接つけます。",
         "en": "dia → <b>-nya</b>, aku → <b>-ku</b>, kamu → <b>-mu</b>, attached straight onto the noun.",
         "vi": "dia → <b>-nya</b>, aku → <b>-ku</b>, kamu → <b>-mu</b>, ba hậu tố dính thẳng vào sau danh từ.",
-        "pl": "dia → <b>-nya</b>, aku → <b>-ku</b>, kamu → <b>-mu</b>, doklejane wprost do rzeczownika."
+        "pl": "dia → <b>-nya</b>, aku → <b>-ku</b>, kamu → <b>-mu</b>, doklejane wprost do rzeczownika.",
+        "tr": "dia → <b>-nya</b>, aku → <b>-ku</b>, kamu → <b>-mu</b>, doğrudan isme eklenir."
       }
     },
     {
@@ -1516,7 +1615,8 @@
         "ja": "「teman aku」を接尾辞の形にすると？",
         "en": "Rewrite “teman aku” with a suffix:",
         "vi": "Viết lại “teman aku” bằng dạng hậu tố:",
-        "pl": "Zapisz „teman aku” z przyrostkiem:"
+        "pl": "Zapisz „teman aku” z przyrostkiem:",
+        "tr": "“teman aku”yu son ekle yaz:"
       },
       "opts": [
         {
@@ -1529,7 +1629,8 @@
             "ja": "-mu は「あなたの」です。aku に対応するのは -ku です。",
             "en": "-mu is “your”. aku corresponds to -ku.",
             "vi": "-mu là “của bạn”. aku tương ứng với -ku.",
-            "pl": "-mu to „twój”. Do aku pasuje -ku."
+            "pl": "-mu to „twój”. Do aku pasuje -ku.",
+            "tr": "-mu “senin” demek. aku'ya -ku karşılık gelir."
           }
         },
         {
@@ -1539,7 +1640,8 @@
             "ja": "-nya は「かれ／かのじょの」です。",
             "en": "-nya is “his / her”.",
             "vi": "-nya là “của anh ấy / cô ấy”.",
-            "pl": "-nya to „jego / jej”."
+            "pl": "-nya to „jego / jej”.",
+            "tr": "-nya “onun” demek."
           }
         },
         {
@@ -1549,7 +1651,8 @@
             "ja": "接尾辞はハイフンなしでつなげます：temanku。",
             "en": "The suffix attaches directly, no hyphen: temanku.",
             "vi": "Hậu tố viết liền, không có dấu gạch nối: temanku.",
-            "pl": "Przyrostek pisze się łącznie, bez łącznika: temanku."
+            "pl": "Przyrostek pisze się łącznie, bez łącznika: temanku.",
+            "tr": "Son ek doğrudan eklenir, kısa çizgi yok: temanku."
           }
         }
       ],
@@ -1558,7 +1661,8 @@
         "ja": "aku の接尾辞は -ku です。teman aku＝<b>temanku</b>（わたしの友だち）。",
         "en": "The suffix for aku is -ku: teman aku = <b>temanku</b> (my friend).",
         "vi": "Hậu tố của aku là -ku: teman aku = <b>temanku</b> (bạn của tôi).",
-        "pl": "Przyrostek od aku to -ku: teman aku = <b>temanku</b> (mój kolega)."
+        "pl": "Przyrostek od aku to -ku: teman aku = <b>temanku</b> (mój kolega).",
+        "tr": "aku'nun son eki -ku: teman aku = <b>temanku</b> (arkadaşım)."
       }
     },
     {
@@ -1571,7 +1675,8 @@
         "ja": "「Aku punya adik.」—— その弟・妹はどう言いますか。",
         "en": "“Aku punya adik.” — refer to that sibling as:",
         "vi": "“Aku punya adik.” — người em đó có thể gọi là:",
-        "pl": "„Aku punya adik.” — o tym młodszym rodzeństwie powiesz:"
+        "pl": "„Aku punya adik.” — o tym młodszym rodzeństwie powiesz:",
+        "tr": "“Aku punya adik.” — o kardeşten şöyle bahsedersin:"
       },
       "opts": [
         {
@@ -1584,7 +1689,8 @@
             "ja": "この文の持ち主は aku（わたし）なので -ku です。",
             "en": "The owner in the sentence is aku, so it takes -ku.",
             "vi": "Chủ sở hữu trong câu là aku, nên phải dùng -ku.",
-            "pl": "Właścicielem w zdaniu jest aku, więc potrzebne jest -ku."
+            "pl": "Właścicielem w zdaniu jest aku, więc potrzebne jest -ku.",
+            "tr": "Cümledeki sahip aku, yani -ku alır."
           }
         },
         {
@@ -1594,7 +1700,8 @@
             "ja": "これでは「わたし 弟」です。もの→持ち主の順：adik aku→adikku。",
             "en": "That reads “me sibling”. Thing first: adik aku → adikku.",
             "vi": "Như vậy thành “tôi em”. Đồ vật đứng trước: adik aku → adikku.",
-            "pl": "To brzmi „ja rodzeństwo”. Najpierw rzecz: adik aku → adikku."
+            "pl": "To brzmi „ja rodzeństwo”. Najpierw rzecz: adik aku → adikku.",
+            "tr": "Bu “ben kardeş” gibi okunur. Önce eşya: adik aku → adikku."
           }
         },
         {
@@ -1604,7 +1711,8 @@
             "ja": "punya は動詞「持つ」で、所有句には入りません。",
             "en": "punya is the verb “to have”; it is not part of the phrase.",
             "vi": "punya là động từ “có”, không tham gia vào cụm sở hữu.",
-            "pl": "punya to czasownik „mieć”; nie wchodzi do wyrażenia."
+            "pl": "punya to czasownik „mieć”; nie wchodzi do wyrażenia.",
+            "tr": "punya “sahip olmak” fiilidir; tamlamaya girmez."
           }
         }
       ],
@@ -1613,7 +1721,8 @@
         "ja": "<b>X punya Y</b>（X は Y を持つ）→ <b>Y X</b>（X の Y）→ 代名詞なら接尾辞に縮まります。",
         "en": "<b>X punya Y</b> → <b>Y X</b> → and pronouns contract into a suffix.",
         "vi": "<b>X punya Y</b> (X có Y) → <b>Y X</b> (Y của X) → đại từ nhân xưng rút thành hậu tố.",
-        "pl": "<b>X punya Y</b> → <b>Y X</b> → a zaimki skracają się do przyrostka."
+        "pl": "<b>X punya Y</b> → <b>Y X</b> → a zaimki skracają się do przyrostka.",
+        "tr": "<b>X punya Y</b> → <b>Y X</b> → zamirler de son eke kısalır."
       }
     },
     {
@@ -1626,7 +1735,8 @@
         "ja": "「Ghoza punya rumah.」—— その家はどう言いますか。",
         "en": "“Ghoza punya rumah.” — refer to that house as:",
         "vi": "“Ghoza punya rumah.” — ngôi nhà đó có thể gọi là:",
-        "pl": "„Ghoza punya rumah.” — o tym domu powiesz:"
+        "pl": "„Ghoza punya rumah.” — o tym domu powiesz:",
+        "tr": "“Ghoza punya rumah.” — o evden şöyle bahsedersin:"
       },
       "opts": [
         {
@@ -1639,7 +1749,8 @@
             "ja": "持ち主は Ghoza であって「わたし」ではありません。第三者は -nya です。",
             "en": "The owner is Ghoza, not “me”. A third party takes -nya.",
             "vi": "Chủ sở hữu là Ghoza, không phải “tôi”. Người thứ ba luôn dùng -nya.",
-            "pl": "Właścicielem jest Ghoza, nie „ja”. Osoba trzecia bierze -nya."
+            "pl": "Właścicielem jest Ghoza, nie „ja”. Osoba trzecia bierze -nya.",
+            "tr": "Sahip Ghoza, “ben” değil. Üçüncü kişi -nya alır."
           }
         },
         {
@@ -1649,7 +1760,8 @@
             "ja": "語順が逆です。rumah Ghoza が正しい形です。",
             "en": "Wrong order: rumah Ghoza.",
             "vi": "Sai trật tự: phải là rumah Ghoza.",
-            "pl": "Zła kolejność: rumah Ghoza."
+            "pl": "Zła kolejność: rumah Ghoza.",
+            "tr": "Sıra yanlış: rumah Ghoza."
           }
         },
         {
@@ -1659,7 +1771,8 @@
             "ja": "punya は動詞で、句には現れません。",
             "en": "punya is a verb; it does not appear in the phrase.",
             "vi": "punya là động từ, không xuất hiện trong cụm từ.",
-            "pl": "punya to czasownik; w wyrażeniu się nie pojawia."
+            "pl": "punya to czasownik; w wyrażeniu się nie pojawia.",
+            "tr": "punya bir fiil; tamlamada yer almaz."
           }
         }
       ],
@@ -1668,7 +1781,8 @@
         "ja": "人名も三人称です。rumah Ghoza→<b>rumahnya</b>。",
         "en": "A name is third person too: rumah Ghoza → <b>rumahnya</b>.",
         "vi": "Tên riêng cũng là ngôi thứ ba: rumah Ghoza → <b>rumahnya</b>.",
-        "pl": "Imię też jest trzecią osobą: rumah Ghoza → <b>rumahnya</b>."
+        "pl": "Imię też jest trzecią osobą: rumah Ghoza → <b>rumahnya</b>.",
+        "tr": "İsim de üçüncü şahıstır: rumah Ghoza → <b>rumahnya</b>."
       }
     },
     {
@@ -1681,7 +1795,8 @@
         "ja": "並べてみましょう：わたしの本は新しいです。",
         "en": "Build: My book is new.",
         "vi": "Ghép câu: Sách của tôi mới.",
-        "pl": "Ułóż: Moja książka jest nowa."
+        "pl": "Ułóż: Moja książka jest nowa.",
+        "tr": "Kur: Kitabım yeni."
       },
       "bank": [
         "buku",
@@ -1695,7 +1810,8 @@
         "ja": "もの→持ち主→形容詞の順です：<b>Buku saya baru.</b>",
         "en": "Thing → owner → adjective: <b>Buku saya baru.</b>",
         "vi": "Đồ vật → chủ sở hữu → tính từ: <b>Buku saya baru.</b>",
-        "pl": "Rzecz → właściciel → przymiotnik: <b>Buku saya baru.</b>"
+        "pl": "Rzecz → właściciel → przymiotnik: <b>Buku saya baru.</b>",
+        "tr": "Eşya → sahip → sıfat: <b>Buku saya baru.</b>"
       }
     },
     {
@@ -1708,7 +1824,8 @@
         "ja": "並べてみましょう：わたしの友だちのかばんはすてきです。",
         "en": "Build: My friend’s bag is nice.",
         "vi": "Ghép câu: Cặp của bạn tôi rất đẹp.",
-        "pl": "Ułóż: Torba mojego kolegi jest ładna."
+        "pl": "Ułóż: Torba mojego kolegi jest ładna.",
+        "tr": "Kur: Arkadaşımın çantası güzel."
       },
       "bank": [
         "tas",
@@ -1722,7 +1839,8 @@
         "ja": "持ち主が二重でも、後ろへ続けます：かばん→友だち→わたし。",
         "en": "Two owners still stack rightwards: bag → friend → me.",
         "vi": "Hai lớp sở hữu cũng nối tiếp về bên phải: cặp → bạn → tôi.",
-        "pl": "Dwie warstwy właścicieli też układają się w prawo: torba → kolega → ja."
+        "pl": "Dwie warstwy właścicieli też układają się w prawo: torba → kolega → ja.",
+        "tr": "İki sahip de sağa doğru dizilir: çanta → arkadaş → ben."
       }
     },
     {
@@ -1735,7 +1853,8 @@
         "ja": "並べてみましょう：かれの家はKaliurang 通りにあります。",
         "en": "Build: His house is on Jalan Kaliurang.",
         "vi": "Ghép câu: Nhà anh ấy ở Jalan Kaliurang.",
-        "pl": "Ułóż: Jego dom jest przy Jalan Kaliurang."
+        "pl": "Ułóż: Jego dom jest przy Jalan Kaliurang.",
+        "tr": "Kur: Onun evi Jalan Kaliurang'da."
       },
       "bank": [
         "rumahnya",
@@ -1750,7 +1869,8 @@
         "ja": "<b>di</b> は「〜に」、dari は「〜から」です。",
         "en": "<b>di</b> marks location; dari means “from”.",
         "vi": "<b>di</b> nghĩa là “ở”; dari là “từ”.",
-        "pl": "<b>di</b> oznacza miejsce; dari znaczy „z”."
+        "pl": "<b>di</b> oznacza miejsce; dari znaczy „z”.",
+        "tr": "<b>di</b> yer bildirir; dari “-den” demektir."
       }
     },
     {
@@ -1763,7 +1883,8 @@
         "ja": "並べてみましょう：わたしの弟・妹は二人です。",
         "en": "Build: I have two younger siblings.",
         "vi": "Ghép câu: Tôi có hai người em.",
-        "pl": "Ułóż: Mam dwoje młodszego rodzeństwa."
+        "pl": "Ułóż: Mam dwoje młodszego rodzeństwa.",
+        "tr": "Kur: İki küçük kardeşim var."
       },
       "bank": [
         "adikku",
@@ -1777,7 +1898,8 @@
         "ja": "人を数えるときは <b>orang</b> を使います：dua orang（二人）。",
         "en": "People are counted with <b>orang</b>: dua orang.",
         "vi": "Đếm người thì dùng <b>orang</b>: dua orang (hai người).",
-        "pl": "Osoby liczy się słowem <b>orang</b>: dua orang."
+        "pl": "Osoby liczy się słowem <b>orang</b>: dua orang.",
+        "tr": "İnsanlar <b>orang</b> ile sayılır: dua orang."
       }
     },
     {
@@ -1790,7 +1912,8 @@
         "ja": "並べてみましょう：わたしの友だちの自転車は新しいです。",
         "en": "Build: My friend’s bicycle is new.",
         "vi": "Ghép câu: Xe đạp của bạn tôi mới.",
-        "pl": "Ułóż: Rower mojego kolegi jest nowy."
+        "pl": "Ułóż: Rower mojego kolegi jest nowy.",
+        "tr": "Kur: Arkadaşımın bisikleti yeni."
       },
       "bank": [
         "sepeda",
@@ -1806,7 +1929,8 @@
         "ja": "自転車→友だち→わたし→新しい、と後ろへ続けます。",
         "en": "Bicycle → friend → me → new, all stacking rightwards.",
         "vi": "Xe đạp → bạn → tôi → mới, cứ nối dần về sau.",
-        "pl": "Rower → kolega → ja → nowy, wszystko dokłada się w prawo."
+        "pl": "Rower → kolega → ja → nowy, wszystko dokłada się w prawo.",
+        "tr": "Bisiklet → arkadaş → ben → yeni, hepsi sağa doğru dizilir."
       }
     },
     {
@@ -1819,7 +1943,8 @@
         "ja": "並べてみましょう：かれの車はキャンパスにあります。",
         "en": "Build: His car is on campus.",
         "vi": "Ghép câu: Xe của anh ấy ở trong trường.",
-        "pl": "Ułóż: Jego samochód jest na kampusie."
+        "pl": "Ułóż: Jego samochód jest na kampusie.",
+        "tr": "Kur: Onun arabası kampüste."
       },
       "bank": [
         "mobilnya",
@@ -1833,7 +1958,8 @@
         "ja": "場所にいる／あるときは <b>di</b>、行く先には ke を使います。",
         "en": "Use <b>di</b> for being somewhere; ke is for going there.",
         "vi": "Ở đâu đó thì dùng <b>di</b>; đi đến đâu đó mới dùng ke.",
-        "pl": "<b>di</b> to „być gdzieś”; ke to „iść dokądś”."
+        "pl": "<b>di</b> to „być gdzieś”; ke to „iść dokądś”.",
+        "tr": "Bir yerde olmak için <b>di</b>; bir yere gitmek için ke."
       }
     }
   ],
@@ -1848,7 +1974,8 @@
         "ja": "手もとにあるものについて「これは何ですか」と聞くとき",
         "en": "The thing is right beside you. Ask “what is this?”",
         "vi": "Vật ở ngay bên cạnh bạn. Hãy hỏi “cái này là cái gì?”",
-        "pl": "Rzecz leży tuż obok ciebie. Zapytaj „co to jest?”"
+        "pl": "Rzecz leży tuż obok ciebie. Zapytaj „co to jest?”",
+        "tr": "Eşya hemen yanında. “Bu ne?” diye sor."
       },
       "opts": [
         {
@@ -1861,7 +1988,8 @@
             "ja": "itu は話し手から遠いもの（あれ・それ）です。手もとのものは ini です。",
             "en": "itu points to something away from the speaker. Use ini for what is at hand.",
             "vi": "itu chỉ vật ở xa người nói (cái kia). Vật trong tầm tay thì dùng ini.",
-            "pl": "itu wskazuje coś dalej od mówiącego (tamto). To, co pod ręką, bierze ini."
+            "pl": "itu wskazuje coś dalej od mówiącego (tamto). To, co pod ręką, bierze ini.",
+            "tr": "itu konuşandan uzaktaki şeyi gösterir. Eldeki şey için ini kullan."
           }
         },
         {
@@ -1871,7 +1999,8 @@
             "ja": "itu は話し手から遠いものです。手もとのものは ini を使います。",
             "en": "itu points to something further away. For what is at hand, use ini.",
             "vi": "itu chỉ vật ở xa người nói. Vật trong tầm tay phải dùng ini.",
-            "pl": "itu wskazuje coś dalej. Na to, co pod ręką, użyj ini."
+            "pl": "itu wskazuje coś dalej. Na to, co pod ręką, użyj ini.",
+            "tr": "itu daha uzaktaki şeyi gösterir. Eldeki şey için ini kullan."
           }
         },
         {
@@ -1881,7 +2010,8 @@
             "ja": "siapa は「だれ」です。ものについては apa を使います。",
             "en": "siapa asks “who”. For things, use apa.",
             "vi": "siapa hỏi “ai”; hỏi về đồ vật thì dùng apa.",
-            "pl": "siapa pyta „kto”. O rzeczy pyta się przez apa."
+            "pl": "siapa pyta „kto”. O rzeczy pyta się przez apa.",
+            "tr": "siapa “kim” diye sorar. Eşyalar için apa kullan."
           }
         }
       ],
@@ -1890,7 +2020,8 @@
         "ja": "<b>ini</b> は近く（これ）、<b>itu</b> は遠く（あれ）。話し手からの距離で決まります。",
         "en": "<b>ini</b> is near, <b>itu</b> is far — measured from the speaker.",
         "vi": "<b>ini</b> là gần (cái này), <b>itu</b> là xa (cái kia) — tính từ chỗ người nói.",
-        "pl": "<b>ini</b> jest blisko, <b>itu</b> daleko — licząc od mówiącego."
+        "pl": "<b>ini</b> jest blisko, <b>itu</b> daleko — licząc od mówiącego.",
+        "tr": "<b>ini</b> yakın, <b>itu</b> uzak — konuşana göre."
       }
     },
     {
@@ -1903,7 +2034,8 @@
         "ja": "本は教室の向こうにあります。「あれはわたしの本です」",
         "en": "The book is across the room. Say “that is my book.”",
         "vi": "Quyển sách ở đầu kia lớp học. Bạn nói “kia là sách của tôi.”",
-        "pl": "Książka jest na drugim końcu sali. Powiedz „to jest moja książka”."
+        "pl": "Książka jest na drugim końcu sali. Powiedz „to jest moja książka”.",
+        "tr": "Kitap odanın öbür ucunda. “O benim kitabım” de."
       },
       "opts": [
         {
@@ -1916,7 +2048,8 @@
             "ja": "ini は手もとのものです。離れているものには itu を使います。",
             "en": "ini is for what is at hand. At a distance, use itu.",
             "vi": "ini dành cho vật trong tầm tay. Ở xa thì dùng itu.",
-            "pl": "ini dotyczy tego, co pod ręką. Na odległość użyj itu."
+            "pl": "ini dotyczy tego, co pod ręką. Na odległość użyj itu.",
+            "tr": "ini eldeki şey içindir. Uzaktaki için itu kullan."
           }
         },
         {
@@ -1926,7 +2059,8 @@
             "ja": "語順が逆です：buku saya（本 わたしの）。",
             "en": "Wrong order: buku saya.",
             "vi": "Sai trật tự: buku saya (sách + của tôi).",
-            "pl": "Zła kolejność: buku saya."
+            "pl": "Zła kolejność: buku saya.",
+            "tr": "Sıra yanlış: buku saya."
           }
         },
         {
@@ -1936,7 +2070,8 @@
             "ja": "-nya と saya で持ち主が二重です。どちらか一方にします。",
             "en": "-nya and saya are two owners; keep only one.",
             "vi": "-nya và saya là hai chủ sở hữu; chỉ giữ một.",
-            "pl": "-nya i saya to dwaj właściciele; zostaw jednego."
+            "pl": "-nya i saya to dwaj właściciele; zostaw jednego.",
+            "tr": "-nya ve saya iki ayrı sahip; birini bırak."
           }
         }
       ],
@@ -1945,7 +2080,8 @@
         "ja": "指示詞は文頭に置きます：<b>Itu</b> buku saya.",
         "en": "The demonstrative comes first: <b>Itu</b> buku saya.",
         "vi": "Đại từ chỉ định đứng đầu câu: <b>Itu</b> buku saya.",
-        "pl": "Zaimek wskazujący stoi na początku: <b>Itu</b> buku saya."
+        "pl": "Zaimek wskazujący stoi na początku: <b>Itu</b> buku saya.",
+        "tr": "İşaret sözcüğü başa gelir: <b>Itu</b> buku saya."
       }
     },
     {
@@ -1958,7 +2094,8 @@
         "ja": "かれの本を差し出しながら「これはかれの本です」",
         "en": "Handing over his book: “this is his book.”",
         "vi": "Bạn đưa quyển sách của anh ấy: “đây là sách của anh ấy.”",
-        "pl": "Podajesz mu jego książkę: „to jest jego książka”."
+        "pl": "Podajesz mu jego książkę: „to jest jego książka”.",
+        "tr": "Kitabını ona uzatıyorsun: “bu onun kitabı.”"
       },
       "opts": [
         {
@@ -1971,7 +2108,8 @@
             "ja": "-ku は「わたしの」です。かれのなら -nya です。",
             "en": "-ku is “my”. For his, use -nya.",
             "vi": "-ku là “của tôi”. Của anh ấy thì dùng -nya.",
-            "pl": "-ku to „mój”. Na jego użyj -nya."
+            "pl": "-ku to „mój”. Na jego użyj -nya.",
+            "tr": "-ku “benim” demek. Onunki için -nya kullan."
           }
         },
         {
@@ -1981,7 +2119,8 @@
             "ja": "本はもう手もとにあるので ini です。",
             "en": "The book is in your hand, so ini.",
             "vi": "Sách đã ở trong tay bạn, nên dùng ini.",
-            "pl": "Książka jest już w twojej ręce, więc ini."
+            "pl": "Książka jest już w twojej ręce, więc ini.",
+            "tr": "Kitap senin elinde, yani ini."
           }
         },
         {
@@ -1991,7 +2130,8 @@
             "ja": "語順が崩れています。「かれの本」は buku dia／bukunya です。",
             "en": "Order is scrambled. “His book” is buku dia or bukunya.",
             "vi": "Trật tự lộn xộn. “Sách của anh ấy” là buku dia hoặc bukunya.",
-            "pl": "Kolejność się rozsypała. „Jego książka” to buku dia lub bukunya."
+            "pl": "Kolejność się rozsypała. „Jego książka” to buku dia lub bukunya.",
+            "tr": "Sıra karışmış. “Onun kitabı”: buku dia ya da bukunya."
           }
         }
       ],
@@ -2000,7 +2140,8 @@
         "ja": "指示詞と所有はいっしょに使えます：Ini（これは）＋bukunya（かれの本）。",
         "en": "Demonstrative and possessive combine: Ini + bukunya.",
         "vi": "Đại từ chỉ định và sở hữu dùng chung được: Ini (đây là) + bukunya (sách của anh ấy).",
-        "pl": "Zaimek wskazujący i dzierżawczy łączą się: Ini + bukunya."
+        "pl": "Zaimek wskazujący i dzierżawczy łączą się: Ini + bukunya.",
+        "tr": "İşaret ve iyelik birleşir: Ini + bukunya."
       }
     },
     {
@@ -2013,7 +2154,8 @@
         "ja": "並べてみましょう：これはわたしの友だちのかばんです。",
         "en": "Build: This is my friend’s bag.",
         "vi": "Ghép câu: Đây là túi của bạn tôi.",
-        "pl": "Ułóż: To jest torba mojego kolegi."
+        "pl": "Ułóż: To jest torba mojego kolegi.",
+        "tr": "Kur: Bu arkadaşımın çantası."
       },
       "bank": [
         "Ini",
@@ -2028,7 +2170,8 @@
         "ja": "文頭の指示詞→もの→持ち主の順です。",
         "en": "Demonstrative → thing → owner.",
         "vi": "Đại từ chỉ định đầu câu → đồ vật → chủ sở hữu.",
-        "pl": "Zaimek wskazujący → rzecz → właściciel."
+        "pl": "Zaimek wskazujący → rzecz → właściciel.",
+        "tr": "İşaret sözcüğü → eşya → sahip."
       }
     },
     {
@@ -2041,7 +2184,8 @@
         "ja": "並べてみましょう：あれはわたしたちの教室です。",
         "en": "Build: That is our classroom.",
         "vi": "Ghép câu: Kia là lớp học của chúng tôi.",
-        "pl": "Ułóż: Tamto to nasza sala."
+        "pl": "Ułóż: Tamto to nasza sala.",
+        "tr": "Kur: Şu bizim sınıfımız."
       },
       "bank": [
         "Itu",
@@ -2055,7 +2199,8 @@
         "ja": "kami は「わたしたち」（聞き手を含まない）で、接尾辞の形はありません。",
         "en": "kami is “we” (excluding the listener); it has no suffix form.",
         "vi": "kami là “chúng tôi” (không gồm người nghe), giống hệt tiếng Việt; nó không có dạng hậu tố.",
-        "pl": "kami to „my” bez rozmówcy — polski ma tylko jedno my. Nie ma formy z przyrostkiem."
+        "pl": "kami to „my” bez rozmówcy — polski ma tylko jedno my. Nie ma formy z przyrostkiem.",
+        "tr": "kami “biz” demektir (dinleyen hariç) — Türkçede tek bir “biz” var. Son ekli biçimi yok."
       }
     },
     {
@@ -2068,7 +2213,8 @@
         "ja": "並べてみましょう：これはわたしの弟・妹の写真です。",
         "en": "Build: This is a photo of my younger sibling.",
         "vi": "Ghép câu: Đây là ảnh của em tôi.",
-        "pl": "Ułóż: To jest zdjęcie mojego młodszego rodzeństwa."
+        "pl": "Ułóż: To jest zdjęcie mojego młodszego rodzeństwa.",
+        "tr": "Kur: Bu küçük kardeşimin fotoğrafı."
       },
       "bank": [
         "Ini",
@@ -2083,7 +2229,8 @@
         "ja": "写真→だれの、の順です：foto adikku。",
         "en": "Photo → whose: foto adikku.",
         "vi": "Ảnh → của ai: foto adikku (ảnh của em tôi).",
-        "pl": "Zdjęcie → czyje: foto adikku."
+        "pl": "Zdjęcie → czyje: foto adikku.",
+        "tr": "Fotoğraf → kimin: foto adikku."
       }
     },
     {
@@ -2096,7 +2243,8 @@
         "ja": "本は手もとにあります。「これはわたしの本です」",
         "en": "The book is in your hand: “this is my book.”",
         "vi": "Sách đang ở trong tay bạn: “đây là sách của tôi.”",
-        "pl": "Książka jest w twojej ręce: „to jest moja książka”."
+        "pl": "Książka jest w twojej ręce: „to jest moja książka”.",
+        "tr": "Kitap elinde: “bu benim kitabım.”"
       },
       "opts": [
         {
@@ -2109,7 +2257,8 @@
             "ja": "itu は遠くのものです。手もとのものは ini です。",
             "en": "itu is for things further off; what is in your hand takes ini.",
             "vi": "itu chỉ vật ở xa; vật đang cầm trên tay thì dùng ini.",
-            "pl": "itu dotyczy rzeczy dalszych; to, co trzymasz, bierze ini."
+            "pl": "itu dotyczy rzeczy dalszych; to, co trzymasz, bierze ini.",
+            "tr": "itu daha uzaktaki şeyler için; elindeki şey ini alır."
           }
         },
         {
@@ -2119,7 +2268,8 @@
             "ja": "語順が逆です。もの→持ち主の順で buku saya です。",
             "en": "Wrong order: thing first, owner second — buku saya.",
             "vi": "Sai trật tự: đồ vật trước, chủ sở hữu sau — buku saya.",
-            "pl": "Zła kolejność: najpierw rzecz, potem właściciel — buku saya."
+            "pl": "Zła kolejność: najpierw rzecz, potem właściciel — buku saya.",
+            "tr": "Sıra yanlış: önce eşya, sonra sahip — buku saya."
           }
         },
         {
@@ -2129,7 +2279,8 @@
             "ja": "-nya は「かれの」です。自分の本なら saya か -ku です。",
             "en": "-nya means “his”; for your own book use saya or -ku.",
             "vi": "-nya là “của anh ấy”; nói về sách của mình thì dùng saya hoặc -ku.",
-            "pl": "-nya to „jego”; o własnej książce mów saya albo -ku."
+            "pl": "-nya to „jego”; o własnej książce mów saya albo -ku.",
+            "tr": "-nya “onun” demek; kendi kitabın için saya ya da -ku kullan."
           }
         }
       ],
@@ -2138,7 +2289,8 @@
         "ja": "<b>ini</b> は近く、<b>itu</b> は遠く。話し手からの距離で決まります。",
         "en": "<b>ini</b> is near, <b>itu</b> is far — measured from the speaker.",
         "vi": "<b>ini</b> là gần, <b>itu</b> là xa — khoảng cách tính từ chỗ người nói.",
-        "pl": "<b>ini</b> jest blisko, <b>itu</b> daleko — licząc od mówiącego."
+        "pl": "<b>ini</b> jest blisko, <b>itu</b> daleko — licząc od mówiącego.",
+        "tr": "<b>ini</b> yakın, <b>itu</b> uzak — konuşana göre."
       }
     },
     {
@@ -2151,7 +2303,8 @@
         "ja": "黒板は教室の前にあり、数メートル離れています。どちらを使いますか。",
         "en": "The whiteboard is several metres away at the front. Which word?",
         "vi": "Bảng ở phía trước lớp, cách bạn vài mét — dùng từ nào?",
-        "pl": "Tablica jest z przodu sali, kilka metrów od ciebie — które słowo?"
+        "pl": "Tablica jest z przodu sali, kilka metrów od ciebie — które słowo?",
+        "tr": "Tahta önde, birkaç metre uzakta. Hangi sözcük?"
       },
       "opts": [
         {
@@ -2164,7 +2317,8 @@
             "ja": "ini は手もとのものです。数メートル先なら itu です。",
             "en": "ini is for what is at hand; several metres away takes itu.",
             "vi": "ini dành cho vật trong tầm tay; cách vài mét thì dùng itu.",
-            "pl": "ini dotyczy tego, co pod ręką; kilka metrów dalej to itu."
+            "pl": "ini dotyczy tego, co pod ręką; kilka metrów dalej to itu.",
+            "tr": "ini eldeki şey için; birkaç metre uzaktaki itu alır."
           }
         },
         {
@@ -2174,7 +2328,8 @@
             "ja": "apa は「何」で、指示詞ではありません。",
             "en": "apa means “what”, not “this/that”.",
             "vi": "apa là “cái gì”, không phải đại từ chỉ định.",
-            "pl": "apa znaczy „co”, to nie zaimek wskazujący."
+            "pl": "apa znaczy „co”, to nie zaimek wskazujący.",
+            "tr": "apa “ne” demektir, “bu/şu” değil."
           }
         },
         {
@@ -2184,7 +2339,8 @@
             "ja": "saya は「わたし」です。",
             "en": "saya means “I / my”.",
             "vi": "saya là “tôi”.",
-            "pl": "saya znaczy „ja / mój”."
+            "pl": "saya znaczy „ja / mój”.",
+            "tr": "saya “ben / benim” demektir."
           }
         }
       ],
@@ -2193,7 +2349,8 @@
         "ja": "距離は<b>話し手</b>を基準に決めます。ものの大きさや重要さではありません。",
         "en": "Distance is judged from the <b>speaker</b>, not by how big or important the thing is.",
         "vi": "Khoảng cách tính từ <b>người nói</b>, không phải từ vật to hay quan trọng đến đâu.",
-        "pl": "Odległość liczy się od <b>mówiącego</b>, nie od tego, jak duża czy ważna jest rzecz."
+        "pl": "Odległość liczy się od <b>mówiącego</b>, nie od tego, jak duża czy ważna jest rzecz.",
+        "tr": "Uzaklık <b>konuşana</b> göre ölçülür, eşyanın büyüklüğüne ya da önemine göre değil."
       }
     }
   ],
@@ -2228,7 +2385,8 @@
         "ja": "本",
         "en": "book",
         "vi": "sách",
-        "pl": "książka"
+        "pl": "książka",
+        "tr": "kitap"
       }
     },
     {
@@ -2239,7 +2397,8 @@
         "ja": "辞書",
         "en": "dictionary",
         "vi": "từ điển",
-        "pl": "słownik"
+        "pl": "słownik",
+        "tr": "sözlük"
       }
     },
     {
@@ -2250,7 +2409,8 @@
         "ja": "鉛筆",
         "en": "pencil",
         "vi": "bút chì",
-        "pl": "ołówek"
+        "pl": "ołówek",
+        "tr": "kurşun kalem"
       }
     },
     {
@@ -2261,7 +2421,8 @@
         "ja": "ボールペン",
         "en": "ballpoint pen",
         "vi": "bút bi",
-        "pl": "długopis"
+        "pl": "długopis",
+        "tr": "tükenmez kalem"
       }
     },
     {
@@ -2272,7 +2433,8 @@
         "ja": "机",
         "en": "table",
         "vi": "bàn",
-        "pl": "stół"
+        "pl": "stół",
+        "tr": "masa"
       }
     },
     {
@@ -2283,7 +2445,8 @@
         "ja": "いす",
         "en": "chair",
         "vi": "ghế",
-        "pl": "krzesło"
+        "pl": "krzesło",
+        "tr": "sandalye"
       }
     },
     {
@@ -2294,7 +2457,8 @@
         "ja": "かばん",
         "en": "bag",
         "vi": "túi",
-        "pl": "torba"
+        "pl": "torba",
+        "tr": "çanta"
       }
     },
     {
@@ -2305,7 +2469,8 @@
         "ja": "くつ",
         "en": "shoes",
         "vi": "giày",
-        "pl": "buty"
+        "pl": "buty",
+        "tr": "ayakkabı"
       }
     },
     {
@@ -2316,7 +2481,8 @@
         "ja": "服",
         "en": "clothes",
         "vi": "quần áo",
-        "pl": "ubranie"
+        "pl": "ubranie",
+        "tr": "giysi"
       }
     },
     {
@@ -2327,7 +2493,8 @@
         "ja": "壁掛け時計",
         "en": "wall clock",
         "vi": "đồng hồ treo tường",
-        "pl": "zegar ścienny"
+        "pl": "zegar ścienny",
+        "tr": "duvar saati"
       }
     },
     {
@@ -2338,7 +2505,8 @@
         "ja": "黒板",
         "en": "whiteboard",
         "vi": "bảng",
-        "pl": "tablica"
+        "pl": "tablica",
+        "tr": "yazı tahtası"
       }
     },
     {
@@ -2349,7 +2517,8 @@
         "ja": "地図",
         "en": "map",
         "vi": "bản đồ",
-        "pl": "mapa"
+        "pl": "mapa",
+        "tr": "harita"
       }
     },
     {
@@ -2360,7 +2529,8 @@
         "ja": "本棚",
         "en": "bookshelf",
         "vi": "giá sách",
-        "pl": "półka na książki"
+        "pl": "półka na książki",
+        "tr": "kitaplık"
       }
     },
     {
@@ -2371,7 +2541,8 @@
         "ja": "電灯",
         "en": "lamp",
         "vi": "đèn",
-        "pl": "lampa"
+        "pl": "lampa",
+        "tr": "lamba"
       }
     },
     {
@@ -2382,7 +2553,8 @@
         "ja": "カーテン",
         "en": "curtain",
         "vi": "rèm cửa",
-        "pl": "zasłona"
+        "pl": "zasłona",
+        "tr": "perde"
       }
     },
     {
@@ -2393,7 +2565,8 @@
         "ja": "カレンダー",
         "en": "calendar",
         "vi": "lịch",
-        "pl": "kalendarz"
+        "pl": "kalendarz",
+        "tr": "takvim"
       }
     },
     {
@@ -2404,7 +2577,8 @@
         "ja": "写真",
         "en": "photo",
         "vi": "ảnh",
-        "pl": "zdjęcie"
+        "pl": "zdjęcie",
+        "tr": "fotoğraf"
       }
     },
     {
@@ -2415,7 +2589,8 @@
         "ja": "定規",
         "en": "ruler",
         "vi": "thước kẻ",
-        "pl": "linijka"
+        "pl": "linijka",
+        "tr": "cetvel"
       }
     },
     {
@@ -2426,7 +2601,8 @@
         "ja": "自転車",
         "en": "bicycle",
         "vi": "xe đạp",
-        "pl": "rower"
+        "pl": "rower",
+        "tr": "bisiklet"
       }
     },
     {
@@ -2437,7 +2613,8 @@
         "ja": "めがね",
         "en": "glasses",
         "vi": "kính mắt",
-        "pl": "okulary"
+        "pl": "okulary",
+        "tr": "gözlük"
       }
     }
   ],
