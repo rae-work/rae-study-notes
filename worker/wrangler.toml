@@ -12,6 +12,13 @@ compatibility_date = "2026-08-01"
 # 名字故意不带 analytics / track / beacon 这类词 ——
 # 广告拦截名单按这些特征拦，撞上就整批数据收不到。
 
+# 2026-10-07：印尼运营商（至少 XL Axiata）把 *.workers.dev 屏蔽了 —— DNS 直接解析到
+# blockpage.xlaxiata.id，统计页打不开，同学的手机数据也发不出来。
+# 所以挂到 Rae 自己的域名上（rae.work 的 DNS 本来就在这个 Cloudflare 账号里）。
+# 旧的 workers.dev 地址保留：没被屏蔽的网络、还没刷新的旧版网页照样能发。
+routes = [{ pattern = "catatan.rae.work", custom_domain = true }]
+workers_dev = true
+
 [[d1_databases]]
 binding = "DB"
 database_name = "rsn-data"
