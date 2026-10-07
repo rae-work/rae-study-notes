@@ -21,6 +21,16 @@
 
 ---
 
+## 统计服务换域名（2026-10-07）
+
+- **印尼运营商屏蔽了 `*.workers.dev`**（XL Axiata：DNS 被劫持到 `blockpage.xlaxiata.id`，换 1.1.1.1 也一样）。
+  Rae 打不开统计页，同学在这类网络里的使用数据也发不出来。
+- Worker 加了自定义域名 **`catatan.rae.work`**（`wrangler.toml` 的 `routes`，`rae.work` 本来就在同一个
+  Cloudflare 账号），已部署、在 XL 网络里实测 `/lihat` 401（要口令）、`/n` 的 CORS 预检 204。
+  `workers_dev = true` 留着旧地址。`scripts/site.js` 的 `COLLECT` 改成新地址。
+- 统计页：`https://catatan.rae.work/lihat?k=口令`（新域名 cookie 要重新带一次口令）。
+- 被屏蔽期间少了多少数据没查（当时本机没登录 wrangler）。
+
 ## v1.11.1（2026-10-06）
 
 - 浏览器语言一个都不认识时改为显示英语（原来是中文，Rae 要求）。新加 `meta.fallback_lang = "en"`，
